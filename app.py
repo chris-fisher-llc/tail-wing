@@ -43,7 +43,7 @@ def run_app(df=None):
         if col in df.columns:
             df[col] = df[col].apply(to_american)
 
-    df["Value"] = df["Value"].astype(float).round(2).astype(str).str.rstrip("0").str.rstrip(".")
+    df["value"] = df["Value"].astype(float).round(2).astype(str).str.rstrip("0").str.rstrip(".")
     df = df[["Player", "Bet Type", "DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds", "Value", "Best Book"]]
 
     # Filter
