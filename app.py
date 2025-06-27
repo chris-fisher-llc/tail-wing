@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
+import pytz
 
 st.set_page_config(page_title="The Tail Wing", layout="wide")
 st.markdown("<h1 style='text-align: center;'>✈️ The Tail Wing 💴</h1>", unsafe_allow_html=True)
@@ -11,8 +12,13 @@ def run_app(df=None):
     if df is None:
         try:
             df = pd.read_csv("matched_output.csv")
+            from_zone = pytz.utc
+            to_zone = pytz.timezone('US/Eastern')
+
             modified_time = os.path.getmtime("matched_output.csv")
-            formatted_time = datetime.fromtimestamp(modified_time).strftime("%I:%M %p EST on %B %d")
+            utc_time = datetime.utcfromtimestamp(modified_time)
+            eastern_time = utc_time.replace(tzinfo=from_zone).astimezone(to_zone)
+            formatted_time = eastern_time.strftime("%I:%M %p EST on %B %d")
             st.markdown(f"**Odds last updated at {formatted_time}**")
         except FileNotFoundError:
             st.error("matched_output.csv not found.")
