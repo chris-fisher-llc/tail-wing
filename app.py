@@ -25,7 +25,6 @@ def run_app(df=None):
         return
 
     # Rename and clean
-    st.write("Columns before rename:", df.columns.tolist())
     df = df.rename(columns={
         "normalized_player": "Player",
         "bet_type": "Bet Type",
@@ -44,7 +43,11 @@ def run_app(df=None):
         if col in df.columns:
             df[col] = df[col].apply(to_american)
 
-    df["Value"] = df["Value"].astype(float).round(2).astype(str).str.rstrip("0").str.rstrip(".")
+    # Clean and format Value column safely
+    df["Value"] = pd.to_numeric(df["Value"], errors="coerce")  # Coerce bad values to NaN
+    df["Value"] = df["Value"].round(2)  # Round to 2 decimals
+    df["Value"] = df["Value"].map(lambda x: f"{x:.2f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")  # Trim trailing zeros
+
     df = df[["Player", "Bet Type", "DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds", "Value", "Best Book"]]
 
     # Filter
