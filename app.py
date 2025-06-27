@@ -44,7 +44,7 @@ def run_app(df=None):
     for col in ["DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds"]:
         df[col] = df[col].apply(to_american)
 
-    df["Value"] = df["Value"].astype(float).round(2)
+    df["Value"] = df["Value"].apply(lambda x: f"{x:.2f}".rstrip("0").rstrip("."))
     df = df[["Player", "Bet Type", "DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds", "Value", "Best Book"]]
 
     # Sidebar filter
@@ -90,7 +90,9 @@ def run_app(df=None):
             {'selector': 'th', 'props': [('font-weight', 'bold'), ('text-align', 'center'), ('font-size', '16px')]}
         ])
 
-    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+    styled_df = style_df(filtered_df)
+    st.write(styled_df)
+
 
 # Run if this script is executed directly
 if __name__ == "__main__":
