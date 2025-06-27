@@ -87,17 +87,19 @@ def normalize_and_match(df: pd.DataFrame):
             row["value_odds"] = str(max_odds)
             row["value_flag"] = "TRUE"
         else:
+            row["value_book"] = max_book
             row["value_flag"] = "FALSE"
 
     if not all_rows:
         print("❌ No valid data parsed.")
         return
-    with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(all_rows)
+    # with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
+    #     writer = csv.DictWriter(f, fieldnames=fieldnames)
+    #     writer.writeheader()
+    #     writer.writerows(all_rows)
 
-    print(f"\n✅ Normalized data written to {OUTPUT_FILE} with {len(all_rows)} rows.")
+    # print(f"\n✅ Normalized data written to {OUTPUT_FILE} with {len(all_rows)} rows.")
+    return pd.DataFrame(all_rows)
 
 
 if __name__ == "__main__":
