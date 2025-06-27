@@ -25,6 +25,7 @@ def run_app(df=None):
         return
 
     # Rename and clean
+    st.write("Columns before rename:", df.columns.tolist())
     df = df.rename(columns={
         "normalized_player": "Player",
         "bet_type": "Bet Type",
