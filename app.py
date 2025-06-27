@@ -1,15 +1,13 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import os
 from datetime import datetime
 
 st.set_page_config(page_title="The Tail Wing", layout="wide")
-
 st.markdown("<h1 style='text-align: center;'>✈️ The Tail Wing 💴</h1>", unsafe_allow_html=True)
 
 def run_app(df=None):
-    # Use the passed df or load from file
+    # Load DataFrame from CSV if none provided
     if df is None:
         try:
             df = pd.read_csv("matched_output.csv")
@@ -42,12 +40,13 @@ def run_app(df=None):
             return ""
 
     for col in ["DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds"]:
-        df[col] = df[col].apply(to_american)
+        if col in df.columns:
+            df[col] = df[col].apply(to_american)
 
-    df["Value"] = df["Value"].apply(lambda x: f"{x:.2f}".rstrip("0").rstrip("."))
+    df["Value"] = df["Value"].astype(float).round(2).astype(str).str.rstrip("0").str.rstrip(".")
     df = df[["Player", "Bet Type", "DraftKings_Odds", "FanDuel_Odds", "BetMGM_Odds", "Value", "Best Book"]]
 
-    # Sidebar filter
+    # Filter
     with st.sidebar:
         st.header("Filter by Best Book")
         books = df["Best Book"].dropna().unique().tolist()
@@ -58,7 +57,7 @@ def run_app(df=None):
 
     df = df.sort_values("Value", ascending=False).reset_index(drop=True)
 
-    # Highlighting logic
+    # Gradient formatting
     def value_gradient(val):
         try:
             val = float(val)
@@ -90,10 +89,8 @@ def run_app(df=None):
             {'selector': 'th', 'props': [('font-weight', 'bold'), ('text-align', 'center'), ('font-size', '16px')]}
         ])
 
-    styled_df = style_df(filtered_df)
-    st.write(styled_df)
+    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
 
-
-# Run if this script is executed directly
+# Run if executed directly
 if __name__ == "__main__":
     run_app()
