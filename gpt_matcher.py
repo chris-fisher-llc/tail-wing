@@ -87,7 +87,9 @@ def normalize_and_match(df: pd.DataFrame):
             row["value_odds"] = str(max_odds)
             row["value_flag"] = "TRUE"
         else:
+            row["value"] = max_odds / avg_other
             row["value_book"] = max_book
+            row["value_odds"] = str(max_odds)
             row["value_flag"] = "FALSE"
 
     if not all_rows:
