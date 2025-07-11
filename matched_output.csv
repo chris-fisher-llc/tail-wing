@@ -1,158 +1,217 @@
 normalized_player,bet_type,player,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,value,value_book,value_odds,value_flag
-Aaron Judge,to hit 1+ HR,Aaron Judge,+150,+190,O 0.5 HR,+190,None,None,None
-Abraham Toro,to hit 1+ HR,Abraham Toro,,+900,O 0.5 HR,+950,None,None,None
-Addison Barger,to hit 1+ HR,Addison Barger,,+340,O 0.5 HR,+320,None,None,None
-Adolis Garcia,to hit 1+ HR,Adolis Garcia,+400,+450,O 0.5 HR,+450,None,None,None
-Alec Bohm,to hit 1+ HR,Alec Bohm,,+630,O 0.5 HR,+750,None,None,None
-Alec Burleson,to hit 1+ HR,Alec Burleson,+400,+470,O 0.5 HR,+400,None,None,None
-Alejandro Kirk,to hit 1+ HR,Alejandro Kirk,+500,+560,O 0.5 HR,+625,None,None,None
-Alex Bregman,to hit 1+ HR,Alex Bregman,+400,+480,O 0.5 HR,+450,None,None,None
-Alex Call,to hit 1+ HR,Alex Call,,+870,O 0.5 HR,+1350,None,None,None
-Andrew Benintendi,to hit 1+ HR,Andrew Benintendi,,+520,,None,None,None,None
-Andrew McCutchen,to hit 1+ HR,Andrew McCutchen,+550,+540,O 0.5 HR,+600,None,None,None
-Andrew Vaughn,to hit 1+ HR,Andrew Vaughn,+330,+470,O 0.5 HR,+360,None,None,None
-Angel Martinez,to hit 1+ HR,Angel Martinez,,+750,,None,None,None,None
-Andy Pages,to hit 1+ HR,Andy Pages,,+1060,O 0.5 HR,+900,None,None,None
-Anthony Volpe,to hit 1+ HR,Anthony Volpe,+450,+560,O 0.5 HR,+725,None,None,None
-Austin Hays,to hit 1+ HR,Austin Hays,+320,+340,O 0.5 HR,+375,None,None,None
-Austin Riley,to hit 1+ HR,Austin Riley,+310,+350,O 0.5 HR,+320,None,None,None
-Ben Rice,to hit 1+ HR,Ben Rice,+290,+310,O 0.5 HR,+320,None,None,None
-Ben Williamson,to hit 1+ HR,Ben Williamson,,+1200,O 0.5 HR,+1600,None,None,None
-Blaze Alexander,to hit 1+ HR,Blaze Alexander,,+680,O 0.5 HR,+675,None,None,None
-Bo Bichette,to hit 1+ HR,Bo Bichette,+390,+450,O 0.5 HR,+500,None,None,None
-Bo Naylor,to hit 1+ HR,Bo Naylor,,+560,,None,None,None,None
-Bobby Witt Jr.,to hit 1+ HR,Bobby Witt Jr.,+330,+430,O 0.5 HR,+375,None,None,None
-Brandon Marsh,to hit 1+ HR,Brandon Marsh,,+680,O 0.5 HR,+650,None,None,None
-Brandon Nimmo,to hit 1+ HR,Brandon Nimmo,+360,+420,O 0.5 HR,+400,None,None,None
-Brayan Rocchio,to hit 1+ HR,Brayan Rocchio,,+1000,,None,None,None,None
-Brady House,to hit 1+ HR,Brady House,,+870,O 0.5 HR,+950,None,None,None
-Brent Rooker,to hit 1+ HR,Brent Rooker,+285,+300,O 0.5 HR,+300,None,None,None
-Brenton Doyle,to hit 1+ HR,Brenton Doyle,+500,+520,O 0.5 HR,+550,None,None,None
-Bryce Harper,to hit 1+ HR,Bryce Harper,+280,+340,O 0.5 HR,+300,None,None,None
-Bryson Stott,to hit 1+ HR,Bryson Stott,,+700,O 0.5 HR,+825,None,None,None
-Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,+425,+520,O 0.5 HR,+475,None,None,None
-CJ Abrams,to hit 1+ HR,CJ Abrams,+600,+600,O 0.5 HR,+625,None,None,None
-Caleb Durbin,to hit 1+ HR,Caleb Durbin,,+600,O 0.5 HR,+750,None,None,None
-Cal Raleigh,to hit 1+ HR,Cal Raleigh,+380,+360,O 0.5 HR,+360,None,None,None
-Cam Smith,to hit 1+ HR,Cam Smith,,+680,O 0.5 HR,+575,None,None,None
-Carlos Correa,to hit 1+ HR,Carlos Correa,+750,+750,O 0.5 HR,+950,None,None,None
-Carlos Narvaez,to hit 1+ HR,Carlos Narvaez,,+800,O 0.5 HR,+625,None,None,None
-Carlos Santana,to hit 1+ HR,Carlos Santana,,+500,,None,None,None,None
-Carson Kelly,to hit 1+ HR,Carson Kelly,+450,+470,O 0.5 HR,+575,None,None,None
-Casey Schmitt,to hit 1+ HR,Casey Schmitt,,+1060,O 0.5 HR,+850,None,None,None
-Ceddanne Rafaela,to hit 1+ HR,Ceddanne Rafaela,,+700,O 0.5 HR,+750,None,None,None
-Cedric Mullins,to hit 1+ HR,Cedric Mullins,+475,+500,O 0.5 HR,+625,None,None,None
-Chandler Simpson,to hit 1+ HR,Chandler Simpson,,+1400,O 0.5 HR,+2200,None,None,None
-Chase Meidroth,to hit 1+ HR,Chase Meidroth,,+1200,,None,None,None,None
-Christian Vazquez,to hit 1+ HR,Christian Vazquez,+1100,+1100,O 0.5 HR,+1550,None,None,None
-Christian Walker,to hit 1+ HR,Christian Walker,+320,+470,O 0.5 HR,+375,None,None,None
-Christian Yelich,to hit 1+ HR,Christian Yelich,+390,+420,O 0.5 HR,+525,None,None,None
-CJ Abrams,to hit 1+ HR,CJ Abrams,+600,+600,O 0.5 HR,+625,None,None,None
-Colson Montgomery,to hit 1+ HR,Colson Montgomery,,+700,,None,None,None,None
-Colt Keith,to hit 1+ HR,Colt Keith,+390,+520,O 0.5 HR,+650,None,None,None
-Colton Cowser,to hit 1+ HR,Colton Cowser,+400,+450,O 0.5 HR,+500,None,None,None
-Connor Norby,to hit 1+ HR,Connor Norby,+600,+630,O 0.5 HR,+725,None,None,None
-Corey Seager,to hit 1+ HR,Corey Seager,+370,+320,O 0.5 HR,+425,None,None,None
-Cody Bellinger,to hit 1+ HR,Cody Bellinger,+360,+390,O 0.5 HR,+450,None,None,None
-Danny Jansen,to hit 1+ HR,Danny Jansen,+500,+520,O 0.5 HR,+550,None,None,None
-Dansby Swanson,to hit 1+ HR,Dansby Swanson,+500,+420,O 0.5 HR,+600,None,None,None
-Daylen Lile,to hit 1+ HR,Daylen Lile,,+1000,O 0.5 HR,+1050,None,None,None
-Denzel Clarke,to hit 1+ HR,Denzel Clarke,,+800,O 0.5 HR,+800,None,None,None
-Daniel Schneemann,to hit 1+ HR,Daniel Schneemann,,+600,,None,None,None,None
-Dillon Dingler,to hit 1+ HR,Dillon Dingler,+600,+870,O 0.5 HR,+800,None,None,None
-Dominic Smith,to hit 1+ HR,Dominic Smith,,+1000,O 0.5 HR,+1150,None,None,None
-Donovan Solano,to hit 1+ HR,Donovan Solano,+1200,+1100,O 0.5 HR,+1300,None,None,None
-Dylan Moore,to hit 1+ HR,Dylan Moore,+1100,+900,O 0.5 HR,+1150,None,None,None
-Elly De La Cruz,to hit 1+ HR,Elly De La Cruz,+265,+285,O 0.5 HR,+290,None,None,None
-Ernie Clement,to hit 1+ HR,Ernie Clement,,+870,O 0.5 HR,+950,None,None,None
-Eugenio Suarez,to hit 1+ HR,Eugenio Suarez,+285,+285,O 0.5 HR,+260,None,None,None
-Evan Carter,to hit 1+ HR,Evan Carter,,+900,O 0.5 HR,+950,None,None,None
-Fernando Tatis Jr.,to hit 1+ HR,Fernando Tatis Jr.,+450,+420,O 0.5 HR,+475,None,None,None
-Francisco Lindor,to hit 1+ HR,Francisco Lindor,+360,+430,O 0.5 HR,+425,None,None,None
-Freddie Freeman,to hit 1+ HR,Freddie Freeman,+800,+800,O 0.5 HR,+750,None,None,None
-Gavin Lux,to hit 1+ HR,Gavin Lux,+450,+540,O 0.5 HR,+475,None,None,None
-Gavin Sheets,to hit 1+ HR,Gavin Sheets,+800,+700,O 0.5 HR,+875,None,None,None
-George Springer,to hit 1+ HR,George Springer,+390,+360,O 0.5 HR,+375,None,None,None
-Geraldo Perdomo,to hit 1+ HR,Geraldo Perdomo,,+850,O 0.5 HR,+950,None,None,None
-Gleyber Torres,to hit 1+ HR,Gleyber Torres,+550,+630,O 0.5 HR,+825,None,None,None
-Gunnar Henderson,to hit 1+ HR,Gunnar Henderson,+350,+390,O 0.5 HR,+400,None,None,None
-Heliot Ramos,to hit 1+ HR,Heliot Ramos,+500,+700,O 0.5 HR,+625,None,None,None
-Henry Davis,to hit 1+ HR,Henry Davis,+900,+800,O 0.5 HR,+1000,None,None,None
-Hyeseong Kim,to hit 1+ HR,Hyeseong Kim,,+1300,O 0.5 HR,+1800,None,None,None
-Hunter Goodman,to hit 1+ HR,Hunter Goodman,+310,+285,O 0.5 HR,+275,None,None,None
-Isaac Collins,to hit 1+ HR,Isaac Collins,+450,+600,O 0.5 HR,+600,None,None,None
-Isaac Paredes,to hit 1+ HR,Isaac Paredes,+400,+440,O 0.5 HR,+475,None,None,None
-Isiah Kiner-Falefa,to hit 1+ HR,Isiah Kiner-Falefa,+1400,+1400,O 0.5 HR,+1750,None,None,None
-Jackson Chourio,to hit 1+ HR,Jackson Chourio,+400,+440,O 0.5 HR,+475,None,None,None
-Jackson Holliday,to hit 1+ HR,Jackson Holliday,+475,+480,O 0.5 HR,+625,None,None,None
-Jackson Merrill,to hit 1+ HR,Jackson Merrill,,+800,O 0.5 HR,+750,None,None,None
-Jacob Stallings,to hit 1+ HR,Jacob Stallings,,+1100,O 0.5 HR,+1500,None,None,None
-Jac Caglianone,to hit 1+ HR,Jac Caglianone,+475,+600,O 0.5 HR,+675,None,None,None
-Jake Burger,to hit 1+ HR,Jake Burger,+370,+450,O 0.5 HR,+450,None,None,None
-Jake Cronenworth,to hit 1+ HR,Jake Cronenworth,,+870,O 0.5 HR,+1000,None,None,None
-Jake Mangum,to hit 1+ HR,Jake Mangum,,+1060,O 0.5 HR,+1350,None,None,None
-James Wood,to hit 1+ HR,James Wood,+500,+400,O 0.5 HR,+475,None,None,None
-Jarren Duran,to hit 1+ HR,Jarren Duran,+500,+600,O 0.5 HR,+550,None,None,None
-Jasson Dominguez,to hit 1+ HR,Jasson Dominguez,+350,+430,O 0.5 HR,+450,None,None,None
-Javier Baez,to hit 1+ HR,Javier Baez,+600,+870,O 0.5 HR,+850,None,None,None
-Javier Sanoja,to hit 1+ HR,Javier Sanoja,+800,+870,O 0.5 HR,+1600,None,None,None
-Jazz Chisholm,to hit 1+ HR,Jazz Chisholm,+300,+340,O 0.5 HR,+450,None,None,None
-Jeff McNeil,to hit 1+ HR,Jeff McNeil,+600,+750,O 0.5 HR,+650,None,None,None
-Jesus Sanchez,to hit 1+ HR,Jesus Sanchez,+370,+400,O 0.5 HR,+425,None,None,None
-Jorge Polanco,to hit 1+ HR,Jorge Polanco,+850,+800,O 0.5 HR,+800,None,None,None
-Jorge Soler,to hit 1+ HR,Jorge Soler,+450,+420,O 0.5 HR,+450,None,None,None
-Jose Altuve,to hit 1+ HR,Jose Altuve,+600,+500,O 0.5 HR,+625,None,None,None
-Jose Caballero,to hit 1+ HR,Jose Caballero,,+1000,O 0.5 HR,+1100,None,None,None
-Jose Herrera,to hit 1+ HR,Jose Herrera,,+1100,O 0.5 HR,+1250,None,None,None
-Jose Iglesias,to hit 1+ HR,Jose Iglesias,,+1200,O 0.5 HR,+1550,None,None,None
-Jose Ramirez,to hit 1+ HR,Jose Ramirez,,+330,,None,None,None,None
-Josh Bell,to hit 1+ HR,Josh Bell,+500,+600,O 0.5 HR,+575,None,None,None
-Josh Lowe,to hit 1+ HR,Josh Lowe,+550,+800,O 0.5 HR,+775,None,None,None
-Josh Naylor,to hit 1+ HR,Josh Naylor,+390,+480,O 0.5 HR,+425,None,None,None
-Josh Rojas,to hit 1+ HR,Josh Rojas,,+1000,,None,None,None,None
-Josh Smith,to hit 1+ HR,Josh Smith,,+800,O 0.5 HR,+875,None,None,None
-Juan Soto,to hit 1+ HR,Juan Soto,+300,+300,O 0.5 HR,+333,None,None,None
-Julio Rodriguez,to hit 1+ HR,Julio Rodriguez,+700,+630,O 0.5 HR,+700,None,None,None
-Junior Caminero,to hit 1+ HR,Junior Caminero,+340,+420,O 0.5 HR,+400,None,None,None
-Jung Hoo Lee,to hit 1+ HR,Jung Hoo Lee,,+950,O 0.5 HR,+1300,None,None,None
-Jurickson Profar,to hit 1+ HR,Jurickson Profar,+550,+470,O 0.5 HR,+625,None,None,None
-J.P. Crawford,to hit 1+ HR,J.P. Crawford,+1200,+1100,O 0.5 HR,+1300,None,None,None
-J.T. Realmuto,to hit 1+ HR,J.T. Realmuto,+600,+600,O 0.5 HR,+575,None,None,None
-Ketel Marte,to hit 1+ HR,Ketel Marte,+230,+250,O 0.5 HR,+250,None,None,None
-Ke'Bryan Hayes,to hit 1+ HR,Ke'Bryan Hayes,+1100,+1000,O 0.5 HR,+1200,None,None,None
-Kyle Farmer,to hit 1+ HR,Kyle Farmer,+650,+680,O 0.5 HR,+775,None,None,None
-Kyle Higashioka,to hit 1+ HR,Kyle Higashioka,+650,+600,O 0.5 HR,+675,None,None,None
-Kyle Isbel,to hit 1+ HR,Kyle Isbel,+1000,+1200,O 0.5 HR,+1400,None,None,None
-Kyle Manzardo,to hit 1+ HR,Kyle Manzardo,,+420,,None,None,None,None
-Kyle Schwarber,to hit 1+ HR,Kyle Schwarber,+260,+255,O 0.5 HR,+250,None,None,None
-Kyle Stowers,to hit 1+ HR,Kyle Stowers,+350,+340,O 0.5 HR,+400,None,None,None
-Kyle Teel,to hit 1+ HR,Kyle Teel,,+630,,None,None,None,None
-Kyle Tucker,to hit 1+ HR,Kyle Tucker,+310,+340,O 0.5 HR,+360,None,None,None
-Lars Nootbaar,to hit 1+ HR,Lars Nootbaar,+450,+500,O 0.5 HR,+475,None,None,None
-Lawrence Butler,to hit 1+ HR,Lawrence Butler,,+340,O 0.5 HR,+350,None,None,None
-Lenyn Sosa,to hit 1+ HR,Lenyn Sosa,,+630,,None,None,None,None
-Liam Hicks,to hit 1+ HR,Liam Hicks,+750,+750,O 0.5 HR,+900,None,None,None
-Logan O'Hoppe,to hit 1+ HR,Logan O'Hoppe,+380,+390,O 0.5 HR,+400,None,None,None
-Lourdes Gurriel Jr.,to hit 1+ HR,Lourdes Gurriel Jr.,+400,+450,O 0.5 HR,+450,None,None,None
-Luis Arraez,to hit 1+ HR,Luis Arraez,,+1060,O 0.5 HR,+1550,None,None,None
-Luis Garcia,to hit 1+ HR,Luis Garcia,,+800,O 0.5 HR,+775,None,None,None
-Luis Rengifo,to hit 1+ HR,Luis Rengifo,,+800,O 0.5 HR,+1000,None,None,None
-Luis Robert,to hit 1+ HR,Luis Robert,,+500,,None,None,None,None
-Luis Torrens,to hit 1+ HR,Luis Torrens,+750,+900,O 0.5 HR,+825,None,None,None
-Maikel Garcia,to hit 1+ HR,Maikel Garcia,+600,+900,O 0.5 HR,+850,None,None,None
-Manny Machado,to hit 1+ HR,Manny Machado,+340,+360,O 0.5 HR,+375,None,None,None
-Marcelo Mayer,to hit 1+ HR,Marcelo Mayer,,+750,O 0.5 HR,+800,None,None,None
-Marcus Semien,to hit 1+ HR,Marcus Semien,+475,+560,O 0.5 HR,+525,None,None,None
-Mark Vientos,to hit 1+ HR,Mark Vientos,+475,+520,O 0.5 HR,+500,None,None,None
-Martin Maldonado,to hit 1+ HR,Martin Maldonado,+950,+800,O 0.5 HR,+1050,None,None,None
-Masataka Yoshida,to hit 1+ HR,Masataka Yoshida,,+800,O 0.5 HR,+700,None,None,None
-Masyn Winn,to hit 1+ HR,Masyn Winn,,+800,O 0.5 HR,+675,None,None,None
-Matt Chapman,to hit 1+ HR,Matt Chapman,+425,+500,O 0.5 HR,+450,None,None,None
-Matt McLain,to hit 1+ HR,Matt McLain,+330,+340,O 0.5 HR,+360,None,None,None
-Matt Olson,to hit 1+ HR,Matt Olson,+450,+450,O 0.5 HR,+500,None,None,None
-Matt Wallner,to hit 1+ HR,Matt Wallner,+450,+500,O 0.5 HR,+500,None,None,None
-Max Kepler,to hit 1+ HR,Max Kepler,+475,+480,O 0.5 HR,+425,None,None,None
-Max Muncy,to hit 1+ HR,Max Muncy,,+650,O 0.5 HR,+650,None,None,None
-Max P. Muncy,to hit 1+ HR,Max P. Muncy,,+450,,None,None,None,None
-Michael Busch,to hit 1+ HR,Michael Busch,+425,+400,O 0.5 HR,+450,None,None,None
-Michael Conforto,to hit,None,None,None,None,None,None,None,None
+Aaron Judge,to hit 1+ HR,Aaron Judge,+150,,+190,1.2666666666666666,BetMGM_Odds,190,TRUE
+Alec Bohm,to hit 1+ HR,Alec Bohm,+750,+630,+750,1.0869565217391304,DraftKings_Odds,750,FALSE
+Alec Burleson,to hit 1+ HR,Alec Burleson,+400,+470,+400,1.175,FanDuel_Odds,470,TRUE
+Alex Bregman,to hit 1+ HR,Alex Bregman,+400,+470,+450,1.1058823529411765,FanDuel_Odds,470,TRUE
+Alex Call,to hit 1+ HR,Alex Call,+800,+870,+1350,1.6167664670658684,BetMGM_Odds,1350,TRUE
+Andrew Benintendi,to hit 1+ HR,Andrew Benintendi,,,+520,None,None,None,None
+Andrew McCutchen,to hit 1+ HR,Andrew McCutchen,+550,+560,+650,1.1711711711711712,BetMGM_Odds,650,TRUE
+Andrew Vaughn,to hit 1+ HR,Andrew Vaughn,+330,+470,+360,1.3623188405797102,FanDuel_Odds,470,TRUE
+Angel Martinez,to hit 1+ HR,Angel Martinez,,,+750,None,None,None,None
+Anthony Volpe,to hit 1+ HR,Anthony Volpe,+450,+560,+725,1.4356435643564356,BetMGM_Odds,725,TRUE
+Austin Hays,to hit 1+ HR,Austin Hays,+320,+340,+375,1.1363636363636365,BetMGM_Odds,375,TRUE
+Austin Riley,to hit 1+ HR,Austin Riley,+300,+350,+320,1.1290322580645162,FanDuel_Odds,350,TRUE
+Ben Rice,to hit 1+ HR,Ben Rice,+290,+310,+320,1.0666666666666667,BetMGM_Odds,320,FALSE
+Ben Williamson,to hit 1+ HR,Ben Williamson,+1400,+1200,+1600,1.2307692307692308,BetMGM_Odds,1600,TRUE
+Blaze Alexander,to hit 1+ HR,Blaze Alexander,,,+650,None,None,None,None
+Bo Bichette,to hit 1+ HR,Bo Bichette,+390,+450,+500,1.1904761904761905,BetMGM_Odds,500,TRUE
+Bo Naylor,to hit 1+ HR,Bo Naylor,,,+560,None,None,None,None
+Bobby Witt Jr.,to hit 1+ HR,Bobby Witt Jr.,+330,+430,+375,1.2198581560283688,FanDuel_Odds,430,TRUE
+Brandon Marsh,to hit 1+ HR,Brandon Marsh,+650,+680,+650,1.0461538461538462,FanDuel_Odds,680,FALSE
+Brandon Nimmo,to hit 1+ HR,Brandon Nimmo,+360,+420,+400,1.105263157894737,FanDuel_Odds,420,TRUE
+Brayan Rocchio,to hit 1+ HR,Brayan Rocchio,,,+1000,None,None,None,None
+Brady House,to hit 1+ HR,Brady House,,,+870,None,None,None,None
+Brent Rooker,to hit 1+ HR,Brent Rooker,+285,+300,+300,1.0256410256410255,FanDuel_Odds,300,FALSE
+Brenton Doyle,to hit 1+ HR,Brenton Doyle,+500,+520,+550,1.0784313725490196,BetMGM_Odds,550,FALSE
+Brett Baty,to hit 1+ HR,Brett Baty,,,+750,None,None,None,None
+Brian Anderson,to hit 1+ HR,Brian Anderson,,,+750,None,None,None,None
+Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,+425,+520,+475,1.1555555555555554,FanDuel_Odds,520,TRUE
+Bryce Harper,to hit 1+ HR,Bryce Harper,+280,+340,+300,1.1724137931034482,FanDuel_Odds,340,TRUE
+Bryson Stott,to hit 1+ HR,Bryson Stott,+800,+700,+825,1.1,BetMGM_Odds,825,FALSE
+Byron Buxton,to hit 1+ HR,Byron Buxton,+425,+390,+450,1.1042944785276074,BetMGM_Odds,450,TRUE
+C.J. Abrams,to hit 1+ HR,C.J. Abrams,+600,+600,+625,1.0416666666666667,BetMGM_Odds,625,FALSE
+Caleb Durbin,to hit 1+ HR,Caleb Durbin,+500,+600,+750,1.3636363636363635,BetMGM_Odds,750,TRUE
+Cal Raleigh,to hit 1+ HR,Cal Raleigh,+380,+360,+360,1.0555555555555556,DraftKings_Odds,380,FALSE
+Cam Smith,to hit 1+ HR,Cam Smith,+550,+680,+575,1.208888888888889,FanDuel_Odds,680,TRUE
+Carlos Correa,to hit 1+ HR,Carlos Correa,+750,+750,+900,1.2,BetMGM_Odds,900,TRUE
+Carlos Narvaez,to hit 1+ HR,Carlos Narvaez,+750,+830,+625,1.2072727272727273,FanDuel_Odds,830,TRUE
+Carlos Santana,to hit 1+ HR,Carlos Santana,,,+500,None,None,None,None
+Carson Kelly,to hit 1+ HR,Carson Kelly,+450,+470,+575,1.25,BetMGM_Odds,575,TRUE
+Casey Schmitt,to hit 1+ HR,Casey Schmitt,+800,+1060,+850,1.284848484848485,FanDuel_Odds,1060,TRUE
+Ceddanne Rafaela,to hit 1+ HR,Ceddanne Rafaela,+700,+750,+750,1.0344827586206897,FanDuel_Odds,750,FALSE
+Cedric Mullins,to hit 1+ HR,Cedric Mullins,+475,+500,+625,1.2820512820512822,BetMGM_Odds,625,TRUE
+Chandler Simpson,to hit 1+ HR,Chandler Simpson,,,+1400,None,None,None,None
+Chase Meidroth,to hit 1+ HR,Chase Meidroth,,,+1200,None,None,None,None
+Christian Vazquez,to hit 1+ HR,Christian Vazquez,+1200,+1060,+1600,1.415929203539823,BetMGM_Odds,1600,TRUE
+Christian Walker,to hit 1+ HR,Christian Walker,+320,+470,+375,1.3525179856115108,FanDuel_Odds,470,TRUE
+Christian Yelich,to hit 1+ HR,Christian Yelich,+390,+420,+525,1.2962962962962963,BetMGM_Odds,525,TRUE
+CJ Abrams,to hit 1+ HR,CJ Abrams,,,+625,None,None,None,None
+Colson Montgomery,to hit 1+ HR,Colson Montgomery,,,+700,None,None,None,None
+Colt Keith,to hit 1+ HR,Colt Keith,+390,+520,+625,1.3736263736263736,BetMGM_Odds,625,TRUE
+Colton Cowser,to hit 1+ HR,Colton Cowser,+400,+450,+500,1.1764705882352942,BetMGM_Odds,500,TRUE
+Connor Norby,to hit 1+ HR,Connor Norby,+600,+630,+725,1.1788617886178863,BetMGM_Odds,725,TRUE
+Corey Seager,to hit 1+ HR,Corey Seager,+370,+320,+425,1.2318840579710144,BetMGM_Odds,425,TRUE
+Curtis Mead,to hit 1+ HR,Curtis Mead,,,+750,None,None,None,None
+D.J. Peters,to hit 1+ HR,D.J. Peters,,,+750,None,None,None,None
+D.J. Stewart,to hit 1+ HR,D.J. Stewart,,,+750,None,None,None,None
+Dakota Hudson,to hit 1+ HR,Dakota Hudson,,,+750,None,None,None,None
+Dalton Guthrie,to hit 1+ HR,Dalton Guthrie,,,+750,None,None,None,None
+Dalton Rushing,to hit 1+ HR,Dalton Rushing,,,+750,None,None,None,None
+Dalton Varsho,to hit 1+ HR,Dalton Varsho,,,+750,None,None,None,None
+Damian Jackson,to hit 1+ HR,Damian Jackson,,,+750,None,None,None,None
+Damian Lillard,to hit 1+ HR,Damian Lillard,,,+750,None,None,None,None
+Damian Miller,to hit 1+ HR,Damian Miller,,,+750,None,None,None,None
+Damian Williams,to hit 1+ HR,Damian Williams,,,+750,None,None,None,None
+Dan Vogelbach,to hit 1+ HR,Dan Vogelbach,,,+750,None,None,None,None
+Dane Dunning,to hit 1+ HR,Dane Dunning,,,+750,None,None,None,None
+Daniel Johnson,to hit 1+ HR,Daniel Johnson,,,+750,None,None,None,None
+Daniel Lynch,to hit 1+ HR,Daniel Lynch,,,+750,None,None,None,None
+Daniel Murphy,to hit 1+ HR,Daniel Murphy,,,+750,None,None,None,None
+Daniel Norris,to hit 1+ HR,Daniel Norris,,,+750,None,None,None,None
+Daniel Palka,to hit 1+ HR,Daniel Palka,,,+750,None,None,None,None
+Daniel Robertson,to hit 1+ HR,Daniel Robertson,,,+750,None,None,None,None
+Daniel Vogelbach,to hit 1+ HR,Daniel Vogelbach,,,+750,None,None,None,None
+Danny Duffy,to hit 1+ HR,Danny Duffy,,,+750,None,None,None,None
+Danny Jansen,to hit 1+ HR,Danny Jansen,+500,+520,+550,1.0784313725490196,BetMGM_Odds,550,FALSE
+Danny Mendick,to hit 1+ HR,Danny Mendick,,,+750,None,None,None,None
+Danny Santana,to hit 1+ HR,Danny Santana,,,+750,None,None,None,None
+Darin Ruf,to hit 1+ HR,Darin Ruf,,,+750,None,None,None,None
+Dario Agrazal,to hit 1+ HR,Dario Agrazal,,,+750,None,None,None,None
+Darnell Coles,to hit 1+ HR,Darnell Coles,,,+750,None,None,None,None
+Darnell McDonald,to hit 1+ HR,Darnell McDonald,,,+750,None,None,None,None
+Darnell Sweeney,to hit 1+ HR,Darnell Sweeney,,,+750,None,None,None,None
+Darryl Strawberry,to hit 1+ HR,Darryl Strawberry,,,+750,None,None,None,None
+Daryl Boston,to hit 1+ HR,Daryl Boston,,,+750,None,None,None,None
+Daryl Jones,to hit 1+ HR,Daryl Jones,,,+750,None,None,None,None
+Daryl Strawberry,to hit 1+ HR,Daryl Strawberry,,,+750,None,None,None,None
+Daulton Varsho,to hit 1+ HR,Daulton Varsho,,,+750,None,None,None,None
+Dave Martinez,to hit 1+ HR,Dave Martinez,,,+750,None,None,None,None
+Dave Roberts,to hit 1+ HR,Dave Roberts,,,+750,None,None,None,None
+Dave Stewart,to hit 1+ HR,Dave Stewart,,,+750,None,None,None,None
+Dave Winfield,to hit 1+ HR,Dave Winfield,,,+750,None,None,None,None
+David Bell,to hit 1+ HR,David Bell,,,+750,None,None,None,None
+David Bote,to hit 1+ HR,David Bote,,,+750,None,None,None,None
+David Cone,to hit 1+ HR,David Cone,,,+750,None,None,None,None
+David Dahl,to hit 1+ HR,David Dahl,,,+750,None,None,None,None
+David Fletcher,to hit 1+ HR,David Fletcher,,,+750,None,None,None,None
+David Freese,to hit 1+ HR,David Freese,,,+750,None,None,None,None
+David Justice,to hit 1+ HR,David Justice,,,+750,None,None,None,None
+David Ortiz,to hit 1+ HR,David Ortiz,,,+750,None,None,None,None
+David Peralta,to hit 1+ HR,David Peralta,,,+750,None,None,None,None
+David Price,to hit 1+ HR,David Price,,,+750,None,None,None,None
+David Ross,to hit 1+ HR,David Ross,,,+750,None,None,None,None
+David Wells,to hit 1+ HR,David Wells,,,+750,None,None,None,None
+Dawel Lugo,to hit 1+ HR,Dawel Lugo,,,+750,None,None,None,None
+Dawson Knox,to hit 1+ HR,Dawson Knox,,,+750,None,None,None,None
+Daylen Lile,to hit 1+ HR,Daylen Lile,+800,+1000,+1050,1.1666666666666667,BetMGM_Odds,1050,TRUE
+Dean Kremer,to hit 1+ HR,Dean Kremer,,,+750,None,None,None,None
+Dee Gordon,to hit 1+ HR,Dee Gordon,,,+750,None,None,None,None
+Dee Strange-Gordon,to hit 1+ HR,Dee Strange-Gordon,,,+750,None,None,None,None
+Deion Sanders,to hit 1+ HR,Deion Sanders,,,+750,None,None,None,None
+Delino DeShields,to hit 1+ HR,Delino DeShields,,,+750,None,None,None,None
+Dellin Betances,to hit 1+ HR,Dellin Betances,,,+750,None,None,None,None
+Delmon Young,to hit 1+ HR,Delmon Young,,,+750,None,None,None,None
+Delwyn Young,to hit 1+ HR,Delwyn Young,,,+750,None,None,None,None
+Demarcus Evans,to hit 1+ HR,Demarcus Evans,,,+750,None,None,None,None
+Dennis Eckersley,to hit 1+ HR,Dennis Eckersley,,,+750,None,None,None,None
+Dennis Martinez,to hit 1+ HR,Dennis Martinez,,,+750,None,None,None,None
+Dennis Santana,to hit 1+ HR,Dennis Santana,,,+750,None,None,None,None
+Derek Dietrich,to hit 1+ HR,Derek Dietrich,,,+750,None,None,None,None
+Derek Fisher,to hit 1+ HR,Derek Fisher,,,+750,None,None,None,None
+Derek Hill,to hit 1+ HR,Derek Hill,,,+750,None,None,None,None
+Derek Holland,to hit 1+ HR,Derek Holland,,,+750,None,None,None,None
+Derek Jeter,to hit 1+ HR,Derek Jeter,,,+750,None,None,None,None
+Derek Law,to hit 1+ HR,Derek Law,,,+750,None,None,None,None
+Derek Norris,to hit 1+ HR,Derek Norris,,,+750,None,None,None,None
+Derek Rodriguez,to hit 1+ HR,Derek Rodriguez,,,+750,None,None,None,None
+Derek Shelton,to hit 1+ HR,Derek Shelton,,,+750,None,None,None,None
+Derrick Goold,to hit 1+ HR,Derrick Goold,,,+750,None,None,None,None
+Derrick Hall,to hit 1+ HR,Derrick Hall,,,+750,None,None,None,None
+Derrick Henry,to hit 1+ HR,Derrick Henry,,,+750,None,None,None,None
+Derrick White,to hit 1+ HR,Derrick White,,,+750,None,None,None,None
+Desmond Jennings,to hit 1+ HR,Desmond Jennings,,,+750,None,None,None,None
+Devin Mann,to hit 1+ HR,Devin Mann,,,+750,None,None,None,None
+Devin Mesoraco,to hit 1+ HR,Devin Mesoraco,,,+750,None,None,None,None
+Devin Smeltzer,to hit 1+ HR,Devin Smeltzer,,,+750,None,None,None,None
+Devin Williams,to hit 1+ HR,Devin Williams,,,+750,None,None,None,None
+Dexter Fowler,to hit 1+ HR,Dexter Fowler,,,+750,None,None,None,None
+Didi Gregorius,to hit 1+ HR,Didi Gregorius,,,+750,None,None,None,None
+Diego Castillo,to hit 1+ HR,Diego Castillo,,,+750,None,None,None,None
+Dillon Dingler,to hit 1+ HR,Dillon Dingler,+600,+870,+800,1.2428571428571429,FanDuel_Odds,870,TRUE
+Dillon Maples,to hit 1+ HR,Dillon Maples,,,+750,None,None,None,None
+Dillon Peters,to hit 1+ HR,Dillon Peters,,,+750,None,None,None,None
+Dillon Tate,to hit 1+ HR,Dillon Tate,,,+750,None,None,None,None
+Dinelson Lamet,to hit 1+ HR,Dinelson Lamet,,,+750,None,None,None,None
+Dioner Navarro,to hit 1+ HR,Dioner Navarro,,,+750,None,None,None,None
+Diontae Johnson,to hit 1+ HR,Diontae Johnson,,,+750,None,None,None,None
+Dirk Nowitzki,to hit 1+ HR,Dirk Nowitzki,,,+750,None,None,None,None
+Domingo Acevedo,to hit 1+ HR,Domingo Acevedo,,,+750,None,None,None,None
+Domingo German,to hit 1+ HR,Domingo German,,,+750,None,None,None,None
+Domingo Leyba,to hit 1+ HR,Domingo Leyba,,,+750,None,None,None,None
+Domingo Santana,to hit 1+ HR,Domingo Santana,,,+750,None,None,None,None
+Dominic Leone,to hit 1+ HR,Dominic Leone,,,+750,None,None,None,None
+Dominic Smith,to hit 1+ HR,Dominic Smith,+1000,+1100,+1150,1.0952380952380953,BetMGM_Odds,1150,FALSE
+Don Mattingly,to hit 1+ HR,Don Mattingly,,,+750,None,None,None,None
+Don Sutton,to hit 1+ HR,Don Sutton,,,+750,None,None,None,None
+Donald Trump,to hit 1+ HR,Donald Trump,,,+750,None,None,None,None
+Donnie Dewees,to hit 1+ HR,Donnie Dewees,,,+750,None,None,None,None
+Donnie Hart,to hit 1+ HR,Donnie Hart,,,+750,None,None,None,None
+Donnie Murphy,to hit 1+ HR,Donnie Murphy,,,+750,None,None,None,None
+Donnie Walton,to hit 1+ HR,Donnie Walton,,,+750,None,None,None,None
+Donovan Solano,to hit 1+ HR,Donovan Solano,+1200,+1100,+1300,1.1304347826086956,BetMGM_Odds,1300,TRUE
+Dontrelle Willis,to hit 1+ HR,Dontrelle Willis,,,+750,None,None,None,None
+Dorian Finney-Smith,to hit 1+ HR,Dorian Finney-Smith,,,+750,None,None,None,None
+Doug Fister,to hit 1+ HR,Doug Fister,,,+750,None,None,None,None
+Doug Glanville,to hit 1+ HR,Doug Glanville,,,+750,None,None,None,None
+Doug Mientkiewicz,to hit 1+ HR,Doug Mientkiewicz,,,+750,None,None,None,None
+Doug Rader,to hit 1+ HR,Doug Rader,,,+750,None,None,None,None
+Drake Baldwin,to hit 1+ HR,Drake Baldwin,,,+680,None,None,None,None
+Drake Britton,to hit 1+ HR,Drake Britton,,,+750,None,None,None,None
+Drake Fellows,to hit 1+ HR,Drake Fellows,,,+750,None,None,None,None
+Drew Anderson,to hit 1+ HR,Drew Anderson,,,+750,None,None,None,None
+Drew Butera,to hit 1+ HR,Drew Butera,,,+750,None,None,None,None
+Drew Ellis,to hit 1+ HR,Drew Ellis,,,+750,None,None,None,None
+Drew Hutchison,to hit 1+ HR,Drew Hutchison,,,+750,None,None,None,None
+Drew Pomeranz,to hit 1+ HR,Drew Pomeranz,,,+750,None,None,None,None
+Drew Rasmussen,to hit 1+ HR,Drew Rasmussen,,,+750,None,None,None,None
+Drew Robinson,to hit 1+ HR,Drew Robinson,,,+750,None,None,None,None
+Drew Rom,to hit 1+ HR,Drew Rom,,,+750,None,None,None,None
+Drew Rucinski,to hit 1+ HR,Drew Rucinski,,,+750,None,None,None,None
+Drew Smyly,to hit 1+ HR,Drew Smyly,,,+750,None,None,None,None
+Drew Steckenrider,to hit 1+ HR,Drew Steckenrider,,,+750,None,None,None,None
+Drew Storen,to hit 1+ HR,Drew Storen,,,+750,None,None,None,None
+Drew Waters,to hit 1+ HR,Drew Waters,,,+750,None,None,None,None
+Drew Weeks,to hit 1+ HR,Drew Weeks,,,+750,None,None,None,None
+Drew Wharton,to hit 1+ HR,Drew Wharton,,,+750,None,None,None,None
+Drew Willy,to hit 1+ HR,Drew Willy,,,+750,None,None,None,None
+Drew Windle,to hit 1+ HR,Drew Windle,,,+750,None,None,None,None
+Drew Wright,to hit 1+ HR,Drew Wright,,,+750,None,None,None,None
+Drew Young,to hit 1+ HR,Drew Young,,,+750,None,None,None,None
+Drew Zimmerman,to hit 1+ HR,Drew Zimmerman,,,+750,None,None,None,None
+Drew Zurek,to hit 1+ HR,Drew Zurek,,,+750,None,None,None,None
+Drewry Fennell,to hit 1+ HR,Drewry Fennell,,,+750,None,None,None,None
+Drewry Mason,to hit 1+ HR,Drewry Mason,,,+750,None,None,None,None
+Drewry Morris,to hit 1+ HR,Drewry Morris,,,+750,None,None,None,None
+Drewry Ottley,to hit 1+ HR,Drewry Ottley,,,+750,None,None,None,None
+Drewry Stith,to hit 1+ HR,Drewry Stith,,,+750,None,None,None,None
+Drewry Tucker,to hit 1+ HR,Drewry Tucker,,,+750,None,None,None,None
+Drewry Williams,to hit 1+ HR,Drewry Williams,,,+750,None,None,None,None
+Drewry Wilson,to hit 1+ HR,Drewry Wilson,,,+750,None,None,None,None
+Drewry Wood,to hit 1+ HR,Drewry Wood,,,+750,None,None,None,None
+Drewry Young,to hit 1+ HR,Drewry Young,,,+750,None,None,None,None
+Drewry Zimmerman,to hit 1+ HR,Drewry Zimmerman,,,+750,None,None,None,None
+Drewry Zurek,to hit 1+ HR,Drewry Zurek,,,+750,None,None,None,None
+Drewry,Jr. Fennell,to hit 1+ HR,Drewry,Jr. Fennell,,,+750,None,None
+Drewry,Jr. Mason,to hit 1+ HR,Drewry,Jr. Mason,,,+750,None,None
+Drewry,Jr. Morris,to hit 1+ HR,Drewry,Jr. Morris,,,+750,None,None
+Drewry,Jr. Ottley,to hit 1+ HR,Drewry,Jr. Ottley,,,+750,None,None
+Drewry,Jr. Stith,to hit 1+ HR,Drewry,Jr. Stith,,,+750,None,None
+Drewry,Jr. Tucker,to hit 1+ HR,Drewry,Jr. Tucker,,,+750,None,None
+Drewry,Jr. Williams,to hit 1+ HR,Drewry,Jr. Williams,,,+750,None,None
+Drewry,Jr. Wilson,to hit 1+ HR,Drewry,Jr. Wilson,,,+750,None,None
+Drewry,Jr. Wood,to hit 1+ HR,Drewry,Jr. Wood,,,+750,None,None
+Drewry,Jr. Young,to hit 1+ HR,Drewry,Jr. Young,,,+750,None,None
+Drewry,Jr. Zimmerman,to hit 1+ HR,Drewry,Jr. Zimmerman,,,+750,None,None
+Drewry,Jr. Zurek,to hit 1+ HR,Drewry,Jr. Zurek,,,+750,None,None
+Drewry,Sr. Fennell,to hit 1+ HR,Drewry,Sr. Fennell,,,+750,None,None
+Drewry,Sr. Mason,to hit 1+ HR,Drewry,Sr. Mason,,,,None,None
