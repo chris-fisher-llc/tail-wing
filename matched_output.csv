@@ -1,112 +1,104 @@
 normalized_player,bet_type,player,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,GPT Moneyline,GPT Value,GPT Justification,value,value_book,value_odds,value_flag
-Mike Trout,to hit 1+ HR,Mike Trout,,+240,+250,None,,None,1.0416666666666667,BetMGM_Odds,250,FALSE
-Bryce Harper,to hit 1+ HR,Bryce Harper,,+290,+290,None,,None,1.0,FanDuel_Odds,290,FALSE
-Kyle Schwarber,to hit 1+ HR,Kyle Schwarber,,+210,+230,None,,None,1.0952380952380953,BetMGM_Odds,230,FALSE
-Corbin Carroll,to hit 1+ HR,Corbin Carroll,,+260,+240,None,,None,1.0833333333333333,FanDuel_Odds,260,FALSE
-Seiya Suzuki,to hit 1+ HR,Seiya Suzuki,,+900,,None,None,None,None,None,None,None
-Pete Crow-Armstrong,to hit 1+ HR,Pete Crow-Armstrong,,+900,,None,None,None,None,None,None,None
-Kyle Tucker,to hit 1+ HR,Kyle Tucker,,+950,,None,None,None,None,None,None,None
-Colton Cowser,to hit 1+ HR,Colton Cowser,,+1100,,None,None,None,None,None,None,None
-Ian Happ,to hit 1+ HR,Ian Happ,,+1300,,None,None,None,None,None,None,None
-Carson Kelly,to hit 1+ HR,Carson Kelly,,+1300,,None,None,None,None,None,None,None
-Jordan Westburg,to hit 1+ HR,Jordan Westburg,,+1700,,None,None,None,None,None,None,None
-Gunnar Henderson,to hit 1+ HR,Gunnar Henderson,,+1600,,None,None,None,None,None,None,None
-Willi Castro,to hit 1+ HR,Willi Castro,,+1600,,None,None,None,None,None,None,None
-Jeremiah Jackson,to hit 1+ HR,Jeremiah Jackson,,+1700,,None,None,None,None,None,None,None
-Coby Mayo,to hit 1+ HR,Coby Mayo,,+1800,,None,None,None,None,None,None,None
-Alex Jackson,to hit 1+ HR,Alex Jackson,,+1900,,None,None,None,None,None,None,None
-Adley Rutschman,to hit 1+ HR,Adley Rutschman,,+2600,,None,None,None,None,None,None,None
-Jackson Holliday,to hit 1+ HR,Jackson Holliday,,+2600,,None,None,None,None,None,None,None
-Dylan Carlson,to hit 1+ HR,Dylan Carlson,,+2700,,None,None,None,None,None,None,None
-Nico Hoerner,to hit 1+ HR,Nico Hoerner,,+3600,,None,None,None,None,None,None,None
-Hunter Goodman,to hit 1+ HR,Hunter Goodman,,+460,,None,None,None,None,None,None,None
-Oneil Cruz,to hit 1+ HR,Oneil Cruz,,+450,,None,None,None,None,None,None,None
-Mickey Moniak,to hit 1+ HR,Mickey Moniak,,+650,,None,None,None,None,None,None,None
-Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,,+700,,None,None,None,None,None,None,None
-Jack Suwinski,to hit 1+ HR,Jack Suwinski,,+650,,None,None,None,None,None,None,None
-Henry Davis,to hit 1+ HR,Henry Davis,,+850,,None,None,None,None,None,None,None
-Ezequiel Tovar,to hit 1+ HR,Ezequiel Tovar,,+750,,None,None,None,None,None,None,None
-Jared Triolo,to hit 1+ HR,Jared Triolo,,+850,,None,None,None,None,None,None,None
-Jordan Beck,to hit 1+ HR,Jordan Beck,,+950,,None,None,None,None,None,None,None
-Nick Gonzales,to hit 1+ HR,Nick Gonzales,,+900,,None,None,None,None,None,None,None
-Yanquiel Fernandez,to hit 1+ HR,Yanquiel Fernandez,,+900,,None,None,None,None,None,None,None
-Warming Bernabel,to hit 1+ HR,Warming Bernabel,,+900,,None,None,None,None,None,None,None
-Orlando Arcia,to hit 1+ HR,Orlando Arcia,,+1000,,None,None,None,None,None,None,None
-Tyler Freeman,to hit 1+ HR,Tyler Freeman,,+1000,,None,None,None,None,None,None,None
-Thairo Estrada,to hit 1+ HR,Thairo Estrada,,+1000,,None,None,None,None,None,None,None
-Cal Raleigh,to hit 1+ HR,Cal Raleigh,,+280,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Eugenio Suarez,to hit 1+ HR,Eugenio Suarez,,+320,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Corey Seager,to hit 1+ HR,Corey Seager,,+350,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Adolis Garcia,to hit 1+ HR,Adolis Garcia,,+470,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Wyatt Langford,to hit 1+ HR,Wyatt Langford,,+480,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Randy Arozarena,to hit 1+ HR,Randy Arozarena,,+520,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Julio Rodriguez,to hit 1+ HR,Julio Rodriguez,,+520,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Rowdy Tellez,to hit 1+ HR,Rowdy Tellez,,+520,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Kyle Higashioka,to hit 1+ HR,Kyle Higashioka,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Marcus Semien,to hit 1+ HR,Marcus Semien,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Josh Naylor,to hit 1+ HR,Josh Naylor,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Joc Pederson,to hit 1+ HR,Joc Pederson,,+600,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jorge Polanco,to hit 1+ HR,Jorge Polanco,,+600,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Dominic Canzone,to hit 1+ HR,Dominic Canzone,,+680,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Alejandro Osuna,to hit 1+ HR,Alejandro Osuna,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Josh Smith,to hit 1+ HR,Josh Smith,,+900,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-J.P. Crawford,to hit 1+ HR,J.P. Crawford,,+1060,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Cole Young,to hit 1+ HR,Cole Young,,+1060,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Kyle Schwarber,to hit 1+ HR,Kyle Schwarber,,+210,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Bryce Harper,to hit 1+ HR,Bryce Harper,,+290,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Spencer Torkelson,to hit 1+ HR,Spencer Torkelson,,+460,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-J.T. Realmuto,to hit 1+ HR,J.T. Realmuto,,+520,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Nick Castellanos,to hit 1+ HR,Nick Castellanos,,+540,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Riley Greene,to hit 1+ HR,Riley Greene,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Gleyber Torres,to hit 1+ HR,Gleyber Torres,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Max Kepler,to hit 1+ HR,Max Kepler,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Trea Turner,to hit 1+ HR,Trea Turner,,+560,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Edmundo Sosa,to hit 1+ HR,Edmundo Sosa,,+630,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Brandon Marsh,to hit 1+ HR,Brandon Marsh,,+700,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Javier Baez,to hit 1+ HR,Javier Baez,,+750,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jahmai Jones,to hit 1+ HR,Jahmai Jones,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Bryson Stott,to hit 1+ HR,Bryson Stott,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Wenceel Perez,to hit 1+ HR,Wenceel Perez,,+830,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Dillon Dingler,to hit 1+ HR,Dillon Dingler,,+830,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Andy Ibanez,to hit 1+ HR,Andy Ibanez,,+830,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Matt Vierling,to hit 1+ HR,Matt Vierling,,+900,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Yohel Pozo,to hit 1+ HR,Yohel Pozo,,+750,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Nolan Gorman,to hit 1+ HR,Nolan Gorman,,+460,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Luis Arraez,to hit 1+ HR,Luis Arraez,,+1400,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Masyn Winn,to hit 1+ HR,Masyn Winn,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Willson Contreras,to hit 1+ HR,Willson Contreras,,+470,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Alec Burleson,to hit 1+ HR,Alec Burleson,,+450,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Xander Bogaerts,to hit 1+ HR,Xander Bogaerts,,+870,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Ivan Herrera,to hit 1+ HR,Ivan Herrera,,+600,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Victor Scott II,to hit 1+ HR,Victor Scott II,,+1060,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Freddy Fermin,to hit 1+ HR,Freddy Fermin,,+900,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Manny Machado,to hit 1+ HR,Manny Machado,,+440,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Ramon Laureano,to hit 1+ HR,Ramon Laureano,,+600,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Fernando Tatis Jr.,to hit 1+ HR,Fernando Tatis Jr.,,+470,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Ryan O’Hearn,to hit 1+ HR,Ryan O’Hearn,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jake Cronenworth,to hit 1+ HR,Jake Cronenworth,,+900,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jackson Merrill,to hit 1+ HR,Jackson Merrill,,+600,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Thomas Saggese,to hit 1+ HR,Thomas Saggese,,+870,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jordan Walker,to hit 1+ HR,Jordan Walker,,+800,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-J.P. Crawford,to hit 1+ HR,J.P. Crawford,,+1060,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Eugenio Suarez,to hit 1+ HR,Eugenio Suarez,,+375,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Cole Young,to hit 1+ HR,Cole Young,,+1150,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Alejandro Osuna,to hit 1+ HR,Alejandro Osuna,,+1150,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Joc Pederson,to hit 1+ HR,Joc Pederson,,+475,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Randy Arozarena,to hit 1+ HR,Randy Arozarena,,+475,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Dominic Canzone,to hit 1+ HR,Dominic Canzone,,+650,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Adolis Garcia,to hit 1+ HR,Adolis Garcia,,+400,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Julio Rodriguez,to hit 1+ HR,Julio Rodriguez,,+500,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Corey Seager,to hit 1+ HR,Corey Seager,,+360,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Josh H. Smith,to hit 1+ HR,Josh H. Smith,,+750,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Josh Naylor,to hit 1+ HR,Josh Naylor,,+650,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Marcus Semien,to hit 1+ HR,Marcus Semien,,+550,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Rowdy Tellez,to hit 1+ HR,Rowdy Tellez,,+625,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Cal Raleigh,to hit 1+ HR,Cal Raleigh,,+290,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Jorge Polanco,to hit 1+ HR,Jorge Polanco,,+625,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Wyatt Langford,to hit 1+ HR,Wyatt Langford,,+450,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Kyle Higashioka,to hit 1+ HR,Kyle Higashioka,,+625,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Austin Wynns,to hit 1+ HR,Austin Wynns,,+680,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Shea Langeliers,to hit 1+ HR,Shea Langeliers,,+350,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Corbin Carroll,to hit 1+ HR,Corbin Carroll,,+240,,None,None,None,Facing HR-prone pitcher in hitter-friendly park,None,None,None
-Geraldo Perdomo,to hit 1+ HR,Geraldo,None,None,None,None,None,None,None,None,None,None
+Rafael Devers,to hit 1+ HR,Rafael Devers,+370,+400,+450,None,,None,1.1688311688311688,BetMGM_Odds,450,TRUE
+Oneil Cruz,to hit 1+ HR,Oneil Cruz,+475,+450,+450,None,,None,1.0555555555555556,DraftKings_Odds,475,FALSE
+Matt Chapman,to hit 1+ HR,Matt Chapman,+500,+480,+450,None,,None,1.075268817204301,DraftKings_Odds,500,FALSE
+Willy Adames,to hit 1+ HR,Willy Adames,+425,+520,+500,None,,None,1.1243243243243244,FanDuel_Odds,520,TRUE
+Andrew McCutchen,to hit 1+ HR,Andrew McCutchen,+600,+560,+575,None,,None,1.0572687224669604,DraftKings_Odds,600,FALSE
+Heliot Ramos,to hit 1+ HR,Heliot Ramos,+650,+600,+650,None,,None,1.04,DraftKings_Odds,650,FALSE
+Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,+750,+700,+750,None,,None,1.0344827586206897,DraftKings_Odds,750,FALSE
+Spencer Horwitz,to hit 1+ HR,Spencer Horwitz,+750,+800,+725,None,,None,1.0847457627118644,FanDuel_Odds,800,FALSE
+Casey Schmitt,to hit 1+ HR,Casey Schmitt,+700,+830,+750,None,,None,1.1448275862068966,FanDuel_Odds,830,TRUE
+Nick Gonzales,to hit 1+ HR,Nick Gonzales,+900,+870,+900,None,,None,1.0169491525423728,DraftKings_Odds,900,FALSE
+Dominic Smith,to hit 1+ HR,Dominic Smith,+800,+870,+850,None,,None,1.0545454545454545,FanDuel_Odds,870,FALSE
+Liover Peguero,to hit 1+ HR,Liover Peguero,+850,+900,+800,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
+Tommy Pham,to hit 1+ HR,Tommy Pham,+850,+900,+850,None,,None,1.0588235294117647,FanDuel_Odds,900,FALSE
+Joey Bart,to hit 1+ HR,Joey Bart,+1000,+900,+950,None,,None,1.0810810810810811,DraftKings_Odds,1000,FALSE
+Patrick Bailey,to hit 1+ HR,Patrick Bailey,+1000,+1000,+1100,None,,None,1.1,BetMGM_Odds,1100,TRUE
+Jung Hoo Lee,to hit 1+ HR,Jung Hoo Lee,+1100,+1100,+1200,None,,None,1.0909090909090908,BetMGM_Odds,1200,FALSE
+Isiah Kiner-Falefa,to hit 1+ HR,Isiah Kiner-Falefa,+1400,+1300,+1650,None,,None,1.2222222222222223,BetMGM_Odds,1650,TRUE
+Kyle Schwarber,to hit 1+ HR,Kyle Schwarber,+150,+172,+180,None,,None,1.1180124223602483,BetMGM_Odds,180,TRUE
+Bryce Harper,to hit 1+ HR,Bryce Harper,+240,+285,+275,None,,None,1.1067961165048543,FanDuel_Odds,285,TRUE
+Tyler O'Neill,to hit 1+ HR,Tyler O'Neill,+275,+320,+310,None,,None,1.0940170940170941,FanDuel_Odds,320,FALSE
+Jordan Westburg,to hit 1+ HR,Jordan Westburg,+360,+400,+400,None,,None,1.0526315789473684,FanDuel_Odds,400,FALSE
+J.T. Realmuto,to hit 1+ HR,J.T. Realmuto,+380,+400,+400,None,,None,1.0256410256410255,FanDuel_Odds,400,FALSE
+Trea Turner,to hit 1+ HR,Trea Turner,+360,+450,+375,None,,None,1.2244897959183674,FanDuel_Odds,450,TRUE
+Harrison Bader,to hit 1+ HR,Harrison Bader,+400,+420,+475,None,,None,1.1585365853658536,BetMGM_Odds,475,TRUE
+Nick Castellanos,to hit 1+ HR,Nick Castellanos,+370,+420,+375,None,,None,1.1275167785234899,FanDuel_Odds,420,TRUE
+Adley Rutschman,to hit 1+ HR,Adley Rutschman,+475,+600,+600,None,,None,1.1162790697674418,FanDuel_Odds,600,TRUE
+Colton Cowser,to hit 1+ HR,Colton Cowser,+475,+560,+650,None,,None,1.2560386473429952,BetMGM_Odds,650,TRUE
+Gunnar Henderson,to hit 1+ HR,Gunnar Henderson,+450,+540,+475,None,,None,1.1675675675675676,FanDuel_Odds,540,TRUE
+Otto Kemp,to hit 1+ HR,Otto Kemp,+475,+480,+475,None,,None,1.0105263157894737,FanDuel_Odds,480,FALSE
+Edmundo Sosa,to hit 1+ HR,Edmundo Sosa,+500,+560,+625,None,,None,1.179245283018868,BetMGM_Odds,625,TRUE
+Jackson Holliday,to hit 1+ HR,Jackson Holliday,+550,+600,+725,None,,None,1.2608695652173914,BetMGM_Odds,725,TRUE
+Coby Mayo,to hit 1+ HR,Coby Mayo,+650,+680,+675,None,,None,1.0264150943396226,FanDuel_Odds,680,FALSE
+Weston Wilson,to hit 1+ HR,Weston Wilson,+650,+680,+600,None,,None,1.088,FanDuel_Odds,680,FALSE
+Dylan Carlson,to hit 1+ HR,Dylan Carlson,+600,+830,+750,None,,None,1.2296296296296296,FanDuel_Odds,830,TRUE
+Alex Bregman,to hit 1+ HR,Alex Bregman,+340,+340,+350,None,,None,1.0294117647058822,BetMGM_Odds,350,FALSE
+Romy Gonzalez,to hit 1+ HR,Romy Gonzalez,+380,+400,+375,None,,None,1.0596026490066226,FanDuel_Odds,400,FALSE
+Trevor Story,to hit 1+ HR,Trevor Story,+450,+430,+400,None,,None,1.0843373493975903,DraftKings_Odds,450,FALSE
+Salvador Perez,to hit 1+ HR,Salvador Perez,+500,+450,+500,None,,None,1.0526315789473684,DraftKings_Odds,500,FALSE
+Ceddanne Rafaela,to hit 1+ HR,Ceddanne Rafaela,+500,+470,+450,None,,None,1.0869565217391304,DraftKings_Odds,500,FALSE
+Rob Refsnyder,to hit 1+ HR,Rob Refsnyder,+500,+480,+475,None,,None,1.0471204188481675,DraftKings_Odds,500,FALSE
+Vinnie Pasquantino,to hit 1+ HR,Vinnie Pasquantino,+550,+520,+700,None,,None,1.308411214953271,BetMGM_Odds,700,TRUE
+Jarren Duran,to hit 1+ HR,Jarren Duran,+600,+600,+625,None,,None,1.0416666666666667,BetMGM_Odds,625,FALSE
+Jonathan India,to hit 1+ HR,Jonathan India,+800,+800,+775,None,,None,1.0158730158730158,DraftKings_Odds,800,FALSE
+Abraham Toro,to hit 1+ HR,Abraham Toro,+900,+870,+825,None,,None,1.0619469026548674,DraftKings_Odds,900,FALSE
+Roman Anthony,to hit 1+ HR,Roman Anthony,+550,+630,+625,None,,None,1.0723404255319149,FanDuel_Odds,630,FALSE
+Maikel Garcia,to hit 1+ HR,Maikel Garcia,+750,+900,+1000,None,,None,1.2121212121212122,BetMGM_Odds,1000,TRUE
+Adam Frazier,to hit 1+ HR,Adam Frazier,+1400,+1300,+1550,None,,None,1.1481481481481481,BetMGM_Odds,1550,TRUE
+Kyle Isbel,to hit 1+ HR,Kyle Isbel,+1500,+1400,+1650,None,,None,1.1379310344827587,BetMGM_Odds,1650,TRUE
+Matt Olson,to hit 1+ HR,Matt Olson,+450,+480,+450,None,,None,1.0666666666666667,FanDuel_Odds,480,FALSE
+Andrew Vaughn,to hit 1+ HR,Andrew Vaughn,+450,+540,+625,None,,None,1.2626262626262625,BetMGM_Odds,625,TRUE
+Christian Yelich,to hit 1+ HR,Christian Yelich,+475,+520,+600,None,,None,1.2060301507537687,BetMGM_Odds,600,TRUE
+William Contreras,to hit 1+ HR,William Contreras,+500,+600,+700,None,,None,1.2727272727272727,BetMGM_Odds,700,TRUE
+Sean Murphy,to hit 1+ HR,Sean Murphy,+550,+400,+800,None,,None,1.6842105263157894,BetMGM_Odds,800,TRUE
+Michael Harris,to hit 1+ HR,Michael Harris,+650,+750,+825,None,,None,1.1785714285714286,BetMGM_Odds,825,TRUE
+Ozzie Albies,to hit 1+ HR,Ozzie Albies,+750,+900,+900,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
+Drake Baldwin,to hit 1+ HR,Drake Baldwin,+750,+750,+825,None,,None,1.1,BetMGM_Odds,825,FALSE
+Jurickson Profar,to hit 1+ HR,Jurickson Profar,+700,+700,+800,None,,None,1.1428571428571428,BetMGM_Odds,800,TRUE
+Blake Perkins,to hit 1+ HR,Blake Perkins,+700,+1000,+1250,None,,None,1.4705882352941178,BetMGM_Odds,1250,TRUE
+Brice Turang,to hit 1+ HR,Brice Turang,+700,+1060,+850,None,,None,1.367741935483871,FanDuel_Odds,1060,TRUE
+Eli White,to hit 1+ HR,Eli White,+1000,+1060,+1350,None,,None,1.3106796116504855,BetMGM_Odds,1350,TRUE
+Isaac Collins,to hit 1+ HR,Isaac Collins,+750,+800,+1000,None,,None,1.2903225806451613,BetMGM_Odds,1000,TRUE
+Joey Ortiz,to hit 1+ HR,Joey Ortiz,+850,+1000,+1250,None,,None,1.3513513513513513,BetMGM_Odds,1250,TRUE
+Giancarlo Stanton,to hit 1+ HR,Giancarlo Stanton,+340,+350,+360,None,,None,1.0434782608695652,BetMGM_Odds,360,FALSE
+Corey Seager,to hit 1+ HR,Corey Seager,+390,+400,+425,None,,None,1.0759493670886076,BetMGM_Odds,425,FALSE
+Paul Goldschmidt,to hit 1+ HR,Paul Goldschmidt,+400,+450,+500,None,,None,1.1764705882352942,BetMGM_Odds,500,TRUE
+Cody Bellinger,to hit 1+ HR,Cody Bellinger,+475,+480,+575,None,,None,1.2041884816753927,BetMGM_Odds,575,TRUE
+Trent Grisham,to hit 1+ HR,Trent Grisham,+500,+420,+575,None,,None,1.25,BetMGM_Odds,575,TRUE
+Ben Rice,to hit 1+ HR,Ben Rice,+550,+540,+525,None,,None,1.0328638497652582,DraftKings_Odds,550,FALSE
+Adolis Garcia,to hit 1+ HR,Adolis Garcia,+550,+560,+675,None,,None,1.2162162162162162,BetMGM_Odds,675,TRUE
+Jazz Chisholm,to hit 1+ HR,Jazz Chisholm,+550,+560,+650,None,,None,1.1711711711711712,BetMGM_Odds,650,TRUE
+Wyatt Langford,to hit 1+ HR,Wyatt Langford,+500,+600,+625,None,,None,1.1363636363636365,BetMGM_Odds,625,TRUE
+Ryan McMahon,to hit 1+ HR,Ryan McMahon,+600,+600,+625,None,,None,1.0416666666666667,BetMGM_Odds,625,FALSE
+Marcus Semien,to hit 1+ HR,Marcus Semien,+650,+750,+725,None,,None,1.0909090909090908,FanDuel_Odds,750,FALSE
+Sam Haggerty,to hit 1+ HR,Sam Haggerty,+700,+900,+1450,None,,None,1.8125,BetMGM_Odds,1450,TRUE
+Anthony Volpe,to hit 1+ HR,Anthony Volpe,+700,+630,+750,None,,None,1.1278195488721805,BetMGM_Odds,750,TRUE
+Josh Jung,to hit 1+ HR,Josh Jung,+700,+750,+875,None,,None,1.206896551724138,BetMGM_Odds,875,TRUE
+Austin Slater,to hit 1+ HR,Austin Slater,+700,+750,+850,None,,None,1.1724137931034482,BetMGM_Odds,850,TRUE
+Jonah Heim,to hit 1+ HR,Jonah Heim,+750,+900,+900,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
+Josh Smith,to hit 1+ HR,Josh Smith,+950,+900,+1100,None,,None,1.1891891891891893,BetMGM_Odds,1100,TRUE
+Seiya Suzuki,to hit 1+ HR,Seiya Suzuki,+425,+420,+450,None,,None,1.0650887573964498,BetMGM_Odds,450,FALSE
+Carson Kelly,to hit 1+ HR,Carson Kelly,+550,+630,+650,None,,None,1.1016949152542372,BetMGM_Odds,650,TRUE
+Austin Hays,to hit 1+ HR,Austin Hays,+550,+750,+675,None,,None,1.2244897959183674,FanDuel_Odds,750,TRUE
+Dansby Swanson,to hit 1+ HR,Dansby Swanson,+750,+750,+700,None,,None,1.0344827586206897,DraftKings_Odds,750,FALSE
+Elly De La Cruz,to hit 1+ HR,Elly De La Cruz,+550,+680,+725,None,,None,1.1788617886178863,BetMGM_Odds,725,TRUE
+Matt McLain,to hit 1+ HR,Matt McLain,+600,+680,+675,None,,None,1.0666666666666667,FanDuel_Odds,680,FALSE
+Ian Happ,to hit 1+ HR,Ian Happ,+650,+630,+650,None,,None,1.015625,DraftKings_Odds,650,FALSE
+TJ Friedl,to hit 1+ HR,TJ Friedl,+750,+680,+1100,None,,None,1.5384615384615385,BetMGM_Odds,1100,TRUE
+Jake Fraley,to hit 1+ HR,Jake Fraley,+700,+800,+1400,None,,None,1.8666666666666667,BetMGM_Odds,1400,TRUE
+Spencer Steer,to hit 1+ HR,Spencer Steer,+700,+680,+800,None,,None,1.1594202898550725,BetMGM_Odds,800,TRUE
+Justin Turner,to hit 1+ HR,Justin Turner,+650,+900,+950,None,,None,1.2258064516129032,BetMGM_Odds,950,TRUE
+Matt Shaw,to hit 1+ HR,Matt Shaw,+750,+870,+950,None,,None,1.1728395061728396,BetMGM_Odds,950,TRUE
+Tyler Stephenson,to hit 1+ HR,Tyler Stephenson,+600,+750,+700,None,,None,1.1538461538461537,FanDuel_Odds,750,TRUE
+Gavin Lux,to hit 1+ HR,Gavin Lux,+1000,+1000,+1200,None,,None,1.2,BetMGM_Odds,1200,TRUE
+Ke'Bryan Hayes,to hit 1+ HR,Ke'Bryan Hayes,+1000,+1200,+1150,None,,None,1.1162790697674418,FanDuel_Odds,1200,TRUE
+Nico Hoerner,to hit 1+ HR,Nico Hoerner,+950,+1300,+1100,None,,None,1.2682926829268293,FanDuel_Odds,1300,TRUE
+Willi Castro,to hit 1+ HR,Willi Castro,+900,+800,+1000,None,,None,1.1764705882352942,BetMGM_Odds,1000,TRUE
+Daulton Varsho,to hit 1+ HR,Daulton Varsho,+275,+255,+290,None,,None,1.0943396226415094,BetMGM_Odds,290,FALSE
+Addison Barger,to hit 1+ HR,Addison Barger,+230,+280,+275,None,,None,1.108910891089109,FanDuel_Odds,280,TRUE
+Hunter Goodman,to hit 1+ HR,Hunter Goodman,+230,+255,+270,None,,None,1.1134020618556701,BetMGM_Odds,270,TRUE
+Vladimir Guerrero Jr.,to hit 1+ HR,Vladimir Guerrero Jr.,+265,+255,+310,None,,None,1.1923076923076923,BetMGM_Odds,310,TRUE
+Bo Bichette,to hit 1+ HR,Bo Bichette,+350,+430,+425,None,,None,1.1096774193548387,FanDuel_Odds,430,TRUE
+Ezequiel Tovar,to hit 1+ HR,Ezequiel Tovar,+350,+420,+375,None,,None,1.1586206896551725,FanDuel_Odds,420,TRUE
+Joey Loperfido,to hit 1+ HR,Joey Loperfido,+400,+460,+450,None,,None,1.0823529411764705,FanDuel_Odds,460,FALSE
