@@ -1,104 +1,119 @@
 normalized_player,bet_type,player,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,GPT Moneyline,GPT Value,GPT Justification,value,value_book,value_odds,value_flag
-Rafael Devers,to hit 1+ HR,Rafael Devers,+370,+400,+450,None,,None,1.1688311688311688,BetMGM_Odds,450,TRUE
-Oneil Cruz,to hit 1+ HR,Oneil Cruz,+475,+450,+450,None,,None,1.0555555555555556,DraftKings_Odds,475,FALSE
-Matt Chapman,to hit 1+ HR,Matt Chapman,+500,+480,+450,None,,None,1.075268817204301,DraftKings_Odds,500,FALSE
-Willy Adames,to hit 1+ HR,Willy Adames,+425,+520,+500,None,,None,1.1243243243243244,FanDuel_Odds,520,TRUE
-Andrew McCutchen,to hit 1+ HR,Andrew McCutchen,+600,+560,+575,None,,None,1.0572687224669604,DraftKings_Odds,600,FALSE
-Heliot Ramos,to hit 1+ HR,Heliot Ramos,+650,+600,+650,None,,None,1.04,DraftKings_Odds,650,FALSE
-Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,+750,+700,+750,None,,None,1.0344827586206897,DraftKings_Odds,750,FALSE
-Spencer Horwitz,to hit 1+ HR,Spencer Horwitz,+750,+800,+725,None,,None,1.0847457627118644,FanDuel_Odds,800,FALSE
-Casey Schmitt,to hit 1+ HR,Casey Schmitt,+700,+830,+750,None,,None,1.1448275862068966,FanDuel_Odds,830,TRUE
-Nick Gonzales,to hit 1+ HR,Nick Gonzales,+900,+870,+900,None,,None,1.0169491525423728,DraftKings_Odds,900,FALSE
-Dominic Smith,to hit 1+ HR,Dominic Smith,+800,+870,+850,None,,None,1.0545454545454545,FanDuel_Odds,870,FALSE
-Liover Peguero,to hit 1+ HR,Liover Peguero,+850,+900,+800,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
-Tommy Pham,to hit 1+ HR,Tommy Pham,+850,+900,+850,None,,None,1.0588235294117647,FanDuel_Odds,900,FALSE
-Joey Bart,to hit 1+ HR,Joey Bart,+1000,+900,+950,None,,None,1.0810810810810811,DraftKings_Odds,1000,FALSE
-Patrick Bailey,to hit 1+ HR,Patrick Bailey,+1000,+1000,+1100,None,,None,1.1,BetMGM_Odds,1100,TRUE
-Jung Hoo Lee,to hit 1+ HR,Jung Hoo Lee,+1100,+1100,+1200,None,,None,1.0909090909090908,BetMGM_Odds,1200,FALSE
-Isiah Kiner-Falefa,to hit 1+ HR,Isiah Kiner-Falefa,+1400,+1300,+1650,None,,None,1.2222222222222223,BetMGM_Odds,1650,TRUE
-Kyle Schwarber,to hit 1+ HR,Kyle Schwarber,+150,+172,+180,None,,None,1.1180124223602483,BetMGM_Odds,180,TRUE
-Bryce Harper,to hit 1+ HR,Bryce Harper,+240,+285,+275,None,,None,1.1067961165048543,FanDuel_Odds,285,TRUE
-Tyler O'Neill,to hit 1+ HR,Tyler O'Neill,+275,+320,+310,None,,None,1.0940170940170941,FanDuel_Odds,320,FALSE
-Jordan Westburg,to hit 1+ HR,Jordan Westburg,+360,+400,+400,None,,None,1.0526315789473684,FanDuel_Odds,400,FALSE
-J.T. Realmuto,to hit 1+ HR,J.T. Realmuto,+380,+400,+400,None,,None,1.0256410256410255,FanDuel_Odds,400,FALSE
-Trea Turner,to hit 1+ HR,Trea Turner,+360,+450,+375,None,,None,1.2244897959183674,FanDuel_Odds,450,TRUE
-Harrison Bader,to hit 1+ HR,Harrison Bader,+400,+420,+475,None,,None,1.1585365853658536,BetMGM_Odds,475,TRUE
-Nick Castellanos,to hit 1+ HR,Nick Castellanos,+370,+420,+375,None,,None,1.1275167785234899,FanDuel_Odds,420,TRUE
-Adley Rutschman,to hit 1+ HR,Adley Rutschman,+475,+600,+600,None,,None,1.1162790697674418,FanDuel_Odds,600,TRUE
-Colton Cowser,to hit 1+ HR,Colton Cowser,+475,+560,+650,None,,None,1.2560386473429952,BetMGM_Odds,650,TRUE
-Gunnar Henderson,to hit 1+ HR,Gunnar Henderson,+450,+540,+475,None,,None,1.1675675675675676,FanDuel_Odds,540,TRUE
-Otto Kemp,to hit 1+ HR,Otto Kemp,+475,+480,+475,None,,None,1.0105263157894737,FanDuel_Odds,480,FALSE
-Edmundo Sosa,to hit 1+ HR,Edmundo Sosa,+500,+560,+625,None,,None,1.179245283018868,BetMGM_Odds,625,TRUE
-Jackson Holliday,to hit 1+ HR,Jackson Holliday,+550,+600,+725,None,,None,1.2608695652173914,BetMGM_Odds,725,TRUE
-Coby Mayo,to hit 1+ HR,Coby Mayo,+650,+680,+675,None,,None,1.0264150943396226,FanDuel_Odds,680,FALSE
-Weston Wilson,to hit 1+ HR,Weston Wilson,+650,+680,+600,None,,None,1.088,FanDuel_Odds,680,FALSE
-Dylan Carlson,to hit 1+ HR,Dylan Carlson,+600,+830,+750,None,,None,1.2296296296296296,FanDuel_Odds,830,TRUE
-Alex Bregman,to hit 1+ HR,Alex Bregman,+340,+340,+350,None,,None,1.0294117647058822,BetMGM_Odds,350,FALSE
-Romy Gonzalez,to hit 1+ HR,Romy Gonzalez,+380,+400,+375,None,,None,1.0596026490066226,FanDuel_Odds,400,FALSE
-Trevor Story,to hit 1+ HR,Trevor Story,+450,+430,+400,None,,None,1.0843373493975903,DraftKings_Odds,450,FALSE
-Salvador Perez,to hit 1+ HR,Salvador Perez,+500,+450,+500,None,,None,1.0526315789473684,DraftKings_Odds,500,FALSE
-Ceddanne Rafaela,to hit 1+ HR,Ceddanne Rafaela,+500,+470,+450,None,,None,1.0869565217391304,DraftKings_Odds,500,FALSE
-Rob Refsnyder,to hit 1+ HR,Rob Refsnyder,+500,+480,+475,None,,None,1.0471204188481675,DraftKings_Odds,500,FALSE
-Vinnie Pasquantino,to hit 1+ HR,Vinnie Pasquantino,+550,+520,+700,None,,None,1.308411214953271,BetMGM_Odds,700,TRUE
-Jarren Duran,to hit 1+ HR,Jarren Duran,+600,+600,+625,None,,None,1.0416666666666667,BetMGM_Odds,625,FALSE
-Jonathan India,to hit 1+ HR,Jonathan India,+800,+800,+775,None,,None,1.0158730158730158,DraftKings_Odds,800,FALSE
-Abraham Toro,to hit 1+ HR,Abraham Toro,+900,+870,+825,None,,None,1.0619469026548674,DraftKings_Odds,900,FALSE
-Roman Anthony,to hit 1+ HR,Roman Anthony,+550,+630,+625,None,,None,1.0723404255319149,FanDuel_Odds,630,FALSE
-Maikel Garcia,to hit 1+ HR,Maikel Garcia,+750,+900,+1000,None,,None,1.2121212121212122,BetMGM_Odds,1000,TRUE
-Adam Frazier,to hit 1+ HR,Adam Frazier,+1400,+1300,+1550,None,,None,1.1481481481481481,BetMGM_Odds,1550,TRUE
-Kyle Isbel,to hit 1+ HR,Kyle Isbel,+1500,+1400,+1650,None,,None,1.1379310344827587,BetMGM_Odds,1650,TRUE
-Matt Olson,to hit 1+ HR,Matt Olson,+450,+480,+450,None,,None,1.0666666666666667,FanDuel_Odds,480,FALSE
-Andrew Vaughn,to hit 1+ HR,Andrew Vaughn,+450,+540,+625,None,,None,1.2626262626262625,BetMGM_Odds,625,TRUE
-Christian Yelich,to hit 1+ HR,Christian Yelich,+475,+520,+600,None,,None,1.2060301507537687,BetMGM_Odds,600,TRUE
-William Contreras,to hit 1+ HR,William Contreras,+500,+600,+700,None,,None,1.2727272727272727,BetMGM_Odds,700,TRUE
-Sean Murphy,to hit 1+ HR,Sean Murphy,+550,+400,+800,None,,None,1.6842105263157894,BetMGM_Odds,800,TRUE
-Michael Harris,to hit 1+ HR,Michael Harris,+650,+750,+825,None,,None,1.1785714285714286,BetMGM_Odds,825,TRUE
-Ozzie Albies,to hit 1+ HR,Ozzie Albies,+750,+900,+900,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
-Drake Baldwin,to hit 1+ HR,Drake Baldwin,+750,+750,+825,None,,None,1.1,BetMGM_Odds,825,FALSE
-Jurickson Profar,to hit 1+ HR,Jurickson Profar,+700,+700,+800,None,,None,1.1428571428571428,BetMGM_Odds,800,TRUE
-Blake Perkins,to hit 1+ HR,Blake Perkins,+700,+1000,+1250,None,,None,1.4705882352941178,BetMGM_Odds,1250,TRUE
-Brice Turang,to hit 1+ HR,Brice Turang,+700,+1060,+850,None,,None,1.367741935483871,FanDuel_Odds,1060,TRUE
-Eli White,to hit 1+ HR,Eli White,+1000,+1060,+1350,None,,None,1.3106796116504855,BetMGM_Odds,1350,TRUE
-Isaac Collins,to hit 1+ HR,Isaac Collins,+750,+800,+1000,None,,None,1.2903225806451613,BetMGM_Odds,1000,TRUE
-Joey Ortiz,to hit 1+ HR,Joey Ortiz,+850,+1000,+1250,None,,None,1.3513513513513513,BetMGM_Odds,1250,TRUE
-Giancarlo Stanton,to hit 1+ HR,Giancarlo Stanton,+340,+350,+360,None,,None,1.0434782608695652,BetMGM_Odds,360,FALSE
-Corey Seager,to hit 1+ HR,Corey Seager,+390,+400,+425,None,,None,1.0759493670886076,BetMGM_Odds,425,FALSE
-Paul Goldschmidt,to hit 1+ HR,Paul Goldschmidt,+400,+450,+500,None,,None,1.1764705882352942,BetMGM_Odds,500,TRUE
-Cody Bellinger,to hit 1+ HR,Cody Bellinger,+475,+480,+575,None,,None,1.2041884816753927,BetMGM_Odds,575,TRUE
-Trent Grisham,to hit 1+ HR,Trent Grisham,+500,+420,+575,None,,None,1.25,BetMGM_Odds,575,TRUE
-Ben Rice,to hit 1+ HR,Ben Rice,+550,+540,+525,None,,None,1.0328638497652582,DraftKings_Odds,550,FALSE
-Adolis Garcia,to hit 1+ HR,Adolis Garcia,+550,+560,+675,None,,None,1.2162162162162162,BetMGM_Odds,675,TRUE
-Jazz Chisholm,to hit 1+ HR,Jazz Chisholm,+550,+560,+650,None,,None,1.1711711711711712,BetMGM_Odds,650,TRUE
-Wyatt Langford,to hit 1+ HR,Wyatt Langford,+500,+600,+625,None,,None,1.1363636363636365,BetMGM_Odds,625,TRUE
-Ryan McMahon,to hit 1+ HR,Ryan McMahon,+600,+600,+625,None,,None,1.0416666666666667,BetMGM_Odds,625,FALSE
-Marcus Semien,to hit 1+ HR,Marcus Semien,+650,+750,+725,None,,None,1.0909090909090908,FanDuel_Odds,750,FALSE
-Sam Haggerty,to hit 1+ HR,Sam Haggerty,+700,+900,+1450,None,,None,1.8125,BetMGM_Odds,1450,TRUE
-Anthony Volpe,to hit 1+ HR,Anthony Volpe,+700,+630,+750,None,,None,1.1278195488721805,BetMGM_Odds,750,TRUE
-Josh Jung,to hit 1+ HR,Josh Jung,+700,+750,+875,None,,None,1.206896551724138,BetMGM_Odds,875,TRUE
-Austin Slater,to hit 1+ HR,Austin Slater,+700,+750,+850,None,,None,1.1724137931034482,BetMGM_Odds,850,TRUE
-Jonah Heim,to hit 1+ HR,Jonah Heim,+750,+900,+900,None,,None,1.0909090909090908,FanDuel_Odds,900,FALSE
-Josh Smith,to hit 1+ HR,Josh Smith,+950,+900,+1100,None,,None,1.1891891891891893,BetMGM_Odds,1100,TRUE
-Seiya Suzuki,to hit 1+ HR,Seiya Suzuki,+425,+420,+450,None,,None,1.0650887573964498,BetMGM_Odds,450,FALSE
-Carson Kelly,to hit 1+ HR,Carson Kelly,+550,+630,+650,None,,None,1.1016949152542372,BetMGM_Odds,650,TRUE
-Austin Hays,to hit 1+ HR,Austin Hays,+550,+750,+675,None,,None,1.2244897959183674,FanDuel_Odds,750,TRUE
-Dansby Swanson,to hit 1+ HR,Dansby Swanson,+750,+750,+700,None,,None,1.0344827586206897,DraftKings_Odds,750,FALSE
-Elly De La Cruz,to hit 1+ HR,Elly De La Cruz,+550,+680,+725,None,,None,1.1788617886178863,BetMGM_Odds,725,TRUE
-Matt McLain,to hit 1+ HR,Matt McLain,+600,+680,+675,None,,None,1.0666666666666667,FanDuel_Odds,680,FALSE
-Ian Happ,to hit 1+ HR,Ian Happ,+650,+630,+650,None,,None,1.015625,DraftKings_Odds,650,FALSE
-TJ Friedl,to hit 1+ HR,TJ Friedl,+750,+680,+1100,None,,None,1.5384615384615385,BetMGM_Odds,1100,TRUE
-Jake Fraley,to hit 1+ HR,Jake Fraley,+700,+800,+1400,None,,None,1.8666666666666667,BetMGM_Odds,1400,TRUE
-Spencer Steer,to hit 1+ HR,Spencer Steer,+700,+680,+800,None,,None,1.1594202898550725,BetMGM_Odds,800,TRUE
-Justin Turner,to hit 1+ HR,Justin Turner,+650,+900,+950,None,,None,1.2258064516129032,BetMGM_Odds,950,TRUE
-Matt Shaw,to hit 1+ HR,Matt Shaw,+750,+870,+950,None,,None,1.1728395061728396,BetMGM_Odds,950,TRUE
-Tyler Stephenson,to hit 1+ HR,Tyler Stephenson,+600,+750,+700,None,,None,1.1538461538461537,FanDuel_Odds,750,TRUE
-Gavin Lux,to hit 1+ HR,Gavin Lux,+1000,+1000,+1200,None,,None,1.2,BetMGM_Odds,1200,TRUE
-Ke'Bryan Hayes,to hit 1+ HR,Ke'Bryan Hayes,+1000,+1200,+1150,None,,None,1.1162790697674418,FanDuel_Odds,1200,TRUE
-Nico Hoerner,to hit 1+ HR,Nico Hoerner,+950,+1300,+1100,None,,None,1.2682926829268293,FanDuel_Odds,1300,TRUE
-Willi Castro,to hit 1+ HR,Willi Castro,+900,+800,+1000,None,,None,1.1764705882352942,BetMGM_Odds,1000,TRUE
-Daulton Varsho,to hit 1+ HR,Daulton Varsho,+275,+255,+290,None,,None,1.0943396226415094,BetMGM_Odds,290,FALSE
-Addison Barger,to hit 1+ HR,Addison Barger,+230,+280,+275,None,,None,1.108910891089109,FanDuel_Odds,280,TRUE
-Hunter Goodman,to hit 1+ HR,Hunter Goodman,+230,+255,+270,None,,None,1.1134020618556701,BetMGM_Odds,270,TRUE
-Vladimir Guerrero Jr.,to hit 1+ HR,Vladimir Guerrero Jr.,+265,+255,+310,None,,None,1.1923076923076923,BetMGM_Odds,310,TRUE
-Bo Bichette,to hit 1+ HR,Bo Bichette,+350,+430,+425,None,,None,1.1096774193548387,FanDuel_Odds,430,TRUE
-Ezequiel Tovar,to hit 1+ HR,Ezequiel Tovar,+350,+420,+375,None,,None,1.1586206896551725,FanDuel_Odds,420,TRUE
-Joey Loperfido,to hit 1+ HR,Joey Loperfido,+400,+460,+450,None,,None,1.0823529411764705,FanDuel_Odds,460,FALSE
+Aaron Judge,1+ HR,Aaron Judge,+205,+220,+250,None,,None,1.1764705882352942,BetMGM_Odds,250,TRUE
+Addison Barger,1+ HR,Addison Barger,+230,+285,+260,None,,None,1.163265306122449,FanDuel_Odds,285,TRUE
+Adley Rutschman,1+ HR,Adley Rutschman,+390,+460,+425,None,,None,1.1288343558282208,FanDuel_Odds,460,TRUE
+Adolis Garcia,1+ HR,Adolis Garcia,+450,+480,+450,None,,None,1.0666666666666667,FanDuel_Odds,480,FALSE
+Alec Burleson,1+ HR,Alec Burleson,+370,+370,+375,None,,None,1.0135135135135136,BetMGM_Odds,375,FALSE
+Alejandro Kirk,1+ HR,Alejandro Kirk,+500,+560,+575,None,,None,1.0849056603773586,BetMGM_Odds,575,FALSE
+Alex Bregman,1+ HR,Alex Bregman,+350,+400,+400,None,,None,1.0666666666666667,FanDuel_Odds,400,FALSE
+Angel Martinez,1+ HR,Angel Martinez,+650,+700,+950,None,,None,1.4074074074074074,BetMGM_Odds,950,TRUE
+Anthony Volpe,1+ HR,Anthony Volpe,+900,+870,+950,None,,None,1.073446327683616,BetMGM_Odds,950,FALSE
+Austin Hays,1+ HR,Austin Hays,+550,+600,+575,None,,None,1.0666666666666667,FanDuel_Odds,600,FALSE
+Austin Martin,1+ HR,Austin Martin,+1100,+1100,+1400,None,,None,1.2727272727272727,BetMGM_Odds,1400,TRUE
+Ben Rice,1+ HR,Ben Rice,+450,+450,+425,None,,None,1.0285714285714285,DraftKings_Odds,450,FALSE
+Blake Perkins,1+ HR,Blake Perkins,+1000,+900,+1150,None,,None,1.2105263157894737,BetMGM_Odds,1150,TRUE
+Bo Bichette,1+ HR,Bo Bichette,+400,+470,+400,None,,None,1.175,FanDuel_Odds,470,TRUE
+Bo Naylor,1+ HR,Bo Naylor,+500,+680,+600,None,,None,1.2363636363636363,FanDuel_Odds,680,TRUE
+Bobby Witt Jr.,1+ HR,Bobby Witt Jr.,+550,+560,+600,None,,None,1.0810810810810811,BetMGM_Odds,600,FALSE
+Brandon Lowe,1+ HR,Brandon Lowe,+400,+560,+400,None,,None,1.4,FanDuel_Odds,560,TRUE
+Brandon Marsh,1+ HR,Brandon Marsh,+475,+600,+575,None,,None,1.1428571428571428,FanDuel_Odds,600,TRUE
+Brandon Nimmo,1+ HR,Brandon Nimmo,+500,+540,+500,None,,None,1.08,FanDuel_Odds,540,FALSE
+Brayan Rocchio,1+ HR,Brayan Rocchio,+1300,+1400,+1700,None,,None,1.2592592592592593,BetMGM_Odds,1700,TRUE
+Brent Rooker,1+ HR,Brent Rooker,+300,+340,+333,None,,None,1.0742496050552923,FanDuel_Odds,340,FALSE
+Brenton Doyle,1+ HR,Brenton Doyle,+700,+540,+550,None,,None,1.2844036697247707,DraftKings_Odds,700,TRUE
+Brett Baty,1+ HR,Brett Baty,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Bryan Reynolds,1+ HR,Bryan Reynolds,+800,+900,+950,None,,None,1.1176470588235294,BetMGM_Odds,950,TRUE
+Bryce Harper,1+ HR,Bryce Harper,+240,+260,+230,None,,None,1.1063829787234043,FanDuel_Odds,260,TRUE
+Bryson Stott,1+ HR,Bryson Stott,+650,+680,+775,None,,None,1.1654135338345866,BetMGM_Odds,775,TRUE
+C.J. Abrams,1+ HR,C.J. Abrams,+475,+560,+625,None,,None,1.2077294685990339,BetMGM_Odds,625,TRUE
+Caleb Durbin,1+ HR,Caleb Durbin,+800,+800,+1000,None,,None,1.25,BetMGM_Odds,1000,TRUE
+Cal Raleigh,1+ HR,Cal Raleigh,+230,+235,+250,None,,None,1.075268817204301,BetMGM_Odds,250,FALSE
+Cam Smith,1+ HR,Cam Smith,+750,+870,+850,None,,None,1.0875,FanDuel_Odds,870,FALSE
+Carlos Correa,1+ HR,Carlos Correa,+600,+680,+625,None,,None,1.110204081632653,FanDuel_Odds,680,TRUE
+Carlos Narvaez,1+ HR,Carlos Narvaez,+550,+560,+525,None,,None,1.041860465116279,FanDuel_Odds,560,FALSE
+Chandler Simpson,1+ HR,Chandler Simpson,+900,+900,+900,None,,None,1.0,DraftKings_Odds,900,FALSE
+Christian Koss,1+ HR,Christian Koss,+800,+900,+1200,None,,None,1.411764705882353,BetMGM_Odds,1200,TRUE
+Christian Moore,1+ HR,Christian Moore,+600,+680,+600,None,,None,1.1333333333333333,FanDuel_Odds,680,TRUE
+Christian Vazquez,1+ HR,Christian Vazquez,+1200,+900,+1350,None,,None,1.2857142857142858,BetMGM_Odds,1350,TRUE
+Christian Walker,1+ HR,Christian Walker,+390,+520,+450,None,,None,1.2380952380952381,FanDuel_Odds,520,TRUE
+Christian Yelich,1+ HR,Christian Yelich,+700,+600,+750,None,,None,1.1538461538461537,BetMGM_Odds,750,TRUE
+CJ Abrams,1+ HR,CJ Abrams,+475,+560,+625,None,,None,1.2077294685990339,BetMGM_Odds,625,TRUE
+CJ Kayfus,1+ HR,CJ Kayfus,+680,+680,+850,None,,None,1.25,BetMGM_Odds,850,TRUE
+Coby Mayo,1+ HR,Coby Mayo,+650,+600,+625,None,,None,1.0612244897959184,DraftKings_Odds,650,FALSE
+Colby Thomas,1+ HR,Colby Thomas,+750,+750,+700,None,,None,1.0344827586206897,DraftKings_Odds,750,FALSE
+Cole Young,1+ HR,Cole Young,+850,+1100,+1150,None,,None,1.1794871794871795,BetMGM_Odds,1150,TRUE
+Colson Montgomery,1+ HR,Colson Montgomery,+550,+520,+500,None,,None,1.0784313725490196,DraftKings_Odds,550,FALSE
+Colt Keith,1+ HR,Colt Keith,+550,+540,+575,None,,None,1.055045871559633,BetMGM_Odds,575,FALSE
+Corey Seager,1+ HR,Corey Seager,+350,+350,+400,None,,None,1.1428571428571428,BetMGM_Odds,400,TRUE
+Corbin Carroll,1+ HR,Corbin Carroll,+320,+400,+360,None,,None,1.1764705882352942,FanDuel_Odds,400,TRUE
+Cory Abbott,1+ HR,Cory Abbott,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Cristian Pache,1+ HR,Cristian Pache,+900,+900,+950,None,,None,1.0555555555555556,BetMGM_Odds,950,FALSE
+Curtis Mead,1+ HR,Curtis Mead,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Curtis Terry,1+ HR,Curtis Terry,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Curtis Washington Jr.,1+ HR,Curtis Washington Jr.,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Cyrillo Watson,1+ HR,Cyrillo Watson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+D.J. Herz,1+ HR,D.J. Herz,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+D.J. Stewart,1+ HR,D.J. Stewart,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dakota Chalmers,1+ HR,Dakota Chalmers,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dakota Hudson,1+ HR,Dakota Hudson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dale Burdick,1+ HR,Dale Burdick,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dallas Keuchel,1+ HR,Dallas Keuchel,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dalton Guthrie,1+ HR,Dalton Guthrie,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dalton Rushing,1+ HR,Dalton Rushing,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dalton Varsho,1+ HR,Dalton Varsho,+290,+290,+300,None,,None,1.0344827586206897,BetMGM_Odds,300,FALSE
+Damon Jones,1+ HR,Damon Jones,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dan Vogelbach,1+ HR,Dan Vogelbach,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dane Dunning,1+ HR,Dane Dunning,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Alvarez,1+ HR,Daniel Alvarez,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Bard,1+ HR,Daniel Bard,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Cabrera,1+ HR,Daniel Cabrera,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Camarena,1+ HR,Daniel Camarena,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Castano,1+ HR,Daniel Castano,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Espino,1+ HR,Daniel Espino,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Gossett,1+ HR,Daniel Gossett,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Johnson,1+ HR,Daniel Johnson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Lynch,1+ HR,Daniel Lynch,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Mengden,1+ HR,Daniel Mengden,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Norris,1+ HR,Daniel Norris,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Palka,1+ HR,Daniel Palka,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Palencia,1+ HR,Daniel Palencia,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Pinero,1+ HR,Daniel Pinero,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Procopio,1+ HR,Daniel Procopio,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Robertson,1+ HR,Daniel Robertson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Susac,1+ HR,Daniel Susac,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Tillo,1+ HR,Daniel Tillo,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Vogelbach,1+ HR,Daniel Vogelbach,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daniel Winkler,1+ HR,Daniel Winkler,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Danny Coulombe,1+ HR,Danny Coulombe,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Danny Duffy,1+ HR,Danny Duffy,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Danny Jansen,1+ HR,Danny Jansen,+550,+560,+700,None,,None,1.2612612612612613,BetMGM_Odds,700,TRUE
+Danny Mendick,1+ HR,Danny Mendick,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Danny Santana,1+ HR,Danny Santana,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Darien Nunez,1+ HR,Darien Nunez,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Darin Ruf,1+ HR,Darin Ruf,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Darius Vines,1+ HR,Darius Vines,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Darnell Sweeney,1+ HR,Darnell Sweeney,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Darryl Collins,1+ HR,Darryl Collins,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daulton Jefferies,1+ HR,Daulton Jefferies,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daulton Varsho,1+ HR,Daulton Varsho,+290,+290,+300,None,,None,1.0344827586206897,BetMGM_Odds,300,FALSE
+Dave Dunning,1+ HR,Dave Dunning,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Bednar,1+ HR,David Bednar,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Dahl,1+ HR,David Dahl,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Fletcher,1+ HR,David Fletcher,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Freitas,1+ HR,David Freitas,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Garcia,1+ HR,David Garcia,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Hamilton,1+ HR,David Hamilton,+800,+900,+1100,None,,None,1.2941176470588236,BetMGM_Odds,1100,TRUE
+David Hensley,1+ HR,David Hensley,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Hess,1+ HR,David Hess,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Huff,1+ HR,David Huff,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David MacKinnon,1+ HR,David MacKinnon,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Martinelli,1+ HR,David Martinelli,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Peterson,1+ HR,David Peterson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Price,1+ HR,David Price,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Robertson,1+ HR,David Robertson,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+David Villar,1+ HR,David Villar,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dawel Lugo,1+ HR,Dawel Lugo,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dawson Brinkley,1+ HR,Dawson Brinkley,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Daylen Lile,1+ HR,Daylen Lile,+700,+830,+800,None,,None,1.1066666666666667,FanDuel_Odds,830,TRUE
+Dayton Dooney,1+ HR,Dayton Dooney,+750,+750,+800,None,,None,1.0666666666666667,BetMGM_Odds,800,FALSE
+Dean Kre,None,None,None,None,None,None,None,None,None,None,None,None
