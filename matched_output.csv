@@ -1,21 +1,11 @@
-normalized_player,bet_type,player,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,GPT Moneyline,GPT Value,GPT Justification,value,value_book,value_odds,value_flag
-Aaron Judge,1+ HR,Aaron Judge,+210,+210,+250,None,,None,1.1904761904761905,BetMGM_Odds,250,TRUE
-Pete Alonso,1+ HR,Pete Alonso,+350,+340,+310,None,,None,1.0769230769230769,DraftKings_Odds,350,FALSE
-Shohei Ohtani,1+ HR,Shohei Ohtani,+190,+164,+200,None,,None,1.1299435028248588,BetMGM_Odds,200,TRUE
-Mike Trout,1+ HR,Mike Trout,+240,+280,+250,None,,None,1.1428571428571428,FanDuel_Odds,280,TRUE
-Bryce Harper,1+ HR,Bryce Harper,+350,+350,+360,None,,None,1.0285714285714285,BetMGM_Odds,360,FALSE
-Kyle Schwarber,1+ HR,Kyle Schwarber,+265,+265,+240,None,,None,1.0495049504950495,DraftKings_Odds,265,FALSE
-Juan Soto,1+ HR,Juan Soto,+350,+360,+400,None,,None,1.1267605633802817,BetMGM_Odds,400,TRUE
-Mookie Betts,1+ HR,Mookie Betts,+380,+390,+400,None,,None,1.0389610389610389,BetMGM_Odds,400,FALSE
-Freddie Freeman,1+ HR,Freddie Freeman,+425,+450,+450,None,,None,1.0285714285714285,FanDuel_Odds,450,FALSE
-Vladimir Guerrero Jr.,1+ HR,Vladimir Guerrero Jr.,+275,+290,+270,None,,None,1.0642201834862386,FanDuel_Odds,290,FALSE
-Cal Raleigh,1+ HR,Cal Raleigh,+210,+190,+220,None,,None,1.1,BetMGM_Odds,220,FALSE
-Eugenio Suarez,1+ HR,Eugenio Suarez,+285,+255,+300,None,,None,1.1111111111111112,BetMGM_Odds,300,TRUE
-Corey Seager,1+ HR,Corey Seager,+340,+340,+300,None,,None,1.0625,DraftKings_Odds,340,FALSE
-Trea Turner,1+ HR,Trea Turner,+380,+400,+500,None,,None,1.2820512820512822,BetMGM_Odds,500,TRUE
-Rafael Devers,1+ HR,Rafael Devers,+450,+480,+400,None,,None,1.1294117647058823,FanDuel_Odds,480,TRUE
-Matt Olson,1+ HR,Matt Olson,+370,+440,+400,None,,None,1.1428571428571428,FanDuel_Odds,440,TRUE
-Bobby Witt Jr.,1+ HR,Bobby Witt Jr.,+350,+420,+425,None,,None,1.103896103896104,BetMGM_Odds,425,TRUE
-Fernando Tatis Jr.,1+ HR,Fernando Tatis Jr.,+400,+420,+475,None,,None,1.1585365853658536,BetMGM_Odds,475,TRUE
-Manny Machado,1+ HR,Manny Machado,+400,+420,+450,None,,None,1.0975609756097562,BetMGM_Odds,450,FALSE
-Salvador Perez,1+ HR,Salvador Perez,+400,+470,+475,None,,None,1.0919540229885059,BetMGM_Odds,475,FALSE
+normalized_player,bet_type,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,GPT Moneyline,GPT Value,GPT Justification,value,value_book,value_odds,value_flag
+Aaron Judge,1+ HR,+210,+210,+250,None,,None,1.1904761904761905,BetMGM_Odds,250,TRUE
+Bryce Harper,1+ HR,+350,+350,+360,None,,None,1.0285714285714285,BetMGM_Odds,360,FALSE
+Mike Trout,1+ HR,+240,+280,+250,None,,None,1.1428571428571428,FanDuel_Odds,280,TRUE
+Shohei Ohtani,1+ HR,+190,+164,+200,None,,None,1.1299435028248588,BetMGM_Odds,200,TRUE
+Kyle Schwarber,1+ HR,+255,+255,+240,None,,None,1.0303030303030303,DraftKings_Odds,255,FALSE
+Pete Alonso,1+ HR,+350,+340,+310,None,,None,1.0769230769230769,DraftKings_Odds,350,FALSE
+Juan Soto,1+ HR,+350,+360,+375,None,,None,1.056338028169014,BetMGM_Odds,375,FALSE
+Corey Seager,1+ HR,+340,+340,+310,None,,None,1.0461538461538462,DraftKings_Odds,340,FALSE
+Vladimir Guerrero Jr.,1+ HR,+275,+290,+270,None,,None,1.0642201834862386,FanDuel_Odds,290,FALSE
+Cal Raleigh,1+ HR,+210,+190,+220,None,,None,1.1,BetMGM_Odds,220,FALSE
