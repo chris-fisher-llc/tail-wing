@@ -1,11 +1,228 @@
-normalized_player,bet_type,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,GPT Moneyline,GPT Value,GPT Justification,value,value_book,value_odds,value_flag
-Aaron Judge,1+ HR,+210,+210,+250,None,,None,1.1904761904761905,BetMGM_Odds,250,TRUE
-Bryce Harper,1+ HR,+350,+350,+360,None,,None,1.0285714285714285,BetMGM_Odds,360,FALSE
-Mike Trout,1+ HR,+240,+280,+250,None,,None,1.1428571428571428,FanDuel_Odds,280,TRUE
-Shohei Ohtani,1+ HR,+190,+164,+200,None,,None,1.1299435028248588,BetMGM_Odds,200,TRUE
-Kyle Schwarber,1+ HR,+255,+255,+240,None,,None,1.0303030303030303,DraftKings_Odds,255,FALSE
-Pete Alonso,1+ HR,+350,+340,+310,None,,None,1.0769230769230769,DraftKings_Odds,350,FALSE
-Juan Soto,1+ HR,+350,+360,+375,None,,None,1.056338028169014,BetMGM_Odds,375,FALSE
-Corey Seager,1+ HR,+340,+340,+310,None,,None,1.0461538461538462,DraftKings_Odds,340,FALSE
-Vladimir Guerrero Jr.,1+ HR,+275,+290,+270,None,,None,1.0642201834862386,FanDuel_Odds,290,FALSE
-Cal Raleigh,1+ HR,+210,+190,+220,None,,None,1.1,BetMGM_Odds,220,FALSE
+normalized_player,bet_type,player,DraftKings_Odds,FanDuel_Odds,BetMGM_Odds,value,value_book,value_odds,value_flag,GPT Moneyline,GPT Value,GPT Justification
+Aaron Judge,1+ HR,Aaron Judge,+210,+210,+240,1.1428571428571428,BetMGM_Odds,240,TRUE,None,,None
+Aaron Judge,to hit 1+ HR,Aaron Judge,,+210,+240,1.1428571428571428,BetMGM_Odds,240,TRUE,None,,None
+Abraham Toro,1+ HR,Abraham Toro,+850,+830,+850,1.0119047619047619,DraftKings_Odds,850,FALSE,None,,None
+Abraham Toro,to hit 1+ HR,Abraham Toro,,+830,+850,1.0240963855421688,BetMGM_Odds,850,FALSE,None,,None
+Adam Frazier,1+ HR,Adam Frazier,+1500,+1300,+1600,1.1428571428571428,BetMGM_Odds,1600,TRUE,None,,None
+Adam Frazier,to hit 1+ HR,Adam Frazier,,+1300,+1600,1.2307692307692308,BetMGM_Odds,1600,TRUE,None,,None
+Addison Barger,1+ HR,Addison Barger,+360,+350,+375,1.056338028169014,BetMGM_Odds,375,FALSE,None,,None
+Addison Barger,to hit 1+ HR,Addison Barger,,+350,+375,1.0714285714285714,BetMGM_Odds,375,FALSE,None,,None
+Adley Rutschman,1+ HR,Adley Rutschman,+600,+750,+825,1.2222222222222223,BetMGM_Odds,825,TRUE,None,,None
+Adley Rutschman,to hit 1+ HR,Adley Rutschman,,+750,+825,1.1,BetMGM_Odds,825,FALSE,None,,None
+Adolis Garcia,1+ HR,Adolis Garcia,+475,+520,+475,1.0947368421052632,FanDuel_Odds,520,FALSE,None,,None
+Adolis Garcia,to hit 1+ HR,Adolis Garcia,,+520,+475,1.0947368421052632,FanDuel_Odds,520,FALSE,None,,None
+Agustin Ramirez,1+ HR,Agustin Ramirez,+425,+470,,1.1058823529411765,FanDuel_Odds,470,TRUE,None,,None
+Agustin Ramirez,to hit 1+ HR,Agustin Ramirez,,+470,,None,None,None,None,None,None,None
+Alan Roden,1+ HR,Alan Roden,+950,+1000,+1100,1.1282051282051282,BetMGM_Odds,1100,TRUE,None,,None
+Alan Roden,to hit 1+ HR,Alan Roden,,+1000,+1100,1.1,BetMGM_Odds,1100,TRUE,None,,None
+Alejandro Kirk,1+ HR,Alejandro Kirk,+500,+600,+525,1.170731707317073,FanDuel_Odds,600,TRUE,None,,None
+Alejandro Kirk,to hit 1+ HR,Alejandro Kirk,,+600,+525,1.1428571428571428,FanDuel_Odds,600,TRUE,None,,None
+Alec Burleson,1+ HR,Alec Burleson,+425,+430,+550,1.286549707602339,BetMGM_Odds,550,TRUE,None,,None
+Alec Burleson,to hit 1+ HR,Alec Burleson,,+430,+550,1.2790697674418605,BetMGM_Odds,550,TRUE,None,,None
+Alex Bregman,1+ HR,Alex Bregman,+390,+470,+400,1.1898734177215189,FanDuel_Odds,470,TRUE,None,,None
+Alex Bregman,to hit 1+ HR,Alex Bregman,,+470,+400,1.175,FanDuel_Odds,470,TRUE,None,,None
+Alex Call,1+ HR,Alex Call,+600,,+825,1.375,BetMGM_Odds,825,TRUE,None,,None
+Alex Call,to hit 1+ HR,Alex Call,,,,None,None,None,None,None,None,None
+Alex Jackson,1+ HR,Alex Jackson,+950,+830,+850,1.130952380952381,DraftKings_Odds,950,TRUE,None,,None
+Alex Jackson,to hit 1+ HR,Alex Jackson,,+830,+850,1.0240963855421688,BetMGM_Odds,850,FALSE,None,,None
+Alexander Canario,1+ HR,Alexander Canario,+800,+870,+750,1.1225806451612903,FanDuel_Odds,870,TRUE,None,,None
+Alexander Canario,to hit 1+ HR,Alexander Canario,,+870,+750,1.16,FanDuel_Odds,870,TRUE,None,,None
+Angel Martinez,1+ HR,Angel Martinez,+750,+800,+1000,1.2903225806451613,BetMGM_Odds,1000,TRUE,None,,None
+Angel Martinez,to hit 1+ HR,Angel Martinez,,+800,+1000,1.25,BetMGM_Odds,1000,TRUE,None,,None
+Andy Pages,1+ HR,Andy Pages,+425,+390,+425,1.0429447852760736,DraftKings_Odds,425,FALSE,None,,None
+Andy Pages,to hit 1+ HR,Andy Pages,,+390,+425,1.0897435897435896,BetMGM_Odds,425,FALSE,None,,None
+Angel Martínez,O 0.5 HR,Angel Martínez,,,+1000,None,None,None,None,None,None,None
+Anthony Volpe,1+ HR,Anthony Volpe,+750,+800,+700,1.103448275862069,FanDuel_Odds,800,TRUE,None,,None
+Anthony Volpe,to hit 1+ HR,Anthony Volpe,,+800,+700,1.1428571428571428,FanDuel_Odds,800,TRUE,None,,None
+Austin Hays,1+ HR,Austin Hays,+600,+630,+600,1.05,FanDuel_Odds,630,FALSE,None,,None
+Austin Hays,to hit 1+ HR,Austin Hays,,+630,+600,1.05,FanDuel_Odds,630,FALSE,None,,None
+Austin Hedges,1+ HR,Austin Hedges,+1000,+1200,+1500,1.3636363636363635,BetMGM_Odds,1500,TRUE,None,,None
+Austin Hedges,to hit 1+ HR,Austin Hedges,,+1200,+1500,1.25,BetMGM_Odds,1500,TRUE,None,,None
+Austin Nola,to hit 1+ HR,Austin Nola,,+1060,+1150,1.0849056603773586,BetMGM_Odds,1150,FALSE,None,,None
+Austin Wells,1+ HR,Austin Wells,+475,+480,,1.0105263157894737,FanDuel_Odds,480,FALSE,None,,None
+Austin Wells,to hit 1+ HR,Austin Wells,,+480,,None,None,None,None,None,None,None
+Ben Rice,to hit 1+ HR,Ben Rice,,+450,+375,1.2,FanDuel_Odds,450,TRUE,None,,None
+Blaze Alexander,1+ HR,Blaze Alexander,+750,+850,+950,1.1875,BetMGM_Odds,950,TRUE,None,,None
+Blaze Alexander,to hit 1+ HR,Blaze Alexander,,+850,+950,1.1176470588235294,BetMGM_Odds,950,TRUE,None,,None
+Bo Bichette,1+ HR,Bo Bichette,+310,+420,+360,1.2537313432835822,FanDuel_Odds,420,TRUE,None,,None
+Bo Bichette,to hit 1+ HR,Bo Bichette,,+420,+360,1.1666666666666667,FanDuel_Odds,420,TRUE,None,,None
+Bobby Witt Jr.,1+ HR,Bobby Witt Jr.,+350,+420,+425,1.103896103896104,BetMGM_Odds,425,TRUE,None,,None
+Bobby Witt Jr.,to hit 1+ HR,Bobby Witt Jr.,,+420,+425,1.0119047619047619,BetMGM_Odds,425,FALSE,None,,None
+Brandon Lockridge,to hit 1+ HR,Brandon Lockridge,,+1000,+1500,1.5,BetMGM_Odds,1500,TRUE,None,,None
+Brandon Lowe,O 0.5 HR,Brandon Lowe,,,+260,None,None,None,None,None,None,None
+Brandon Nimmo,1+ HR,Brandon Nimmo,+475,+480,+500,1.0471204188481675,BetMGM_Odds,500,FALSE,None,,None
+Brandon Nimmo,to hit 1+ HR,Brandon Nimmo,,+480,+500,1.0416666666666667,BetMGM_Odds,500,FALSE,None,,None
+Brayan Rocchio,1+ HR,Brayan Rocchio,+1100,+1100,+1450,1.3181818181818181,BetMGM_Odds,1450,TRUE,None,,None
+Brayan Rocchio,to hit 1+ HR,Brayan Rocchio,,+1100,+1450,1.3181818181818181,BetMGM_Odds,1450,TRUE,None,,None
+Brady House,1+ HR,Brady House,+450,+600,+475,1.2972972972972974,FanDuel_Odds,600,TRUE,None,,None
+Brady House,to hit 1+ HR,Brady House,,+600,+475,1.263157894736842,FanDuel_Odds,600,TRUE,None,,None
+Brendan Donovan,1+ HR,Brendan Donovan,+475,+600,+750,1.3953488372093024,BetMGM_Odds,750,TRUE,None,,None
+Brendan Donovan,to hit 1+ HR,Brendan Donovan,,+600,+750,1.25,BetMGM_Odds,750,TRUE,None,,None
+Brent Rooker,1+ HR,Brent Rooker,+270,+310,+310,1.0689655172413792,FanDuel_Odds,310,FALSE,None,,None
+Brent Rooker,to hit 1+ HR,Brent Rooker,,+310,+310,1.0,FanDuel_Odds,310,FALSE,None,,None
+Brenton Doyle,1+ HR,Brenton Doyle,+550,+560,+550,1.018181818181818,FanDuel_Odds,560,FALSE,None,,None
+Brenton Doyle,to hit 1+ HR,Brenton Doyle,,+560,+550,1.018181818181818,FanDuel_Odds,560,FALSE,None,,None
+Brett Baty,1+ HR,Brett Baty,+850,+750,+900,1.125,BetMGM_Odds,900,TRUE,None,,None
+Brett Baty,to hit 1+ HR,Brett Baty,,+750,+900,1.2,BetMGM_Odds,900,TRUE,None,,None
+Brooks Baldwin,to hit 1+ HR,Brooks Baldwin,,+830,+825,1.006060606060606,FanDuel_Odds,830,FALSE,None,,None
+Brooks Lee,1+ HR,Brooks Lee,+700,+830,+950,1.2418300653594772,BetMGM_Odds,950,TRUE,None,,None
+Brooks Lee,to hit 1+ HR,Brooks Lee,,+830,+950,1.144578313253012,BetMGM_Odds,950,TRUE,None,,None
+Bryan Reynolds,1+ HR,Bryan Reynolds,+500,+680,+625,1.208888888888889,FanDuel_Odds,680,TRUE,None,,None
+Bryan Reynolds,to hit 1+ HR,Bryan Reynolds,,+680,+625,1.088,FanDuel_Odds,680,FALSE,None,,None
+Bryce Harper,1+ HR,Bryce Harper,+350,+350,+360,1.0285714285714285,BetMGM_Odds,360,FALSE,None,,None
+Bryce Harper,to hit 1+ HR,Bryce Harper,,+350,+360,1.0285714285714285,BetMGM_Odds,360,FALSE,None,,None
+Bryce Teodosio,to hit 1+ HR,Bryce Teodosio,,+1060,,None,None,None,None,None,None,None
+C.J. Abrams,1+ HR,C.J. Abrams,+500,+540,+625,1.2019230769230769,BetMGM_Odds,625,TRUE,None,,None
+C.J. Abrams,to hit 1+ HR,C.J. Abrams,,+540,+625,1.1574074074074074,BetMGM_Odds,625,TRUE,None,,None
+C.J. Kayfus,to hit 1+ HR,C.J. Kayfus,,+870,+950,1.0919540229885059,BetMGM_Odds,950,FALSE,None,,None
+Caleb Durbin,to hit 1+ HR,Caleb Durbin,,+870,+1250,1.4367816091954022,BetMGM_Odds,1250,TRUE,None,,None
+Cal Raleigh,1+ HR,Cal Raleigh,+210,+190,+220,1.1,BetMGM_Odds,220,FALSE,None,,None
+Cal Raleigh,to hit 1+ HR,Cal Raleigh,,+190,+220,1.1578947368421053,BetMGM_Odds,220,TRUE,None,,None
+Cam Smith,1+ HR,Cam Smith,+850,+1060,+1060,1.1099476439790577,FanDuel_Odds,1060,TRUE,None,,None
+Cam Smith,to hit 1+ HR,Cam Smith,,+1060,+1060,1.0,FanDuel_Odds,1060,FALSE,None,,None
+Carlos Cortes,O 0.5 HR,Carlos Cortes,,,+725,None,None,None,None,None,None,None
+Carlos Correa,1+ HR,Carlos Correa,+650,+680,+680,1.0225563909774436,FanDuel_Odds,680,FALSE,None,,None
+Carlos Correa,to hit 1+ HR,Carlos Correa,,+680,+680,1.0,FanDuel_Odds,680,FALSE,None,,None
+Carlos Santana,1+ HR,Carlos Santana,+700,+680,+775,1.1231884057971016,BetMGM_Odds,775,TRUE,None,,None
+Carlos Santana,to hit 1+ HR,Carlos Santana,,+680,+775,1.1397058823529411,BetMGM_Odds,775,TRUE,None,,None
+Carson Kelly,1+ HR,Carson Kelly,+475,+600,+575,1.1428571428571428,FanDuel_Odds,600,TRUE,None,,None
+Carson Kelly,to hit 1+ HR,Carson Kelly,,+600,+575,1.0434782608695652,FanDuel_Odds,600,FALSE,None,,None
+Casey Schmitt,1+ HR,Casey Schmitt,+500,+680,+550,1.2952380952380953,FanDuel_Odds,680,TRUE,None,,None
+Casey Schmitt,to hit 1+ HR,Casey Schmitt,,+680,+550,1.2363636363636363,FanDuel_Odds,680,TRUE,None,,None
+Ceddanne Rafaela,1+ HR,Ceddanne Rafaela,+700,+630,+675,1.0727969348659003,DraftKings_Odds,700,FALSE,None,,None
+Ceddanne Rafaela,to hit 1+ HR,Ceddanne Rafaela,,+630,+675,1.0714285714285714,BetMGM_Odds,675,FALSE,None,,None
+Cedric Mullins,1+ HR,Cedric Mullins,+550,+600,+675,1.173913043478261,BetMGM_Odds,675,TRUE,None,,None
+Cedric Mullins,to hit 1+ HR,Cedric Mullins,,+600,+675,1.125,BetMGM_Odds,675,TRUE,None,,None
+Christian Koss,1+ HR,Christian Koss,+800,+830,+800,1.0375,FanDuel_Odds,830,FALSE,None,,None
+Christian Koss,to hit 1+ HR,Christian Koss,,+830,+800,1.0375,FanDuel_Odds,830,FALSE,None,,None
+Christian Moore,1+ HR,Christian Moore,+600,+630,+725,1.1788617886178863,BetMGM_Odds,725,TRUE,None,,None
+Christian Moore,to hit 1+ HR,Christian Moore,,+630,+725,1.1507936507936507,BetMGM_Odds,725,TRUE,None,,None
+Christian Walker,1+ HR,Christian Walker,+475,+500,,1.0526315789473684,FanDuel_Odds,500,FALSE,None,,None
+Christian Walker,to hit 1+ HR,Christian Walker,,+500,,None,None,None,None,None,None,None
+Christian Yelich,1+ HR,Christian Yelich,+475,+630,+650,1.1764705882352942,BetMGM_Odds,650,TRUE,None,,None
+Christian Yelich,to hit 1+ HR,Christian Yelich,,+630,+650,1.0317460317460319,BetMGM_Odds,650,FALSE,None,,None
+Christopher Morel,1+ HR,Christopher Morel,+310,+340,+310,1.096774193548387,FanDuel_Odds,340,FALSE,None,,None
+Christopher Morel,to hit 1+ HR,Christopher Morel,,+340,+310,1.096774193548387,FanDuel_Odds,340,FALSE,None,,None
+CJ Abrams,1+ HR,CJ Abrams,+500,+540,+625,1.2019230769230769,BetMGM_Odds,625,TRUE,None,,None
+CJ Abrams,to hit 1+ HR,CJ Abrams,,+540,+625,1.1574074074074074,BetMGM_Odds,625,TRUE,None,,None
+CJ Kayfus,to hit 1+ HR,CJ Kayfus,,+870,+950,1.0919540229885059,BetMGM_Odds,950,FALSE,None,,None
+Coby Mayo,1+ HR,Coby Mayo,+800,+800,+850,1.0625,BetMGM_Odds,850,FALSE,None,,None
+Coby Mayo,to hit 1+ HR,Coby Mayo,,+800,+850,1.0625,BetMGM_Odds,850,FALSE,None,,None
+Cole Young,to hit 1+ HR,Cole Young,,+900,+1050,1.1666666666666667,BetMGM_Odds,1050,TRUE,None,,None
+Colson Montgomery,1+ HR,Colson Montgomery,+650,+680,+675,1.0264150943396226,FanDuel_Odds,680,FALSE,None,,None
+Colson Montgomery,to hit 1+ HR,Colson Montgomery,,+680,+675,1.0074074074074073,FanDuel_Odds,680,FALSE,None,,None
+Colt Keith,1+ HR,Colt Keith,+550,+560,+650,1.1711711711711712,BetMGM_Odds,650,TRUE,None,,None
+Colt Keith,to hit 1+ HR,Colt Keith,,+560,+650,1.1607142857142858,BetMGM_Odds,650,TRUE,None,,None
+Connor Wong,O 0.5 HR,Connor Wong,,,+1000,None,None,None,None,None,None,None
+Corbin Carroll,1+ HR,Corbin Carroll,+450,+440,+500,1.1235955056179776,BetMGM_Odds,500,TRUE,None,,None
+Corbin Carroll,to hit 1+ HR,Corbin Carroll,,+440,+500,1.1363636363636365,BetMGM_Odds,500,TRUE,None,,None
+Corey Seager,1+ HR,Corey Seager,+340,+340,+300,1.0625,DraftKings_Odds,340,FALSE,None,,None
+Corey Seager,to hit 1+ HR,Corey Seager,,+340,+300,1.1333333333333333,FanDuel_Odds,340,TRUE,None,,None
+Cory Abbott,O 0.5 HR,Cory Abbott,,,+1000,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory Abbott,to hit 1+ HR,Cory Abbott,,+1000,,None,None,None,None,None,None,None
+Cory,None,None,None,None,None,None,None,None,None,None,None,None
