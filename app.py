@@ -56,10 +56,10 @@ def run_app(df=None):
     df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
     # Keep a touch of precision for sorting, then pretty print
     df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
-    df["Value"] = df["Value"]  # keep numeric for sort & styling
+    # Keep numeric Value for sorting/styling
 
-    # Reorder columns for display
-    display_cols = ["Player", "Bet Type"] + odds_cols + ["Value", "Best Book"]
+    # Reorder columns for display (retain _Value_print so we can turn it into Value_display later)
+    display_cols = ["Player", "Bet Type"] + odds_cols + ["Value", "_Value_print", "Best Book"]
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
@@ -74,7 +74,7 @@ def run_app(df=None):
     # --- Default sort by Value descending ---
     df = df.sort_values(by="Value", ascending=False, na_position="last")
 
-    # Swap Value back to printable string for rendering while preserving numeric for styling
+    # Swap Value to printable string for rendering while preserving numeric for styling
     df["Value_display"] = df["_Value_print"]
     df.drop(columns=["_Value_print"], inplace=True)
 
@@ -89,7 +89,7 @@ def run_app(df=None):
             return ""
         # index 0 for [1.1,1.2), 1 for [1.2,1.3), ... up to cap at 2.5
         capped = min(v, 2.5)
-        step = int((capped - 1.1) // 0.1)  # 0..13, 2.5 falls into top bucket we’ll cap below
+        step = int((capped - 1.1) // 0.1)
         step = max(0, min(step, 14))
         # alpha from 0.12 → 0.90 across 15 steps
         alpha = 0.12 + (0.90 - 0.12) * (step / 14.0)
@@ -107,7 +107,7 @@ def run_app(df=None):
         return styles
 
     # Build styled DataFrame:
-    # Use "Value_display" for showing; use "Value" for styling shades.
+    # Use "Value_display" for showing; use numeric "Value" for shade calcs (parsed inside value_step_style).
     render_df = df.copy()
     render_df["Value"] = render_df["Value_display"]
     render_df.drop(columns=["Value_display"], inplace=True)
