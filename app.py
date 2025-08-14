@@ -12,25 +12,22 @@ def run_app(df=None):
     if df is None:
         try:
             df = pd.read_csv("matched_output.csv")
-            from_zone = pytz.utc
+            # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
-            ts = None
-            try:
-                ts = datetime.fromtimestamp(os.path.getmtime("matched_output.csv"), pytz.utc)
-            except Exception:
-                pass
-            if ts:
-                eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
-                st.caption(f"Last updated: {eastern}")
+            ts = datetime.fromtimestamp(os.path.getmtime("matched_output.csv"), pytz.utc)
+            eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
+            st.caption(f"Odds last updated: {eastern}")
         except FileNotFoundError:
-            st.warning("No matched_output.csv found yet. Once the workflow runs, this will populate.")
+            st.error("matched_output.csv not found.")
             return
         except Exception as e:
             st.error(f"Error loading matched_output.csv: {e}")
             return
+    else:
+        st.caption("Odds loaded from memory.")
 
     if df.empty:
-        st.info("No rows to display yet.")
+        st.warning("No data to display.")
         return
 
     # --- Normalize column names used in UI ---
@@ -42,7 +39,7 @@ def run_app(df=None):
     })
 
     # Detect all sportsbook odds columns dynamically (e.g., DraftKings_Odds, FanDuel_Odds, etc.)
-    odds_cols = [c for c in df.columns if c.endswith("_Odds")]
+    odds_cols = sorted([c for c in df.columns if c.endswith("_Odds")])
 
     # Safely format odds to American style strings
     def to_american(x):
@@ -57,67 +54,70 @@ def run_app(df=None):
 
     # Clean and format Value column safely
     df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
-    df["Value"] = df["Value"].round(3)
-    df["Value"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
+    # Keep a touch of precision for sorting, then pretty print
+    df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
+    df["Value"] = df["Value"]  # keep numeric for sort & styling
 
     # Reorder columns for display
-    display_cols = ["Player", "Bet Type"] + sorted(odds_cols) + ["Value", "Best Book"]
+    display_cols = ["Player", "Bet Type"] + odds_cols + ["Value", "Best Book"]
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
-    # --- Best Book filter (sidebar) ---
-    best_book_values = sorted([b for b in df["Best Book"].dropna().unique().tolist()])
-    if best_book_values:
-        selected_books = st.sidebar.multiselect(
-            "Filter by Best Book",
-            options=best_book_values,
-            default=best_book_values
-        )
-        if selected_books:
-            df = df[df["Best Book"].isin(selected_books)]
-        else:
-            # If nothing selected, show empty (explicit user choice)
-            df = df.iloc[0:0]
+    # --- Best Book filter (replicates original UX) ---
+    with st.sidebar:
+        st.header("Filter by Best Book")
+        books = df["Best Book"].dropna().unique().tolist()
+        selected_book = st.selectbox("", ["All"] + sorted(books))
+    if selected_book != "All":
+        df = df[df["Best Book"] == selected_book]
 
     # --- Default sort by Value descending ---
-    try:
-        df["Value_sort"] = pd.to_numeric(df["Value"], errors="coerce")
-        df = df.sort_values(by="Value_sort", ascending=False).drop(columns=["Value_sort"])
-    except Exception:
-        pass
+    df = df.sort_values(by="Value", ascending=False, na_position="last")
 
-    # --- Styling helpers ---
-    def highlight_best_odds(row):
-        styles = [""] * len(row)
-        if "Best Book" in row.index and pd.notnull(row["Best Book"]):
-            best_col = str(row["Best Book"])
-            if best_col in row.index:
-                idx = list(row.index).index(best_col)
-                styles[idx] = "font-weight: 600; background-color: rgba(0, 128, 0, 0.12);"
-        return styles
+    # Swap Value back to printable string for rendering while preserving numeric for styling
+    df["Value_display"] = df["_Value_print"]
+    df.drop(columns=["_Value_print"], inplace=True)
 
-    def value_shade(val):
+    # -------- Styling helpers --------
+    # Step gradient every 0.1 between 1.1 and 2.5 (15 steps: 1.1..2.5 inclusive)
+    def value_step_style(val):
         try:
             v = float(val)
         except:
             return ""
-        # Gradient between 1.1 and 2.5
-        if v >= 1.1:
-            capped = min(v, 2.5)
-            # scale from 0 (at 1.1) to 1 (at 2.5)
-            scale = (capped - 1.1) / (2.5 - 1.1)
-            # green intensity: from 12% → 80% as scale goes 0 → 1
-            intensity = 12 + int(scale * (80 - 12))
-            return f"background-color: rgba(0,128,0,{intensity/100}); font-weight: 600;"
-        return ""
+        if v < 1.1:
+            return ""
+        # index 0 for [1.1,1.2), 1 for [1.2,1.3), ... up to cap at 2.5
+        capped = min(v, 2.5)
+        step = int((capped - 1.1) // 0.1)  # 0..13, 2.5 falls into top bucket we’ll cap below
+        step = max(0, min(step, 14))
+        # alpha from 0.12 → 0.90 across 15 steps
+        alpha = 0.12 + (0.90 - 0.12) * (step / 14.0)
+        return f"background-color: rgba(0,128,0,{alpha}); font-weight: 600;"
 
-    # Build styled DataFrame
-    styled = df.style
+    # Highlight the row's Best Book column cell using the same value-based shade
+    def highlight_best_book_cells(row):
+        styles = [""] * len(row)
+        best = row.get("Best Book", "")
+        # compute shade based on numeric Value
+        shade = value_step_style(row.get("Value", ""))
+        if best and best in row.index:
+            idx = list(row.index).index(best)
+            styles[idx] = shade
+        return styles
 
-    if "Value" in df.columns:
-        styled = styled.applymap(value_shade, subset=["Value"])
+    # Build styled DataFrame:
+    # Use "Value_display" for showing; use "Value" for styling shades.
+    render_df = df.copy()
+    render_df["Value"] = render_df["Value_display"]
+    render_df.drop(columns=["Value_display"], inplace=True)
 
-    styled = styled.apply(highlight_best_odds, axis=1).set_table_styles([
+    styled = render_df.style
+
+    if "Value" in render_df.columns:
+        styled = styled.applymap(value_step_style, subset=["Value"])
+
+    styled = styled.apply(highlight_best_book_cells, axis=1).set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'),
                                      ('text-align', 'center'),
                                      ('font-size', '16px')]}
