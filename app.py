@@ -65,6 +65,20 @@ def run_app(df=None):
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
+    # --- Best Book filter (sidebar) ---
+    best_book_values = sorted([b for b in df["Best Book"].dropna().unique().tolist()])
+    if best_book_values:
+        selected_books = st.sidebar.multiselect(
+            "Filter by Best Book",
+            options=best_book_values,
+            default=best_book_values
+        )
+        if selected_books:
+            df = df[df["Best Book"].isin(selected_books)]
+        else:
+            # If nothing selected, show empty (explicit user choice)
+            df = df.iloc[0:0]
+
     # --- Default sort by Value descending ---
     try:
         df["Value_sort"] = pd.to_numeric(df["Value"], errors="coerce")
