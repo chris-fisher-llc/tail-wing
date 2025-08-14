@@ -14,10 +14,8 @@ def run_app(df=None):
             df = pd.read_csv("matched_output.csv")
             from_zone = pytz.utc
             to_zone = pytz.timezone('US/Eastern')
-            # Try to detect a commit or file timestamp for "Last updated"
             ts = None
             try:
-                # If running on GH Pages / raw file, fallback to local mtime
                 ts = datetime.fromtimestamp(os.path.getmtime("matched_output.csv"), pytz.utc)
             except Exception:
                 pass
@@ -67,8 +65,14 @@ def run_app(df=None):
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
+    # --- Default sort by Value descending ---
+    try:
+        df["Value_sort"] = pd.to_numeric(df["Value"], errors="coerce")
+        df = df.sort_values(by="Value_sort", ascending=False).drop(columns=["Value_sort"])
+    except Exception:
+        pass
+
     # --- Styling helpers ---
-    # Highlight the best book column for each row (column name matches Best Book value, e.g., "FanDuel_Odds")
     def highlight_best_odds(row):
         styles = [""] * len(row)
         if "Best Book" in row.index and pd.notnull(row["Best Book"]):
@@ -78,16 +82,19 @@ def run_app(df=None):
                 styles[idx] = "font-weight: 600; background-color: rgba(0, 128, 0, 0.12);"
         return styles
 
-    # Shade Value cell by magnitude (>=1.10 green, >=1.05 lighter green)
     def value_shade(val):
         try:
             v = float(val)
         except:
             return ""
-        if v >= 1.10:
-            return "background-color: rgba(0, 128, 0, 0.22); font-weight: 600;"
-        if v >= 1.05:
-            return "background-color: rgba(0, 128, 0, 0.12);"
+        # Gradient between 1.1 and 2.5
+        if v >= 1.1:
+            capped = min(v, 2.5)
+            # scale from 0 (at 1.1) to 1 (at 2.5)
+            scale = (capped - 1.1) / (2.5 - 1.1)
+            # green intensity: from 12% → 80% as scale goes 0 → 1
+            intensity = 12 + int(scale * (80 - 12))
+            return f"background-color: rgba(0,128,0,{intensity/100}); font-weight: 600;"
         return ""
 
     # Build styled DataFrame
