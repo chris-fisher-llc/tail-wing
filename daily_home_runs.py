@@ -4,7 +4,7 @@ import csv
 from datetime import datetime, timezone
 from collections import defaultdict
 
-API_KEY = "2e563a999b140389d269789871257204"  # use repo secret in CI; hardcode locally if you must
+API_KEY = "7f8cbb98207020adbd0218844a595725"  # use repo secret in CI; hardcode locally if you must
 TARGET_MARKETS = ["batter_home_runs", "batter_home_runs_alternate"]
 
 def _titlecase_book(book_key: str) -> str:
@@ -143,3 +143,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
