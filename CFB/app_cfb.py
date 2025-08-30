@@ -23,7 +23,9 @@ def run_app(df=None):
     # Load DataFrame from CSV if none provided
     if df is None:
         try:
-            df = pd.read_csv("CFB/cfb_matched_output.csv")
+            script_dir = os.path.dirname(__file__)
+            csv_path = os.path.join(script_dir, "cfb_matched_output.csv")           
+            df = pd.read_csv(csv_path)
             # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
             ts = datetime.fromtimestamp(os.path.getmtime("cfb_matched_output.csv"), pytz.utc)
@@ -136,4 +138,5 @@ def run_app(df=None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
