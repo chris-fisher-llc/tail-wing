@@ -26,9 +26,10 @@ def run_app(df=None):
             script_dir = os.path.dirname(__file__)
             csv_path = os.path.join(script_dir, "cfb_matched_output.csv")           
             df = pd.read_csv(csv_path)
+
             # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
-            ts = datetime.fromtimestamp(os.path.getmtime("cfb_matched_output.csv"), pytz.utc)
+            ts = datetime.fromtimestamp(os.path.getmtime(csv_path), pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
             st.caption(f"📅 Odds last updated: {eastern}")
         except FileNotFoundError:
@@ -129,7 +130,7 @@ def run_app(df=None):
         {'selector': 'th', 'props': [('font-weight', 'bold'),
                                      ('text-align', 'center'),
                                      ('font-size', '16px'),
-                                     ('background-color', '#800000'),   # maroon headers (SEC/Big Ten vibe)
+                                     ('background-color', '#800000'),   # maroon headers
                                      ('color', 'white')]}
     ])
 
@@ -138,5 +139,3 @@ def run_app(df=None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
-
-
