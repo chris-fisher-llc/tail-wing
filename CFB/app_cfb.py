@@ -57,6 +57,16 @@ def run_app(df=None):
         "best_odds": "Best Odds"
     })
 
+    # Format Kickoff column → "12:00 p.m. ET"
+    if "Kickoff" in df.columns:
+        df["Kickoff"] = pd.to_datetime(df["Kickoff"], errors="coerce").dt.strftime("%-I:%M %p ET")
+        df["Kickoff"] = df["Kickoff"].str.replace("AM", "a.m.", regex=False)
+        df["Kickoff"] = df["Kickoff"].str.replace("PM", "p.m.", regex=False)
+
+    # Format Line column → always 1 decimal place
+    if "Line" in df.columns:
+        df["Line"] = pd.to_numeric(df["Line"], errors="coerce").map(lambda x: f"{x:.1f}" if pd.notnull(x) else "")
+
     # Detect sportsbook odds columns dynamically
     odds_cols = sorted([c for c in df.columns if c.endswith("_Odds")])
 
