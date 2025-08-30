@@ -1,0 +1,34 @@
+name: Update CFB Lines
+
+on:
+  schedule:
+    # Every Saturday at 11:00 a.m. Eastern
+    - cron: "0 16 * * 6"
+  workflow_dispatch:   # allows manual trigger from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Run CFB odds script
+        run: python CFB/cfb_lines.py
+
+      - name: Commit updated CSV
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add CFB/cfb_matched_output.csv
+          git commit -m "Auto-update CFB odds"
+          git push
