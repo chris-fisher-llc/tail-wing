@@ -216,12 +216,17 @@ def main():
     suffix = ["best_book", "best_odds", "best_decimal", "avg_other_decimal", "value_ratio", "value_flag"]
     fieldnames = prefix + books_order + suffix
 
-    with open("cfb_matched_output.csv", "w", newline="", encoding="utf-8") as f:
+    # Save inside the same folder as this script (CFB/)
+    script_dir = os.path.dirname(__file__)
+    output_path = os.path.join(script_dir, "cfb_matched_output.csv")
+    
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
-
-    print(f"Wrote cfb_matched_output.csv with {len(rows)} rows and {len(books_order)} book columns.")
+    
+    print(f"Wrote {output_path} with {len(rows)} rows and {len(books_order)} book columns.")
 
 if __name__ == "__main__":
     main()
+
