@@ -1,15 +1,17 @@
 game,kickoff_et,bet_type,selection,opponent,line,BetMGM_Odds,BetRivers_Odds,Betonlineag_Odds,Betus_Odds,Bovada_Odds,DraftKings_Odds,FanDuel_Odds,Fanatics_Odds,Lowvig_Odds,Mybookieag_Odds,WilliamhillUs_Odds,best_book,best_odds,best_decimal,avg_other_decimal,value_ratio,value_flag
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Miami Hurricanes,Notre Dame Fighting Irish,2.5,,,,,,,-102,,,,,FanDuel_Odds,-102,1.9804,,,FALSE
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Miami Hurricanes,Notre Dame Fighting Irish,3.0,-115,-108,-115,-115,-110,-115,,-115,-111,-115,-115,BetRivers_Odds,-108,1.9259,1.8774,1.0258,TRUE
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Notre Dame Fighting Irish,Miami Hurricanes,-3.0,-105,-115,-105,-105,-110,-105,,-105,-101,-105,-105,Lowvig_Odds,-101,1.9901,1.9384,1.0267,TRUE
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Notre Dame Fighting Irish,Miami Hurricanes,-2.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Over,,50.5,-110,-112,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9075,1.0097,FALSE
-Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Under,,50.5,-110,-112,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9075,1.0097,FALSE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Spread,South Carolina Gamecocks,Virginia Tech Hokies,-7.5,-105,-109,,,,,-106,100,,,,Fanatics_Odds,100,2.0,1.9377,1.0321,TRUE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Spread,South Carolina Gamecocks,Virginia Tech Hokies,-7.0,,,-121,-120,-120,-115,,,-111,-115,-115,Lowvig_Odds,-111,1.9009,1.8503,1.0273,TRUE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Spread,Virginia Tech Hokies,South Carolina Gamecocks,7.0,,,101,100,100,-105,,,-101,-105,-105,Betonlineag_Odds,101,2.01,1.9745,1.018,FALSE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Spread,Virginia Tech Hokies,South Carolina Gamecocks,7.5,-115,-113,,,,,-114,-120,,,,BetRivers_Odds,-113,1.885,1.86,1.0134,FALSE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Total,Over,,51.0,,-113,,,-115,,,,,,,BetRivers_Odds,-113,1.885,1.8696,1.0082,FALSE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Total,Over,,51.5,-110,,-110,-110,,-108,-105,-110,-108,-110,-110,FanDuel_Odds,-105,1.9524,1.9133,1.0204,TRUE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Total,Under,,51.0,,-110,,,-105,,,,,,,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:00 ET,Total,Under,,51.5,-110,,-110,-110,,-112,-115,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9021,1.0125,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Miami Hurricanes,Notre Dame Fighting Irish,2.5,-105,-107,-110,-105,-105,-105,-105,100,,-105,100,Fanatics_Odds,100,2.0,1.9509,1.0252,TRUE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Miami Hurricanes,Notre Dame Fighting Irish,3.0,,,,,,,,,-119,,,Lowvig_Odds,-119,1.8403,,,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Notre Dame Fighting Irish,Miami Hurricanes,-3.0,,,,,,,,,107,,,Lowvig_Odds,107,2.07,,,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Spread,Notre Dame Fighting Irish,Miami Hurricanes,-2.5,-115,-117,-110,-115,-115,-115,-115,-120,,-115,-120,Betonlineag_Odds,-110,1.9091,1.8599,1.0265,TRUE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Over,,51.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Over,,51.5,-110,,-110,-105,-105,-110,-110,-110,-108,-110,-110,Bovada_Odds,-105,1.9524,1.9158,1.0191,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Under,,51.0,,-114,,,,,,,,,,BetRivers_Odds,-114,1.8772,,,FALSE
+Notre Dame Fighting Irish @ Miami Hurricanes,2025-08-31 19:30 ET,Total,Under,,51.5,-110,,-110,-115,-115,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9003,1.0135,FALSE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Spread,South Carolina Gamecocks,Virginia Tech Hokies,-7.0,-105,-113,,,,-110,,,,-110,-110,BetMGM_Odds,-105,1.9524,1.9031,1.0259,TRUE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Spread,South Carolina Gamecocks,Virginia Tech Hokies,-6.5,,,-110,-115,-105,,-124,-105,-106,,,Bovada_Odds,-105,1.9524,1.8962,1.0296,TRUE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Spread,Virginia Tech Hokies,South Carolina Gamecocks,6.5,,,-110,-105,-115,,102,-115,-106,,,FanDuel_Odds,102,2.02,1.9088,1.0583,TRUE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Spread,Virginia Tech Hokies,South Carolina Gamecocks,7.0,-115,-110,,,,-110,,,,-110,-110,DraftKings_Odds,-110,1.9091,1.8992,1.0052,FALSE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Total,Over,,51.5,-115,-113,,,,-115,-110,,-112,-110,,FanDuel_Odds,-110,1.9091,1.8852,1.0127,FALSE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Total,Over,,52.0,,,-118,-110,-115,,,-110,,,-115,Fanatics_Odds,-110,1.9091,1.8739,1.0188,FALSE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Total,Under,,51.5,-105,-110,,,,-105,-110,,-105,-110,,DraftKings_Odds,-105,1.9524,1.9264,1.0135,FALSE
+Virginia Tech Hokies @ South Carolina Gamecocks,2025-08-31 15:09 ET,Total,Under,,52.0,,,-102,-110,-105,,,-110,,,-105,Betonlineag_Odds,-102,1.9804,1.9307,1.0257,TRUE
