@@ -172,8 +172,8 @@ if __name__ == "__main__":
                     rows.append({
                         "event": event_label,
                         "player": player,
-                        "group": group,
-                        "threshold": threshold,
+                        "Bet Type": group,
+                        "Alt Line": threshold,
                         "book": book_name,
                         "odds": price,
                     })
@@ -234,4 +234,5 @@ if __name__ == "__main__":
         out = out.sort_values(by=["value_ratio"], ascending=[False], na_position="last")
 
     out.to_csv("nfl_player_props.csv", index=False)
+
     print("Saved nfl_player_props.csv with", len(out), "rows.")
