@@ -11,7 +11,7 @@ st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
-       🏈 NFL Player Props — Anomaly Board 🏈
+        NFL Player Props — Anomaly Board
     </h1>
     <p style='text-align: center; font-size:18px; color: gray;'>
         Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges
@@ -65,11 +65,17 @@ def run_app(df: pd.DataFrame | None = None):
             return
         try:
             df = pd.read_csv(csv_path)
+            # Clean up any stray 'Unnamed' columns created by CSV readers/pivots
+            df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
+            df = df.dropna(axis=1, how="all")
             # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
-            st.caption(f"Odds last updated: {eastern}")
+            st.caption(f"Odds last updated: {eastern} — {csv_path}")
+        except Exception as e:
+            st.error(f"Error loading {csv_path}: {e}")
+            returnf"Odds last updated: {eastern} — {csv_path}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
             return
@@ -95,7 +101,10 @@ def run_app(df: pd.DataFrame | None = None):
     # Detect sportsbook odds columns dynamically (anything not in fixed set)
     fixed_cols = {"Event", "Player", "Group", "Threshold", "Best Book", "Best Odds", "Value",
                   "best_decimal", "avg_other"}
-    odds_cols = [c for c in df.columns if c not in fixed_cols]
+    odds_cols = [
+        c for c in df.columns
+        if c not in fixed_cols and not str(c).startswith("Unnamed")
+    ]
 
     # Format odds nicely
     def to_american(x):
@@ -186,4 +195,3 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
-
