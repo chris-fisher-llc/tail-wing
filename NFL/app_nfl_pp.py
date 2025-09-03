@@ -69,7 +69,7 @@ def run_app(df: pd.DataFrame | None = None):
             to_zone = pytz.timezone('US/Eastern')
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
-            st.caption(f"Odds last updated: {eastern} — {csv_path}")
+            st.caption(f"Odds last updated: {eastern}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
             return
@@ -186,3 +186,4 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
