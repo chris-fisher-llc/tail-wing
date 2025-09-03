@@ -1,0 +1,58 @@
+name: Update NFL Player Props
+
+on:
+  schedule:
+    # 8:00 AM ET year-round (DST aware by using both UTC times)
+    - cron: "0 12 * * *"   # 8am EDT
+    - cron: "0 13 * * *"   # 8am EST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-nfl-props
+  cancel-in-progress: false
+
+jobs:
+  update-csv:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: main/nfl
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # needed for committing/pushing
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          # if you have a requirements.txt, prefer: pip install -r requirements.txt
+          pip install requests pandas pytz
+
+      - name: Run scraper (now → end of Monday ET)
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: |
+          python nfl_player_props.py
+          test -f nfl_player_props.csv || (echo "CSV missing after run" && exit 1)
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage only if there are changes
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "Auto-update NFL props ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
