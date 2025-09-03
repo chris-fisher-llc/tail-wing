@@ -2,38 +2,76 @@ import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
+from pathlib import Path
 import pytz
 
 st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 
-# Themed header
+# ---- Header (no emojis) ----
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
-        🏈 NFL Player Props Anomaly Board
+       🏈 NFL Player Props — Anomaly Board 🏈
     </h1>
     <p style='text-align: center; font-size:18px; color: gray;'>
-        Powered by The Tail Wing — scanning books for alt-yds & anytime TD edges
+        Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges
     </p>
     """,
     unsafe_allow_html=True
 )
 
+# ---- CSV path resolution ----
+def _find_csv_path() -> Path | None:
+    # 1) Environment override
+    env = os.getenv("NFL_PROPS_CSV")
+    if env:
+        p = Path(env)
+        if p.exists():
+            return p
+
+    # 2) Common relative locations
+    here = Path(__file__).resolve().parent
+    candidates = [
+        here / "nfl_player_props.csv",
+        here / "nfl" / "nfl_player_props.csv",
+        here.parent / "nfl_player_props.csv",
+        here.parent / "nfl" / "nfl_player_props.csv",
+        Path.cwd() / "nfl_player_props.csv",
+        Path.cwd() / "nfl" / "nfl_player_props.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+
+    # 3) Last resort: recursive search near app (first match)
+    try:
+        for p in here.rglob("nfl_player_props.csv"):
+            return p
+    except Exception:
+        pass
+    return None
+
+
 def run_app(df: pd.DataFrame | None = None):
     # Load DataFrame from CSV if none provided
     if df is None:
+        csv_path = _find_csv_path()
+        if not csv_path or not csv_path.exists():
+            st.error(
+                "nfl_player_props.csv not found.\n\n"
+                "• Place the file next to this app, or in an 'nfl/' subfolder, or set env var NFL_PROPS_CSV to the full path.\n\n"
+                f"Working directory: {Path.cwd()}\n"
+            )
+            return
         try:
-            df = pd.read_csv("nfl_player_props.csv")
+            df = pd.read_csv(csv_path)
             # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
-            ts = datetime.fromtimestamp(os.path.getmtime("nfl_player_props.csv"), pytz.utc)
+            ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
-            st.caption(f"📅 Odds last updated: {eastern}")
-        except FileNotFoundError:
-            st.error("nfl_player_props.csv not found.")
-            return
+            st.caption(f"Odds last updated: {eastern} — {csv_path}")
         except Exception as e:
-            st.error(f"Error loading nfl_player_props.csv: {e}")
+            st.error(f"Error loading {csv_path}: {e}")
             return
     else:
         st.caption("Odds loaded from memory.")
@@ -83,11 +121,11 @@ def run_app(df: pd.DataFrame | None = None):
 
     # --- Sidebar filters ---
     with st.sidebar:
-        st.header("📚 Filter by Best Book")
+        st.header("Filter by Best Book")
         books = df["Best Book"].dropna().unique().tolist() if "Best Book" in df.columns else []
         selected_book = st.selectbox("", ["All"] + sorted(books))
 
-        st.header("🎯 Filter by Event")
+        st.header("Filter by Event")
         events = df["Event"].dropna().unique().tolist() if "Event" in df.columns else []
         selected_event = st.selectbox("", ["All"] + sorted(events))
 
@@ -105,7 +143,7 @@ def run_app(df: pd.DataFrame | None = None):
     df.drop(columns=["_Value_print"], inplace=True)
 
     # -------- Styling --------
-    # Player prop values can be large. Step every 0.2 from 1.0 to 4.0; cap above 4.0
+    # Step every 0.2 from 1.0 to 4.0; cap above 4.0; green gradient
     def value_step_style(val):
         try:
             v = float(val)
@@ -114,10 +152,8 @@ def run_app(df: pd.DataFrame | None = None):
         if v <= 1.0:
             return ""
         capped = min(v, 4.0)
-        # steps between 1.0 and 4.0 in 0.2 increments → 15 steps (index 0..15)
         step = int((capped - 1.0) // 0.2)
         step = max(0, min(step, 15))
-        # map step to alpha 0.12 → 0.95
         alpha = 0.12 + (0.95 - 0.12) * (step / 15.0)
         return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
@@ -141,7 +177,7 @@ def run_app(df: pd.DataFrame | None = None):
         {'selector': 'th', 'props': [('font-weight', 'bold'),
                                      ('text-align', 'center'),
                                      ('font-size', '16px'),
-                                     ('background-color', '#003366'),   # deep blue headers (NFL vibe)
+                                     ('background-color', '#003366'),
                                      ('color', 'white')]}
     ])
 
