@@ -164,4 +164,42 @@ def run_app(df: pd.DataFrame | None = None):
     def value_step_style(val):
         try:
             v = float(val)
+        except Exception:
+            return ""
+        if v <= 1.0:
+            return ""
+        capped = min(v, 4.0)
+        step = int((capped - 1.0) // 0.2)
+        step = max(0, min(step, 15))
+        alpha = 0.12 + (0.95 - 0.12) * (step / 15.0)
+        return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
+    def highlight_best_book_cells(row):
+        styles = [""] * len(row)
+        best = row.get("Best Book", "")
+        shade = value_step_style(row.get("Value", ""))
+        if best and best in row.index:
+            idx = list(row.index).index(best)
+            styles[idx] = shade
+        return styles
+
+    render_df = df.copy()
+    render_df["Value"] = render_df["Value_display"]
+    render_df.drop(columns=["Value_display"], inplace=True)
+
+    styled = render_df.style
+    if "Value" in render_df.columns:
+        styled = styled.applymap(value_step_style, subset=["Value"])  # gradient fill by value
+    styled = styled.apply(highlight_best_book_cells, axis=1).set_table_styles([
+        {'selector': 'th', 'props': [('font-weight', 'bold'),
+                                     ('text-align', 'center'),
+                                     ('font-size', '16px'),
+                                     ('background-color', '#003366'),
+                                     ('color', 'white')]}
+    ])
+
+    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+
+# Run if executed directly
+if __name__ == "__main__":
+    run_app()
