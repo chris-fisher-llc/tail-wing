@@ -75,7 +75,7 @@ def run_app(df: pd.DataFrame | None = None):
             st.caption(f"Odds last updated: {eastern}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
-            returnf"Odds last updated: {eastern} — {csv_path}")
+            st.caption("Odds last updated: {eastern} — {csv_path}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
             return
@@ -195,5 +195,6 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
