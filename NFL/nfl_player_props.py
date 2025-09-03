@@ -172,8 +172,8 @@ if __name__ == "__main__":
                     rows.append({
                         "event": event_label,
                         "player": player,
-                        "Bet Type": group,
-                        "Alt Line": threshold,
+                        "group": group,
+                        "threshold": threshold,
                         "book": book_name,
                         "odds": price,
                     })
@@ -190,7 +190,8 @@ if __name__ == "__main__":
         values="odds",
         aggfunc="first",
     ).reset_index()
-
+    pivot.columns.name = None
+    
     if pivot.empty:
         print("No data after pivot (no matching thresholds/books).")
         sys.exit(0)
@@ -236,3 +237,4 @@ if __name__ == "__main__":
     out.to_csv("nfl_player_props.csv", index=False)
 
     print("Saved nfl_player_props.csv with", len(out), "rows.")
+
