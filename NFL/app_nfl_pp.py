@@ -11,7 +11,7 @@ st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
-        NFL Player Props — Anomaly Board
+       🏈 NFL Player Props — Anomaly Board 🏈
     </h1>
     <p style='text-align: center; font-size:18px; color: gray;'>
         Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges
@@ -203,3 +203,4 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
