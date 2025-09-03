@@ -90,8 +90,8 @@ def run_app(df: pd.DataFrame | None = None):
     rename_map = {
         "event": "Event",
         "player": "Player",
-        "group": "Group",
-        "threshold": "Threshold",
+        "group": "Bet Type",
+        "threshold": "Alt Line",
         "best_book": "Best Book",
         "best_odds": "Best Odds",
         "value_ratio": "Value",
@@ -195,6 +195,7 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
 
