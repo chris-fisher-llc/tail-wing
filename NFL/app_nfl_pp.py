@@ -163,4 +163,5 @@ def run_app(df: pd.DataFrame | None = None):
     # Step every 0.2 from 1.0 to 4.0; cap above 4.0; green gradient
     def value_step_style(val):
         try:
-            v = float(val
+            v = float(val)
+
