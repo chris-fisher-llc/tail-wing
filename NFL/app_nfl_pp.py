@@ -99,7 +99,7 @@ def run_app(df: pd.DataFrame | None = None):
     df = df.rename(columns=rename_map)
 
     # Detect sportsbook odds columns dynamically (anything not in fixed set)
-    fixed_cols = {"Event", "Player", "Group", "Threshold", "Best Book", "Best Odds", "Value",
+    fixed_cols = {"Event", "Player", "Bet Type", "Alt Line", "Best Book", "Best Odds", "Value",
                   "best_decimal", "avg_other"}
     odds_cols = [
         c for c in df.columns
@@ -124,7 +124,7 @@ def run_app(df: pd.DataFrame | None = None):
     df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
 
     # Reorder columns for display
-    display_cols = ["Event", "Player", "Group", "Threshold"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
+    display_cols = ["Event", "Player", "Bet Type", "Alt Line"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
@@ -195,6 +195,7 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
 
