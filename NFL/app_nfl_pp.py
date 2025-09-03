@@ -69,7 +69,7 @@ def run_app(df: pd.DataFrame | None = None):
             df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
             df = df.dropna(axis=1, how="all")
             # "Last updated" in US/Eastern
-            to_zone = pytz.timezone('US/Eastern')
+            to_zone = pytz.timezone("US/Eastern")
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
             st.caption(f"Odds last updated: {eastern}")
@@ -195,4 +195,5 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
