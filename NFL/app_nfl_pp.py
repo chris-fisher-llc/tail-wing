@@ -11,7 +11,7 @@ st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
-       🏈 NFL Player Props — Anomaly Board 🏈
+        NFL Player Props — Anomaly Board
     </h1>
     <p style='text-align: center; font-size:18px; color: gray;'>
         Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges
@@ -69,13 +69,13 @@ def run_app(df: pd.DataFrame | None = None):
             df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
             df = df.dropna(axis=1, how="all")
             # "Last updated" in US/Eastern
-            to_zone = pytz.timezone("US/Eastern")
+            to_zone = pytz.timezone('US/Eastern')
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
-            st.caption(f"Odds last updated: {eastern}")
+            st.caption(f"Odds last updated: {eastern} — {csv_path}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
-            st.caption("Odds last updated: {eastern} — {csv_path}")
+            returnf"Odds last updated: {eastern} — {csv_path}")
         except Exception as e:
             st.error(f"Error loading {csv_path}: {e}")
             return
@@ -124,7 +124,7 @@ def run_app(df: pd.DataFrame | None = None):
     df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
 
     # Reorder columns for display
-    display_cols = ["Event", "Player", "Bet Type", "Alt Line"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
+    display_cols = ["Event", "Player", "Group", "Threshold"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
@@ -138,9 +138,17 @@ def run_app(df: pd.DataFrame | None = None):
         events = df["Event"].dropna().unique().tolist() if "Event" in df.columns else []
         selected_event = st.selectbox("", ["All"] + sorted(events))
 
+        st.header("Filter by Bet Type")
+        bet_types = df["Bet Type"].dropna().unique().tolist() if "Bet Type" in df.columns else []
+        selected_bet_type = st.selectbox("", ["All"] + sorted(bet_types))
+
     if selected_book != "All":
         df = df[df["Best Book"] == selected_book]
     if selected_event != "All":
+        df = df[df["Event"] == selected_event]
+    if 'selected_bet_type' in locals() and selected_bet_type != "All":
+        df = df[df["Bet Type"] == selected_bet_type]
+
         df = df[df["Event"] == selected_event]
 
     # --- Sort by Value ---
@@ -195,9 +203,3 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
-
-
-
-
-
-
