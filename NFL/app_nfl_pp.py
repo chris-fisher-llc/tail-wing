@@ -56,7 +56,7 @@ def wait_for_csv_update():
             time.sleep(10)
             if csv_path.stat().st_mtime != old_mtime:
                 st.success("Data updated — reloading!")
-                st.experimental_rerun()
+                st.rerun()
 
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
@@ -248,6 +248,7 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
 
