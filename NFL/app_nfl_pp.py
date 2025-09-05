@@ -58,14 +58,6 @@ def wait_for_csv_update():
                 st.success("Data updated — reloading!")
                 st.experimental_rerun()
 
-# Centered refresh button row
-btn_cols = st.columns([1, 1, 1])
-with btn_cols[1]:
-    if st.button("Refresh Odds (Run GitHub Action)", use_container_width=True):
-        trigger_github_action()
-        st.info("Waiting for new data...")
-        wait_for_csv_update()
-
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
     # 1) Environment override
@@ -97,6 +89,13 @@ def _find_csv_path() -> Path | None:
         pass
     return None
 
+# Centered refresh button row
+btn_cols = st.columns([1, 1, 1])
+with btn_cols[1]:
+    if st.button("Refresh Odds (Run GitHub Action)", use_container_width=True):
+        trigger_github_action()
+        st.info("Waiting for new data...")
+        wait_for_csv_update()
 
 def run_app(df: pd.DataFrame | None = None):
     # Load DataFrame from CSV if none provided
@@ -249,6 +248,7 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
 
