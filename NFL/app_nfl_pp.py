@@ -4,10 +4,11 @@ import os
 from datetime import datetime
 from pathlib import Path
 import pytz
+import requests  # <-- added
 
 st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 
-# ---- Header (no emojis) ----
+# ---- Header ----
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
@@ -19,6 +20,39 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# ---- Manual refresh (GitHub Actions trigger) ----
+def trigger_github_action():
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO")  # e.g., "chris-fisher-llc/tail-wing"
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nfl-player-props.yml")  # filename in .github/workflows/
+    ref = st.secrets.get("GITHUB_REF", "main")
+
+    if not token or not repo:
+        st.error("Missing secrets: please set GITHUB_TOKEN and GITHUB_REPO in st.secrets.")
+        return
+
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"token {token}",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    payload = {"ref": ref}
+
+    with st.spinner("Triggering GitHub Action…"):
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+    if resp.status_code == 204:
+        st.success("Refresh kicked off. Odds will update automatically when the CSV is pushed.")
+    else:
+        st.error(f"Failed to trigger workflow ({resp.status_code}): {resp.text}")
+
+# Centered refresh button row
+btn_cols = st.columns([1, 1, 1])
+with btn_cols[1]:
+    if st.button("Refresh Odds (Run GitHub Action)", use_container_width=True):
+        trigger_github_action()
+st.caption("Use this to run the repository’s ‘Update NFL Player Props’ workflow on demand.")
 
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
@@ -203,4 +237,3 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
-
