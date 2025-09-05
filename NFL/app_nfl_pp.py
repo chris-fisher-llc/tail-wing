@@ -47,22 +47,24 @@ def trigger_github_action():
     else:
         st.error(f"Failed to trigger workflow ({resp.status_code}): {resp.text}")
 
+def wait_for_csv_update():
+    import time
+    csv_path = _find_csv_path()
+    if csv_path and csv_path.exists():
+        old_mtime = csv_path.stat().st_mtime
+        for _ in range(12):  # check every 10s for 2 minutes
+            time.sleep(10)
+            if csv_path.stat().st_mtime != old_mtime:
+                st.success("Data updated — reloading!")
+                st.experimental_rerun()
+
 # Centered refresh button row
 btn_cols = st.columns([1, 1, 1])
 with btn_cols[1]:
     if st.button("Refresh Odds (Run GitHub Action)", use_container_width=True):
         trigger_github_action()
         st.info("Waiting for new data...")
-
-        import time
-        csv_path = _find_csv_path()
-        if csv_path and csv_path.exists():
-            old_mtime = csv_path.stat().st_mtime
-            for i in range(12):  # check every 10s for 2 minutes
-                time.sleep(10)
-                if csv_path.stat().st_mtime != old_mtime:
-                    st.success("Data updated — reloading!")
-                    st.experimental_rerun()
+        wait_for_csv_update()
 
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
@@ -247,5 +249,6 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
 
 
