@@ -52,7 +52,6 @@ btn_cols = st.columns([1, 1, 1])
 with btn_cols[1]:
     if st.button("Refresh Odds (Run GitHub Action)", use_container_width=True):
         trigger_github_action()
-st.caption("Use this to run the repository’s ‘Update NFL Player Props’ workflow on demand.")
 
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
@@ -237,3 +236,4 @@ def run_app(df: pd.DataFrame | None = None):
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
+
