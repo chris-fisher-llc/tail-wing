@@ -5,7 +5,7 @@ on:
     # 8:00 AM ET year-round (run at both UTC times to cover DST)
     - cron: "0 12 * * *"   # 8am EDT
     - cron: "0 13 * * *"   # 8am EST
-  workflow_dispatch:
+  workflow_dispatch:  # <-- Triggered by the Streamlit button
 
 permissions:
   contents: write
