@@ -1,148 +1,174 @@
-event,player,group,threshold,BetMGM,BetOnline.ag,Bovada,Caesars,DraftKings,FanDuel,best_book,best_odds,best_decimal,avg_other,value_ratio
-Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,110,,,,,2600.0,1400.0,DraftKings,2600.0,27.0,15.0,1.8
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,50,,550.0,,,980.0,,DraftKings,980.0,10.8,6.5,1.6615384615384616
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,80,,2700.0,,,4400.0,,DraftKings,4400.0,45.0,28.0,1.6071428571428572
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,350,1250.0,,,,1980.0,1280.0,DraftKings,1980.0,20.8,13.65,1.5238095238095237
-Washington Commanders @ Green Bay Packers,Washington Commanders D/ST,AnytimeTD,Anytime,,,800.0,,500.0,,Bovada,800.0,9.0,6.0,1.5
-Washington Commanders @ Green Bay Packers,John FitzPatrick,AnytimeTD,Anytime,,1400.0,2500.0,1700.0,1500.0,2700.0,FanDuel,2700.0,28.0,18.75,1.4933333333333334
-Washington Commanders @ Green Bay Packers,John Bates,AnytimeTD,Anytime,,1300.0,2500.0,1500.0,1300.0,2500.0,Bovada,2500.0,26.0,17.5,1.4857142857142858
-Washington Commanders @ Green Bay Packers,Ben Sinnott,AnytimeTD,Anytime,,1300.0,2500.0,1600.0,1300.0,2500.0,Bovada,2500.0,26.0,17.75,1.4647887323943662
-Washington Commanders @ Green Bay Packers,Emanuel Wilson,AnytimeTD,Anytime,,450.0,825.0,550.0,475.0,850.0,FanDuel,850.0,9.5,6.75,1.4074074074074074
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,80,,1800.0,,,2500.0,,DraftKings,2500.0,26.0,19.0,1.368421052631579
-Washington Commanders @ Green Bay Packers,Jaylin Lane,AnytimeTD,Anytime,,600.0,1000.0,700.0,600.0,1000.0,Bovada,1000.0,11.0,8.25,1.3333333333333333
-Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,110,,,,,2300.0,1700.0,DraftKings,2300.0,24.0,18.0,1.3333333333333333
-Washington Commanders @ Green Bay Packers,Chris Moore,AnytimeTD,Anytime,,800.0,1300.0,,800.0,1300.0,Bovada,1300.0,14.0,10.666666666666666,1.3125
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,25,,,,,219.0,310.0,FanDuel,310.0,4.1,3.19,1.2852664576802506
-Washington Commanders @ Green Bay Packers,Dontayvion Wicks,AnytimeTD,Anytime,,300.0,440.0,375.0,310.0,480.0,FanDuel,480.0,5.8,4.5625,1.2712328767123287
-Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,110,,,,,1280.0,1000.0,DraftKings,1280.0,13.8,11.0,1.2545454545454546
-Washington Commanders @ Green Bay Packers,Colson Yankoff,AnytimeTD,Anytime,,1700.0,2500.0,2000.0,1700.0,2500.0,Bovada,2500.0,26.0,20.75,1.2530120481927711
-Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,80,,,,,710.0,550.0,DraftKings,710.0,8.1,6.5,1.2461538461538462
-Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,110,,,,,1480.0,1200.0,DraftKings,1480.0,15.8,13.0,1.2153846153846155
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,50,575.0,360.0,,,556.0,,BetMGM,575.0,6.75,5.58,1.2096774193548387
-Washington Commanders @ Green Bay Packers,Luke Musgrave,AnytimeTD,Anytime,,650.0,900.0,750.0,650.0,900.0,Bovada,900.0,10.0,8.375,1.1940298507462686
-Washington Commanders @ Green Bay Packers,Malik Heath,AnytimeTD,Anytime,,800.0,1100.0,950.0,800.0,1100.0,Bovada,1100.0,12.0,10.125,1.1851851851851851
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,50,600.0,,,,700.0,550.0,DraftKings,700.0,8.0,6.75,1.1851851851851851
-Washington Commanders @ Green Bay Packers,Jordan Love,Passing,300,425.0,,,,,520.0,FanDuel,520.0,6.2,5.25,1.180952380952381
-Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,80,,,,,1520.0,1280.0,DraftKings,1520.0,16.2,13.8,1.1739130434782608
-Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,80,,,,,630.0,750.0,FanDuel,750.0,8.5,7.3,1.1643835616438356
-Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,110,,,,,880.0,750.0,DraftKings,880.0,9.8,8.5,1.1529411764705884
-Washington Commanders @ Green Bay Packers,Jordan Love,Passing,350,1100.0,,,,,1280.0,FanDuel,1280.0,13.8,12.0,1.1500000000000001
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,110,,,,,1740.0,1500.0,DraftKings,1740.0,18.4,16.0,1.15
-Washington Commanders @ Green Bay Packers,Jordan Love,Passing,250,130.0,,,,,162.0,FanDuel,162.0,2.62,2.3,1.1391304347826088
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,300,475.0,,,,563.0,490.0,DraftKings,563.0,6.63,5.825,1.1381974248927038
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,110,,,,,341.0,290.0,DraftKings,341.0,4.41,3.9,1.1307692307692307
-Washington Commanders @ Green Bay Packers,Jeremy McNichols,AnytimeTD,Anytime,,1100.0,1300.0,1100.0,1100.0,1300.0,Bovada,1300.0,14.0,12.5,1.12
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,25,110.0,,,,130.0,104.0,DraftKings,130.0,2.3,2.0700000000000003,1.111111111111111
-Washington Commanders @ Green Bay Packers,Noah Brown,AnytimeTD,Anytime,,500.0,600.0,525.0,500.0,600.0,Bovada,600.0,7.0,6.3125,1.108910891089109
-Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,80,,,,,480.0,430.0,DraftKings,480.0,5.8,5.3,1.0943396226415094
-Washington Commanders @ Green Bay Packers,Matthew Golden,AnytimeTD,Anytime,,190.0,240.0,220.0,195.0,240.0,Bovada,240.0,3.4,3.1125000000000003,1.0923694779116464
-Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,50,425.0,,,,376.0,390.0,BetMGM,425.0,5.25,4.83,1.0869565217391304
-Washington Commanders @ Green Bay Packers,Tucker Kraft,AnytimeTD,Anytime,,170.0,210.0,195.0,175.0,210.0,Bovada,210.0,3.1,2.875,1.0782608695652174
-Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,50,,,,,148.0,130.0,DraftKings,148.0,2.48,2.3,1.0782608695652174
-Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,50,200.0,,,,213.0,230.0,FanDuel,230.0,3.3,3.065,1.0766721044045677
-Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,25,-275.0,,,,-191.0,-210.0,DraftKings,-191.0,1.5235602094240837,1.41991341991342,1.0729951474907418
-Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,50,200.0,,,,178.0,210.0,FanDuel,210.0,3.1,2.89,1.0726643598615917
-Washington Commanders @ Green Bay Packers,Chris Brooks,AnytimeTD,Anytime,,500.0,525.0,500.0,500.0,550.0,FanDuel,550.0,6.5,6.0625,1.0721649484536082
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,25,115.0,,,,115.0,130.0,FanDuel,130.0,2.3,2.15,1.069767441860465
-Washington Commanders @ Green Bay Packers,Ben Sims,AnytimeTD,Anytime,,1400.0,,,1500.0,,DraftKings,1500.0,16.0,15.0,1.0666666666666667
-Washington Commanders @ Green Bay Packers,Savion Williams,AnytimeTD,Anytime,,1000.0,1100.0,1000.0,1000.0,1100.0,Bovada,1100.0,12.0,11.25,1.0666666666666667
-Washington Commanders @ Green Bay Packers,Jayden Daniels,AnytimeTD,Anytime,,150.0,180.0,170.0,155.0,180.0,Bovada,180.0,2.8,2.6375,1.0616113744075828
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,50,105.0,,,,118.0,124.0,FanDuel,124.0,2.24,2.1149999999999998,1.059101654846336
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,80,,,,,514.0,550.0,FanDuel,550.0,6.5,6.14,1.0586319218241043
-Washington Commanders @ Green Bay Packers,Romeo Doubs,AnytimeTD,Anytime,,190.0,220.0,205.0,195.0,220.0,Bovada,220.0,3.2,3.0249999999999995,1.0578512396694217
-Washington Commanders @ Green Bay Packers,Jayden Reed,AnytimeTD,Anytime,,170.0,200.0,190.0,175.0,200.0,Bovada,200.0,3.0,2.8375,1.0572687224669604
-Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,80,,,,,830.0,880.0,FanDuel,880.0,9.8,9.3,1.053763440860215
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,80,,,,,100.0,-110.0,DraftKings,100.0,2.0,1.9090909090909092,1.0476190476190477
-Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,25,-375.0,,,,-292.0,-330.0,DraftKings,-292.0,1.3424657534246576,1.2848484848484847,1.044843628844663
-Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,50,120.0,,,,136.0,132.0,DraftKings,136.0,2.3600000000000003,2.2600000000000002,1.0442477876106195
-Washington Commanders @ Green Bay Packers,Austin Ekeler,AnytimeTD,Anytime,,220.0,210.0,205.0,225.0,210.0,DraftKings,225.0,3.25,3.1125000000000003,1.0441767068273091
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,50,-750.0,,,,-462.0,-500.0,DraftKings,-462.0,1.2164502164502164,1.1666666666666665,1.0426716141001857
-Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,50,-135.0,,,,-120.0,-128.0,DraftKings,-120.0,1.8333333333333335,1.7609953703703702,1.0410778836674337
-Washington Commanders @ Green Bay Packers,Terry McLaurin,AnytimeTD,Anytime,,140.0,150.0,150.0,140.0,155.0,FanDuel,155.0,2.55,2.45,1.040816326530612
-Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,80,,,,,285.0,270.0,DraftKings,285.0,3.85,3.7,1.0405405405405406
-Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,AnytimeTD,Anytime,,220.0,240.0,225.0,225.0,240.0,Bovada,240.0,3.4,3.275,1.0381679389312977
-Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,25,-750.0,,,,-520.0,-600.0,DraftKings,-520.0,1.1923076923076923,1.15,1.0367892976588629
-Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,25,-225.0,-238.0,,,-209.0,-200.0,FanDuel,-200.0,1.5,1.4476938037309555,1.0361307039749998
-Washington Commanders @ Green Bay Packers,Green Bay Packers Defense,AnytimeTD,Anytime,,,625.0,,,650.0,FanDuel,650.0,7.5,7.25,1.0344827586206897
-Washington Commanders @ Green Bay Packers,Josh Jacobs,AnytimeTD,Anytime,,-250.0,-230.0,-205.0,-215.0,-210.0,Caesars,-205.0,1.4878048780487805,1.4440223409889739,1.0303198474268902
-Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,110,,,,,660.0,640.0,DraftKings,660.0,7.6,7.4,1.027027027027027
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,250,155.0,,,,165.0,162.0,DraftKings,165.0,2.65,2.585,1.0251450676982592
-Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,25,-1000.0,,,,-670.0,-700.0,DraftKings,-670.0,1.1492537313432836,1.1214285714285714,1.0248122445099344
-Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,50,180.0,,,,183.0,188.0,FanDuel,188.0,2.88,2.815,1.0230905861456483
-Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,25,-700.0,-556.0,,,-497.0,-500.0,DraftKings,-497.0,1.2012072434607646,1.174237752655019,1.0229676577377673
-Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,25,-235.0,-208.0,,,-207.0,-225.0,DraftKings,-207.0,1.4830917874396135,1.4502485300357641,1.0226466407127055
-Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,25,-350.0,,,,-325.0,-360.0,DraftKings,-325.0,1.3076923076923077,1.2817460317460316,1.0202429149797572
-Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,80,,,,,410.0,400.0,DraftKings,410.0,5.1,5.0,1.02
-Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,50,120.0,,,,114.0,118.0,BetMGM,120.0,2.2,2.1599999999999997,1.0185185185185188
-Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,25,100.0,,,,-103.0,102.0,FanDuel,102.0,2.02,1.9854368932038835,1.0174083129584353
-Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,50,-155.0,,,,-148.0,-154.0,DraftKings,-148.0,1.6756756756756757,1.647255969836615,1.0172527563168459
-Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,AnytimeTD,Anytime,,170.0,175.0,170.0,170.0,175.0,Bovada,175.0,2.75,2.7125000000000004,1.0138248847926266
-Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,80,,,,,650.0,640.0,DraftKings,650.0,7.5,7.4,1.0135135135135134
-Washington Commanders @ Green Bay Packers,Zach Ertz,AnytimeTD,Anytime,,270.0,275.0,270.0,275.0,270.0,Bovada,275.0,3.75,3.7125000000000004,1.01010101010101
-Washington Commanders @ Green Bay Packers,Jordan Love,AnytimeTD,Anytime,,550.0,525.0,550.0,550.0,550.0,BetOnline.ag,550.0,6.5,6.4375,1.0097087378640777
-Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,80,,,,,227.0,230.0,FanDuel,230.0,3.3,3.27,1.0091743119266054
-Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,25,,,,,-450.0,-440.0,FanDuel,-440.0,1.2272727272727273,1.2222222222222223,1.0041322314049586
-Washington Commanders @ Green Bay Packers,Chris Rodriguez Jr.,AnytimeTD,Anytime,,450.0,,,450.0,,BetOnline.ag,450.0,5.5,5.5,1.0
-Washington Commanders @ Green Bay Packers,Luke McCaffrey,AnytimeTD,Anytime,,1300.0,1300.0,1300.0,1300.0,1300.0,BetOnline.ag,1300.0,14.0,14.0,1.0
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,AnytimeTD,Anytime,,,,,-110.0,,DraftKings,-110.0,1.9090909090909092,,
-Atlanta Falcons @ Minnesota Vikings,Drake London,AnytimeTD,Anytime,,,,,125.0,,DraftKings,125.0,2.25,,
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,AnytimeTD,Anytime,,,,,300.0,,DraftKings,300.0,4.0,,
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,AnytimeTD,Anytime,,,,,105.0,,DraftKings,105.0,2.05,,
-Buffalo Bills @ New York Jets,Garrett Wilson,AnytimeTD,Anytime,,,,,205.0,,DraftKings,205.0,3.05,,
-Buffalo Bills @ New York Jets,James Cook,AnytimeTD,Anytime,,,,,-130.0,,DraftKings,-130.0,1.7692307692307692,,
-Buffalo Bills @ New York Jets,Josh Allen,AnytimeTD,Anytime,,,,,-110.0,,DraftKings,-110.0,1.9090909090909092,,
-Carolina Panthers @ Arizona Cardinals,Chuba Hubbard,AnytimeTD,Anytime,,,,,100.0,,DraftKings,100.0,2.0,,
-Carolina Panthers @ Arizona Cardinals,James Conner,AnytimeTD,Anytime,,,,,-130.0,,DraftKings,-130.0,1.7692307692307692,,
-Carolina Panthers @ Arizona Cardinals,Marvin Harrison Jr.,AnytimeTD,Anytime,,,,,125.0,,DraftKings,125.0,2.25,,
-Carolina Panthers @ Arizona Cardinals,Tetairoa McMillan,AnytimeTD,Anytime,,,,,165.0,,DraftKings,165.0,2.65,,
-Chicago Bears @ Detroit Lions,Amon-Ra St. Brown,AnytimeTD,Anytime,,,,,115.0,,DraftKings,115.0,2.15,,
-Chicago Bears @ Detroit Lions,D'Andre Swift,AnytimeTD,Anytime,,,,,140.0,,DraftKings,140.0,2.4,,
-Chicago Bears @ Detroit Lions,DJ Moore,AnytimeTD,Anytime,,,,,180.0,,DraftKings,180.0,2.8,,
-Chicago Bears @ Detroit Lions,Jahmyr Gibbs,AnytimeTD,Anytime,,,,,-175.0,,DraftKings,-175.0,1.5714285714285714,,
-Cleveland Browns @ Baltimore Ravens,David Njoku,AnytimeTD,Anytime,,,,,245.0,,DraftKings,245.0,3.45,,
-Cleveland Browns @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,,,,,-225.0,,DraftKings,-225.0,1.4444444444444444,,
-Cleveland Browns @ Baltimore Ravens,Jerry Jeudy,AnytimeTD,Anytime,,,,,220.0,,DraftKings,220.0,3.2,,
-Cleveland Browns @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,,,,,125.0,,DraftKings,125.0,2.25,,
-Denver Broncos @ Indianapolis Colts,Courtland Sutton,AnytimeTD,Anytime,,,,,165.0,,DraftKings,165.0,2.65,,
-Denver Broncos @ Indianapolis Colts,Jonathan Taylor,AnytimeTD,Anytime,,,,,100.0,,DraftKings,100.0,2.0,,
-Denver Broncos @ Indianapolis Colts,RJ Harvey,AnytimeTD,Anytime,,,,,185.0,,DraftKings,185.0,2.85,,
-Denver Broncos @ Indianapolis Colts,Tyler Warren,AnytimeTD,Anytime,,,,,235.0,,DraftKings,235.0,3.35,,
-Jacksonville Jaguars @ Cincinnati Bengals,Brian Thomas Jr,AnytimeTD,Anytime,,,,,125.0,,DraftKings,125.0,2.25,,
-Jacksonville Jaguars @ Cincinnati Bengals,Chase Brown,AnytimeTD,Anytime,,,,,-155.0,,DraftKings,-155.0,1.6451612903225805,,
-Jacksonville Jaguars @ Cincinnati Bengals,Ja'Marr Chase,AnytimeTD,Anytime,,,,,-135.0,,DraftKings,-135.0,1.7407407407407407,,
-Jacksonville Jaguars @ Cincinnati Bengals,Travis Hunter,AnytimeTD,Anytime,,,,,175.0,,DraftKings,175.0,2.75,,
-Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,AnytimeTD,Anytime,,,,,-140.0,,DraftKings,-140.0,1.7142857142857144,,
-Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,AnytimeTD,Anytime,,,,,195.0,,DraftKings,195.0,2.95,,
-Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,AnytimeTD,Anytime,,,,,145.0,,DraftKings,145.0,2.45,,
-Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,AnytimeTD,Anytime,,,,,-145.0,,DraftKings,-145.0,1.6896551724137931,,
-Los Angeles Rams @ Tennessee Titans,Calvin Ridley,AnytimeTD,Anytime,,,,,245.0,,DraftKings,245.0,3.45,,
-Los Angeles Rams @ Tennessee Titans,Davante Adams,AnytimeTD,Anytime,,,,,130.0,,DraftKings,130.0,2.3,,
-Los Angeles Rams @ Tennessee Titans,Kyren Williams,AnytimeTD,Anytime,,,,,-150.0,,DraftKings,-150.0,1.6666666666666665,,
-Los Angeles Rams @ Tennessee Titans,Tony Pollard,AnytimeTD,Anytime,,,,,145.0,,DraftKings,145.0,2.45,,
-New England Patriots @ Miami Dolphins,De'Von Achane,AnytimeTD,Anytime,,,,,-130.0,,DraftKings,-130.0,1.7692307692307692,,
-New England Patriots @ Miami Dolphins,Stefon Diggs,AnytimeTD,Anytime,,,,,195.0,,DraftKings,195.0,2.95,,
-New England Patriots @ Miami Dolphins,TreVeyon Henderson,AnytimeTD,Anytime,,,,,140.0,,DraftKings,140.0,2.4,,
-New England Patriots @ Miami Dolphins,Tyreek Hill,AnytimeTD,Anytime,,,,,110.0,,DraftKings,110.0,2.1,,
-New York Giants @ Dallas Cowboys,CeeDee Lamb,AnytimeTD,Anytime,,,,,100.0,,DraftKings,100.0,2.0,,
-New York Giants @ Dallas Cowboys,George Pickens,AnytimeTD,Anytime,,,,,165.0,,DraftKings,165.0,2.65,,
-New York Giants @ Dallas Cowboys,Malik Nabers,AnytimeTD,Anytime,,,,,130.0,,DraftKings,130.0,2.3,,
-Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,AnytimeTD,Anytime,,,,,165.0,,DraftKings,165.0,2.65,,
-Philadelphia Eagles @ Kansas City Chiefs,Isiah Pacheco,AnytimeTD,Anytime,,,,,200.0,,DraftKings,200.0,3.0,,
-Philadelphia Eagles @ Kansas City Chiefs,Jalen Hurts,AnytimeTD,Anytime,,,,,-145.0,,DraftKings,-145.0,1.6896551724137931,,
-Philadelphia Eagles @ Kansas City Chiefs,Patrick Mahomes,AnytimeTD,Anytime,,,,,500.0,,DraftKings,500.0,6.0,,
-Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,AnytimeTD,Anytime,,,,,-160.0,,DraftKings,-160.0,1.625,,
-Philadelphia Eagles @ Kansas City Chiefs,Travis Kelce,AnytimeTD,Anytime,,,,,120.0,,DraftKings,120.0,2.2,,
-San Francisco 49ers @ New Orleans Saints,Alvin Kamara,AnytimeTD,Anytime,,,,,120.0,,DraftKings,120.0,2.2,,
-San Francisco 49ers @ New Orleans Saints,Christian McCaffrey,AnytimeTD,Anytime,,,,,-165.0,,DraftKings,-165.0,1.606060606060606,,
-Seattle Seahawks @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,,,,145.0,,DraftKings,145.0,2.45,,
-Seattle Seahawks @ Pittsburgh Steelers,Jaxon Smith-Njigba,AnytimeTD,Anytime,,,,,150.0,,DraftKings,150.0,2.5,,
-Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,AnytimeTD,Anytime,,,,,100.0,,DraftKings,100.0,2.0,,
-Tampa Bay Buccaneers @ Houston Texans,Mike Evans,AnytimeTD,Anytime,,,,,135.0,,DraftKings,135.0,2.35,,
-Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,,,,,125.0,,DraftKings,125.0,2.25,,
-Tampa Bay Buccaneers @ Houston Texans,Nico Collins,AnytimeTD,Anytime,,,,,135.0,,DraftKings,135.0,2.35,,
-Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,80,,,,,2900.0,,DraftKings,2900.0,30.0,,
-Washington Commanders @ Green Bay Packers,Green Bay Packers D/ST,AnytimeTD,Anytime,,,,,475.0,,DraftKings,475.0,5.75,,
-Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,25,,,,,-5700.0,,DraftKings,-5700.0,1.0175438596491229,,
-Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,110,,,,,2300.0,,DraftKings,2300.0,24.0,,
-Washington Commanders @ Green Bay Packers,Washington Commanders Defense,AnytimeTD,Anytime,,,,,,800.0,FanDuel,800.0,9.0,,
-Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,110,,,,,2700.0,,DraftKings,2700.0,28.0,,
+event,player,group,threshold,BetMGM,BetOnline.ag,BetRivers,Bovada,Caesars,DraftKings,FanDuel,Fanatics,best_book,best_odds,best_decimal,avg_other,value_ratio
+Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,110,,,,1400.0,,2200.0,1500.0,,DraftKings,2200.0,23.0,15.5,1.4838709677419355
+Washington Commanders @ Green Bay Packers,Washington Commanders D/ST,AnytimeTD,Anytime,500.0,,,800.0,,500.0,,550.0,Bovada,800.0,9.0,6.166666666666667,1.4594594594594594
+Washington Commanders @ Green Bay Packers,Ben Sims,AnytimeTD,Anytime,2000.0,1700.0,2400.0,,1700.0,1700.0,,1000.0,BetRivers,2400.0,25.0,17.2,1.4534883720930234
+Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,110,,,,1350.0,,2100.0,1500.0,,DraftKings,2100.0,22.0,15.25,1.4426229508196722
+Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,110,,,,1100.0,,1700.0,1200.0,,DraftKings,1700.0,18.0,12.5,1.44
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,350,1200.0,,,1200.0,,1780.0,1260.0,,DraftKings,1780.0,18.8,13.200000000000001,1.424242424242424
+Washington Commanders @ Green Bay Packers,Ben Sinnott,AnytimeTD,Anytime,1600.0,1400.0,1500.0,2500.0,1800.0,1600.0,2500.0,1900.0,Bovada,2500.0,26.0,18.571428571428573,1.4
+Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,110,,,,1200.0,,1700.0,1200.0,,DraftKings,1700.0,18.0,13.0,1.3846153846153846
+Washington Commanders @ Green Bay Packers,John Bates,AnytimeTD,Anytime,1500.0,1400.0,2400.0,2200.0,1700.0,1600.0,2200.0,1800.0,BetRivers,2400.0,25.0,18.714285714285715,1.3358778625954197
+Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,80,,,,1200.0,,1600.0,1200.0,,DraftKings,1600.0,17.0,13.0,1.3076923076923077
+Washington Commanders @ Green Bay Packers,Malik Heath,AnytimeTD,Anytime,1000.0,1000.0,1300.0,1100.0,1000.0,1000.0,1100.0,1000.0,BetRivers,1300.0,14.0,11.285714285714286,1.240506329113924
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,25,,,,300.0,,208.0,240.0,,Bovada,300.0,4.0,3.24,1.2345679012345678
+Washington Commanders @ Green Bay Packers,John FitzPatrick,AnytimeTD,Anytime,2000.0,2400.0,2400.0,2500.0,2400.0,2800.0,2700.0,1800.0,DraftKings,2800.0,29.0,24.142857142857142,1.2011834319526626
+Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,80,,,,500.0,,640.0,550.0,,DraftKings,640.0,7.4,6.25,1.1840000000000002
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,50,525.0,,,,,640.0,,,DraftKings,640.0,7.4,6.25,1.1840000000000002
+Washington Commanders @ Green Bay Packers,Luke McCaffrey,AnytimeTD,Anytime,1600.0,1300.0,1300.0,1400.0,1400.0,1300.0,1500.0,1200.0,BetMGM,1600.0,17.0,14.428571428571429,1.1782178217821782
+Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,80,,,,400.0,,518.0,450.0,,DraftKings,518.0,6.18,5.25,1.177142857142857
+Washington Commanders @ Green Bay Packers,Jaylin Lane,AnytimeTD,Anytime,700.0,800.0,750.0,1000.0,850.0,850.0,1000.0,950.0,Bovada,1000.0,11.0,9.428571428571429,1.1666666666666667
+Washington Commanders @ Green Bay Packers,Jeremy McNichols,AnytimeTD,Anytime,900.0,1000.0,900.0,1200.0,1000.0,1000.0,1200.0,1100.0,Bovada,1200.0,13.0,11.142857142857142,1.1666666666666667
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,110,,,,1500.0,,1880.0,1700.0,,DraftKings,1880.0,19.8,17.0,1.1647058823529413
+Washington Commanders @ Green Bay Packers,Chris Moore,AnytimeTD,Anytime,,,,1400.0,1200.0,1300.0,1500.0,1200.0,FanDuel,1500.0,16.0,13.75,1.1636363636363636
+Washington Commanders @ Green Bay Packers,Jordan Love,Passing,250,130.0,130.0,180.0,150.0,,,154.0,,BetRivers,180.0,2.8,2.41,1.1618257261410787
+Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,50,165.0,,220.0,200.0,,172.0,168.0,,BetRivers,220.0,3.2,2.7625,1.1583710407239818
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Rushing,25,,1050.0,,,,900.0,,,BetOnline.ag,1050.0,11.5,10.0,1.15
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,110,,,,700.0,,840.0,750.0,,DraftKings,840.0,9.4,8.25,1.1393939393939394
+Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,110,,,,2000.0,,2000.0,1500.0,,Bovada,2000.0,21.0,18.5,1.135135135135135
+Washington Commanders @ Green Bay Packers,Jordan Love,Passing,300,400.0,350.0,,475.0,,,470.0,,Bovada,475.0,5.75,5.066666666666666,1.1348684210526316
+Washington Commanders @ Green Bay Packers,Jordan Love,Passing,350,1100.0,1050.0,,1200.0,,,1280.0,,FanDuel,1280.0,13.8,12.166666666666666,1.1342465753424658
+Washington Commanders @ Green Bay Packers,Jordan Love,AnytimeTD,Anytime,550.0,500.0,600.0,525.0,525.0,500.0,550.0,475.0,BetRivers,600.0,7.0,6.178571428571429,1.1329479768786126
+Washington Commanders @ Green Bay Packers,Dontayvion Wicks,AnytimeTD,Anytime,400.0,400.0,380.0,440.0,420.0,425.0,480.0,425.0,FanDuel,480.0,5.8,5.128571428571429,1.13091922005571
+Washington Commanders @ Green Bay Packers,Colson Yankoff,AnytimeTD,Anytime,,1900.0,2400.0,2500.0,2300.0,2200.0,2500.0,1900.0,Bovada,2500.0,26.0,23.0,1.1304347826086956
+Washington Commanders @ Green Bay Packers,Chris Rodriguez Jr.,AnytimeTD,Anytime,360.0,400.0,360.0,,360.0,400.0,,240.0,BetOnline.ag,400.0,5.0,4.4399999999999995,1.1261261261261262
+Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,80,,,,900.0,,1020.0,920.0,,DraftKings,1020.0,11.2,10.1,1.1089108910891088
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,80,,,,515.0,,512.0,580.0,,FanDuel,580.0,6.8,6.135,1.1083944580277099
+Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,110,,,,650.0,,720.0,630.0,,DraftKings,720.0,8.2,7.4,1.108108108108108
+Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,80,,,,425.0,,484.0,430.0,,DraftKings,484.0,5.84,5.275,1.1071090047393364
+Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,80,,,265.0,225.0,,241.0,225.0,,BetRivers,265.0,3.65,3.3033333333333332,1.1049445005045408
+Washington Commanders @ Green Bay Packers,Savion Williams,AnytimeTD,Anytime,1200.0,1100.0,1100.0,1100.0,1100.0,1100.0,1100.0,950.0,BetMGM,1200.0,13.0,11.785714285714286,1.103030303030303
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,300,450.0,,,500.0,,537.0,490.0,,DraftKings,537.0,6.37,5.8,1.0982758620689657
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,110,,,330.0,275.0,,313.0,290.0,,BetRivers,330.0,4.3,3.9266666666666663,1.0950764006791172
+Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,80,,,,650.0,,591.0,580.0,,Bovada,650.0,7.5,6.855,1.0940919037199124
+Washington Commanders @ Green Bay Packers,Noah Brown,AnytimeTD,Anytime,500.0,550.0,510.0,600.0,525.0,550.0,600.0,550.0,Bovada,600.0,7.0,6.4071428571428575,1.092530657748049
+Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,25,-275.0,,,-200.0,,-170.0,-200.0,,DraftKings,-170.0,1.5882352941176472,1.4545454545454544,1.0919117647058825
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,AnytimeTD,Anytime,190.0,170.0,200.0,175.0,175.0,170.0,175.0,170.0,BetRivers,200.0,3.0,2.75,1.0909090909090908
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,50,-105.0,,128.0,100.0,,115.0,128.0,,BetRivers,128.0,2.2800000000000002,2.095595238095238,1.0879963642560928
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Passing,250,150.0,,175.0,150.0,,161.0,158.0,,BetRivers,175.0,2.75,2.5475000000000003,1.0794896957801765
+Washington Commanders @ Green Bay Packers,Austin Ekeler,AnytimeTD,Anytime,240.0,210.0,210.0,220.0,220.0,215.0,220.0,225.0,BetMGM,240.0,3.4,3.1714285714285717,1.072072072072072
+Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,50,200.0,,220.0,250.0,,240.0,250.0,,Bovada,250.0,3.5,3.275,1.0687022900763359
+Washington Commanders @ Green Bay Packers,Green Bay Packers D/ST,AnytimeTD,Anytime,450.0,,,,,475.0,,500.0,Fanatics,500.0,6.0,5.625,1.0666666666666667
+Washington Commanders @ Green Bay Packers,Luke Musgrave,AnytimeTD,Anytime,800.0,800.0,900.0,900.0,850.0,850.0,900.0,800.0,BetRivers,900.0,10.0,9.428571428571429,1.0606060606060606
+Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,80,,,,650.0,,690.0,640.0,,DraftKings,690.0,7.9,7.45,1.0604026845637584
+Washington Commanders @ Green Bay Packers,Emanuel Wilson,AnytimeTD,Anytime,750.0,750.0,700.0,800.0,700.0,750.0,800.0,800.0,Bovada,800.0,9.0,8.5,1.0588235294117647
+Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,50,110.0,,138.0,125.0,,139.0,130.0,,DraftKings,139.0,2.3899999999999997,2.2575000000000003,1.0586932447397561
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,80,,,280.0,250.0,,271.0,260.0,,BetRivers,280.0,3.8,3.6033333333333335,1.0545790934320074
+Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,50,,,138.0,115.0,,142.0,136.0,,DraftKings,142.0,2.42,2.2966666666666664,1.053701015965167
+Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,25,-295.0,,,-350.0,,-259.0,-310.0,,DraftKings,-259.0,1.3861003861003862,1.315759327241011,1.053460429580896
+Washington Commanders @ Green Bay Packers,Jayden Reed,Receiving,50,140.0,,138.0,120.0,,147.0,140.0,,DraftKings,147.0,2.4699999999999998,2.3449999999999998,1.0533049040511726
+Washington Commanders @ Green Bay Packers,Romeo Doubs,AnytimeTD,Anytime,200.0,220.0,205.0,220.0,215.0,220.0,220.0,230.0,Fanatics,230.0,3.3,3.142857142857143,1.05
+Washington Commanders @ Green Bay Packers,Romeo Doubs,Receiving,25,-400.0,,,-325.0,,-284.0,-320.0,,DraftKings,-284.0,1.352112676056338,1.2900641025641024,1.048097279328143
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,50,550.0,,,,,521.0,,,BetMGM,550.0,6.5,6.21,1.0466988727858293
+Washington Commanders @ Green Bay Packers,Zach Ertz,AnytimeTD,Anytime,275.0,270.0,280.0,275.0,270.0,270.0,270.0,290.0,Fanatics,290.0,3.9,3.728571428571428,1.045977011494253
+Washington Commanders @ Green Bay Packers,Terry McLaurin,AnytimeTD,Anytime,160.0,120.0,160.0,150.0,155.0,155.0,155.0,150.0,BetMGM,160.0,2.6,2.4928571428571433,1.0429799426934097
+Washington Commanders @ Green Bay Packers,Tucker Kraft,Receiving,25,-275.0,-250.0,,-220.0,,-225.0,-270.0,,Bovada,-220.0,1.4545454545454546,1.3946127946127946,1.04297440849831
+Washington Commanders @ Green Bay Packers,Tucker Kraft,AnytimeTD,Anytime,190.0,210.0,190.0,210.0,205.0,215.0,210.0,200.0,DraftKings,215.0,3.15,3.021428571428572,1.0425531914893615
+Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,50,400.0,,,375.0,,409.0,390.0,,DraftKings,409.0,5.09,4.883333333333334,1.0423208191126279
+Washington Commanders @ Green Bay Packers,Jayden Reed,AnytimeTD,Anytime,185.0,200.0,210.0,200.0,200.0,200.0,200.0,200.0,BetRivers,210.0,3.1,2.9785714285714286,1.040767386091127
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,80,,,-121.0,-115.0,,-106.0,-110.0,,DraftKings,-106.0,1.9433962264150944,1.8683674691579828,1.0401573879312536
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,25,-900.0,,,-700.0,,-565.0,-700.0,,DraftKings,-565.0,1.176991150442478,1.1322751322751323,1.0394921842692912
+Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,AnytimeTD,Anytime,210.0,210.0,225.0,230.0,210.0,215.0,230.0,225.0,Bovada,230.0,3.3,3.1785714285714284,1.0382022471910113
+Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,25,-1000.0,,,-750.0,,-595.0,-700.0,,DraftKings,-595.0,1.1680672268907564,1.1253968253968254,1.0379158715672447
+Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,50,160.0,,185.0,190.0,,185.0,188.0,,Bovada,190.0,2.9,2.795,1.037567084078712
+Washington Commanders @ Green Bay Packers,Terry McLaurin,Receiving,50,-165.0,,-141.0,-150.0,,-139.0,-154.0,,DraftKings,-139.0,1.7194244604316546,1.6578244450584876,1.0371571402248168
+Washington Commanders @ Green Bay Packers,Chris Brooks,AnytimeTD,Anytime,575.0,600.0,525.0,600.0,575.0,600.0,600.0,550.0,BetOnline.ag,600.0,7.0,6.75,1.037037037037037
+Washington Commanders @ Green Bay Packers,Green Bay Packers Defense,AnytimeTD,Anytime,,,,625.0,,,650.0,,FanDuel,650.0,7.5,7.25,1.0344827586206897
+Washington Commanders @ Green Bay Packers,Matthew Golden,Receiving,25,-275.0,-213.0,,-250.0,,-215.0,-220.0,,BetOnline.ag,-213.0,1.4694835680751175,1.4208245243128963,1.0342470466476164
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,25,115.0,,,115.0,,115.0,122.0,,FanDuel,122.0,2.2199999999999998,2.15,1.0325581395348837
+Washington Commanders @ Green Bay Packers,Matthew Golden,AnytimeTD,Anytime,220.0,230.0,210.0,240.0,240.0,235.0,240.0,230.0,Bovada,240.0,3.4,3.292857142857143,1.0325379609544467
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,50,-800.0,,,-500.0,,-542.0,-550.0,,Bovada,-500.0,1.2,1.1637733422788772,1.0311286196418492
+Washington Commanders @ Green Bay Packers,Jayden Daniels,Rushing,25,-750.0,-526.0,,-575.0,,-554.0,-490.0,,FanDuel,-490.0,1.2040816326530612,1.1694664651037785,1.0295991108613884
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,25,105.0,,,,,111.0,,,DraftKings,111.0,2.1100000000000003,2.05,1.029268292682927
+Washington Commanders @ Green Bay Packers,Josh Jacobs,AnytimeTD,Anytime,-210.0,-250.0,-200.0,-230.0,-205.0,-215.0,-210.0,-210.0,BetRivers,-200.0,1.5,1.4594678849122327,1.0277718444556283
+Washington Commanders @ Green Bay Packers,Jacory Croskey-Merritt,Rushing,25,,,,-480.0,,-480.0,-420.0,,FanDuel,-420.0,1.2380952380952381,1.2083333333333333,1.0246305418719213
+Washington Commanders @ Green Bay Packers,Jayden Daniels,AnytimeTD,Anytime,175.0,170.0,163.0,180.0,175.0,175.0,180.0,175.0,Bovada,180.0,2.8,2.7328571428571427,1.024568740198641
+Washington Commanders @ Green Bay Packers,Deebo Samuel Sr.,Receiving,50,-150.0,,-136.0,-140.0,,-135.0,-140.0,,DraftKings,-135.0,1.7407407407407407,1.7076330532212884,1.019388057321213
+Washington Commanders @ Green Bay Packers,Noah Brown,Receiving,25,100.0,,,100.0,,102.0,100.0,,DraftKings,102.0,2.02,2.0,1.01
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,AnytimeTD,Anytime,,,,,,-110.0,,,DraftKings,-110.0,1.9090909090909092,,
+Atlanta Falcons @ Minnesota Vikings,Drake London,AnytimeTD,Anytime,,,,,,125.0,,,DraftKings,125.0,2.25,,
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,AnytimeTD,Anytime,,,,,,310.0,,,DraftKings,310.0,4.1,,
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,AnytimeTD,Anytime,,,,,,100.0,,,DraftKings,100.0,2.0,,
+Buffalo Bills @ New York Jets,Garrett Wilson,AnytimeTD,Anytime,,,,,,195.0,,,DraftKings,195.0,2.95,,
+Buffalo Bills @ New York Jets,James Cook,AnytimeTD,Anytime,,,,,,-130.0,,,DraftKings,-130.0,1.7692307692307692,,
+Buffalo Bills @ New York Jets,Josh Allen,AnytimeTD,Anytime,,,,,,-115.0,,,DraftKings,-115.0,1.8695652173913042,,
+Carolina Panthers @ Arizona Cardinals,Chuba Hubbard,AnytimeTD,Anytime,,,,,,100.0,,,DraftKings,100.0,2.0,,
+Carolina Panthers @ Arizona Cardinals,James Conner,AnytimeTD,Anytime,,,,,,-135.0,,,DraftKings,-135.0,1.7407407407407407,,
+Carolina Panthers @ Arizona Cardinals,Marvin Harrison Jr.,AnytimeTD,Anytime,,,,,,120.0,,,DraftKings,120.0,2.2,,
+Carolina Panthers @ Arizona Cardinals,Tetairoa McMillan,AnytimeTD,Anytime,,,,,,160.0,,,DraftKings,160.0,2.6,,
+Chicago Bears @ Detroit Lions,Amon-Ra St. Brown,AnytimeTD,Anytime,,,,,,115.0,,,DraftKings,115.0,2.15,,
+Chicago Bears @ Detroit Lions,D'Andre Swift,AnytimeTD,Anytime,,,,,,145.0,,,DraftKings,145.0,2.45,,
+Chicago Bears @ Detroit Lions,DJ Moore,AnytimeTD,Anytime,,,,,,195.0,,,DraftKings,195.0,2.95,,
+Chicago Bears @ Detroit Lions,Jahmyr Gibbs,AnytimeTD,Anytime,,,,,,-175.0,,,DraftKings,-175.0,1.5714285714285714,,
+Cleveland Browns @ Baltimore Ravens,David Njoku,AnytimeTD,Anytime,,,,,,245.0,,,DraftKings,245.0,3.45,,
+Cleveland Browns @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,,,,,,-230.0,,,DraftKings,-230.0,1.434782608695652,,
+Cleveland Browns @ Baltimore Ravens,Jerry Jeudy,AnytimeTD,Anytime,,,,,,215.0,,,DraftKings,215.0,3.15,,
+Cleveland Browns @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,,,,,,125.0,,,DraftKings,125.0,2.25,,
+Denver Broncos @ Indianapolis Colts,Courtland Sutton,AnytimeTD,Anytime,,,,,,165.0,,,DraftKings,165.0,2.65,,
+Denver Broncos @ Indianapolis Colts,Jonathan Taylor,AnytimeTD,Anytime,,,,,,-105.0,,,DraftKings,-105.0,1.9523809523809523,,
+Denver Broncos @ Indianapolis Colts,RJ Harvey,AnytimeTD,Anytime,,,,,,180.0,,,DraftKings,180.0,2.8,,
+Denver Broncos @ Indianapolis Colts,Tyler Warren,AnytimeTD,Anytime,,,,,,250.0,,,DraftKings,250.0,3.5,,
+Jacksonville Jaguars @ Cincinnati Bengals,Brian Thomas Jr,AnytimeTD,Anytime,,,,,,125.0,,,DraftKings,125.0,2.25,,
+Jacksonville Jaguars @ Cincinnati Bengals,Chase Brown,AnytimeTD,Anytime,,,,,,-120.0,,,DraftKings,-120.0,1.8333333333333335,,
+Jacksonville Jaguars @ Cincinnati Bengals,Ja'Marr Chase,AnytimeTD,Anytime,,,,,,-125.0,,,DraftKings,-125.0,1.8,,
+Jacksonville Jaguars @ Cincinnati Bengals,Travis Hunter,AnytimeTD,Anytime,,,,,,190.0,,,DraftKings,190.0,2.9,,
+Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,AnytimeTD,Anytime,,,,,,-120.0,,,DraftKings,-120.0,1.8333333333333335,,
+Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,AnytimeTD,Anytime,,,,,,185.0,,,DraftKings,185.0,2.85,,
+Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,AnytimeTD,Anytime,,,,,,160.0,,,DraftKings,160.0,2.6,,
+Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,AnytimeTD,Anytime,,,,,,-135.0,,,DraftKings,-135.0,1.7407407407407407,,
+Los Angeles Rams @ Tennessee Titans,Calvin Ridley,AnytimeTD,Anytime,,,,,,245.0,,,DraftKings,245.0,3.45,,
+Los Angeles Rams @ Tennessee Titans,Davante Adams,AnytimeTD,Anytime,,,,,,130.0,,,DraftKings,130.0,2.3,,
+Los Angeles Rams @ Tennessee Titans,Kyren Williams,AnytimeTD,Anytime,,,,,,-150.0,,,DraftKings,-150.0,1.6666666666666665,,
+Los Angeles Rams @ Tennessee Titans,Tony Pollard,AnytimeTD,Anytime,,,,,,140.0,,,DraftKings,140.0,2.4,,
+New England Patriots @ Miami Dolphins,De'Von Achane,AnytimeTD,Anytime,,,,,,105.0,,,DraftKings,105.0,2.05,,
+New England Patriots @ Miami Dolphins,Stefon Diggs,AnytimeTD,Anytime,,,,,,195.0,,,DraftKings,195.0,2.95,,
+New England Patriots @ Miami Dolphins,TreVeyon Henderson,AnytimeTD,Anytime,,,,,,145.0,,,DraftKings,145.0,2.45,,
+New England Patriots @ Miami Dolphins,Tyreek Hill,AnytimeTD,Anytime,,,,,,-110.0,,,DraftKings,-110.0,1.9090909090909092,,
+New York Giants @ Dallas Cowboys,CeeDee Lamb,AnytimeTD,Anytime,,,,,,105.0,,,DraftKings,105.0,2.05,,
+New York Giants @ Dallas Cowboys,George Pickens,AnytimeTD,Anytime,,,,,,160.0,,,DraftKings,160.0,2.6,,
+New York Giants @ Dallas Cowboys,Malik Nabers,AnytimeTD,Anytime,,,,,,130.0,,,DraftKings,130.0,2.3,,
+Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,AnytimeTD,Anytime,,,,,,165.0,,,DraftKings,165.0,2.65,,
+Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,Receiving,110,,,,,,426.0,,,DraftKings,426.0,5.26,,
+Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,Receiving,25,,,,,,-990.0,,,DraftKings,-990.0,1.101010101010101,,
+Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,Receiving,50,,,,,,-232.0,,,DraftKings,-232.0,1.4310344827586206,,
+Philadelphia Eagles @ Kansas City Chiefs,AJ Brown,Receiving,80,,,,,,149.0,,,DraftKings,149.0,2.49,,
+Philadelphia Eagles @ Kansas City Chiefs,Dallas Goedert,Receiving,110,,,,,,1700.0,,,DraftKings,1700.0,18.0,,
+Philadelphia Eagles @ Kansas City Chiefs,Dallas Goedert,Receiving,25,,,,,,-270.0,,,DraftKings,-270.0,1.3703703703703702,,
+Philadelphia Eagles @ Kansas City Chiefs,Dallas Goedert,Receiving,50,,,,,,151.0,,,DraftKings,151.0,2.51,,
+Philadelphia Eagles @ Kansas City Chiefs,Dallas Goedert,Receiving,80,,,,,,565.0,,,DraftKings,565.0,6.65,,
+Philadelphia Eagles @ Kansas City Chiefs,DeVonta Smith,Receiving,110,,,,,,810.0,,,DraftKings,810.0,9.1,,
+Philadelphia Eagles @ Kansas City Chiefs,DeVonta Smith,Receiving,25,,,,,,-558.0,,,DraftKings,-558.0,1.17921146953405,,
+Philadelphia Eagles @ Kansas City Chiefs,DeVonta Smith,Receiving,50,,,,,,-129.0,,,DraftKings,-129.0,1.7751937984496124,,
+Philadelphia Eagles @ Kansas City Chiefs,DeVonta Smith,Receiving,80,,,,,,262.0,,,DraftKings,262.0,3.62,,
+Philadelphia Eagles @ Kansas City Chiefs,Isiah Pacheco,AnytimeTD,Anytime,,,,,,175.0,,,DraftKings,175.0,2.75,,
+Philadelphia Eagles @ Kansas City Chiefs,Jalen Hurts,AnytimeTD,Anytime,,,,,,-145.0,,,DraftKings,-145.0,1.6896551724137931,,
+Philadelphia Eagles @ Kansas City Chiefs,Jalen Hurts,Passing,250,,,,,,255.0,,,DraftKings,255.0,3.55,,
+Philadelphia Eagles @ Kansas City Chiefs,Jalen Hurts,Passing,300,,,,,,920.0,,,DraftKings,920.0,10.2,,
+Philadelphia Eagles @ Kansas City Chiefs,Jalen Hurts,Passing,350,,,,,,3400.0,,,DraftKings,3400.0,35.0,,
+Philadelphia Eagles @ Kansas City Chiefs,Patrick Mahomes,AnytimeTD,Anytime,,,,,,450.0,,,DraftKings,450.0,5.5,,
+Philadelphia Eagles @ Kansas City Chiefs,Patrick Mahomes,Passing,250,,,,,,114.0,,,DraftKings,114.0,2.1399999999999997,,
+Philadelphia Eagles @ Kansas City Chiefs,Patrick Mahomes,Passing,300,,,,,,379.0,,,DraftKings,379.0,4.79,,
+Philadelphia Eagles @ Kansas City Chiefs,Patrick Mahomes,Passing,350,,,,,,1420.0,,,DraftKings,1420.0,15.2,,
+Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,AnytimeTD,Anytime,,,,,,-160.0,,,DraftKings,-160.0,1.625,,
+Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,Rushing,110,,,,,,196.0,,,DraftKings,196.0,2.96,,
+Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,Rushing,25,,,,,,-10000.0,,,DraftKings,-10000.0,1.01,,
+Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,Rushing,50,,,,,,-1060.0,,,DraftKings,-1060.0,1.0943396226415094,,
+Philadelphia Eagles @ Kansas City Chiefs,Saquon Barkley,Rushing,80,,,,,,-176.0,,,DraftKings,-176.0,1.5681818181818183,,
+Philadelphia Eagles @ Kansas City Chiefs,Travis Kelce,AnytimeTD,Anytime,,,,,,130.0,,,DraftKings,130.0,2.3,,
+San Francisco 49ers @ New Orleans Saints,Alvin Kamara,AnytimeTD,Anytime,,,,,,110.0,,,DraftKings,110.0,2.1,,
+San Francisco 49ers @ New Orleans Saints,Christian McCaffrey,AnytimeTD,Anytime,,,,,,-175.0,,,DraftKings,-175.0,1.5714285714285714,,
+Seattle Seahawks @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,,,,,145.0,,,DraftKings,145.0,2.45,,
+Seattle Seahawks @ Pittsburgh Steelers,Jaxon Smith-Njigba,AnytimeTD,Anytime,,,,,,155.0,,,DraftKings,155.0,2.55,,
+Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,AnytimeTD,Anytime,,,,,,100.0,,,DraftKings,100.0,2.0,,
+Tampa Bay Buccaneers @ Houston Texans,Mike Evans,AnytimeTD,Anytime,,,,,,140.0,,,DraftKings,140.0,2.4,,
+Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,,,,,,130.0,,,DraftKings,130.0,2.3,,
+Tampa Bay Buccaneers @ Houston Texans,Nico Collins,AnytimeTD,Anytime,,,,,,145.0,,,DraftKings,145.0,2.45,,
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Receiving,80,,,,,,2300.0,,,DraftKings,2300.0,24.0,,
+Washington Commanders @ Green Bay Packers,Austin Ekeler,Rushing,80,,,,,,2900.0,,,DraftKings,2900.0,30.0,,
+Washington Commanders @ Green Bay Packers,Jordan Love,Rushing,25,,,,,,610.0,,,DraftKings,610.0,7.1,,
+Washington Commanders @ Green Bay Packers,Jordan Love,Rushing,50,,,,,,2600.0,,,DraftKings,2600.0,27.0,,
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,50,,,,,,820.0,,,DraftKings,820.0,9.2,,
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Receiving,80,,,,,,3600.0,,,DraftKings,3600.0,37.0,,
+Washington Commanders @ Green Bay Packers,Josh Jacobs,Rushing,25,,,,,,-9500.0,,,DraftKings,-9500.0,1.0105263157894737,,
+Washington Commanders @ Green Bay Packers,No Scorer,AnytimeTD,Anytime,,,,,,,,9000.0,Fanatics,9000.0,91.0,,
+Washington Commanders @ Green Bay Packers,Washington Commanders Defense,AnytimeTD,Anytime,,,,,,,800.0,,FanDuel,800.0,9.0,,
+Washington Commanders @ Green Bay Packers,Zach Ertz,Receiving,110,,,,,,3400.0,,,DraftKings,3400.0,35.0,,
