@@ -34,6 +34,7 @@ MARKETS = {
     "AnytimeTD": "player_anytime_td",
 }
 
+EXCLUDED_BOOKS = {"BetOnline.ag", "BallyBet", "Fliff", "ReBet"}
 # ---- Helpers -----------------------------------------------------------------
 
 def american_to_decimal_one(x):
@@ -139,6 +140,9 @@ if __name__ == "__main__":
         event_label = f"{away} @ {home}"
 
         for book in odds_data.get("bookmakers", []) or []:
+            title = book.get("title") or book.get("key") or "Book"
+            if title in EXCLUDED_BOOKS:
+                continue
             book_name = (book.get("title") or book.get("key") or "Book").replace(" ", "")
             for market in book.get("markets", []) or []:
                 mkey = market.get("key")
@@ -237,5 +241,6 @@ if __name__ == "__main__":
     out.to_csv("nfl_player_props.csv", index=False)
 
     print("Saved nfl_player_props.csv with", len(out), "rows.")
+
 
 
