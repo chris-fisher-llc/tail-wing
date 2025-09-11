@@ -114,7 +114,7 @@ def fetch_event_odds(event_id: str):
     url = f"{API_BASE}/sports/{SPORT_KEY}/events/{event_id}/odds"
     params = {
         "apiKey": API_KEY,
-        "regions": "us",
+        "regions": "us,us2",
         "markets": ",".join(MARKETS.values()),
         "oddsFormat": "american",
         "dateFormat": "iso",
@@ -237,4 +237,5 @@ if __name__ == "__main__":
     out.to_csv("nfl_player_props.csv", index=False)
 
     print("Saved nfl_player_props.csv with", len(out), "rows.")
+
 
