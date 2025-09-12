@@ -52,11 +52,18 @@ def _today_events():
     resp = requests.get(url, params={"apiKey": API_KEY, "dateFormat": DATE_FMT}, timeout=30)
     resp.raise_for_status()
     events = resp.json()
-    today = datetime.now(timezone.utc).date()
-    return [
-        ev for ev in events
-        if datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00")).date() == today
-    ]
+
+    # Use Eastern Time calendar date to decide "today"
+    today_et = datetime.now(ET).date()
+
+    keep = []
+    for ev in events:
+        # API returns ISO in UTC; parse then convert to ET
+        dt_utc = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+        dt_et = dt_utc.astimezone(ET)
+        if dt_et.date() == today_et:
+            keep.append(ev)
+    return keep
 
 def _event_odds(event_id: str):
     url = f"https://api.the-odds-api.com/v4/sports/{SPORT_KEY}/events/{event_id}/odds"
@@ -229,4 +236,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
