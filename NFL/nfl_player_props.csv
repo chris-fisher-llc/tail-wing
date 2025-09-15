@@ -1,277 +1,276 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Atlanta Falcons @ Minnesota Vikings,Myles Price,AnytimeTD,Anytime,1500.0,950.0,1300.0,1200.0,1300.0,,1100.0,2500.0,HardRockBet,2500.0,26.0,13.25,1.9622641509433962
-Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,80,,,,,2500.0,,1700.0,800.0,DraftKings,2500.0,26.0,13.5,1.9259259259259258
-Atlanta Falcons @ Minnesota Vikings,Zavier Scott,AnytimeTD,Anytime,,,2500.0,1900.0,,,1700.0,4000.0,HardRockBet,4000.0,41.0,21.333333333333332,1.921875
+Atlanta Falcons @ Minnesota Vikings,Ben Yurosek,AnytimeTD,Anytime,1600.0,,2500.0,1750.0,1400.0,,3000.0,4000.0,HardRockBet,4000.0,41.0,21.5,1.9069767441860466
+Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,80,,,,,1900.0,1200.0,,800.0,DraftKings,1900.0,20.0,11.0,1.8181818181818181
 Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Receiving,80,,,,,1500.0,,,800.0,DraftKings,1500.0,16.0,9.0,1.7777777777777777
 Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,Rushing,110,,,,,1640.0,,880.0,,DraftKings,1640.0,17.4,9.8,1.7755102040816324
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Receiving,50,,,,,1140.0,,,600.0,DraftKings,1140.0,12.4,7.0,1.7714285714285716
-Atlanta Falcons @ Minnesota Vikings,Feleipe Franks,AnytimeTD,Anytime,3000.0,,3300.0,2800.0,2800.0,,2500.0,5000.0,HardRockBet,5000.0,51.0,29.8,1.7114093959731542
-Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,80,,,,,1780.0,1200.0,,800.0,DraftKings,1780.0,18.8,11.0,1.7090909090909092
-Atlanta Falcons @ Minnesota Vikings,Ben Yurosek,AnytimeTD,Anytime,1600.0,,2200.0,1600.0,1500.0,,1700.0,3000.0,HardRockBet,3000.0,31.0,18.2,1.7032967032967035
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,350,,,,,2600.0,,1500.0,,DraftKings,2600.0,27.0,16.0,1.6875
+Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Receiving,50,,,,,483.0,1000.0,,600.0,ESPNBET,1000.0,11.0,6.415,1.7147310989867497
+Atlanta Falcons @ Minnesota Vikings,Myles Price,AnytimeTD,Anytime,1500.0,1050.0,1900.0,1800.0,1800.0,,2200.0,3000.0,HardRockBet,3000.0,31.0,18.083333333333332,1.7142857142857144
 Los Angeles Chargers @ Las Vegas Raiders,KeAndre Lambert-Smith,AnytimeTD,Anytime,625.0,1000.0,725.0,700.0,650.0,,750.0,1300.0,HardRockBet,1300.0,14.0,8.416666666666666,1.6633663366336635
-Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,80,,,,,1080.0,1200.0,1260.0,2000.0,HardRockBet,2000.0,21.0,12.799999999999999,1.6406250000000002
 Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Rushing,50,,,,,2100.0,3500.0,,,ESPNBET,3500.0,36.0,22.0,1.6363636363636365
+Los Angeles Chargers @ Las Vegas Raiders,Zamir White,AnytimeTD,Anytime,475.0,750.0,1200.0,650.0,700.0,,1200.0,400.0,Bovada,1200.0,13.0,7.958333333333333,1.6335078534031415
 Tampa Bay Buccaneers @ Houston Texans,Kameron Johnson,AnytimeTD,Anytime,1800.0,1800.0,1800.0,1800.0,1800.0,,1800.0,3000.0,HardRockBet,3000.0,31.0,19.0,1.631578947368421
-Los Angeles Chargers @ Las Vegas Raiders,Zamir White,AnytimeTD,Anytime,475.0,750.0,1200.0,750.0,700.0,,1200.0,400.0,Bovada,1200.0,13.0,8.125,1.6
-Atlanta Falcons @ Minnesota Vikings,Tim Jones,AnytimeTD,Anytime,1100.0,1500.0,1900.0,1100.0,900.0,,1400.0,1300.0,Bovada,1900.0,20.0,13.166666666666666,1.518987341772152
-Los Angeles Chargers @ Las Vegas Raiders,Derius Davis,AnytimeTD,Anytime,850.0,1100.0,1900.0,1800.0,2200.0,,1900.0,1000.0,DraftKings,2200.0,23.0,15.25,1.5081967213114753
-Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Receiving,50,825.0,,,,483.0,1000.0,,600.0,ESPNBET,1000.0,11.0,7.359999999999999,1.4945652173913044
+Atlanta Falcons @ Minnesota Vikings,KhaDarel Hodge,AnytimeTD,Anytime,1200.0,800.0,1400.0,1500.0,1700.0,,1700.0,2250.0,HardRockBet,2250.0,23.5,14.833333333333334,1.5842696629213482
+Los Angeles Chargers @ Las Vegas Raiders,Derius Davis,AnytimeTD,Anytime,850.0,1100.0,1900.0,1400.0,2200.0,,1900.0,1000.0,DraftKings,2200.0,23.0,14.583333333333334,1.5771428571428572
+Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,80,,,1400.0,,1060.0,1300.0,1280.0,2000.0,HardRockBet,2000.0,21.0,13.600000000000001,1.5441176470588234
+Los Angeles Chargers @ Las Vegas Raiders,Scott Matlock,AnytimeTD,Anytime,1800.0,3000.0,1700.0,1600.0,,,1700.0,3000.0,BetRivers,3000.0,31.0,20.6,1.5048543689320388
 Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Rushing,50,,,,,640.0,,1200.0,900.0,FanDuel,1200.0,13.0,8.7,1.4942528735632186
-Atlanta Falcons @ Minnesota Vikings,Nathan Carter,AnytimeTD,Anytime,,,2500.0,1800.0,,,1700.0,3000.0,HardRockBet,3000.0,31.0,21.0,1.4761904761904763
-Atlanta Falcons @ Minnesota Vikings,KhaDarel Hodge,AnytimeTD,Anytime,1200.0,800.0,1800.0,1400.0,1400.0,,1400.0,2000.0,HardRockBet,2000.0,21.0,14.333333333333334,1.4651162790697674
-Tampa Bay Buccaneers @ Houston Texans,Dameon Pierce,AnytimeTD,Anytime,750.0,480.0,440.0,500.0,600.0,,480.0,400.0,BetMGM,750.0,8.5,5.833333333333333,1.4571428571428573
-Atlanta Falcons @ Minnesota Vikings,David Sills V,AnytimeTD,Anytime,,,2500.0,1900.0,,,1700.0,3000.0,HardRockBet,3000.0,31.0,21.333333333333332,1.453125
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,350,1100.0,,,,1760.0,,1280.0,,DraftKings,1760.0,18.6,12.9,1.4418604651162792
+Atlanta Falcons @ Minnesota Vikings,Zavier Scott,AnytimeTD,Anytime,,,2200.0,1900.0,1800.0,,2700.0,1300.0,FanDuel,2700.0,28.0,19.0,1.4736842105263157
+Tampa Bay Buccaneers @ Houston Texans,Dameon Pierce,AnytimeTD,Anytime,750.0,480.0,440.0,525.0,600.0,,480.0,400.0,BetMGM,750.0,8.5,5.875,1.446808510638298
 Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Rushing,50,,,,,2100.0,3000.0,,2000.0,ESPNBET,3000.0,31.0,21.5,1.441860465116279
-Los Angeles Chargers @ Las Vegas Raiders,Scott Matlock,AnytimeTD,Anytime,1800.0,3000.0,1700.0,,,,1700.0,3000.0,BetRivers,3000.0,31.0,21.5,1.441860465116279
 Tampa Bay Buccaneers @ Houston Texans,Rachaad White,Rushing,50,,,,,1300.0,1500.0,1280.0,2000.0,HardRockBet,2000.0,21.0,14.6,1.4383561643835616
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,50,750.0,,,,710.0,800.0,1100.0,750.0,FanDuel,1100.0,12.0,8.525,1.407624633431085
-Atlanta Falcons @ Minnesota Vikings,Teagan Quitoriano,AnytimeTD,Anytime,3000.0,2200.0,4000.0,2900.0,2800.0,,3000.0,3000.0,Bovada,4000.0,41.0,29.166666666666668,1.4057142857142857
 Tampa Bay Buccaneers @ Houston Texans,Tez Johnson,AnytimeTD,Anytime,1700.0,1600.0,1800.0,1800.0,1800.0,,1800.0,2500.0,HardRockBet,2500.0,26.0,18.5,1.4054054054054055
 Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Passing,350,1100.0,,,,1800.0,1400.0,1280.0,,DraftKings,1800.0,19.0,13.6,1.397058823529412
+Atlanta Falcons @ Minnesota Vikings,Feleipe Franks,AnytimeTD,Anytime,3000.0,,3300.0,3500.0,4000.0,,4000.0,5000.0,HardRockBet,5000.0,51.0,36.6,1.3934426229508197
 Tampa Bay Buccaneers @ Houston Texans,Houston Texans D/ST,AnytimeTD,Anytime,500.0,,700.0,,450.0,,,,Bovada,700.0,8.0,5.75,1.391304347826087
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,350,1100.0,,1200.0,,1660.0,,1200.0,,DraftKings,1660.0,17.6,12.666666666666666,1.3894736842105264
+Los Angeles Chargers @ Las Vegas Raiders,Jack Bech,AnytimeTD,Anytime,850.0,1050.0,1400.0,1000.0,1000.0,,1500.0,,FanDuel,1500.0,16.0,11.6,1.3793103448275863
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,350,,,1600.0,,2300.0,,1700.0,,DraftKings,2300.0,24.0,17.5,1.3714285714285714
+Los Angeles Chargers @ Las Vegas Raiders,Dylan Laube,AnytimeTD,Anytime,1200.0,1500.0,2200.0,1500.0,1600.0,,2200.0,1500.0,Bovada,2200.0,23.0,16.833333333333332,1.3663366336633664
+Tampa Bay Buccaneers @ Houston Texans,Payne Durham,AnytimeTD,Anytime,1200.0,1150.0,1300.0,1400.0,1800.0,,1300.0,1400.0,DraftKings,1800.0,19.0,13.916666666666666,1.3652694610778444
 Tampa Bay Buccaneers @ Houston Texans,Jayden Higgins,Receiving,80,,,,,910.0,1200.0,,800.0,ESPNBET,1200.0,13.0,9.55,1.3612565445026177
-Los Angeles Chargers @ Las Vegas Raiders,Jack Bech,AnytimeTD,Anytime,850.0,1050.0,1400.0,1100.0,1000.0,,1500.0,,FanDuel,1500.0,16.0,11.8,1.3559322033898304
-Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,80,,,,390.0,407.0,,400.0,575.0,HardRockBet,575.0,6.75,4.99,1.3527054108216432
-Tampa Bay Buccaneers @ Houston Texans,Payne Durham,AnytimeTD,Anytime,1200.0,1150.0,1300.0,1500.0,1800.0,,1300.0,1400.0,DraftKings,1800.0,19.0,14.083333333333334,1.349112426035503
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,80,,,,700.0,575.0,650.0,640.0,900.0,HardRockBet,900.0,10.0,7.4125,1.349072512647555
+Los Angeles Chargers @ Las Vegas Raiders,Ian Thomas,AnytimeTD,Anytime,1200.0,1800.0,2200.0,1800.0,2500.0,,2200.0,1750.0,DraftKings,2500.0,26.0,19.25,1.3506493506493507
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,80,,,500.0,700.0,511.0,500.0,630.0,800.0,HardRockBet,800.0,9.0,6.6819999999999995,1.346902125112242
 Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Rushing,25,,,,,513.0,550.0,,750.0,HardRockBet,750.0,8.5,6.3149999999999995,1.3460015835312749
-Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,AnytimeTD,Anytime,500.0,650.0,440.0,450.0,450.0,,490.0,425.0,BetRivers,650.0,7.5,5.591666666666666,1.3412816691505218
-Los Angeles Chargers @ Las Vegas Raiders,Dylan Laube,AnytimeTD,Anytime,1200.0,1500.0,2200.0,1750.0,1600.0,,2200.0,1500.0,Bovada,2200.0,23.0,17.25,1.3333333333333333
+Atlanta Falcons @ Minnesota Vikings,Tim Jones,AnytimeTD,Anytime,1100.0,1500.0,2000.0,1700.0,2200.0,,2200.0,1200.0,DraftKings,2200.0,23.0,17.166666666666668,1.3398058252427183
+Atlanta Falcons @ Minnesota Vikings,Atlanta Falcons D/ST,AnytimeTD,Anytime,500.0,,,,700.0,,,,DraftKings,700.0,8.0,6.0,1.3333333333333333
+Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,AnytimeTD,Anytime,500.0,650.0,440.0,475.0,450.0,,490.0,425.0,BetRivers,650.0,7.5,5.633333333333333,1.3313609467455623
+Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,80,,,900.0,,1260.0,1000.0,1000.0,800.0,DraftKings,1260.0,13.6,10.25,1.326829268292683
 Tampa Bay Buccaneers @ Houston Texans,Cade Otton,Receiving,80,,,,,1120.0,1300.0,,800.0,ESPNBET,1300.0,14.0,10.6,1.3207547169811322
-Los Angeles Chargers @ Las Vegas Raiders,Ian Thomas,AnytimeTD,Anytime,1200.0,1800.0,2200.0,2200.0,2500.0,,2200.0,1750.0,DraftKings,2500.0,26.0,19.916666666666668,1.305439330543933
+Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,350,775.0,,,850.0,1160.0,900.0,920.0,,DraftKings,1160.0,12.6,9.6125,1.3107932379713914
 Atlanta Falcons @ Minnesota Vikings,Minnesota Vikings D/ST,AnytimeTD,Anytime,475.0,,,,650.0,,,,DraftKings,650.0,7.5,5.75,1.3043478260869565
-Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,350,825.0,,,850.0,1160.0,900.0,920.0,,DraftKings,1160.0,12.6,9.7375,1.2939666238767649
-Atlanta Falcons @ Minnesota Vikings,Nick Vannett,AnytimeTD,Anytime,,,2200.0,1700.0,,,1700.0,,Bovada,2200.0,23.0,18.0,1.2777777777777777
+Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,80,,,400.0,390.0,409.0,400.0,400.0,550.0,HardRockBet,550.0,6.5,4.998,1.3005202080832332
+Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,110,,,850.0,,1100.0,,800.0,,DraftKings,1100.0,12.0,9.25,1.2972972972972974
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,300,425.0,,425.0,375.0,454.0,425.0,430.0,575.0,HardRockBet,575.0,6.75,5.223333333333334,1.2922782386726228
+Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,AnytimeTD,Anytime,250.0,320.0,400.0,390.0,500.0,,460.0,375.0,DraftKings,500.0,6.0,4.658333333333334,1.288014311270125
+Atlanta Falcons @ Minnesota Vikings,Tai Felton,AnytimeTD,Anytime,1200.0,800.0,1100.0,1200.0,1400.0,,1300.0,800.0,DraftKings,1400.0,15.0,11.666666666666666,1.2857142857142858
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,50,750.0,,1000.0,,630.0,800.0,920.0,700.0,Bovada,1000.0,11.0,8.6,1.2790697674418605
 Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Passing,350,1100.0,,,1300.0,1560.0,1300.0,1100.0,,DraftKings,1560.0,16.6,13.0,1.276923076923077
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Passing,350,700.0,,,600.0,920.0,750.0,750.0,,DraftKings,920.0,10.2,8.0,1.275
 Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,Receiving,80,,,,,1040.0,,800.0,800.0,DraftKings,1040.0,11.4,9.0,1.2666666666666666
-Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,50,340.0,,,380.0,348.0,350.0,360.0,475.0,HardRockBet,475.0,5.75,4.556,1.262071992976295
-Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,110,,,,,900.0,,700.0,,DraftKings,900.0,10.0,8.0,1.25
+Atlanta Falcons @ Minnesota Vikings,David Sills V,AnytimeTD,Anytime,,,2200.0,2400.0,,,2500.0,3000.0,HardRockBet,3000.0,31.0,24.666666666666668,1.2567567567567568
+Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,Rushing,80,,450.0,,320.0,419.0,300.0,310.0,350.0,BetRivers,450.0,5.5,4.398000000000001,1.2505684402000907
 Tampa Bay Buccaneers @ Houston Texans,Justin Watson,Receiving,50,,,,,800.0,900.0,,600.0,ESPNBET,900.0,10.0,8.0,1.25
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,50,,,,,1480.0,2200.0,,2000.0,ESPNBET,2200.0,23.0,18.4,1.25
 Tampa Bay Buccaneers @ Houston Texans,Rachaad White,AnytimeTD,Anytime,475.0,575.0,440.0,450.0,500.0,,460.0,325.0,BetRivers,575.0,6.75,5.416666666666667,1.2461538461538462
 Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,80,,,,,1020.0,,,800.0,DraftKings,1020.0,11.2,9.0,1.2444444444444445
-Tampa Bay Buccaneers @ Houston Texans,Sean Tucker,AnytimeTD,Anytime,1800.0,1800.0,1400.0,1400.0,1500.0,,1400.0,1100.0,BetMGM,1800.0,19.0,15.333333333333334,1.2391304347826086
-Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,AnytimeTD,Anytime,280.0,310.0,400.0,360.0,320.0,,440.0,350.0,FanDuel,440.0,5.4,4.366666666666666,1.236641221374046
-Atlanta Falcons @ Minnesota Vikings,Adam Thielen,AnytimeTD,Anytime,450.0,575.0,500.0,425.0,425.0,,500.0,375.0,BetRivers,575.0,6.75,5.458333333333333,1.2366412213740459
-Atlanta Falcons @ Minnesota Vikings,Tai Felton,AnytimeTD,Anytime,1200.0,800.0,1300.0,1100.0,1200.0,,1100.0,800.0,Bovada,1300.0,14.0,11.333333333333334,1.2352941176470587
-Tampa Bay Buccaneers @ Houston Texans,Jaylin Noel,AnytimeTD,Anytime,750.0,700.0,625.0,650.0,650.0,,650.0,850.0,HardRockBet,850.0,9.5,7.708333333333333,1.2324324324324325
-Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,50,400.0,,,450.0,435.0,425.0,,550.0,HardRockBet,550.0,6.5,5.275,1.2322274881516586
+Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,50,375.0,,375.0,375.0,342.0,350.0,360.0,475.0,HardRockBet,475.0,5.75,4.628333333333334,1.242347857400072
+Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,AnytimeTD,Anytime,280.0,310.0,400.0,350.0,320.0,,440.0,350.0,FanDuel,440.0,5.4,4.35,1.2413793103448278
+Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,Receiving,50,650.0,,,,690.0,750.0,850.0,575.0,FanDuel,850.0,9.5,7.6625,1.2398042414355628
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,80,,,,,2500.0,,,2000.0,DraftKings,2500.0,26.0,21.0,1.2380952380952381
+Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,50,400.0,,,450.0,459.0,400.0,,550.0,HardRockBet,550.0,6.5,5.2725,1.2328117591275487
 Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,AnytimeTD,Anytime,750.0,650.0,900.0,750.0,750.0,,900.0,475.0,Bovada,900.0,10.0,8.125,1.2307692307692308
-Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,Rushing,80,,450.0,,333.0,419.0,325.0,310.0,350.0,BetRivers,450.0,5.5,4.473999999999999,1.2293249888243185
 Tampa Bay Buccaneers @ Houston Texans,Harrison Bryant,AnytimeTD,Anytime,,1000.0,1000.0,1000.0,1200.0,,1000.0,800.0,DraftKings,1200.0,13.0,10.6,1.2264150943396226
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,AnytimeTD,Anytime,700.0,800.0,800.0,750.0,900.0,,750.0,500.0,DraftKings,900.0,10.0,8.166666666666666,1.2244897959183674
+Tampa Bay Buccaneers @ Houston Texans,Sean Tucker,AnytimeTD,Anytime,1800.0,1800.0,1400.0,1500.0,1500.0,,1400.0,1100.0,BetMGM,1800.0,19.0,15.5,1.2258064516129032
+Tampa Bay Buccaneers @ Houston Texans,Jaylin Noel,AnytimeTD,Anytime,750.0,700.0,625.0,675.0,650.0,,650.0,850.0,HardRockBet,850.0,9.5,7.75,1.2258064516129032
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Rushing,110,,,,,1060.0,,850.0,,DraftKings,1060.0,11.6,9.5,1.2210526315789474
-Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,80,,,,,1240.0,1200.0,1000.0,800.0,DraftKings,1240.0,13.4,11.0,1.2181818181818183
-Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,80,,,,,1300.0,,1300.0,800.0,DraftKings,1300.0,14.0,11.5,1.2173913043478262
 Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,110,,,,,1360.0,,1100.0,,DraftKings,1360.0,14.6,12.0,1.2166666666666666
+Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,50,250.0,370.0,275.0,280.0,328.0,300.0,300.0,275.0,BetRivers,370.0,4.7,3.8685714285714283,1.2149187592319055
+Los Angeles Chargers @ Las Vegas Raiders,Michael Mayer,AnytimeTD,Anytime,240.0,360.0,500.0,400.0,475.0,,500.0,,Bovada,500.0,6.0,4.95,1.2121212121212122
 Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,110,,,,425.0,500.0,,580.0,,FanDuel,580.0,6.8,5.625,1.208888888888889
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Rushing,25,,,,,166.0,155.0,174.0,220.0,HardRockBet,220.0,3.2,2.65,1.207547169811321
-Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,Receiving,50,,,,,690.0,800.0,850.0,575.0,FanDuel,850.0,9.5,7.883333333333333,1.2050739957716703
-Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,AnytimeTD,Anytime,350.0,310.0,350.0,375.0,425.0,,360.0,275.0,DraftKings,425.0,5.25,4.366666666666667,1.2022900763358777
+Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,80,,,1200.0,,1300.0,1400.0,1300.0,800.0,ESPNBET,1400.0,15.0,12.5,1.2
+Los Angeles Chargers @ Las Vegas Raiders,Will Dissly,AnytimeTD,Anytime,375.0,450.0,625.0,525.0,600.0,,650.0,575.0,FanDuel,650.0,7.5,6.25,1.2
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Rushing,50,,,,,810.0,900.0,1000.0,1100.0,HardRockBet,1100.0,12.0,10.033333333333333,1.196013289036545
+Atlanta Falcons @ Minnesota Vikings,Teagan Quitoriano,AnytimeTD,Anytime,3000.0,2200.0,3300.0,3500.0,4000.0,,4000.0,4000.0,DraftKings,4000.0,41.0,34.333333333333336,1.1941747572815533
+Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Passing,300,390.0,,,360.0,519.0,450.0,470.0,425.0,DraftKings,519.0,6.19,5.1899999999999995,1.1926782273603085
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Rushing,80,,280.0,,225.0,279.0,250.0,250.0,325.0,HardRockBet,325.0,4.25,3.568,1.1911434977578474
-Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Passing,300,400.0,,,360.0,519.0,450.0,470.0,425.0,DraftKings,519.0,6.19,5.21,1.1880998080614205
-Los Angeles Chargers @ Las Vegas Raiders,Will Dissly,AnytimeTD,Anytime,375.0,450.0,625.0,575.0,600.0,,650.0,575.0,FanDuel,650.0,7.5,6.333333333333333,1.1842105263157896
-Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,110,,,,,1320.0,,1100.0,,DraftKings,1320.0,14.2,12.0,1.1833333333333333
-Tampa Bay Buccaneers @ Houston Texans,Jayden Higgins,Receiving,50,340.0,340.0,,255.0,274.0,300.0,,375.0,HardRockBet,375.0,4.75,4.018000000000001,1.1821801891488302
-Tampa Bay Buccaneers @ Houston Texans,Xavier Hutchinson,AnytimeTD,Anytime,600.0,540.0,625.0,525.0,500.0,,650.0,425.0,FanDuel,650.0,7.5,6.358333333333333,1.1795543905635648
-Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,300,280.0,375.0,,255.0,341.0,300.0,320.0,325.0,BetRivers,375.0,4.75,4.035,1.1771995043370507
-Los Angeles Chargers @ Las Vegas Raiders,Michael Mayer,AnytimeTD,Anytime,240.0,360.0,500.0,475.0,475.0,,500.0,,Bovada,500.0,6.0,5.1,1.1764705882352942
-Tampa Bay Buccaneers @ Houston Texans,Justin Watson,AnytimeTD,Anytime,750.0,850.0,900.0,700.0,750.0,,900.0,550.0,Bovada,900.0,10.0,8.5,1.1764705882352942
-Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,80,,300.0,,220.0,263.0,225.0,235.0,260.0,BetRivers,300.0,4.0,3.406,1.1743981209630063
-Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,AnytimeTD,Anytime,250.0,325.0,440.0,425.0,425.0,,450.0,350.0,FanDuel,450.0,5.5,4.691666666666666,1.1722912966252221
-Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,AnytimeTD,Anytime,450.0,360.0,350.0,380.0,450.0,,350.0,325.0,BetMGM,450.0,5.5,4.691666666666666,1.1722912966252221
-Atlanta Falcons @ Minnesota Vikings,Josh Oliver,AnytimeTD,Anytime,700.0,750.0,900.0,750.0,700.0,,870.0,750.0,Bovada,900.0,10.0,8.533333333333333,1.171875
-Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,110,,350.0,,220.0,316.0,300.0,300.0,,BetRivers,350.0,4.5,3.84,1.171875
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,110,,,475.0,500.0,600.0,,490.0,,DraftKings,600.0,7.0,5.883333333333333,1.189801699716714
+Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,300,275.0,375.0,,255.0,341.0,300.0,320.0,325.0,BetRivers,375.0,4.75,4.026666666666666,1.179635761589404
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,25,,,450.0,,346.0,400.0,470.0,350.0,FanDuel,470.0,5.7,4.865,1.171634121274409
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,250,138.0,165.0,140.0,120.0,136.0,135.0,140.0,180.0,HardRockBet,180.0,2.8,2.391428571428571,1.1708482676224612
 Tampa Bay Buccaneers @ Houston Texans,Dalton Schultz,Receiving,80,,,,650.0,650.0,700.0,680.0,800.0,HardRockBet,800.0,9.0,7.7,1.1688311688311688
-Los Angeles Chargers @ Las Vegas Raiders,Raheem Mostert,AnytimeTD,Anytime,1100.0,1300.0,1200.0,1000.0,1000.0,,1200.0,,BetRivers,1300.0,14.0,12.0,1.1666666666666667
-Atlanta Falcons @ Minnesota Vikings,Atlanta Falcons D/ST,AnytimeTD,Anytime,500.0,,,,600.0,,,,DraftKings,600.0,7.0,6.0,1.1666666666666667
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,50,130.0,155.0,,130.0,145.0,145.0,162.0,185.0,HardRockBet,185.0,2.85,2.4450000000000003,1.165644171779141
+Atlanta Falcons @ Minnesota Vikings,Nick Vannett,AnytimeTD,Anytime,,,2000.0,2100.0,2200.0,,2200.0,2500.0,HardRockBet,2500.0,26.0,22.25,1.1685393258426966
 Los Angeles Chargers @ Las Vegas Raiders,Hassan Haskins,AnytimeTD,Anytime,1800.0,1050.0,1700.0,1600.0,1600.0,,1700.0,,BetMGM,1800.0,19.0,16.3,1.165644171779141
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,50,120.0,143.0,110.0,120.0,132.0,125.0,142.0,165.0,HardRockBet,165.0,2.65,2.2742857142857145,1.1652010050251256
+Tampa Bay Buccaneers @ Houston Texans,Justin Watson,AnytimeTD,Anytime,750.0,850.0,900.0,750.0,750.0,,900.0,550.0,Bovada,900.0,10.0,8.583333333333334,1.1650485436893203
 Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Rushing,80,,195.0,,150.0,172.0,175.0,182.0,220.0,HardRockBet,220.0,3.2,2.748,1.1644832605531295
 Tampa Bay Buccaneers @ Houston Texans,Xavier Hutchinson,Receiving,50,600.0,,,,690.0,750.0,,600.0,ESPNBET,750.0,8.5,7.3,1.1643835616438356
+Tampa Bay Buccaneers @ Houston Texans,Xavier Hutchinson,AnytimeTD,Anytime,600.0,540.0,625.0,575.0,500.0,,650.0,425.0,FanDuel,650.0,7.5,6.441666666666666,1.1642949547218628
+Tampa Bay Buccaneers @ Houston Texans,Ryan Miller,AnytimeTD,Anytime,2000.0,2200.0,2500.0,2400.0,2500.0,,2700.0,2250.0,FanDuel,2700.0,28.0,24.083333333333332,1.1626297577854672
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,50,,,,,1420.0,2000.0,,2000.0,ESPNBET,2000.0,21.0,18.1,1.160220994475138
 Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,AnytimeTD,Anytime,475.0,550.0,400.0,475.0,550.0,,440.0,425.0,BetRivers,550.0,6.5,5.608333333333333,1.1589895988112926
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,300,450.0,,,390.0,479.0,500.0,490.0,550.0,HardRockBet,550.0,6.5,5.618,1.1569953720185118
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Receiving,50,390.0,,,400.0,368.0,400.0,480.0,450.0,FanDuel,480.0,5.8,5.016,1.1562998405103668
-Tampa Bay Buccaneers @ Houston Texans,Ryan Miller,AnytimeTD,Anytime,2000.0,2200.0,2500.0,2500.0,2500.0,,2700.0,2250.0,FanDuel,2700.0,28.0,24.25,1.1546391752577319
-Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,110,,,,425.0,556.0,,580.0,,FanDuel,580.0,6.8,5.904999999999999,1.1515664690939882
-Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,50,320.0,380.0,,300.0,302.0,,340.0,325.0,BetRivers,380.0,4.8,4.1739999999999995,1.1499760421657883
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,25,,,,,388.0,425.0,470.0,375.0,FanDuel,470.0,5.7,4.96,1.1491935483870968
-Atlanta Falcons @ Minnesota Vikings,Charlie Woerner,AnytimeTD,Anytime,1500.0,1600.0,1700.0,1400.0,1500.0,,1300.0,1500.0,Bovada,1700.0,18.0,15.666666666666666,1.148936170212766
-Los Angeles Chargers @ Las Vegas Raiders,Tre Harris,AnytimeTD,Anytime,600.0,700.0,725.0,750.0,850.0,,750.0,850.0,DraftKings,850.0,9.5,8.291666666666666,1.1457286432160805
-Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,50,165.0,190.0,,155.0,196.0,,215.0,170.0,FanDuel,215.0,3.15,2.752,1.1446220930232558
-Tampa Bay Buccaneers @ Houston Texans,Cade Otton,Receiving,50,275.0,260.0,,250.0,278.0,275.0,290.0,325.0,HardRockBet,325.0,4.25,3.713333333333333,1.1445242369838422
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,250,180.0,225.0,,165.0,196.0,185.0,194.0,185.0,BetRivers,225.0,3.25,2.841666666666667,1.1436950146627565
+Los Angeles Chargers @ Las Vegas Raiders,Tre Harris,AnytimeTD,Anytime,600.0,700.0,725.0,700.0,850.0,,750.0,850.0,DraftKings,850.0,9.5,8.208333333333334,1.1573604060913705
+Tampa Bay Buccaneers @ Houston Texans,Jayden Higgins,Receiving,50,340.0,340.0,,300.0,274.0,300.0,,375.0,HardRockBet,375.0,4.75,4.108,1.1562804284323274
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,300,550.0,,600.0,525.0,690.0,600.0,630.0,600.0,DraftKings,690.0,7.9,6.841666666666666,1.1546894031668697
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Receiving,50,390.0,,475.0,325.0,363.0,400.0,470.0,450.0,Bovada,475.0,5.75,4.996666666666667,1.1507671781187458
+Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,110,,,1100.0,,1280.0,1100.0,1100.0,,DraftKings,1280.0,13.8,12.0,1.1500000000000001
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,AnytimeTD,Anytime,700.0,800.0,700.0,700.0,750.0,,750.0,500.0,BetRivers,800.0,9.0,7.833333333333333,1.148936170212766
+Los Angeles Chargers @ Las Vegas Raiders,Raheem Mostert,AnytimeTD,Anytime,1100.0,1300.0,1200.0,1100.0,1000.0,,1200.0,,BetRivers,1300.0,14.0,12.2,1.1475409836065575
+Atlanta Falcons @ Minnesota Vikings,Adam Thielen,AnytimeTD,Anytime,450.0,500.0,500.0,475.0,500.0,,550.0,375.0,FanDuel,550.0,6.5,5.666666666666667,1.1470588235294117
+Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,110,,350.0,,230.0,316.0,325.0,300.0,,BetRivers,350.0,4.5,3.9275,1.1457670273711011
+Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Rushing,110,,,,600.0,690.0,,580.0,,DraftKings,690.0,7.9,6.9,1.144927536231884
+Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,110,,425.0,,300.0,370.0,375.0,390.0,,BetRivers,425.0,5.25,4.5875,1.1444141689373295
+Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Receiving,50,675.0,,,,524.0,700.0,,600.0,ESPNBET,700.0,8.0,6.996666666666667,1.1434016198189614
+Tampa Bay Buccaneers @ Houston Texans,Cade Otton,Receiving,50,275.0,265.0,,250.0,278.0,275.0,290.0,325.0,HardRockBet,325.0,4.25,3.7216666666666662,1.141961486789073
+Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,AnytimeTD,Anytime,450.0,400.0,350.0,400.0,425.0,,390.0,325.0,BetMGM,450.0,5.5,4.816666666666666,1.1418685121107266
 Tampa Bay Buccaneers @ Houston Texans,Woody Marks,AnytimeTD,Anytime,900.0,850.0,900.0,850.0,950.0,,900.0,525.0,DraftKings,950.0,10.5,9.208333333333334,1.1402714932126696
-Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,110,,420.0,,290.0,370.0,375.0,390.0,,BetRivers,420.0,5.2,4.5625,1.1397260273972603
+Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,50,115.0,143.0,120.0,105.0,117.0,115.0,122.0,150.0,HardRockBet,150.0,2.5,2.1957142857142857,1.1385816525699415
 Tampa Bay Buccaneers @ Houston Texans,Jayden Higgins,AnytimeTD,Anytime,400.0,450.0,350.0,380.0,390.0,,380.0,400.0,BetRivers,450.0,5.5,4.833333333333334,1.1379310344827585
-Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,50,120.0,143.0,,105.0,113.0,,120.0,150.0,HardRockBet,150.0,2.5,2.2019999999999995,1.1353315168029068
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Passing,300,250.0,290.0,,195.0,278.0,250.0,240.0,250.0,BetRivers,290.0,3.9,3.438333333333333,1.1342704798836647
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,110,,320.0,,215.0,292.0,275.0,300.0,,BetRivers,320.0,4.2,3.705,1.1336032388663968
-Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,50,-325.0,-250.0,,-222.0,-178.0,-275.0,-260.0,-275.0,DraftKings,-178.0,1.5617977528089888,1.3783384783384784,1.133101757916286
+Atlanta Falcons @ Minnesota Vikings,Nathan Carter,AnytimeTD,Anytime,,,2500.0,2700.0,,,2700.0,3000.0,HardRockBet,3000.0,31.0,27.333333333333332,1.1341463414634148
+Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Receiving,25,,,,,148.0,,188.0,160.0,FanDuel,188.0,2.88,2.54,1.1338582677165354
+Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,80,,325.0,250.0,235.0,310.0,260.0,270.0,325.0,BetRivers,325.0,4.25,3.75,1.1333333333333333
+Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,50,310.0,375.0,325.0,295.0,314.0,325.0,340.0,325.0,BetRivers,375.0,4.75,4.191428571428572,1.133265167007498
+Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,50,-325.0,-245.0,,-222.0,-178.0,-275.0,-260.0,-275.0,DraftKings,-178.0,1.5617977528089888,1.3796990225561654,1.1319843873741748
 Tampa Bay Buccaneers @ Houston Texans,Tampa Bay Buccaneers D/ST,AnytimeTD,Anytime,550.0,,,,475.0,,,,BetMGM,550.0,6.5,5.75,1.1304347826086956
-Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Receiving,50,700.0,,,,524.0,700.0,,600.0,BetMGM,700.0,8.0,7.080000000000001,1.1299435028248586
+Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,110,,,,,2500.0,2200.0,,,DraftKings,2500.0,26.0,23.0,1.1304347826086956
+Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,AnytimeTD,Anytime,350.0,310.0,350.0,360.0,390.0,,360.0,275.0,DraftKings,390.0,4.9,4.341666666666666,1.1285988483685223
+Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,110,,,,450.0,556.0,,580.0,,FanDuel,580.0,6.8,6.029999999999999,1.1276948590381428
+Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,AnytimeTD,Anytime,260.0,370.0,350.0,325.0,350.0,,380.0,300.0,FanDuel,380.0,4.8,4.258333333333334,1.1272015655577299
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Receiving,25,,,,,238.0,,,200.0,DraftKings,238.0,3.38,3.0,1.1266666666666667
-Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Receiving,25,160.0,,,,148.0,,188.0,160.0,FanDuel,188.0,2.88,2.56,1.125
-Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,AnytimeTD,Anytime,280.0,320.0,350.0,350.0,380.0,,360.0,300.0,DraftKings,380.0,4.8,4.266666666666667,1.125
+Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,110,,350.0,350.0,285.0,359.0,375.0,400.0,,FanDuel,400.0,5.0,4.438,1.1266336187471835
+Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,AnytimeTD,Anytime,325.0,400.0,440.0,390.0,400.0,,450.0,375.0,FanDuel,450.0,5.5,4.883333333333334,1.1262798634812285
 Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Passing,300,400.0,,,333.0,456.0,400.0,390.0,450.0,DraftKings,456.0,5.56,4.946,1.1241407197735545
 Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,25,-3000.0,,,,-529.0,,-1450.0,-1400.0,DraftKings,-529.0,1.1890359168241966,1.0579091406677614,1.1239489962943952
-Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,AnytimeTD,Anytime,260.0,370.0,350.0,340.0,350.0,,380.0,300.0,FanDuel,380.0,4.8,4.283333333333334,1.120622568093385
+Tampa Bay Buccaneers @ Houston Texans,Dare Ogunbowale,AnytimeTD,Anytime,700.0,750.0,900.0,800.0,850.0,,900.0,750.0,Bovada,900.0,10.0,8.916666666666666,1.1214953271028039
+Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,AnytimeTD,Anytime,550.0,750.0,725.0,650.0,700.0,,750.0,575.0,BetRivers,750.0,8.5,7.583333333333333,1.120879120879121
 Tampa Bay Buccaneers @ Houston Texans,Ko Kieft,AnytimeTD,Anytime,2800.0,2900.0,2500.0,2600.0,2500.0,,2700.0,3000.0,HardRockBet,3000.0,31.0,27.666666666666668,1.1204819277108433
+Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,80,,,650.0,625.0,566.0,600.0,630.0,700.0,HardRockBet,700.0,8.0,7.142,1.1201344161299356
 Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,80,,200.0,,150.0,185.0,,205.0,155.0,FanDuel,205.0,3.05,2.7249999999999996,1.1192660550458717
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,AnytimeTD,Anytime,425.0,450.0,350.0,400.0,450.0,,400.0,325.0,BetRivers,450.0,5.5,4.916666666666667,1.11864406779661
-Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,80,,,,575.0,568.0,600.0,680.0,650.0,FanDuel,680.0,7.8,6.9825,1.117078410311493
+Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,50,525.0,,500.0,550.0,427.0,500.0,520.0,575.0,HardRockBet,575.0,6.75,6.036666666666666,1.1181667586968527
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,110,,260.0,300.0,215.0,274.0,260.0,280.0,,Bovada,300.0,4.0,3.5780000000000003,1.1179429849077696
 Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,AnytimeTD,Anytime,-105.0,-109.0,120.0,105.0,100.0,,120.0,-140.0,Bovada,120.0,2.2,1.972349643221203,1.1154208928225338
-Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,25,100.0,,,,104.0,,,125.0,HardRockBet,125.0,2.25,2.02,1.113861386138614
-Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,AnytimeTD,Anytime,325.0,400.0,440.0,425.0,400.0,,450.0,375.0,FanDuel,450.0,5.5,4.941666666666666,1.1129848229342327
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Passing,250,145.0,175.0,,125.0,141.0,145.0,162.0,165.0,BetRivers,175.0,2.75,2.4716666666666667,1.112609575185435
-Tampa Bay Buccaneers @ Houston Texans,Dare Ogunbowale,AnytimeTD,Anytime,700.0,750.0,900.0,850.0,850.0,,900.0,750.0,Bovada,900.0,10.0,9.0,1.1111111111111112
+Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,AnytimeTD,Anytime,280.0,320.0,350.0,340.0,380.0,,370.0,325.0,DraftKings,380.0,4.8,4.308333333333333,1.1141199226305611
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,250,180.0,220.0,195.0,165.0,203.0,185.0,194.0,190.0,BetRivers,220.0,3.2,2.874285714285714,1.113320079522863
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,50,700.0,,600.0,,640.0,700.0,560.0,600.0,BetMGM,700.0,8.0,7.2,1.1111111111111112
 Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,Receiving,50,230.0,280.0,,245.0,281.0,,240.0,220.0,DraftKings,281.0,3.81,3.4300000000000006,1.1107871720116615
-Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,Receiving,25,,,,,161.0,,178.0,140.0,FanDuel,178.0,2.7800000000000002,2.505,1.1097804391217567
-Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,AnytimeTD,Anytime,550.0,750.0,725.0,700.0,700.0,,750.0,575.0,BetRivers,750.0,8.5,7.666666666666667,1.108695652173913
+Atlanta Falcons @ Minnesota Vikings,Josh Oliver,AnytimeTD,Anytime,700.0,950.0,825.0,850.0,950.0,,950.0,800.0,BetRivers,950.0,10.5,9.458333333333334,1.1101321585903083
+Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,80,,,850.0,650.0,730.0,800.0,800.0,800.0,Bovada,850.0,9.5,8.559999999999999,1.1098130841121496
 Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,AnytimeTD,Anytime,170.0,165.0,150.0,165.0,170.0,,150.0,190.0,HardRockBet,190.0,2.9,2.6166666666666667,1.10828025477707
-Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Rushing,25,,,,,169.0,175.0,200.0,170.0,FanDuel,200.0,3.0,2.7133333333333334,1.1056511056511056
-Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Rushing,110,,,,650.0,690.0,,580.0,,DraftKings,690.0,7.9,7.15,1.1048951048951048
+Tampa Bay Buccaneers @ Houston Texans,Sterling Shepard,Receiving,25,100.0,,,,107.0,,,125.0,HardRockBet,125.0,2.25,2.035,1.1056511056511056
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,110,,,1400.0,,1660.0,,1700.0,,FanDuel,1700.0,18.0,16.3,1.1042944785276072
+Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Rushing,110,,,,425.0,482.0,,430.0,,DraftKings,482.0,5.82,5.275,1.1033175355450238
+Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,Receiving,25,155.0,,,,161.0,,178.0,140.0,FanDuel,178.0,2.7800000000000002,2.52,1.1031746031746033
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Rushing,50,-220.0,-190.0,,-167.0,-167.0,-175.0,-174.0,-140.0,HardRockBet,-140.0,1.7142857142857144,1.5541012082575054,1.103072119870373
-Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,80,,,,650.0,780.0,,830.0,800.0,FanDuel,830.0,9.3,8.433333333333334,1.1027667984189724
 Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,AnytimeTD,Anytime,250.0,275.0,250.0,240.0,225.0,,250.0,230.0,BetRivers,275.0,3.75,3.408333333333333,1.1002444987775062
-Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,50,130.0,145.0,,130.0,149.0,150.0,168.0,160.0,FanDuel,168.0,2.6799999999999997,2.44,1.0983606557377048
 Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,AnytimeTD,Anytime,200.0,230.0,250.0,225.0,225.0,,250.0,185.0,Bovada,250.0,3.5,3.191666666666667,1.0966057441253263
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,110,,,,575.0,610.0,,520.0,,DraftKings,610.0,7.1,6.475,1.0965250965250966
 Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Receiving,25,130.0,,,,130.0,,138.0,155.0,HardRockBet,155.0,2.55,2.3266666666666667,1.0959885386819483
+Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,AnytimeTD,Anytime,225.0,265.0,275.0,265.0,280.0,,280.0,300.0,HardRockBet,300.0,4.0,3.6500000000000004,1.095890410958904
+Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,80,,275.0,,205.0,256.0,250.0,250.0,250.0,BetRivers,275.0,3.75,3.4219999999999997,1.0958503798947985
 Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Rushing,25,,,,,376.0,400.0,430.0,375.0,FanDuel,430.0,5.3,4.836666666666667,1.0957960027567195
 Tampa Bay Buccaneers @ Houston Texans,Dalton Schultz,Receiving,110,,,,,2200.0,2000.0,,,DraftKings,2200.0,23.0,21.0,1.0952380952380953
-Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,50,250.0,320.0,,285.0,318.0,275.0,300.0,275.0,BetRivers,320.0,4.2,3.8383333333333334,1.094224924012158
-Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,AnytimeTD,Anytime,185.0,195.0,175.0,170.0,160.0,,175.0,155.0,BetRivers,195.0,2.95,2.6999999999999997,1.0925925925925928
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,50,700.0,,,,650.0,650.0,630.0,600.0,BetMGM,700.0,8.0,7.325,1.0921501706484642
+Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Rushing,25,,,,,169.0,185.0,200.0,170.0,FanDuel,200.0,3.0,2.7466666666666666,1.0922330097087378
 Tampa Bay Buccaneers @ Houston Texans,Dalton Schultz,Receiving,50,155.0,185.0,,145.0,171.0,165.0,174.0,190.0,HardRockBet,190.0,2.9,2.6583333333333337,1.0909090909090908
+Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,AnytimeTD,Anytime,185.0,195.0,175.0,175.0,160.0,,175.0,155.0,BetRivers,195.0,2.95,2.7083333333333335,1.0892307692307692
+Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,AnytimeTD,Anytime,200.0,225.0,260.0,235.0,235.0,,260.0,,Bovada,260.0,3.6,3.31,1.0876132930513596
 Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,50,-400.0,-375.0,,-256.0,-304.0,-375.0,-350.0,-350.0,Caesars,-256.0,1.390625,1.2806182121971597,1.0859013145019243
-Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,AnytimeTD,Anytime,240.0,245.0,260.0,255.0,240.0,,280.0,260.0,FanDuel,280.0,3.8,3.5,1.0857142857142856
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,50,-400.0,-345.0,,-263.0,-371.0,-400.0,-350.0,-350.0,Caesars,-263.0,1.3802281368821292,1.27180423714468,1.0852520353139183
-Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,110,,360.0,,260.0,372.0,360.0,360.0,,DraftKings,372.0,4.720000000000001,4.35,1.0850574712643681
+Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,50,130.0,160.0,160.0,130.0,154.0,150.0,158.0,170.0,HardRockBet,170.0,2.7,2.488571428571429,1.0849598163030998
 Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,80,,,,400.0,418.0,400.0,410.0,450.0,HardRockBet,450.0,5.5,5.07,1.0848126232741617
 Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,Rushing,50,-150.0,-109.0,,-132.0,-118.0,-130.0,-130.0,-125.0,BetRivers,-109.0,1.9174311926605505,1.7683602649704344,1.0842989579912374
-Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,25,-3000.0,,,,-680.0,,-1200.0,-1600.0,DraftKings,-680.0,1.1470588235294117,1.0597222222222222,1.082414617223036
-Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,80,,270.0,,205.0,256.0,250.0,250.0,250.0,BetRivers,270.0,3.7,3.4219999999999997,1.0812390414962012
-Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,AnytimeTD,Anytime,200.0,225.0,260.0,245.0,235.0,,260.0,,Bovada,260.0,3.6,3.3299999999999996,1.0810810810810811
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Receiving,25,-135.0,,,,-120.0,,-104.0,-115.0,FanDuel,-104.0,1.9615384615384617,1.8145464304884598,1.0810075887727122
+Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,80,,,1700.0,,1560.0,1800.0,1700.0,,ESPNBET,1800.0,19.0,17.533333333333335,1.0836501901140683
+Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,120.0,107.0,-114.0,110.0,120.0,,-110.0,105.0,BetMGM,120.0,2.2,2.0343806485911755,1.0814102078308292
 Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,Receiving,80,,275.0,,210.0,270.0,275.0,290.0,275.0,FanDuel,290.0,3.9,3.6100000000000003,1.080332409972299
-Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,80,,145.0,,115.0,152.0,135.0,142.0,130.0,DraftKings,152.0,2.52,2.3339999999999996,1.0796915167095118
-Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,AnytimeTD,Anytime,225.0,270.0,275.0,290.0,280.0,,285.0,300.0,HardRockBet,300.0,4.0,3.7083333333333335,1.0786516853932584
-Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Rushing,110,,,,450.0,482.0,,430.0,,DraftKings,482.0,5.82,5.4,1.0777777777777777
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Passing,300,550.0,,,550.0,650.0,600.0,630.0,650.0,DraftKings,650.0,7.5,6.959999999999999,1.0775862068965518
+Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,25,-2500.0,,,,-680.0,,-1200.0,-1600.0,DraftKings,-680.0,1.1470588235294117,1.0619444444444444,1.0801495591697312
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,AnytimeTD,Anytime,425.0,440.0,400.0,400.0,425.0,,430.0,325.0,BetRivers,440.0,5.4,5.008333333333334,1.0782029950083194
 Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,Receiving,25,-165.0,,,,-138.0,,-160.0,-175.0,DraftKings,-138.0,1.7246376811594204,1.600829725829726,1.0773398652786284
-Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,120.0,107.0,-114.0,115.0,120.0,,-110.0,105.0,BetMGM,120.0,2.2,2.042713981924509,1.0769985516657143
-Atlanta Falcons @ Minnesota Vikings,Drake London,AnytimeTD,Anytime,165.0,180.0,175.0,165.0,155.0,,186.0,160.0,FanDuel,186.0,2.8600000000000003,2.6666666666666665,1.0725000000000002
-Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,AnytimeTD,Anytime,-125.0,-104.0,-114.0,-119.0,-110.0,,-110.0,-155.0,BetRivers,-104.0,1.9615384615384617,1.8301453709023867,1.0717937999489566
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Receiving,25,-135.0,,-115.0,,-130.0,,-104.0,-110.0,FanDuel,-104.0,1.9615384615384617,1.8221569091134309,1.0764926180220378
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,50,-400.0,-420.0,-375.0,-294.0,-377.0,-450.0,-400.0,-400.0,Caesars,-294.0,1.3401360544217686,1.2488908737677211,1.0730609715953598
+Tampa Bay Buccaneers @ Houston Texans,Mike Evans,Receiving,80,,148.0,,115.0,152.0,140.0,142.0,130.0,DraftKings,152.0,2.52,2.35,1.0723404255319149
+Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,80,,185.0,,145.0,182.0,,194.0,185.0,FanDuel,194.0,2.94,2.7425,1.072014585232452
+Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Passing,250,125.0,150.0,,120.0,152.0,140.0,146.0,130.0,DraftKings,152.0,2.52,2.3516666666666666,1.0715804394046775
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,AnytimeTD,Anytime,155.0,145.0,160.0,160.0,175.0,,165.0,155.0,DraftKings,175.0,2.75,2.5666666666666664,1.0714285714285716
 Tampa Bay Buccaneers @ Houston Texans,Nico Collins,Receiving,110,,260.0,,205.0,279.0,275.0,280.0,,FanDuel,280.0,3.8,3.5475000000000003,1.0711768851303733
-Los Angeles Chargers @ Las Vegas Raiders,Tucker Fisk,AnytimeTD,Anytime,1700.0,,1800.0,1600.0,1600.0,,1800.0,,Bovada,1800.0,19.0,17.75,1.0704225352112675
-Los Angeles Chargers @ Las Vegas Raiders,Oronde Gadsden II,AnytimeTD,Anytime,1700.0,,1800.0,1600.0,1600.0,,1800.0,,Bovada,1800.0,19.0,17.75,1.0704225352112675
+Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,25,175.0,,175.0,,137.0,155.0,162.0,155.0,BetMGM,175.0,2.75,2.568,1.070872274143302
 Tampa Bay Buccaneers @ Houston Texans,Baker Mayfield,Passing,250,130.0,145.0,,110.0,135.0,130.0,124.0,145.0,BetRivers,145.0,2.45,2.2900000000000005,1.0698689956331877
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,25,165.0,,,,155.0,165.0,182.0,170.0,FanDuel,182.0,2.8200000000000003,2.6375,1.0691943127962085
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,AnytimeTD,Anytime,155.0,143.0,160.0,160.0,165.0,,172.0,145.0,FanDuel,172.0,2.7199999999999998,2.546666666666667,1.0680628272251307
-Tampa Bay Buccaneers @ Houston Texans,C.J. Stroud,Passing,250,130.0,150.0,,120.0,152.0,140.0,146.0,130.0,DraftKings,152.0,2.52,2.36,1.0677966101694916
-Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,80,,185.0,,150.0,182.0,,194.0,185.0,FanDuel,194.0,2.94,2.755,1.0671506352087115
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,80,,180.0,,140.0,168.0,165.0,172.0,170.0,BetRivers,180.0,2.8,2.63,1.064638783269962
-Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,25,-155.0,,,,-124.0,,-128.0,-150.0,DraftKings,-124.0,1.8064516129032258,1.697692652329749,1.0640628092630469
-Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,50,-275.0,-195.0,,-179.0,-177.0,,-192.0,-250.0,DraftKings,-177.0,1.5649717514124295,1.471189885533461,1.0637455890644345
+Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,AnytimeTD,Anytime,-125.0,-104.0,-114.0,-115.0,-110.0,,-110.0,-155.0,BetRivers,-104.0,1.9615384615384617,1.835016884725307,1.0689484537533802
+Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,50,165.0,195.0,200.0,155.0,190.0,185.0,200.0,175.0,Bovada,200.0,3.0,2.807142857142857,1.0687022900763359
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,80,,160.0,150.0,135.0,163.0,150.0,158.0,170.0,HardRockBet,170.0,2.7,2.5266666666666664,1.0686015831134565
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,25,150.0,,130.0,,137.0,,134.0,135.0,BetMGM,150.0,2.5,2.34,1.0683760683760684
+Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,80,,123.0,120.0,105.0,124.0,125.0,136.0,135.0,FanDuel,136.0,2.3600000000000003,2.2199999999999998,1.0630630630630633
+Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,25,-275.0,,-250.0,,-215.0,,-240.0,-200.0,HardRockBet,-200.0,1.5,1.4113548273431995,1.0628085658825217
+Atlanta Falcons @ Minnesota Vikings,Charlie Woerner,AnytimeTD,Anytime,1500.0,1600.0,1400.0,1500.0,1500.0,,1600.0,1500.0,BetRivers,1600.0,17.0,16.0,1.0625
+Atlanta Falcons @ Minnesota Vikings,Atlanta Falcons Defense,AnytimeTD,Anytime,,,700.0,,,,750.0,,FanDuel,750.0,8.5,8.0,1.0625
+Atlanta Falcons @ Minnesota Vikings,Minnesota Vikings Defense,AnytimeTD,Anytime,,,700.0,,,,750.0,,FanDuel,750.0,8.5,8.0,1.0625
+Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,250,-120.0,110.0,,-108.0,102.0,100.0,108.0,100.0,BetRivers,110.0,2.1,1.9765432098765432,1.0624609618988132
+Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,25,115.0,,125.0,,117.0,,128.0,135.0,HardRockBet,135.0,2.35,2.2125000000000004,1.062146892655367
 Tampa Bay Buccaneers @ Houston Texans,Justin Watson,Receiving,25,,,,,192.0,,,175.0,DraftKings,192.0,2.92,2.75,1.0618181818181818
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,80,,114.0,,-109.0,-102.0,105.0,108.0,105.0,BetRivers,114.0,2.1399999999999997,2.015564669904659,1.0617372054359469
+Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,25,-350.0,,-350.0,,-340.0,,-350.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.28781512605042,1.058875871273914
 Tampa Bay Buccaneers @ Houston Texans,Jakob Johnson,AnytimeTD,Anytime,,,3300.0,,,,3500.0,,FanDuel,3500.0,36.0,34.0,1.0588235294117647
-Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,25,-275.0,,,,-209.0,,-225.0,-195.0,HardRockBet,-195.0,1.5128205128205128,1.428849902534113,1.0587679714555567
+Atlanta Falcons @ Minnesota Vikings,Jordan Mason,AnytimeTD,Anytime,110.0,115.0,110.0,110.0,115.0,,115.0,125.0,HardRockBet,125.0,2.25,2.125,1.0588235294117647
+Los Angeles Chargers @ Las Vegas Raiders,Jakobi Meyers,Receiving,50,-250.0,-195.0,,-179.0,-177.0,,-192.0,-250.0,DraftKings,-177.0,1.5649717514124295,1.4784626128061884,1.0585129024277746
+Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,AnytimeTD,Anytime,240.0,255.0,275.0,260.0,250.0,,280.0,275.0,FanDuel,280.0,3.8,3.5916666666666663,1.0580046403712298
 Tampa Bay Buccaneers @ Houston Texans,Mike Evans,AnytimeTD,Anytime,150.0,160.0,140.0,150.0,155.0,,140.0,140.0,BetRivers,160.0,2.6,2.4583333333333335,1.0576271186440678
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,AnytimeTD,Anytime,-102.0,107.0,100.0,105.0,105.0,,114.0,100.0,FanDuel,114.0,2.1399999999999997,2.0250653594771246,1.056756015298465
+Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,25,-155.0,,-125.0,,-120.0,,-128.0,-140.0,DraftKings,-120.0,1.8333333333333335,1.7351742511520738,1.0565701583665656
 Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,Receiving,110,,,,800.0,860.0,900.0,880.0,,ESPNBET,900.0,10.0,9.466666666666667,1.056338028169014
-Los Angeles Chargers @ Las Vegas Raiders,Geno Smith,Passing,250,-115.0,110.0,,-108.0,102.0,105.0,108.0,100.0,BetRivers,110.0,2.1,1.9909151905528717,1.0547912889332247
+Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,110,,,,,1800.0,,1700.0,,DraftKings,1800.0,19.0,18.0,1.0555555555555556
+Los Angeles Chargers @ Las Vegas Raiders,Tucker Fisk,AnytimeTD,Anytime,1700.0,,1800.0,1700.0,1600.0,,1800.0,,Bovada,1800.0,19.0,18.0,1.0555555555555556
+Los Angeles Chargers @ Las Vegas Raiders,Oronde Gadsden II,AnytimeTD,Anytime,1700.0,,1800.0,1700.0,1600.0,,1800.0,,Bovada,1800.0,19.0,18.0,1.0555555555555556
 Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Rushing,50,-325.0,-265.0,,-244.0,-295.0,-300.0,-250.0,-230.0,HardRockBet,-230.0,1.434782608695652,1.3612005413354844,1.054056742651583
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,50,-325.0,-286.0,,-244.0,-294.0,-300.0,-275.0,-300.0,Caesars,-244.0,1.4098360655737705,1.3379636236779096,1.0537177847169654
-Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,50,-400.0,-305.0,,-263.0,-285.0,-325.0,-310.0,-325.0,Caesars,-263.0,1.3802281368821292,1.3111185509978962,1.052710401993499
+Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,50,-450.0,-305.0,-325.0,-263.0,-308.0,-325.0,-290.0,-300.0,Caesars,-263.0,1.3802281368821292,1.309758847754487,1.053803254888072
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,AnytimeTD,Anytime,-150.0,-143.0,-168.0,-160.0,-145.0,,-155.0,-135.0,HardRockBet,-135.0,1.7407407407407407,1.6535036539903059,1.052758931944245
 Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,AnytimeTD,Anytime,150.0,150.0,130.0,140.0,155.0,,135.0,150.0,DraftKings,155.0,2.55,2.425,1.0515463917525774
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,25,150.0,,,,135.0,,134.0,145.0,BetMGM,150.0,2.5,2.38,1.050420168067227
+Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,Rushing,50,775.0,,,,820.0,,,,DraftKings,820.0,9.2,8.75,1.0514285714285714
 Tampa Bay Buccaneers @ Houston Texans,Rachaad White,Rushing,25,,,,,314.0,300.0,300.0,325.0,HardRockBet,325.0,4.25,4.046666666666667,1.0502471169686984
 Tampa Bay Buccaneers @ Houston Texans,Dalton Schultz,Receiving,25,-325.0,,,,-242.0,,-290.0,-260.0,DraftKings,-242.0,1.4132231404958677,1.3457117595048629,1.0501677870570476
-Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,50,-210.0,-177.0,,-182.0,-174.0,-190.0,-168.0,-160.0,HardRockBet,-160.0,1.625,1.5478132175738992,1.0498682796798222
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,AnytimeTD,Anytime,500.0,480.0,500.0,475.0,500.0,,500.0,375.0,BetMGM,500.0,6.0,5.716666666666666,1.0495626822157436
 Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,Receiving,50,-150.0,-136.0,,-175.0,-132.0,-130.0,-128.0,-145.0,FanDuel,-128.0,1.78125,1.6983085091604362,1.0488377055123903
 Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Rushing,50,-350.0,-360.0,,-278.0,-301.0,-350.0,-320.0,-350.0,Caesars,-278.0,1.3597122302158273,1.2966077580903161,1.0486688990805155
-Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,50,115.0,128.0,,105.0,121.0,115.0,124.0,125.0,BetRivers,128.0,2.2800000000000002,2.175,1.0482758620689656
-Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Passing,250,-140.0,-122.0,,-133.0,-120.0,-140.0,-132.0,-135.0,DraftKings,-120.0,1.8333333333333335,1.7497399595472647,1.0477747412293756
-Atlanta Falcons @ Minnesota Vikings,Darnell Mooney,Receiving,25,-325.0,,,,-327.0,,-340.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.3025401174348827,1.0469054621686424
+Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,110,,,,750.0,780.0,800.0,750.0,,ESPNBET,800.0,9.0,8.6,1.0465116279069768
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,50,-350.0,-315.0,-325.0,-263.0,-302.0,-325.0,-280.0,-300.0,Caesars,-263.0,1.3802281368821292,1.3200230338357113,1.0456091306766628
+Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,50,-190.0,-165.0,-150.0,-161.0,-143.0,-160.0,-154.0,-145.0,DraftKings,-143.0,1.6993006993006992,1.6263095566268226,1.0448814571472296
 Los Angeles Chargers @ Las Vegas Raiders,Los Angeles Chargers D/ST,AnytimeTD,Anytime,500.0,,,,475.0,,,,BetMGM,500.0,6.0,5.75,1.0434782608695652
+Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,25,-10000.0,,,,-1340.0,,,-2000.0,DraftKings,-1340.0,1.0746268656716418,1.03,1.0433270540501376
 Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,80,,116.0,,-105.0,112.0,105.0,108.0,115.0,BetRivers,116.0,2.16,2.0704761904761906,1.0432382704691812
-Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,25,-400.0,,,,-282.0,,-295.0,-325.0,DraftKings,-282.0,1.3546099290780143,1.2988917861799216,1.0428966781458842
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,AnytimeTD,Anytime,-150.0,-141.0,-168.0,-160.0,-135.0,,-146.0,-135.0,DraftKings,-135.0,1.7407407407407407,1.6702994779418077,1.042172834111002
-Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,80,,125.0,,105.0,124.0,125.0,130.0,125.0,FanDuel,130.0,2.3,2.2079999999999997,1.0416666666666667
+Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,50,-155.0,-129.0,,-143.0,-138.0,-145.0,-140.0,-135.0,BetRivers,-129.0,1.7751937984496124,1.7022968830371579,1.0428226804259872
+Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Passing,250,-135.0,-122.0,,-133.0,-120.0,-135.0,-132.0,-135.0,DraftKings,-120.0,1.8333333333333335,1.7585583016989401,1.0425206440765447
+Atlanta Falcons @ Minnesota Vikings,Drake London,AnytimeTD,Anytime,165.0,175.0,170.0,165.0,150.0,,175.0,160.0,BetRivers,175.0,2.75,2.6416666666666666,1.0410094637223974
 Tampa Bay Buccaneers @ Houston Texans,Cade Otton,Receiving,25,-175.0,,,,-149.0,,-166.0,-155.0,DraftKings,-149.0,1.6711409395973154,1.6063331667684562,1.0403451626160694
+Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,50,120.0,128.0,,105.0,121.0,120.0,124.0,125.0,BetRivers,128.0,2.2800000000000002,2.191666666666667,1.0403041825095056
+Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,Receiving,25,-1000.0,,,,-573.0,,-650.0,-750.0,DraftKings,-573.0,1.174520069808028,1.129059829059829,1.0402638014196766
 Tampa Bay Buccaneers @ Houston Texans,Cade Otton,AnytimeTD,Anytime,380.0,370.0,350.0,375.0,380.0,,370.0,325.0,BetMGM,380.0,4.8,4.616666666666666,1.0397111913357402
-Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,50,,,,,581.0,,560.0,550.0,DraftKings,581.0,6.81,6.55,1.0396946564885496
-Atlanta Falcons @ Minnesota Vikings,Jordan Mason,AnytimeTD,Anytime,110.0,112.0,100.0,100.0,100.0,,110.0,105.0,BetRivers,112.0,2.12,2.0416666666666665,1.0383673469387757
-Los Angeles Chargers @ Las Vegas Raiders,Keenan Allen,Receiving,25,-900.0,,,,-573.0,,-650.0,-750.0,DraftKings,-573.0,1.174520069808028,1.1327635327635328,1.036862536475397
-Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,50,-155.0,-130.0,,-143.0,-138.0,-140.0,-140.0,-135.0,BetRivers,-130.0,1.7692307692307692,1.706401973349145,1.0368194580543708
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,25,-500.0,,,,-381.0,-400.0,-350.0,-400.0,FanDuel,-350.0,1.2857142857142856,1.2406167979002625,1.0363508602256155
-Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,110,,,,750.0,780.0,750.0,750.0,,DraftKings,780.0,8.8,8.5,1.035294117647059
-Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,25,-1600.0,,,,-980.0,,-1450.0,-1600.0,DraftKings,-980.0,1.1020408163265305,1.064655172413793,1.0351152606791705
-Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,25,-140.0,,,,-134.0,-130.0,-136.0,-155.0,ESPNBET,-130.0,1.7692307692307692,1.710252444742943,1.034485157246298
+Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,25,-160.0,,,,-136.0,,,-140.0,DraftKings,-136.0,1.7352941176470589,1.6696428571428572,1.0393205410506448
+Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,25,-2000.0,,,,-980.0,,-1450.0,-1600.0,DraftKings,-980.0,1.1020408163265305,1.0604885057471265,1.039182235690645
+Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,25,-400.0,,-300.0,,-273.0,,-310.0,-275.0,DraftKings,-273.0,1.3663003663003663,1.3173875855327468,1.0371286182629689
+Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,50,-225.0,-205.0,,-189.0,-198.0,,-210.0,-210.0,Caesars,-189.0,1.529100529100529,1.4779361559849364,1.0346187979151882
 Tampa Bay Buccaneers @ Houston Texans,Nico Collins,Receiving,80,,-106.0,,-114.0,101.0,-105.0,100.0,-105.0,DraftKings,101.0,2.01,1.945070222726628,1.0333817136855614
 Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,Receiving,25,-1000.0,,,,-620.0,,-670.0,-575.0,HardRockBet,-575.0,1.1739130434782608,1.136848017974643,1.0326033250861897
 Tampa Bay Buccaneers @ Houston Texans,Xavier Hutchinson,Receiving,25,150.0,,,,158.0,,,150.0,DraftKings,158.0,2.58,2.5,1.032
+Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,50,250.0,280.0,,280.0,268.0,,,275.0,BetRivers,280.0,3.8,3.6825,1.031907671418873
+Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,25,-10000.0,,,,-1600.0,,,-2000.0,DraftKings,-1600.0,1.0625,1.03,1.0315533980582523
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,Rushing,25,-3000.0,,,,-1180.0,-1300.0,-1400.0,-1000.0,HardRockBet,-1000.0,1.1,1.0666076860992115,1.031307025381479
 Tampa Bay Buccaneers @ Houston Texans,Nico Collins,Receiving,50,-500.0,-400.0,,-375.0,-363.0,-450.0,-400.0,-425.0,DraftKings,-363.0,1.275482093663912,1.237363834422658,1.030806023403003
-Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,25,-140.0,,,,-144.0,,-130.0,-135.0,FanDuel,-130.0,1.7692307692307692,1.716490299823633,1.0307257602402735
-Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,25,-3000.0,,,,-1300.0,-1300.0,-1200.0,-1000.0,HardRockBet,-1000.0,1.1,1.067628205128205,1.0303212248574003
+Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,25,-130.0,,-145.0,,-134.0,-130.0,-136.0,-155.0,BetMGM,-130.0,1.7692307692307692,1.7171220012661241,1.0303465728854575
 Los Angeles Chargers @ Las Vegas Raiders,Las Vegas Raiders Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,FanDuel,750.0,8.5,8.25,1.0303030303030303
-Atlanta Falcons @ Minnesota Vikings,Adam Thielen,Receiving,25,,,,,138.0,,132.0,130.0,DraftKings,138.0,2.38,2.31,1.0303030303030303
-Los Angeles Chargers @ Las Vegas Raiders,Brock Bowers,Receiving,50,-210.0,-205.0,,-189.0,-198.0,,-210.0,-210.0,Caesars,-189.0,1.529100529100529,1.484285362334143,1.0301930935274541
-Atlanta Falcons @ Minnesota Vikings,Drake London,Receiving,25,-10000.0,,,,-1660.0,,,-2000.0,DraftKings,-1660.0,1.0602409638554218,1.03,1.0293601590829338
 Los Angeles Chargers @ Las Vegas Raiders,Omarion Hampton,AnytimeTD,Anytime,-135.0,-120.0,-122.0,-120.0,-125.0,,-120.0,-150.0,BetRivers,-120.0,1.8333333333333335,1.7822910342036025,1.0286385882833882
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,80,,-108.0,-105.0,-112.0,-102.0,-115.0,-104.0,-105.0,DraftKings,-102.0,1.9803921568627452,1.9257747754124566,1.028361250831417
+Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Rushing,25,-2500.0,,-900.0,,-980.0,-1100.0,-1100.0,-850.0,HardRockBet,-850.0,1.1176470588235294,1.0869940218511647,1.0281998211178405
 Tampa Bay Buccaneers @ Houston Texans,Dalton Schultz,AnytimeTD,Anytime,250.0,265.0,250.0,255.0,265.0,,250.0,260.0,BetRivers,265.0,3.65,3.5500000000000007,1.0281690140845068
-Atlanta Falcons @ Minnesota Vikings,Minnesota Vikings Defense,AnytimeTD,Anytime,,,700.0,,,,680.0,,Bovada,700.0,8.0,7.8,1.0256410256410258
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,25,-550.0,,-529.0,,-422.0,-475.0,-420.0,-475.0,FanDuel,-420.0,1.2380952380952381,1.205774710973175,1.026804781049005
 Tampa Bay Buccaneers @ Houston Texans,Nick Chubb,Rushing,25,-1600.0,,,,-950.0,-900.0,-800.0,-900.0,FanDuel,-800.0,1.125,1.0974963450292399,1.0250603613354423
 Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Rushing,80,,143.0,,125.0,144.0,140.0,144.0,145.0,HardRockBet,145.0,2.45,2.392,1.024247491638796
-Los Angeles Chargers @ Las Vegas Raiders,Ladd McConkey,Receiving,25,,,,,-1340.0,,,-2000.0,DraftKings,-1340.0,1.0746268656716418,1.05,1.023454157782516
-Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,25,-10000.0,,,,-2300.0,,,-2000.0,HardRockBet,-2000.0,1.05,1.0267391304347826,1.0226550921024773
 Tampa Bay Buccaneers @ Houston Texans,Jayden Higgins,Receiving,25,-120.0,,,,-121.0,,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.8298898071625345,1.0216818576033773
+Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,25,-140.0,,-140.0,,-136.0,,-130.0,-130.0,FanDuel,-130.0,1.7692307692307692,1.7332740788623142,1.020744953615216
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,AnytimeTD,Anytime,-102.0,-103.0,100.0,105.0,105.0,,105.0,100.0,Caesars,105.0,2.05,2.0085443238784184,1.0206396620820057
+Atlanta Falcons @ Minnesota Vikings,Justin Jefferson,Receiving,25,-10000.0,,,,-2100.0,,,-2200.0,DraftKings,-2100.0,1.0476190476190477,1.0277272727272728,1.0193551104652387
+Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,25,,,,,-3700.0,-2000.0,,-3000.0,ESPNBET,-2000.0,1.05,1.0301801801801802,1.0192391779623962
 Tampa Bay Buccaneers @ Houston Texans,Nico Collins,AnytimeTD,Anytime,135.0,128.0,140.0,135.0,140.0,,140.0,135.0,Bovada,140.0,2.4,2.355,1.019108280254777
-Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,25,-400.0,,,,-337.0,,-350.0,-350.0,DraftKings,-337.0,1.2967359050445104,1.2738095238095237,1.0179982805956904
-Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,50,,280.0,,280.0,268.0,,,275.0,BetRivers,280.0,3.8,3.7433333333333336,1.0151380231522706
 Tampa Bay Buccaneers @ Houston Texans,Emeka Egbuka,AnytimeTD,Anytime,185.0,185.0,185.0,175.0,175.0,,185.0,180.0,BetMGM,185.0,2.85,2.808333333333333,1.0148367952522257
-Atlanta Falcons @ Minnesota Vikings,Bijan Robinson,Rushing,25,,,,,-3300.0,-2000.0,,-2500.0,ESPNBET,-2000.0,1.05,1.0351515151515152,1.014344262295082
-Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,25,,,,,-136.0,,,-140.0,DraftKings,-136.0,1.7352941176470589,1.7142857142857144,1.0122549019607843
+Los Angeles Chargers @ Las Vegas Raiders,Quentin Johnston,Receiving,25,-375.0,,,,-337.0,,-350.0,-350.0,DraftKings,-337.0,1.2967359050445104,1.2793650793650793,1.0135776925285875
 Tampa Bay Buccaneers @ Houston Texans,Nico Collins,Receiving,25,,,,,-2000.0,,,-2500.0,DraftKings,-2000.0,1.05,1.04,1.0096153846153846
 Tampa Bay Buccaneers @ Houston Texans,Bucky Irving,Rushing,25,,,,,-3300.0,-2000.0,,-2000.0,ESPNBET,-2000.0,1.05,1.040151515151515,1.0094683175528043
 Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Rushing,25,,,,,-2100.0,-2250.0,,-3000.0,DraftKings,-2100.0,1.0476190476190477,1.038888888888889,1.0084033613445378
+Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,Rushing,25,165.0,,,,163.0,,,,BetMGM,165.0,2.65,2.63,1.0076045627376427
 Los Angeles Chargers @ Las Vegas Raiders,Alex Bachman,AnytimeTD,Anytime,,,,1300.0,1300.0,,,,Caesars,1300.0,14.0,14.0,1.0
-Atlanta Falcons @ Minnesota Vikings,Atlanta Falcons Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,Bovada,700.0,8.0,8.0,1.0
 Los Angeles Chargers @ Las Vegas Raiders,Las Vegas Raiders D/ST,AnytimeTD,Anytime,500.0,,,,500.0,,,,BetMGM,500.0,6.0,6.0,1.0
 Los Angeles Chargers @ Las Vegas Raiders,Justin Shorter,AnytimeTD,Anytime,,,2200.0,,,,2200.0,,Bovada,2200.0,23.0,23.0,1.0
 Los Angeles Chargers @ Las Vegas Raiders,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,Bovada,700.0,8.0,8.0,1.0
 Tampa Bay Buccaneers @ Houston Texans,Tampa Bay Buccaneers Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,Bovada,800.0,9.0,9.0,1.0
-Atlanta Falcons @ Minnesota Vikings,A.J. Terrell,AnytimeTD,Anytime,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,80,,,,,2800.0,,,,DraftKings,2800.0,29.0,,
-Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Rushing,110,,,,,1640.0,,,,DraftKings,1640.0,17.4,,
+Atlanta Falcons @ Minnesota Vikings,A.J. Terrell,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Atlanta Falcons @ Minnesota Vikings,Aaron Jones,Receiving,80,,,,,3200.0,,,,DraftKings,3200.0,33.0,,
 Atlanta Falcons @ Minnesota Vikings,Byron Murphy Jr.,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Atlanta Falcons @ Minnesota Vikings,Casey Washington,AnytimeTD,Anytime,850.0,,,,,,,,BetMGM,850.0,9.5,,
 Atlanta Falcons @ Minnesota Vikings,Divine Deablo,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ Minnesota Vikings,Ivan Pace Jr.,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Atlanta Falcons @ Minnesota Vikings,J.J. McCarthy,Rushing,80,,,,,2700.0,,,,DraftKings,2700.0,28.0,,
-Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,110,,,,,4100.0,,,,DraftKings,4100.0,42.0,,
-Atlanta Falcons @ Minnesota Vikings,Jamal Agnew,AnytimeTD,Anytime,1800.0,,,,,,,,BetMGM,1800.0,19.0,,
+Atlanta Falcons @ Minnesota Vikings,Jalen Nailor,Receiving,110,,,,,4300.0,,,,DraftKings,4300.0,44.0,,
 Atlanta Falcons @ Minnesota Vikings,Javon Hargrave,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ Minnesota Vikings,Jessie Bates III,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ Minnesota Vikings,Jonathan Greenard,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ Minnesota Vikings,Jordan Mason,Receiving,25,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Atlanta Falcons @ Minnesota Vikings,Josh Metellus,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Atlanta Falcons @ Minnesota Vikings,Josh Metellus,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Atlanta Falcons @ Minnesota Vikings,Kaden Elliss,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Atlanta Falcons @ Minnesota Vikings,Kyle Pitts,Receiving,110,,,,,2800.0,,,,DraftKings,2800.0,29.0,,
-Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,80,,,,,3600.0,,,,DraftKings,3600.0,37.0,,
-Atlanta Falcons @ Minnesota Vikings,Mike Hughes,AnytimeTD,Anytime,,,,,,,,2250.0,HardRockBet,2250.0,23.5,,
-Atlanta Falcons @ Minnesota Vikings,Ray-Ray McCloud III,Receiving,110,,,,,4500.0,,,,DraftKings,4500.0,46.0,,
-Atlanta Falcons @ Minnesota Vikings,T.J. Hockenson,Receiving,110,,,,,1780.0,,,,DraftKings,1780.0,18.8,,
+Atlanta Falcons @ Minnesota Vikings,Michael Penix Jr.,Rushing,80,,,,,3500.0,,,,DraftKings,3500.0,36.0,,
+Atlanta Falcons @ Minnesota Vikings,Mike Hughes,AnytimeTD,Anytime,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Atlanta Falcons @ Minnesota Vikings,Ty Chandler,AnytimeTD,Anytime,900.0,,,,,,,,BetMGM,900.0,10.0,,
-Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,110,,,,,2700.0,,,,DraftKings,2700.0,28.0,,
+Atlanta Falcons @ Minnesota Vikings,Tyler Allgeier,Rushing,110,,,,,3100.0,,,,DraftKings,3100.0,32.0,,
 Atlanta Falcons @ Minnesota Vikings,Xavier Watts,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Los Angeles Chargers @ Las Vegas Raiders,Ashton Jeanty,Receiving,80,,,,,1660.0,,,,DraftKings,1660.0,17.6,,
 Los Angeles Chargers @ Las Vegas Raiders,Dont'e Thornton Jr.,Receiving,110,,,,,3400.0,,,,DraftKings,3400.0,35.0,,
@@ -281,8 +280,6 @@ Los Angeles Chargers @ Las Vegas Raiders,Isaiah Pola-Mao,AnytimeTD,Anytime,,,,,,
 Los Angeles Chargers @ Las Vegas Raiders,Jeremy Chinn,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Los Angeles Chargers @ Las Vegas Raiders,Justin Herbert,Rushing,80,,,,,3000.0,,,,DraftKings,3000.0,31.0,,
 Los Angeles Chargers @ Las Vegas Raiders,Kyu Blu Kelly,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,Rushing,25,,,,,163.0,,,,DraftKings,163.0,2.63,,
-Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,Rushing,50,,,,,820.0,,,,DraftKings,820.0,9.2,,
 Los Angeles Chargers @ Las Vegas Raiders,Najee Harris,Rushing,80,,,,,3000.0,,,,DraftKings,3000.0,31.0,,
 Los Angeles Chargers @ Las Vegas Raiders,Tre Tucker,Receiving,110,,,,,3600.0,,,,DraftKings,3600.0,37.0,,
 Los Angeles Chargers @ Las Vegas Raiders,Tyler Conklin,Receiving,80,,,,,3000.0,,,,DraftKings,3000.0,31.0,,
