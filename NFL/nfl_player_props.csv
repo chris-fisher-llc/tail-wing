@@ -1,81 +1,81 @@
 event,player,group,threshold,BetMGM,Caesars,DraftKings,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
 Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,110,,,2900.0,1500.0,,,DraftKings,2900.0,30.0,16.0,1.875
-Miami Dolphins @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,,1000.0,800.0,2000.0,1500.0,1100.0,FanDuel,2000.0,21.0,12.0,1.75
-Miami Dolphins @ Buffalo Bills,James Cook,Receiving,50,,,1040.0,,,600.0,DraftKings,1040.0,11.4,7.0,1.6285714285714286
-Miami Dolphins @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,,,1200.0,,1900.0,2500.0,HardRockBet,2500.0,26.0,16.5,1.5757575757575757
+Miami Dolphins @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,,1000.0,800.0,2000.0,1600.0,1100.0,FanDuel,2000.0,21.0,12.25,1.7142857142857142
+Miami Dolphins @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,,1400.0,1200.0,,1900.0,2500.0,HardRockBet,2500.0,26.0,16.0,1.625
 Miami Dolphins @ Buffalo Bills,Josh Allen,Passing,350,1100.0,,1860.0,1200.0,,,DraftKings,1860.0,19.6,12.5,1.568
-Miami Dolphins @ Buffalo Bills,Dee Eskridge,AnytimeTD,Anytime,,1600.0,1500.0,2500.0,2000.0,1400.0,FanDuel,2500.0,26.0,17.25,1.5072463768115942
-Miami Dolphins @ Buffalo Bills,Alec Ingold,AnytimeTD,Anytime,,2300.0,2200.0,3000.0,2200.0,1500.0,FanDuel,3000.0,31.0,21.5,1.441860465116279
-Miami Dolphins @ Buffalo Bills,Ollie Gordon II,AnytimeTD,Anytime,,575.0,750.0,500.0,475.0,,DraftKings,750.0,8.5,6.166666666666667,1.3783783783783783
+Miami Dolphins @ Buffalo Bills,James Cook,Receiving,50,,,980.0,,,600.0,DraftKings,980.0,10.8,7.0,1.542857142857143
+Miami Dolphins @ Buffalo Bills,Dee Eskridge,AnytimeTD,Anytime,,1600.0,1500.0,2500.0,2200.0,1400.0,FanDuel,2500.0,26.0,17.75,1.4647887323943662
+Miami Dolphins @ Buffalo Bills,Alec Ingold,AnytimeTD,Anytime,,2300.0,2200.0,3000.0,2200.0,1600.0,FanDuel,3000.0,31.0,21.75,1.4252873563218391
+Miami Dolphins @ Buffalo Bills,Ollie Gordon II,AnytimeTD,Anytime,,575.0,750.0,500.0,425.0,,DraftKings,750.0,8.5,6.0,1.4166666666666667
 Miami Dolphins @ Buffalo Bills,Tua Tagovailoa,Passing,350,775.0,1100.0,1300.0,920.0,,,DraftKings,1300.0,14.0,10.316666666666666,1.3570274636510502
 Miami Dolphins @ Buffalo Bills,Dalton Kincaid,Receiving,80,,,1040.0,1280.0,,800.0,FanDuel,1280.0,13.8,10.2,1.3529411764705883
 Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,110,,,1260.0,920.0,,,DraftKings,1260.0,13.6,10.2,1.3333333333333335
 Miami Dolphins @ Buffalo Bills,Tyrell Shavers,AnytimeTD,Anytime,,900.0,850.0,,900.0,1200.0,HardRockBet,1200.0,13.0,9.833333333333334,1.3220338983050848
-Miami Dolphins @ Buffalo Bills,Dalton Kincaid,Receiving,50,220.0,260.0,283.0,360.0,,260.0,FanDuel,360.0,4.6,3.5575,1.2930428671820098
-Miami Dolphins @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,,750.0,650.0,900.0,800.0,600.0,FanDuel,900.0,10.0,8.0,1.25
-Miami Dolphins @ Buffalo Bills,Julian Hill,AnytimeTD,Anytime,,625.0,500.0,800.0,750.0,,FanDuel,800.0,9.0,7.25,1.2413793103448276
-Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,80,,,960.0,1260.0,,1400.0,HardRockBet,1400.0,15.0,12.1,1.2396694214876034
-Miami Dolphins @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,,280.0,340.0,240.0,230.0,275.0,DraftKings,340.0,4.4,3.5625,1.2350877192982457
+Miami Dolphins @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,,,425.0,450.0,400.0,575.0,HardRockBet,575.0,6.75,5.25,1.2857142857142858
+Miami Dolphins @ Buffalo Bills,Dalton Kincaid,Receiving,50,220.0,275.0,283.0,360.0,,260.0,FanDuel,360.0,4.6,3.595,1.2795549374130735
+Miami Dolphins @ Buffalo Bills,Julian Hill,AnytimeTD,Anytime,,625.0,500.0,800.0,700.0,,FanDuel,800.0,9.0,7.083333333333333,1.2705882352941178
+Miami Dolphins @ Buffalo Bills,Miami Dolphins D/ST,AnytimeTD,Anytime,,,500.0,,650.0,,Fanatics,650.0,7.5,6.0,1.25
+Miami Dolphins @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,,280.0,340.0,250.0,230.0,275.0,DraftKings,340.0,4.4,3.5875,1.226480836236934
+Miami Dolphins @ Buffalo Bills,James Cook,Receiving,25,,,240.0,290.0,,200.0,FanDuel,290.0,3.9,3.2,1.21875
 Miami Dolphins @ Buffalo Bills,Tua Tagovailoa,Passing,300,280.0,300.0,405.0,350.0,,425.0,HardRockBet,425.0,5.25,4.3375,1.2103746397694524
+Miami Dolphins @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,,700.0,650.0,800.0,850.0,600.0,Fanatics,850.0,9.5,7.875,1.2063492063492063
+Miami Dolphins @ Buffalo Bills,Nick Westbrook-Ikhine,AnytimeTD,Anytime,,675.0,700.0,700.0,800.0,525.0,Fanatics,800.0,9.0,7.5,1.2
+Miami Dolphins @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,,205.0,205.0,200.0,190.0,260.0,HardRockBet,260.0,3.6,3.0,1.2
+Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,50,260.0,275.0,292.0,350.0,,275.0,FanDuel,350.0,4.5,3.755,1.1984021304926764
 Miami Dolphins @ Buffalo Bills,Josh Allen,Passing,300,380.0,390.0,520.0,400.0,,500.0,DraftKings,520.0,6.2,5.175,1.1980676328502415
 Miami Dolphins @ Buffalo Bills,De'Von Achane,Receiving,50,145.0,145.0,178.0,168.0,,210.0,HardRockBet,210.0,3.1,2.59,1.196911196911197
-Miami Dolphins @ Buffalo Bills,James Cook,Receiving,25,,,258.0,290.0,,200.0,FanDuel,290.0,3.9,3.29,1.1854103343465046
-Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,50,260.0,275.0,292.0,350.0,,300.0,FanDuel,350.0,4.5,3.8175,1.1787819253438114
 Miami Dolphins @ Buffalo Bills,Tyreek Hill,Receiving,110,,390.0,483.0,400.0,,,DraftKings,483.0,5.83,4.95,1.1777777777777778
 Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,110,,900.0,760.0,750.0,,,Caesars,900.0,10.0,8.55,1.1695906432748537
-Miami Dolphins @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,,205.0,205.0,200.0,190.0,250.0,HardRockBet,250.0,3.5,3.0,1.1666666666666667
-Miami Dolphins @ Buffalo Bills,Miami Dolphins D/ST,AnytimeTD,Anytime,,,500.0,,600.0,,Fanatics,600.0,7.0,6.0,1.1666666666666667
+Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,80,,450.0,469.0,550.0,,450.0,FanDuel,550.0,6.5,5.5633333333333335,1.1683642899940083
 Miami Dolphins @ Buffalo Bills,Ray Davis,Rushing,50,550.0,,,630.0,,700.0,HardRockBet,700.0,8.0,6.9,1.1594202898550725
-Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,80,,450.0,484.0,550.0,,450.0,FanDuel,550.0,6.5,5.613333333333333,1.157957244655582
+Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,80,,,960.0,1260.0,,1300.0,HardRockBet,1300.0,14.0,12.1,1.15702479338843
 Miami Dolphins @ Buffalo Bills,Dawson Knox,AnytimeTD,Anytime,,425.0,400.0,500.0,475.0,375.0,FanDuel,500.0,6.0,5.1875,1.1566265060240963
-Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,80,,850.0,790.0,630.0,,750.0,Caesars,850.0,9.5,8.233333333333333,1.153846153846154
-Miami Dolphins @ Buffalo Bills,De'Von Achane,Receiving,80,,850.0,740.0,640.0,,800.0,Caesars,850.0,9.5,8.266666666666667,1.1491935483870968
-Miami Dolphins @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,,,425.0,450.0,400.0,500.0,HardRockBet,500.0,6.0,5.25,1.1428571428571428
+Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,25,-225.0,,-137.0,-160.0,,-210.0,DraftKings,-137.0,1.72992700729927,1.5152116402116402,1.141706519003272
 Miami Dolphins @ Buffalo Bills,Malik Washington,AnytimeTD,Anytime,,450.0,500.0,430.0,400.0,425.0,DraftKings,500.0,6.0,5.2625,1.1401425178147269
-Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,80,,370.0,410.0,370.0,,450.0,HardRockBet,450.0,5.5,4.833333333333333,1.1379310344827587
+Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,80,,850.0,820.0,630.0,,750.0,Caesars,850.0,9.5,8.333333333333334,1.14
+Miami Dolphins @ Buffalo Bills,Tanner Conner,AnytimeTD,Anytime,,575.0,550.0,650.0,550.0,,FanDuel,650.0,7.5,6.583333333333333,1.139240506329114
 Miami Dolphins @ Buffalo Bills,Tua Tagovailoa,AnytimeTD,Anytime,,1900.0,2000.0,2000.0,1500.0,1600.0,DraftKings,2000.0,21.0,18.5,1.135135135135135
-Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,25,-225.0,,-137.0,-160.0,,-195.0,DraftKings,-137.0,1.72992700729927,1.5274216524216524,1.1325798639534508
 Miami Dolphins @ Buffalo Bills,De'Von Achane,Rushing,80,,250.0,320.0,290.0,,275.0,DraftKings,320.0,4.2,3.716666666666667,1.1300448430493273
 Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,110,,,1580.0,1400.0,,,DraftKings,1580.0,16.8,15.0,1.12
 Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,50,165.0,165.0,214.0,182.0,,210.0,DraftKings,214.0,3.14,2.805,1.1194295900178253
 Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,80,,225.0,249.0,290.0,,275.0,FanDuel,290.0,3.9,3.4966666666666666,1.11534795042898
-Miami Dolphins @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,,360.0,350.0,390.0,350.0,300.0,FanDuel,390.0,4.9,4.4,1.1136363636363635
-Miami Dolphins @ Buffalo Bills,Tanner Conner,AnytimeTD,Anytime,,575.0,550.0,650.0,600.0,,FanDuel,650.0,7.5,6.75,1.1111111111111112
 Miami Dolphins @ Buffalo Bills,Josh Allen,Passing,250,110.0,120.0,151.0,132.0,,145.0,DraftKings,151.0,2.51,2.2675,1.1069459757442115
-Miami Dolphins @ Buffalo Bills,Nick Westbrook-Ikhine,AnytimeTD,Anytime,,700.0,700.0,750.0,750.0,525.0,FanDuel,750.0,8.5,7.6875,1.1056910569105691
-Miami Dolphins @ Buffalo Bills,Tua Tagovailoa,Passing,250,-110.0,105.0,123.0,116.0,,130.0,HardRockBet,130.0,2.3,2.0872727272727274,1.10191637630662
+Miami Dolphins @ Buffalo Bills,Tua Tagovailoa,Passing,250,-110.0,105.0,123.0,114.0,,130.0,HardRockBet,130.0,2.3,2.082272727272727,1.104562322636979
+Miami Dolphins @ Buffalo Bills,James Cook,Rushing,80,,130.0,155.0,162.0,,175.0,HardRockBet,175.0,2.75,2.4899999999999998,1.1044176706827311
 Miami Dolphins @ Buffalo Bills,De'Von Achane,Receiving,25,-450.0,,-268.0,-320.0,,-230.0,HardRockBet,-230.0,1.434782608695652,1.302618850193477,1.1014600383546922
 Miami Dolphins @ Buffalo Bills,Tyreek Hill,Receiving,80,,125.0,163.0,148.0,,145.0,DraftKings,163.0,2.63,2.3933333333333335,1.0988857938718661
-Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,50,105.0,100.0,118.0,118.0,,130.0,HardRockBet,130.0,2.3,2.1025,1.0939357907253269
+Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,50,105.0,100.0,118.0,120.0,,130.0,HardRockBet,130.0,2.3,2.1075,1.0913404507710558
+Miami Dolphins @ Buffalo Bills,De'Von Achane,Receiving,80,,800.0,740.0,640.0,,800.0,Caesars,800.0,9.0,8.266666666666667,1.0887096774193548
 Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,50,115.0,110.0,132.0,140.0,,125.0,FanDuel,140.0,2.4,2.205,1.0884353741496597
-Miami Dolphins @ Buffalo Bills,James Cook,Rushing,80,,130.0,155.0,162.0,,170.0,HardRockBet,170.0,2.7,2.4899999999999998,1.0843373493975905
+Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,80,,370.0,410.0,370.0,,425.0,HardRockBet,425.0,5.25,4.833333333333333,1.0862068965517242
+Miami Dolphins @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,,360.0,350.0,390.0,375.0,325.0,FanDuel,390.0,4.9,4.525,1.0828729281767955
 Indianapolis Colts @ Tennessee Titans,Calvin Ridley,AnytimeTD,Anytime,,,205.0,,,230.0,HardRockBet,230.0,3.3,3.05,1.0819672131147542
-Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,25,-250.0,,-175.0,-230.0,,-190.0,DraftKings,-175.0,1.5714285714285714,1.4536994660564453,1.0809858627048259
-Miami Dolphins @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,,255.0,250.0,250.0,240.0,275.0,HardRockBet,275.0,3.75,3.4875000000000003,1.075268817204301
-Miami Dolphins @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,,175.0,165.0,185.0,175.0,195.0,HardRockBet,195.0,2.95,2.75,1.0727272727272728
+Miami Dolphins @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,,175.0,165.0,185.0,170.0,195.0,HardRockBet,195.0,2.95,2.7375,1.0776255707762559
+Miami Dolphins @ Buffalo Bills,Joshua Palmer,Receiving,25,-250.0,,-175.0,-230.0,,-185.0,DraftKings,-175.0,1.5714285714285714,1.4584410497453975,1.077471435477559
+Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,50,-155.0,-145.0,-142.0,-122.0,,-135.0,FanDuel,-122.0,1.819672131147541,1.6949456388974475,1.0735873112315433
 Miami Dolphins @ Buffalo Bills,Dalton Kincaid,Receiving,25,-200.0,,-139.0,-146.0,,-160.0,DraftKings,-139.0,1.7194244604316546,1.6033105022831051,1.0724213793792305
 Miami Dolphins @ Buffalo Bills,James Cook,Rushing,50,-450.0,-244.0,-289.0,-270.0,,-300.0,Caesars,-244.0,1.4098360655737705,1.3179866717929,1.069689167384314
-Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,50,-155.0,-145.0,-142.0,-122.0,,-130.0,FanDuel,-122.0,1.819672131147541,1.7020681460199547,1.0690947571062808
-Miami Dolphins @ Buffalo Bills,Ray Davis,Rushing,25,120.0,,,138.0,,130.0,FanDuel,138.0,2.38,2.25,1.0577777777777777
+Miami Dolphins @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,,255.0,250.0,250.0,260.0,275.0,HardRockBet,275.0,3.75,3.5375,1.0600706713780919
 Miami Dolphins @ Buffalo Bills,De'Von Achane,AnytimeTD,Anytime,,120.0,125.0,120.0,120.0,-110.0,DraftKings,125.0,2.25,2.1272727272727274,1.0576923076923077
-Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,25,-450.0,,-295.0,-340.0,,-350.0,DraftKings,-295.0,1.3389830508474576,1.2673513849984437,1.0565207618793915
+Miami Dolphins @ Buffalo Bills,De'Von Achane,Rushing,50,-190.0,-164.0,-154.0,-158.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.604583482197593,1.0530179271817557
 Green Bay Packers @ Cleveland Browns,David Njoku,AnytimeTD,Anytime,,,400.0,,,375.0,DraftKings,400.0,5.0,4.75,1.0526315789473684
-Miami Dolphins @ Buffalo Bills,De'Von Achane,Rushing,50,-190.0,-164.0,-154.0,-154.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.6086932964339895,1.0503277263349533
 Green Bay Packers @ Cleveland Browns,Jerry Jeudy,AnytimeTD,Anytime,,,215.0,,,230.0,HardRockBet,230.0,3.3,3.15,1.0476190476190477
+Miami Dolphins @ Buffalo Bills,Ray Davis,Rushing,25,120.0,,,138.0,,135.0,FanDuel,138.0,2.38,2.2750000000000004,1.046153846153846
+Miami Dolphins @ Buffalo Bills,Khalil Shakir,Receiving,25,-450.0,,-307.0,-340.0,,-350.0,DraftKings,-307.0,1.3257328990228012,1.2673513849984437,1.0460657673281584
 Miami Dolphins @ Buffalo Bills,Buffalo Bills D/ST,AnytimeTD,Anytime,,,450.0,,475.0,,Fanatics,475.0,5.75,5.5,1.0454545454545454
 Miami Dolphins @ Buffalo Bills,Tyreek Hill,Receiving,25,-2500.0,,-970.0,-1800.0,,-1400.0,DraftKings,-970.0,1.1030927835051547,1.0556613756613755,1.0449305136451197
-Miami Dolphins @ Buffalo Bills,Tyreek Hill,Receiving,50,-275.0,-217.0,-217.0,-260.0,,-260.0,Caesars,-217.0,1.4608294930875576,1.3984241564886726,1.0446254709698235
-Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,25,-450.0,,-328.0,-320.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2798667570009032,1.0417751113855926
-Miami Dolphins @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,,-167.0,-160.0,-175.0,-190.0,-155.0,HardRockBet,-155.0,1.6451612903225805,1.580386689027959,1.040986552053575
+Miami Dolphins @ Buffalo Bills,Jaylen Waddle,AnytimeTD,Anytime,,200.0,195.0,210.0,200.0,195.0,FanDuel,210.0,3.1,2.9749999999999996,1.0420168067226891
+Miami Dolphins @ Buffalo Bills,Tyreek Hill,Receiving,50,-275.0,-217.0,-217.0,-260.0,,-250.0,Caesars,-217.0,1.4608294930875576,1.4022703103348264,1.0417602671333381
+Miami Dolphins @ Buffalo Bills,Keon Coleman,Receiving,25,-450.0,,-328.0,-310.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2832269720546667,1.0390471540653776
 Indianapolis Colts @ Tennessee Titans,Tony Pollard,AnytimeTD,Anytime,,,-125.0,,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.8,1.038647342995169
 Green Bay Packers @ Cleveland Browns,Romeo Doubs,AnytimeTD,Anytime,,,180.0,,,190.0,HardRockBet,190.0,2.9,2.8,1.0357142857142858
+Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,25,-1000.0,,-630.0,-550.0,,-600.0,FanDuel,-550.0,1.1818181818181819,1.1417989417989418,1.0350492880613362
 Miami Dolphins @ Buffalo Bills,James Cook,Rushing,110,,475.0,492.0,470.0,,,DraftKings,492.0,5.92,5.725,1.034061135371179
-Miami Dolphins @ Buffalo Bills,Jaylen Waddle,AnytimeTD,Anytime,,205.0,195.0,210.0,200.0,200.0,FanDuel,210.0,3.1,3.0,1.0333333333333334
-Miami Dolphins @ Buffalo Bills,Tyreek Hill,AnytimeTD,Anytime,,165.0,170.0,175.0,170.0,160.0,FanDuel,175.0,2.75,2.6625,1.0328638497652582
 Miami Dolphins @ Buffalo Bills,De'Von Achane,Rushing,25,-2500.0,,-1140.0,-1400.0,,-1000.0,HardRockBet,-1000.0,1.1,1.0663826232247284,1.0315246854582205
-Miami Dolphins @ Buffalo Bills,James Cook,AnytimeTD,Anytime,,-179.0,-175.0,-175.0,-170.0,-210.0,Fanatics,-170.0,1.5882352941176472,1.5444267092311785,1.0283655965185146
-Miami Dolphins @ Buffalo Bills,Jaylen Waddle,Receiving,25,-1000.0,,-630.0,-580.0,,-600.0,FanDuel,-580.0,1.1724137931034484,1.1417989417989418,1.0268128215780896
+Miami Dolphins @ Buffalo Bills,James Cook,AnytimeTD,Anytime,,-179.0,-175.0,-180.0,-170.0,-195.0,Fanatics,-170.0,1.5882352941176472,1.5496159644204337,1.0249218713435606
+Miami Dolphins @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,,-167.0,-160.0,-175.0,-160.0,-180.0,DraftKings,-160.0,1.625,1.5876966305484268,1.0234952753150883
 Green Bay Packers @ Cleveland Browns,Josh Jacobs,AnytimeTD,Anytime,,,-220.0,,,-210.0,HardRockBet,-210.0,1.4761904761904763,1.4545454545454546,1.0148809523809523
+Miami Dolphins @ Buffalo Bills,Tyreek Hill,AnytimeTD,Anytime,,165.0,170.0,170.0,170.0,165.0,DraftKings,170.0,2.7,2.6750000000000003,1.0093457943925233
 Miami Dolphins @ Buffalo Bills,James Cook,Rushing,25,,,-2400.0,,,-2500.0,DraftKings,-2400.0,1.0416666666666667,1.04,1.001602564102564
 Arizona Cardinals @ San Francisco 49ers,Christian McCaffrey,AnytimeTD,Anytime,,,-200.0,,,,DraftKings,-200.0,1.5,,
 Arizona Cardinals @ San Francisco 49ers,Jauan Jennings,AnytimeTD,Anytime,,,205.0,,,,DraftKings,205.0,3.05,,
@@ -158,7 +158,7 @@ Miami Dolphins @ Buffalo Bills,James Cook,Receiving,80,,,4100.0,,,,DraftKings,41
 Miami Dolphins @ Buffalo Bills,Jeff Wilson Jr.,AnytimeTD,Anytime,,,1800.0,,,,DraftKings,1800.0,19.0,,
 Miami Dolphins @ Buffalo Bills,Josh Allen,Rushing,110,,,2800.0,,,,DraftKings,2800.0,29.0,,
 Miami Dolphins @ Buffalo Bills,Miami Dolphins Defense,AnytimeTD,Anytime,,,,850.0,,,FanDuel,850.0,9.5,,
-Miami Dolphins @ Buffalo Bills,No Scorer,AnytimeTD,Anytime,,,,,13000.0,,Fanatics,13000.0,131.0,,
+Miami Dolphins @ Buffalo Bills,No Scorer,AnytimeTD,Anytime,,,,,15000.0,,Fanatics,15000.0,151.0,,
 New Orleans Saints @ Seattle Seahawks,Alvin Kamara,AnytimeTD,Anytime,,,125.0,,,,DraftKings,125.0,2.25,,
 New Orleans Saints @ Seattle Seahawks,Chris Olave,AnytimeTD,Anytime,,,260.0,,,,DraftKings,260.0,3.6,,
 New Orleans Saints @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,,,230.0,,,,DraftKings,230.0,3.3,,
