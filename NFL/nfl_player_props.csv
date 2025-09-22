@@ -1,94 +1,97 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,50,,,,,1180.0,,,,600.0,DraftKings,1180.0,12.8,7.0,1.8285714285714287
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,80,,,,,1340.0,,,,800.0,DraftKings,1340.0,14.4,9.0,1.6
-Detroit Lions @ Baltimore Ravens,Jared Goff,AnytimeTD,Anytime,2500.0,1600.0,2200.0,1750.0,1900.0,,1500.0,1300.0,1300.0,BetMGM,2500.0,26.0,17.5,1.4857142857142858
-Detroit Lions @ Baltimore Ravens,Sione Vaki,AnytimeTD,Anytime,1700.0,2900.0,2500.0,1800.0,2200.0,,1700.0,1200.0,3000.0,HardRockBet,3000.0,31.0,21.0,1.4761904761904763
-Detroit Lions @ Baltimore Ravens,LaJohntay Wester,AnytimeTD,Anytime,3000.0,1500.0,2500.0,2000.0,2000.0,,1700.0,1300.0,3000.0,BetMGM,3000.0,31.0,21.0,1.4761904761904763
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,110,,,1200.0,,1940.0,,1400.0,,,DraftKings,1940.0,20.4,14.0,1.457142857142857
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,50,,,1300.0,,1120.0,1500.0,1500.0,,2000.0,HardRockBet,2000.0,21.0,14.55,1.443298969072165
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,AnytimeTD,Anytime,800.0,1050.0,800.0,750.0,800.0,,750.0,660.0,550.0,BetRivers,1050.0,11.5,8.3,1.3855421686746987
-Detroit Lions @ Baltimore Ravens,Craig Reynolds,AnytimeTD,Anytime,2500.0,2200.0,2500.0,1800.0,2200.0,,1700.0,1500.0,1000.0,BetMGM,2500.0,26.0,19.428571428571427,1.3382352941176472
-Detroit Lions @ Baltimore Ravens,Brock Wright,AnytimeTD,Anytime,1200.0,1500.0,1200.0,1000.0,1100.0,,1060.0,1050.0,1100.0,BetRivers,1500.0,16.0,12.014285714285714,1.3317479191438764
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,50,,,,,870.0,1000.0,,,600.0,ESPNBET,1000.0,11.0,8.35,1.3173652694610778
-Detroit Lions @ Baltimore Ravens,Keaton Mitchell,AnytimeTD,Anytime,1500.0,1800.0,1900.0,1400.0,1400.0,,1400.0,1050.0,,Bovada,1900.0,20.0,15.25,1.3114754098360655
-Detroit Lions @ Baltimore Ravens,Charlie Kolar,AnytimeTD,Anytime,950.0,650.0,725.0,750.0,850.0,,750.0,580.0,650.0,BetMGM,950.0,10.5,8.078571428571427,1.2997347480106103
-Detroit Lions @ Baltimore Ravens,Jacob Saylors,AnytimeTD,Anytime,2500.0,,2500.0,1900.0,2200.0,,1700.0,1300.0,,BetMGM,2500.0,26.0,20.2,1.2871287128712872
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,50,,,525.0,500.0,474.0,550.0,680.0,,500.0,FanDuel,680.0,7.8,6.098000000000001,1.2791079042308953
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,110,,,1175.0,,980.0,,1400.0,,,FanDuel,1400.0,15.0,11.775,1.2738853503184713
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,25,,,450.0,,505.0,,480.0,,200.0,DraftKings,505.0,6.05,4.766666666666667,1.2692307692307692
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,50,333.0,440.0,,300.0,321.0,300.0,,,375.0,BetRivers,440.0,5.4,4.258,1.2682010333489901
-Detroit Lions @ Baltimore Ravens,Rasheen Ali,AnytimeTD,Anytime,2000.0,1400.0,1900.0,1600.0,1700.0,,1400.0,1200.0,2000.0,BetMGM,2000.0,21.0,17.0,1.2352941176470589
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,110,,270.0,180.0,175.0,224.0,,220.0,,,BetRivers,270.0,3.7,2.9974999999999996,1.2343619683069227
-Detroit Lions @ Baltimore Ravens,Dominic Lovett,AnytimeTD,Anytime,3000.0,2200.0,3000.0,2400.0,2800.0,,2000.0,1500.0,3000.0,BetMGM,3000.0,31.0,25.142857142857142,1.2329545454545454
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,25,,,320.0,,267.0,325.0,400.0,,425.0,HardRockBet,425.0,5.25,4.28,1.2266355140186915
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,110,,,700.0,,940.0,800.0,750.0,,,DraftKings,940.0,10.4,8.5,1.223529411764706
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,80,,,1300.0,,1140.0,1400.0,1300.0,,800.0,ESPNBET,1400.0,15.0,12.35,1.2145748987854252
-Detroit Lions @ Baltimore Ravens,Tylan Wallace,AnytimeTD,Anytime,1000.0,750.0,825.0,850.0,900.0,,800.0,700.0,850.0,BetMGM,1000.0,11.0,9.107142857142858,1.2078431372549019
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,AnytimeTD,Anytime,600.0,410.0,575.0,550.0,500.0,,630.0,550.0,375.0,FanDuel,630.0,7.3,6.085714285714286,1.1995305164319248
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,80,,,410.0,400.0,355.0,400.0,470.0,,350.0,FanDuel,470.0,5.7,4.83,1.1801242236024845
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,350,700.0,,625.0,475.0,583.0,600.0,640.0,,,BetMGM,700.0,8.0,6.845999999999999,1.1685655857435
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,80,,,500.0,550.0,600.0,500.0,520.0,,450.0,DraftKings,600.0,7.0,6.04,1.1589403973509933
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,110,,400.0,330.0,265.0,367.0,350.0,350.0,,,BetRivers,400.0,5.0,4.324,1.1563367252543941
-Detroit Lions @ Baltimore Ravens,Devontez Walker,AnytimeTD,Anytime,1000.0,850.0,1000.0,850.0,1000.0,,900.0,470.0,900.0,BetMGM,1000.0,11.0,9.528571428571428,1.1544227886056972
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,50,450.0,,400.0,325.0,342.0,400.0,420.0,,375.0,BetMGM,450.0,5.5,4.7700000000000005,1.1530398322851152
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,300,240.0,250.0,210.0,165.0,213.0,200.0,220.0,,190.0,BetRivers,250.0,3.5,3.0542857142857143,1.145930776426567
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,AnytimeTD,Anytime,240.0,190.0,200.0,230.0,255.0,,220.0,215.0,190.0,DraftKings,255.0,3.55,3.121428571428571,1.137299771167048
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,25,,,150.0,,143.0,,176.0,,145.0,FanDuel,176.0,2.76,2.46,1.121951219512195
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,300,400.0,,360.0,310.0,347.0,360.0,390.0,,325.0,BetMGM,400.0,5.0,4.486666666666667,1.114413075780089
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,80,,400.0,360.0,330.0,381.0,375.0,390.0,,425.0,HardRockBet,425.0,5.25,4.726666666666667,1.1107193229901269
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,165.0,175.0,160.0,160.0,165.0,,180.0,145.0,-105.0,FanDuel,180.0,2.8,2.5217687074829933,1.1103318046938224
+Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,50,,,,,1240.0,,,,600.0,DraftKings,1240.0,13.4,7.0,1.9142857142857144
+Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,25,,,,,287.0,,450.0,,200.0,FanDuel,450.0,5.5,3.435,1.6011644832605532
+Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,50,,,,,1200.0,1800.0,1700.0,,600.0,ESPNBET,1800.0,19.0,12.666666666666666,1.5
+Detroit Lions @ Baltimore Ravens,Brock Wright,AnytimeTD,Anytime,1200.0,1600.0,1000.0,1000.0,1100.0,,1200.0,800.0,1100.0,BetRivers,1600.0,17.0,11.571428571428571,1.4691358024691359
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,80,,,,,1220.0,,,,800.0,DraftKings,1220.0,13.2,9.0,1.4666666666666666
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,110,,,1200.0,,1780.0,,1300.0,,,DraftKings,1780.0,18.8,13.5,1.3925925925925926
+Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,50,,,1300.0,,1240.0,1600.0,1500.0,,2000.0,HardRockBet,2000.0,21.0,15.1,1.390728476821192
+Detroit Lions @ Baltimore Ravens,Kalif Raymond,AnytimeTD,Anytime,800.0,1050.0,725.0,750.0,800.0,,800.0,740.0,525.0,BetRivers,1050.0,11.5,8.342857142857143,1.3784246575342465
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,25,,,450.0,,583.0,,560.0,,200.0,DraftKings,583.0,6.83,5.033333333333333,1.356953642384106
+Detroit Lions @ Baltimore Ravens,LaJohntay Wester,AnytimeTD,Anytime,3000.0,1500.0,2200.0,2300.0,1900.0,,2500.0,2000.0,3000.0,BetMGM,3000.0,31.0,23.0,1.3478260869565217
+Detroit Lions @ Baltimore Ravens,Craig Reynolds,AnytimeTD,Anytime,2500.0,2200.0,2200.0,2100.0,2000.0,,2700.0,2000.0,1100.0,FanDuel,2700.0,28.0,21.142857142857142,1.3243243243243243
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,110,,,1175.0,,930.0,,1400.0,,,FanDuel,1400.0,15.0,11.525,1.3015184381778742
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,110,,285.0,180.0,180.0,214.0,,220.0,,,BetRivers,285.0,3.85,2.9850000000000003,1.2897822445561138
+Detroit Lions @ Baltimore Ravens,Charlie Kolar,AnytimeTD,Anytime,950.0,650.0,725.0,800.0,800.0,,850.0,580.0,650.0,BetMGM,950.0,10.5,8.221428571428572,1.2771503040834058
+Detroit Lions @ Baltimore Ravens,Jared Goff,AnytimeTD,Anytime,2000.0,1500.0,2000.0,1800.0,1900.0,,2200.0,1600.0,1200.0,FanDuel,2200.0,23.0,18.142857142857142,1.2677165354330708
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,50,,,525.0,500.0,480.0,600.0,680.0,,500.0,FanDuel,680.0,7.8,6.21,1.2560386473429952
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,80,,,1300.0,,1020.0,1400.0,1300.0,,800.0,ESPNBET,1400.0,15.0,12.05,1.2448132780082988
+Detroit Lions @ Baltimore Ravens,Jacob Saylors,AnytimeTD,Anytime,2500.0,,2500.0,2300.0,2200.0,,3000.0,2500.0,,FanDuel,3000.0,31.0,25.0,1.24
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,110,,,1100.0,,1180.0,1500.0,1300.0,,,ESPNBET,1500.0,16.0,12.933333333333332,1.2371134020618557
+Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,50,700.0,,,,930.0,900.0,,,600.0,DraftKings,930.0,10.3,8.333333333333334,1.236
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,50,340.0,400.0,,290.0,287.0,300.0,,,325.0,BetRivers,400.0,5.0,4.0840000000000005,1.2242899118511261
+Detroit Lions @ Baltimore Ravens,Rasheen Ali,AnytimeTD,Anytime,2000.0,1400.0,1600.0,1700.0,1600.0,,1800.0,1300.0,2000.0,BetMGM,2000.0,21.0,17.285714285714285,1.2148760330578514
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,80,,,1500.0,,1820.0,,,,,DraftKings,1820.0,19.2,16.0,1.2
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,AnytimeTD,Anytime,600.0,400.0,600.0,575.0,550.0,,650.0,600.0,375.0,FanDuel,650.0,7.5,6.285714285714286,1.1931818181818181
+Detroit Lions @ Baltimore Ravens,Sione Vaki,AnytimeTD,Anytime,3000.0,2900.0,2500.0,2400.0,2200.0,,3000.0,1500.0,3000.0,BetMGM,3000.0,31.0,26.0,1.1923076923076923
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,110,,410.0,330.0,250.0,351.0,350.0,360.0,,,BetRivers,410.0,5.1,4.281999999999999,1.1910322279308736
+Detroit Lions @ Baltimore Ravens,Tylan Wallace,AnytimeTD,Anytime,1000.0,800.0,825.0,850.0,800.0,,950.0,800.0,800.0,BetMGM,1000.0,11.0,9.321428571428571,1.1800766283524904
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,50,450.0,,400.0,325.0,330.0,400.0,420.0,,325.0,BetMGM,450.0,5.5,4.666666666666667,1.1785714285714286
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,350,700.0,,625.0,475.0,564.0,600.0,630.0,,,BetMGM,700.0,8.0,6.787999999999999,1.1785503830288746
+Detroit Lions @ Baltimore Ravens,Keaton Mitchell,AnytimeTD,Anytime,1500.0,1700.0,1600.0,1500.0,1400.0,,1800.0,1500.0,,FanDuel,1800.0,19.0,16.333333333333332,1.1632653061224492
+Detroit Lions @ Baltimore Ravens,Devontez Walker,AnytimeTD,Anytime,1000.0,850.0,900.0,850.0,900.0,,1000.0,470.0,1000.0,BetMGM,1000.0,11.0,9.528571428571428,1.1544227886056972
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,300,360.0,,360.0,305.0,347.0,375.0,390.0,,425.0,HardRockBet,425.0,5.25,4.5616666666666665,1.1508951406649617
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,300,250.0,250.0,210.0,165.0,211.0,200.0,210.0,,190.0,BetMGM,250.0,3.5,3.051428571428571,1.1470037453183521
+Detroit Lions @ Baltimore Ravens,Dominic Lovett,AnytimeTD,Anytime,3000.0,2200.0,2500.0,2800.0,2800.0,,3000.0,2000.0,3000.0,BetMGM,3000.0,31.0,27.142857142857142,1.1421052631578947
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,80,,,410.0,400.0,336.0,425.0,450.0,,350.0,FanDuel,450.0,5.5,4.8420000000000005,1.1358942585708385
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,80,,,750.0,,700.0,750.0,750.0,,850.0,HardRockBet,850.0,9.5,8.375,1.1343283582089552
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,25,,,150.0,,142.0,,176.0,,140.0,FanDuel,176.0,2.76,2.44,1.1311475409836065
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,110,,350.0,325.0,240.0,298.0,300.0,330.0,,,BetRivers,350.0,4.5,3.9859999999999998,1.1289513296537883
+Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,25,,,320.0,,315.0,350.0,400.0,,400.0,FanDuel,400.0,5.0,4.4625,1.1204481792717087
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,165.0,170.0,160.0,155.0,180.0,,165.0,145.0,-105.0,DraftKings,180.0,2.8,2.507482993197279,1.1166576234400432
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,AnytimeTD,Anytime,240.0,190.0,200.0,220.0,235.0,,210.0,195.0,190.0,BetMGM,240.0,3.4,3.057142857142857,1.1121495327102804
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,AnytimeTD,Anytime,375.0,335.0,320.0,330.0,330.0,,330.0,325.0,325.0,BetMGM,375.0,4.75,4.278571428571429,1.1101836393989981
 Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,110,,,770.0,,910.0,,850.0,,,DraftKings,910.0,10.1,9.1,1.10989010989011
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,80,,,750.0,,660.0,700.0,750.0,,800.0,HardRockBet,800.0,9.0,8.15,1.1042944785276072
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,110,,350.0,325.0,240.0,325.0,325.0,330.0,,,BetRivers,350.0,4.5,4.09,1.1002444987775062
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,80,,,1500.0,,1660.0,,,,,DraftKings,1660.0,17.6,16.0,1.1
+Detroit Lions @ Baltimore Ravens,Detroit Lions Defense,AnytimeTD,Anytime,,,625.0,,,,700.0,,,FanDuel,700.0,8.0,7.25,1.103448275862069
+Detroit Lions @ Baltimore Ravens,Mark Andrews,AnytimeTD,Anytime,190.0,150.0,175.0,185.0,200.0,,175.0,180.0,165.0,DraftKings,200.0,3.0,2.742857142857143,1.09375
+Detroit Lions @ Baltimore Ravens,Baltimore Ravens Defense,AnytimeTD,Anytime,,,440.0,,,,490.0,,,FanDuel,490.0,5.9,5.4,1.0925925925925926
+Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,25,160.0,,170.0,,178.0,,190.0,,155.0,FanDuel,190.0,2.9,2.6575000000000006,1.0912511759172152
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,80,,,500.0,550.0,554.0,500.0,500.0,,450.0,DraftKings,554.0,6.54,6.0,1.09
 Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,25,,,235.0,,259.0,,255.0,,200.0,DraftKings,259.0,3.59,3.3000000000000003,1.0878787878787877
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,AnytimeTD,Anytime,375.0,330.0,330.0,340.0,370.0,,340.0,325.0,325.0,BetMGM,375.0,4.75,4.371428571428572,1.0866013071895424
-Detroit Lions @ Baltimore Ravens,Jameson Williams,AnytimeTD,Anytime,260.0,215.0,250.0,240.0,240.0,,255.0,250.0,170.0,BetMGM,260.0,3.6,3.314285714285714,1.0862068965517242
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,110,,,1100.0,,1280.0,1300.0,1200.0,,,ESPNBET,1300.0,14.0,12.933333333333332,1.0824742268041239
-Detroit Lions @ Baltimore Ravens,Mark Andrews,AnytimeTD,Anytime,190.0,150.0,180.0,190.0,200.0,,190.0,180.0,165.0,DraftKings,200.0,3.0,2.7785714285714285,1.0796915167095116
-Detroit Lions @ Baltimore Ravens,David Montgomery,AnytimeTD,Anytime,130.0,102.0,110.0,120.0,130.0,,124.0,-105.0,110.0,BetMGM,130.0,2.3,2.130340136054422,1.0796398007408352
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,80,,300.0,270.0,240.0,300.0,275.0,265.0,,275.0,BetRivers,300.0,4.0,3.7083333333333335,1.0786516853932584
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,50,185.0,190.0,180.0,160.0,205.0,185.0,190.0,,190.0,DraftKings,205.0,3.05,2.8285714285714283,1.0782828282828283
-Detroit Lions @ Baltimore Ravens,Baltimore Ravens D/ST,AnytimeTD,Anytime,600.0,,,,550.0,,,550.0,,BetMGM,600.0,7.0,6.5,1.0769230769230769
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,50,140.0,150.0,160.0,140.0,168.0,155.0,162.0,,140.0,DraftKings,168.0,2.6799999999999997,2.4957142857142856,1.0738408700629651
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,80,,110.0,100.0,-103.0,116.0,105.0,114.0,,-120.0,DraftKings,116.0,2.16,2.015701186623517,1.0715874031002566
-Detroit Lions @ Baltimore Ravens,Detroit Lions D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,600.0,,BetMGM,650.0,7.5,7.0,1.0714285714285714
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,250,130.0,138.0,125.0,110.0,130.0,125.0,128.0,,110.0,BetRivers,138.0,2.38,2.2257142857142855,1.0693196405648266
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,350,1050.0,,1000.0,1100.0,1040.0,,1000.0,,,Caesars,1100.0,12.0,11.225,1.069042316258352
-Detroit Lions @ Baltimore Ravens,Justice Hill,AnytimeTD,Anytime,400.0,375.0,350.0,380.0,400.0,,360.0,360.0,350.0,BetMGM,400.0,5.0,4.678571428571429,1.0687022900763359
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,25,-235.0,,-265.0,,-197.0,,-235.0,,-240.0,DraftKings,-197.0,1.5076142131979695,1.4112722467549847,1.0682660391462449
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,25,,,170.0,,185.0,,190.0,,160.0,FanDuel,190.0,2.9,2.716666666666667,1.067484662576687
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,50,105.0,115.0,-110.0,-102.0,107.0,100.0,114.0,,-105.0,BetRivers,115.0,2.15,2.0145520026192294,1.0672347982105537
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,80,,,630.0,700.0,760.0,750.0,750.0,,700.0,DraftKings,760.0,8.6,8.059999999999999,1.066997518610422
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,80,,128.0,110.0,100.0,123.0,115.0,120.0,,115.0,BetRivers,128.0,2.2800000000000002,2.138333333333333,1.0662509742790336
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,50,-375.0,-420.0,-350.0,-285.0,-314.0,-350.0,-330.0,,-475.0,Caesars,-285.0,1.3508771929824561,1.2726026332271243,1.0615074632973527
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,AnytimeTD,Anytime,115.0,125.0,110.0,115.0,130.0,,122.0,100.0,130.0,DraftKings,130.0,2.3,2.1671428571428573,1.061305207646671
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,25,-650.0,,-709.0,,-451.0,-650.0,-600.0,,-650.0,DraftKings,-451.0,1.221729490022173,1.153849770351886,1.058828905993183
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,25,-295.0,,-250.0,,-218.0,,-245.0,,-275.0,DraftKings,-218.0,1.4587155963302751,1.377695669947486,1.0588082899221694
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,50,155.0,163.0,185.0,150.0,180.0,175.0,182.0,,180.0,Bovada,185.0,2.85,2.692857142857143,1.0583554376657824
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,25,-550.0,,-600.0,,-405.0,,-500.0,,-525.0,DraftKings,-405.0,1.2469135802469136,1.1847402597402599,1.052478439890516
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,250,-135.0,-139.0,-150.0,-157.0,-147.0,-155.0,-152.0,,-175.0,BetMGM,-135.0,1.7407407407407407,1.6539700728134787,1.0524620543947698
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,25,-155.0,,-150.0,,-136.0,,-146.0,,-130.0,HardRockBet,-130.0,1.7692307692307692,1.6830133953714053,1.051227978396653
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,50,-120.0,-108.0,-120.0,-129.0,-109.0,-120.0,-125.0,,-120.0,BetRivers,-108.0,1.925925925925926,1.8322797606347854,1.0511090976951563
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,50,-400.0,-360.0,-360.0,-375.0,-299.0,-375.0,-340.0,,-375.0,DraftKings,-299.0,1.334448160535117,1.2713818860877684,1.0496045091859953
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,80,,275.0,250.0,235.0,276.0,260.0,270.0,,260.0,DraftKings,276.0,3.76,3.5833333333333335,1.0493023255813954
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,25,120.0,,100.0,,108.0,,116.0,,115.0,BetMGM,120.0,2.2,2.0975,1.0488676996424315
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,AnytimeTD,Anytime,-125.0,-139.0,-139.0,-135.0,-125.0,,-122.0,-130.0,-165.0,FanDuel,-122.0,1.819672131147541,1.7364115766993464,1.0479497807809253
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,AnytimeTD,Anytime,250.0,225.0,230.0,240.0,245.0,,250.0,240.0,210.0,BetMGM,250.0,3.5,3.3428571428571425,1.047008547008547
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,80,,-152.0,-170.0,-154.0,-147.0,-155.0,-140.0,,-160.0,FanDuel,-140.0,1.7142857142857144,1.6409856799127533,1.0446682961772453
-Detroit Lions @ Baltimore Ravens,Zay Flowers,AnytimeTD,Anytime,110.0,112.0,110.0,110.0,110.0,,118.0,100.0,115.0,FanDuel,118.0,2.1799999999999997,2.0957142857142856,1.040218132242672
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,50,-1200.0,,-769.0,-900.0,-780.0,-800.0,-650.0,,-600.0,HardRockBet,-600.0,1.1666666666666667,1.1219224563665395,1.0398817316172064
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,25,-5000.0,,,,-1600.0,,,,-3000.0,DraftKings,-1600.0,1.0625,1.0266666666666668,1.0349025974025972
-Detroit Lions @ Baltimore Ravens,Baltimore Ravens Defense,AnytimeTD,Anytime,,,500.0,,,,480.0,,,Bovada,500.0,6.0,5.8,1.0344827586206897
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,50,105.0,104.0,-120.0,-110.0,105.0,105.0,100.0,,105.0,BetMGM,105.0,2.05,1.9903463203463205,1.0299715074928766
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,25,-525.0,,-490.0,,-424.0,,-500.0,,-475.0,DraftKings,-424.0,1.2358490566037736,1.2012710347296813,1.028784529780886
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,25,-375.0,,-325.0,,-309.0,-350.0,-320.0,,-375.0,DraftKings,-309.0,1.3236245954692556,1.2878479853479852,1.0277801499309744
-Detroit Lions @ Baltimore Ravens,Detroit Lions Defense,AnytimeTD,Anytime,,,700.0,,,,680.0,,,Bovada,700.0,8.0,7.8,1.0256410256410258
-Detroit Lions @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,-220.0,-210.0,-230.0,-215.0,-220.0,,-210.0,-245.0,-260.0,BetRivers,-210.0,1.4761904761904763,1.4397084175669017,1.0253398939524359
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,50,-185.0,-167.0,-180.0,-164.0,-158.0,-170.0,-158.0,,-160.0,DraftKings,-158.0,1.6329113924050633,1.592971610769909,1.0250725005801269
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,25,,,,,-1660.0,,,,-2500.0,DraftKings,-1660.0,1.0602409638554218,1.04,1.019462465245598
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,25,-2000.0,,-1500.0,,-1160.0,-1200.0,-1200.0,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,1.0739080459770114,1.015831006198126
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,25,,,,,,-6000.0,,,-4000.0,HardRockBet,-4000.0,1.025,1.0166666666666666,1.0081967213114753
+Detroit Lions @ Baltimore Ravens,Jameson Williams,AnytimeTD,Anytime,260.0,220.0,240.0,240.0,250.0,,240.0,250.0,180.0,BetMGM,260.0,3.6,3.314285714285714,1.0862068965517242
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,80,,300.0,270.0,240.0,284.0,275.0,280.0,,275.0,BetRivers,300.0,4.0,3.7066666666666666,1.079136690647482
+Detroit Lions @ Baltimore Ravens,David Montgomery,AnytimeTD,Anytime,130.0,102.0,120.0,120.0,120.0,,120.0,100.0,110.0,BetMGM,130.0,2.3,2.1314285714285712,1.079088471849866
+Detroit Lions @ Baltimore Ravens,Justice Hill,AnytimeTD,Anytime,400.0,370.0,350.0,375.0,370.0,,370.0,360.0,350.0,BetMGM,400.0,5.0,4.635714285714285,1.078582434514638
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,80,,285.0,250.0,235.0,274.0,260.0,270.0,,260.0,BetRivers,285.0,3.85,3.581666666666667,1.0749185667752443
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,250,-130.0,-139.0,-150.0,-157.0,-151.0,-160.0,-152.0,,-180.0,BetMGM,-130.0,1.7692307692307692,1.6462479643263368,1.0747049093268026
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,250,110.0,138.0,125.0,105.0,124.0,130.0,128.0,,130.0,BetRivers,138.0,2.38,2.2171428571428575,1.0734536082474224
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,AnytimeTD,Anytime,115.0,123.0,110.0,115.0,120.0,,110.0,110.0,130.0,HardRockBet,130.0,2.3,2.1471428571428572,1.0711909514304723
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,AnytimeTD,Anytime,250.0,230.0,230.0,230.0,235.0,,230.0,225.0,210.0,BetMGM,250.0,3.5,3.2714285714285714,1.0698689956331877
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,50,-450.0,-400.0,-350.0,-285.0,-337.0,-350.0,-330.0,,-475.0,Caesars,-285.0,1.3508771929824561,1.264849045359297,1.068014557103707
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,80,,112.0,100.0,-103.0,107.0,105.0,114.0,,-120.0,FanDuel,114.0,2.1399999999999997,2.0073678532901833,1.066072666498283
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,25,-625.0,,-709.0,,-441.0,-650.0,-600.0,,-600.0,DraftKings,-441.0,1.2267573696145124,1.1576446421467579,1.0597011595368253
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,50,165.0,160.0,185.0,150.0,183.0,175.0,188.0,,185.0,FanDuel,188.0,2.88,2.718571428571429,1.0593799264319494
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,25,-275.0,,-265.0,,-207.0,,-240.0,,-225.0,DraftKings,-207.0,1.4830917874396135,1.4005264913283781,1.0589530413187138
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,110,,,700.0,,800.0,800.0,750.0,,,DraftKings,800.0,9.0,8.5,1.0588235294117647
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,80,,128.0,110.0,100.0,119.0,120.0,124.0,,120.0,BetRivers,128.0,2.2800000000000002,2.155,1.05800464037123
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,50,130.0,150.0,160.0,135.0,161.0,150.0,158.0,,145.0,DraftKings,161.0,2.6100000000000003,2.468571428571429,1.0572916666666667
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,AnytimeTD,Anytime,-125.0,-137.0,-139.0,-135.0,-125.0,,-130.0,-120.0,-170.0,Fanatics,-120.0,1.8333333333333335,1.735365467402869,1.0564537371353149
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,25,110.0,,100.0,,108.0,,116.0,,100.0,FanDuel,116.0,2.16,2.045,1.056234718826406
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,80,,400.0,360.0,325.0,384.0,375.0,400.0,,400.0,BetRivers,400.0,5.0,4.739999999999999,1.0548523206751057
+Detroit Lions @ Baltimore Ravens,Zay Flowers,AnytimeTD,Anytime,110.0,112.0,110.0,105.0,100.0,,110.0,120.0,115.0,Fanatics,120.0,2.2,2.0885714285714285,1.0533515731874146
+Detroit Lions @ Baltimore Ravens,Baltimore Ravens D/ST,AnytimeTD,Anytime,600.0,,,,550.0,,,580.0,,BetMGM,600.0,7.0,6.65,1.0526315789473684
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,50,110.0,107.0,-110.0,-106.0,100.0,100.0,110.0,,-105.0,BetMGM,110.0,2.1,1.9964097268409937,1.0518882831346057
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,80,,,630.0,700.0,720.0,750.0,750.0,,750.0,ESPNBET,750.0,8.5,8.1,1.0493827160493827
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,50,175.0,188.0,180.0,160.0,192.0,185.0,196.0,,195.0,FanDuel,196.0,2.96,2.8214285714285716,1.0491139240506329
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,350,950.0,,1000.0,1000.0,1040.0,,1000.0,,,DraftKings,1040.0,11.4,10.875,1.0482758620689656
+Detroit Lions @ Baltimore Ravens,Detroit Lions D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,660.0,,Fanatics,660.0,7.6,7.25,1.0482758620689654
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,50,-1100.0,,-769.0,-900.0,-830.0,-800.0,-650.0,,-575.0,HardRockBet,-575.0,1.1739130434782608,1.121897882546785,1.0463635431893301
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,25,-550.0,,-600.0,,-413.0,,-500.0,,-500.0,DraftKings,-413.0,1.242130750605327,1.1871212121212122,1.0463386029349275
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,25,-325.0,,-250.0,,-229.0,,-245.0,,-260.0,DraftKings,-229.0,1.4366812227074237,1.375117739403454,1.0447696088414051
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,50,-115.0,-109.0,-120.0,-129.0,-117.0,-120.0,-122.0,,-115.0,BetRivers,-109.0,1.9174311926605505,1.8364805551067551,1.0440792238876113
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,25,-10000.0,,,,-1700.0,,,,-3000.0,DraftKings,-1700.0,1.0588235294117647,1.0216666666666667,1.0363688705498513
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,50,-165.0,-162.0,-180.0,-164.0,-154.0,-170.0,-158.0,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.6084505065239687,1.036193939388604
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,50,-400.0,-345.0,-360.0,-375.0,-315.0,-375.0,-340.0,,-375.0,DraftKings,-315.0,1.3174603174603174,1.2731072139000525,1.0348384669225092
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,80,,-143.0,-170.0,-154.0,-152.0,-155.0,-144.0,,-160.0,BetRivers,-143.0,1.6993006993006992,1.6433477358462378,1.0340481580580683
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,50,105.0,102.0,-120.0,-110.0,103.0,105.0,100.0,,105.0,BetMGM,105.0,2.05,1.984632034632035,1.0329370705638563
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,25,-155.0,,-150.0,,-154.0,,-142.0,,-150.0,FanDuel,-142.0,1.704225352112676,1.6569613182516405,1.0285245245863113
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,25,-525.0,,-490.0,,-441.0,,-520.0,,-425.0,HardRockBet,-425.0,1.2352941176470589,1.2034057212628642,1.026498458350963
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,25,-350.0,,-325.0,,-317.0,-350.0,-310.0,,-375.0,FanDuel,-310.0,1.3225806451612903,1.2922489918073512,1.0234719884064425
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,25,-1600.0,,-1500.0,,-1160.0,-1200.0,-1200.0,,-1000.0,HardRockBet,-1000.0,1.1,1.0764080459770113,1.0219172962438936
+Detroit Lions @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,-220.0,-215.0,-230.0,-215.0,-220.0,,-220.0,-210.0,-260.0,Fanatics,-210.0,1.4761904761904763,1.4447524164409908,1.0217601710796442
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,25,,,,,-1760.0,,,,-2500.0,DraftKings,-1760.0,1.0568181818181819,1.04,1.0161713286713288
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,25,,,,,,-6000.0,,,-5000.0,HardRockBet,-5000.0,1.02,1.0166666666666666,1.0032786885245903
+Detroit Lions @ Baltimore Ravens,Jared Goff,Rushing,25,,,,,,2000.0,,,2000.0,ESPNBET,2000.0,21.0,21.0,1.0
 Detroit Lions @ Baltimore Ravens,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Al-Quadin Muhammad,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
@@ -99,25 +102,20 @@ Detroit Lions @ Baltimore Ravens,DJ Reader,AnytimeTD,Anytime,,,,,,,,,5000.0,Hard
 Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,110,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
 Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,110,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
 Detroit Lions @ Baltimore Ravens,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,50,,,,,1900.0,,,,,DraftKings,1900.0,20.0,,
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,50,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
 Detroit Lions @ Baltimore Ravens,Jack Campbell,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,110,,,,,4600.0,,,,,DraftKings,4600.0,47.0,,
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Rushing,25,,,,,,,,,1400.0,HardRockBet,1400.0,15.0,,
-Detroit Lions @ Baltimore Ravens,Jared Goff,Rushing,25,,,,,,1800.0,,,,ESPNBET,1800.0,19.0,,
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Rushing,25,,,,,,,,,1500.0,HardRockBet,1500.0,16.0,,
 Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,80,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,80,,,,,4100.0,,,,,DraftKings,4100.0,42.0,,
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
 Detroit Lions @ Baltimore Ravens,Kerby Joseph,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Kyle Hamilton,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Detroit Lions @ Baltimore Ravens,Kyle Hamilton,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Detroit Lions @ Baltimore Ravens,Malaki Starks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,110,,,,,2600.0,,,,,DraftKings,2600.0,27.0,,
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,110,,,,,2300.0,,,,,DraftKings,2300.0,24.0,,
 Detroit Lions @ Baltimore Ravens,Marlon Humphrey,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Nate Wiggins,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Detroit Lions @ Baltimore Ravens,No Scorer,AnytimeTD,Anytime,,,,,,,,12000.0,,Fanatics,12000.0,121.0,,
+Detroit Lions @ Baltimore Ravens,No Scorer,AnytimeTD,Anytime,,,,,,,,20000.0,,Fanatics,20000.0,201.0,,
 Detroit Lions @ Baltimore Ravens,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,BetMGM,20000.0,201.0,,
 Detroit Lions @ Baltimore Ravens,Roquan Smith,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Shane Zylstra,AnytimeTD,Anytime,,,,,,,,1200.0,,Fanatics,1200.0,13.0,,
 Detroit Lions @ Baltimore Ravens,Terrion Arnold,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Tylan Wallace,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Detroit Lions @ Baltimore Ravens,Tylan Wallace,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
