@@ -1,194 +1,104 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Kansas City Chiefs @ New York Giants,Beaux Collins,AnytimeTD,Anytime,1800.0,1400.0,1400.0,1750.0,2000.0,,1700.0,1300.0,5000.0,HardRockBet,5000.0,51.0,17.214285714285715,2.9626556016597507
-Detroit Lions @ Baltimore Ravens,Rasheen Ali,AnytimeTD,Anytime,2000.0,1400.0,1900.0,1600.0,1400.0,,1900.0,1500.0,5000.0,HardRockBet,5000.0,51.0,17.714285714285715,2.879032258064516
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Receiving,50,,,,,1780.0,,,,600.0,DraftKings,1780.0,18.8,7.0,2.685714285714286
-Detroit Lions @ Baltimore Ravens,LaJohntay Wester,AnytimeTD,Anytime,2000.0,1500.0,2500.0,2300.0,2500.0,,2500.0,1900.0,5000.0,HardRockBet,5000.0,51.0,22.714285714285715,2.2452830188679243
-Detroit Lions @ Baltimore Ravens,Dominic Lovett,AnytimeTD,Anytime,1600.0,1800.0,,2400.0,3000.0,,3000.0,2200.0,5000.0,HardRockBet,5000.0,51.0,24.333333333333332,2.095890410958904
+Detroit Lions @ Baltimore Ravens,Rasheen Ali,AnytimeTD,Anytime,2000.0,1400.0,2000.0,1700.0,1400.0,,2000.0,1500.0,5000.0,HardRockBet,5000.0,51.0,18.142857142857142,2.811023622047244
+Detroit Lions @ Baltimore Ravens,LaJohntay Wester,AnytimeTD,Anytime,2000.0,1500.0,2500.0,2300.0,2500.0,,2700.0,1900.0,5000.0,HardRockBet,5000.0,51.0,23.0,2.217391304347826
+Detroit Lions @ Baltimore Ravens,Sione Vaki,AnytimeTD,Anytime,,3000.0,2500.0,2300.0,2200.0,,2500.0,2000.0,5000.0,HardRockBet,5000.0,51.0,25.166666666666668,2.0264900662251653
 Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,80,,,,,1640.0,,,,800.0,DraftKings,1640.0,17.4,9.0,1.9333333333333331
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,80,,,1500.0,,2700.0,1600.0,1500.0,,800.0,DraftKings,2700.0,28.0,14.5,1.9310344827586208
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Receiving,50,,,,,1180.0,,,,600.0,DraftKings,1180.0,12.8,7.0,1.8285714285714287
-Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,50,,,,,1100.0,,,,600.0,DraftKings,1100.0,12.0,7.0,1.7142857142857142
-Kansas City Chiefs @ New York Giants,Theo Johnson,Receiving,80,,,,,1700.0,2200.0,,,800.0,ESPNBET,2200.0,23.0,13.5,1.7037037037037037
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,Receiving,50,,,,,1100.0,1500.0,,,600.0,ESPNBET,1500.0,16.0,9.5,1.6842105263157894
-Kansas City Chiefs @ New York Giants,Kareem Hunt,Rushing,80,,,1100.0,,1340.0,1100.0,1100.0,,2000.0,HardRockBet,2000.0,21.0,12.6,1.6666666666666667
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Rushing,110,,,1500.0,,2400.0,,1400.0,,,DraftKings,2400.0,25.0,15.5,1.6129032258064515
-Detroit Lions @ Baltimore Ravens,Jared Goff,AnytimeTD,Anytime,1100.0,1500.0,2000.0,1600.0,2500.0,,2000.0,1600.0,1000.0,DraftKings,2500.0,26.0,16.428571428571427,1.582608695652174
-Kansas City Chiefs @ New York Giants,Darius Slayton,Receiving,80,,,1100.0,,1560.0,,1060.0,,800.0,DraftKings,1560.0,16.6,10.866666666666667,1.5276073619631902
-Kansas City Chiefs @ New York Giants,Brashard Smith,AnytimeTD,Anytime,800.0,800.0,1300.0,950.0,1000.0,,1500.0,1300.0,750.0,FanDuel,1500.0,16.0,10.857142857142858,1.4736842105263157
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,50,,,480.0,800.0,640.0,500.0,490.0,,450.0,Caesars,800.0,9.0,6.12,1.4705882352941175
-Kansas City Chiefs @ New York Giants,Kareem Hunt,Receiving,25,,,450.0,,523.0,,,,200.0,DraftKings,523.0,6.23,4.25,1.4658823529411766
-Kansas City Chiefs @ New York Giants,Jalin Hyatt,AnytimeTD,Anytime,1800.0,1300.0,3300.0,2600.0,3500.0,,3500.0,2500.0,1500.0,DraftKings,3500.0,36.0,24.571428571428573,1.4651162790697674
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,110,,,,,1900.0,,1280.0,,,DraftKings,1900.0,20.0,13.8,1.4492753623188406
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,Rushing,50,550.0,,425.0,900.0,940.0,700.0,640.0,,500.0,DraftKings,940.0,10.4,7.191666666666666,1.4461181923522597
-Kansas City Chiefs @ New York Giants,Russell Wilson,Passing,350,1000.0,,1200.0,,1800.0,1400.0,1280.0,,,DraftKings,1800.0,19.0,13.2,1.4393939393939394
-Kansas City Chiefs @ New York Giants,Jalen Royals,AnytimeTD,Anytime,750.0,750.0,1100.0,1000.0,1300.0,,1200.0,1050.0,1500.0,HardRockBet,1500.0,16.0,11.214285714285714,1.426751592356688
+Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,50,,,,,1140.0,,,,600.0,DraftKings,1140.0,12.4,7.0,1.7714285714285716
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,80,,,1500.0,,2100.0,1600.0,1280.0,,800.0,DraftKings,2100.0,22.0,13.95,1.5770609318996416
+Detroit Lions @ Baltimore Ravens,Kalif Raymond,AnytimeTD,Anytime,700.0,1150.0,900.0,700.0,650.0,,900.0,740.0,525.0,BetRivers,1150.0,12.5,8.307142857142857,1.5047291487532244
 Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,50,,,1400.0,,1200.0,1500.0,1400.0,,2000.0,HardRockBet,2000.0,21.0,14.75,1.423728813559322
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,AnytimeTD,Anytime,700.0,1200.0,900.0,850.0,1100.0,,950.0,850.0,425.0,BetRivers,1200.0,13.0,9.25,1.4054054054054055
-Kansas City Chiefs @ New York Giants,Jason Brownlee,AnytimeTD,Anytime,1300.0,1100.0,1600.0,1400.0,1300.0,,1900.0,1500.0,1100.0,FanDuel,1900.0,20.0,14.285714285714286,1.4
-Kansas City Chiefs @ New York Giants,Devin Singletary,AnytimeTD,Anytime,1200.0,1200.0,1300.0,1200.0,1700.0,,1600.0,1300.0,500.0,DraftKings,1700.0,18.0,12.857142857142858,1.4
-Kansas City Chiefs @ New York Giants,Nikko Remigio,AnytimeTD,Anytime,1800.0,1800.0,2500.0,2100.0,2200.0,,2700.0,2000.0,1400.0,FanDuel,2700.0,28.0,20.714285714285715,1.3517241379310345
-Detroit Lions @ Baltimore Ravens,Craig Reynolds,AnytimeTD,Anytime,1500.0,2400.0,2500.0,2100.0,2800.0,,2700.0,1900.0,1300.0,DraftKings,2800.0,29.0,21.571428571428573,1.3443708609271523
-Detroit Lions @ Baltimore Ravens,Keaton Mitchell,AnytimeTD,Anytime,750.0,1600.0,1900.0,1200.0,1400.0,,1900.0,1500.0,,Bovada,1900.0,20.0,14.916666666666666,1.340782122905028
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Rushing,80,,,700.0,,1000.0,700.0,700.0,,800.0,DraftKings,1000.0,11.0,8.25,1.3333333333333333
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Passing,350,950.0,,1200.0,1300.0,1540.0,1100.0,1100.0,,,DraftKings,1540.0,16.4,12.3,1.333333333333333
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,25,,,450.0,,517.0,,450.0,,200.0,DraftKings,517.0,6.17,4.666666666666667,1.322142857142857
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,110,,,1500.0,,1040.0,,1700.0,,,FanDuel,1700.0,18.0,13.7,1.3138686131386863
-Detroit Lions @ Baltimore Ravens,Devontez Walker,AnytimeTD,Anytime,550.0,850.0,1000.0,800.0,1100.0,,1000.0,500.0,1000.0,DraftKings,1100.0,12.0,9.142857142857142,1.3125
-Detroit Lions @ Baltimore Ravens,Charlie Kolar,AnytimeTD,Anytime,800.0,650.0,800.0,750.0,950.0,,800.0,600.0,600.0,DraftKings,950.0,10.5,8.142857142857142,1.2894736842105263
-Kansas City Chiefs @ New York Giants,Noah Gray,Receiving,50,600.0,,1000.0,,890.0,850.0,830.0,,600.0,Bovada,1000.0,11.0,8.540000000000001,1.2880562060889928
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,350,1200.0,,1100.0,1300.0,1520.0,,1100.0,,,DraftKings,1520.0,16.2,12.75,1.2705882352941176
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,80,,,625.0,425.0,383.0,500.0,630.0,,450.0,FanDuel,630.0,7.3,5.766,1.2660423170308706
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,50,,,,,950.0,1000.0,,,600.0,ESPNBET,1000.0,11.0,8.75,1.2571428571428571
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,80,,,,900.0,740.0,700.0,700.0,,650.0,Caesars,900.0,10.0,7.975,1.2539184952978057
-Kansas City Chiefs @ New York Giants,Daniel Bellinger,AnytimeTD,Anytime,1500.0,2400.0,2200.0,2000.0,2200.0,,2500.0,1800.0,1750.0,FanDuel,2500.0,26.0,20.785714285714285,1.2508591065292096
-Kansas City Chiefs @ New York Giants,Robert Tonyan,AnytimeTD,Anytime,2000.0,1800.0,2500.0,2400.0,2800.0,,2700.0,2200.0,2000.0,DraftKings,2800.0,29.0,23.285714285714285,1.245398773006135
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,Rushing,80,,,1500.0,,,2200.0,,,2000.0,ESPNBET,2200.0,23.0,18.5,1.2432432432432432
-Kansas City Chiefs @ New York Giants,Russell Wilson,Rushing,50,1050.0,,,,980.0,1100.0,,,600.0,ESPNBET,1100.0,12.0,9.766666666666667,1.228668941979522
-Kansas City Chiefs @ New York Giants,Gunner Olszewski,AnytimeTD,Anytime,3300.0,2800.0,3000.0,3000.0,3500.0,,3500.0,2500.0,1750.0,DraftKings,3500.0,36.0,29.357142857142858,1.2262773722627738
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,50,390.0,,,475.0,401.0,375.0,,,525.0,HardRockBet,525.0,6.25,5.1025,1.224889759921607
-Kansas City Chiefs @ New York Giants,Kansas City Chiefs D/ST,AnytimeTD,Anytime,525.0,,,,650.0,,,500.0,,DraftKings,650.0,7.5,6.125,1.2244897959183674
-Detroit Lions @ Baltimore Ravens,Brock Wright,AnytimeTD,Anytime,900.0,900.0,1100.0,950.0,800.0,,1100.0,1050.0,1200.0,HardRockBet,1200.0,13.0,10.714285714285714,1.2133333333333334
-Detroit Lions @ Baltimore Ravens,Tylan Wallace,AnytimeTD,Anytime,650.0,750.0,825.0,800.0,950.0,,850.0,800.0,700.0,DraftKings,950.0,10.5,8.678571428571429,1.2098765432098766
-Kansas City Chiefs @ New York Giants,Travis Kelce,Receiving,110,,,,,1140.0,1400.0,,,,ESPNBET,1400.0,15.0,12.4,1.2096774193548387
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Receiving,25,,,380.0,,363.0,,400.0,,200.0,FanDuel,400.0,5.0,4.1433333333333335,1.2067578439259854
-Kansas City Chiefs @ New York Giants,Chris Manhertz,AnytimeTD,Anytime,3300.0,3400.0,2500.0,3000.0,3500.0,,3000.0,2000.0,3000.0,DraftKings,3500.0,36.0,29.857142857142858,1.2057416267942584
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,Receiving,25,,,225.0,,234.0,,285.0,,200.0,FanDuel,285.0,3.85,3.1966666666666668,1.2043795620437956
-Kansas City Chiefs @ New York Giants,Kareem Hunt,Rushing,50,280.0,390.0,300.0,310.0,305.0,300.0,310.0,,350.0,BetRivers,390.0,4.9,4.078571428571428,1.2014010507880912
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,110,,255.0,200.0,175.0,209.0,,200.0,,,BetRivers,255.0,3.55,2.96,1.1993243243243243
-Detroit Lions @ Baltimore Ravens,Justice Hill,AnytimeTD,Anytime,500.0,460.0,350.0,420.0,500.0,,370.0,360.0,350.0,BetMGM,500.0,6.0,5.014285714285714,1.1965811965811965
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Rushing,50,280.0,310.0,380.0,275.0,289.0,300.0,310.0,,350.0,Bovada,380.0,4.8,4.0200000000000005,1.1940298507462686
-Kansas City Chiefs @ New York Giants,JuJu Smith-Schuster,AnytimeTD,Anytime,325.0,260.0,260.0,280.0,285.0,,260.0,240.0,210.0,BetMGM,325.0,4.25,3.564285714285714,1.1923847695390781
-Kansas City Chiefs @ New York Giants,New York Giants D/ST,AnytimeTD,Anytime,750.0,,,,700.0,,,530.0,,BetMGM,750.0,8.5,7.15,1.1888111888111887
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Passing,300,325.0,,470.0,325.0,424.0,375.0,390.0,,450.0,Bovada,470.0,5.7,4.815,1.1838006230529594
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,25,,,,,154.0,,,,200.0,HardRockBet,200.0,3.0,2.54,1.1811023622047243
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Rushing,80,,,,,1180.0,1500.0,,,1600.0,HardRockBet,1600.0,17.0,14.4,1.1805555555555556
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,110,,420.0,,280.0,372.0,350.0,360.0,,,BetRivers,420.0,5.2,4.404999999999999,1.1804767309875144
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,80,,,750.0,,620.0,700.0,750.0,,850.0,HardRockBet,850.0,9.5,8.05,1.1801242236024843
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,AnytimeTD,Anytime,350.0,335.0,320.0,350.0,400.0,,320.0,295.0,300.0,DraftKings,400.0,5.0,4.242857142857143,1.1784511784511784
-Kansas City Chiefs @ New York Giants,Russell Wilson,AnytimeTD,Anytime,750.0,575.0,625.0,675.0,750.0,,700.0,600.0,450.0,BetMGM,750.0,8.5,7.25,1.1724137931034482
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,AnytimeTD,Anytime,450.0,650.0,600.0,525.0,600.0,,600.0,580.0,425.0,BetRivers,650.0,7.5,6.3999999999999995,1.171875
-Detroit Lions @ Baltimore Ravens,Detroit Lions D/ST,AnytimeTD,Anytime,550.0,,,,550.0,,,660.0,,Fanatics,660.0,7.6,6.5,1.169230769230769
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,Rushing,25,100.0,,-135.0,,127.0,135.0,128.0,,-120.0,ESPNBET,135.0,2.35,2.024814814814815,1.1605999634168649
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,50,,,,,670.0,750.0,,,600.0,ESPNBET,750.0,8.5,7.35,1.1564625850340136
-Detroit Lions @ Baltimore Ravens,Jacob Saylors,AnytimeTD,Anytime,,,2500.0,2400.0,2500.0,,2700.0,1900.0,,FanDuel,2700.0,28.0,24.25,1.1546391752577319
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,350,750.0,,625.0,500.0,670.0,750.0,640.0,,,BetMGM,750.0,8.5,7.37,1.153324287652646
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Receiving,25,,,280.0,,262.0,,300.0,,200.0,FanDuel,300.0,4.0,3.473333333333333,1.1516314779270633
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Rushing,80,,,550.0,650.0,620.0,550.0,490.0,,550.0,Caesars,650.0,7.5,6.5200000000000005,1.1503067484662577
-Detroit Lions @ Baltimore Ravens,Sione Vaki,AnytimeTD,Anytime,,2900.0,2500.0,2600.0,2800.0,,2700.0,2000.0,,BetRivers,2900.0,30.0,26.2,1.1450381679389314
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Rushing,50,125.0,155.0,125.0,110.0,136.0,125.0,122.0,,120.0,BetRivers,155.0,2.55,2.2328571428571427,1.1420345489443378
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,25,115.0,,125.0,,156.0,,134.0,,125.0,DraftKings,156.0,2.56,2.2475,1.139043381535039
-Kansas City Chiefs @ New York Giants,New York Giants Defense,AnytimeTD,Anytime,,,825.0,,,,950.0,,,FanDuel,950.0,10.5,9.25,1.135135135135135
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,300,260.0,250.0,220.0,175.0,221.0,225.0,220.0,,210.0,BetMGM,260.0,3.6,3.172857142857143,1.134624043223773
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Passing,250,100.0,132.0,150.0,110.0,129.0,115.0,124.0,,140.0,Bovada,150.0,2.5,2.2142857142857144,1.129032258064516
-Kansas City Chiefs @ New York Giants,Noah Gray,Receiving,25,130.0,,210.0,,198.0,,172.0,,200.0,Bovada,210.0,3.1,2.75,1.1272727272727272
-Kansas City Chiefs @ New York Giants,Tyrone Tracy Jr.,AnytimeTD,Anytime,225.0,235.0,275.0,265.0,295.0,,300.0,295.0,195.0,FanDuel,300.0,4.0,3.55,1.1267605633802817
-Kansas City Chiefs @ New York Giants,JuJu Smith-Schuster,Receiving,80,,,1000.0,,930.0,,900.0,,800.0,Bovada,1000.0,11.0,9.766666666666667,1.1262798634812285
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,135.0,195.0,180.0,160.0,180.0,,180.0,150.0,150.0,BetRivers,195.0,2.95,2.6214285714285714,1.125340599455041
-Kansas City Chiefs @ New York Giants,Russell Wilson,Passing,300,390.0,,480.0,400.0,530.0,500.0,490.0,,500.0,DraftKings,530.0,6.3,5.6000000000000005,1.1249999999999998
-Kansas City Chiefs @ New York Giants,Tyquan Thornton,Receiving,80,,,650.0,700.0,498.0,600.0,,,700.0,Caesars,700.0,8.0,7.12,1.1235955056179776
-Kansas City Chiefs @ New York Giants,Travis Kelce,Receiving,80,,370.0,400.0,280.0,332.0,350.0,390.0,,350.0,Bovada,400.0,5.0,4.453333333333333,1.122754491017964
-Kansas City Chiefs @ New York Giants,Kareem Hunt,AnytimeTD,Anytime,180.0,225.0,200.0,195.0,205.0,,210.0,210.0,130.0,BetRivers,225.0,3.25,2.9,1.120689655172414
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,300,450.0,,400.0,330.0,461.0,450.0,400.0,,375.0,DraftKings,461.0,5.61,5.008333333333334,1.1201331114808653
-Kansas City Chiefs @ New York Giants,Wan'Dale Robinson,Receiving,80,,,425.0,305.0,398.0,350.0,420.0,,375.0,Bovada,425.0,5.25,4.696,1.1179727427597956
-Kansas City Chiefs @ New York Giants,Noah Gray,AnytimeTD,Anytime,500.0,525.0,440.0,450.0,450.0,,470.0,450.0,475.0,BetRivers,525.0,6.25,5.621428571428571,1.1118170266836087
-Kansas City Chiefs @ New York Giants,Darius Slayton,Receiving,50,320.0,380.0,400.0,330.0,405.0,325.0,350.0,,375.0,DraftKings,405.0,5.05,4.542857142857143,1.1116352201257862
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,110,,390.0,350.0,260.0,364.0,375.0,360.0,,,BetRivers,390.0,4.9,4.418000000000001,1.1090991398822996
-Kansas City Chiefs @ New York Giants,Tyquan Thornton,AnytimeTD,Anytime,333.0,245.0,300.0,300.0,295.0,,310.0,290.0,300.0,BetMGM,333.0,4.33,3.914285714285714,1.1062043795620438
-Detroit Lions @ Baltimore Ravens,Jared Goff,Rushing,25,,,,,,1800.0,,,2000.0,HardRockBet,2000.0,21.0,19.0,1.105263157894737
-Kansas City Chiefs @ New York Giants,Wan'Dale Robinson,Receiving,50,-120.0,120.0,105.0,-108.0,105.0,100.0,104.0,,105.0,BetRivers,120.0,2.2,1.992751322751323,1.1040012744603456
-Kansas City Chiefs @ New York Giants,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,625.0,,,,700.0,,,FanDuel,700.0,8.0,7.25,1.103448275862069
-Kansas City Chiefs @ New York Giants,Tyquan Thornton,Receiving,50,180.0,215.0,225.0,170.0,183.0,175.0,220.0,,225.0,Bovada,225.0,3.25,2.954285714285714,1.1000967117988394
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,50,140.0,170.0,185.0,150.0,174.0,175.0,194.0,,180.0,FanDuel,194.0,2.94,2.677142857142857,1.0981856990394878
-Detroit Lions @ Baltimore Ravens,Mark Andrews,AnytimeTD,Anytime,145.0,145.0,160.0,165.0,180.0,,165.0,175.0,130.0,DraftKings,180.0,2.8,2.5500000000000003,1.0980392156862744
-Kansas City Chiefs @ New York Giants,Theo Johnson,Receiving,50,450.0,440.0,500.0,430.0,411.0,450.0,500.0,,450.0,Bovada,500.0,6.0,5.472857142857143,1.096319498825372
-Kansas City Chiefs @ New York Giants,Darius Slayton,AnytimeTD,Anytime,400.0,410.0,400.0,400.0,380.0,,450.0,450.0,375.0,FanDuel,450.0,5.5,5.021428571428572,1.0953058321479372
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,110,,,,750.0,830.0,750.0,750.0,,,DraftKings,830.0,9.3,8.5,1.0941176470588236
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,25,,,350.0,,303.0,325.0,360.0,,375.0,HardRockBet,375.0,4.75,4.345,1.093210586881473
-Kansas City Chiefs @ New York Giants,Marquise Brown,AnytimeTD,Anytime,170.0,163.0,140.0,150.0,145.0,,135.0,135.0,165.0,BetMGM,170.0,2.7,2.4757142857142855,1.090594345066359
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,80,,260.0,,240.0,284.0,275.0,280.0,,300.0,HardRockBet,300.0,4.0,3.678,1.0875475802066341
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,80,,275.0,300.0,240.0,268.0,275.0,300.0,,250.0,Bovada,300.0,4.0,3.6799999999999997,1.0869565217391306
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,25,-125.0,,-110.0,,-110.0,,-106.0,,105.0,HardRockBet,105.0,2.05,1.8903945111492282,1.08442972507032
-Kansas City Chiefs @ New York Giants,Wan'Dale Robinson,AnytimeTD,Anytime,310.0,295.0,275.0,295.0,295.0,,280.0,270.0,240.0,BetMGM,310.0,4.1,3.7857142857142856,1.0830188679245283
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,AnytimeTD,Anytime,130.0,123.0,100.0,115.0,125.0,,105.0,105.0,115.0,BetMGM,130.0,2.3,2.125714285714286,1.0819892473118278
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,250,150.0,150.0,125.0,115.0,139.0,135.0,134.0,,120.0,BetMGM,150.0,2.5,2.3114285714285714,1.0815822002472189
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,250,-125.0,-141.0,-160.0,-157.0,-142.0,-140.0,-154.0,,-160.0,BetMGM,-125.0,1.8,1.6662891784377576,1.080244667787859
-Detroit Lions @ Baltimore Ravens,Jameson Williams,AnytimeTD,Anytime,225.0,200.0,240.0,235.0,245.0,,240.0,250.0,185.0,Fanatics,250.0,3.5,3.242857142857143,1.079295154185022
-Kansas City Chiefs @ New York Giants,Russell Wilson,Rushing,25,,,125.0,,149.0,140.0,144.0,,115.0,DraftKings,149.0,2.49,2.31,1.077922077922078
-Kansas City Chiefs @ New York Giants,Theo Johnson,Receiving,25,115.0,,-105.0,,-101.0,,104.0,,100.0,BetMGM,115.0,2.15,1.9956199905704857,1.077359422214137
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Rushing,25,-185.0,,-155.0,,-168.0,-185.0,-192.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.5684627599950183,1.0772682753520777
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,50,135.0,163.0,,150.0,164.0,165.0,174.0,,150.0,FanDuel,174.0,2.74,2.5450000000000004,1.0766208251473477
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,AnytimeTD,Anytime,210.0,230.0,220.0,225.0,245.0,,220.0,240.0,200.0,DraftKings,245.0,3.45,3.207142857142857,1.0757238307349668
-Kansas City Chiefs @ New York Giants,Malik Nabers,Receiving,80,,-112.0,-120.0,-122.0,-115.0,-115.0,-111.0,,100.0,HardRockBet,100.0,2.0,1.8643156571702546,1.072779704610588
-Kansas City Chiefs @ New York Giants,Malik Nabers,Receiving,110,,250.0,250.0,190.0,262.0,250.0,265.0,,,FanDuel,265.0,3.65,3.404,1.072267920094007
-Kansas City Chiefs @ New York Giants,JuJu Smith-Schuster,Receiving,50,200.0,260.0,250.0,220.0,238.0,250.0,255.0,,240.0,BetRivers,260.0,3.6,3.361428571428571,1.0709732256693583
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,50,115.0,132.0,125.0,110.0,121.0,115.0,134.0,,115.0,FanDuel,134.0,2.34,2.1900000000000004,1.0684931506849313
+Detroit Lions @ Baltimore Ravens,Jared Goff,AnytimeTD,Anytime,1100.0,1600.0,2000.0,1600.0,2200.0,,2000.0,1600.0,1000.0,DraftKings,2200.0,23.0,16.571428571428573,1.3879310344827585
+Detroit Lions @ Baltimore Ravens,Craig Reynolds,AnytimeTD,Anytime,1500.0,2200.0,2500.0,2000.0,2200.0,,2700.0,2000.0,1100.0,FanDuel,2700.0,28.0,20.285714285714285,1.3802816901408452
+Detroit Lions @ Baltimore Ravens,Keaton Mitchell,AnytimeTD,Anytime,750.0,1600.0,2000.0,1200.0,1400.0,,2000.0,1600.0,,Bovada,2000.0,21.0,15.25,1.3770491803278688
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,110,,,,,1760.0,,1260.0,,,DraftKings,1760.0,18.6,13.6,1.3676470588235297
+Detroit Lions @ Baltimore Ravens,Dominic Lovett,AnytimeTD,Anytime,1600.0,1900.0,2800.0,2300.0,2500.0,,3000.0,2000.0,,FanDuel,3000.0,31.0,22.833333333333332,1.3576642335766425
+Detroit Lions @ Baltimore Ravens,Devontez Walker,AnytimeTD,Anytime,550.0,850.0,1000.0,750.0,1100.0,,1000.0,500.0,1000.0,DraftKings,1100.0,12.0,9.071428571428571,1.3228346456692914
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,350,1100.0,,1100.0,1300.0,1520.0,,1100.0,,,DraftKings,1520.0,16.2,12.5,1.296
+Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,25,,,350.0,,297.0,325.0,350.0,,450.0,HardRockBet,450.0,5.5,4.305,1.2775842044134729
+Detroit Lions @ Baltimore Ravens,Charlie Kolar,AnytimeTD,Anytime,800.0,650.0,725.0,750.0,900.0,,750.0,550.0,575.0,DraftKings,900.0,10.0,7.857142857142857,1.2727272727272727
+Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,50,750.0,,,,950.0,1000.0,,,600.0,ESPNBET,1000.0,11.0,8.666666666666666,1.2692307692307694
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,25,,,450.0,,517.0,,520.0,,200.0,FanDuel,520.0,6.2,4.89,1.2678936605316975
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,80,,,625.0,425.0,380.0,500.0,580.0,,500.0,Bovada,625.0,7.25,5.7700000000000005,1.2564991334488733
+Detroit Lions @ Baltimore Ravens,Tylan Wallace,AnytimeTD,Anytime,650.0,750.0,825.0,800.0,950.0,,850.0,740.0,700.0,DraftKings,950.0,10.5,8.592857142857143,1.221945137157107
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,110,,255.0,200.0,175.0,202.0,,200.0,,,BetRivers,255.0,3.55,2.9425,1.2064570943075617
+Detroit Lions @ Baltimore Ravens,Justice Hill,AnytimeTD,Anytime,500.0,450.0,350.0,420.0,500.0,,380.0,360.0,350.0,BetMGM,500.0,6.0,5.014285714285714,1.1965811965811965
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,80,,,,340.0,412.0,400.0,390.0,,475.0,HardRockBet,475.0,5.75,4.855,1.184346035015448
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,80,,,,850.0,710.0,700.0,700.0,,700.0,Caesars,850.0,9.5,8.025,1.1838006230529594
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,AnytimeTD,Anytime,450.0,650.0,600.0,525.0,600.0,,600.0,550.0,425.0,BetRivers,650.0,7.5,6.357142857142857,1.1797752808988764
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,110,,,1500.0,,1020.0,,1500.0,,,Bovada,1500.0,16.0,13.6,1.1764705882352942
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,110,,420.0,,280.0,369.0,360.0,370.0,,,BetRivers,420.0,5.2,4.4475,1.169196177627881
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,AnytimeTD,Anytime,350.0,335.0,330.0,340.0,400.0,,330.0,315.0,300.0,DraftKings,400.0,5.0,4.285714285714286,1.1666666666666667
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,110,,,,,880.0,750.0,750.0,,,DraftKings,880.0,9.8,8.5,1.1529411764705884
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,50,375.0,,,475.0,387.0,360.0,,,475.0,Caesars,475.0,5.75,4.9925,1.1517275913870806
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,110,,400.0,350.0,260.0,354.0,350.0,360.0,,,BetRivers,400.0,5.0,4.348000000000001,1.1499540018399261
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,50,450.0,,480.0,500.0,535.0,450.0,410.0,,450.0,DraftKings,535.0,6.35,5.566666666666666,1.1407185628742516
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,80,,275.0,300.0,230.0,262.0,260.0,270.0,,230.0,Bovada,300.0,4.0,3.545,1.1283497884344147
+Detroit Lions @ Baltimore Ravens,Detroit Lions D/ST,AnytimeTD,Anytime,550.0,,,,600.0,,,660.0,,Fanatics,660.0,7.6,6.75,1.1259259259259258
+Detroit Lions @ Baltimore Ravens,Brock Wright,AnytimeTD,Anytime,900.0,900.0,1100.0,1000.0,1000.0,,1100.0,900.0,1000.0,Bovada,1100.0,12.0,10.714285714285714,1.12
+Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,25,,,235.0,,232.0,,260.0,,200.0,FanDuel,260.0,3.6,3.223333333333333,1.1168562564632887
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,AnytimeTD,Anytime,210.0,230.0,225.0,230.0,260.0,,220.0,215.0,230.0,DraftKings,260.0,3.6,3.228571428571428,1.1150442477876108
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,80,,,750.0,,630.0,700.0,750.0,,800.0,HardRockBet,800.0,9.0,8.075,1.1145510835913313
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,135.0,180.0,170.0,155.0,180.0,,170.0,145.0,110.0,BetRivers,180.0,2.8,2.521428571428572,1.1104815864022661
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,300,230.0,250.0,220.0,180.0,222.0,210.0,225.0,,220.0,BetRivers,250.0,3.5,3.152857142857143,1.110104213864975
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,50,150.0,170.0,185.0,150.0,165.0,165.0,194.0,,175.0,FanDuel,194.0,2.94,2.6571428571428575,1.1064516129032256
+Detroit Lions @ Baltimore Ravens,Mark Andrews,AnytimeTD,Anytime,145.0,143.0,180.0,170.0,180.0,,180.0,190.0,145.0,Fanatics,190.0,2.9,2.632857142857143,1.101465002712968
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,300,425.0,,400.0,330.0,443.0,425.0,400.0,,,DraftKings,443.0,5.43,4.96,1.094758064516129
+Detroit Lions @ Baltimore Ravens,Jameson Williams,AnytimeTD,Anytime,225.0,200.0,240.0,235.0,255.0,,240.0,250.0,180.0,DraftKings,255.0,3.55,3.242857142857143,1.0947136563876652
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,350,650.0,,625.0,525.0,700.0,700.0,680.0,,,DraftKings,700.0,8.0,7.359999999999999,1.0869565217391306
+Detroit Lions @ Baltimore Ravens,Jacob Saylors,AnytimeTD,Anytime,,,2500.0,2300.0,2500.0,,2500.0,1900.0,,Bovada,2500.0,26.0,24.0,1.0833333333333333
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,25,,,,,165.0,,172.0,,190.0,HardRockBet,190.0,2.9,2.6849999999999996,1.0800744878957171
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,AnytimeTD,Anytime,220.0,185.0,200.0,205.0,210.0,,200.0,200.0,175.0,BetMGM,220.0,3.2,2.9642857142857144,1.0795180722891566
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,250,135.0,145.0,125.0,115.0,139.0,130.0,134.0,,115.0,BetRivers,145.0,2.45,2.275714285714286,1.0765850596359072
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,50,,,,,700.0,700.0,630.0,,600.0,DraftKings,700.0,8.0,7.433333333333334,1.0762331838565022
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,50,130.0,165.0,,145.0,164.0,165.0,172.0,,150.0,FanDuel,172.0,2.7199999999999998,2.5316666666666667,1.074391046741277
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,80,,128.0,120.0,105.0,124.0,115.0,120.0,,-105.0,BetRivers,128.0,2.2800000000000002,2.132063492063492,1.0693865396069089
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,AnytimeTD,Anytime,130.0,123.0,100.0,115.0,125.0,,105.0,110.0,130.0,BetMGM,130.0,2.3,2.154285714285714,1.0676392572944298
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,25,-625.0,,,,-367.0,,-550.0,,-425.0,DraftKings,-367.0,1.2724795640326976,1.1923707664884136,1.0671844696261785
 Detroit Lions @ Baltimore Ravens,Baltimore Ravens D/ST,AnytimeTD,Anytime,525.0,,,,550.0,,,580.0,,Fanatics,580.0,6.8,6.375,1.0666666666666667
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,AnytimeTD,Anytime,275.0,360.0,350.0,320.0,340.0,,360.0,350.0,325.0,BetRivers,360.0,4.6,4.314285714285715,1.0662251655629136
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,25,-250.0,,,,-205.0,,-245.0,,-260.0,DraftKings,-205.0,1.4878048780487805,1.3975928833071691,1.064548121143934
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,AnytimeTD,Anytime,185.0,170.0,185.0,185.0,195.0,,195.0,200.0,160.0,Fanatics,200.0,3.0,2.8214285714285716,1.0632911392405062
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,50,,188.0,,160.0,196.0,185.0,194.0,,165.0,DraftKings,196.0,2.96,2.784,1.0632183908045978
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,AnytimeTD,Anytime,220.0,185.0,200.0,210.0,215.0,,200.0,210.0,190.0,BetMGM,220.0,3.2,3.014285714285714,1.0616113744075832
-Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,25,,,235.0,,226.0,,240.0,,200.0,FanDuel,240.0,3.4,3.203333333333333,1.061394380853278
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,80,,,,550.0,583.0,550.0,550.0,,525.0,DraftKings,583.0,6.83,6.4375,1.0609708737864079
-Kansas City Chiefs @ New York Giants,Marquise Brown,Receiving,110,,,825.0,700.0,830.0,850.0,830.0,,,ESPNBET,850.0,9.5,8.9625,1.0599721059972105
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Rushing,50,175.0,195.0,175.0,160.0,192.0,175.0,182.0,,190.0,BetRivers,195.0,2.95,2.7842857142857143,1.0595177013853259
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,50,-400.0,-360.0,-345.0,-375.0,-293.0,-350.0,-330.0,,-525.0,DraftKings,-293.0,1.341296928327645,1.2662171851612845,1.0592945223348846
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,50,-200.0,-175.0,-150.0,-164.0,-159.0,-155.0,-144.0,,-170.0,FanDuel,-144.0,1.6944444444444444,1.6014541053866433,1.0580661904359414
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,25,-525.0,,,,-357.0,,-490.0,,-425.0,DraftKings,-357.0,1.280112044817927,1.2099506469254369,1.05798699151141
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,80,,125.0,120.0,105.0,120.0,115.0,122.0,,-105.0,BetRivers,125.0,2.25,2.128730158730159,1.0569681604652896
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,80,,440.0,,375.0,432.0,425.0,430.0,,450.0,HardRockBet,450.0,5.5,5.204,1.056879323597233
-Kansas City Chiefs @ New York Giants,Darius Slayton,Receiving,25,-110.0,,115.0,,107.0,,102.0,,115.0,Bovada,115.0,2.15,2.0372727272727276,1.0553324408746094
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,50,105.0,114.0,,-103.0,119.0,105.0,110.0,,115.0,DraftKings,119.0,2.19,2.076812297734628,1.0545006895369584
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,25,-625.0,,-480.0,,-378.0,-500.0,-470.0,,-450.0,DraftKings,-378.0,1.2645502645502646,1.2006643026004729,1.0532088459791997
-Kansas City Chiefs @ New York Giants,Theo Johnson,AnytimeTD,Anytime,400.0,380.0,400.0,400.0,425.0,,410.0,400.0,400.0,DraftKings,425.0,5.25,4.985714285714286,1.0530085959885387
-Kansas City Chiefs @ New York Giants,Isiah Pacheco,Rushing,25,-550.0,,-400.0,,-454.0,-475.0,-470.0,,-850.0,Bovada,-400.0,1.25,1.188604366211722,1.051653548929789
-Kansas City Chiefs @ New York Giants,Russell Wilson,Passing,250,130.0,163.0,160.0,135.0,161.0,155.0,162.0,,165.0,HardRockBet,165.0,2.65,2.5228571428571427,1.05039637599094
-Kansas City Chiefs @ New York Giants,Marquise Brown,Receiving,80,,250.0,260.0,200.0,258.0,250.0,260.0,,240.0,Bovada,260.0,3.6,3.4299999999999997,1.0495626822157436
-Kansas City Chiefs @ New York Giants,Travis Kelce,Receiving,25,-900.0,,-645.0,,-500.0,,-650.0,,-650.0,DraftKings,-500.0,1.2,1.1434605446233352,1.0494459171700492
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,25,-300.0,,,,-218.0,,-225.0,,-250.0,DraftKings,-218.0,1.4587155963302751,1.3925925925925924,1.047481944173336
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,80,,132.0,,110.0,129.0,125.0,130.0,,115.0,BetRivers,132.0,2.3200000000000003,2.2180000000000004,1.0459873760144274
-Kansas City Chiefs @ New York Giants,Travis Kelce,Receiving,50,-135.0,-113.0,-110.0,-124.0,-112.0,-110.0,-106.0,,-115.0,FanDuel,-106.0,1.9433962264150944,1.8589646120409462,1.0454186238012628
-Kansas City Chiefs @ New York Giants,Malik Nabers,Receiving,50,-600.0,-435.0,-450.0,-525.0,-423.0,-475.0,-440.0,,-375.0,HardRockBet,-375.0,1.2666666666666666,1.2119222570405552,1.0451715523071539
-Detroit Lions @ Baltimore Ravens,David Montgomery,AnytimeTD,Anytime,120.0,102.0,110.0,120.0,125.0,,115.0,120.0,120.0,DraftKings,125.0,2.25,2.152857142857143,1.0451227604512274
-Detroit Lions @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,-225.0,-215.0,-230.0,-205.0,-195.0,,-210.0,-235.0,-250.0,DraftKings,-195.0,1.5128205128205128,1.4476958001918196,1.0449850808575007
-Kansas City Chiefs @ New York Giants,Tyquan Thornton,Receiving,25,-190.0,,-160.0,,-145.0,,-158.0,,-145.0,DraftKings,-145.0,1.6896551724137931,1.618470588573135,1.0439826243017585
-Kansas City Chiefs @ New York Giants,Cam Skattebo,AnytimeTD,Anytime,185.0,170.0,180.0,185.0,190.0,,180.0,175.0,170.0,DraftKings,190.0,2.9,2.7785714285714285,1.0437017994858613
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,110,,,,,1400.0,1400.0,1280.0,,,DraftKings,1400.0,15.0,14.4,1.0416666666666667
-Kansas City Chiefs @ New York Giants,Marquise Brown,Receiving,50,-190.0,-148.0,-150.0,-152.0,-141.0,-155.0,-148.0,,-155.0,DraftKings,-141.0,1.7092198581560285,1.6417930178541382,1.0410690261005122
-Detroit Lions @ Baltimore Ravens,Zay Flowers,AnytimeTD,Anytime,110.0,112.0,100.0,105.0,100.0,,105.0,115.0,115.0,Fanatics,115.0,2.15,2.067142857142857,1.0400829302004146
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,25,-450.0,,-325.0,,-315.0,-325.0,-300.0,,-375.0,FanDuel,-300.0,1.3333333333333333,1.2843467643467643,1.038141232840248
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,AnytimeTD,Anytime,-120.0,-136.0,-139.0,-124.0,-120.0,,-130.0,-130.0,-135.0,BetMGM,-120.0,1.8333333333333335,1.7676722576453645,1.0371455033046868
-Kansas City Chiefs @ New York Giants,Malik Nabers,AnytimeTD,Anytime,125.0,120.0,135.0,135.0,140.0,,135.0,140.0,130.0,DraftKings,140.0,2.4,2.314285714285714,1.0370370370370372
-Kansas City Chiefs @ New York Giants,Marquise Brown,Receiving,25,-1200.0,,-850.0,,-660.0,,-800.0,,-850.0,DraftKings,-660.0,1.1515151515151516,1.110906862745098,1.0365541794113224
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,50,-135.0,-124.0,,-127.0,-113.0,-120.0,-114.0,,-115.0,DraftKings,-113.0,1.8849557522123894,1.8191142436046492,1.03619426808361
-Kansas City Chiefs @ New York Giants,JuJu Smith-Schuster,Receiving,25,-235.0,,-180.0,,-177.0,,-178.0,,-200.0,DraftKings,-177.0,1.5649717514124295,1.5107213058145403,1.0359102935724063
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,25,,,,,-1680.0,,,,-4000.0,DraftKings,-1680.0,1.0595238095238095,1.025,1.0336817653890826
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Rushing,25,-375.0,,-325.0,,-331.0,-375.0,-320.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2911280889302037,1.0326886578992327
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,50,-900.0,,-725.0,-900.0,-910.0,-900.0,-700.0,,-650.0,HardRockBet,-650.0,1.1538461538461537,1.120668603427224,1.0296051395724537
-Kansas City Chiefs @ New York Giants,Wan'Dale Robinson,Receiving,110,,,1300.0,,1280.0,1200.0,1300.0,,,Bovada,1300.0,14.0,13.6,1.0294117647058825
-Kansas City Chiefs @ New York Giants,Wan'Dale Robinson,Receiving,25,-625.0,,-500.0,,-439.0,,-520.0,,-450.0,DraftKings,-439.0,1.2277904328018223,1.1936324786324786,1.0286168102668234
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,50,-295.0,-335.0,,-285.0,-277.0,-325.0,-290.0,,-325.0,DraftKings,-277.0,1.3610108303249098,1.3247633180179987,1.0273615005895103
-Kansas City Chiefs @ New York Giants,Kareem Hunt,Rushing,25,-200.0,,-185.0,,-175.0,-185.0,-174.0,,-190.0,FanDuel,-174.0,1.5747126436781609,1.5357650883966671,1.0253603598465406
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,25,-625.0,,,,-445.0,,-470.0,,-450.0,DraftKings,-445.0,1.2247191011235956,1.1983293932230101,1.0220220817830463
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,25,,,,,179.0,,188.0,,185.0,FanDuel,188.0,2.88,2.8200000000000003,1.0212765957446808
-Kansas City Chiefs @ New York Giants,Travis Kelce,AnytimeTD,Anytime,140.0,132.0,130.0,135.0,135.0,,135.0,140.0,140.0,BetMGM,140.0,2.4,2.3528571428571428,1.0200364298724955
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,25,-3000.0,,,,-1440.0,,,,-1500.0,DraftKings,-1440.0,1.0694444444444444,1.05,1.0185185185185184
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,80,,-159.0,-160.0,-154.0,-163.0,-160.0,-154.0,,-170.0,Caesars,-154.0,1.6493506493506493,1.6216689489322826,1.017069883737117
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,25,-2500.0,,-1200.0,,-1120.0,-1100.0,-1100.0,,-1100.0,ESPNBET,-1100.0,1.0909090909090908,1.0788874458874458,1.0111426312980745
-Kansas City Chiefs @ New York Giants,Malik Nabers,Receiving,25,,,,,-2600.0,,,,-2200.0,HardRockBet,-2200.0,1.0454545454545454,1.0384615384615385,1.0067340067340067
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,110,,,875.0,,880.0,,880.0,,,DraftKings,880.0,9.8,9.775,1.0025575447570332
-Detroit Lions @ Baltimore Ravens,Detroit Lions Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,,Bovada,700.0,8.0,8.0,1.0
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,80,,265.0,,245.0,294.0,275.0,290.0,,275.0,DraftKings,294.0,3.94,3.7,1.0648648648648649
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,50,125.0,132.0,125.0,105.0,114.0,120.0,134.0,,120.0,FanDuel,134.0,2.34,2.2014285714285715,1.062946138870863
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,50,-450.0,-345.0,-345.0,-375.0,-293.0,-350.0,-330.0,,-525.0,DraftKings,-293.0,1.341296928327645,1.2639742590053147,1.0611742436773828
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,50,175.0,188.0,,160.0,196.0,185.0,194.0,,175.0,DraftKings,196.0,2.96,2.795,1.0590339892665475
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,25,-135.0,,-110.0,,-116.0,,-114.0,,-105.0,HardRockBet,-105.0,1.9523809523809523,1.8472733994512578,1.0568987530275256
+Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,25,160.0,,,,179.0,,188.0,,180.0,FanDuel,188.0,2.88,2.7300000000000004,1.0549450549450547
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,50,100.0,114.0,,-103.0,115.0,100.0,-102.0,,115.0,DraftKings,115.0,2.15,2.0402109905450856,1.0538125762304524
+Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,110,,,,,1320.0,1300.0,1200.0,,,DraftKings,1320.0,14.2,13.5,1.0518518518518518
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,25,-250.0,,,,-211.0,,-245.0,,-250.0,DraftKings,-211.0,1.4739336492890995,1.4027210884353742,1.0507674415397557
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,50,-185.0,-167.0,-150.0,-164.0,-163.0,-175.0,-162.0,,-175.0,Bovada,-150.0,1.6666666666666665,1.5889624370429802,1.0489024962530216
+Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,25,115.0,,125.0,,131.0,,116.0,,125.0,DraftKings,131.0,2.31,2.2025,1.0488081725312144
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,50,-125.0,-124.0,,-127.0,-113.0,-115.0,-108.0,,-115.0,FanDuel,-108.0,1.925925925925926,1.8363232291168956,1.0487946214415211
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,AnytimeTD,Anytime,-120.0,-134.0,-139.0,-124.0,-125.0,,-130.0,-130.0,-155.0,BetMGM,-120.0,1.8333333333333335,1.750823936976488,1.0471260385549284
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,80,,132.0,,110.0,126.0,125.0,132.0,,115.0,BetRivers,132.0,2.3200000000000003,2.216,1.0469314079422383
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,25,-325.0,,,,-226.0,,-230.0,,-250.0,DraftKings,-226.0,1.4424778761061947,1.3808249721293198,1.0446493257445961
+Detroit Lions @ Baltimore Ravens,David Montgomery,AnytimeTD,Anytime,120.0,104.0,120.0,120.0,120.0,,120.0,125.0,115.0,Fanatics,125.0,2.25,2.17,1.0368663594470047
+Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,25,,,,,-1600.0,,,,-4000.0,DraftKings,-1600.0,1.0625,1.025,1.0365853658536586
+Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,25,-400.0,,-325.0,,-327.0,-325.0,-300.0,,-375.0,FanDuel,-300.0,1.3333333333333333,1.2875723359209599,1.0355405254801797
+Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,25,-525.0,,-480.0,,-406.0,-500.0,-470.0,,-450.0,DraftKings,-406.0,1.2463054187192117,1.2067595406957108,1.0327703048452406
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,50,-1000.0,,-725.0,-900.0,-900.0,-900.0,-670.0,,-650.0,HardRockBet,-650.0,1.1538461538461537,1.1200863498598959,1.0301403583665498
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,110,,,875.0,,890.0,,850.0,,,DraftKings,890.0,9.9,9.625,1.0285714285714287
+Detroit Lions @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,-225.0,-205.0,-230.0,-215.0,-205.0,,-220.0,-235.0,-230.0,BetRivers,-205.0,1.4878048780487805,1.4495725983419097,1.02637486370162
+Detroit Lions @ Baltimore Ravens,Zay Flowers,AnytimeTD,Anytime,110.0,112.0,110.0,110.0,100.0,,110.0,115.0,115.0,Fanatics,115.0,2.15,2.0957142857142856,1.0259032038173141
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,50,-325.0,-335.0,,-285.0,-280.0,-325.0,-290.0,,-300.0,DraftKings,-280.0,1.3571428571428572,1.3238216984323115,1.0251704279738012
+Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,250,-140.0,-137.0,-160.0,-150.0,-138.0,-140.0,-138.0,,-150.0,BetRivers,-137.0,1.72992700729927,1.690882874889086,1.0230909739462262
+Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,25,-3000.0,,,,-1380.0,,,,-1500.0,DraftKings,-1380.0,1.0724637681159421,1.05,1.0213940648723259
+Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,25,-600.0,,,,-461.0,,-450.0,,-475.0,FanDuel,-450.0,1.2222222222222223,1.1980375740508176,1.0201868862005983
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,80,,-162.0,-160.0,-154.0,-157.0,-155.0,-154.0,,-170.0,Caesars,-154.0,1.6493506493506493,1.6269956432612327,1.01374005282805
+Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,80,,,,550.0,544.0,550.0,550.0,,525.0,Caesars,550.0,6.5,6.4225,1.012066952121448
+Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,25,-2000.0,,-1200.0,,-1180.0,-1200.0,-1200.0,,-1200.0,DraftKings,-1180.0,1.0847457627118644,1.0766666666666667,1.0075038043763447
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,25,,,,,,-6000.0,,,-5000.0,HardRockBet,-5000.0,1.02,1.0166666666666666,1.0032786885245903
 Detroit Lions @ Baltimore Ravens,Baltimore Ravens Defense,AnytimeTD,Anytime,,,500.0,,,,500.0,,,Bovada,500.0,6.0,6.0,1.0
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,25,,,,,,-6000.0,,,-6000.0,ESPNBET,-6000.0,1.0166666666666666,1.0166666666666666,1.0
+Detroit Lions @ Baltimore Ravens,Detroit Lions Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,,Bovada,700.0,8.0,8.0,1.0
 Detroit Lions @ Baltimore Ravens,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Al-Quadin Muhammad,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Brian Branch,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,D.J. Reed,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Detroit Lions @ Baltimore Ravens,DJ Reader,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,110,,,,,1900.0,,,,,DraftKings,1900.0,20.0,,
 Detroit Lions @ Baltimore Ravens,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,50,,,,,2000.0,,,,,DraftKings,2000.0,21.0,,
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,80,,,,,3000.0,,,,,DraftKings,3000.0,31.0,,
+Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,50,,,,,1920.0,,,,,DraftKings,1920.0,20.2,,
+Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,80,,,,,2900.0,,,,,DraftKings,2900.0,30.0,,
+Detroit Lions @ Baltimore Ravens,Jack Campbell,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Detroit Lions @ Baltimore Ravens,Jared Goff,Rushing,25,,,,,,1800.0,,,,ESPNBET,1800.0,19.0,,
 Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,80,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
 Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,80,,,,,4100.0,,,,,DraftKings,4100.0,42.0,,
 Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
@@ -196,50 +106,11 @@ Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,50,,,,,,,,,600.0,HardRo
 Detroit Lions @ Baltimore Ravens,Kerby Joseph,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Kyle Hamilton,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Detroit Lions @ Baltimore Ravens,Malaki Starks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,110,,,,,2200.0,,,,,DraftKings,2200.0,23.0,,
+Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,110,,,,,2600.0,,,,,DraftKings,2600.0,27.0,,
 Detroit Lions @ Baltimore Ravens,Marlon Humphrey,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,No Scorer,AnytimeTD,Anytime,,,,,,,,10000.0,,Fanatics,10000.0,101.0,,
+Detroit Lions @ Baltimore Ravens,Nate Wiggins,AnytimeTD,Anytime,,,,,,,,,2500.0,HardRockBet,2500.0,26.0,,
+Detroit Lions @ Baltimore Ravens,No Scorer,AnytimeTD,Anytime,,,,,,,,20000.0,,Fanatics,20000.0,201.0,,
 Detroit Lions @ Baltimore Ravens,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,BetMGM,20000.0,201.0,,
 Detroit Lions @ Baltimore Ravens,Roquan Smith,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Baltimore Ravens,Shane Zylstra,AnytimeTD,Anytime,,,,,,,,1200.0,,Fanatics,1200.0,13.0,,
 Detroit Lions @ Baltimore Ravens,Terrion Arnold,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Rushing,25,,,,,,,,,1400.0,HardRockBet,1400.0,15.0,,
-Kansas City Chiefs @ New York Giants,Abdul Carter,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Andru Phillips,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Bobby Okereke,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Brian Burns,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Bryan Cook,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Kansas City Chiefs @ New York Giants,Cam Skattebo,Rushing,110,,,,,3800.0,,,,,DraftKings,3800.0,39.0,,
-Kansas City Chiefs @ New York Giants,Chamarri Conner,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Charles Omenihu,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Chris Jones,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Cor'Dale Flott,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,D.J. Davidson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Dane Belton,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Deonte Banks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Dexter Lawrence II,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Drue Tranquill,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,George Karlaftis,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Jack Cochrane,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Jaden Hicks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Jaylen Watson,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
-Kansas City Chiefs @ New York Giants,Jevon Holland,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Joshua Williams,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,JuJu Smith-Schuster,Receiving,110,,,,,3300.0,,,,,DraftKings,3300.0,34.0,,
-Kansas City Chiefs @ New York Giants,Kareem Hunt,Receiving,50,,,,,2400.0,,,,,DraftKings,2400.0,25.0,,
-Kansas City Chiefs @ New York Giants,Kayvon Thibodeaux,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Leo Chenal,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Malik Herring,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Nick Bolton,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,No Scorer,AnytimeTD,Anytime,,,,,,,,5000.0,,Fanatics,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,No Touchdown,AnytimeTD,Anytime,10000.0,,,,,,,,,BetMGM,10000.0,101.0,,
-Kansas City Chiefs @ New York Giants,Noah Gray,Receiving,80,,,,,4200.0,,,,,DraftKings,4200.0,43.0,,
-Kansas City Chiefs @ New York Giants,Nohl Williams,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Patrick Mahomes,Rushing,110,,,,,3600.0,,,,,DraftKings,3600.0,37.0,,
-Kansas City Chiefs @ New York Giants,Paulson Adebo,AnytimeTD,Anytime,,,,,,,,,2500.0,HardRockBet,2500.0,26.0,,
-Kansas City Chiefs @ New York Giants,Swayze Bozeman,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Tomon Fox,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Trent McDuffie,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
-Kansas City Chiefs @ New York Giants,Tyler Nubin,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ New York Giants,Tyquan Thornton,Receiving,110,,,,,1320.0,,,,,DraftKings,1320.0,14.2,,
-Kansas City Chiefs @ New York Giants,Xavier Gipson,AnytimeTD,Anytime,1800.0,,,,,,,,,BetMGM,1800.0,19.0,,
