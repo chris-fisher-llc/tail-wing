@@ -1,139 +1,140 @@
 event,player,group,threshold,BetMGM,Caesars,DraftKings,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
 Seattle Seahawks @ Arizona Cardinals,Travis Vokolek,AnytimeTD,Anytime,,1600.0,2000.0,1700.0,1300.0,5000.0,HardRockBet,5000.0,51.0,17.5,2.914285714285714
-Minnesota Vikings @ Pittsburgh Steelers,Connor Heyward,AnytimeTD,Anytime,,,,2200.0,1800.0,5000.0,HardRockBet,5000.0,51.0,21.0,2.4285714285714284
+Minnesota Vikings @ Pittsburgh Steelers,Connor Heyward,AnytimeTD,Anytime,,,,2200.0,1600.0,5000.0,HardRockBet,5000.0,51.0,20.0,2.55
 Minnesota Vikings @ Pittsburgh Steelers,Ben Skowronek,AnytimeTD,Anytime,,,,1000.0,850.0,2250.0,HardRockBet,2250.0,23.5,10.25,2.292682926829268
-Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,350,1300.0,,2900.0,,,,DraftKings,2900.0,30.0,14.0,2.142857142857143
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,350,1350.0,,2900.0,,,,DraftKings,2900.0,30.0,14.5,2.0689655172413794
 Seattle Seahawks @ Arizona Cardinals,Emari Demercado,Rushing,50,,,690.0,920.0,,1750.0,HardRockBet,1750.0,18.5,9.05,2.044198895027624
 Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,110,,,2600.0,1280.0,,,DraftKings,2600.0,27.0,13.8,1.9565217391304346
-Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,AnytimeTD,Anytime,,,,2700.0,1800.0,900.0,FanDuel,2700.0,28.0,14.5,1.9310344827586208
-Seattle Seahawks @ Arizona Cardinals,Dareke Young,AnytimeTD,Anytime,,2200.0,2000.0,3000.0,2000.0,4000.0,HardRockBet,4000.0,41.0,24.0,1.7083333333333333
-Seattle Seahawks @ Arizona Cardinals,Robbie Ouzts,AnytimeTD,Anytime,,1600.0,1200.0,2700.0,2000.0,,FanDuel,2700.0,28.0,17.0,1.6470588235294117
+Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,AnytimeTD,Anytime,,,,2700.0,1900.0,900.0,FanDuel,2700.0,28.0,15.0,1.8666666666666667
+Seattle Seahawks @ Arizona Cardinals,Dareke Young,AnytimeTD,Anytime,,2300.0,2000.0,3000.0,2000.0,4000.0,HardRockBet,4000.0,41.0,24.25,1.690721649484536
 Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,80,,,1740.0,1280.0,,800.0,DraftKings,1740.0,18.4,11.4,1.6140350877192982
-Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,80,,,1660.0,1260.0,,800.0,DraftKings,1660.0,17.6,11.3,1.5575221238938053
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,80,,,1660.0,1200.0,,800.0,DraftKings,1660.0,17.6,11.0,1.6
+Seattle Seahawks @ Arizona Cardinals,Robbie Ouzts,AnytimeTD,Anytime,,1800.0,1200.0,2700.0,2000.0,,FanDuel,2700.0,28.0,17.666666666666668,1.5849056603773584
+Minnesota Vikings @ Pittsburgh Steelers,Kaleb Johnson,AnytimeTD,Anytime,,,,2200.0,1500.0,1300.0,FanDuel,2200.0,23.0,15.0,1.5333333333333334
+Minnesota Vikings @ Pittsburgh Steelers,Darnell Washington,AnytimeTD,Anytime,,,,1000.0,850.0,1400.0,HardRockBet,1400.0,15.0,10.25,1.4634146341463414
 Seattle Seahawks @ Arizona Cardinals,Zonovan Knight,AnytimeTD,Anytime,,,,,1500.0,1000.0,Fanatics,1500.0,16.0,11.0,1.4545454545454546
 Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,Passing,300,,,1200.0,800.0,,800.0,DraftKings,1200.0,13.0,9.0,1.4444444444444444
 Seattle Seahawks @ Arizona Cardinals,Elijah Higgins,AnytimeTD,Anytime,,1100.0,1100.0,1700.0,1300.0,1100.0,FanDuel,1700.0,18.0,12.5,1.44
 Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,350,,,2200.0,1500.0,,,DraftKings,2200.0,23.0,16.0,1.4375
-Minnesota Vikings @ Pittsburgh Steelers,Kaleb Johnson,AnytimeTD,Anytime,,,,2200.0,1700.0,1300.0,FanDuel,2200.0,23.0,16.0,1.4375
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,110,,,1360.0,920.0,,,DraftKings,1360.0,14.6,10.2,1.4313725490196079
-Seattle Seahawks @ Arizona Cardinals,Jake Bobo,AnytimeTD,Anytime,,1750.0,1500.0,2500.0,1900.0,,FanDuel,2500.0,26.0,18.166666666666668,1.4311926605504586
-Minnesota Vikings @ Pittsburgh Steelers,Darnell Washington,AnytimeTD,Anytime,,,,1000.0,900.0,1400.0,HardRockBet,1400.0,15.0,10.5,1.4285714285714286
+Seattle Seahawks @ Arizona Cardinals,Jake Bobo,AnytimeTD,Anytime,,1800.0,1500.0,2500.0,1900.0,,FanDuel,2500.0,26.0,18.333333333333332,1.4181818181818182
 Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,110,,,1100.0,750.0,,,DraftKings,1100.0,12.0,8.5,1.411764705882353
-Seattle Seahawks @ Arizona Cardinals,Eric Saubert,AnytimeTD,Anytime,,1800.0,2000.0,2500.0,1600.0,1600.0,FanDuel,2500.0,26.0,18.5,1.4054054054054055
-Seattle Seahawks @ Arizona Cardinals,Brady Russell,AnytimeTD,Anytime,,2000.0,1800.0,2700.0,2000.0,,FanDuel,2700.0,28.0,20.333333333333332,1.3770491803278688
 Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,110,,,1680.0,1200.0,,,DraftKings,1680.0,17.8,13.0,1.3692307692307693
-Seattle Seahawks @ Arizona Cardinals,Nick Kallerup,AnytimeTD,Anytime,,,1900.0,2500.0,1700.0,,FanDuel,2500.0,26.0,19.0,1.368421052631579
-Seattle Seahawks @ Arizona Cardinals,Xavier Weaver,AnytimeTD,Anytime,,,,2200.0,1700.0,1500.0,FanDuel,2200.0,23.0,17.0,1.3529411764705883
-Minnesota Vikings @ Pittsburgh Steelers,Trey Sermon,AnytimeTD,Anytime,,,,2200.0,1600.0,,FanDuel,2200.0,23.0,17.0,1.3529411764705883
-Seattle Seahawks @ Arizona Cardinals,Greg Dortch,AnytimeTD,Anytime,,750.0,950.0,1100.0,900.0,550.0,FanDuel,1100.0,12.0,8.875,1.352112676056338
+Seattle Seahawks @ Arizona Cardinals,Xavier Weaver,AnytimeTD,Anytime,,1600.0,,2200.0,1700.0,1500.0,FanDuel,2200.0,23.0,17.0,1.3529411764705883
+Seattle Seahawks @ Arizona Cardinals,Brady Russell,AnytimeTD,Anytime,,2200.0,1800.0,2700.0,2000.0,,FanDuel,2700.0,28.0,21.0,1.3333333333333333
+Seattle Seahawks @ Arizona Cardinals,Eric Saubert,AnytimeTD,Anytime,,1900.0,2000.0,2500.0,1900.0,1600.0,FanDuel,2500.0,26.0,19.5,1.3333333333333333
+Seattle Seahawks @ Arizona Cardinals,Greg Dortch,AnytimeTD,Anytime,,850.0,950.0,1100.0,900.0,550.0,FanDuel,1100.0,12.0,9.125,1.3150684931506849
 Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,80,,,1280.0,1100.0,,800.0,DraftKings,1280.0,13.8,10.5,1.3142857142857143
 Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,110,,,1240.0,920.0,,,DraftKings,1240.0,13.4,10.2,1.3137254901960786
-Seattle Seahawks @ Arizona Cardinals,Zay Jones,AnytimeTD,Anytime,,675.0,650.0,950.0,800.0,,FanDuel,950.0,10.5,8.083333333333334,1.2989690721649483
+Seattle Seahawks @ Arizona Cardinals,Nick Kallerup,AnytimeTD,Anytime,,,1900.0,2500.0,1900.0,,FanDuel,2500.0,26.0,20.0,1.3
 Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,110,,,1000.0,750.0,,,DraftKings,1000.0,11.0,8.5,1.2941176470588236
 Seattle Seahawks @ Arizona Cardinals,Emari Demercado,Rushing,25,,,203.0,225.0,,300.0,HardRockBet,300.0,4.0,3.1399999999999997,1.2738853503184715
-Seattle Seahawks @ Arizona Cardinals,Tip Reiman,AnytimeTD,Anytime,,1000.0,1200.0,950.0,800.0,1000.0,DraftKings,1200.0,13.0,10.375,1.2530120481927711
-Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,50,,,770.0,,,600.0,DraftKings,770.0,8.7,7.0,1.2428571428571427
-Seattle Seahawks @ Arizona Cardinals,Sam Darnold,AnytimeTD,Anytime,,650.0,650.0,650.0,550.0,800.0,HardRockBet,800.0,9.0,7.25,1.2413793103448276
-Seattle Seahawks @ Arizona Cardinals,Simi Fehoko,AnytimeTD,Anytime,,1600.0,1500.0,2200.0,1900.0,2250.0,HardRockBet,2250.0,23.5,19.0,1.236842105263158
-Seattle Seahawks @ Arizona Cardinals,Elijah Arroyo,AnytimeTD,Anytime,,650.0,550.0,850.0,700.0,800.0,FanDuel,850.0,9.5,7.75,1.2258064516129032
-Minnesota Vikings @ Pittsburgh Steelers,Zavier Scott,AnytimeTD,Anytime,,,,650.0,600.0,425.0,FanDuel,650.0,7.5,6.125,1.2244897959183674
-Seattle Seahawks @ Arizona Cardinals,Tory Horton,AnytimeTD,Anytime,,380.0,380.0,400.0,400.0,500.0,HardRockBet,500.0,6.0,4.9,1.2244897959183672
-Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,50,270.0,340.0,432.0,410.0,,325.0,DraftKings,432.0,5.32,4.362500000000001,1.219484240687679
-Minnesota Vikings @ Pittsburgh Steelers,Myles Price,AnytimeTD,Anytime,,,,1600.0,1300.0,,FanDuel,1600.0,17.0,14.0,1.2142857142857142
+Seattle Seahawks @ Arizona Cardinals,Zay Jones,AnytimeTD,Anytime,,700.0,650.0,950.0,850.0,,FanDuel,950.0,10.5,8.333333333333334,1.26
+Minnesota Vikings @ Pittsburgh Steelers,Zavier Scott,AnytimeTD,Anytime,,,,650.0,580.0,425.0,FanDuel,650.0,7.5,6.025,1.2448132780082988
+Seattle Seahawks @ Arizona Cardinals,Tip Reiman,AnytimeTD,Anytime,,1000.0,1200.0,950.0,900.0,1000.0,DraftKings,1200.0,13.0,10.625,1.223529411764706
 Minnesota Vikings @ Pittsburgh Steelers,Tai Felton,AnytimeTD,Anytime,,,,1600.0,1300.0,,FanDuel,1600.0,17.0,14.0,1.2142857142857142
+Minnesota Vikings @ Pittsburgh Steelers,Myles Price,AnytimeTD,Anytime,,,,1600.0,1300.0,,FanDuel,1600.0,17.0,14.0,1.2142857142857142
+Seattle Seahawks @ Arizona Cardinals,Simi Fehoko,AnytimeTD,Anytime,,1750.0,1500.0,2200.0,1900.0,2250.0,HardRockBet,2250.0,23.5,19.375,1.2129032258064516
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,50,270.0,350.0,432.0,410.0,,325.0,DraftKings,432.0,5.32,4.387499999999999,1.2125356125356128
+Minnesota Vikings @ Pittsburgh Steelers,Trey Sermon,AnytimeTD,Anytime,,,,2200.0,1800.0,,FanDuel,2200.0,23.0,19.0,1.2105263157894737
 Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,110,,,506.0,630.0,,,FanDuel,630.0,7.3,6.06,1.2046204620462047
-Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,50,,475.0,504.0,470.0,,600.0,HardRockBet,600.0,7.0,5.829999999999999,1.200686106346484
-Minnesota Vikings @ Pittsburgh Steelers,Pat Freiermuth,AnytimeTD,Anytime,,,,420.0,380.0,500.0,HardRockBet,500.0,6.0,5.0,1.2
 Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,Passing,250,,,334.0,265.0,,260.0,DraftKings,334.0,4.34,3.625,1.1972413793103447
 Minnesota Vikings @ Pittsburgh Steelers,Kenneth Gainwell,AnytimeTD,Anytime,,,,390.0,380.0,240.0,FanDuel,390.0,4.9,4.1,1.1951219512195124
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,AnytimeTD,Anytime,,380.0,380.0,390.0,380.0,475.0,HardRockBet,475.0,5.75,4.825,1.1917098445595855
 Minnesota Vikings @ Pittsburgh Steelers,Roman Wilson,AnytimeTD,Anytime,,,,1000.0,900.0,750.0,FanDuel,1000.0,11.0,9.25,1.1891891891891893
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,80,,,414.0,360.0,,475.0,HardRockBet,475.0,5.75,4.869999999999999,1.180698151950719
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,50,675.0,,770.0,,,600.0,DraftKings,770.0,8.7,7.375,1.1796610169491524
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,50,525.0,475.0,504.0,470.0,,600.0,HardRockBet,600.0,7.0,5.935,1.1794439764111206
 Los Angeles Chargers @ New York Giants,Cam Skattebo,AnytimeTD,Anytime,,,125.0,,,-110.0,DraftKings,125.0,2.25,1.9090909090909092,1.1785714285714286
-Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,,145.0,155.0,155.0,195.0,HardRockBet,195.0,2.95,2.5166666666666666,1.1721854304635762
+Minnesota Vikings @ Pittsburgh Steelers,Pat Freiermuth,AnytimeTD,Anytime,,,,420.0,400.0,500.0,HardRockBet,500.0,6.0,5.1,1.1764705882352942
+Minnesota Vikings @ Pittsburgh Steelers,Scott Miller,AnytimeTD,Anytime,,,,2200.0,1600.0,2250.0,HardRockBet,2250.0,23.5,20.0,1.175
+Seattle Seahawks @ Arizona Cardinals,Elijah Arroyo,AnytimeTD,Anytime,,700.0,550.0,850.0,740.0,850.0,FanDuel,850.0,9.5,8.1,1.1728395061728396
 New Orleans Saints @ Buffalo Bills,Chris Olave,AnytimeTD,Anytime,,,220.0,,,275.0,HardRockBet,275.0,3.75,3.2,1.171875
 Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,80,,,700.0,520.0,,650.0,DraftKings,700.0,8.0,6.85,1.1678832116788322
 Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Rushing,25,,,446.0,640.0,,650.0,HardRockBet,650.0,7.5,6.43,1.166407465007776
-Seattle Seahawks @ Arizona Cardinals,Emari Demercado,AnytimeTD,Anytime,,325.0,295.0,410.0,380.0,350.0,FanDuel,410.0,5.1,4.375,1.1657142857142857
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,,145.0,155.0,160.0,195.0,HardRockBet,195.0,2.95,2.533333333333333,1.1644736842105265
+Seattle Seahawks @ Arizona Cardinals,Emari Demercado,AnytimeTD,Anytime,,340.0,295.0,410.0,400.0,325.0,FanDuel,410.0,5.1,4.4,1.159090909090909
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,AnytimeTD,Anytime,,650.0,650.0,650.0,600.0,750.0,HardRockBet,750.0,8.5,7.375,1.152542372881356
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,25,100.0,,113.0,102.0,,135.0,HardRockBet,135.0,2.35,2.0500000000000003,1.146341463414634
 Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,250,165.0,180.0,216.0,235.0,,210.0,FanDuel,235.0,3.35,2.9274999999999998,1.1443210930828354
-Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,AnytimeTD,Anytime,,,,260.0,240.0,300.0,HardRockBet,300.0,4.0,3.5,1.1428571428571428
-Seattle Seahawks @ Arizona Cardinals,Kyler Murray,AnytimeTD,Anytime,,265.0,240.0,310.0,305.0,240.0,FanDuel,310.0,4.1,3.625,1.1310344827586205
-Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,25,-145.0,,100.0,108.0,,-120.0,FanDuel,108.0,2.08,1.8409961685823755,1.1298231009365245
-Minnesota Vikings @ Pittsburgh Steelers,Josh Oliver,AnytimeTD,Anytime,,,,1000.0,850.0,900.0,FanDuel,1000.0,11.0,9.75,1.1282051282051282
+Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,AnytimeTD,Anytime,,,,650.0,550.0,575.0,FanDuel,650.0,7.5,6.625,1.1320754716981132
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,AnytimeTD,Anytime,,275.0,240.0,310.0,295.0,240.0,FanDuel,310.0,4.1,3.6250000000000004,1.1310344827586205
 Indianapolis Colts @ Los Angeles Rams,Michael Pittman Jr.,AnytimeTD,Anytime,,,175.0,,,210.0,HardRockBet,210.0,3.1,2.75,1.1272727272727272
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,AnytimeTD,Anytime,,,,260.0,250.0,300.0,HardRockBet,300.0,4.0,3.55,1.1267605633802817
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,25,-140.0,,100.0,108.0,,-120.0,FanDuel,108.0,2.08,1.849206349206349,1.1248068669527898
 Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,300,550.0,625.0,750.0,750.0,,700.0,DraftKings,750.0,8.5,7.5625,1.1239669421487604
-Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,25,100.0,,113.0,102.0,,130.0,HardRockBet,130.0,2.3,2.0500000000000003,1.1219512195121948
 Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,80,,450.0,514.0,410.0,,525.0,HardRockBet,525.0,6.25,5.580000000000001,1.1200716845878134
-Minnesota Vikings @ Pittsburgh Steelers,Scott Miller,AnytimeTD,Anytime,,,,2200.0,1800.0,2250.0,HardRockBet,2250.0,23.5,21.0,1.119047619047619
 Minnesota Vikings @ Pittsburgh Steelers,Adam Thielen,AnytimeTD,Anytime,,,,750.0,660.0,,FanDuel,750.0,8.5,7.6,1.118421052631579
 Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,110,,180.0,240.0,230.0,,,DraftKings,240.0,3.4,3.05,1.1147540983606559
-Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,AnytimeTD,Anytime,,,140.0,155.0,160.0,105.0,Fanatics,160.0,2.6,2.333333333333333,1.1142857142857145
 Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,80,,,1160.0,,,1300.0,HardRockBet,1300.0,14.0,12.6,1.1111111111111112
 Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,80,,,319.0,280.0,,275.0,DraftKings,319.0,4.1899999999999995,3.775,1.109933774834437
 Seattle Seahawks @ Arizona Cardinals,AJ Barner,AnytimeTD,Anytime,,450.0,500.0,470.0,420.0,425.0,DraftKings,500.0,6.0,5.4125,1.1085450346420325
-Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,300,550.0,500.0,630.0,630.0,,650.0,HardRockBet,650.0,7.5,6.775,1.107011070110701
 Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,80,,305.0,363.0,350.0,,300.0,DraftKings,363.0,4.63,4.183333333333334,1.1067729083665339
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,50,,,119.0,106.0,,135.0,HardRockBet,135.0,2.35,2.125,1.1058823529411765
-Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,50,115.0,110.0,144.0,118.0,,140.0,DraftKings,144.0,2.44,2.2075,1.1053227633069083
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,50,115.0,110.0,144.0,120.0,,140.0,DraftKings,144.0,2.44,2.2125,1.1028248587570622
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,AnytimeTD,Anytime,,,140.0,155.0,150.0,105.0,FanDuel,155.0,2.55,2.316666666666667,1.1007194244604315
+Minnesota Vikings @ Pittsburgh Steelers,Josh Oliver,AnytimeTD,Anytime,,,,1000.0,900.0,900.0,FanDuel,1000.0,11.0,10.0,1.1
 Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,80,,165.0,196.0,205.0,,175.0,FanDuel,205.0,3.05,2.7866666666666666,1.0944976076555024
 Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,80,,,272.0,240.0,,240.0,DraftKings,272.0,3.72,3.4,1.0941176470588236
 Minnesota Vikings @ Pittsburgh Steelers,Jalen Nailor,AnytimeTD,Anytime,,,,600.0,580.0,500.0,FanDuel,600.0,7.0,6.4,1.09375
 Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,AnytimeTD,Anytime,,265.0,280.0,270.0,250.0,300.0,HardRockBet,300.0,4.0,3.6624999999999996,1.0921501706484642
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,110,,,304.0,270.0,,,DraftKings,304.0,4.04,3.7,1.0918918918918918
-Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,AnytimeTD,Anytime,,150.0,150.0,165.0,170.0,125.0,Fanatics,170.0,2.7,2.475,1.090909090909091
-Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,AnytimeTD,Anytime,,,,650.0,600.0,575.0,FanDuel,650.0,7.5,6.875,1.0909090909090908
 Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,AnytimeTD,Anytime,,,,290.0,285.0,230.0,FanDuel,290.0,3.9,3.575,1.0909090909090908
 Cincinnati Bengals @ Denver Broncos,Courtland Sutton,AnytimeTD,Anytime,,,120.0,,,140.0,HardRockBet,140.0,2.4,2.2,1.0909090909090908
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,AnytimeTD,Anytime,,-107.0,-115.0,100.0,105.0,-140.0,Fanatics,105.0,2.05,1.8796075927323388,1.090653180975911
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,AnytimeTD,Anytime,,,-115.0,,,-140.0,DraftKings,-115.0,1.8695652173913042,1.7142857142857144,1.0905797101449273
-Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,25,155.0,,176.0,174.0,,135.0,DraftKings,176.0,2.76,2.546666666666667,1.0837696335078533
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,300,550.0,500.0,630.0,630.0,,600.0,DraftKings,630.0,7.3,6.7,1.0895522388059702
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,25,155.0,,176.0,178.0,,135.0,FanDuel,178.0,2.7800000000000002,2.5533333333333332,1.0887728459530028
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,AnytimeTD,Anytime,,155.0,150.0,165.0,170.0,125.0,Fanatics,170.0,2.7,2.4875,1.0854271356783922
 Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,50,-125.0,-113.0,101.0,106.0,,-110.0,FanDuel,106.0,2.06,1.9010116653258247,1.0836335397483874
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,50,333.0,370.0,407.0,400.0,,375.0,DraftKings,407.0,5.07,4.695,1.0798722044728435
 Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,110,,,299.0,270.0,,,DraftKings,299.0,3.99,3.7,1.0783783783783785
 Los Angeles Chargers @ New York Giants,Keenan Allen,AnytimeTD,Anytime,,,160.0,,,180.0,HardRockBet,180.0,2.8,2.6,1.0769230769230769
-Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,250,175.0,155.0,193.0,198.0,,185.0,FanDuel,198.0,2.98,2.77,1.075812274368231
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,250,180.0,155.0,193.0,198.0,,180.0,FanDuel,198.0,2.98,2.7699999999999996,1.0758122743682312
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,AnytimeTD,Anytime,,,,260.0,240.0,275.0,HardRockBet,275.0,3.75,3.5,1.0714285714285714
 Minnesota Vikings @ Pittsburgh Steelers,Cam Akers,AnytimeTD,Anytime,,,,650.0,600.0,,FanDuel,650.0,7.5,7.0,1.0714285714285714
 Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,Passing,300,,,810.0,700.0,,800.0,DraftKings,810.0,9.1,8.5,1.0705882352941176
-Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,50,-650.0,-380.0,-453.0,-500.0,,-650.0,Caesars,-380.0,1.263157894736842,1.182110714892172,1.068561412077263
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,50,-625.0,-380.0,-453.0,-500.0,,-700.0,Caesars,-380.0,1.263157894736842,1.1809019236833804,1.0696552096357799
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,80,,,160.0,194.0,,190.0,FanDuel,194.0,2.94,2.75,1.069090909090909
 Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,25,-450.0,,-290.0,-400.0,,-325.0,DraftKings,-290.0,1.3448275862068966,1.2599715099715099,1.0673476150562369
 Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,AnytimeTD,Anytime,,,125.0,,,140.0,HardRockBet,140.0,2.4,2.25,1.0666666666666667
-Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,50,333.0,400.0,407.0,410.0,,375.0,FanDuel,410.0,5.1,4.7875,1.0652741514360313
-Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,80,,,160.0,194.0,,195.0,HardRockBet,195.0,2.95,2.77,1.0649819494584838
 Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,50,,,534.0,,,575.0,HardRockBet,575.0,6.75,6.34,1.0646687697160884
 Indianapolis Colts @ Los Angeles Rams,Jonathan Taylor,AnytimeTD,Anytime,,,-175.0,,,-210.0,DraftKings,-175.0,1.5714285714285714,1.4761904761904763,1.064516129032258
 Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,80,,-132.0,-120.0,-125.0,,-160.0,DraftKings,-120.0,1.8333333333333335,1.7275252525252525,1.0612483555035814
-Seattle Seahawks @ Arizona Cardinals,Trey Benson,AnytimeTD,Anytime,,-107.0,-115.0,100.0,100.0,-135.0,FanDuel,100.0,2.0,1.8862213493460953,1.0603209430819711
 Cleveland Browns @ Detroit Lions,Jerry Jeudy,AnytimeTD,Anytime,,,260.0,,,240.0,DraftKings,260.0,3.6,3.4,1.0588235294117647
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,AnytimeTD,Anytime,,,-125.0,-140.0,-135.0,-155.0,DraftKings,-125.0,1.8,1.700062581783012,1.0587845525734556
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,AnytimeTD,Anytime,,,,360.0,345.0,325.0,FanDuel,360.0,4.6,4.35,1.0574712643678161
 Seattle Seahawks @ Arizona Cardinals,George Holani,AnytimeTD,Anytime,,475.0,475.0,500.0,470.0,450.0,FanDuel,500.0,6.0,5.675,1.0572687224669604
-Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,25,-190.0,,-155.0,,,-165.0,DraftKings,-155.0,1.6451612903225805,1.566188197767145,1.050423756651994
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,50,-275.0,,-242.0,-230.0,,-210.0,HardRockBet,-210.0,1.4761904761904763,1.4038807042759611,1.0515070630248518
 Seattle Seahawks @ Arizona Cardinals,Seattle Seahawks D/ST,AnytimeTD,Anytime,,,500.0,,530.0,,Fanatics,530.0,6.3,6.0,1.05
-Seattle Seahawks @ Arizona Cardinals,Michael Wilson,AnytimeTD,Anytime,,360.0,380.0,390.0,380.0,350.0,FanDuel,390.0,4.9,4.675,1.0481283422459895
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,50,-275.0,-218.0,-248.0,-215.0,,-275.0,FanDuel,-215.0,1.4651162790697674,1.397303532513654,1.0485311494447616
 Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,50,,,-197.0,-182.0,,-220.0,FanDuel,-182.0,1.5494505494505495,1.481079833871712,1.0461627482970373
-Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,50,-275.0,-218.0,-248.0,-215.0,,-260.0,FanDuel,-215.0,1.4651162790697674,1.402548287758409,1.0446102225908787
 Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,50,,,178.0,168.0,,185.0,HardRockBet,185.0,2.85,2.73,1.043956043956044
 Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,Passing,250,,,247.0,225.0,,240.0,DraftKings,247.0,3.47,3.325,1.043609022556391
-Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,AnytimeTD,Anytime,,,,360.0,360.0,325.0,FanDuel,360.0,4.6,4.425,1.03954802259887
-Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,50,-285.0,,-242.0,-230.0,,-220.0,HardRockBet,-220.0,1.4545454545454546,1.3996276473913254,1.039237440941158
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,AnytimeTD,Anytime,,370.0,380.0,390.0,380.0,350.0,FanDuel,390.0,4.9,4.7,1.0425531914893618
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,AnytimeTD,Anytime,,,140.0,150.0,155.0,145.0,Fanatics,155.0,2.55,2.45,1.040816326530612
 Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,110,,700.0,700.0,640.0,,,Caesars,700.0,8.0,7.7,1.0389610389610389
 Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,25,-105.0,,106.0,108.0,,100.0,FanDuel,108.0,2.08,2.004126984126984,1.0378583874544591
 New Orleans Saints @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,,,-165.0,,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.606060606060606,1.0377358490566038
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,25,-190.0,,-155.0,,,-155.0,DraftKings,-155.0,1.6451612903225805,1.5857385398981323,1.037473233404711
 Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,50,325.0,305.0,299.0,,,325.0,BetMGM,325.0,4.25,4.096666666666667,1.0374288039056143
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,AnytimeTD,Anytime,,170.0,165.0,180.0,175.0,170.0,FanDuel,180.0,2.8,2.7,1.037037037037037
 Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,25,-625.0,,-416.0,-420.0,,-525.0,DraftKings,-416.0,1.2403846153846154,1.1961904761904762,1.0369457373836355
 Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,80,,,690.0,750.0,,750.0,FanDuel,750.0,8.5,8.2,1.0365853658536586
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,25,,,-348.0,-420.0,,-325.0,HardRockBet,-325.0,1.3076923076923077,1.2627257799671594,1.0356106832049614
 Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,25,,,-150.0,-168.0,,-160.0,DraftKings,-150.0,1.6666666666666665,1.6101190476190477,1.0351201478743066
 Philadelphia Eagles @ Tampa Bay Buccaneers,Jalen Hurts,AnytimeTD,Anytime,,,-135.0,,,-125.0,HardRockBet,-125.0,1.8,1.7407407407407407,1.0340425531914894
 Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,50,,,308.0,290.0,,300.0,DraftKings,308.0,4.08,3.95,1.0329113924050632
-Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,AnytimeTD,Anytime,,170.0,165.0,180.0,180.0,170.0,FanDuel,180.0,2.8,2.7124999999999995,1.0322580645161292
 Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,25,,,-247.0,-275.0,,-275.0,DraftKings,-247.0,1.4048582995951417,1.3636363636363638,1.0302294197031039
 Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,80,,,-116.0,-118.0,,-130.0,DraftKings,-116.0,1.8620689655172413,1.8083441981747066,1.029709370260796
-Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,AnytimeTD,Anytime,,,140.0,150.0,145.0,145.0,FanDuel,150.0,2.5,2.433333333333333,1.0273972602739727
-Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,AnytimeTD,Anytime,,,,260.0,270.0,275.0,HardRockBet,275.0,3.75,3.6500000000000004,1.0273972602739725
 Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,50,,,-349.0,-390.0,,-400.0,DraftKings,-349.0,1.2865329512893982,1.2532051282051282,1.026594068548062
 Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,80,,,104.0,-102.0,,100.0,DraftKings,104.0,2.04,1.9901960784313726,1.025024630541872
 Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,25,,,-237.0,-240.0,,-220.0,HardRockBet,-220.0,1.4545454545454546,1.4193037974683544,1.0248302422215465
 New Orleans Saints @ Buffalo Bills,James Cook,AnytimeTD,Anytime,,,-195.0,,,-210.0,DraftKings,-195.0,1.5128205128205128,1.4761904761904763,1.0248138957816377
-Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,25,,,110.0,110.0,,115.0,HardRockBet,115.0,2.15,2.1,1.0238095238095237
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,AnytimeTD,Anytime,,160.0,160.0,160.0,165.0,155.0,Fanatics,165.0,2.65,2.5875000000000004,1.0241545893719806
 New Orleans Saints @ Buffalo Bills,Alvin Kamara,AnytimeTD,Anytime,,,115.0,,,110.0,DraftKings,115.0,2.15,2.1,1.0238095238095237
 Cleveland Browns @ Detroit Lions,Quinshon Judkins,AnytimeTD,Anytime,,,115.0,,,110.0,DraftKings,115.0,2.15,2.1,1.0238095238095237
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,25,,,110.0,110.0,,115.0,HardRockBet,115.0,2.15,2.1,1.0238095238095237
 Cincinnati Bengals @ Denver Broncos,Chase Brown,AnytimeTD,Anytime,,,120.0,,,115.0,DraftKings,120.0,2.2,2.15,1.0232558139534884
 Los Angeles Chargers @ New York Giants,Malik Nabers,AnytimeTD,Anytime,,,135.0,,,130.0,DraftKings,135.0,2.35,2.3,1.0217391304347827
 Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,25,,,-2000.0,-1450.0,,-2000.0,FanDuel,-1450.0,1.0689655172413792,1.05,1.018062397372742
@@ -147,7 +148,6 @@ Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,25,,,-3000.0,,
 Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,25,,,-1340.0,-1600.0,,-1300.0,HardRockBet,-1300.0,1.0769230769230769,1.068563432835821,1.0078232548769432
 Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,50,,,-119.0,-122.0,,-120.0,DraftKings,-119.0,1.8403361344537816,1.8265027322404372,1.0075737101123172
 Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,25,,,-1920.0,,,-2200.0,DraftKings,-1920.0,1.0520833333333333,1.0454545454545454,1.0063405797101448
-Seattle Seahawks @ Arizona Cardinals,Trey McBride,AnytimeTD,Anytime,,160.0,160.0,160.0,160.0,155.0,Caesars,160.0,2.6,2.5875000000000004,1.004830917874396
 Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,25,,,-512.0,-500.0,,-500.0,FanDuel,-500.0,1.2,1.19765625,1.0019569471624266
 Los Angeles Chargers @ New York Giants,Omarion Hampton,AnytimeTD,Anytime,,,-150.0,,,-150.0,DraftKings,-150.0,1.6666666666666665,1.6666666666666665,1.0
 Indianapolis Colts @ Los Angeles Rams,Puka Nacua,AnytimeTD,Anytime,,,100.0,,,100.0,DraftKings,100.0,2.0,2.0,1.0
