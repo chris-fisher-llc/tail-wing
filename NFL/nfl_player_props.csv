@@ -1,121 +1,357 @@
-event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,50,,,,,1240.0,,,,600.0,DraftKings,1240.0,13.4,7.0,1.9142857142857144
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,25,,,,,287.0,,450.0,,200.0,FanDuel,450.0,5.5,3.435,1.6011644832605532
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,Receiving,50,,,,,1200.0,1800.0,1700.0,,600.0,ESPNBET,1800.0,19.0,12.666666666666666,1.5
-Detroit Lions @ Baltimore Ravens,Brock Wright,AnytimeTD,Anytime,1200.0,1600.0,1000.0,1000.0,1100.0,,1200.0,800.0,1100.0,BetRivers,1600.0,17.0,11.571428571428571,1.4691358024691359
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,80,,,,,1220.0,,,,800.0,DraftKings,1220.0,13.2,9.0,1.4666666666666666
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,110,,,1200.0,,1780.0,,1300.0,,,DraftKings,1780.0,18.8,13.5,1.3925925925925926
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,50,,,1300.0,,1240.0,1600.0,1500.0,,2000.0,HardRockBet,2000.0,21.0,15.1,1.390728476821192
-Detroit Lions @ Baltimore Ravens,Kalif Raymond,AnytimeTD,Anytime,800.0,1050.0,725.0,750.0,800.0,,800.0,740.0,525.0,BetRivers,1050.0,11.5,8.342857142857143,1.3784246575342465
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,25,,,450.0,,583.0,,560.0,,200.0,DraftKings,583.0,6.83,5.033333333333333,1.356953642384106
-Detroit Lions @ Baltimore Ravens,LaJohntay Wester,AnytimeTD,Anytime,3000.0,1500.0,2200.0,2300.0,1900.0,,2500.0,2000.0,3000.0,BetMGM,3000.0,31.0,23.0,1.3478260869565217
-Detroit Lions @ Baltimore Ravens,Craig Reynolds,AnytimeTD,Anytime,2500.0,2200.0,2200.0,2100.0,2000.0,,2700.0,2000.0,1100.0,FanDuel,2700.0,28.0,21.142857142857142,1.3243243243243243
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,110,,,1175.0,,930.0,,1400.0,,,FanDuel,1400.0,15.0,11.525,1.3015184381778742
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,110,,285.0,180.0,180.0,214.0,,220.0,,,BetRivers,285.0,3.85,2.9850000000000003,1.2897822445561138
-Detroit Lions @ Baltimore Ravens,Charlie Kolar,AnytimeTD,Anytime,950.0,650.0,725.0,800.0,800.0,,850.0,580.0,650.0,BetMGM,950.0,10.5,8.221428571428572,1.2771503040834058
-Detroit Lions @ Baltimore Ravens,Jared Goff,AnytimeTD,Anytime,2000.0,1500.0,2000.0,1800.0,1900.0,,2200.0,1600.0,1200.0,FanDuel,2200.0,23.0,18.142857142857142,1.2677165354330708
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,50,,,525.0,500.0,480.0,600.0,680.0,,500.0,FanDuel,680.0,7.8,6.21,1.2560386473429952
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,80,,,1300.0,,1020.0,1400.0,1300.0,,800.0,ESPNBET,1400.0,15.0,12.05,1.2448132780082988
-Detroit Lions @ Baltimore Ravens,Jacob Saylors,AnytimeTD,Anytime,2500.0,,2500.0,2300.0,2200.0,,3000.0,2500.0,,FanDuel,3000.0,31.0,25.0,1.24
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,110,,,1100.0,,1180.0,1500.0,1300.0,,,ESPNBET,1500.0,16.0,12.933333333333332,1.2371134020618557
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,50,700.0,,,,930.0,900.0,,,600.0,DraftKings,930.0,10.3,8.333333333333334,1.236
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,50,340.0,400.0,,290.0,287.0,300.0,,,325.0,BetRivers,400.0,5.0,4.0840000000000005,1.2242899118511261
-Detroit Lions @ Baltimore Ravens,Rasheen Ali,AnytimeTD,Anytime,2000.0,1400.0,1600.0,1700.0,1600.0,,1800.0,1300.0,2000.0,BetMGM,2000.0,21.0,17.285714285714285,1.2148760330578514
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,80,,,1500.0,,1820.0,,,,,DraftKings,1820.0,19.2,16.0,1.2
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,AnytimeTD,Anytime,600.0,400.0,600.0,575.0,550.0,,650.0,600.0,375.0,FanDuel,650.0,7.5,6.285714285714286,1.1931818181818181
-Detroit Lions @ Baltimore Ravens,Sione Vaki,AnytimeTD,Anytime,3000.0,2900.0,2500.0,2400.0,2200.0,,3000.0,1500.0,3000.0,BetMGM,3000.0,31.0,26.0,1.1923076923076923
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,110,,410.0,330.0,250.0,351.0,350.0,360.0,,,BetRivers,410.0,5.1,4.281999999999999,1.1910322279308736
-Detroit Lions @ Baltimore Ravens,Tylan Wallace,AnytimeTD,Anytime,1000.0,800.0,825.0,850.0,800.0,,950.0,800.0,800.0,BetMGM,1000.0,11.0,9.321428571428571,1.1800766283524904
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,50,450.0,,400.0,325.0,330.0,400.0,420.0,,325.0,BetMGM,450.0,5.5,4.666666666666667,1.1785714285714286
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,350,700.0,,625.0,475.0,564.0,600.0,630.0,,,BetMGM,700.0,8.0,6.787999999999999,1.1785503830288746
-Detroit Lions @ Baltimore Ravens,Keaton Mitchell,AnytimeTD,Anytime,1500.0,1700.0,1600.0,1500.0,1400.0,,1800.0,1500.0,,FanDuel,1800.0,19.0,16.333333333333332,1.1632653061224492
-Detroit Lions @ Baltimore Ravens,Devontez Walker,AnytimeTD,Anytime,1000.0,850.0,900.0,850.0,900.0,,1000.0,470.0,1000.0,BetMGM,1000.0,11.0,9.528571428571428,1.1544227886056972
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,300,360.0,,360.0,305.0,347.0,375.0,390.0,,425.0,HardRockBet,425.0,5.25,4.5616666666666665,1.1508951406649617
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,300,250.0,250.0,210.0,165.0,211.0,200.0,210.0,,190.0,BetMGM,250.0,3.5,3.051428571428571,1.1470037453183521
-Detroit Lions @ Baltimore Ravens,Dominic Lovett,AnytimeTD,Anytime,3000.0,2200.0,2500.0,2800.0,2800.0,,3000.0,2000.0,3000.0,BetMGM,3000.0,31.0,27.142857142857142,1.1421052631578947
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,80,,,410.0,400.0,336.0,425.0,450.0,,350.0,FanDuel,450.0,5.5,4.8420000000000005,1.1358942585708385
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,80,,,750.0,,700.0,750.0,750.0,,850.0,HardRockBet,850.0,9.5,8.375,1.1343283582089552
-Detroit Lions @ Baltimore Ravens,Isaac TeSlaa,Receiving,25,,,150.0,,142.0,,176.0,,140.0,FanDuel,176.0,2.76,2.44,1.1311475409836065
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,110,,350.0,325.0,240.0,298.0,300.0,330.0,,,BetRivers,350.0,4.5,3.9859999999999998,1.1289513296537883
-Detroit Lions @ Baltimore Ravens,Justice Hill,Rushing,25,,,320.0,,315.0,350.0,400.0,,400.0,FanDuel,400.0,5.0,4.4625,1.1204481792717087
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,AnytimeTD,Anytime,165.0,170.0,160.0,155.0,180.0,,165.0,145.0,-105.0,DraftKings,180.0,2.8,2.507482993197279,1.1166576234400432
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,AnytimeTD,Anytime,240.0,190.0,200.0,220.0,235.0,,210.0,195.0,190.0,BetMGM,240.0,3.4,3.057142857142857,1.1121495327102804
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,AnytimeTD,Anytime,375.0,335.0,320.0,330.0,330.0,,330.0,325.0,325.0,BetMGM,375.0,4.75,4.278571428571429,1.1101836393989981
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,110,,,770.0,,910.0,,850.0,,,DraftKings,910.0,10.1,9.1,1.10989010989011
-Detroit Lions @ Baltimore Ravens,Detroit Lions Defense,AnytimeTD,Anytime,,,625.0,,,,700.0,,,FanDuel,700.0,8.0,7.25,1.103448275862069
-Detroit Lions @ Baltimore Ravens,Mark Andrews,AnytimeTD,Anytime,190.0,150.0,175.0,185.0,200.0,,175.0,180.0,165.0,DraftKings,200.0,3.0,2.742857142857143,1.09375
-Detroit Lions @ Baltimore Ravens,Baltimore Ravens Defense,AnytimeTD,Anytime,,,440.0,,,,490.0,,,FanDuel,490.0,5.9,5.4,1.0925925925925926
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,25,160.0,,170.0,,178.0,,190.0,,155.0,FanDuel,190.0,2.9,2.6575000000000006,1.0912511759172152
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,80,,,500.0,550.0,554.0,500.0,500.0,,450.0,DraftKings,554.0,6.54,6.0,1.09
-Detroit Lions @ Baltimore Ravens,David Montgomery,Receiving,25,,,235.0,,259.0,,255.0,,200.0,DraftKings,259.0,3.59,3.3000000000000003,1.0878787878787877
-Detroit Lions @ Baltimore Ravens,Jameson Williams,AnytimeTD,Anytime,260.0,220.0,240.0,240.0,250.0,,240.0,250.0,180.0,BetMGM,260.0,3.6,3.314285714285714,1.0862068965517242
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,80,,300.0,270.0,240.0,284.0,275.0,280.0,,275.0,BetRivers,300.0,4.0,3.7066666666666666,1.079136690647482
-Detroit Lions @ Baltimore Ravens,David Montgomery,AnytimeTD,Anytime,130.0,102.0,120.0,120.0,120.0,,120.0,100.0,110.0,BetMGM,130.0,2.3,2.1314285714285712,1.079088471849866
-Detroit Lions @ Baltimore Ravens,Justice Hill,AnytimeTD,Anytime,400.0,370.0,350.0,375.0,370.0,,370.0,360.0,350.0,BetMGM,400.0,5.0,4.635714285714285,1.078582434514638
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,80,,285.0,250.0,235.0,274.0,260.0,270.0,,260.0,BetRivers,285.0,3.85,3.581666666666667,1.0749185667752443
-Detroit Lions @ Baltimore Ravens,Jared Goff,Passing,250,-130.0,-139.0,-150.0,-157.0,-151.0,-160.0,-152.0,,-180.0,BetMGM,-130.0,1.7692307692307692,1.6462479643263368,1.0747049093268026
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,250,110.0,138.0,125.0,105.0,124.0,130.0,128.0,,130.0,BetRivers,138.0,2.38,2.2171428571428575,1.0734536082474224
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,AnytimeTD,Anytime,115.0,123.0,110.0,115.0,120.0,,110.0,110.0,130.0,HardRockBet,130.0,2.3,2.1471428571428572,1.0711909514304723
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,AnytimeTD,Anytime,250.0,230.0,230.0,230.0,235.0,,230.0,225.0,210.0,BetMGM,250.0,3.5,3.2714285714285714,1.0698689956331877
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,50,-450.0,-400.0,-350.0,-285.0,-337.0,-350.0,-330.0,,-475.0,Caesars,-285.0,1.3508771929824561,1.264849045359297,1.068014557103707
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,80,,112.0,100.0,-103.0,107.0,105.0,114.0,,-120.0,FanDuel,114.0,2.1399999999999997,2.0073678532901833,1.066072666498283
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,25,-625.0,,-709.0,,-441.0,-650.0,-600.0,,-600.0,DraftKings,-441.0,1.2267573696145124,1.1576446421467579,1.0597011595368253
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,50,165.0,160.0,185.0,150.0,183.0,175.0,188.0,,185.0,FanDuel,188.0,2.88,2.718571428571429,1.0593799264319494
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,25,-275.0,,-265.0,,-207.0,,-240.0,,-225.0,DraftKings,-207.0,1.4830917874396135,1.4005264913283781,1.0589530413187138
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,110,,,700.0,,800.0,800.0,750.0,,,DraftKings,800.0,9.0,8.5,1.0588235294117647
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,80,,128.0,110.0,100.0,119.0,120.0,124.0,,120.0,BetRivers,128.0,2.2800000000000002,2.155,1.05800464037123
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,50,130.0,150.0,160.0,135.0,161.0,150.0,158.0,,145.0,DraftKings,161.0,2.6100000000000003,2.468571428571429,1.0572916666666667
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,AnytimeTD,Anytime,-125.0,-137.0,-139.0,-135.0,-125.0,,-130.0,-120.0,-170.0,Fanatics,-120.0,1.8333333333333335,1.735365467402869,1.0564537371353149
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,25,110.0,,100.0,,108.0,,116.0,,100.0,FanDuel,116.0,2.16,2.045,1.056234718826406
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,80,,400.0,360.0,325.0,384.0,375.0,400.0,,400.0,BetRivers,400.0,5.0,4.739999999999999,1.0548523206751057
-Detroit Lions @ Baltimore Ravens,Zay Flowers,AnytimeTD,Anytime,110.0,112.0,110.0,105.0,100.0,,110.0,120.0,115.0,Fanatics,120.0,2.2,2.0885714285714285,1.0533515731874146
-Detroit Lions @ Baltimore Ravens,Baltimore Ravens D/ST,AnytimeTD,Anytime,600.0,,,,550.0,,,580.0,,BetMGM,600.0,7.0,6.65,1.0526315789473684
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Rushing,50,110.0,107.0,-110.0,-106.0,100.0,100.0,110.0,,-105.0,BetMGM,110.0,2.1,1.9964097268409937,1.0518882831346057
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,80,,,630.0,700.0,720.0,750.0,750.0,,750.0,ESPNBET,750.0,8.5,8.1,1.0493827160493827
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,50,175.0,188.0,180.0,160.0,192.0,185.0,196.0,,195.0,FanDuel,196.0,2.96,2.8214285714285716,1.0491139240506329
-Detroit Lions @ Baltimore Ravens,Lamar Jackson,Passing,350,950.0,,1000.0,1000.0,1040.0,,1000.0,,,DraftKings,1040.0,11.4,10.875,1.0482758620689656
-Detroit Lions @ Baltimore Ravens,Detroit Lions D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,660.0,,Fanatics,660.0,7.6,7.25,1.0482758620689654
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,50,-1100.0,,-769.0,-900.0,-830.0,-800.0,-650.0,,-575.0,HardRockBet,-575.0,1.1739130434782608,1.121897882546785,1.0463635431893301
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,25,-550.0,,-600.0,,-413.0,,-500.0,,-500.0,DraftKings,-413.0,1.242130750605327,1.1871212121212122,1.0463386029349275
-Detroit Lions @ Baltimore Ravens,Rashod Bateman,Receiving,25,-325.0,,-250.0,,-229.0,,-245.0,,-260.0,DraftKings,-229.0,1.4366812227074237,1.375117739403454,1.0447696088414051
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,50,-115.0,-109.0,-120.0,-129.0,-117.0,-120.0,-122.0,,-115.0,BetRivers,-109.0,1.9174311926605505,1.8364805551067551,1.0440792238876113
-Detroit Lions @ Baltimore Ravens,Zay Flowers,Receiving,25,-10000.0,,,,-1700.0,,,,-3000.0,DraftKings,-1700.0,1.0588235294117647,1.0216666666666667,1.0363688705498513
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,50,-165.0,-162.0,-180.0,-164.0,-154.0,-170.0,-158.0,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.6084505065239687,1.036193939388604
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,50,-400.0,-345.0,-360.0,-375.0,-315.0,-375.0,-340.0,,-375.0,DraftKings,-315.0,1.3174603174603174,1.2731072139000525,1.0348384669225092
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,80,,-143.0,-170.0,-154.0,-152.0,-155.0,-144.0,,-160.0,BetRivers,-143.0,1.6993006993006992,1.6433477358462378,1.0340481580580683
-Detroit Lions @ Baltimore Ravens,Sam LaPorta,Receiving,50,105.0,102.0,-120.0,-110.0,103.0,105.0,100.0,,105.0,BetMGM,105.0,2.05,1.984632034632035,1.0329370705638563
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,25,-155.0,,-150.0,,-154.0,,-142.0,,-150.0,FanDuel,-142.0,1.704225352112676,1.6569613182516405,1.0285245245863113
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Receiving,25,-525.0,,-490.0,,-441.0,,-520.0,,-425.0,HardRockBet,-425.0,1.2352941176470589,1.2034057212628642,1.026498458350963
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,25,-350.0,,-325.0,,-317.0,-350.0,-310.0,,-375.0,FanDuel,-310.0,1.3225806451612903,1.2922489918073512,1.0234719884064425
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Rushing,25,-1600.0,,-1500.0,,-1160.0,-1200.0,-1200.0,,-1000.0,HardRockBet,-1000.0,1.1,1.0764080459770113,1.0219172962438936
-Detroit Lions @ Baltimore Ravens,Derrick Henry,AnytimeTD,Anytime,-220.0,-215.0,-230.0,-215.0,-220.0,,-220.0,-210.0,-260.0,Fanatics,-210.0,1.4761904761904763,1.4447524164409908,1.0217601710796442
-Detroit Lions @ Baltimore Ravens,Amon-Ra St. Brown,Receiving,25,,,,,-1760.0,,,,-2500.0,DraftKings,-1760.0,1.0568181818181819,1.04,1.0161713286713288
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Rushing,25,,,,,,-6000.0,,,-5000.0,HardRockBet,-5000.0,1.02,1.0166666666666666,1.0032786885245903
-Detroit Lions @ Baltimore Ravens,Jared Goff,Rushing,25,,,,,,2000.0,,,2000.0,ESPNBET,2000.0,21.0,21.0,1.0
-Detroit Lions @ Baltimore Ravens,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Al-Quadin Muhammad,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Brian Branch,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Charlie Kolar,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Detroit Lions @ Baltimore Ravens,D.J. Reed,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,DJ Reader,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,David Montgomery,Rushing,110,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
-Detroit Lions @ Baltimore Ravens,DeAndre Hopkins,Receiving,110,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
-Detroit Lions @ Baltimore Ravens,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Derrick Henry,Receiving,50,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
-Detroit Lions @ Baltimore Ravens,Jack Campbell,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Jahmyr Gibbs,Receiving,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
-Detroit Lions @ Baltimore Ravens,Jameson Williams,Rushing,25,,,,,,,,,1500.0,HardRockBet,1500.0,16.0,,
-Detroit Lions @ Baltimore Ravens,Justice Hill,Receiving,80,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
-Detroit Lions @ Baltimore Ravens,Kerby Joseph,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Kyle Hamilton,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Detroit Lions @ Baltimore Ravens,Malaki Starks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Mark Andrews,Receiving,110,,,,,2300.0,,,,,DraftKings,2300.0,24.0,,
-Detroit Lions @ Baltimore Ravens,Marlon Humphrey,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Nate Wiggins,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Detroit Lions @ Baltimore Ravens,No Scorer,AnytimeTD,Anytime,,,,,,,,20000.0,,Fanatics,20000.0,201.0,,
-Detroit Lions @ Baltimore Ravens,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,BetMGM,20000.0,201.0,,
-Detroit Lions @ Baltimore Ravens,Roquan Smith,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Terrion Arnold,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Baltimore Ravens,Tylan Wallace,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Detroit Lions @ Baltimore Ravens,Tylan Wallace,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
+event,player,group,threshold,BetMGM,Caesars,DraftKings,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
+Seattle Seahawks @ Arizona Cardinals,Travis Vokolek,AnytimeTD,Anytime,,1600.0,2000.0,1700.0,1300.0,5000.0,HardRockBet,5000.0,51.0,17.5,2.914285714285714
+Minnesota Vikings @ Pittsburgh Steelers,Connor Heyward,AnytimeTD,Anytime,,,,2200.0,1800.0,5000.0,HardRockBet,5000.0,51.0,21.0,2.4285714285714284
+Minnesota Vikings @ Pittsburgh Steelers,Ben Skowronek,AnytimeTD,Anytime,,,,1000.0,850.0,2250.0,HardRockBet,2250.0,23.5,10.25,2.292682926829268
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,350,1300.0,,2900.0,,,,DraftKings,2900.0,30.0,14.0,2.142857142857143
+Seattle Seahawks @ Arizona Cardinals,Emari Demercado,Rushing,50,,,690.0,920.0,,1750.0,HardRockBet,1750.0,18.5,9.05,2.044198895027624
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,110,,,2600.0,1280.0,,,DraftKings,2600.0,27.0,13.8,1.9565217391304346
+Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,AnytimeTD,Anytime,,,,2700.0,1800.0,900.0,FanDuel,2700.0,28.0,14.5,1.9310344827586208
+Seattle Seahawks @ Arizona Cardinals,Dareke Young,AnytimeTD,Anytime,,2200.0,2000.0,3000.0,2000.0,4000.0,HardRockBet,4000.0,41.0,24.0,1.7083333333333333
+Seattle Seahawks @ Arizona Cardinals,Robbie Ouzts,AnytimeTD,Anytime,,1600.0,1200.0,2700.0,2000.0,,FanDuel,2700.0,28.0,17.0,1.6470588235294117
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,80,,,1740.0,1280.0,,800.0,DraftKings,1740.0,18.4,11.4,1.6140350877192982
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,80,,,1660.0,1260.0,,800.0,DraftKings,1660.0,17.6,11.3,1.5575221238938053
+Seattle Seahawks @ Arizona Cardinals,Zonovan Knight,AnytimeTD,Anytime,,,,,1500.0,1000.0,Fanatics,1500.0,16.0,11.0,1.4545454545454546
+Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,Passing,300,,,1200.0,800.0,,800.0,DraftKings,1200.0,13.0,9.0,1.4444444444444444
+Seattle Seahawks @ Arizona Cardinals,Elijah Higgins,AnytimeTD,Anytime,,1100.0,1100.0,1700.0,1300.0,1100.0,FanDuel,1700.0,18.0,12.5,1.44
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,350,,,2200.0,1500.0,,,DraftKings,2200.0,23.0,16.0,1.4375
+Minnesota Vikings @ Pittsburgh Steelers,Kaleb Johnson,AnytimeTD,Anytime,,,,2200.0,1700.0,1300.0,FanDuel,2200.0,23.0,16.0,1.4375
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,110,,,1360.0,920.0,,,DraftKings,1360.0,14.6,10.2,1.4313725490196079
+Seattle Seahawks @ Arizona Cardinals,Jake Bobo,AnytimeTD,Anytime,,1750.0,1500.0,2500.0,1900.0,,FanDuel,2500.0,26.0,18.166666666666668,1.4311926605504586
+Minnesota Vikings @ Pittsburgh Steelers,Darnell Washington,AnytimeTD,Anytime,,,,1000.0,900.0,1400.0,HardRockBet,1400.0,15.0,10.5,1.4285714285714286
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,110,,,1100.0,750.0,,,DraftKings,1100.0,12.0,8.5,1.411764705882353
+Seattle Seahawks @ Arizona Cardinals,Eric Saubert,AnytimeTD,Anytime,,1800.0,2000.0,2500.0,1600.0,1600.0,FanDuel,2500.0,26.0,18.5,1.4054054054054055
+Seattle Seahawks @ Arizona Cardinals,Brady Russell,AnytimeTD,Anytime,,2000.0,1800.0,2700.0,2000.0,,FanDuel,2700.0,28.0,20.333333333333332,1.3770491803278688
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,110,,,1680.0,1200.0,,,DraftKings,1680.0,17.8,13.0,1.3692307692307693
+Seattle Seahawks @ Arizona Cardinals,Nick Kallerup,AnytimeTD,Anytime,,,1900.0,2500.0,1700.0,,FanDuel,2500.0,26.0,19.0,1.368421052631579
+Seattle Seahawks @ Arizona Cardinals,Xavier Weaver,AnytimeTD,Anytime,,,,2200.0,1700.0,1500.0,FanDuel,2200.0,23.0,17.0,1.3529411764705883
+Minnesota Vikings @ Pittsburgh Steelers,Trey Sermon,AnytimeTD,Anytime,,,,2200.0,1600.0,,FanDuel,2200.0,23.0,17.0,1.3529411764705883
+Seattle Seahawks @ Arizona Cardinals,Greg Dortch,AnytimeTD,Anytime,,750.0,950.0,1100.0,900.0,550.0,FanDuel,1100.0,12.0,8.875,1.352112676056338
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,80,,,1280.0,1100.0,,800.0,DraftKings,1280.0,13.8,10.5,1.3142857142857143
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,110,,,1240.0,920.0,,,DraftKings,1240.0,13.4,10.2,1.3137254901960786
+Seattle Seahawks @ Arizona Cardinals,Zay Jones,AnytimeTD,Anytime,,675.0,650.0,950.0,800.0,,FanDuel,950.0,10.5,8.083333333333334,1.2989690721649483
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,110,,,1000.0,750.0,,,DraftKings,1000.0,11.0,8.5,1.2941176470588236
+Seattle Seahawks @ Arizona Cardinals,Emari Demercado,Rushing,25,,,203.0,225.0,,300.0,HardRockBet,300.0,4.0,3.1399999999999997,1.2738853503184715
+Seattle Seahawks @ Arizona Cardinals,Tip Reiman,AnytimeTD,Anytime,,1000.0,1200.0,950.0,800.0,1000.0,DraftKings,1200.0,13.0,10.375,1.2530120481927711
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,50,,,770.0,,,600.0,DraftKings,770.0,8.7,7.0,1.2428571428571427
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,AnytimeTD,Anytime,,650.0,650.0,650.0,550.0,800.0,HardRockBet,800.0,9.0,7.25,1.2413793103448276
+Seattle Seahawks @ Arizona Cardinals,Simi Fehoko,AnytimeTD,Anytime,,1600.0,1500.0,2200.0,1900.0,2250.0,HardRockBet,2250.0,23.5,19.0,1.236842105263158
+Seattle Seahawks @ Arizona Cardinals,Elijah Arroyo,AnytimeTD,Anytime,,650.0,550.0,850.0,700.0,800.0,FanDuel,850.0,9.5,7.75,1.2258064516129032
+Minnesota Vikings @ Pittsburgh Steelers,Zavier Scott,AnytimeTD,Anytime,,,,650.0,600.0,425.0,FanDuel,650.0,7.5,6.125,1.2244897959183674
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,AnytimeTD,Anytime,,380.0,380.0,400.0,400.0,500.0,HardRockBet,500.0,6.0,4.9,1.2244897959183672
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,50,270.0,340.0,432.0,410.0,,325.0,DraftKings,432.0,5.32,4.362500000000001,1.219484240687679
+Minnesota Vikings @ Pittsburgh Steelers,Myles Price,AnytimeTD,Anytime,,,,1600.0,1300.0,,FanDuel,1600.0,17.0,14.0,1.2142857142857142
+Minnesota Vikings @ Pittsburgh Steelers,Tai Felton,AnytimeTD,Anytime,,,,1600.0,1300.0,,FanDuel,1600.0,17.0,14.0,1.2142857142857142
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,110,,,506.0,630.0,,,FanDuel,630.0,7.3,6.06,1.2046204620462047
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,50,,475.0,504.0,470.0,,600.0,HardRockBet,600.0,7.0,5.829999999999999,1.200686106346484
+Minnesota Vikings @ Pittsburgh Steelers,Pat Freiermuth,AnytimeTD,Anytime,,,,420.0,380.0,500.0,HardRockBet,500.0,6.0,5.0,1.2
+Minnesota Vikings @ Pittsburgh Steelers,Aaron Rodgers,Passing,250,,,334.0,265.0,,260.0,DraftKings,334.0,4.34,3.625,1.1972413793103447
+Minnesota Vikings @ Pittsburgh Steelers,Kenneth Gainwell,AnytimeTD,Anytime,,,,390.0,380.0,240.0,FanDuel,390.0,4.9,4.1,1.1951219512195124
+Minnesota Vikings @ Pittsburgh Steelers,Roman Wilson,AnytimeTD,Anytime,,,,1000.0,900.0,750.0,FanDuel,1000.0,11.0,9.25,1.1891891891891893
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,80,,,414.0,360.0,,475.0,HardRockBet,475.0,5.75,4.869999999999999,1.180698151950719
+Los Angeles Chargers @ New York Giants,Cam Skattebo,AnytimeTD,Anytime,,,125.0,,,-110.0,DraftKings,125.0,2.25,1.9090909090909092,1.1785714285714286
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,,145.0,155.0,155.0,195.0,HardRockBet,195.0,2.95,2.5166666666666666,1.1721854304635762
+New Orleans Saints @ Buffalo Bills,Chris Olave,AnytimeTD,Anytime,,,220.0,,,275.0,HardRockBet,275.0,3.75,3.2,1.171875
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,80,,,700.0,520.0,,650.0,DraftKings,700.0,8.0,6.85,1.1678832116788322
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Rushing,25,,,446.0,640.0,,650.0,HardRockBet,650.0,7.5,6.43,1.166407465007776
+Seattle Seahawks @ Arizona Cardinals,Emari Demercado,AnytimeTD,Anytime,,325.0,295.0,410.0,380.0,350.0,FanDuel,410.0,5.1,4.375,1.1657142857142857
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,250,165.0,180.0,216.0,235.0,,210.0,FanDuel,235.0,3.35,2.9274999999999998,1.1443210930828354
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,AnytimeTD,Anytime,,,,260.0,240.0,300.0,HardRockBet,300.0,4.0,3.5,1.1428571428571428
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,AnytimeTD,Anytime,,265.0,240.0,310.0,305.0,240.0,FanDuel,310.0,4.1,3.625,1.1310344827586205
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,Receiving,25,-145.0,,100.0,108.0,,-120.0,FanDuel,108.0,2.08,1.8409961685823755,1.1298231009365245
+Minnesota Vikings @ Pittsburgh Steelers,Josh Oliver,AnytimeTD,Anytime,,,,1000.0,850.0,900.0,FanDuel,1000.0,11.0,9.75,1.1282051282051282
+Indianapolis Colts @ Los Angeles Rams,Michael Pittman Jr.,AnytimeTD,Anytime,,,175.0,,,210.0,HardRockBet,210.0,3.1,2.75,1.1272727272727272
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Passing,300,550.0,625.0,750.0,750.0,,700.0,DraftKings,750.0,8.5,7.5625,1.1239669421487604
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,25,100.0,,113.0,102.0,,130.0,HardRockBet,130.0,2.3,2.0500000000000003,1.1219512195121948
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,80,,450.0,514.0,410.0,,525.0,HardRockBet,525.0,6.25,5.580000000000001,1.1200716845878134
+Minnesota Vikings @ Pittsburgh Steelers,Scott Miller,AnytimeTD,Anytime,,,,2200.0,1800.0,2250.0,HardRockBet,2250.0,23.5,21.0,1.119047619047619
+Minnesota Vikings @ Pittsburgh Steelers,Adam Thielen,AnytimeTD,Anytime,,,,750.0,660.0,,FanDuel,750.0,8.5,7.6,1.118421052631579
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,110,,180.0,240.0,230.0,,,DraftKings,240.0,3.4,3.05,1.1147540983606559
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,AnytimeTD,Anytime,,,140.0,155.0,160.0,105.0,Fanatics,160.0,2.6,2.333333333333333,1.1142857142857145
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,80,,,1160.0,,,1300.0,HardRockBet,1300.0,14.0,12.6,1.1111111111111112
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,80,,,319.0,280.0,,275.0,DraftKings,319.0,4.1899999999999995,3.775,1.109933774834437
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,AnytimeTD,Anytime,,450.0,500.0,470.0,420.0,425.0,DraftKings,500.0,6.0,5.4125,1.1085450346420325
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,300,550.0,500.0,630.0,630.0,,650.0,HardRockBet,650.0,7.5,6.775,1.107011070110701
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,80,,305.0,363.0,350.0,,300.0,DraftKings,363.0,4.63,4.183333333333334,1.1067729083665339
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,50,,,119.0,106.0,,135.0,HardRockBet,135.0,2.35,2.125,1.1058823529411765
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,50,115.0,110.0,144.0,118.0,,140.0,DraftKings,144.0,2.44,2.2075,1.1053227633069083
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,80,,165.0,196.0,205.0,,175.0,FanDuel,205.0,3.05,2.7866666666666666,1.0944976076555024
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,80,,,272.0,240.0,,240.0,DraftKings,272.0,3.72,3.4,1.0941176470588236
+Minnesota Vikings @ Pittsburgh Steelers,Jalen Nailor,AnytimeTD,Anytime,,,,600.0,580.0,500.0,FanDuel,600.0,7.0,6.4,1.09375
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,AnytimeTD,Anytime,,265.0,280.0,270.0,250.0,300.0,HardRockBet,300.0,4.0,3.6624999999999996,1.0921501706484642
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,110,,,304.0,270.0,,,DraftKings,304.0,4.04,3.7,1.0918918918918918
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,AnytimeTD,Anytime,,150.0,150.0,165.0,170.0,125.0,Fanatics,170.0,2.7,2.475,1.090909090909091
+Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,AnytimeTD,Anytime,,,,650.0,600.0,575.0,FanDuel,650.0,7.5,6.875,1.0909090909090908
+Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,AnytimeTD,Anytime,,,,290.0,285.0,230.0,FanDuel,290.0,3.9,3.575,1.0909090909090908
+Cincinnati Bengals @ Denver Broncos,Courtland Sutton,AnytimeTD,Anytime,,,120.0,,,140.0,HardRockBet,140.0,2.4,2.2,1.0909090909090908
+Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,AnytimeTD,Anytime,,,-115.0,,,-140.0,DraftKings,-115.0,1.8695652173913042,1.7142857142857144,1.0905797101449273
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,25,155.0,,176.0,174.0,,135.0,DraftKings,176.0,2.76,2.546666666666667,1.0837696335078533
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,50,-125.0,-113.0,101.0,106.0,,-110.0,FanDuel,106.0,2.06,1.9010116653258247,1.0836335397483874
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,110,,,299.0,270.0,,,DraftKings,299.0,3.99,3.7,1.0783783783783785
+Los Angeles Chargers @ New York Giants,Keenan Allen,AnytimeTD,Anytime,,,160.0,,,180.0,HardRockBet,180.0,2.8,2.6,1.0769230769230769
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Passing,250,175.0,155.0,193.0,198.0,,185.0,FanDuel,198.0,2.98,2.77,1.075812274368231
+Minnesota Vikings @ Pittsburgh Steelers,Cam Akers,AnytimeTD,Anytime,,,,650.0,600.0,,FanDuel,650.0,7.5,7.0,1.0714285714285714
+Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,Passing,300,,,810.0,700.0,,800.0,DraftKings,810.0,9.1,8.5,1.0705882352941176
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,50,-650.0,-380.0,-453.0,-500.0,,-650.0,Caesars,-380.0,1.263157894736842,1.182110714892172,1.068561412077263
+Seattle Seahawks @ Arizona Cardinals,Cooper Kupp,Receiving,25,-450.0,,-290.0,-400.0,,-325.0,DraftKings,-290.0,1.3448275862068966,1.2599715099715099,1.0673476150562369
+Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,AnytimeTD,Anytime,,,125.0,,,140.0,HardRockBet,140.0,2.4,2.25,1.0666666666666667
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,50,333.0,400.0,407.0,410.0,,375.0,FanDuel,410.0,5.1,4.7875,1.0652741514360313
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,80,,,160.0,194.0,,195.0,HardRockBet,195.0,2.95,2.77,1.0649819494584838
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,50,,,534.0,,,575.0,HardRockBet,575.0,6.75,6.34,1.0646687697160884
+Indianapolis Colts @ Los Angeles Rams,Jonathan Taylor,AnytimeTD,Anytime,,,-175.0,,,-210.0,DraftKings,-175.0,1.5714285714285714,1.4761904761904763,1.064516129032258
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,80,,-132.0,-120.0,-125.0,,-160.0,DraftKings,-120.0,1.8333333333333335,1.7275252525252525,1.0612483555035814
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,AnytimeTD,Anytime,,-107.0,-115.0,100.0,100.0,-135.0,FanDuel,100.0,2.0,1.8862213493460953,1.0603209430819711
+Cleveland Browns @ Detroit Lions,Jerry Jeudy,AnytimeTD,Anytime,,,260.0,,,240.0,DraftKings,260.0,3.6,3.4,1.0588235294117647
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,AnytimeTD,Anytime,,,-125.0,-140.0,-135.0,-155.0,DraftKings,-125.0,1.8,1.700062581783012,1.0587845525734556
+Seattle Seahawks @ Arizona Cardinals,George Holani,AnytimeTD,Anytime,,475.0,475.0,500.0,470.0,450.0,FanDuel,500.0,6.0,5.675,1.0572687224669604
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,25,-190.0,,-155.0,,,-165.0,DraftKings,-155.0,1.6451612903225805,1.566188197767145,1.050423756651994
+Seattle Seahawks @ Arizona Cardinals,Seattle Seahawks D/ST,AnytimeTD,Anytime,,,500.0,,530.0,,Fanatics,530.0,6.3,6.0,1.05
+Seattle Seahawks @ Arizona Cardinals,Michael Wilson,AnytimeTD,Anytime,,360.0,380.0,390.0,380.0,350.0,FanDuel,390.0,4.9,4.675,1.0481283422459895
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,50,,,-197.0,-182.0,,-220.0,FanDuel,-182.0,1.5494505494505495,1.481079833871712,1.0461627482970373
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,50,-275.0,-218.0,-248.0,-215.0,,-260.0,FanDuel,-215.0,1.4651162790697674,1.402548287758409,1.0446102225908787
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,50,,,178.0,168.0,,185.0,HardRockBet,185.0,2.85,2.73,1.043956043956044
+Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,Passing,250,,,247.0,225.0,,240.0,DraftKings,247.0,3.47,3.325,1.043609022556391
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,AnytimeTD,Anytime,,,,360.0,360.0,325.0,FanDuel,360.0,4.6,4.425,1.03954802259887
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,50,-285.0,,-242.0,-230.0,,-220.0,HardRockBet,-220.0,1.4545454545454546,1.3996276473913254,1.039237440941158
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,110,,700.0,700.0,640.0,,,Caesars,700.0,8.0,7.7,1.0389610389610389
+Seattle Seahawks @ Arizona Cardinals,Tory Horton,Receiving,25,-105.0,,106.0,108.0,,100.0,FanDuel,108.0,2.08,2.004126984126984,1.0378583874544591
+New Orleans Saints @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,,,-165.0,,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.606060606060606,1.0377358490566038
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,50,325.0,305.0,299.0,,,325.0,BetMGM,325.0,4.25,4.096666666666667,1.0374288039056143
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,Receiving,25,-625.0,,-416.0,-420.0,,-525.0,DraftKings,-416.0,1.2403846153846154,1.1961904761904762,1.0369457373836355
+Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,80,,,690.0,750.0,,750.0,FanDuel,750.0,8.5,8.2,1.0365853658536586
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Addison,Receiving,25,,,-348.0,-420.0,,-325.0,HardRockBet,-325.0,1.3076923076923077,1.2627257799671594,1.0356106832049614
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,25,,,-150.0,-168.0,,-160.0,DraftKings,-150.0,1.6666666666666665,1.6101190476190477,1.0351201478743066
+Philadelphia Eagles @ Tampa Bay Buccaneers,Jalen Hurts,AnytimeTD,Anytime,,,-135.0,,,-125.0,HardRockBet,-125.0,1.8,1.7407407407407407,1.0340425531914894
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,50,,,308.0,290.0,,300.0,DraftKings,308.0,4.08,3.95,1.0329113924050632
+Seattle Seahawks @ Arizona Cardinals,Marvin Harrison Jr.,AnytimeTD,Anytime,,170.0,165.0,180.0,180.0,170.0,FanDuel,180.0,2.8,2.7124999999999995,1.0322580645161292
+Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,25,,,-247.0,-275.0,,-275.0,DraftKings,-247.0,1.4048582995951417,1.3636363636363638,1.0302294197031039
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,80,,,-116.0,-118.0,,-130.0,DraftKings,-116.0,1.8620689655172413,1.8083441981747066,1.029709370260796
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,AnytimeTD,Anytime,,,140.0,150.0,145.0,145.0,FanDuel,150.0,2.5,2.433333333333333,1.0273972602739727
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,AnytimeTD,Anytime,,,,260.0,270.0,275.0,HardRockBet,275.0,3.75,3.6500000000000004,1.0273972602739725
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,50,,,-349.0,-390.0,,-400.0,DraftKings,-349.0,1.2865329512893982,1.2532051282051282,1.026594068548062
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,80,,,104.0,-102.0,,100.0,DraftKings,104.0,2.04,1.9901960784313726,1.025024630541872
+Minnesota Vikings @ Pittsburgh Steelers,Calvin Austin III,Receiving,25,,,-237.0,-240.0,,-220.0,HardRockBet,-220.0,1.4545454545454546,1.4193037974683544,1.0248302422215465
+New Orleans Saints @ Buffalo Bills,James Cook,AnytimeTD,Anytime,,,-195.0,,,-210.0,DraftKings,-195.0,1.5128205128205128,1.4761904761904763,1.0248138957816377
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,25,,,110.0,110.0,,115.0,HardRockBet,115.0,2.15,2.1,1.0238095238095237
+New Orleans Saints @ Buffalo Bills,Alvin Kamara,AnytimeTD,Anytime,,,115.0,,,110.0,DraftKings,115.0,2.15,2.1,1.0238095238095237
+Cleveland Browns @ Detroit Lions,Quinshon Judkins,AnytimeTD,Anytime,,,115.0,,,110.0,DraftKings,115.0,2.15,2.1,1.0238095238095237
+Cincinnati Bengals @ Denver Broncos,Chase Brown,AnytimeTD,Anytime,,,120.0,,,115.0,DraftKings,120.0,2.2,2.15,1.0232558139534884
+Los Angeles Chargers @ New York Giants,Malik Nabers,AnytimeTD,Anytime,,,135.0,,,130.0,DraftKings,135.0,2.35,2.3,1.0217391304347827
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Rushing,25,,,-2000.0,-1450.0,,-2000.0,FanDuel,-1450.0,1.0689655172413792,1.05,1.018062397372742
+Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,50,,,186.0,188.0,,180.0,FanDuel,188.0,2.88,2.83,1.017667844522968
+Philadelphia Eagles @ Tampa Bay Buccaneers,Saquon Barkley,AnytimeTD,Anytime,,,-125.0,,,-130.0,DraftKings,-125.0,1.8,1.7692307692307692,1.0173913043478262
+Indianapolis Colts @ Los Angeles Rams,Kyren Williams,AnytimeTD,Anytime,,,-205.0,,,-195.0,HardRockBet,-195.0,1.5128205128205128,1.4878048780487805,1.0168137873055905
+Seattle Seahawks @ Arizona Cardinals,Kenneth Walker III,AnytimeTD,Anytime,,-140.0,-135.0,-135.0,-135.0,-150.0,DraftKings,-135.0,1.7407407407407407,1.7156084656084656,1.0146491904394757
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Rushing,25,-10000.0,,-2500.0,,,-2500.0,DraftKings,-2500.0,1.04,1.025,1.0146341463414634
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,50,,,-640.0,-600.0,,-650.0,FanDuel,-600.0,1.1666666666666667,1.1550480769230769,1.0100589663544919
+Seattle Seahawks @ Arizona Cardinals,Jaxon Smith-Njigba,Receiving,25,,,-3000.0,,,-4000.0,DraftKings,-3000.0,1.0333333333333334,1.025,1.0081300813008132
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,Receiving,25,,,-1340.0,-1600.0,,-1300.0,HardRockBet,-1300.0,1.0769230769230769,1.068563432835821,1.0078232548769432
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,50,,,-119.0,-122.0,,-120.0,DraftKings,-119.0,1.8403361344537816,1.8265027322404372,1.0075737101123172
+Minnesota Vikings @ Pittsburgh Steelers,Justin Jefferson,Receiving,25,,,-1920.0,,,-2200.0,DraftKings,-1920.0,1.0520833333333333,1.0454545454545454,1.0063405797101448
+Seattle Seahawks @ Arizona Cardinals,Trey McBride,AnytimeTD,Anytime,,160.0,160.0,160.0,160.0,155.0,Caesars,160.0,2.6,2.5875000000000004,1.004830917874396
+Minnesota Vikings @ Pittsburgh Steelers,DK Metcalf,Receiving,25,,,-512.0,-500.0,,-500.0,FanDuel,-500.0,1.2,1.19765625,1.0019569471624266
+Los Angeles Chargers @ New York Giants,Omarion Hampton,AnytimeTD,Anytime,,,-150.0,,,-150.0,DraftKings,-150.0,1.6666666666666665,1.6666666666666665,1.0
+Indianapolis Colts @ Los Angeles Rams,Puka Nacua,AnytimeTD,Anytime,,,100.0,,,100.0,DraftKings,100.0,2.0,2.0,1.0
+Seattle Seahawks @ Arizona Cardinals,Arizona Cardinals D/ST,AnytimeTD,Anytime,,,500.0,,500.0,,DraftKings,500.0,6.0,6.0,1.0
+Baltimore Ravens @ Kansas City Chiefs,Derrick Henry,AnytimeTD,Anytime,,,-175.0,,,,DraftKings,-175.0,1.5714285714285714,,
+Baltimore Ravens @ Kansas City Chiefs,Isiah Pacheco,AnytimeTD,Anytime,,,170.0,,,,DraftKings,170.0,2.7,,
+Baltimore Ravens @ Kansas City Chiefs,Travis Kelce,AnytimeTD,Anytime,,,165.0,,,,DraftKings,165.0,2.65,,
+Baltimore Ravens @ Kansas City Chiefs,Zay Flowers,AnytimeTD,Anytime,,,115.0,,,,DraftKings,115.0,2.15,,
+Carolina Panthers @ New England Patriots,Chuba Hubbard,AnytimeTD,Anytime,,,100.0,,,,DraftKings,100.0,2.0,,
+Carolina Panthers @ New England Patriots,Rhamondre Stevenson,AnytimeTD,Anytime,,,120.0,,,,DraftKings,120.0,2.2,,
+Carolina Panthers @ New England Patriots,Tetairoa McMillan,AnytimeTD,Anytime,,,170.0,,,,DraftKings,170.0,2.7,,
+Carolina Panthers @ New England Patriots,TreVeyon Henderson,AnytimeTD,Anytime,,,140.0,,,,DraftKings,140.0,2.4,,
+Chicago Bears @ Las Vegas Raiders,Ashton Jeanty,AnytimeTD,Anytime,,,-150.0,,,,DraftKings,-150.0,1.6666666666666665,,
+Chicago Bears @ Las Vegas Raiders,Brock Bowers,AnytimeTD,Anytime,,,135.0,,,,DraftKings,135.0,2.35,,
+Chicago Bears @ Las Vegas Raiders,D'Andre Swift,AnytimeTD,Anytime,,,105.0,,,,DraftKings,105.0,2.05,,
+Chicago Bears @ Las Vegas Raiders,Rome Odunze,AnytimeTD,Anytime,,,110.0,,,,DraftKings,110.0,2.1,,
+Cincinnati Bengals @ Denver Broncos,Adam Prentice,AnytimeTD,Anytime,,,,,,1100.0,HardRockBet,1100.0,12.0,,
+Cincinnati Bengals @ Denver Broncos,Adam Trautman,AnytimeTD,Anytime,,,,,,575.0,HardRockBet,575.0,6.75,,
+Cincinnati Bengals @ Denver Broncos,Andrei Iosivas,AnytimeTD,Anytime,,,,,,600.0,HardRockBet,600.0,7.0,,
+Cincinnati Bengals @ Denver Broncos,Bo Nix,AnytimeTD,Anytime,,,,,,240.0,HardRockBet,240.0,3.4,,
+Cincinnati Bengals @ Denver Broncos,Charlie Jones,AnytimeTD,Anytime,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Cincinnati Bengals @ Denver Broncos,Evan Engram,AnytimeTD,Anytime,,,,,,500.0,HardRockBet,500.0,6.0,,
+Cincinnati Bengals @ Denver Broncos,Jake Browning,AnytimeTD,Anytime,,,,,,750.0,HardRockBet,750.0,8.5,,
+Cincinnati Bengals @ Denver Broncos,Lucas Krull,AnytimeTD,Anytime,,,,,,900.0,HardRockBet,900.0,10.0,,
+Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,AnytimeTD,Anytime,,,,,,300.0,HardRockBet,300.0,4.0,,
+Cincinnati Bengals @ Denver Broncos,Mitchell Tinsley,AnytimeTD,Anytime,,,,,,1750.0,HardRockBet,1750.0,18.5,,
+Cincinnati Bengals @ Denver Broncos,Nate Adkins,AnytimeTD,Anytime,,,,,,1200.0,HardRockBet,1200.0,13.0,,
+Cincinnati Bengals @ Denver Broncos,Noah Fant,AnytimeTD,Anytime,,,,,,550.0,HardRockBet,550.0,6.5,,
+Cincinnati Bengals @ Denver Broncos,Pat Bryant,AnytimeTD,Anytime,,,,,,1600.0,HardRockBet,1600.0,17.0,,
+Cincinnati Bengals @ Denver Broncos,RJ Harvey,AnytimeTD,Anytime,,,,,,220.0,HardRockBet,220.0,3.2,,
+Cincinnati Bengals @ Denver Broncos,Samaje Perine,AnytimeTD,Anytime,,,,,,450.0,HardRockBet,450.0,5.5,,
+Cincinnati Bengals @ Denver Broncos,Tee Higgins,AnytimeTD,Anytime,,,,,,275.0,HardRockBet,275.0,3.75,,
+Cincinnati Bengals @ Denver Broncos,Trent Sherfield Sr.,AnytimeTD,Anytime,,,,,,800.0,HardRockBet,800.0,9.0,,
+Cincinnati Bengals @ Denver Broncos,Troy Franklin,AnytimeTD,Anytime,,,,,,250.0,HardRockBet,250.0,3.5,,
+Cincinnati Bengals @ Denver Broncos,Tyler Badie,AnytimeTD,Anytime,,,,,,900.0,HardRockBet,900.0,10.0,,
+Cleveland Browns @ Detroit Lions,Cedric Tillman,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+Cleveland Browns @ Detroit Lions,David Montgomery,AnytimeTD,Anytime,,,-125.0,,,,DraftKings,-125.0,1.8,,
+Cleveland Browns @ Detroit Lions,David Njoku,AnytimeTD,Anytime,,,,,,300.0,HardRockBet,300.0,4.0,,
+Cleveland Browns @ Detroit Lions,DeAndre Carter,AnytimeTD,Anytime,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Cleveland Browns @ Detroit Lions,Dylan Sampson,AnytimeTD,Anytime,,,,,,600.0,HardRockBet,600.0,7.0,,
+Cleveland Browns @ Detroit Lions,Harold Fannin Jr.,AnytimeTD,Anytime,,,,,,300.0,HardRockBet,300.0,4.0,,
+Cleveland Browns @ Detroit Lions,Isaiah Bond,AnytimeTD,Anytime,,,,,,425.0,HardRockBet,425.0,5.25,,
+Cleveland Browns @ Detroit Lions,Jahmyr Gibbs,AnytimeTD,Anytime,,,-180.0,,,,DraftKings,-180.0,1.5555555555555556,,
+Cleveland Browns @ Detroit Lions,Jamari Thrash,AnytimeTD,Anytime,,,,,,1200.0,HardRockBet,1200.0,13.0,,
+Cleveland Browns @ Detroit Lions,Jerome Ford,AnytimeTD,Anytime,,,,,,525.0,HardRockBet,525.0,6.25,,
+Cleveland Browns @ Detroit Lions,Joe Flacco,AnytimeTD,Anytime,,,,,,1300.0,HardRockBet,1300.0,14.0,,
+Green Bay Packers @ Dallas Cowboys,Brevyn Spann-Ford,AnytimeTD,Anytime,,,,,,3000.0,HardRockBet,3000.0,31.0,,
+Green Bay Packers @ Dallas Cowboys,Chris Brooks,AnytimeTD,Anytime,,,,,,700.0,HardRockBet,700.0,8.0,,
+Green Bay Packers @ Dallas Cowboys,DaRon Bland,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Dak Prescott,AnytimeTD,Anytime,,,,,,1000.0,HardRockBet,1000.0,11.0,,
+Green Bay Packers @ Dallas Cowboys,Damone Clark,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Dante Fowler Jr.,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Donovan Wilson,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,AnytimeTD,Anytime,,,,,,210.0,HardRockBet,210.0,3.1,,
+Green Bay Packers @ Dallas Cowboys,Emanuel Wilson,AnytimeTD,Anytime,,,,,,375.0,HardRockBet,375.0,4.75,,
+Green Bay Packers @ Dallas Cowboys,George Pickens,AnytimeTD,Anytime,,,,,,175.0,HardRockBet,175.0,2.75,,
+Green Bay Packers @ Dallas Cowboys,Jack Sanborn,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Jake Ferguson,AnytimeTD,Anytime,,,,,,230.0,HardRockBet,230.0,3.3,,
+Green Bay Packers @ Dallas Cowboys,Jalen Brooks,AnytimeTD,Anytime,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,AnytimeTD,Anytime,,,,,,375.0,HardRockBet,375.0,4.75,,
+Green Bay Packers @ Dallas Cowboys,Javonte Williams,AnytimeTD,Anytime,,,,,,120.0,HardRockBet,120.0,2.2,,
+Green Bay Packers @ Dallas Cowboys,John FitzPatrick,AnytimeTD,Anytime,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Green Bay Packers @ Dallas Cowboys,Jordan Love,AnytimeTD,Anytime,,,,,,425.0,HardRockBet,425.0,5.25,,
+Green Bay Packers @ Dallas Cowboys,Josh Jacobs,AnytimeTD,Anytime,,,,,,-230.0,HardRockBet,-230.0,1.434782608695652,,
+Green Bay Packers @ Dallas Cowboys,Juanyeh Thomas,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,AnytimeTD,Anytime,,,,,,260.0,HardRockBet,260.0,3.6,,
+Green Bay Packers @ Dallas Cowboys,Kaiir Elam,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Kenneth Murray Jr.,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Kenny Clark,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Luke Musgrave,AnytimeTD,Anytime,,,,,,800.0,HardRockBet,800.0,9.0,,
+Green Bay Packers @ Dallas Cowboys,Luke Schoonmaker,AnytimeTD,Anytime,,,,,,1200.0,HardRockBet,1200.0,13.0,,
+Green Bay Packers @ Dallas Cowboys,Malik Heath,AnytimeTD,Anytime,,,,,,650.0,HardRockBet,650.0,7.5,,
+Green Bay Packers @ Dallas Cowboys,Malik Hooker,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Marshawn Kneeland,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Matthew Golden,AnytimeTD,Anytime,,,,,,200.0,HardRockBet,200.0,3.0,,
+Green Bay Packers @ Dallas Cowboys,Miles Sanders,AnytimeTD,Anytime,,,,,,325.0,HardRockBet,325.0,4.25,,
+Green Bay Packers @ Dallas Cowboys,Osa Odighizuwa,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Romeo Doubs,AnytimeTD,Anytime,,,,,,200.0,HardRockBet,200.0,3.0,,
+Green Bay Packers @ Dallas Cowboys,Ryan Flournoy,AnytimeTD,Anytime,,,,,,1400.0,HardRockBet,1400.0,15.0,,
+Green Bay Packers @ Dallas Cowboys,Savion Williams,AnytimeTD,Anytime,,,,,,850.0,HardRockBet,850.0,9.5,,
+Green Bay Packers @ Dallas Cowboys,Trevon Diggs,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Green Bay Packers @ Dallas Cowboys,Tucker Kraft,AnytimeTD,Anytime,,,,,,200.0,HardRockBet,200.0,3.0,,
+Indianapolis Colts @ Los Angeles Rams,Adonai Mitchell,AnytimeTD,Anytime,,,,,,600.0,HardRockBet,600.0,7.0,,
+Indianapolis Colts @ Los Angeles Rams,Alec Pierce,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+Indianapolis Colts @ Los Angeles Rams,Anthony Gould,AnytimeTD,Anytime,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Indianapolis Colts @ Los Angeles Rams,Ashton Dulin,AnytimeTD,Anytime,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Indianapolis Colts @ Los Angeles Rams,Blake Corum,AnytimeTD,Anytime,,,,,,210.0,HardRockBet,210.0,3.1,,
+Indianapolis Colts @ Los Angeles Rams,Colby Parkinson,AnytimeTD,Anytime,,,,,,1000.0,HardRockBet,1000.0,11.0,,
+Indianapolis Colts @ Los Angeles Rams,DJ Giddens,AnytimeTD,Anytime,,,,,,525.0,HardRockBet,525.0,6.25,,
+Indianapolis Colts @ Los Angeles Rams,Daniel Jones,AnytimeTD,Anytime,,,,,,185.0,HardRockBet,185.0,2.85,,
+Indianapolis Colts @ Los Angeles Rams,Davante Adams,AnytimeTD,Anytime,,,,,,135.0,HardRockBet,135.0,2.35,,
+Indianapolis Colts @ Los Angeles Rams,Davis Allen,AnytimeTD,Anytime,,,,,,1400.0,HardRockBet,1400.0,15.0,,
+Indianapolis Colts @ Los Angeles Rams,Drew Ogletree,AnytimeTD,Anytime,,,,,,2250.0,HardRockBet,2250.0,23.5,,
+Indianapolis Colts @ Los Angeles Rams,Jarquez Hunter,AnytimeTD,Anytime,,,,,,3000.0,HardRockBet,3000.0,31.0,,
+Indianapolis Colts @ Los Angeles Rams,Jordan Whittington,AnytimeTD,Anytime,,,,,,260.0,HardRockBet,260.0,3.6,,
+Indianapolis Colts @ Los Angeles Rams,Josh Downs,AnytimeTD,Anytime,,,,,,325.0,HardRockBet,325.0,4.25,,
+Indianapolis Colts @ Los Angeles Rams,Konata Mumpfield,AnytimeTD,Anytime,,,,,,2500.0,HardRockBet,2500.0,26.0,,
+Indianapolis Colts @ Los Angeles Rams,Matthew Stafford,AnytimeTD,Anytime,,,,,,1000.0,HardRockBet,1000.0,11.0,,
+Indianapolis Colts @ Los Angeles Rams,Mo Alie-Cox,AnytimeTD,Anytime,,,,,,1400.0,HardRockBet,1400.0,15.0,,
+Indianapolis Colts @ Los Angeles Rams,Tutu Atwell,AnytimeTD,Anytime,,,,,,800.0,HardRockBet,800.0,9.0,,
+Indianapolis Colts @ Los Angeles Rams,Tyler Goodson,AnytimeTD,Anytime,,,,,,1600.0,HardRockBet,1600.0,17.0,,
+Indianapolis Colts @ Los Angeles Rams,Tyler Higbee,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+Indianapolis Colts @ Los Angeles Rams,Tyler Warren,AnytimeTD,Anytime,,,,,,230.0,HardRockBet,230.0,3.3,,
+Indianapolis Colts @ Los Angeles Rams,Xavier Smith,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Jacksonville Jaguars @ San Francisco 49ers,Brian Thomas Jr,AnytimeTD,Anytime,,,165.0,,,,DraftKings,165.0,2.65,,
+Jacksonville Jaguars @ San Francisco 49ers,Christian McCaffrey,AnytimeTD,Anytime,,,-270.0,,,,DraftKings,-270.0,1.3703703703703702,,
+Jacksonville Jaguars @ San Francisco 49ers,Ricky Pearsall,AnytimeTD,Anytime,,,170.0,,,,DraftKings,170.0,2.7,,
+Jacksonville Jaguars @ San Francisco 49ers,Travis Etienne Jr.,AnytimeTD,Anytime,,,105.0,,,,DraftKings,105.0,2.05,,
+Los Angeles Chargers @ New York Giants,Beaux Collins,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Los Angeles Chargers @ New York Giants,Chris Manhertz,AnytimeTD,Anytime,,,,,,2500.0,HardRockBet,2500.0,26.0,,
+Los Angeles Chargers @ New York Giants,Daniel Bellinger,AnytimeTD,Anytime,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Los Angeles Chargers @ New York Giants,Darius Slayton,AnytimeTD,Anytime,,,,,,425.0,HardRockBet,425.0,5.25,,
+Los Angeles Chargers @ New York Giants,Derius Davis,AnytimeTD,Anytime,,,,,,1100.0,HardRockBet,1100.0,12.0,,
+Los Angeles Chargers @ New York Giants,Gunner Olszewski,AnytimeTD,Anytime,,,,,,1750.0,HardRockBet,1750.0,18.5,,
+Los Angeles Chargers @ New York Giants,Hassan Haskins,AnytimeTD,Anytime,,,,,,1100.0,HardRockBet,1100.0,12.0,,
+Los Angeles Chargers @ New York Giants,Jalin Hyatt,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Los Angeles Chargers @ New York Giants,Justin Herbert,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+Los Angeles Chargers @ New York Giants,Kimani Vidal,AnytimeTD,Anytime,,,,,,275.0,HardRockBet,275.0,3.75,,
+Los Angeles Chargers @ New York Giants,Ladd McConkey,AnytimeTD,Anytime,,,,,,155.0,HardRockBet,155.0,2.55,,
+Los Angeles Chargers @ New York Giants,Oronde Gadsden II,AnytimeTD,Anytime,,,,,,600.0,HardRockBet,600.0,7.0,,
+Los Angeles Chargers @ New York Giants,Quentin Johnston,AnytimeTD,Anytime,,,,,,175.0,HardRockBet,175.0,2.75,,
+Los Angeles Chargers @ New York Giants,Scott Matlock,AnytimeTD,Anytime,,,,,,1100.0,HardRockBet,1100.0,12.0,,
+Los Angeles Chargers @ New York Giants,Theo Johnson,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+Los Angeles Chargers @ New York Giants,Tre Harris,AnytimeTD,Anytime,,,,,,800.0,HardRockBet,800.0,9.0,,
+Los Angeles Chargers @ New York Giants,Tyler Conklin,AnytimeTD,Anytime,,,,,,450.0,HardRockBet,450.0,5.5,,
+Los Angeles Chargers @ New York Giants,Wan'Dale Robinson,AnytimeTD,Anytime,,,,,,220.0,HardRockBet,220.0,3.2,,
+Los Angeles Chargers @ New York Giants,Will Dissly,AnytimeTD,Anytime,,,,,,500.0,HardRockBet,500.0,6.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Ben Yurosek,AnytimeTD,Anytime,,,,1000.0,,,FanDuel,1000.0,11.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Carson Wentz,Passing,350,,,3000.0,,,,DraftKings,3000.0,31.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Jaylen Warren,Receiving,80,,,2500.0,,,,DraftKings,2500.0,26.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Jonnu Smith,Receiving,110,,,4200.0,,,,DraftKings,4200.0,43.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Jordan Mason,Rushing,25,,,,,,-7000.0,HardRockBet,-7000.0,1.0142857142857142,,
+Minnesota Vikings @ Pittsburgh Steelers,Minnesota Vikings D/ST,AnytimeTD,Anytime,,,,,530.0,,Fanatics,530.0,6.3,,
+Minnesota Vikings @ Pittsburgh Steelers,Minnesota Vikings Defense,AnytimeTD,Anytime,,,,750.0,,,FanDuel,750.0,8.5,,
+Minnesota Vikings @ Pittsburgh Steelers,No Scorer,AnytimeTD,Anytime,,,,,2800.0,,Fanatics,2800.0,29.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Pittsburgh Steelers D/ST,AnytimeTD,Anytime,,,,,500.0,,Fanatics,500.0,6.0,,
+Minnesota Vikings @ Pittsburgh Steelers,Pittsburgh Steelers Defense,AnytimeTD,Anytime,,,,750.0,,,FanDuel,750.0,8.5,,
+Minnesota Vikings @ Pittsburgh Steelers,T.J. Hockenson,Receiving,110,,,2200.0,,,,DraftKings,2200.0,23.0,,
+New Orleans Saints @ Buffalo Bills,Alontae Taylor,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Brandin Cooks,AnytimeTD,Anytime,,,,,,550.0,HardRockBet,550.0,6.5,,
+New Orleans Saints @ Buffalo Bills,Bryan Bresee,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Cameron Jordan,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Carl Granderson,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Chase Young,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,,,,,,165.0,HardRockBet,165.0,2.65,,
+New Orleans Saints @ Buffalo Bills,Danny Stutsman,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Dawson Knox,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+New Orleans Saints @ Buffalo Bills,Demario Davis,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Devaughn Vele,AnytimeTD,Anytime,,,,,,1200.0,HardRockBet,1200.0,13.0,,
+New Orleans Saints @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,,,,,,525.0,HardRockBet,525.0,6.25,,
+New Orleans Saints @ Buffalo Bills,Isaac Yiadom,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Isaiah Stalbird,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Jack Stoll,AnytimeTD,Anytime,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+New Orleans Saints @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,,,,,,850.0,HardRockBet,850.0,9.5,,
+New Orleans Saints @ Buffalo Bills,Jonas Sanker,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Jordan Howden,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,,,,,,325.0,HardRockBet,325.0,4.25,,
+New Orleans Saints @ Buffalo Bills,Justin Reid,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Juwan Johnson,AnytimeTD,Anytime,,,,,,350.0,HardRockBet,350.0,4.5,,
+New Orleans Saints @ Buffalo Bills,Kendre Miller,AnytimeTD,Anytime,,,,,,375.0,HardRockBet,375.0,4.75,,
+New Orleans Saints @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,,,,,,190.0,HardRockBet,190.0,2.9,,
+New Orleans Saints @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,,,,,,200.0,HardRockBet,200.0,3.0,,
+New Orleans Saints @ Buffalo Bills,Kool-Aid McKinstry,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Mason Tipton,AnytimeTD,Anytime,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+New Orleans Saints @ Buffalo Bills,Pete Werner,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+New Orleans Saints @ Buffalo Bills,Rashid Shaheed,AnytimeTD,Anytime,,,,,,375.0,HardRockBet,375.0,4.75,,
+New Orleans Saints @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,,,,,,425.0,HardRockBet,425.0,5.25,,
+New Orleans Saints @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,,,,,,1600.0,HardRockBet,1600.0,17.0,,
+New Orleans Saints @ Buffalo Bills,Spencer Rattler,AnytimeTD,Anytime,,,,,,575.0,HardRockBet,575.0,6.75,,
+New Orleans Saints @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,,,,,,400.0,HardRockBet,400.0,5.0,,
+New Orleans Saints @ Buffalo Bills,Tyrell Shavers,AnytimeTD,Anytime,,,,,,850.0,HardRockBet,850.0,9.5,,
+New Orleans Saints @ Buffalo Bills,Velus Jones Jr.,AnytimeTD,Anytime,,,,,,1000.0,HardRockBet,1000.0,11.0,,
+New York Jets @ Miami Dolphins,Breece Hall,AnytimeTD,Anytime,,,110.0,,,,DraftKings,110.0,2.1,,
+New York Jets @ Miami Dolphins,De'Von Achane,AnytimeTD,Anytime,,,-165.0,,,,DraftKings,-165.0,1.606060606060606,,
+New York Jets @ Miami Dolphins,Garrett Wilson,AnytimeTD,Anytime,,,130.0,,,,DraftKings,130.0,2.3,,
+New York Jets @ Miami Dolphins,Tyreek Hill,AnytimeTD,Anytime,,,130.0,,,,DraftKings,130.0,2.3,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,AJ Brown,AnytimeTD,Anytime,,,,,,160.0,HardRockBet,160.0,2.6,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Bucky Irving,AnytimeTD,Anytime,,,130.0,,,,DraftKings,130.0,2.3,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Dallas Goedert,AnytimeTD,Anytime,,,,,,300.0,HardRockBet,300.0,4.0,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Darius Cooper,AnytimeTD,Anytime,,,,,,2500.0,HardRockBet,2500.0,26.0,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,DeVonta Smith,AnytimeTD,Anytime,,,,,,225.0,HardRockBet,225.0,3.25,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Emeka Egbuka,AnytimeTD,Anytime,,,165.0,,,,DraftKings,165.0,2.65,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Grant Calcaterra,AnytimeTD,Anytime,,,,,,1750.0,HardRockBet,1750.0,18.5,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,Jahan Dotson,AnytimeTD,Anytime,,,,,,650.0,HardRockBet,650.0,7.5,,
+Philadelphia Eagles @ Tampa Bay Buccaneers,John Metchie III,AnytimeTD,Anytime,,,,,,2250.0,HardRockBet,2250.0,23.5,,
+Seattle Seahawks @ Arizona Cardinals,AJ Barner,Receiving,80,,,3300.0,,,,DraftKings,3300.0,34.0,,
+Seattle Seahawks @ Arizona Cardinals,Arizona Cardinals Defense,AnytimeTD,Anytime,,,,700.0,,,FanDuel,700.0,8.0,,
+Seattle Seahawks @ Arizona Cardinals,Bam Knight,AnytimeTD,Anytime,,,,1900.0,,,FanDuel,1900.0,20.0,,
+Seattle Seahawks @ Arizona Cardinals,Budda Baker,AnytimeTD,Anytime,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Seattle Seahawks @ Arizona Cardinals,Emari Demercado,Rushing,80,,,2000.0,,,,DraftKings,2000.0,21.0,,
+Seattle Seahawks @ Arizona Cardinals,Jalen Thompson,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Seattle Seahawks @ Arizona Cardinals,Kyler Murray,Rushing,110,,,3900.0,,,,DraftKings,3900.0,40.0,,
+Seattle Seahawks @ Arizona Cardinals,Mack Wilson Sr.,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Seattle Seahawks @ Arizona Cardinals,Max Melton,AnytimeTD,Anytime,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Seattle Seahawks @ Arizona Cardinals,No Scorer,AnytimeTD,Anytime,,,,,4000.0,,Fanatics,4000.0,41.0,,
+Seattle Seahawks @ Arizona Cardinals,Sam Darnold,Rushing,50,,,1880.0,,,,DraftKings,1880.0,19.8,,
+Seattle Seahawks @ Arizona Cardinals,Seattle Seahawks Defense,AnytimeTD,Anytime,,,,750.0,,,FanDuel,750.0,8.5,,
+Seattle Seahawks @ Arizona Cardinals,Trey Benson,Receiving,80,,,2400.0,,,,DraftKings,2400.0,25.0,,
+Seattle Seahawks @ Arizona Cardinals,Zach Charbonnet,AnytimeTD,Anytime,,,,-135.0,,,FanDuel,-135.0,1.7407407407407407,,
+Tennessee Titans @ Houston Texans,Calvin Ridley,AnytimeTD,Anytime,,,280.0,,,,DraftKings,280.0,3.8,,
+Tennessee Titans @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,,,105.0,,,,DraftKings,105.0,2.05,,
+Tennessee Titans @ Houston Texans,Nico Collins,AnytimeTD,Anytime,,,105.0,,,,DraftKings,105.0,2.05,,
+Tennessee Titans @ Houston Texans,Tony Pollard,AnytimeTD,Anytime,,,150.0,,,,DraftKings,150.0,2.5,,
+Washington Commanders @ Atlanta Falcons,Bijan Robinson,AnytimeTD,Anytime,,,-135.0,,,,DraftKings,-135.0,1.7407407407407407,,
+Washington Commanders @ Atlanta Falcons,Deebo Samuel Sr.,AnytimeTD,Anytime,,,135.0,,,,DraftKings,135.0,2.35,,
+Washington Commanders @ Atlanta Falcons,Drake London,AnytimeTD,Anytime,,,130.0,,,,DraftKings,130.0,2.3,,
+Washington Commanders @ Atlanta Falcons,Terry McLaurin,AnytimeTD,Anytime,,,130.0,,,,DraftKings,130.0,2.3,,
