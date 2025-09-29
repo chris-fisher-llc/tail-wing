@@ -1,251 +1,168 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
 New York Jets @ Miami Dolphins,Josh Reynolds,Receiving,80,,,,,2500.0,,,,800.0,DraftKings,2500.0,26.0,9.0,2.888888888888889
 Cincinnati Bengals @ Denver Broncos,Mike Gesicki,Receiving,80,,,,,2200.0,,,,800.0,DraftKings,2200.0,23.0,9.0,2.5555555555555554
-Green Bay Packers @ Dallas Cowboys,Ben Sims,AnytimeTD,Anytime,1600.0,1400.0,1900.0,1900.0,2500.0,,2200.0,1800.0,5000.0,HardRockBet,5000.0,51.0,20.0,2.55
-New York Jets @ Miami Dolphins,Breece Hall,Receiving,80,,,,,2100.0,,,,800.0,DraftKings,2100.0,22.0,9.0,2.4444444444444446
-New York Jets @ Miami Dolphins,Dee Eskridge,AnytimeTD,Anytime,2000.0,2000.0,,1400.0,1300.0,,,1200.0,4000.0,HardRockBet,4000.0,41.0,16.8,2.4404761904761902
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Receiving,50,,,,,1480.0,,,,600.0,DraftKings,1480.0,15.8,7.0,2.257142857142857
-New York Jets @ Miami Dolphins,Braelon Allen,Rushing,50,,,,,810.0,750.0,680.0,,1750.0,HardRockBet,1750.0,18.5,8.466666666666667,2.1850393700787403
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Rushing,110,,,,,2000.0,,880.0,,,DraftKings,2000.0,21.0,9.8,2.142857142857143
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Rushing,110,,,900.0,,2200.0,,1200.0,,,DraftKings,2200.0,23.0,11.5,2.0
 New York Jets @ Miami Dolphins,Justin Fields,Passing,300,,,,,1960.0,,1100.0,,800.0,DraftKings,1960.0,20.6,10.5,1.961904761904762
-New York Jets @ Miami Dolphins,Mason Taylor,Receiving,80,,,,,1640.0,,,,800.0,DraftKings,1640.0,17.4,9.0,1.9333333333333331
+New York Jets @ Miami Dolphins,Dee Eskridge,AnytimeTD,Anytime,2000.0,2000.0,,1500.0,1300.0,,,1200.0,3000.0,HardRockBet,3000.0,31.0,17.0,1.8235294117647058
 New York Jets @ Miami Dolphins,Stone Smartt,AnytimeTD,Anytime,2800.0,2000.0,2500.0,2900.0,3500.0,,2700.0,2500.0,5000.0,HardRockBet,5000.0,51.0,28.0,1.8214285714285714
+New York Jets @ Miami Dolphins,Malik Washington,Receiving,80,,,,,2600.0,2000.0,,,800.0,DraftKings,2600.0,27.0,15.0,1.8
 New York Jets @ Miami Dolphins,Andrew Beck,AnytimeTD,Anytime,3500.0,1800.0,3000.0,3000.0,3000.0,,3300.0,2500.0,5000.0,HardRockBet,5000.0,51.0,29.714285714285715,1.7163461538461537
 Cincinnati Bengals @ Denver Broncos,Jake Browning,Passing,350,,,,,2600.0,,1500.0,,,DraftKings,2600.0,27.0,16.0,1.6875
-New York Jets @ Miami Dolphins,Malik Washington,Receiving,80,,,,,2600.0,2200.0,,,800.0,DraftKings,2600.0,27.0,16.0,1.6875
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Passing,350,1400.0,,,,2500.0,1800.0,1500.0,,,DraftKings,2500.0,26.0,16.666666666666668,1.5599999999999998
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,Rushing,25,,,,,600.0,750.0,,,1100.0,HardRockBet,1100.0,12.0,7.75,1.5483870967741935
-New York Jets @ Miami Dolphins,Darren Waller,Receiving,50,,,,,880.0,1200.0,,,600.0,ESPNBET,1200.0,13.0,8.4,1.5476190476190474
+New York Jets @ Miami Dolphins,Braelon Allen,Rushing,50,,,,,810.0,750.0,680.0,,1200.0,HardRockBet,1200.0,13.0,8.466666666666667,1.5354330708661417
 Cincinnati Bengals @ Denver Broncos,Adam Trautman,AnytimeTD,Anytime,500.0,500.0,500.0,500.0,550.0,,500.0,470.0,800.0,HardRockBet,800.0,9.0,6.028571428571429,1.4928909952606633
-Green Bay Packers @ Dallas Cowboys,Miles Sanders,Rushing,50,,,,,1120.0,1100.0,920.0,,1600.0,HardRockBet,1600.0,17.0,11.466666666666667,1.4825581395348837
-New York Jets @ Miami Dolphins,Darren Waller,Receiving,25,,,,,222.0,,350.0,,200.0,FanDuel,350.0,4.5,3.1100000000000003,1.4469453376205785
 Cincinnati Bengals @ Denver Broncos,Adam Prentice,AnytimeTD,Anytime,,1500.0,1700.0,1600.0,2200.0,,1700.0,,1000.0,DraftKings,2200.0,23.0,16.0,1.4375
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,Passing,350,950.0,,1000.0,950.0,1440.0,1000.0,1000.0,,,DraftKings,1440.0,15.4,10.8,1.4259259259259258
-Green Bay Packers @ Dallas Cowboys,Jalen Moreno-Cropper,AnytimeTD,Anytime,,,2500.0,,2000.0,,3000.0,,1750.0,FanDuel,3000.0,31.0,21.833333333333332,1.419847328244275
+New York Jets @ Miami Dolphins,Darren Waller,Receiving,50,,,,,880.0,1100.0,,,600.0,ESPNBET,1100.0,12.0,8.4,1.4285714285714286
 Cincinnati Bengals @ Denver Broncos,Tyler Badie,AnytimeTD,Anytime,1500.0,850.0,1100.0,1100.0,950.0,,1100.0,900.0,1200.0,BetMGM,1500.0,16.0,11.285714285714286,1.4177215189873418
 New York Jets @ Miami Dolphins,Tanner Conner,AnytimeTD,Anytime,900.0,1150.0,825.0,850.0,900.0,,850.0,740.0,1300.0,HardRockBet,1300.0,14.0,9.87857142857143,1.4172089660159073
 Cincinnati Bengals @ Denver Broncos,Nate Adkins,AnytimeTD,Anytime,1800.0,2200.0,1400.0,1500.0,1300.0,,1500.0,,1750.0,BetRivers,2200.0,23.0,16.416666666666668,1.401015228426396
 Cincinnati Bengals @ Denver Broncos,Andrei Iosivas,Receiving,50,,,,,1240.0,1100.0,880.0,,600.0,DraftKings,1240.0,13.4,9.6,1.3958333333333335
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Receiving,25,,,,,312.0,,,,200.0,DraftKings,312.0,4.12,3.0,1.3733333333333333
-New York Jets @ Miami Dolphins,Braelon Allen,Rushing,25,165.0,,,,174.0,165.0,148.0,,260.0,HardRockBet,260.0,3.6,2.6300000000000003,1.3688212927756653
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,Passing,300,360.0,,375.0,300.0,412.0,360.0,370.0,,525.0,HardRockBet,525.0,6.25,4.628333333333333,1.3503781058696436
+New York Jets @ Miami Dolphins,Isaiah Williams,AnytimeTD,Anytime,2500.0,1200.0,2800.0,2300.0,2200.0,,3000.0,,2000.0,FanDuel,3000.0,31.0,22.666666666666668,1.3676470588235294
 Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,Receiving,110,,,,,3400.0,2500.0,,,,DraftKings,3400.0,35.0,26.0,1.3461538461538463
-New York Jets @ Miami Dolphins,Isaiah Williams,AnytimeTD,Anytime,2500.0,1200.0,2800.0,2300.0,2200.0,,3000.0,,2250.0,FanDuel,3000.0,31.0,23.083333333333332,1.3429602888086642
 Cincinnati Bengals @ Denver Broncos,Cam Grandy,AnytimeTD,Anytime,3000.0,,2500.0,2200.0,2200.0,,2700.0,1900.0,1750.0,BetMGM,3000.0,31.0,23.083333333333332,1.3429602888086642
-Green Bay Packers @ Dallas Cowboys,Hunter Luepke,AnytimeTD,Anytime,2800.0,1800.0,2000.0,2100.0,2200.0,,2500.0,1900.0,2000.0,BetMGM,2800.0,29.0,21.714285714285715,1.3355263157894737
 New York Jets @ Miami Dolphins,Ollie Gordon II,Rushing,80,,,,,1900.0,,1400.0,,,DraftKings,1900.0,20.0,15.0,1.3333333333333333
-Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,Receiving,80,,,800.0,,1100.0,,800.0,,800.0,DraftKings,1100.0,12.0,9.0,1.3333333333333333
-Green Bay Packers @ Dallas Cowboys,Emanuel Wilson,AnytimeTD,Anytime,450.0,475.0,525.0,525.0,700.0,,550.0,580.0,400.0,DraftKings,700.0,8.0,6.007142857142857,1.3317479191438764
-New York Jets @ Miami Dolphins,Josh Reynolds,Receiving,50,375.0,,,415.0,585.0,500.0,,,400.0,DraftKings,585.0,6.85,5.225,1.3110047846889952
-Green Bay Packers @ Dallas Cowboys,Malik Heath,AnytimeTD,Anytime,750.0,850.0,825.0,900.0,1100.0,,1000.0,,650.0,DraftKings,1100.0,12.0,9.291666666666666,1.2914798206278029
+New York Jets @ Miami Dolphins,Tua Tagovailoa,AnytimeTD,Anytime,2000.0,1000.0,2200.0,1750.0,1800.0,,2200.0,1700.0,1100.0,Bovada,2200.0,23.0,17.5,1.3142857142857143
+New York Jets @ Miami Dolphins,Breece Hall,Receiving,50,,,,400.0,485.0,375.0,400.0,,575.0,HardRockBet,575.0,6.75,5.15,1.3106796116504853
+New York Jets @ Miami Dolphins,Josh Reynolds,Receiving,50,375.0,,,415.0,585.0,500.0,,,425.0,DraftKings,585.0,6.85,5.2875,1.2955082742316786
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Rushing,80,,300.0,,285.0,415.0,275.0,290.0,,350.0,DraftKings,415.0,5.15,4.0,1.2875
 Cincinnati Bengals @ Denver Broncos,Tanner Hudson,AnytimeTD,Anytime,2200.0,1000.0,2500.0,2400.0,2500.0,,2700.0,1900.0,,FanDuel,2700.0,28.0,21.833333333333332,1.2824427480916032
-New York Jets @ Miami Dolphins,Arian Smith,AnytimeTD,Anytime,1000.0,1300.0,1100.0,1000.0,950.0,,1100.0,900.0,900.0,BetRivers,1300.0,14.0,10.928571428571429,1.2810457516339868
 Cincinnati Bengals @ Denver Broncos,Pat Bryant,AnytimeTD,Anytime,1300.0,800.0,1000.0,1000.0,1000.0,,1000.0,900.0,1300.0,BetMGM,1300.0,14.0,11.0,1.2727272727272727
-New York Jets @ Miami Dolphins,Malik Washington,Receiving,50,525.0,,,700.0,564.0,550.0,580.0,,425.0,Caesars,700.0,8.0,6.288,1.272264631043257
-Green Bay Packers @ Dallas Cowboys,Miles Sanders,AnytimeTD,Anytime,450.0,510.0,525.0,500.0,650.0,,600.0,530.0,325.0,DraftKings,650.0,7.5,5.914285714285714,1.2681159420289856
-New York Jets @ Miami Dolphins,Alec Ingold,AnytimeTD,Anytime,2000.0,1200.0,1900.0,1600.0,1900.0,,1900.0,1500.0,900.0,BetMGM,2000.0,21.0,16.571428571428573,1.2672413793103448
+Cincinnati Bengals @ Denver Broncos,Jaleel McLaughlin,AnytimeTD,Anytime,1300.0,,1100.0,1000.0,1000.0,,1100.0,800.0,,BetMGM,1300.0,14.0,11.0,1.2727272727272727
+New York Jets @ Miami Dolphins,Arian Smith,AnytimeTD,Anytime,1000.0,1300.0,1100.0,1000.0,950.0,,1100.0,900.0,1000.0,BetRivers,1300.0,14.0,11.071428571428571,1.2645161290322582
+New York Jets @ Miami Dolphins,Isaiah Davis,AnytimeTD,Anytime,1500.0,1050.0,1400.0,1400.0,1500.0,,1400.0,1300.0,1750.0,HardRockBet,1750.0,18.5,14.642857142857142,1.2634146341463415
 Cincinnati Bengals @ Denver Broncos,Mike Gesicki,Receiving,50,360.0,,,550.0,456.0,400.0,,,450.0,Caesars,550.0,6.5,5.165,1.2584704743465633
-Green Bay Packers @ Dallas Cowboys,Luke Schoonmaker,AnytimeTD,Anytime,1500.0,1100.0,1400.0,1500.0,1700.0,,1800.0,1500.0,1200.0,FanDuel,1800.0,19.0,15.142857142857142,1.2547169811320755
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Rushing,80,,390.0,320.0,380.0,506.0,425.0,410.0,,375.0,DraftKings,506.0,6.06,4.833333333333333,1.2537931034482759
+New York Jets @ Miami Dolphins,Alec Ingold,AnytimeTD,Anytime,2000.0,1200.0,1900.0,1700.0,1900.0,,1900.0,1500.0,900.0,BetMGM,2000.0,21.0,16.714285714285715,1.2564102564102564
+New York Jets @ Miami Dolphins,Tua Tagovailoa,Passing,300,390.0,,,305.0,409.0,400.0,390.0,,500.0,HardRockBet,500.0,6.0,4.787999999999999,1.2531328320802007
 Cincinnati Bengals @ Denver Broncos,Trent Sherfield Sr.,AnytimeTD,Anytime,1600.0,1300.0,1400.0,1300.0,1300.0,,1500.0,1200.0,800.0,BetMGM,1600.0,17.0,13.571428571428571,1.2526315789473685
-Cincinnati Bengals @ Denver Broncos,Jaleel McLaughlin,AnytimeTD,Anytime,1300.0,,1100.0,1000.0,1000.0,,1100.0,900.0,,BetMGM,1300.0,14.0,11.2,1.25
 Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,110,,,,,1400.0,1100.0,1100.0,,,DraftKings,1400.0,15.0,12.0,1.25
 New York Jets @ Miami Dolphins,Jeremy Ruckert,AnytimeTD,Anytime,1300.0,750.0,1100.0,1000.0,1000.0,,1100.0,900.0,1300.0,BetMGM,1300.0,14.0,11.214285714285714,1.248407643312102
 Cincinnati Bengals @ Denver Broncos,Samaje Perine,AnytimeTD,Anytime,1200.0,800.0,1100.0,1000.0,1200.0,,1100.0,,450.0,BetMGM,1200.0,13.0,10.416666666666666,1.248
-Green Bay Packers @ Dallas Cowboys,Savion Williams,AnytimeTD,Anytime,750.0,600.0,1100.0,1000.0,1200.0,,1200.0,1050.0,900.0,DraftKings,1200.0,13.0,10.428571428571429,1.2465753424657533
 New York Jets @ Miami Dolphins,Tua Tagovailoa,Passing,350,1100.0,,,1050.0,1440.0,1300.0,1100.0,,,DraftKings,1440.0,15.4,12.375,1.2444444444444445
-New York Jets @ Miami Dolphins,Nick Westbrook-Ikhine,AnytimeTD,Anytime,1000.0,600.0,900.0,950.0,1100.0,,950.0,900.0,750.0,DraftKings,1100.0,12.0,9.642857142857142,1.2444444444444445
-Green Bay Packers @ Dallas Cowboys,Luke Musgrave,AnytimeTD,Anytime,1200.0,850.0,1000.0,1100.0,1300.0,,1100.0,1050.0,900.0,DraftKings,1300.0,14.0,11.285714285714286,1.240506329113924
 Cincinnati Bengals @ Denver Broncos,Evan Engram,AnytimeTD,Anytime,400.0,350.0,350.0,370.0,360.0,,380.0,345.0,475.0,HardRockBet,475.0,5.75,4.6499999999999995,1.2365591397849465
+New York Jets @ Miami Dolphins,Nick Westbrook-Ikhine,AnytimeTD,Anytime,1000.0,600.0,900.0,950.0,1100.0,,950.0,900.0,800.0,DraftKings,1100.0,12.0,9.714285714285714,1.2352941176470589
 Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,110,,,,750.0,970.0,800.0,750.0,,,DraftKings,970.0,10.7,8.666666666666666,1.2346153846153847
-Green Bay Packers @ Dallas Cowboys,Jordan Love,Passing,350,875.0,,1100.0,1070.0,1220.0,900.0,920.0,,,DraftKings,1220.0,13.2,10.73,1.2301957129543335
 Cincinnati Bengals @ Denver Broncos,Drew Sample,AnytimeTD,Anytime,1000.0,700.0,1200.0,1000.0,1100.0,,1200.0,900.0,800.0,Bovada,1200.0,13.0,10.571428571428571,1.2297297297297298
-New York Jets @ Miami Dolphins,Mason Taylor,Receiving,50,425.0,,,425.0,442.0,450.0,580.0,,525.0,FanDuel,580.0,6.8,5.534000000000001,1.2287676183592335
 New York Jets @ Miami Dolphins,New York Jets D/ST,AnytimeTD,Anytime,650.0,,725.0,,500.0,,,,,Bovada,725.0,8.25,6.75,1.2222222222222223
-New York Jets @ Miami Dolphins,Tua Tagovailoa,AnytimeTD,Anytime,2000.0,1000.0,2000.0,1750.0,1800.0,,2000.0,1700.0,1100.0,BetMGM,2000.0,21.0,17.214285714285715,1.2199170124481327
-New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,110,,410.0,,340.0,486.0,375.0,400.0,,,DraftKings,486.0,5.86,4.8125,1.2176623376623377
+New York Jets @ Miami Dolphins,De'Von Achane,Receiving,50,155.0,160.0,,130.0,178.0,150.0,,,210.0,HardRockBet,210.0,3.1,2.5460000000000003,1.2175962293794187
 New York Jets @ Miami Dolphins,Tahj Washington,AnytimeTD,Anytime,2200.0,1050.0,2000.0,2000.0,1900.0,,2000.0,,,BetMGM,2200.0,23.0,18.9,1.216931216931217
-Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,Receiving,110,,,1200.0,,1560.0,1300.0,1300.0,,,DraftKings,1560.0,16.6,13.666666666666666,1.2146341463414636
-New York Jets @ Miami Dolphins,Breece Hall,Receiving,50,,,,400.0,485.0,375.0,400.0,,525.0,HardRockBet,525.0,6.25,5.15,1.2135922330097086
+New York Jets @ Miami Dolphins,Malik Washington,Receiving,50,525.0,,,650.0,564.0,550.0,520.0,,425.0,Caesars,650.0,7.5,6.168,1.215953307392996
+New York Jets @ Miami Dolphins,De'Von Achane,Rushing,110,,,,,1140.0,,920.0,,,DraftKings,1140.0,12.4,10.2,1.215686274509804
 Cincinnati Bengals @ Denver Broncos,Charlie Jones,AnytimeTD,Anytime,2500.0,2800.0,2500.0,2200.0,2200.0,,2500.0,1900.0,2250.0,BetRivers,2800.0,29.0,23.928571428571427,1.2119402985074628
-New York Jets @ Miami Dolphins,Jaylen Wright,AnytimeTD,Anytime,1500.0,1050.0,1300.0,1300.0,1400.0,,1300.0,1200.0,1000.0,BetMGM,1500.0,16.0,13.214285714285714,1.2108108108108109
+New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,110,,420.0,,340.0,486.0,375.0,400.0,,,DraftKings,486.0,5.86,4.8375,1.2113695090439276
 New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,110,,,,425.0,592.0,500.0,490.0,,,DraftKings,592.0,6.92,5.716666666666666,1.2104956268221576
-New York Jets @ Miami Dolphins,Malik Washington,Rushing,25,,,,,850.0,800.0,,,575.0,DraftKings,850.0,9.5,7.875,1.2063492063492063
+New York Jets @ Miami Dolphins,Mason Taylor,Receiving,50,425.0,,,425.0,442.0,450.0,580.0,,575.0,FanDuel,580.0,6.8,5.634,1.2069577564785232
 New York Jets @ Miami Dolphins,Kene Nwangwu,AnytimeTD,Anytime,1800.0,1500.0,1400.0,1600.0,,,1400.0,,,BetMGM,1800.0,19.0,15.75,1.2063492063492063
-Green Bay Packers @ Dallas Cowboys,George Pickens,Receiving,110,,,450.0,450.0,599.0,500.0,520.0,,,DraftKings,599.0,6.99,5.8,1.2051724137931035
-New York Jets @ Miami Dolphins,De'Von Achane,Rushing,80,,350.0,,245.0,284.0,275.0,290.0,,275.0,BetRivers,350.0,4.5,3.7379999999999995,1.2038523274478332
-New York Jets @ Miami Dolphins,Tua Tagovailoa,Passing,300,390.0,,,305.0,409.0,400.0,390.0,,475.0,HardRockBet,475.0,5.75,4.787999999999999,1.200918964076859
-Green Bay Packers @ Dallas Cowboys,Chris Brooks,AnytimeTD,Anytime,750.0,750.0,900.0,850.0,950.0,,1000.0,,700.0,FanDuel,1000.0,11.0,9.166666666666666,1.2000000000000002
-Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,Receiving,50,130.0,180.0,140.0,115.0,144.0,125.0,140.0,,140.0,BetRivers,180.0,2.8,2.334285714285714,1.1995104039167688
-New York Jets @ Miami Dolphins,De'Von Achane,Receiving,50,155.0,175.0,,130.0,178.0,155.0,,,210.0,HardRockBet,210.0,3.1,2.586,1.1987625676720806
 New York Jets @ Miami Dolphins,Julian Hill,AnytimeTD,Anytime,1800.0,1400.0,1600.0,1500.0,1700.0,,1600.0,1500.0,1100.0,BetMGM,1800.0,19.0,15.857142857142858,1.1981981981981982
+New York Jets @ Miami Dolphins,Jaylen Wright,AnytimeTD,Anytime,1500.0,1050.0,1300.0,1300.0,1400.0,,1300.0,1200.0,1100.0,BetMGM,1500.0,16.0,13.357142857142858,1.1978609625668448
 Cincinnati Bengals @ Denver Broncos,Jake Browning,Passing,300,,,,475.0,690.0,650.0,550.0,,575.0,DraftKings,690.0,7.9,6.625,1.1924528301886792
-New York Jets @ Miami Dolphins,Darren Waller,AnytimeTD,Anytime,550.0,430.0,500.0,500.0,500.0,,500.0,450.0,600.0,HardRockBet,600.0,7.0,5.8999999999999995,1.1864406779661019
+New York Jets @ Miami Dolphins,Darren Waller,Receiving,25,,,,,222.0,,270.0,,200.0,FanDuel,270.0,3.7,3.1100000000000003,1.1897106109324758
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Rushing,50,600.0,,,600.0,585.0,600.0,750.0,,700.0,FanDuel,750.0,8.5,7.17,1.185495118549512
-Green Bay Packers @ Dallas Cowboys,Romeo Doubs,Receiving,110,,,1000.0,,1480.0,1400.0,1300.0,,,DraftKings,1480.0,15.8,13.333333333333334,1.185
-Green Bay Packers @ Dallas Cowboys,Matthew Golden,Receiving,110,,,900.0,,600.0,1000.0,1000.0,,,ESPNBET,1000.0,11.0,9.333333333333334,1.1785714285714286
 New York Jets @ Miami Dolphins,Jelani Woods,AnytimeTD,Anytime,2800.0,2000.0,2500.0,2500.0,2500.0,,2700.0,2000.0,,BetMGM,2800.0,29.0,24.666666666666668,1.1756756756756757
 Cincinnati Bengals @ Denver Broncos,Andrei Iosivas,AnytimeTD,Anytime,1000.0,700.0,900.0,900.0,900.0,,950.0,850.0,650.0,BetMGM,1000.0,11.0,9.357142857142858,1.1755725190839694
+New York Jets @ Miami Dolphins,Justin Fields,AnytimeTD,Anytime,240.0,195.0,185.0,205.0,220.0,,195.0,195.0,130.0,BetMGM,240.0,3.4,2.892857142857143,1.1753086419753087
 Cincinnati Bengals @ Denver Broncos,RJ Harvey,Rushing,50,390.0,,,,,,,,475.0,HardRockBet,475.0,5.75,4.9,1.173469387755102
-New York Jets @ Miami Dolphins,Josh Reynolds,Receiving,25,100.0,,,,134.0,,,,100.0,DraftKings,134.0,2.34,2.0,1.17
-Green Bay Packers @ Dallas Cowboys,Ryan Flournoy,AnytimeTD,Anytime,1200.0,700.0,1100.0,1100.0,1200.0,,1300.0,,1300.0,FanDuel,1300.0,14.0,12.0,1.1666666666666667
+Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,80,,335.0,,235.0,315.0,260.0,270.0,,275.0,BetRivers,335.0,4.35,3.71,1.1725067385444743
+New York Jets @ Miami Dolphins,De'Von Achane,Rushing,80,,350.0,,250.0,298.0,300.0,300.0,,275.0,BetRivers,350.0,4.5,3.846,1.1700468018720749
 New York Jets @ Miami Dolphins,Miami Dolphins D/ST,AnytimeTD,Anytime,600.0,,,,500.0,,,,,BetMGM,600.0,7.0,6.0,1.1666666666666667
-New York Jets @ Miami Dolphins,Justin Fields,AnytimeTD,Anytime,240.0,195.0,185.0,205.0,220.0,,195.0,195.0,150.0,BetMGM,240.0,3.4,2.9214285714285713,1.1638141809290954
-New York Jets @ Miami Dolphins,Isaiah Davis,AnytimeTD,Anytime,1500.0,1050.0,1400.0,1400.0,1500.0,,1400.0,1300.0,1600.0,HardRockBet,1600.0,17.0,14.642857142857142,1.1609756097560977
 Cincinnati Bengals @ Denver Broncos,Jermaine Burton,AnytimeTD,Anytime,2000.0,2200.0,1900.0,1900.0,2000.0,,1900.0,1600.0,,BetRivers,2200.0,23.0,19.833333333333332,1.1596638655462186
 New York Jets @ Miami Dolphins,Justin Fields,Passing,250,450.0,,,400.0,502.0,450.0,400.0,,400.0,DraftKings,502.0,6.02,5.2,1.1576923076923076
 Cincinnati Bengals @ Denver Broncos,Tahj Brooks,AnytimeTD,Anytime,1800.0,1300.0,1400.0,1600.0,1700.0,,1500.0,,1750.0,BetMGM,1800.0,19.0,16.416666666666668,1.1573604060913705
-New York Jets @ Miami Dolphins,De'Von Achane,Rushing,110,,,,,1080.0,,920.0,,,DraftKings,1080.0,11.8,10.2,1.1568627450980393
-Green Bay Packers @ Dallas Cowboys,John FitzPatrick,AnytimeTD,Anytime,1400.0,1200.0,1100.0,1200.0,1400.0,,1200.0,1200.0,1100.0,BetMGM,1400.0,15.0,13.0,1.1538461538461537
-Green Bay Packers @ Dallas Cowboys,Matthew Golden,Receiving,80,,325.0,325.0,285.0,243.0,350.0,360.0,,275.0,FanDuel,360.0,4.6,4.005,1.1485642946317103
+New York Jets @ Miami Dolphins,Josh Reynolds,Receiving,25,100.0,,,,134.0,,,,105.0,DraftKings,134.0,2.34,2.025,1.1555555555555554
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Passing,300,550.0,,,475.0,670.0,650.0,630.0,,550.0,DraftKings,670.0,7.7,6.709999999999999,1.1475409836065575
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Receiving,50,750.0,,650.0,,820.0,850.0,830.0,,600.0,ESPNBET,850.0,9.5,8.3,1.1445783132530118
-Green Bay Packers @ Dallas Cowboys,Tucker Kraft,Receiving,80,,440.0,,340.0,330.0,375.0,390.0,,425.0,BetRivers,440.0,5.4,4.720000000000001,1.1440677966101693
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,AnytimeTD,Anytime,360.0,390.0,320.0,330.0,360.0,,330.0,325.0,275.0,BetRivers,390.0,4.9,4.2857142857142865,1.1433333333333333
-Green Bay Packers @ Dallas Cowboys,Miles Sanders,Rushing,25,,,,,219.0,200.0,200.0,,250.0,HardRockBet,250.0,3.5,3.063333333333333,1.1425462459194777
+New York Jets @ Miami Dolphins,Darren Waller,AnytimeTD,Anytime,550.0,430.0,500.0,500.0,500.0,,500.0,450.0,575.0,HardRockBet,575.0,6.75,5.8999999999999995,1.1440677966101696
+New York Jets @ Miami Dolphins,Ollie Gordon II,Rushing,50,400.0,,,375.0,430.0,400.0,410.0,,475.0,HardRockBet,475.0,5.75,5.029999999999999,1.143141153081511
 Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,110,,,,340.0,471.0,450.0,410.0,,,DraftKings,471.0,5.71,5.0,1.142
-Green Bay Packers @ Dallas Cowboys,Jordan Love,Passing,300,310.0,,400.0,285.0,358.0,350.0,350.0,,375.0,Bovada,400.0,5.0,4.38,1.1415525114155252
+New York Jets @ Miami Dolphins,Malik Washington,Rushing,25,,,,,810.0,750.0,,,650.0,DraftKings,810.0,9.1,8.0,1.1375
 Cincinnati Bengals @ Denver Broncos,Jake Browning,Passing,250,,215.0,,150.0,193.0,185.0,182.0,,175.0,BetRivers,215.0,3.15,2.77,1.1371841155234657
-Green Bay Packers @ Dallas Cowboys,Dallas Cowboys Defense,AnytimeTD,Anytime,,,825.0,,,,950.0,,,FanDuel,950.0,10.5,9.25,1.135135135135135
 Cincinnati Bengals @ Denver Broncos,Andrei Iosivas,Receiving,25,,,,,263.0,,240.0,,200.0,DraftKings,263.0,3.63,3.2,1.134375
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Receiving,50,750.0,,,,700.0,,,,600.0,BetMGM,750.0,8.5,7.5,1.1333333333333333
-Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,80,,320.0,,235.0,315.0,260.0,270.0,,275.0,BetRivers,320.0,4.2,3.71,1.1320754716981132
 Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,Receiving,80,,,,,1020.0,900.0,880.0,,,DraftKings,1020.0,11.2,9.9,1.1313131313131313
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Rushing,110,,,375.0,330.0,413.0,,360.0,,,DraftKings,413.0,5.13,4.55,1.1274725274725275
+Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,80,,180.0,,130.0,157.0,150.0,154.0,,150.0,BetRivers,180.0,2.8,2.482,1.12812248186946
 Cincinnati Bengals @ Denver Broncos,Mitchell Tinsley,AnytimeTD,Anytime,1800.0,2000.0,1900.0,1700.0,1800.0,,1900.0,1500.0,1750.0,BetRivers,2000.0,21.0,18.642857142857142,1.1264367816091954
-Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,Receiving,50,275.0,275.0,240.0,235.0,267.0,260.0,235.0,,300.0,HardRockBet,300.0,4.0,3.5528571428571434,1.1258544431041413
-New York Jets @ Miami Dolphins,Tyler Johnson,AnytimeTD,Anytime,700.0,575.0,725.0,700.0,750.0,,750.0,,800.0,HardRockBet,800.0,9.0,8.0,1.125
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Rushing,80,,190.0,,145.0,166.0,160.0,174.0,,200.0,HardRockBet,200.0,3.0,2.67,1.1235955056179776
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,Receiving,80,,,850.0,,1000.0,1000.0,870.0,,800.0,DraftKings,1000.0,11.0,9.8,1.1224489795918366
 New York Jets @ Miami Dolphins,Allen Lazard,AnytimeTD,Anytime,1000.0,700.0,1100.0,1000.0,1000.0,,1100.0,900.0,1100.0,Bovada,1100.0,12.0,10.714285714285714,1.12
-Green Bay Packers @ Dallas Cowboys,Green Bay Packers Defense,AnytimeTD,Anytime,,,525.0,,,,600.0,,,FanDuel,600.0,7.0,6.25,1.12
-Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,AnytimeTD,Anytime,400.0,310.0,350.0,360.0,370.0,,390.0,345.0,300.0,BetMGM,400.0,5.0,4.4642857142857135,1.12
-Green Bay Packers @ Dallas Cowboys,Jordan Love,Rushing,25,,,,,540.0,600.0,,,650.0,HardRockBet,650.0,7.5,6.7,1.1194029850746268
+Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,AnytimeTD,Anytime,400.0,300.0,350.0,360.0,370.0,,390.0,360.0,300.0,BetMGM,400.0,5.0,4.471428571428572,1.118210862619808
 New York Jets @ Miami Dolphins,Josh Reynolds,AnytimeTD,Anytime,450.0,420.0,400.0,420.0,475.0,,430.0,380.0,400.0,DraftKings,475.0,5.75,5.142857142857143,1.1180555555555556
 New York Jets @ Miami Dolphins,De'Von Achane,Receiving,80,,,,625.0,740.0,750.0,,,800.0,HardRockBet,800.0,9.0,8.049999999999999,1.1180124223602486
 Cincinnati Bengals @ Denver Broncos,Jake Browning,AnytimeTD,Anytime,800.0,700.0,800.0,750.0,850.0,,800.0,700.0,700.0,DraftKings,850.0,9.5,8.5,1.1176470588235294
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,Passing,250,110.0,143.0,110.0,105.0,125.0,115.0,120.0,,140.0,BetRivers,143.0,2.4299999999999997,2.178571428571429,1.1154098360655735
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,AnytimeTD,Anytime,1100.0,1000.0,1000.0,1000.0,1000.0,,1100.0,900.0,850.0,BetMGM,1100.0,12.0,10.785714285714286,1.1125827814569536
-Green Bay Packers @ Dallas Cowboys,Romeo Doubs,AnytimeTD,Anytime,180.0,185.0,180.0,180.0,185.0,,180.0,165.0,210.0,HardRockBet,210.0,3.1,2.7928571428571423,1.10997442455243
+New York Jets @ Miami Dolphins,Mason Taylor,AnytimeTD,Anytime,475.0,510.0,440.0,450.0,475.0,,490.0,420.0,400.0,BetRivers,510.0,6.1,5.5,1.1090909090909091
 Cincinnati Bengals @ Denver Broncos,Mike Gesicki,AnytimeTD,Anytime,400.0,420.0,440.0,450.0,500.0,,480.0,450.0,450.0,DraftKings,500.0,6.0,5.4142857142857155,1.1081794195250658
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Receiving,25,155.0,,,,182.0,,176.0,,200.0,HardRockBet,200.0,3.0,2.7099999999999995,1.1070110701107012
-Green Bay Packers @ Dallas Cowboys,Brevyn Spann-Ford,AnytimeTD,Anytime,3000.0,2800.0,2500.0,2600.0,2800.0,,3000.0,3000.0,2250.0,BetMGM,3000.0,31.0,28.071428571428573,1.104325699745547
-Green Bay Packers @ Dallas Cowboys,Jake Ferguson,Receiving,80,,330.0,300.0,250.0,315.0,325.0,350.0,,325.0,FanDuel,350.0,4.5,4.075,1.1042944785276072
-New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,80,,310.0,,240.0,290.0,300.0,,,325.0,HardRockBet,325.0,4.25,3.85,1.103896103896104
-Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,50,115.0,123.0,,100.0,113.0,110.0,118.0,,135.0,HardRockBet,135.0,2.35,2.1316666666666664,1.1024237685691949
-New York Jets @ Miami Dolphins,Tyreek Hill,AnytimeTD,Anytime,120.0,125.0,110.0,120.0,125.0,,115.0,110.0,140.0,HardRockBet,140.0,2.4,2.1785714285714284,1.1016393442622952
-New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,80,,148.0,,120.0,166.0,145.0,148.0,,150.0,DraftKings,166.0,2.66,2.4219999999999997,1.0982658959537575
+Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,50,115.0,120.0,,100.0,113.0,110.0,118.0,,135.0,HardRockBet,135.0,2.35,2.1266666666666665,1.1050156739811914
+New York Jets @ Miami Dolphins,Ollie Gordon II,Rushing,25,-130.0,,,,-123.0,-125.0,-114.0,,100.0,HardRockBet,100.0,2.0,1.8148579704420527,1.1020146108253592
+New York Jets @ Miami Dolphins,Breece Hall,Receiving,25,,,,,105.0,,-106.0,,120.0,HardRockBet,120.0,2.2,1.9966981132075472,1.1018190408693598
+Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,50,-135.0,-104.0,,-130.0,-111.0,-135.0,-128.0,,-130.0,BetRivers,-104.0,1.9615384615384617,1.7836823201406535,1.0997129025665193
+New York Jets @ Miami Dolphins,Braelon Allen,Rushing,25,165.0,,,,174.0,165.0,152.0,,190.0,HardRockBet,190.0,2.9,2.64,1.0984848484848484
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Receiving,50,650.0,,,,620.0,650.0,700.0,,600.0,FanDuel,700.0,8.0,7.3,1.095890410958904
-New York Jets @ Miami Dolphins,Mason Taylor,AnytimeTD,Anytime,475.0,510.0,440.0,450.0,475.0,,490.0,420.0,450.0,BetRivers,510.0,6.1,5.571428571428571,1.0948717948717948
-Green Bay Packers @ Dallas Cowboys,Jordan Love,AnytimeTD,Anytime,500.0,525.0,525.0,550.0,600.0,,600.0,530.0,550.0,DraftKings,600.0,7.0,6.3999999999999995,1.09375
-New York Jets @ Miami Dolphins,Ollie Gordon II,Rushing,50,400.0,,,375.0,430.0,400.0,410.0,,450.0,HardRockBet,450.0,5.5,5.029999999999999,1.0934393638170976
-Green Bay Packers @ Dallas Cowboys,Jordan Love,Passing,250,-105.0,128.0,125.0,100.0,111.0,105.0,110.0,,115.0,BetRivers,128.0,2.2800000000000002,2.087482993197279,1.092224467183732
+Cincinnati Bengals @ Denver Broncos,Lucas Krull,AnytimeTD,Anytime,900.0,850.0,900.0,800.0,800.0,,900.0,740.0,700.0,BetMGM,900.0,10.0,9.128571428571428,1.0954616588419406
+New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,80,,310.0,,240.0,302.0,300.0,,,325.0,HardRockBet,325.0,4.25,3.88,1.0953608247422681
+Cincinnati Bengals @ Denver Broncos,Troy Franklin,AnytimeTD,Anytime,275.0,235.0,260.0,255.0,245.0,,270.0,215.0,220.0,BetMGM,275.0,3.75,3.428571428571428,1.0937500000000002
+New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,80,,150.0,,120.0,166.0,145.0,152.0,,150.0,DraftKings,166.0,2.66,2.434,1.0928512736236646
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Rushing,25,110.0,,,,133.0,100.0,118.0,,135.0,HardRockBet,135.0,2.35,2.1525,1.091753774680604
 New York Jets @ Miami Dolphins,Malik Washington,AnytimeTD,Anytime,400.0,325.0,350.0,375.0,400.0,,380.0,380.0,300.0,BetMGM,400.0,5.0,4.585714285714286,1.0903426791277258
 Cincinnati Bengals @ Denver Broncos,Tee Higgins,AnytimeTD,Anytime,275.0,235.0,250.0,245.0,250.0,,250.0,240.0,240.0,BetMGM,275.0,3.75,3.4428571428571426,1.0892116182572615
-New York Jets @ Miami Dolphins,Tua Tagovailoa,Passing,250,115.0,138.0,,105.0,128.0,115.0,120.0,,130.0,BetRivers,138.0,2.38,2.188333333333333,1.0875856816450877
-Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,110,,,,375.0,478.0,450.0,470.0,,,DraftKings,478.0,5.78,5.316666666666666,1.0871473354231975
-Green Bay Packers @ Dallas Cowboys,Jake Ferguson,AnytimeTD,Anytime,210.0,230.0,200.0,200.0,195.0,,200.0,190.0,230.0,BetRivers,230.0,3.3,3.0357142857142856,1.0870588235294119
-New York Jets @ Miami Dolphins,De'Von Achane,Receiving,25,-400.0,,,,-280.0,,,,-240.0,HardRockBet,-240.0,1.4166666666666667,1.3035714285714286,1.08675799086758
+Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,80,,430.0,,380.0,416.0,400.0,400.0,,450.0,HardRockBet,450.0,5.5,5.052,1.0886777513855899
+Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,110,,430.0,,375.0,478.0,450.0,470.0,,,DraftKings,478.0,5.78,5.3125,1.088
+New York Jets @ Miami Dolphins,Tua Tagovailoa,Passing,250,115.0,138.0,,105.0,128.0,115.0,122.0,,130.0,BetRivers,138.0,2.38,2.1916666666666664,1.0859315589353613
 Cincinnati Bengals @ Denver Broncos,Mike Gesicki,Receiving,25,-135.0,,,,103.0,,,,100.0,DraftKings,103.0,2.0300000000000002,1.8703703703703702,1.0853465346534656
-Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,80,,440.0,,380.0,416.0,400.0,400.0,,450.0,HardRockBet,450.0,5.5,5.072,1.084384858044164
+New York Jets @ Miami Dolphins,Tyler Johnson,AnytimeTD,Anytime,700.0,575.0,725.0,700.0,750.0,,750.0,,650.0,DraftKings,750.0,8.5,7.833333333333333,1.0851063829787235
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Passing,250,165.0,185.0,,150.0,195.0,185.0,188.0,,160.0,DraftKings,195.0,2.95,2.721666666666667,1.0838946723821188
-Cincinnati Bengals @ Denver Broncos,RJ Harvey,AnytimeTD,Anytime,275.0,255.0,240.0,255.0,275.0,,240.0,240.0,220.0,BetMGM,275.0,3.75,3.464285714285714,1.0824742268041239
-Cincinnati Bengals @ Denver Broncos,Troy Franklin,AnytimeTD,Anytime,275.0,235.0,260.0,255.0,245.0,,270.0,240.0,220.0,BetMGM,275.0,3.75,3.464285714285714,1.0824742268041239
-Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,Receiving,80,,,525.0,475.0,507.0,450.0,480.0,,475.0,Bovada,525.0,6.25,5.774,1.0824385174922064
-New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,80,,175.0,,145.0,190.0,175.0,178.0,,195.0,HardRockBet,195.0,2.95,2.726,1.0821716801173882
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,AnytimeTD,Anytime,145.0,155.0,140.0,140.0,135.0,,140.0,130.0,120.0,BetRivers,155.0,2.55,2.357142857142857,1.0818181818181818
-Green Bay Packers @ Dallas Cowboys,Matthew Golden,Receiving,25,-350.0,,-400.0,,-274.0,,-340.0,,-450.0,DraftKings,-274.0,1.364963503649635,1.2630135387488328,1.080719613664471
-Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,AnytimeTD,Anytime,425.0,400.0,400.0,400.0,425.0,,440.0,400.0,350.0,FanDuel,440.0,5.4,5.0,1.08
-Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,50,-135.0,-108.0,,-130.0,-111.0,-135.0,-128.0,,-130.0,BetRivers,-108.0,1.925925925925926,1.7836823201406535,1.0797471635947233
+Cincinnati Bengals @ Denver Broncos,RJ Harvey,AnytimeTD,Anytime,275.0,255.0,240.0,255.0,275.0,,240.0,250.0,220.0,BetMGM,275.0,3.75,3.478571428571428,1.078028747433265
 New York Jets @ Miami Dolphins,Justin Fields,Rushing,50,-105.0,114.0,,-109.0,112.0,-105.0,-102.0,,100.0,BetRivers,114.0,2.1399999999999997,1.9870975423808668,1.0769476356132628
-Cincinnati Bengals @ Denver Broncos,Lucas Krull,AnytimeTD,Anytime,900.0,850.0,900.0,850.0,800.0,,900.0,800.0,700.0,BetMGM,900.0,10.0,9.285714285714286,1.0769230769230769
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Receiving,25,130.0,,140.0,,161.0,,164.0,,150.0,FanDuel,164.0,2.6399999999999997,2.4524999999999997,1.0764525993883791
-New York Jets @ Miami Dolphins,Breece Hall,AnytimeTD,Anytime,150.0,140.0,150.0,135.0,140.0,,150.0,130.0,-120.0,BetMGM,150.0,2.5,2.326190476190476,1.0747185261003072
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Rushing,80,,123.0,125.0,100.0,116.0,110.0,114.0,,-105.0,Bovada,125.0,2.25,2.097063492063492,1.0729288877114636
+New York Jets @ Miami Dolphins,Breece Hall,AnytimeTD,Anytime,150.0,140.0,140.0,135.0,140.0,,145.0,130.0,-105.0,BetMGM,150.0,2.5,2.321768707482993,1.076765309112218
+New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,80,,175.0,,140.0,190.0,175.0,178.0,,180.0,DraftKings,190.0,2.9,2.696,1.07566765578635
+New York Jets @ Miami Dolphins,Jaylen Waddle,AnytimeTD,Anytime,175.0,195.0,180.0,170.0,170.0,,185.0,165.0,175.0,BetRivers,195.0,2.95,2.742857142857143,1.0755208333333335
+New York Jets @ Miami Dolphins,Malik Washington,Receiving,25,105.0,,,,122.0,,110.0,,105.0,DraftKings,122.0,2.2199999999999998,2.066666666666667,1.0741935483870966
+New York Jets @ Miami Dolphins,De'Von Achane,Receiving,25,-400.0,,,,-280.0,,,,-250.0,HardRockBet,-250.0,1.4,1.3035714285714286,1.0739726027397258
+New York Jets @ Miami Dolphins,Mason Taylor,Receiving,25,105.0,,,,116.0,,122.0,,130.0,HardRockBet,130.0,2.3,2.143333333333333,1.073094867807154
+Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,80,,155.0,,130.0,160.0,160.0,168.0,,145.0,FanDuel,168.0,2.6799999999999997,2.5,1.0719999999999998
 Cincinnati Bengals @ Denver Broncos,Chase Brown,AnytimeTD,Anytime,135.0,108.0,130.0,130.0,140.0,,130.0,125.0,110.0,DraftKings,140.0,2.4,2.2399999999999998,1.0714285714285714
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Rushing,50,-600.0,-500.0,-350.0,-450.0,-468.0,-475.0,-420.0,,-650.0,Bovada,-350.0,1.2857142857142856,1.2007188300421383,1.0707871431225613
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Rushing,50,-135.0,-112.0,-130.0,-115.0,100.0,100.0,-102.0,,-120.0,DraftKings,100.0,2.0,1.8694456229165766,1.0698358783390243
-Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,Receiving,25,-160.0,,-165.0,,-158.0,,-180.0,,-140.0,HardRockBet,-140.0,1.7142857142857144,1.6048818885053062,1.0681693939996422
-Green Bay Packers @ Dallas Cowboys,Romeo Doubs,Receiving,50,115.0,135.0,110.0,115.0,133.0,135.0,140.0,,130.0,FanDuel,140.0,2.4,2.2471428571428573,1.0680228862047043
-New York Jets @ Miami Dolphins,Breece Hall,Rushing,80,,265.0,,220.0,245.0,250.0,265.0,,230.0,BetRivers,265.0,3.65,3.4200000000000004,1.067251461988304
-Green Bay Packers @ Dallas Cowboys,Jake Ferguson,Receiving,110,,,875.0,,1100.0,1100.0,1100.0,,,DraftKings,1100.0,12.0,11.25,1.0666666666666667
-Green Bay Packers @ Dallas Cowboys,Tucker Kraft,Receiving,50,110.0,114.0,,-108.0,-103.0,-105.0,100.0,,110.0,BetRivers,114.0,2.1399999999999997,2.008196777452441,1.0656326232704953
-New York Jets @ Miami Dolphins,Ollie Gordon II,Rushing,25,-130.0,,,,-117.0,-120.0,-114.0,,-105.0,HardRockBet,-105.0,1.9523809523809523,1.8336144849302745,1.0647717764158011
-Green Bay Packers @ Dallas Cowboys,Romeo Doubs,Receiving,80,,,375.0,450.0,474.0,450.0,480.0,,475.0,FanDuel,480.0,5.8,5.448,1.0646108663729807
-Green Bay Packers @ Dallas Cowboys,Matthew Golden,AnytimeTD,Anytime,210.0,220.0,225.0,210.0,220.0,,230.0,210.0,175.0,FanDuel,230.0,3.3,3.1000000000000005,1.0645161290322578
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Rushing,50,-175.0,-152.0,,-157.0,-156.0,-160.0,-146.0,,-135.0,HardRockBet,-135.0,1.7407407407407407,1.636203855217478,1.0638898907308638
-Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,80,,165.0,,130.0,160.0,160.0,168.0,,145.0,FanDuel,168.0,2.6799999999999997,2.5199999999999996,1.0634920634920635
 New York Jets @ Miami Dolphins,Ollie Gordon II,AnytimeTD,Anytime,310.0,310.0,320.0,295.0,295.0,,320.0,285.0,250.0,Bovada,320.0,4.2,3.9499999999999997,1.0632911392405064
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,Receiving,50,250.0,250.0,225.0,215.0,240.0,250.0,240.0,,260.0,HardRockBet,260.0,3.6,3.3857142857142857,1.0632911392405064
-Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,AnytimeTD,Anytime,250.0,235.0,230.0,235.0,235.0,,230.0,215.0,225.0,BetMGM,250.0,3.5,3.2928571428571423,1.0629067245119308
-New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,50,-295.0,-240.0,,-300.0,-221.0,-275.0,-260.0,,-275.0,DraftKings,-221.0,1.4524886877828054,1.3668118604559283,1.0626837019824351
 Cincinnati Bengals @ Denver Broncos,Cincinnati Bengals D/ST,AnytimeTD,Anytime,750.0,,,,700.0,,,,,BetMGM,750.0,8.5,8.0,1.0625
-Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,50,-250.0,-245.0,,-200.0,-221.0,-250.0,-240.0,,-250.0,Caesars,-200.0,1.5,1.4128864366259324,1.061656451018173
 Cincinnati Bengals @ Denver Broncos,Evan Engram,Receiving,50,600.0,,,,620.0,650.0,,,600.0,ESPNBET,650.0,7.5,7.066666666666666,1.0613207547169812
-New York Jets @ Miami Dolphins,Jaylen Waddle,AnytimeTD,Anytime,175.0,190.0,180.0,170.0,170.0,,185.0,165.0,170.0,BetRivers,190.0,2.9,2.7357142857142853,1.060052219321149
-Green Bay Packers @ Dallas Cowboys,Matthew Golden,Receiving,50,105.0,102.0,105.0,-106.0,-105.0,105.0,112.0,,-105.0,FanDuel,112.0,2.12,2.0025940187395714,1.058626950925542
-Green Bay Packers @ Dallas Cowboys,George Pickens,Receiving,80,,180.0,175.0,150.0,192.0,185.0,190.0,,175.0,DraftKings,192.0,2.92,2.7583333333333333,1.0586102719033232
-Cincinnati Bengals @ Denver Broncos,Courtland Sutton,AnytimeTD,Anytime,130.0,128.0,130.0,125.0,130.0,,130.0,115.0,140.0,HardRockBet,140.0,2.4,2.2685714285714287,1.0579345088161207
-New York Jets @ Miami Dolphins,Malik Washington,Receiving,25,105.0,,,,122.0,,120.0,,105.0,DraftKings,122.0,2.2199999999999998,2.1,1.057142857142857
-New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,50,-235.0,-230.0,,-225.0,-190.0,-240.0,-225.0,,-200.0,DraftKings,-190.0,1.526315789473684,1.4443116798574707,1.0567772945132632
+New York Jets @ Miami Dolphins,Breece Hall,Rushing,80,,265.0,,220.0,245.0,250.0,265.0,,240.0,BetRivers,265.0,3.65,3.44,1.0610465116279069
+New York Jets @ Miami Dolphins,Garrett Wilson,AnytimeTD,Anytime,150.0,163.0,150.0,155.0,165.0,,150.0,150.0,170.0,HardRockBet,170.0,2.7,2.5471428571428567,1.060011217049916
+New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,50,-235.0,-230.0,,-225.0,-190.0,-240.0,-220.0,,-210.0,DraftKings,-190.0,1.526315789473684,1.4420269275727184,1.0584516559915038
+New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,110,,,,900.0,980.0,1000.0,,,,ESPNBET,1000.0,11.0,10.4,1.0576923076923077
+New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,50,-295.0,-235.0,,-300.0,-221.0,-275.0,-250.0,,-260.0,DraftKings,-221.0,1.4524886877828054,1.374350007887693,1.0568550074192582
+Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,50,-250.0,-220.0,,-200.0,-221.0,-250.0,-240.0,,-250.0,Caesars,-200.0,1.5,1.4206168014991543,1.0558793887395066
+New York Jets @ Miami Dolphins,Tyreek Hill,AnytimeTD,Anytime,120.0,125.0,110.0,120.0,125.0,,115.0,110.0,130.0,HardRockBet,130.0,2.3,2.1785714285714284,1.0557377049180328
 Cincinnati Bengals @ Denver Broncos,Denver Broncos Defense,AnytimeTD,Anytime,,,440.0,,,,470.0,,,FanDuel,470.0,5.7,5.4,1.0555555555555556
-Green Bay Packers @ Dallas Cowboys,Jake Ferguson,Receiving,50,-155.0,-121.0,-150.0,-139.0,-126.0,-130.0,-128.0,,-135.0,BetRivers,-121.0,1.8264462809917354,1.7308749601490292,1.0552156123597036
 Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,Receiving,25,-160.0,,,,-148.0,,-154.0,,-135.0,HardRockBet,-135.0,1.7407407407407407,1.650008775008775,1.0549887776999751
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Rushing,110,,,,515.0,567.0,,550.0,,,DraftKings,567.0,6.67,6.325,1.0545454545454545
+Cincinnati Bengals @ Denver Broncos,Courtland Sutton,AnytimeTD,Anytime,130.0,130.0,130.0,125.0,130.0,,130.0,120.0,140.0,HardRockBet,140.0,2.4,2.2785714285714285,1.0532915360501567
 Cincinnati Bengals @ Denver Broncos,Troy Franklin,Receiving,25,-400.0,,,,-367.0,,-360.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2667524472701583,1.05256029795455
-Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,AnytimeTD,Anytime,175.0,163.0,175.0,170.0,180.0,,175.0,155.0,150.0,DraftKings,180.0,2.8,2.6614285714285715,1.0520665593129361
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Rushing,50,-300.0,-305.0,,-300.0,-272.0,-300.0,-260.0,,-240.0,HardRockBet,-240.0,1.4166666666666667,1.3466885493163216,1.0519631041534223
-New York Jets @ Miami Dolphins,Breece Hall,Receiving,25,,,,,105.0,,-106.0,,110.0,HardRockBet,110.0,2.1,1.9966981132075472,1.05173635719348
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,Receiving,25,-185.0,,-200.0,,-190.0,,-184.0,,-165.0,HardRockBet,-165.0,1.606060606060606,1.5275836477209475,1.0513732642115807
+Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,AnytimeTD,Anytime,175.0,160.0,175.0,170.0,180.0,,175.0,160.0,150.0,DraftKings,180.0,2.8,2.6642857142857146,1.0509383378016084
 New York Jets @ Miami Dolphins,Justin Fields,Rushing,80,,,,425.0,440.0,400.0,410.0,,425.0,DraftKings,440.0,5.4,5.15,1.0485436893203883
-Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,50,-275.0,-210.0,,-275.0,-219.0,-240.0,-220.0,,-250.0,BetRivers,-210.0,1.4761904761904763,1.4091843088418432,1.047549612160884
-Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,80,,160.0,,130.0,157.0,150.0,154.0,,150.0,BetRivers,160.0,2.6,2.482,1.04754230459307
-New York Jets @ Miami Dolphins,Mason Taylor,Receiving,25,105.0,,,,116.0,,122.0,,115.0,FanDuel,122.0,2.2199999999999998,2.1199999999999997,1.0471698113207548
 Cincinnati Bengals @ Denver Broncos,Bo Nix,AnytimeTD,Anytime,280.0,265.0,260.0,275.0,285.0,,270.0,250.0,275.0,DraftKings,285.0,3.85,3.6785714285714284,1.046601941747573
-Green Bay Packers @ Dallas Cowboys,Romeo Doubs,Receiving,25,-400.0,,-350.0,,-285.0,,-310.0,,-325.0,DraftKings,-285.0,1.3508771929824561,1.2914968096419708,1.0459779558858893
 Cincinnati Bengals @ Denver Broncos,Tee Higgins,Receiving,25,-750.0,,,,-468.0,,-550.0,,-600.0,DraftKings,-468.0,1.2136752136752136,1.1606060606060609,1.045725379929035
-Green Bay Packers @ Dallas Cowboys,George Pickens,Receiving,50,-220.0,-182.0,-210.0,-265.0,-189.0,-200.0,-186.0,,-200.0,BetRivers,-182.0,1.5494505494505495,1.4821184798578069,1.045429613426858
-Green Bay Packers @ Dallas Cowboys,Dontayvion Wicks,Receiving,25,-350.0,,-325.0,,-265.0,,-310.0,,-275.0,DraftKings,-265.0,1.3773584905660377,1.3199059005510616,1.0435277923911013
 Cincinnati Bengals @ Denver Broncos,Denver Broncos D/ST,AnytimeTD,Anytime,500.0,,,,475.0,,,,,BetMGM,500.0,6.0,5.75,1.0434782608695652
-Green Bay Packers @ Dallas Cowboys,Green Bay Packers D/ST,AnytimeTD,Anytime,500.0,,,,475.0,,,,,BetMGM,500.0,6.0,5.75,1.0434782608695652
 New York Jets @ Miami Dolphins,Breece Hall,Rushing,110,,,,,890.0,,850.0,,,DraftKings,890.0,9.9,9.5,1.0421052631578949
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,AnytimeTD,Anytime,-200.0,-215.0,-230.0,-210.0,-210.0,,-210.0,-235.0,-190.0,HardRockBet,-190.0,1.526315789473684,1.464857461604352,1.0419551591060752
 Cincinnati Bengals @ Denver Broncos,Evan Engram,Receiving,25,135.0,,,,145.0,,,,150.0,HardRockBet,150.0,2.5,2.4000000000000004,1.0416666666666665
-New York Jets @ Miami Dolphins,Garrett Wilson,AnytimeTD,Anytime,150.0,163.0,150.0,155.0,165.0,,150.0,150.0,165.0,DraftKings,165.0,2.65,2.5471428571428567,1.0403813796971397
-New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,110,,,,900.0,940.0,900.0,,,,DraftKings,940.0,10.4,10.0,1.04
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Receiving,25,130.0,,,,139.0,,144.0,,135.0,FanDuel,144.0,2.44,2.3466666666666662,1.0397727272727275
-New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,25,-2000.0,,,,-890.0,,-1450.0,,-1100.0,DraftKings,-890.0,1.1123595505617978,1.0699582027168233,1.0396289759144886
+New York Jets @ Miami Dolphins,Garrett Wilson,Receiving,25,-2000.0,,,,-890.0,,-1400.0,,-1100.0,DraftKings,-890.0,1.1123595505617978,1.0707792207792208,1.0388318422469185
+New York Jets @ Miami Dolphins,Braelon Allen,AnytimeTD,Anytime,225.0,225.0,230.0,215.0,220.0,,230.0,200.0,210.0,Bovada,230.0,3.3,3.1785714285714293,1.038202247191011
+New York Jets @ Miami Dolphins,De'Von Achane,Rushing,50,-175.0,-157.0,,-162.0,-151.0,-155.0,-158.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.627663255926979,1.0380864507821728
 New York Jets @ Miami Dolphins,Justin Fields,Rushing,25,-750.0,,,,-527.0,-700.0,-700.0,,-600.0,DraftKings,-527.0,1.189753320683112,1.1464285714285714,1.0377910585397863
-New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,50,-135.0,-118.0,,-127.0,-120.0,-125.0,,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.8017866551991737,1.03761741824236
-New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,25,-2500.0,,,,-1040.0,,-1450.0,,-1600.0,DraftKings,-1040.0,1.0961538461538463,1.057155172413793,1.036890207566225
-Green Bay Packers @ Dallas Cowboys,Jake Ferguson,Receiving,25,-1200.0,,-900.0,,-660.0,,-800.0,,-800.0,DraftKings,-660.0,1.1515151515151516,1.1111111111111112,1.0363636363636364
+Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,50,-275.0,-235.0,,-275.0,-219.0,-240.0,-220.0,,-250.0,DraftKings,-219.0,1.45662100456621,1.404002793896411,1.0374772834488257
+New York Jets @ Miami Dolphins,Tyreek Hill,Receiving,25,-2500.0,,,,-1040.0,,-1450.0,,-1500.0,DraftKings,-1040.0,1.0961538461538463,1.0585440613026817,1.035529730151129
 New York Jets @ Miami Dolphins,Miami Dolphins Defense,AnytimeTD,Anytime,,,625.0,,,,650.0,,,FanDuel,650.0,7.5,7.25,1.0344827586206897
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Rushing,25,-1200.0,,-1000.0,,-740.0,-650.0,-670.0,,-900.0,ESPNBET,-650.0,1.1538461538461537,1.1157666621845728,1.0341285440335928
-Green Bay Packers @ Dallas Cowboys,George Pickens,AnytimeTD,Anytime,150.0,148.0,140.0,145.0,145.0,,140.0,130.0,145.0,BetMGM,150.0,2.5,2.4185714285714286,1.0336680448907265
-New York Jets @ Miami Dolphins,Breece Hall,Rushing,50,-190.0,-200.0,,-182.0,-187.0,-190.0,-174.0,,-195.0,FanDuel,-174.0,1.5747126436781609,1.524943666584533,1.0326366004097036
+Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,AnytimeTD,Anytime,-140.0,-134.0,-139.0,-140.0,-130.0,,-140.0,-145.0,-145.0,DraftKings,-130.0,1.7692307692307692,1.7125515149761148,1.0330963791506411
+New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,50,-135.0,-117.0,,-127.0,-120.0,-120.0,,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.8099019673822827,1.0329649069862685
 Cincinnati Bengals @ Denver Broncos,Courtland Sutton,Receiving,25,-2500.0,,,,-1040.0,,-1400.0,,-1300.0,DraftKings,-1040.0,1.0961538461538463,1.0627838827838827,1.031398635141656
+New York Jets @ Miami Dolphins,De'Von Achane,Rushing,25,-2000.0,,,,-1140.0,-1200.0,-1400.0,,-950.0,HardRockBet,-950.0,1.1052631578947367,1.0731203007518797,1.0299527062532843
 Cincinnati Bengals @ Denver Broncos,Marvin Mims Jr.,Receiving,50,250.0,255.0,,245.0,262.0,260.0,265.0,,,FanDuel,265.0,3.65,3.5440000000000005,1.0299097065462752
 Cincinnati Bengals @ Denver Broncos,Ja'Marr Chase,Receiving,25,-2500.0,,,,-1080.0,,-1400.0,,-1400.0,DraftKings,-1080.0,1.0925925925925926,1.0609523809523809,1.0298224615998404
+New York Jets @ Miami Dolphins,Breece Hall,Rushing,50,-190.0,-200.0,,-182.0,-187.0,-190.0,-174.0,,-185.0,FanDuel,-174.0,1.5747126436781609,1.529563671204538,1.0295175502161789
 New York Jets @ Miami Dolphins,Justin Fields,Rushing,110,,,,,1300.0,,1260.0,,,DraftKings,1300.0,14.0,13.6,1.0294117647058825
-Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,AnytimeTD,Anytime,-140.0,-134.0,-139.0,-140.0,-130.0,,-140.0,-135.0,-145.0,DraftKings,-130.0,1.7692307692307692,1.7198494533085358,1.0287125805268809
+New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,25,-800.0,,,,-528.0,,,,-525.0,HardRockBet,-525.0,1.1904761904761905,1.1571969696969697,1.028758475566986
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Rushing,25,-3000.0,,,,-1740.0,-1400.0,-1100.0,,-1100.0,FanDuel,-1100.0,1.0909090909090908,1.0632855650097028,1.0259794046006219
-Green Bay Packers @ Dallas Cowboys,Tucker Kraft,Receiving,110,,,,,1040.0,1100.0,1100.0,,,ESPNBET,1100.0,12.0,11.7,1.0256410256410258
-New York Jets @ Miami Dolphins,Jaylen Waddle,Receiving,25,-800.0,,,,-553.0,,,,-550.0,HardRockBet,-550.0,1.1818181818181819,1.1529159132007232,1.0250688435180153
-New York Jets @ Miami Dolphins,Braelon Allen,AnytimeTD,Anytime,225.0,225.0,220.0,215.0,220.0,,220.0,200.0,220.0,BetMGM,225.0,3.25,3.1714285714285713,1.0247747747747749
-Green Bay Packers @ Dallas Cowboys,George Pickens,Receiving,25,-1400.0,,-1200.0,,-900.0,,-1000.0,,-1200.0,DraftKings,-900.0,1.1111111111111112,1.0845238095238094,1.0245151847786316
-New York Jets @ Miami Dolphins,De'Von Achane,AnytimeTD,Anytime,-135.0,-136.0,-139.0,-135.0,-130.0,,-135.0,-135.0,-145.0,DraftKings,-130.0,1.7692307692307692,1.7296195304936384,1.0229017064381931
-Green Bay Packers @ Dallas Cowboys,Tucker Kraft,Receiving,25,-500.0,,,,-414.0,,-460.0,,-425.0,DraftKings,-414.0,1.2415458937198067,1.2175618073316283,1.0196984549316155
-New York Jets @ Miami Dolphins,De'Von Achane,Rushing,25,-2000.0,,,,-1220.0,-1200.0,-1400.0,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,1.0716822794691647,1.0179407757394754
+New York Jets @ Miami Dolphins,De'Von Achane,AnytimeTD,Anytime,-135.0,-137.0,-139.0,-135.0,-130.0,,-135.0,-135.0,-145.0,DraftKings,-130.0,1.7692307692307692,1.7288528004439545,1.0233553537793652
 Cincinnati Bengals @ Denver Broncos,RJ Harvey,Rushing,25,-130.0,,,,,,,,-125.0,HardRockBet,-125.0,1.8,1.7692307692307692,1.0173913043478262
-New York Jets @ Miami Dolphins,De'Von Achane,Rushing,50,-175.0,-157.0,,-162.0,-158.0,-160.0,-154.0,,-155.0,FanDuel,-154.0,1.6493506493506493,1.6214546466554556,1.0172043064866072
-Green Bay Packers @ Dallas Cowboys,Tucker Kraft,AnytimeTD,Anytime,200.0,195.0,200.0,195.0,200.0,,200.0,190.0,195.0,BetMGM,200.0,3.0,2.9642857142857144,1.0120481927710843
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Rushing,25,,,,,,-4000.0,,,-7000.0,ESPNBET,-4000.0,1.025,1.0142857142857142,1.01056338028169
 New York Jets @ Miami Dolphins,Breece Hall,Rushing,25,-2500.0,,,,-1620.0,-1400.0,-1450.0,,-1400.0,ESPNBET,-1400.0,1.0714285714285714,1.0605306209329197,1.0102759413830644
 Cincinnati Bengals @ Denver Broncos,J.K. Dobbins,Rushing,25,,,,,-2300.0,-2000.0,,,-2000.0,ESPNBET,-2000.0,1.05,1.0467391304347826,1.003115264797508
-Green Bay Packers @ Dallas Cowboys,Dallas Cowboys D/ST,AnytimeTD,Anytime,550.0,,,,550.0,,,,,BetMGM,550.0,6.5,6.5,1.0
 Cincinnati Bengals @ Denver Broncos,Bo Nix,Rushing,80,,,,,2300.0,,,,,DraftKings,2300.0,24.0,,
 Cincinnati Bengals @ Denver Broncos,Chase Brown,Receiving,80,,,,,2600.0,,,,,DraftKings,2600.0,27.0,,
 Cincinnati Bengals @ Denver Broncos,Cincinnati Bengals Defense,AnytimeTD,Anytime,,,,,,,850.0,,,FanDuel,850.0,9.5,,
@@ -264,52 +181,17 @@ Cincinnati Bengals @ Denver Broncos,RJ Harvey,Receiving,25,,,,,,,,,200.0,HardRoc
 Cincinnati Bengals @ Denver Broncos,RJ Harvey,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
 Cincinnati Bengals @ Denver Broncos,RJ Harvey,Rushing,80,,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Cincinnati Bengals @ Denver Broncos,Trey Hendrickson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Colby Wooden,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Dak Prescott,Rushing,50,,,,,2700.0,,,,,DraftKings,2700.0,28.0,,
-Green Bay Packers @ Dallas Cowboys,Devonte Wyatt,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Donovan Wilson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Edgerrin Cooper,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Green Bay Packers @ Dallas Cowboys,Emanuel Wilson,Rushing,25,,,,,,,280.0,,,FanDuel,280.0,3.8,,
-Green Bay Packers @ Dallas Cowboys,Emanuel Wilson,Rushing,50,,,,,,,1200.0,,,FanDuel,1200.0,13.0,,
-Green Bay Packers @ Dallas Cowboys,Evan Williams,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
-Green Bay Packers @ Dallas Cowboys,Jack Sanborn,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Jalen Tolbert,Receiving,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
-Green Bay Packers @ Dallas Cowboys,Javon Bullard,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Green Bay Packers @ Dallas Cowboys,Javonte Williams,Receiving,80,,,,,3600.0,,,,,DraftKings,3600.0,37.0,,
-Green Bay Packers @ Dallas Cowboys,Jordan Love,Rushing,50,,,,,2200.0,,,,,DraftKings,2200.0,23.0,,
-Green Bay Packers @ Dallas Cowboys,Josh Jacobs,Receiving,80,,,,,3000.0,,,,,DraftKings,3000.0,31.0,,
-Green Bay Packers @ Dallas Cowboys,Juanyeh Thomas,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,Receiving,110,,,,,3600.0,,,,,DraftKings,3600.0,37.0,,
-Green Bay Packers @ Dallas Cowboys,KaVontae Turpin,Rushing,25,,,,,,,,,575.0,HardRockBet,575.0,6.75,,
-Green Bay Packers @ Dallas Cowboys,Kaiir Elam,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Keisean Nixon,AnytimeTD,Anytime,,,,,,,,,2500.0,HardRockBet,2500.0,26.0,,
-Green Bay Packers @ Dallas Cowboys,Kenneth Murray Jr.,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Kenny Clark,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Lukas Van Ness,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Luke Schoonmaker,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Green Bay Packers @ Dallas Cowboys,Malik Heath,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Green Bay Packers @ Dallas Cowboys,Malik Heath,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
-Green Bay Packers @ Dallas Cowboys,Malik Hooker,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Micah Parsons,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Miles Sanders,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Green Bay Packers @ Dallas Cowboys,Nate Hobbs,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Green Bay Packers @ Dallas Cowboys,No Scorer,AnytimeTD,Anytime,,,,,,,,5000.0,,Fanatics,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,No Touchdown,AnytimeTD,Anytime,8000.0,,,,,,,,,BetMGM,8000.0,81.0,,
-Green Bay Packers @ Dallas Cowboys,Osa Odighizuwa,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Quay Walker,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
-Green Bay Packers @ Dallas Cowboys,Rashan Gary,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Ryan Flournoy,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Green Bay Packers @ Dallas Cowboys,Sam Williams,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Solomon Thomas,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Green Bay Packers @ Dallas Cowboys,Xavier McKinney,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 New York Jets @ Miami Dolphins,Braelon Allen,Rushing,80,,,,,2900.0,,,,,DraftKings,2900.0,30.0,,
+New York Jets @ Miami Dolphins,Breece Hall,Receiving,80,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
 New York Jets @ Miami Dolphins,Darren Waller,Receiving,80,,,,,3800.0,,,,,DraftKings,3800.0,39.0,,
 New York Jets @ Miami Dolphins,De'Von Achane,Receiving,110,,,,,2800.0,,,,,DraftKings,2800.0,29.0,,
 New York Jets @ Miami Dolphins,Jack Jones,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 New York Jets @ Miami Dolphins,Jordyn Brooks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 New York Jets @ Miami Dolphins,Malik Washington,Rushing,50,,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+New York Jets @ Miami Dolphins,Mason Taylor,Receiving,80,,,,,1640.0,,,,,DraftKings,1640.0,17.4,,
 New York Jets @ Miami Dolphins,Minkah Fitzpatrick,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 New York Jets @ Miami Dolphins,New York Jets Defense,AnytimeTD,Anytime,,,,,,,750.0,,,FanDuel,750.0,8.5,,
 New York Jets @ Miami Dolphins,No Scorer,AnytimeTD,Anytime,,,,,,,,3500.0,,Fanatics,3500.0,36.0,,
 New York Jets @ Miami Dolphins,No Touchdown,AnytimeTD,Anytime,8000.0,,,,,,,,,BetMGM,8000.0,81.0,,
+New York Jets @ Miami Dolphins,Rasul Douglas,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 New York Jets @ Miami Dolphins,Tyrel Dodson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
