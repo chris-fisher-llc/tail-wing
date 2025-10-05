@@ -1,14 +1,2 @@
-normalized_player,bet_type,player,BetRivers_Odds,DraftKings_Odds,FanDuel_Odds,Fanatics_Odds,WilliamhillUs_Odds,value,value_book,value_odds,value_flag,GPT Value
-Aaron Judge,To Hit 1+ HR,Aaron Judge,650,650,500,580,625,1.104,DraftKings_Odds,650,TRUE,
-Alejandro Kirk,To Hit 1+ HR,Alejandro Kirk,1200,1800,1900,1400,,1.2955,FanDuel_Odds,1900,TRUE,
-Andres Gimenez,To Hit 1+ HR,Andres Gimenez,1900,2000,2000,2200,,1.1186,Fanatics_Odds,2200,TRUE,
-Anthony Volpe,To Hit 1+ HR,Anthony Volpe,1100,,,,,,BetRivers_Odds,1100,FALSE,
-Austin Wells,To Hit 1+ HR,Austin Wells,1050,1100,1100,900,1100,1.0602,FanDuel_Odds,1100,FALSE,
-Ben Rice,To Hit 1+ HR,Ben Rice,1100,800,1300,1600,1100,1.4884,Fanatics_Odds,1600,TRUE,
-Davis Schneider,To Hit 1+ HR,Davis Schneider,800,,,,,,BetRivers_Odds,800,FALSE,
-Giancarlo Stanton,To Hit 1+ HR,Giancarlo Stanton,800,900,950,1000,950,1.1111,Fanatics_Odds,1000,TRUE,
-Isiah Kiner-Falefa,To Hit 1+ HR,Isiah Kiner-Falefa,2200,,,5000,,2.2727,Fanatics_Odds,5000,TRUE,
-Jazz Chisholm Jr.,To Hit 1+ HR,Jazz Chisholm Jr.,1300,1500,1500,,,1.0714,FanDuel_Odds,1500,FALSE,
-Myles Straw,To Hit 1+ HR,Myles Straw,2200,2200,3300,2200,,1.5,FanDuel_Odds,3300,TRUE,
-Ryan McMahon,To Hit 1+ HR,Ryan McMahon,950,2200,,1700,,1.6604,DraftKings_Odds,2200,TRUE,
-Trent Grisham,To Hit 1+ HR,Trent Grisham,950,950,1200,1100,,1.2,FanDuel_Odds,1200,TRUE,
+normalized_player,bet_type,player,DraftKings_Odds,WilliamhillUs_Odds,value,value_book,value_odds,value_flag,GPT Value
+Giancarlo Stanton,To Hit 1+ HR,Giancarlo Stanton,3000,2700,1.1111,DraftKings_Odds,3000,TRUE,
