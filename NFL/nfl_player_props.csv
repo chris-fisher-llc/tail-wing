@@ -1,385 +1,370 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,betPARX,best_book,best_odds,best_decimal,avg_other,value_ratio
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,110,,,1100.0,,4600.0,,,,,,DraftKings,4600.0,47.0,12.0,3.9166666666666665
+Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,80,,,,,2700.0,,,,800.0,,DraftKings,2700.0,28.0,9.0,3.111111111111111
+Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,80,,,,,2600.0,,,,800.0,,DraftKings,2600.0,27.0,9.0,3.0
+Washington Commanders @ Los Angeles Chargers,Ben Sinnott,AnytimeTD,Anytime,1100.0,1600.0,1000.0,1000.0,950.0,,1200.0,1050.0,3000.0,1600.0,HardRockBet,3000.0,31.0,12.875,2.407766990291262
+Washington Commanders @ Los Angeles Chargers,Colson Yankoff,AnytimeTD,Anytime,3300.0,3000.0,1700.0,1800.0,1900.0,,1900.0,1600.0,5000.0,3000.0,HardRockBet,5000.0,51.0,23.75,2.1473684210526316
 Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,80,,,,,3300.0,,1500.0,,,,DraftKings,3300.0,34.0,16.0,2.125
-Detroit Lions @ Cincinnati Bengals,Tahj Brooks,AnytimeTD,Anytime,2800.0,1600.0,1400.0,1600.0,2000.0,,1900.0,1500.0,1000.0,1600.0,BetMGM,2800.0,29.0,16.75,1.7313432835820894
-Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,110,,,900.0,,1640.0,,920.0,,,,DraftKings,1640.0,17.4,10.1,1.7227722772277227
-Detroit Lions @ Cincinnati Bengals,Charlie Jones,AnytimeTD,Anytime,2500.0,1500.0,2800.0,2100.0,1900.0,,3300.0,1300.0,1400.0,1500.0,FanDuel,3300.0,34.0,19.75,1.7215189873417722
+Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Receiving,25,,,,,473.0,,,,200.0,,DraftKings,473.0,5.73,3.0,1.9100000000000001
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Rushing,50,,,,,3400.0,,,,1750.0,,DraftKings,3400.0,35.0,18.5,1.8918918918918919
+Detroit Lions @ Cincinnati Bengals,Jared Goff,AnytimeTD,Anytime,2000.0,950.0,900.0,1200.0,1700.0,,1100.0,1050.0,,950.0,BetMGM,2000.0,21.0,12.214285714285714,1.719298245614035
 New England Patriots @ Buffalo Bills,Jack Westover,AnytimeTD,Anytime,4500.0,1800.0,2800.0,2700.0,4000.0,,3000.0,2000.0,,1800.0,BetMGM,4500.0,46.0,26.857142857142858,1.7127659574468084
-Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,350,1100.0,,1300.0,,2400.0,1800.0,1260.0,,,,DraftKings,2400.0,25.0,14.65,1.706484641638225
 Kansas City Chiefs @ Jacksonville Jaguars,Nikko Remigio,AnytimeTD,Anytime,2800.0,1400.0,1600.0,1600.0,2200.0,,1600.0,1500.0,,1400.0,BetMGM,2800.0,29.0,17.142857142857142,1.6916666666666667
+Detroit Lions @ Cincinnati Bengals,Charlie Jones,AnytimeTD,Anytime,2500.0,1500.0,2500.0,2100.0,2000.0,,3300.0,1300.0,,1500.0,FanDuel,3300.0,34.0,20.142857142857142,1.6879432624113475
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,350,,,1600.0,,2800.0,,1700.0,,,,DraftKings,2800.0,29.0,17.5,1.6571428571428573
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,50,,,,,810.0,1400.0,,,,,ESPNBET,1400.0,15.0,9.1,1.6483516483516485
-Detroit Lions @ Cincinnati Bengals,Jared Goff,AnytimeTD,Anytime,2000.0,950.0,1000.0,1200.0,1700.0,,1100.0,900.0,1600.0,950.0,BetMGM,2000.0,21.0,12.75,1.6470588235294117
+Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,110,,,900.0,,1520.0,,920.0,,,,DraftKings,1520.0,16.2,10.1,1.603960396039604
+Detroit Lions @ Cincinnati Bengals,Tahj Brooks,AnytimeTD,Anytime,2800.0,1600.0,1600.0,1600.0,2200.0,,1900.0,1500.0,,1600.0,BetMGM,2800.0,29.0,18.142857142857142,1.5984251968503937
+Detroit Lions @ Cincinnati Bengals,Tanner Hudson,AnytimeTD,Anytime,3500.0,1300.0,2200.0,2500.0,3000.0,,2700.0,2200.0,,1300.0,BetMGM,3500.0,36.0,22.714285714285715,1.5849056603773584
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,50,,,,,850.0,1400.0,,,,,ESPNBET,1400.0,15.0,9.5,1.5789473684210527
+Washington Commanders @ Los Angeles Chargers,John Bates,AnytimeTD,Anytime,3300.0,2200.0,2200.0,2000.0,2200.0,,2200.0,2200.0,1300.0,2200.0,BetMGM,3300.0,34.0,21.625,1.5722543352601157
+Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,350,1100.0,,1300.0,,2200.0,1800.0,1260.0,,,,DraftKings,2200.0,23.0,14.65,1.5699658703071673
 Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Receiving,50,,,,,2200.0,3500.0,,,,,ESPNBET,3500.0,36.0,23.0,1.565217391304348
+Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,80,,,1200.0,,2200.0,1800.0,1700.0,,800.0,,DraftKings,2200.0,23.0,14.75,1.5593220338983051
 Kansas City Chiefs @ Jacksonville Jaguars,Cody Schrader,AnytimeTD,Anytime,,,1400.0,1400.0,2200.0,,1400.0,,,,DraftKings,2200.0,23.0,15.0,1.5333333333333334
-Detroit Lions @ Cincinnati Bengals,Tanner Hudson,AnytimeTD,Anytime,3500.0,1300.0,2200.0,2500.0,3000.0,,2700.0,2500.0,2500.0,1300.0,BetMGM,3500.0,36.0,23.5,1.5319148936170213
-Detroit Lions @ Cincinnati Bengals,Craig Reynolds,AnytimeTD,Anytime,1300.0,1700.0,2200.0,1900.0,1700.0,,2700.0,1050.0,2500.0,1700.0,FanDuel,2700.0,28.0,18.5625,1.5084175084175084
+New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,50,600.0,,,,940.0,1200.0,,,,,ESPNBET,1200.0,13.0,8.7,1.4942528735632186
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,80,,,1100.0,,1840.0,1300.0,1200.0,,,,DraftKings,1840.0,19.4,13.0,1.4923076923076921
 Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,AnytimeTD,Anytime,1700.0,1400.0,2500.0,1600.0,1600.0,,2500.0,1300.0,,1400.0,Bovada,2500.0,26.0,17.428571428571427,1.4918032786885247
-Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,340.0,,,950.0,590.0,750.0,750.0,,,,Caesars,950.0,10.5,7.075,1.4840989399293285
+Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,80,,,900.0,,1320.0,1500.0,900.0,,800.0,,ESPNBET,1500.0,16.0,10.8,1.4814814814814814
+Washington Commanders @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,2000.0,1150.0,1400.0,1500.0,1700.0,,1700.0,1300.0,2250.0,1150.0,HardRockBet,2250.0,23.5,15.875,1.4803149606299213
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,80,,,1100.0,,1720.0,1200.0,1100.0,,,,DraftKings,1720.0,18.2,12.333333333333334,1.4756756756756755
-Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,50,,,1100.0,,521.0,900.0,1280.0,,,,FanDuel,1280.0,13.8,9.403333333333334,1.4675646933711448
-Washington Commanders @ Los Angeles Chargers,John Bates,AnytimeTD,Anytime,3300.0,2400.0,2200.0,1900.0,2200.0,,2500.0,2000.0,,2400.0,BetMGM,3300.0,34.0,23.285714285714285,1.460122699386503
-Washington Commanders @ Los Angeles Chargers,Colson Yankoff,AnytimeTD,Anytime,3300.0,3000.0,1800.0,1900.0,2000.0,,2000.0,1900.0,,3000.0,BetMGM,3300.0,34.0,23.285714285714285,1.460122699386503
-Detroit Lions @ Cincinnati Bengals,Samaje Perine,AnytimeTD,Anytime,1200.0,650.0,825.0,850.0,1100.0,,950.0,740.0,600.0,650.0,BetMGM,1200.0,13.0,8.95625,1.451500348918353
+New England Patriots @ Buffalo Bills,DeMario Douglas,AnytimeTD,Anytime,1200.0,600.0,900.0,850.0,900.0,,900.0,740.0,,600.0,BetMGM,1200.0,13.0,8.842857142857143,1.4701130856219708
+Detroit Lions @ Cincinnati Bengals,Craig Reynolds,AnytimeTD,Anytime,1300.0,1700.0,2200.0,2200.0,2500.0,,2700.0,1050.0,,1700.0,FanDuel,2700.0,28.0,19.071428571428573,1.4681647940074904
 Kansas City Chiefs @ Jacksonville Jaguars,Robert Tonyan,AnytimeTD,Anytime,2200.0,1200.0,1700.0,1500.0,1800.0,,1700.0,1300.0,,1200.0,BetMGM,2200.0,23.0,15.857142857142858,1.4504504504504505
-Detroit Lions @ Cincinnati Bengals,Ross Dwelley,AnytimeTD,Anytime,2800.0,1700.0,2200.0,2000.0,2000.0,,2700.0,1900.0,1100.0,1700.0,BetMGM,2800.0,29.0,20.125,1.4409937888198758
-Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,80,,,1200.0,,2200.0,1800.0,1500.0,,,,DraftKings,2200.0,23.0,16.0,1.4375
 New England Patriots @ Buffalo Bills,Tyrell Shavers,AnytimeTD,Anytime,1500.0,750.0,1200.0,1100.0,1300.0,,1100.0,900.0,,750.0,BetMGM,1500.0,16.0,11.142857142857142,1.435897435897436
-Washington Commanders @ Los Angeles Chargers,Ben Sinnott,AnytimeTD,Anytime,1100.0,1600.0,1000.0,1000.0,950.0,,1100.0,900.0,,1600.0,BetRivers,1600.0,17.0,11.928571428571429,1.4251497005988023
-New England Patriots @ Buffalo Bills,DeMario Douglas,AnytimeTD,Anytime,1200.0,650.0,900.0,850.0,1000.0,,900.0,740.0,,650.0,BetMGM,1200.0,13.0,9.128571428571428,1.4241001564945228
-New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,50,600.0,,,,890.0,1100.0,,,,,ESPNBET,1100.0,12.0,8.45,1.4201183431952664
-Detroit Lions @ Cincinnati Bengals,Mike Gesicki,Receiving,50,650.0,,,,840.0,1100.0,,,,,ESPNBET,1100.0,12.0,8.45,1.4201183431952664
-Detroit Lions @ Cincinnati Bengals,Drew Sample,AnytimeTD,Anytime,2000.0,1000.0,1600.0,1500.0,1600.0,,1900.0,1300.0,1200.0,1000.0,BetMGM,2000.0,21.0,14.875,1.411764705882353
-Washington Commanders @ Los Angeles Chargers,Tay Martin,AnytimeTD,Anytime,,1600.0,,2100.0,,,2500.0,,,1600.0,FanDuel,2500.0,26.0,18.666666666666668,1.3928571428571428
-Washington Commanders @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,900.0,440.0,625.0,700.0,750.0,,700.0,700.0,,440.0,BetMGM,900.0,10.0,7.221428571428571,1.384767556874382
-Washington Commanders @ Los Angeles Chargers,Tucker Fisk,AnytimeTD,Anytime,3000.0,1800.0,2200.0,2200.0,2500.0,,2700.0,1800.0,,1800.0,BetMGM,3000.0,31.0,22.428571428571427,1.3821656050955415
+Washington Commanders @ Los Angeles Chargers,Tucker Fisk,AnytimeTD,Anytime,3000.0,1800.0,2200.0,2200.0,2500.0,,2700.0,1800.0,1500.0,1800.0,BetMGM,3000.0,31.0,21.625,1.4335260115606936
+Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,50,,,1100.0,,521.0,900.0,1260.0,,900.0,,FanDuel,1260.0,13.6,9.5525,1.4237110704004188
+Detroit Lions @ Cincinnati Bengals,Samaje Perine,AnytimeTD,Anytime,1200.0,650.0,825.0,850.0,1100.0,,950.0,740.0,,650.0,BetMGM,1200.0,13.0,9.235714285714286,1.4075792730085073
+Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,80,,,850.0,,1240.0,900.0,920.0,,1400.0,,HardRockBet,1400.0,15.0,10.774999999999999,1.392111368909513
+Washington Commanders @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,900.0,430.0,625.0,675.0,750.0,,700.0,660.0,700.0,430.0,BetMGM,900.0,10.0,7.2125,1.386481802426343
 New England Patriots @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,1400.0,950.0,1000.0,1000.0,1200.0,,1000.0,800.0,,950.0,BetMGM,1400.0,15.0,10.857142857142858,1.381578947368421
 New England Patriots @ Buffalo Bills,Austin Hooper,AnytimeTD,Anytime,950.0,460.0,800.0,700.0,800.0,,800.0,600.0,,460.0,BetMGM,950.0,10.5,7.6000000000000005,1.381578947368421
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,110,,,500.0,600.0,780.0,,520.0,,,,DraftKings,780.0,8.8,6.3999999999999995,1.3750000000000002
 New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,50,,,,,920.0,,1300.0,,,,FanDuel,1300.0,14.0,10.2,1.3725490196078431
-Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,80,,,900.0,,1320.0,1500.0,1000.0,,,,ESPNBET,1500.0,16.0,11.733333333333334,1.3636363636363635
-Detroit Lions @ Cincinnati Bengals,Jake Browning,AnytimeTD,Anytime,900.0,650.0,700.0,700.0,1000.0,,750.0,660.0,700.0,650.0,DraftKings,1000.0,11.0,8.1375,1.3517665130568357
+Detroit Lions @ Cincinnati Bengals,Drew Sample,AnytimeTD,Anytime,2000.0,1000.0,1600.0,1500.0,1800.0,,1900.0,1300.0,,1000.0,BetMGM,2000.0,21.0,15.428571428571429,1.3611111111111112
+Detroit Lions @ Cincinnati Bengals,Ross Dwelley,AnytimeTD,Anytime,2800.0,1600.0,2500.0,2000.0,2000.0,,2700.0,1900.0,,1600.0,BetMGM,2800.0,29.0,21.428571428571427,1.3533333333333335
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,80,,,,,1140.0,1400.0,880.0,,,,ESPNBET,1400.0,15.0,11.100000000000001,1.351351351351351
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Rushing,25,,,,,980.0,700.0,,,,,DraftKings,980.0,10.8,8.0,1.35
-Detroit Lions @ Cincinnati Bengals,Mitchell Tinsley,AnytimeTD,Anytime,,1300.0,1600.0,1500.0,1500.0,,1800.0,1200.0,2000.0,1300.0,HardRockBet,2000.0,21.0,15.571428571428571,1.3486238532110093
-Washington Commanders @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,2000.0,1150.0,1400.0,1600.0,1700.0,,1600.0,1700.0,,1150.0,BetMGM,2000.0,21.0,15.714285714285714,1.3363636363636364
-Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,300,425.0,,525.0,425.0,630.0,425.0,450.0,,,,DraftKings,630.0,7.3,5.5,1.3272727272727272
+Detroit Lions @ Cincinnati Bengals,Jake Browning,AnytimeTD,Anytime,900.0,650.0,700.0,700.0,1000.0,,750.0,660.0,,650.0,DraftKings,1000.0,11.0,8.157142857142857,1.3485113835376534
+Washington Commanders @ Los Angeles Chargers,Tay Martin,AnytimeTD,Anytime,,1500.0,,2100.0,,,2500.0,,2250.0,1500.0,FanDuel,2500.0,26.0,19.375,1.3419354838709678
+New England Patriots @ Buffalo Bills,Kyle Williams,AnytimeTD,Anytime,2000.0,1050.0,1800.0,1600.0,1600.0,,1800.0,,,1050.0,BetMGM,2000.0,21.0,15.833333333333334,1.3263157894736841
 Detroit Lions @ Cincinnati Bengals,Jake Browning,Rushing,25,,,475.0,,490.0,500.0,680.0,,,,FanDuel,680.0,7.8,5.883333333333333,1.3257790368271956
-New England Patriots @ Buffalo Bills,Kyle Williams,AnytimeTD,Anytime,2000.0,1100.0,1800.0,1600.0,1600.0,,1800.0,,,1100.0,BetMGM,2000.0,21.0,16.0,1.3125
+Detroit Lions @ Cincinnati Bengals,Mike Gesicki,Receiving,50,650.0,,,,810.0,1000.0,,,,,ESPNBET,1000.0,11.0,8.3,1.325301204819277
+Detroit Lions @ Cincinnati Bengals,Mike Gesicki,AnytimeTD,Anytime,700.0,475.0,500.0,525.0,550.0,,550.0,500.0,,475.0,BetMGM,700.0,8.0,6.107142857142857,1.3099415204678364
 Kansas City Chiefs @ Jacksonville Jaguars,Jared Wiley,AnytimeTD,Anytime,2200.0,,1700.0,1600.0,1800.0,,1700.0,1500.0,,,BetMGM,2200.0,23.0,17.6,1.3068181818181817
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,50,,,,900.0,670.0,750.0,580.0,,,,Caesars,900.0,10.0,7.666666666666667,1.3043478260869565
 Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,110,,,850.0,,1180.0,900.0,900.0,,,,DraftKings,1180.0,12.8,9.833333333333334,1.3016949152542372
-Detroit Lions @ Cincinnati Bengals,Mike Gesicki,AnytimeTD,Anytime,700.0,480.0,500.0,525.0,550.0,,550.0,500.0,550.0,480.0,BetMGM,700.0,8.0,6.16875,1.2968591691995948
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,110,,,1100.0,,1660.0,1400.0,1280.0,,,,DraftKings,1660.0,17.6,13.6,1.2941176470588236
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,50,,,,,1680.0,2200.0,,,,,ESPNBET,2200.0,23.0,17.8,1.2921348314606742
-Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,110,,,425.0,325.0,303.0,350.0,480.0,,,,FanDuel,480.0,5.8,4.5075,1.2867443150305047
-Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,AnytimeTD,Anytime,1000.0,800.0,900.0,800.0,1100.0,,1000.0,800.0,600.0,800.0,DraftKings,1100.0,12.0,9.375,1.28
+Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,300,400.0,,525.0,400.0,597.0,425.0,450.0,,,,DraftKings,597.0,6.97,5.4,1.2907407407407405
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,AnytimeTD,Anytime,750.0,575.0,525.0,550.0,650.0,,550.0,530.0,,575.0,BetMGM,750.0,8.5,6.6499999999999995,1.2781954887218046
-Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,80,,,850.0,,1240.0,1000.0,1000.0,,,,DraftKings,1240.0,13.4,10.5,1.2761904761904763
+New England Patriots @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,850.0,550.0,900.0,700.0,700.0,,850.0,600.0,,550.0,Bovada,900.0,10.0,7.857142857142857,1.2727272727272727
+Detroit Lions @ Cincinnati Bengals,Mitchell Tinsley,AnytimeTD,Anytime,,1300.0,1600.0,1500.0,1500.0,,1800.0,1200.0,,1300.0,FanDuel,1800.0,19.0,15.0,1.2666666666666666
 New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,25,,,,,224.0,,310.0,,,,FanDuel,310.0,4.1,3.24,1.265432098765432
-New England Patriots @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,850.0,550.0,900.0,700.0,750.0,,850.0,600.0,,550.0,Bovada,900.0,10.0,7.928571428571429,1.2612612612612613
-Detroit Lions @ Cincinnati Bengals,Detroit Lions D/ST,AnytimeTD,Anytime,625.0,,,,500.0,,,450.0,,,BetMGM,625.0,7.25,5.75,1.2608695652173914
 New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,25,,,,,202.0,,280.0,,,,FanDuel,280.0,3.8,3.02,1.2582781456953642
 Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,50,,,,,830.0,650.0,630.0,,,,DraftKings,830.0,9.3,7.4,1.2567567567567568
 Kansas City Chiefs @ Jacksonville Jaguars,Johnny Mundt,AnytimeTD,Anytime,2000.0,1400.0,1800.0,1600.0,1700.0,,1800.0,1300.0,,1400.0,BetMGM,2000.0,21.0,16.714285714285715,1.2564102564102564
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Receiving,50,650.0,,,500.0,507.0,500.0,,,,,BetMGM,650.0,7.5,6.023333333333333,1.2451577199778638
+New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,50,,,,,1580.0,2000.0,,,,,ESPNBET,2000.0,21.0,16.8,1.25
+Detroit Lions @ Cincinnati Bengals,Brock Wright,AnytimeTD,Anytime,1200.0,1600.0,1200.0,1200.0,1200.0,,1400.0,1050.0,,1600.0,BetRivers,1600.0,17.0,13.642857142857142,1.2460732984293195
 New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,50,,,,,584.0,750.0,,,,,ESPNBET,750.0,8.5,6.84,1.2426900584795322
 Kansas City Chiefs @ Jacksonville Jaguars,Tim Patrick,AnytimeTD,Anytime,1400.0,800.0,1400.0,1100.0,1200.0,,1400.0,1050.0,,800.0,BetMGM,1400.0,15.0,12.071428571428571,1.2426035502958581
-New England Patriots @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,1300.0,950.0,1200.0,1000.0,1100.0,,1100.0,900.0,,950.0,BetMGM,1300.0,14.0,11.285714285714286,1.240506329113924
+Washington Commanders @ Los Angeles Chargers,Scott Matlock,AnytimeTD,Anytime,,3000.0,4000.0,3000.0,,,4000.0,,3000.0,3000.0,Bovada,4000.0,41.0,33.0,1.2424242424242424
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,300,525.0,,625.0,575.0,770.0,650.0,640.0,,,,DraftKings,770.0,8.7,7.029999999999999,1.2375533428165006
 New England Patriots @ Buffalo Bills,Josh Allen,Passing,350,1150.0,,1200.0,,1480.0,1600.0,1280.0,,,,ESPNBET,1600.0,17.0,13.774999999999999,1.2341197822141563
-Washington Commanders @ Los Angeles Chargers,Scott Matlock,AnytimeTD,Anytime,,3300.0,3300.0,3000.0,,,4000.0,,,3300.0,FanDuel,4000.0,41.0,33.25,1.2330827067669172
+New England Patriots @ Buffalo Bills,Antonio Gibson,AnytimeTD,Anytime,600.0,510.0,440.0,420.0,550.0,,450.0,400.0,,510.0,BetMGM,600.0,7.0,5.685714285714286,1.2311557788944723
 Detroit Lions @ Cincinnati Bengals,Jared Goff,Passing,350,950.0,,1000.0,1000.0,1340.0,1300.0,1100.0,,,,DraftKings,1340.0,14.4,11.7,1.2307692307692308
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,350,1250.0,,1200.0,,1540.0,,1260.0,,,,DraftKings,1540.0,16.4,13.366666666666667,1.2269326683291768
-New England Patriots @ Buffalo Bills,Antonio Gibson,AnytimeTD,Anytime,600.0,525.0,440.0,420.0,550.0,,450.0,400.0,,525.0,BetMGM,600.0,7.0,5.728571428571429,1.2219451371571073
-Detroit Lions @ Cincinnati Bengals,Jacob Saylors,AnytimeTD,Anytime,,2000.0,2200.0,2000.0,2500.0,,2500.0,1900.0,1600.0,2000.0,DraftKings,2500.0,26.0,21.285714285714285,1.221476510067114
-Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,110,,,850.0,,510.0,,850.0,,,,Bovada,850.0,9.5,7.8,1.217948717948718
+Washington Commanders @ Los Angeles Chargers,Zach Ertz,AnytimeTD,Anytime,230.0,180.0,220.0,215.0,205.0,,220.0,190.0,275.0,180.0,HardRockBet,275.0,3.75,3.05,1.2295081967213115
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Receiving,50,625.0,,,500.0,492.0,500.0,,,475.0,,BetMGM,625.0,7.25,5.9175,1.2251795521757498
+New England Patriots @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,1300.0,950.0,1200.0,1000.0,1200.0,,1100.0,900.0,,950.0,BetMGM,1300.0,14.0,11.428571428571429,1.2249999999999999
+Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,340.0,,,675.0,572.0,650.0,630.0,,475.0,,Caesars,675.0,7.75,6.3340000000000005,1.2235554152194505
+Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,80,,,625.0,600.0,519.0,600.0,630.0,,750.0,,HardRockBet,750.0,8.5,6.948,1.2233736327000575
+Detroit Lions @ Cincinnati Bengals,Jared Goff,Passing,300,333.0,450.0,350.0,275.0,387.0,300.0,370.0,,,450.0,BetRivers,450.0,5.5,4.521428571428571,1.216429699842022
 New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,25,150.0,,,,204.0,,,,,,DraftKings,204.0,3.04,2.5,1.216
 Kansas City Chiefs @ Jacksonville Jaguars,Jalen Royals,AnytimeTD,Anytime,1600.0,800.0,1600.0,1500.0,1500.0,,1600.0,1300.0,,800.0,BetMGM,1600.0,17.0,14.0,1.2142857142857142
-Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,110,,,500.0,305.0,453.0,400.0,420.0,,,,Bovada,500.0,6.0,4.945,1.2133468149646107
 New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,80,,,,,1900.0,1600.0,1500.0,,,,DraftKings,1900.0,20.0,16.5,1.2121212121212122
+Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,50,400.0,430.0,375.0,575.0,501.0,550.0,520.0,,450.0,430.0,Caesars,575.0,6.75,5.57,1.2118491921005385
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,110,,,575.0,500.0,680.0,550.0,550.0,,,,DraftKings,680.0,7.8,6.4375,1.2116504854368932
+Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,110,,450.0,425.0,320.0,303.0,325.0,480.0,,,450.0,FanDuel,480.0,5.8,4.788333333333333,1.211277410372433
 Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,110,,,,,2200.0,1800.0,,,,,DraftKings,2200.0,23.0,19.0,1.2105263157894737
-New England Patriots @ Buffalo Bills,James Cook,Receiving,50,750.0,,,,620.0,850.0,,,,,ESPNBET,850.0,9.5,7.85,1.2101910828025477
+Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Receiving,50,340.0,440.0,300.0,315.0,355.0,325.0,350.0,,,440.0,BetRivers,440.0,5.4,4.464285714285714,1.2096
+Detroit Lions @ Cincinnati Bengals,Detroit Lions D/ST,AnytimeTD,Anytime,625.0,,,,550.0,,,450.0,,,BetMGM,625.0,7.25,6.0,1.2083333333333333
 Kansas City Chiefs @ Jacksonville Jaguars,Elijah Mitchell,AnytimeTD,Anytime,2800.0,2800.0,,,2000.0,,,1600.0,,2800.0,BetMGM,2800.0,29.0,24.0,1.2083333333333333
 Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,80,,325.0,250.0,230.0,211.0,225.0,270.0,,,325.0,BetRivers,325.0,4.25,3.518333333333333,1.2079583135954526
-Washington Commanders @ Los Angeles Chargers,Washington Commanders D/ST,AnytimeTD,Anytime,650.0,,725.0,,600.0,,,500.0,,,Bovada,725.0,8.25,6.833333333333333,1.2073170731707317
-Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,80,,,600.0,525.0,511.0,550.0,680.0,,,,FanDuel,680.0,7.8,6.465,1.2064965197215778
 New England Patriots @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,4000.0,,4000.0,3000.0,3500.0,,4000.0,2000.0,,,BetMGM,4000.0,41.0,34.0,1.2058823529411764
-Washington Commanders @ Los Angeles Chargers,Tre Harris,AnytimeTD,Anytime,1100.0,750.0,1000.0,1100.0,1200.0,,1100.0,1050.0,,750.0,DraftKings,1200.0,13.0,10.785714285714286,1.205298013245033
-Detroit Lions @ Cincinnati Bengals,Jared Goff,Passing,300,333.0,440.0,350.0,275.0,373.0,300.0,370.0,,,440.0,BetRivers,440.0,5.4,4.4871428571428575,1.2034383954154728
-Detroit Lions @ Cincinnati Bengals,Brock Wright,AnytimeTD,Anytime,1200.0,1500.0,1200.0,1200.0,1200.0,,1400.0,1050.0,1100.0,1500.0,BetRivers,1500.0,16.0,13.3125,1.2018779342723005
+Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,110,,,850.0,,531.0,,850.0,,,,Bovada,850.0,9.5,7.904999999999999,1.2017710309930425
 Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,110,,,600.0,600.0,750.0,650.0,580.0,,,,DraftKings,750.0,8.5,7.075,1.2014134275618373
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,50,210.0,310.0,250.0,220.0,232.0,225.0,250.0,,,310.0,BetRivers,310.0,4.1,3.424285714285714,1.1973299958281185
-Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Receiving,50,360.0,440.0,300.0,315.0,374.0,325.0,350.0,,,440.0,BetRivers,440.0,5.4,4.5200000000000005,1.1946902654867255
-Washington Commanders @ Los Angeles Chargers,Hassan Haskins,AnytimeTD,Anytime,,600.0,725.0,750.0,800.0,,850.0,700.0,,600.0,FanDuel,850.0,9.5,7.958333333333333,1.1937172774869111
-Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-120.0,,,,129.0,,146.0,,,,FanDuel,146.0,2.46,2.0616666666666665,1.1932093775262733
 Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,80,,,900.0,,1220.0,1200.0,920.0,,,,DraftKings,1220.0,13.2,11.066666666666668,1.1927710843373491
-Washington Commanders @ Los Angeles Chargers,Jeremy McNichols,AnytimeTD,Anytime,600.0,525.0,440.0,475.0,500.0,,500.0,450.0,,525.0,BetMGM,600.0,7.0,5.878571428571428,1.1907654921020656
-Washington Commanders @ Los Angeles Chargers,Chris Moore,AnytimeTD,Anytime,,275.0,400.0,400.0,450.0,,430.0,400.0,,275.0,DraftKings,450.0,5.5,4.633333333333334,1.1870503597122302
+Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,50,360.0,430.0,300.0,330.0,343.0,325.0,350.0,,325.0,430.0,BetRivers,430.0,5.3,4.453749999999999,1.1900084198708953
+New England Patriots @ Buffalo Bills,James Cook,Receiving,50,750.0,,,,650.0,850.0,,,,,ESPNBET,850.0,9.5,8.0,1.1875
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,AnytimeTD,Anytime,300.0,235.0,240.0,240.0,270.0,,240.0,250.0,185.0,235.0,BetMGM,300.0,4.0,3.3687500000000004,1.1873840445269015
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,110,,,1400.0,,1740.0,,1500.0,,,,DraftKings,1740.0,18.4,15.5,1.1870967741935483
 Detroit Lions @ Cincinnati Bengals,Cincinnati Bengals D/ST,AnytimeTD,Anytime,700.0,,,,600.0,,,550.0,,,BetMGM,700.0,8.0,6.75,1.1851851851851851
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,80,,,900.0,,920.0,1100.0,920.0,,,,ESPNBET,1100.0,12.0,10.133333333333333,1.1842105263157896
-Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,50,360.0,440.0,300.0,330.0,343.0,350.0,370.0,,,440.0,BetRivers,440.0,5.4,4.561428571428571,1.1838396492326966
+Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,AnytimeTD,Anytime,450.0,300.0,400.0,390.0,425.0,,430.0,295.0,375.0,300.0,BetMGM,450.0,5.5,4.64375,1.1843876177658144
 Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,50,,,,,810.0,900.0,680.0,,,,ESPNBET,900.0,10.0,8.45,1.183431952662722
+Washington Commanders @ Los Angeles Chargers,Chris Moore,AnytimeTD,Anytime,,270.0,400.0,400.0,450.0,,440.0,400.0,375.0,270.0,DraftKings,450.0,5.5,4.65,1.182795698924731
+Detroit Lions @ Cincinnati Bengals,Jacob Saylors,AnytimeTD,Anytime,,2000.0,2200.0,2000.0,2500.0,,2500.0,1900.0,,2000.0,DraftKings,2500.0,26.0,22.0,1.1818181818181819
 Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,470.0,,,BetMGM,650.0,7.5,6.35,1.1811023622047245
-Detroit Lions @ Cincinnati Bengals,Dominic Lovett,AnytimeTD,Anytime,,1600.0,1600.0,1750.0,1800.0,,1900.0,1500.0,2000.0,1600.0,HardRockBet,2000.0,21.0,17.785714285714285,1.180722891566265
-New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,50,,,,,1680.0,2000.0,,,,,ESPNBET,2000.0,21.0,17.8,1.1797752808988764
 New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,80,,,850.0,,1060.0,900.0,900.0,,,,DraftKings,1060.0,11.6,9.833333333333334,1.1796610169491524
-Detroit Lions @ Cincinnati Bengals,Kalif Raymond,AnytimeTD,Anytime,850.0,750.0,625.0,675.0,800.0,,750.0,800.0,500.0,750.0,BetMGM,850.0,9.5,8.0625,1.178294573643411
-Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,AnytimeTD,Anytime,450.0,310.0,400.0,390.0,425.0,,430.0,305.0,,310.0,BetMGM,450.0,5.5,4.671428571428572,1.1773700305810397
-Detroit Lions @ Cincinnati Bengals,Isaac TeSlaa,AnytimeTD,Anytime,800.0,850.0,825.0,800.0,950.0,,900.0,700.0,650.0,850.0,DraftKings,950.0,10.5,8.96875,1.170731707317073
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,50,210.0,300.0,250.0,220.0,232.0,225.0,250.0,,,300.0,BetRivers,300.0,4.0,3.41,1.1730205278592374
+Washington Commanders @ Los Angeles Chargers,Washington Commanders D/ST,AnytimeTD,Anytime,650.0,,700.0,,600.0,,,500.0,,,Bovada,700.0,8.0,6.833333333333333,1.1707317073170733
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,50,320.0,400.0,300.0,305.0,345.0,300.0,320.0,,,400.0,BetRivers,400.0,5.0,4.271428571428571,1.1705685618729098
-Washington Commanders @ Los Angeles Chargers,Jaylin Lane,AnytimeTD,Anytime,550.0,380.0,500.0,500.0,500.0,,550.0,380.0,,380.0,BetMGM,550.0,6.5,5.557142857142857,1.1696658097686377
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,110,,,1200.0,,1420.0,,1200.0,,,,DraftKings,1420.0,15.2,13.0,1.169230769230769
+Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,80,,,600.0,525.0,542.0,600.0,680.0,,,,FanDuel,680.0,7.8,6.6675,1.169853768278965
+Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,110,,440.0,500.0,325.0,453.0,400.0,420.0,,,440.0,Bovada,500.0,6.0,5.13,1.1695906432748537
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,AnytimeTD,Anytime,290.0,300.0,350.0,310.0,280.0,,370.0,285.0,,300.0,FanDuel,370.0,4.7,4.021428571428571,1.1687388987566607
+Washington Commanders @ Los Angeles Chargers,Tre Harris,AnytimeTD,Anytime,1100.0,750.0,1000.0,1100.0,1200.0,,1100.0,1200.0,1100.0,750.0,DraftKings,1200.0,13.0,11.125,1.1685393258426966
 Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,AnytimeTD,Anytime,450.0,310.0,400.0,380.0,425.0,,410.0,360.0,,310.0,BetMGM,450.0,5.5,4.707142857142857,1.1684370257966616
-Detroit Lions @ Cincinnati Bengals,Mike Gesicki,Receiving,25,145.0,,,,186.0,,,,,,DraftKings,186.0,2.8600000000000003,2.45,1.1673469387755102
 Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,110,,,,,1700.0,2000.0,,,,,ESPNBET,2000.0,21.0,18.0,1.1666666666666667
+New England Patriots @ Buffalo Bills,Mack Hollins,AnytimeTD,Anytime,800.0,700.0,700.0,650.0,700.0,,700.0,550.0,,700.0,BetMGM,800.0,9.0,7.714285714285714,1.1666666666666667
 New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,110,,,1200.0,,1060.0,1400.0,1300.0,,,,ESPNBET,1400.0,15.0,12.866666666666667,1.16580310880829
-Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,110,,,1600.0,,1820.0,2000.0,1700.0,,,,ESPNBET,2000.0,21.0,18.066666666666666,1.1623616236162362
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,300,525.0,,450.0,375.0,457.0,450.0,450.0,,,,BetMGM,525.0,6.25,5.364,1.1651752423564505
+Washington Commanders @ Los Angeles Chargers,Jeremy McNichols,AnytimeTD,Anytime,600.0,510.0,440.0,500.0,550.0,,500.0,450.0,550.0,510.0,BetMGM,600.0,7.0,6.0125,1.1642411642411643
+Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,25,,,220.0,,158.0,165.0,225.0,,175.0,,FanDuel,225.0,3.25,2.795,1.1627906976744187
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,25,,,400.0,,319.0,350.0,430.0,,,,FanDuel,430.0,5.3,4.5633333333333335,1.1614317019722424
-Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,50,250.0,330.0,220.0,250.0,289.0,275.0,280.0,,,330.0,BetRivers,330.0,4.3,3.705714285714286,1.1603700848111025
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,300,525.0,,450.0,375.0,473.0,450.0,450.0,,,,BetMGM,525.0,6.25,5.396,1.1582653817642699
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Rushing,25,,,,,545.0,550.0,,,375.0,,ESPNBET,550.0,6.5,5.6,1.1607142857142858
+Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,110,,,1600.0,,1820.0,2000.0,,,,,ESPNBET,2000.0,21.0,18.1,1.160220994475138
 New England Patriots @ Buffalo Bills,James Cook,Rushing,110,,,300.0,320.0,398.0,,370.0,,,,DraftKings,398.0,4.98,4.3,1.1581395348837211
 Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,AnytimeTD,Anytime,500.0,400.0,400.0,420.0,450.0,,440.0,420.0,,400.0,BetMGM,500.0,6.0,5.185714285714285,1.15702479338843
-Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,25,,,220.0,,158.0,165.0,225.0,,,,FanDuel,225.0,3.25,2.81,1.1565836298932384
-New England Patriots @ Buffalo Bills,Mack Hollins,AnytimeTD,Anytime,800.0,700.0,700.0,650.0,750.0,,700.0,550.0,,700.0,BetMGM,800.0,9.0,7.785714285714286,1.1559633027522935
-New England Patriots @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,500.0,380.0,440.0,420.0,450.0,,490.0,380.0,,380.0,BetMGM,500.0,6.0,5.2,1.1538461538461537
+Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,425.0,310.0,350.0,370.0,380.0,,390.0,345.0,375.0,310.0,BetMGM,425.0,5.25,4.5375000000000005,1.1570247933884297
 Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,500.0,,,BetMGM,650.0,7.5,6.5,1.1538461538461537
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,110,,,,,2900.0,2500.0,,,,,DraftKings,2900.0,30.0,26.0,1.1538461538461537
-Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,50,400.0,450.0,375.0,550.0,501.0,550.0,520.0,,,450.0,Caesars,550.0,6.5,5.637142857142857,1.153066396350735
-Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,425.0,320.0,350.0,370.0,380.0,,390.0,360.0,,320.0,BetMGM,425.0,5.25,4.557142857142858,1.1520376175548588
+Washington Commanders @ Los Angeles Chargers,Jaylin Lane,AnytimeTD,Anytime,550.0,380.0,500.0,500.0,500.0,,550.0,400.0,500.0,380.0,BetMGM,550.0,6.5,5.6375,1.1529933481152992
 New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,50,,,,,820.0,700.0,,,,,DraftKings,820.0,9.2,8.0,1.15
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,80,,,1200.0,,1540.0,1600.0,1400.0,,,,ESPNBET,1600.0,17.0,14.799999999999999,1.1486486486486487
+New England Patriots @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,500.0,375.0,440.0,420.0,475.0,,490.0,380.0,,375.0,BetMGM,500.0,6.0,5.221428571428571,1.1491108071135432
 Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,110,,,600.0,650.0,610.0,700.0,750.0,,,,FanDuel,750.0,8.5,7.4,1.1486486486486487
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,80,,,1200.0,,1540.0,1600.0,1400.0,,,,ESPNBET,1600.0,17.0,14.799999999999999,1.1486486486486487
+Detroit Lions @ Cincinnati Bengals,Isaac TeSlaa,AnytimeTD,Anytime,800.0,850.0,800.0,800.0,950.0,,900.0,700.0,,850.0,DraftKings,950.0,10.5,9.142857142857142,1.1484375
+Detroit Lions @ Cincinnati Bengals,Dominic Lovett,AnytimeTD,Anytime,,1600.0,1600.0,1750.0,1800.0,,1900.0,1500.0,,1600.0,FanDuel,1900.0,20.0,17.416666666666668,1.1483253588516746
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,AnytimeTD,Anytime,300.0,220.0,260.0,250.0,290.0,,260.0,240.0,,220.0,BetMGM,300.0,4.0,3.4857142857142853,1.1475409836065575
+Washington Commanders @ Los Angeles Chargers,Hassan Haskins,AnytimeTD,Anytime,,600.0,700.0,700.0,800.0,,750.0,740.0,700.0,600.0,DraftKings,800.0,9.0,7.8428571428571425,1.1475409836065573
+Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,80,,310.0,300.0,290.0,371.0,325.0,330.0,,,310.0,DraftKings,371.0,4.71,4.108333333333333,1.1464503042596348
+Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,110,,,350.0,285.0,380.0,400.0,420.0,,,,FanDuel,420.0,5.2,4.5375,1.1460055096418733
 Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,50,,,,,1140.0,1400.0,1280.0,,,,ESPNBET,1400.0,15.0,13.100000000000001,1.1450381679389312
-Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,80,,310.0,300.0,295.0,371.0,325.0,330.0,,,310.0,DraftKings,371.0,4.71,4.116666666666667,1.1441295546558703
-Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,110,,450.0,350.0,285.0,380.0,400.0,420.0,,,450.0,BetRivers,450.0,5.5,4.808333333333333,1.1438474870017332
+Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,AnytimeTD,Anytime,1000.0,800.0,825.0,800.0,1000.0,,1000.0,800.0,,800.0,BetMGM,1000.0,11.0,9.607142857142858,1.1449814126394051
+Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,80,,250.0,220.0,215.0,235.0,250.0,285.0,,,250.0,FanDuel,285.0,3.85,3.3666666666666667,1.1435643564356435
 Detroit Lions @ Cincinnati Bengals,Noah Fant,Receiving,50,375.0,,,525.0,437.0,550.0,540.0,,,,ESPNBET,550.0,6.5,5.692500000000001,1.141853315766359
-Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,80,,250.0,220.0,220.0,235.0,250.0,285.0,,,250.0,FanDuel,285.0,3.85,3.375,1.1407407407407408
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,AnytimeTD,Anytime,300.0,235.0,260.0,250.0,270.0,,260.0,250.0,,235.0,BetMGM,300.0,4.0,3.5142857142857147,1.1382113821138211
-Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,80,,,1000.0,,1380.0,1400.0,1280.0,,,,ESPNBET,1400.0,15.0,13.200000000000001,1.1363636363636362
+Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,AnytimeTD,Anytime,310.0,260.0,275.0,270.0,320.0,,290.0,285.0,200.0,260.0,DraftKings,320.0,4.2,3.6875,1.1389830508474577
+Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,80,,,1000.0,,1380.0,1300.0,1200.0,,1300.0,,DraftKings,1380.0,14.8,13.0,1.1384615384615384
+Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,80,,195.0,220.0,175.0,187.0,200.0,240.0,,220.0,195.0,FanDuel,240.0,3.4,2.9885714285714284,1.1376673040152965
+Detroit Lions @ Cincinnati Bengals,Mike Gesicki,Receiving,25,140.0,,,,173.0,,,,,,DraftKings,173.0,2.73,2.4,1.1375
+Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-120.0,,,,129.0,,134.0,,105.0,,FanDuel,134.0,2.34,2.0577777777777775,1.1371490280777539
 Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,AnytimeTD,Anytime,600.0,650.0,525.0,500.0,550.0,,550.0,550.0,,650.0,BetRivers,650.0,7.5,6.607142857142857,1.1351351351351353
-Detroit Lions @ Cincinnati Bengals,Isaac TeSlaa,Receiving,25,,,,,288.0,,340.0,,,,FanDuel,340.0,4.4,3.88,1.1340206185567012
 Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,AnytimeTD,Anytime,450.0,370.0,400.0,400.0,400.0,,400.0,360.0,,370.0,BetMGM,450.0,5.5,4.857142857142857,1.1323529411764708
 New England Patriots @ Buffalo Bills,Buffalo Bills D/ST,AnytimeTD,Anytime,550.0,,,,500.0,,,450.0,,,BetMGM,550.0,6.5,5.75,1.1304347826086956
-Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,80,,380.0,330.0,350.0,418.0,360.0,350.0,,,380.0,DraftKings,418.0,5.18,4.583333333333333,1.1301818181818182
+Washington Commanders @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,425.0,380.0,320.0,360.0,380.0,,340.0,360.0,400.0,380.0,BetMGM,425.0,5.25,4.65,1.129032258064516
 Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Receiving,80,,,,,1480.0,1300.0,,,,,DraftKings,1480.0,15.8,14.0,1.1285714285714286
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,250,170.0,240.0,200.0,170.0,224.0,200.0,205.0,,,240.0,BetRivers,240.0,3.4,3.012857142857143,1.1284969179706021
 New England Patriots @ Buffalo Bills,Josh Allen,Rushing,80,,,1100.0,,800.0,1000.0,1100.0,,,,Bovada,1100.0,12.0,10.666666666666666,1.125
+Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,80,,148.0,150.0,125.0,133.0,140.0,168.0,,175.0,148.0,HardRockBet,175.0,2.75,2.4457142857142857,1.1244158878504673
+Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,50,260.0,325.0,220.0,250.0,289.0,275.0,280.0,,325.0,325.0,BetRivers,325.0,4.25,3.7800000000000002,1.1243386243386242
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,50,525.0,,650.0,600.0,544.0,650.0,680.0,,,,FanDuel,680.0,7.8,6.938,1.1242432977803403
 Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,AnytimeTD,Anytime,650.0,650.0,525.0,525.0,600.0,,550.0,470.0,,650.0,BetMGM,650.0,7.5,6.671428571428572,1.1241970021413277
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,25,,,,,247.0,,290.0,,,,FanDuel,290.0,3.9,3.47,1.1239193083573487
 New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,80,,,,,790.0,900.0,,,,,ESPNBET,900.0,10.0,8.9,1.1235955056179774
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,80,,175.0,160.0,150.0,198.0,160.0,172.0,,,175.0,DraftKings,198.0,2.98,2.653333333333333,1.1231155778894475
 Kansas City Chiefs @ Jacksonville Jaguars,LeQuint Allen Jr.,AnytimeTD,Anytime,1400.0,1200.0,1400.0,1200.0,1200.0,,1400.0,1050.0,,1200.0,BetMGM,1400.0,15.0,13.357142857142858,1.1229946524064172
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,350,1250.0,,1200.0,,1400.0,,1260.0,,,,DraftKings,1400.0,15.0,13.366666666666667,1.1221945137157108
+Washington Commanders @ Los Angeles Chargers,Ladd McConkey,AnytimeTD,Anytime,220.0,180.0,200.0,180.0,195.0,,200.0,180.0,170.0,180.0,BetMGM,220.0,3.2,2.85625,1.1203501094091903
 Washington Commanders @ Los Angeles Chargers,Los Angeles Chargers D/ST,AnytimeTD,Anytime,600.0,,,,550.0,,,500.0,,,BetMGM,600.0,7.0,6.25,1.12
+Washington Commanders @ Los Angeles Chargers,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,525.0,,,,600.0,,,,FanDuel,600.0,7.0,6.25,1.12
+New England Patriots @ Buffalo Bills,Drake Maye,AnytimeTD,Anytime,375.0,300.0,330.0,325.0,350.0,,340.0,325.0,,300.0,BetMGM,375.0,4.75,4.242857142857143,1.1195286195286196
+Detroit Lions @ Cincinnati Bengals,Noah Fant,AnytimeTD,Anytime,600.0,540.0,500.0,500.0,550.0,,550.0,500.0,,540.0,BetMGM,600.0,7.0,6.257142857142857,1.1187214611872147
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,50,200.0,225.0,250.0,205.0,207.0,210.0,255.0,,,225.0,FanDuel,255.0,3.55,3.174285714285715,1.118361836183618
+Detroit Lions @ Cincinnati Bengals,Kalif Raymond,AnytimeTD,Anytime,850.0,750.0,700.0,700.0,800.0,,750.0,800.0,,750.0,BetMGM,850.0,9.5,8.5,1.1176470588235294
 New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,25,,,,,414.0,,360.0,,,,DraftKings,414.0,5.14,4.6,1.117391304347826
 Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,110,,,650.0,650.0,488.0,700.0,680.0,,,,ESPNBET,700.0,8.0,7.17,1.1157601115760112
-Washington Commanders @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,425.0,390.0,350.0,370.0,380.0,,370.0,345.0,,390.0,BetMGM,425.0,5.25,4.707142857142857,1.1153262518968132
 New England Patriots @ Buffalo Bills,Dawson Knox,AnytimeTD,Anytime,750.0,650.0,700.0,625.0,650.0,,700.0,660.0,,650.0,BetMGM,750.0,8.5,7.621428571428572,1.1152764761012184
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,110,,,1400.0,,1740.0,,1700.0,,,,DraftKings,1740.0,18.4,16.5,1.115151515151515
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,AnytimeTD,Anytime,150.0,170.0,135.0,140.0,140.0,,135.0,125.0,,170.0,BetRivers,170.0,2.7,2.4214285714285713,1.1150442477876108
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Passing,250,240.0,265.0,220.0,190.0,225.0,,225.0,,,265.0,BetRivers,265.0,3.65,3.275,1.1145038167938932
-Detroit Lions @ Cincinnati Bengals,Noah Fant,AnytimeTD,Anytime,600.0,550.0,500.0,500.0,550.0,,550.0,500.0,525.0,550.0,BetMGM,600.0,7.0,6.28125,1.1144278606965174
 Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,80,,150.0,170.0,115.0,158.0,140.0,144.0,,,150.0,Bovada,170.0,2.7,2.4283333333333332,1.1118737131091285
-New England Patriots @ Buffalo Bills,New England Patriots D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,550.0,,,BetMGM,650.0,7.5,6.75,1.1111111111111112
 New England Patriots @ Buffalo Bills,Curtis Samuel,AnytimeTD,Anytime,900.0,900.0,800.0,700.0,800.0,,800.0,700.0,,900.0,BetMGM,900.0,10.0,9.0,1.1111111111111112
+New England Patriots @ Buffalo Bills,New England Patriots D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,550.0,,,BetMGM,650.0,7.5,6.75,1.1111111111111112
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,AnytimeTD,Anytime,380.0,410.0,350.0,340.0,370.0,,350.0,315.0,,410.0,BetRivers,410.0,5.1,4.592857142857143,1.1104199066874025
-New England Patriots @ Buffalo Bills,Drake Maye,AnytimeTD,Anytime,375.0,310.0,330.0,330.0,350.0,,340.0,325.0,,310.0,BetMGM,375.0,4.75,4.278571428571429,1.1101836393989981
-Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,250,138.0,170.0,170.0,140.0,184.0,145.0,158.0,,,170.0,DraftKings,184.0,2.84,2.5585714285714287,1.1099944165270796
+Washington Commanders @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,,1500.0,1200.0,1300.0,1400.0,,1400.0,1200.0,1400.0,1500.0,BetRivers,1500.0,16.0,14.428571428571429,1.1089108910891088
 Detroit Lions @ Cincinnati Bengals,Chase Brown,Receiving,25,155.0,,190.0,,166.0,,164.0,,,,Bovada,190.0,2.9,2.6166666666666667,1.10828025477707
-New England Patriots @ Buffalo Bills,Josh Allen,Rushing,50,300.0,280.0,275.0,240.0,222.0,250.0,280.0,,,280.0,BetMGM,300.0,4.0,3.6100000000000003,1.1080332409972298
 New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,25,,,,,260.0,225.0,,,,,DraftKings,260.0,3.6,3.25,1.1076923076923078
+Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,50,475.0,,,550.0,579.0,600.0,,,525.0,,ESPNBET,600.0,7.0,6.3225,1.1071569790431002
 Detroit Lions @ Cincinnati Bengals,Noah Fant,Receiving,25,-125.0,,,,103.0,,112.0,,,,FanDuel,112.0,2.12,1.915,1.1070496083550914
-New England Patriots @ Buffalo Bills,Kayshon Boutte,AnytimeTD,Anytime,375.0,320.0,350.0,360.0,350.0,,390.0,325.0,,320.0,FanDuel,390.0,4.9,4.428571428571428,1.106451612903226
 Kansas City Chiefs @ Jacksonville Jaguars,Quintin Morris,AnytimeTD,Anytime,,,2500.0,,,,2500.0,2000.0,,,Bovada,2500.0,26.0,23.5,1.1063829787234043
-Washington Commanders @ Los Angeles Chargers,Ladd McConkey,AnytimeTD,Anytime,220.0,185.0,200.0,180.0,195.0,,200.0,180.0,,185.0,BetMGM,220.0,3.2,2.892857142857143,1.106172839506173
-Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,25,-1600.0,,-1300.0,,-525.0,,-1100.0,,,,DraftKings,-525.0,1.1904761904761905,1.076777389277389,1.1055917428532773
 New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,50,,,,,2000.0,1800.0,,,,,DraftKings,2000.0,21.0,19.0,1.105263157894737
-Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,80,,205.0,220.0,175.0,187.0,200.0,230.0,,,205.0,FanDuel,230.0,3.3,2.986666666666667,1.1049107142857142
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,80,,,525.0,600.0,480.0,550.0,580.0,,,,Caesars,600.0,7.0,6.3375,1.1045364891518736
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,80,,295.0,275.0,205.0,237.0,250.0,285.0,,,295.0,BetRivers,295.0,3.95,3.578333333333333,1.1038658593386121
+New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,50,275.0,245.0,275.0,305.0,268.0,275.0,285.0,,,245.0,Caesars,305.0,4.05,3.6685714285714286,1.1039719626168223
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,AnytimeTD,Anytime,250.0,215.0,225.0,215.0,225.0,,220.0,205.0,,215.0,BetMGM,250.0,3.5,3.1714285714285713,1.1036036036036037
+New England Patriots @ Buffalo Bills,Josh Allen,Rushing,50,300.0,280.0,275.0,240.0,233.0,250.0,280.0,,,280.0,BetMGM,300.0,4.0,3.625714285714286,1.103230890464933
+New England Patriots @ Buffalo Bills,Stefon Diggs,AnytimeTD,Anytime,275.0,220.0,260.0,235.0,245.0,,260.0,240.0,,220.0,BetMGM,275.0,3.75,3.4,1.1029411764705883
 Detroit Lions @ Cincinnati Bengals,Isaac TeSlaa,Receiving,50,,,,,1260.0,1400.0,,,,,ESPNBET,1400.0,15.0,13.6,1.1029411764705883
-Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,50,475.0,,,550.0,579.0,600.0,,,,,ESPNBET,600.0,7.0,6.346666666666667,1.1029411764705883
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Passing,300,750.0,,725.0,675.0,790.0,,640.0,,800.0,,HardRockBet,800.0,9.0,8.16,1.1029411764705883
+New England Patriots @ Buffalo Bills,Kayshon Boutte,AnytimeTD,Anytime,375.0,320.0,350.0,360.0,360.0,,390.0,325.0,,320.0,FanDuel,390.0,4.9,4.442857142857142,1.1028938906752415
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,1100.0,,1260.0,1100.0,1200.0,,,,DraftKings,1260.0,13.6,12.333333333333334,1.1027027027027025
+Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,Receiving,50,,,,,1080.0,1200.0,,,,,ESPNBET,1200.0,13.0,11.8,1.1016949152542372
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,350,750.0,,850.0,750.0,920.0,900.0,880.0,,,,DraftKings,920.0,10.2,9.26,1.101511879049676
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,80,,150.0,150.0,130.0,140.0,140.0,168.0,,,150.0,FanDuel,168.0,2.6799999999999997,2.433333333333333,1.1013698630136985
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,50,200.0,230.0,250.0,205.0,217.0,225.0,255.0,,,230.0,FanDuel,255.0,3.55,3.2242857142857146,1.1010190518387237
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,80,,150.0,150.0,130.0,135.0,135.0,168.0,,155.0,150.0,FanDuel,168.0,2.6799999999999997,2.435714285714286,1.1002932551319646
 New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,25,,,,,151.0,,176.0,,,,FanDuel,176.0,2.76,2.51,1.099601593625498
 New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,25,-700.0,,-500.0,,-335.0,,-500.0,,,,DraftKings,-335.0,1.2985074626865671,1.180952380952381,1.09954260953298
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,AnytimeTD,Anytime,250.0,220.0,225.0,215.0,225.0,,220.0,205.0,,220.0,BetMGM,250.0,3.5,3.185714285714286,1.0986547085201792
-Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,25,-105.0,,110.0,,123.0,,130.0,,,,FanDuel,130.0,2.3,2.094126984126984,1.098309709694535
+Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,50,230.0,300.0,280.0,305.0,329.0,300.0,285.0,,325.0,300.0,DraftKings,329.0,4.29,3.90625,1.09824
 New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,110,,,875.0,,830.0,1000.0,1000.0,,,,ESPNBET,1000.0,11.0,10.016666666666667,1.098169717138103
+Washington Commanders @ Los Angeles Chargers,Justin Herbert,Passing,300,200.0,200.0,200.0,175.0,204.0,,225.0,,230.0,200.0,HardRockBet,230.0,3.3,3.005714285714286,1.097908745247148
 Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,50,135.0,185.0,190.0,150.0,165.0,165.0,194.0,,,185.0,FanDuel,194.0,2.94,2.6785714285714284,1.0976000000000001
 New England Patriots @ Buffalo Bills,Drake Maye,Rushing,80,,,1200.0,,1340.0,1400.0,1260.0,,,,ESPNBET,1400.0,15.0,13.666666666666666,1.0975609756097562
+Detroit Lions @ Cincinnati Bengals,Isaac TeSlaa,Receiving,25,,,,,301.0,,340.0,,,,FanDuel,340.0,4.4,4.01,1.0972568578553616
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,AnytimeTD,Anytime,150.0,163.0,130.0,140.0,140.0,,135.0,120.0,140.0,163.0,BetRivers,163.0,2.63,2.3975,1.0969760166840459
 Kansas City Chiefs @ Jacksonville Jaguars,Jason Brownlee,AnytimeTD,Anytime,,,1600.0,,,,1600.0,1300.0,,,Bovada,1600.0,17.0,15.5,1.096774193548387
 New England Patriots @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,800.0,700.0,800.0,700.0,750.0,,800.0,600.0,,700.0,BetMGM,800.0,9.0,8.214285714285714,1.0956521739130436
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Passing,300,750.0,,725.0,675.0,790.0,,700.0,,,,DraftKings,790.0,8.9,8.125,1.0953846153846154
-Washington Commanders @ Los Angeles Chargers,Zach Ertz,AnytimeTD,Anytime,230.0,180.0,220.0,215.0,195.0,,220.0,200.0,,180.0,BetMGM,230.0,3.3,3.0142857142857147,1.0947867298578198
 Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,25,,,,,238.0,,270.0,,,,FanDuel,270.0,3.7,3.38,1.0946745562130178
-Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,80,,150.0,150.0,125.0,133.0,140.0,164.0,,,150.0,FanDuel,164.0,2.6399999999999997,2.4133333333333336,1.0939226519337015
-New England Patriots @ Buffalo Bills,Stefon Diggs,AnytimeTD,Anytime,275.0,230.0,260.0,235.0,245.0,,260.0,240.0,,230.0,BetMGM,275.0,3.75,3.4285714285714284,1.09375
+New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,50,450.0,,,450.0,466.0,500.0,520.0,,,,FanDuel,520.0,6.2,5.665,1.0944395410414829
+Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,AnytimeTD,Anytime,260.0,250.0,260.0,245.0,275.0,,260.0,250.0,170.0,250.0,DraftKings,275.0,3.75,3.4312500000000004,1.0928961748633879
 New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,80,,,475.0,450.0,402.0,500.0,470.0,,,,ESPNBET,500.0,6.0,5.4925,1.0923987255348202
-Washington Commanders @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,,1500.0,1300.0,1300.0,1400.0,,1500.0,1200.0,,1500.0,BetRivers,1500.0,16.0,14.666666666666666,1.090909090909091
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,110,,,1200.0,,1320.0,,1200.0,,,,DraftKings,1320.0,14.2,13.0,1.0923076923076922
+Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,25,-1600.0,,-1300.0,,-548.0,,-1100.0,,-1000.0,,DraftKings,-548.0,1.1824817518248176,1.082583041958042,1.0922781033832667
+Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,80,,380.0,330.0,350.0,400.0,360.0,350.0,,,380.0,DraftKings,400.0,5.0,4.583333333333333,1.090909090909091
 New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,25,-325.0,,-275.0,,-212.0,,-265.0,,,,DraftKings,-212.0,1.4716981132075473,1.3495623872982365,1.0905002444190972
-Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,25,115.0,,,,134.0,,,,,,DraftKings,134.0,2.34,2.15,1.0883720930232559
+Detroit Lions @ Cincinnati Bengals,Jameson Williams,AnytimeTD,Anytime,185.0,175.0,200.0,185.0,210.0,,200.0,170.0,,175.0,DraftKings,210.0,3.1,2.8428571428571425,1.0904522613065328
+Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,50,-550.0,-500.0,-440.0,-475.0,-312.0,-450.0,-420.0,,,-500.0,DraftKings,-312.0,1.3205128205128205,1.211419240742549,1.090054356164429
+Washington Commanders @ Los Angeles Chargers,Luke McCaffrey,Receiving,25,-110.0,,110.0,,123.0,,128.0,,115.0,,FanDuel,128.0,2.2800000000000002,2.0972727272727276,1.0871261378413524
 Washington Commanders @ Los Angeles Chargers,Justin Herbert,Passing,350,600.0,,625.0,575.0,670.0,,680.0,,,,FanDuel,680.0,7.8,7.175,1.0871080139372822
 New England Patriots @ Buffalo Bills,Josh Allen,Passing,300,425.0,,475.0,390.0,481.0,500.0,490.0,,,,ESPNBET,500.0,6.0,5.522,1.0865628395508873
-Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,50,135.0,138.0,150.0,125.0,137.0,140.0,158.0,,,138.0,FanDuel,158.0,2.58,2.375714285714286,1.0859891761876126
-New England Patriots @ Buffalo Bills,Josh Allen,Passing,250,130.0,170.0,160.0,125.0,149.0,150.0,158.0,,,170.0,BetRivers,170.0,2.7,2.488571428571429,1.0849598163030998
-Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,25,-1200.0,,-826.0,,-490.0,,-800.0,,,,DraftKings,-490.0,1.2040816326530612,1.1097995695453322,1.084954135588965
-New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,50,450.0,,,450.0,488.0,500.0,520.0,,,,FanDuel,520.0,6.2,5.72,1.083916083916084
+New England Patriots @ Buffalo Bills,James Cook,Rushing,80,,130.0,100.0,-104.0,116.0,110.0,118.0,,,130.0,BetRivers,130.0,2.3,2.116923076923077,1.0864825581395348
+Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,25,-1200.0,,-826.0,,-490.0,,-800.0,,-900.0,,DraftKings,-490.0,1.2040816326530612,1.110127454936777,1.0846336853470893
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,80,,280.0,275.0,205.0,237.0,250.0,285.0,,260.0,280.0,FanDuel,285.0,3.85,3.552857142857143,1.0836349014877362
 Detroit Lions @ Cincinnati Bengals,Detroit Lions Defense,AnytimeTD,Anytime,,,500.0,,,,550.0,,,,FanDuel,550.0,6.5,6.0,1.0833333333333333
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,300,260.0,320.0,300.0,230.0,295.0,300.0,310.0,,,320.0,BetRivers,320.0,4.2,3.8785714285714277,1.082872928176796
-Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,50,-550.0,-530.0,-440.0,-475.0,-325.0,-450.0,-420.0,,,-530.0,DraftKings,-325.0,1.3076923076923077,1.2081847393948402,1.082361219317593
-Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,80,,,625.0,650.0,519.0,600.0,630.0,,,,Caesars,650.0,7.5,6.9350000000000005,1.0814708002883922
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,50,125.0,120.0,140.0,120.0,132.0,135.0,146.0,,,120.0,FanDuel,146.0,2.46,2.2742857142857145,1.0816582914572863
+Detroit Lions @ Cincinnati Bengals,Jake Browning,Passing,250,138.0,165.0,170.0,140.0,175.0,145.0,158.0,,,165.0,DraftKings,175.0,2.75,2.544285714285714,1.080853453116227
 New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,25,125.0,,,,127.0,,144.0,,,,FanDuel,144.0,2.44,2.26,1.0796460176991152
-Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,25,-160.0,,-135.0,,-118.0,,-130.0,,,,DraftKings,-118.0,1.847457627118644,1.7116571699905032,1.0793385845653276
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,50,340.0,380.0,300.0,340.0,384.0,350.0,350.0,,,380.0,DraftKings,384.0,4.84,4.485714285714286,1.0789808917197452
-New England Patriots @ Buffalo Bills,Drake Maye,Rushing,50,300.0,270.0,300.0,265.0,281.0,275.0,310.0,,,270.0,FanDuel,310.0,4.1,3.801428571428571,1.0785419015407742
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,50,125.0,123.0,140.0,120.0,132.0,135.0,146.0,,,123.0,FanDuel,146.0,2.46,2.2828571428571434,1.0775969962453065
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,80,,,525.0,575.0,480.0,550.0,550.0,,525.0,,Caesars,575.0,6.75,6.26,1.0782747603833867
+Detroit Lions @ Cincinnati Bengals,Jared Goff,Passing,250,-105.0,125.0,110.0,-110.0,117.0,105.0,118.0,,,125.0,BetRivers,125.0,2.25,2.087353123067409,1.077920154062662
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,80,,440.0,550.0,525.0,525.0,550.0,540.0,,,440.0,Bovada,550.0,6.5,6.033333333333332,1.0773480662983428
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,80,,330.0,325.0,270.0,298.0,300.0,340.0,,,330.0,FanDuel,340.0,4.4,4.088333333333334,1.0762331838565022
+Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,25,-220.0,,-225.0,,-187.0,-200.0,-188.0,,-165.0,,HardRockBet,-165.0,1.606060606060606,1.4931328301791378,1.0756314331846282
 Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,110,,,400.0,340.0,355.0,,400.0,,,,Bovada,400.0,5.0,4.6499999999999995,1.0752688172043012
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,250,160.0,165.0,140.0,130.0,144.0,140.0,148.0,,,165.0,BetRivers,165.0,2.65,2.467142857142857,1.0741169658367111
+Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,50,145.0,140.0,150.0,125.0,138.0,140.0,158.0,,160.0,140.0,HardRockBet,160.0,2.6,2.42,1.0743801652892562
+Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,50,135.0,140.0,150.0,120.0,146.0,150.0,158.0,,,140.0,FanDuel,158.0,2.58,2.4014285714285712,1.0743604997025582
+Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,50,-135.0,-110.0,-110.0,-115.0,103.0,-110.0,-102.0,,,-110.0,DraftKings,103.0,2.0300000000000002,1.889580250194061,1.074312668007362
 New England Patriots @ Buffalo Bills,James Cook,Receiving,25,160.0,,185.0,,165.0,,190.0,,,,FanDuel,190.0,2.9,2.6999999999999997,1.0740740740740742
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,1100.0,,1260.0,1200.0,1200.0,,,,DraftKings,1260.0,13.6,12.666666666666666,1.0736842105263158
-New England Patriots @ Buffalo Bills,James Cook,Rushing,80,,128.0,100.0,-104.0,122.0,110.0,118.0,,,128.0,BetRivers,128.0,2.2800000000000002,2.1235897435897435,1.073653706834098
-Detroit Lions @ Cincinnati Bengals,Chase Brown,AnytimeTD,Anytime,120.0,116.0,110.0,120.0,130.0,,115.0,105.0,110.0,118.0,DraftKings,130.0,2.3,2.1425,1.0735122520420068
-Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,AnytimeTD,Anytime,310.0,270.0,300.0,285.0,320.0,,310.0,295.0,,270.0,DraftKings,320.0,4.2,3.914285714285714,1.0729927007299271
-Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,50,-135.0,-109.0,-110.0,-115.0,103.0,-110.0,-102.0,,,-109.0,DraftKings,103.0,2.0300000000000002,1.8919631883568155,1.072959565224454
-Washington Commanders @ Los Angeles Chargers,Justin Herbert,Passing,300,200.0,220.0,200.0,175.0,204.0,,225.0,,,220.0,FanDuel,225.0,3.25,3.0316666666666663,1.0720175920835626
+Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,80,,250.0,250.0,200.0,249.0,250.0,265.0,,230.0,250.0,FanDuel,265.0,3.65,3.398571428571429,1.0739806641445984
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,AnytimeTD,Anytime,400.0,390.0,350.0,360.0,380.0,,350.0,345.0,,390.0,BetMGM,400.0,5.0,4.664285714285714,1.0719754977029097
-Washington Commanders @ Los Angeles Chargers,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,600.0,,,,650.0,,,,FanDuel,650.0,7.5,7.0,1.0714285714285714
-Detroit Lions @ Cincinnati Bengals,Jameson Williams,AnytimeTD,Anytime,185.0,175.0,200.0,185.0,200.0,,200.0,165.0,155.0,175.0,Bovada,200.0,3.0,2.8,1.0714285714285714
+Washington Commanders @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,180.0,170.0,160.0,160.0,155.0,,165.0,160.0,150.0,170.0,BetMGM,180.0,2.8,2.6125,1.0717703349282297
 Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Receiving,80,,,,,1860.0,2000.0,,,,,ESPNBET,2000.0,21.0,19.6,1.0714285714285714
-Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,50,,310.0,280.0,305.0,329.0,300.0,300.0,,,310.0,DraftKings,329.0,4.29,4.008333333333333,1.0702702702702704
+Washington Commanders @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,165.0,175.0,160.0,155.0,150.0,,165.0,145.0,140.0,175.0,BetRivers,175.0,2.75,2.56875,1.0705596107055961
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,80,,215.0,200.0,160.0,212.0,185.0,194.0,,,215.0,BetRivers,215.0,3.15,2.943333333333333,1.070215175537939
-New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,50,275.0,250.0,275.0,300.0,283.0,300.0,285.0,,,250.0,Caesars,300.0,4.0,3.7399999999999998,1.0695187165775402
-Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,50,145.0,143.0,150.0,130.0,138.0,140.0,158.0,,,143.0,FanDuel,158.0,2.58,2.412857142857143,1.0692717584369449
+Detroit Lions @ Cincinnati Bengals,Sam LaPorta,AnytimeTD,Anytime,200.0,205.0,200.0,200.0,220.0,,210.0,175.0,,205.0,DraftKings,220.0,3.2,2.992857142857143,1.0692124105011933
 Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Receiving,25,-150.0,,-150.0,,-124.0,,-136.0,,,,DraftKings,-124.0,1.8064516129032258,1.6895424836601307,1.0691957322019092
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,80,,,400.0,380.0,446.0,425.0,440.0,,,,DraftKings,446.0,5.46,5.112500000000001,1.0679706601466992
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,80,,340.0,325.0,270.0,298.0,300.0,340.0,,,340.0,BetRivers,340.0,4.4,4.121666666666666,1.0675293166194908
-Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,50,-275.0,-250.0,-240.0,-255.0,-208.0,-250.0,-280.0,,,-250.0,DraftKings,-208.0,1.4807692307692308,1.3899432500272837,1.0653451000536636
+Washington Commanders @ Los Angeles Chargers,Chris Moore,Receiving,25,-160.0,,-135.0,,-118.0,,-128.0,,-115.0,,HardRockBet,-115.0,1.8695652173913042,1.748612091964846,1.0691709304666583
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,50,300.0,265.0,300.0,265.0,290.0,300.0,310.0,,,265.0,FanDuel,310.0,4.1,3.8357142857142854,1.0689013035381751
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,110,,,850.0,750.0,780.0,850.0,870.0,,,,FanDuel,870.0,9.7,9.075,1.0688705234159779
 Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,110,,,500.0,475.0,472.0,,520.0,,,,FanDuel,520.0,6.2,5.823333333333333,1.0646823125357756
-Detroit Lions @ Cincinnati Bengals,Tee Higgins,AnytimeTD,Anytime,210.0,215.0,225.0,225.0,220.0,,230.0,215.0,240.0,215.0,HardRockBet,240.0,3.4,3.19375,1.0645792563600782
 Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,80,,220.0,200.0,180.0,228.0,210.0,220.0,,,220.0,DraftKings,228.0,3.28,3.0833333333333335,1.0637837837837836
 Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,25,-550.0,,-526.0,,-362.0,,-440.0,,,,DraftKings,-362.0,1.276243093922652,1.199734992510658,1.063770834300571
 New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,25,-275.0,,-220.0,,-195.0,-240.0,-220.0,,,,DraftKings,-195.0,1.5128205128205128,1.4223484848484849,1.0636074976953804
+Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,50,-275.0,-250.0,-240.0,-255.0,-208.0,-240.0,-280.0,,,-250.0,DraftKings,-208.0,1.4807692307692308,1.392324202408236,1.063523300254363
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,AnytimeTD,Anytime,185.0,163.0,170.0,170.0,180.0,,170.0,160.0,,163.0,BetMGM,185.0,2.85,2.68,1.0634328358208955
-Detroit Lions @ Cincinnati Bengals,Sam LaPorta,AnytimeTD,Anytime,200.0,205.0,200.0,200.0,215.0,,210.0,180.0,170.0,205.0,DraftKings,215.0,3.15,2.9625000000000004,1.0632911392405062
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,250,160.0,155.0,140.0,130.0,144.0,140.0,148.0,,,155.0,BetMGM,160.0,2.6,2.4457142857142857,1.0630841121495327
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,80,,,400.0,380.0,427.0,425.0,440.0,,,,FanDuel,440.0,5.4,5.08,1.062992125984252
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,80,,430.0,500.0,450.0,502.0,500.0,490.0,,,430.0,DraftKings,502.0,6.02,5.666666666666667,1.0623529411764705
 Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,50,300.0,280.0,260.0,270.0,291.0,275.0,280.0,,,280.0,BetMGM,300.0,4.0,3.765714285714286,1.062215477996965
-Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,80,,135.0,120.0,110.0,132.0,135.0,142.0,,,135.0,FanDuel,142.0,2.42,2.2783333333333333,1.0621799561082663
 Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,Receiving,25,-2500.0,,-1500.0,,-840.0,,-1800.0,,,,DraftKings,-840.0,1.119047619047619,1.054074074074074,1.061640397550447
-Detroit Lions @ Cincinnati Bengals,Jared Goff,Passing,250,-105.0,120.0,110.0,-110.0,117.0,100.0,118.0,,,120.0,BetRivers,120.0,2.2,2.0730674087816943,1.061229360261325
-Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,Receiving,50,,,,,1220.0,1300.0,,,,,ESPNBET,1300.0,14.0,13.2,1.0606060606060606
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,50,-115.0,-115.0,-110.0,-115.0,100.0,-115.0,-106.0,,,-115.0,DraftKings,100.0,2.0,1.885759031780361,1.0605808941091392
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,50,165.0,225.0,220.0,190.0,211.0,210.0,225.0,,,225.0,BetRivers,225.0,3.25,3.065714285714286,1.0601118359739048
-Washington Commanders @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,180.0,175.0,160.0,160.0,155.0,,165.0,160.0,,175.0,BetMGM,180.0,2.8,2.642857142857143,1.0594594594594595
+Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,50,-225.0,-275.0,-250.0,-225.0,-199.0,-225.0,-215.0,,-195.0,-275.0,HardRockBet,-195.0,1.5128205128205128,1.4285293628112372,1.059005542485593
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,AnytimeTD,Anytime,350.0,325.0,330.0,320.0,330.0,,330.0,315.0,,325.0,BetMGM,350.0,4.5,4.25,1.0588235294117647
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,AnytimeTD,Anytime,320.0,350.0,330.0,330.0,320.0,,330.0,295.0,,350.0,BetRivers,350.0,4.5,4.25,1.0588235294117647
+Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,50,-165.0,-182.0,-165.0,-157.0,-158.0,-145.0,-162.0,,-175.0,-182.0,ESPNBET,-145.0,1.6896551724137931,1.5961986125790582,1.05854945562428
+New England Patriots @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,210.0,190.0,185.0,205.0,205.0,,195.0,180.0,,190.0,BetMGM,210.0,3.1,2.9285714285714284,1.0585365853658537
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,50,110.0,118.0,130.0,110.0,132.0,130.0,134.0,,,118.0,FanDuel,134.0,2.34,2.2114285714285713,1.058139534883721
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,50,-325.0,-360.0,-290.0,-400.0,-348.0,-350.0,-275.0,,,-360.0,FanDuel,-275.0,1.3636363636363638,1.2901637224297322,1.0569483081327558
+New England Patriots @ Buffalo Bills,Hunter Henry,AnytimeTD,Anytime,225.0,225.0,240.0,225.0,220.0,,230.0,200.0,,225.0,Bovada,240.0,3.4,3.2142857142857144,1.0577777777777777
+Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,80,,138.0,120.0,110.0,132.0,135.0,142.0,,,138.0,FanDuel,142.0,2.42,2.2883333333333336,1.0575382374362707
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,250,-135.0,-108.0,-115.0,-120.0,-109.0,-110.0,-102.0,,,-108.0,FanDuel,-102.0,1.9803921568627452,1.8745733207240989,1.056449558397519
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,50,300.0,295.0,300.0,290.0,303.0,300.0,320.0,,,295.0,FanDuel,320.0,4.2,3.9757142857142855,1.056413941789436
 Detroit Lions @ Cincinnati Bengals,Tee Higgins,Receiving,25,-650.0,,-490.0,,-382.0,,-440.0,,,,DraftKings,-382.0,1.2617801047120418,1.1950668379239808,1.0558238791931942
-Washington Commanders @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,165.0,175.0,160.0,155.0,160.0,,165.0,145.0,,175.0,BetRivers,175.0,2.75,2.607142857142857,1.0547945205479452
-Washington Commanders @ Los Angeles Chargers,Ladd McConkey,Receiving,50,-175.0,-175.0,-165.0,-157.0,-158.0,-145.0,-160.0,,,-175.0,ESPNBET,-145.0,1.6896551724137931,1.6021714839872312,1.0546031990338802
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,110,,,850.0,800.0,780.0,850.0,870.0,,,,FanDuel,870.0,9.7,9.2,1.0543478260869565
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,50,-115.0,-110.0,-110.0,-115.0,100.0,-115.0,-106.0,,,-110.0,DraftKings,100.0,2.0,1.8970520865516767,1.0542673098847035
-New England Patriots @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,210.0,195.0,185.0,205.0,205.0,,195.0,180.0,,195.0,BetMGM,210.0,3.1,2.942857142857143,1.0533980582524272
-New England Patriots @ Buffalo Bills,Hunter Henry,AnytimeTD,Anytime,225.0,230.0,240.0,225.0,220.0,,230.0,200.0,,230.0,Bovada,240.0,3.4,3.2285714285714286,1.0530973451327432
+Washington Commanders @ Los Angeles Chargers,Justin Herbert,Passing,250,-165.0,-182.0,-160.0,-150.0,-175.0,,-154.0,,-145.0,-182.0,HardRockBet,-145.0,1.6896551724137931,1.6024867989153704,1.054395688973801
+Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,25,-400.0,,-340.0,,-285.0,,-330.0,,,,DraftKings,-285.0,1.3508771929824561,1.2823826500297086,1.0534119382784544
 New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,50,360.0,,375.0,400.0,374.0,375.0,390.0,,,,Caesars,400.0,5.0,4.748,1.0530749789385003
-Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,AnytimeTD,Anytime,155.0,170.0,160.0,160.0,155.0,,165.0,135.0,155.0,170.0,BetRivers,170.0,2.7,2.56875,1.051094890510949
-Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,AnytimeTD,Anytime,-210.0,-225.0,-250.0,-240.0,-210.0,,-220.0,-255.0,-195.0,-220.0,HardRockBet,-195.0,1.5128205128205128,1.4393424794160088,1.0510497219774384
-Washington Commanders @ Los Angeles Chargers,Quentin Johnston,Receiving,50,-225.0,-250.0,-250.0,-225.0,-199.0,-225.0,-210.0,,,-250.0,DraftKings,-199.0,1.5025125628140703,1.4299319727891155,1.0507580719965193
+Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,AnytimeTD,Anytime,-102.0,110.0,100.0,-102.0,100.0,,100.0,-110.0,,110.0,BetRivers,110.0,2.1,1.9956964604023428,1.0522642303913436
+Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,25,115.0,,,,134.0,,,,130.0,,DraftKings,134.0,2.34,2.2249999999999996,1.0516853932584271
+New England Patriots @ Buffalo Bills,Josh Allen,Passing,250,130.0,160.0,160.0,125.0,149.0,150.0,158.0,,,160.0,BetRivers,160.0,2.6,2.474285714285714,1.05080831408776
 New England Patriots @ Buffalo Bills,Josh Allen,Rushing,25,-190.0,,-210.0,,-180.0,-225.0,-210.0,,,,DraftKings,-180.0,1.5555555555555556,1.4807852965747703,1.05049365303244
+Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,80,,130.0,120.0,100.0,127.0,115.0,122.0,,,130.0,BetRivers,130.0,2.3,2.19,1.0502283105022832
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,AnytimeTD,Anytime,100.0,102.0,110.0,110.0,105.0,,115.0,105.0,,102.0,FanDuel,115.0,2.15,2.0485714285714285,1.0495118549511855
-New England Patriots @ Buffalo Bills,James Cook,AnytimeTD,Anytime,-210.0,-190.0,-230.0,-215.0,-210.0,,-220.0,-235.0,,-186.0,betPARX,-186.0,1.5376344086021505,1.465524714151304,1.0492040112012753
+New England Patriots @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,250.0,235.0,240.0,235.0,235.0,,240.0,215.0,,235.0,BetMGM,250.0,3.5,3.3357142857142854,1.049250535331906
 New England Patriots @ Buffalo Bills,James Cook,Rushing,50,-700.0,-530.0,-475.0,-515.0,-396.0,-400.0,-380.0,,,-530.0,FanDuel,-380.0,1.263157894736842,1.2039202798599227,1.0492039347354558
 Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,25,,,,,181.0,,168.0,,,,DraftKings,181.0,2.81,2.6799999999999997,1.0485074626865674
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Receiving,25,125.0,,110.0,,120.0,,114.0,,,,BetMGM,125.0,2.25,2.146666666666667,1.0481366459627328
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Passing,250,230.0,240.0,220.0,190.0,225.0,,225.0,,240.0,240.0,BetRivers,240.0,3.4,3.242857142857143,1.0484581497797356
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,25,,,,,129.0,115.0,122.0,,,,DraftKings,129.0,2.29,2.1849999999999996,1.048054919908467
-Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,AnytimeTD,Anytime,260.0,255.0,275.0,250.0,275.0,,270.0,240.0,,255.0,Bovada,275.0,3.75,3.5785714285714287,1.0479041916167664
+New England Patriots @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,-125.0,-137.0,-122.0,-120.0,-125.0,,-115.0,-130.0,,-136.0,FanDuel,-115.0,1.8695652173913042,1.783922479808282,1.048008104921816
 Detroit Lions @ Cincinnati Bengals,Chase Brown,Receiving,50,775.0,,,,830.0,800.0,,,,,DraftKings,830.0,9.3,8.875,1.0478873239436621
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Receiving,25,125.0,,110.0,,120.0,,114.0,,115.0,,BetMGM,125.0,2.25,2.1475,1.0477299185098952
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,50,260.0,,,245.0,271.0,275.0,280.0,,,,FanDuel,280.0,3.8,3.6275000000000004,1.0475534114403857
 Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,80,,,675.0,650.0,630.0,700.0,700.0,,,,ESPNBET,700.0,8.0,7.6375,1.0474631751227497
-Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,AnytimeTD,Anytime,-102.0,108.0,100.0,-102.0,-105.0,,100.0,-105.0,110.0,110.0,HardRockBet,110.0,2.1,2.0056932773109244,1.0470195137790534
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,50,-325.0,-345.0,-290.0,-400.0,-348.0,-350.0,-275.0,,-275.0,-345.0,FanDuel,-275.0,1.3636363636363638,1.3023671262520589,1.0470445208185075
 New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,25,-140.0,,-140.0,,-125.0,-140.0,-136.0,,,,DraftKings,-125.0,1.8,1.7195378151260505,1.0467929138668295
-Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,80,,128.0,120.0,100.0,122.0,115.0,122.0,,,128.0,BetRivers,128.0,2.2800000000000002,2.1783333333333332,1.046671767406274
-New England Patriots @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,-125.0,-136.0,-122.0,-120.0,-125.0,,-115.0,-130.0,,-134.0,FanDuel,-115.0,1.8695652173913042,1.7862570011535885,1.0466384267123454
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,25,-295.0,,-240.0,,-215.0,,-225.0,,,,DraftKings,-215.0,1.4651162790697674,1.4000313873195231,1.0464881661509422
 Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,25,-350.0,,-275.0,,-271.0,,-250.0,,,,FanDuel,-250.0,1.4,1.3394514464625165,1.0452039927967467
+New England Patriots @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,185.0,170.0,180.0,175.0,170.0,,185.0,160.0,,170.0,BetMGM,185.0,2.85,2.728571428571428,1.0445026178010473
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,AnytimeTD,Anytime,-140.0,-143.0,-152.0,-140.0,-145.0,,-145.0,-130.0,-145.0,-143.0,Fanatics,-130.0,1.7692307692307692,1.694254135157039,1.0442534756255917
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,AnytimeTD,Anytime,150.0,163.0,150.0,150.0,155.0,,150.0,145.0,,163.0,BetRivers,163.0,2.63,2.5185714285714282,1.0442427680090756
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,AnytimeTD,Anytime,240.0,235.0,230.0,225.0,210.0,,220.0,225.0,,235.0,BetMGM,240.0,3.4,3.257142857142857,1.043859649122807
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,AnytimeTD,Anytime,240.0,230.0,230.0,225.0,220.0,,220.0,225.0,,230.0,BetMGM,240.0,3.4,3.257142857142857,1.043859649122807
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,80,,,825.0,,870.0,900.0,880.0,,,,ESPNBET,900.0,10.0,9.583333333333334,1.0434782608695652
-Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,80,,260.0,250.0,200.0,249.0,260.0,255.0,,,260.0,BetRivers,260.0,3.6,3.456666666666667,1.0414657666345226
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,25,-210.0,,-195.0,,-175.0,,-186.0,,,,DraftKings,-175.0,1.5714285714285714,1.5088817992043797,1.0414524002192698
-Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,50,-125.0,-129.0,-135.0,-136.0,-117.0,-125.0,-118.0,,,-129.0,DraftKings,-117.0,1.8547008547008548,1.7819828689150954,1.0408073427945082
-Detroit Lions @ Cincinnati Bengals,Sam LaPorta,Receiving,25,-400.0,,-340.0,,-299.0,,-330.0,,,,DraftKings,-299.0,1.334448160535117,1.2823826500297086,1.040600604276892
-New England Patriots @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,250.0,240.0,240.0,235.0,245.0,,240.0,215.0,,240.0,BetMGM,250.0,3.5,3.364285714285714,1.0403397027600851
+Detroit Lions @ Cincinnati Bengals,Tee Higgins,AnytimeTD,Anytime,210.0,215.0,225.0,225.0,220.0,,230.0,205.0,,215.0,FanDuel,230.0,3.3,3.164285714285714,1.0428893905191874
+Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,AnytimeTD,Anytime,-210.0,-220.0,-250.0,-240.0,-200.0,,-220.0,-245.0,,-215.0,DraftKings,-200.0,1.5,1.4393182280462773,1.042160080218043
+Detroit Lions @ Cincinnati Bengals,Ja'Marr Chase,AnytimeTD,Anytime,155.0,170.0,160.0,160.0,150.0,,165.0,155.0,,170.0,BetRivers,170.0,2.7,2.5928571428571425,1.041322314049587
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,50,125.0,120.0,115.0,100.0,121.0,115.0,122.0,,,120.0,BetMGM,125.0,2.25,2.1614285714285715,1.0409781890284204
+New England Patriots @ Buffalo Bills,James Cook,AnytimeTD,Anytime,-210.0,-195.0,-230.0,-215.0,-200.0,,-220.0,-235.0,,-190.0,betPARX,-190.0,1.526315789473684,1.4669981780307828,1.040434686512376
 New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,25,-150.0,,-135.0,,-137.0,,-128.0,,,,FanDuel,-128.0,1.78125,1.7124448049022256,1.0401795111298218
-Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,25,-150.0,,-170.0,,-142.0,-140.0,-136.0,,,,FanDuel,-136.0,1.7352941176470589,1.668353256795676,1.040123912953515
+Washington Commanders @ Los Angeles Chargers,Chris Rodriguez Jr.,Rushing,25,-145.0,,-170.0,,-142.0,-140.0,-136.0,,-155.0,,FanDuel,-136.0,1.7352941176470589,1.6683125646504824,1.040149282823755
 New England Patriots @ Buffalo Bills,Buffalo Bills Defense,AnytimeTD,Anytime,,,525.0,,,,550.0,,,,FanDuel,550.0,6.5,6.25,1.04
-New England Patriots @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,185.0,170.0,180.0,175.0,180.0,,185.0,160.0,,170.0,BetMGM,185.0,2.85,2.742857142857143,1.0390625
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,50,-160.0,-150.0,-145.0,-143.0,-154.0,-145.0,-140.0,,-135.0,-150.0,HardRockBet,-135.0,1.7407407407407407,1.6750725926372478,1.0392031655178027
+Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,25,-450.0,,-350.0,,-311.0,,-330.0,,-300.0,,HardRockBet,-300.0,1.3333333333333333,1.283127554831735,1.0391276598437496
+Detroit Lions @ Cincinnati Bengals,Jameson Williams,Receiving,50,-125.0,-127.0,-135.0,-136.0,-117.0,-125.0,-118.0,,,-127.0,DraftKings,-117.0,1.8547008547008548,1.785470805016106,1.0387741146426217
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,110,,,,,2600.0,2500.0,,,,,DraftKings,2600.0,27.0,26.0,1.0384615384615385
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,25,-500.0,,-375.0,,-335.0,,-350.0,,,,DraftKings,-335.0,1.2985074626865671,1.2507936507936508,1.0381468293052505
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,50,115.0,123.0,120.0,110.0,121.0,120.0,128.0,,125.0,123.0,FanDuel,128.0,2.2800000000000002,2.19625,1.0381331815594765
 Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,50,-400.0,-335.0,-350.0,-350.0,-291.0,-325.0,-290.0,,,-335.0,FanDuel,-290.0,1.3448275862068966,1.2956826308825515,1.0379297785993087
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,50,125.0,123.0,115.0,100.0,121.0,115.0,122.0,,,123.0,BetMGM,125.0,2.25,2.1700000000000004,1.0368663594470044
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,80,,,550.0,525.0,493.0,550.0,540.0,,,,Bovada,550.0,6.5,6.27,1.0366826156299842
-Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,25,-220.0,,-225.0,,-187.0,-200.0,-186.0,,,,FanDuel,-186.0,1.5376344086021505,1.483437314319667,1.0365348058588773
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,25,-450.0,,-350.0,,-319.0,,-340.0,,,,DraftKings,-319.0,1.3134796238244515,1.2673513849984437,1.0363973554390873
 Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,AnytimeTD,Anytime,180.0,165.0,180.0,175.0,185.0,,180.0,180.0,,165.0,DraftKings,185.0,2.85,2.75,1.0363636363636364
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,AnytimeTD,Anytime,-140.0,-139.0,-125.0,-129.0,-130.0,,-130.0,-145.0,,-137.0,Bovada,-125.0,1.8,1.738135384477369,1.035592518324591
-Washington Commanders @ Los Angeles Chargers,Justin Herbert,Passing,250,-165.0,-165.0,-160.0,-150.0,-175.0,,-154.0,,,-165.0,Caesars,-150.0,1.6666666666666665,1.6106601731601728,1.0347723836720981
-Detroit Lions @ Cincinnati Bengals,David Montgomery,AnytimeTD,Anytime,-190.0,-180.0,-176.0,-210.0,-190.0,,-170.0,-185.0,-190.0,-177.0,FanDuel,-170.0,1.5882352941176472,1.535548438787734,1.0343114251553716
+New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,50,135.0,140.0,140.0,120.0,142.0,145.0,142.0,,,140.0,ESPNBET,145.0,2.45,2.37,1.0337552742616034
 Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,25,105.0,,110.0,,111.0,110.0,116.0,,,,FanDuel,116.0,2.16,2.0900000000000003,1.033492822966507
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,25,-650.0,,-500.0,,-431.0,-475.0,-490.0,,,,DraftKings,-431.0,1.2320185614849188,1.192113525572172,1.033474191053737
+Detroit Lions @ Cincinnati Bengals,David Montgomery,AnytimeTD,Anytime,-190.0,-177.0,-176.0,-210.0,-190.0,,-170.0,-185.0,,-175.0,FanDuel,-170.0,1.5882352941176472,1.5391349623858865,1.0319012516327015
+Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,25,-1200.0,,-800.0,,-690.0,,-770.0,,-1000.0,,DraftKings,-690.0,1.144927536231884,1.1095508658008657,1.0318837752476393
 Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,25,-160.0,,-160.0,,-146.0,,-154.0,,,,DraftKings,-146.0,1.6849315068493151,1.6331168831168832,1.0317274435578312
 Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,AnytimeTD,Anytime,250.0,260.0,250.0,240.0,255.0,,250.0,240.0,,260.0,BetRivers,260.0,3.6,3.492857142857143,1.030674846625767
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,80,,,900.0,,870.0,900.0,920.0,,,,FanDuel,920.0,10.2,9.9,1.0303030303030303
 New England Patriots @ Buffalo Bills,New England Patriots Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
-Washington Commanders @ Los Angeles Chargers,Zach Ertz,Receiving,25,-400.0,,-350.0,,-311.0,,-320.0,,,,DraftKings,-311.0,1.3215434083601285,1.2827380952380951,1.0302519378399146
-Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,110,,,800.0,725.0,770.0,800.0,800.0,,,,Bovada,800.0,9.0,8.7375,1.0300429184549356
-New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,50,135.0,143.0,140.0,120.0,142.0,145.0,142.0,,,143.0,ESPNBET,145.0,2.45,2.3785714285714286,1.03003003003003
-Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,50,115.0,125.0,120.0,110.0,121.0,120.0,126.0,,,125.0,FanDuel,126.0,2.26,2.1942857142857144,1.0299479166666665
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,AnytimeTD,Anytime,210.0,215.0,220.0,205.0,210.0,,220.0,200.0,,215.0,Bovada,220.0,3.2,3.107142857142857,1.0298850574712644
-Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,50,-140.0,-122.0,-140.0,-130.0,-121.0,-130.0,-122.0,,,-122.0,DraftKings,-121.0,1.8264462809917354,1.7751499086393703,1.0288969241993107
+Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,50,-175.0,-155.0,-150.0,-145.0,-151.0,-145.0,-146.0,,-175.0,-155.0,Caesars,-145.0,1.6896551724137931,1.6420855906326524,1.028969002622338
+Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,50,-135.0,-124.0,-140.0,-130.0,-121.0,-130.0,-122.0,,,-124.0,DraftKings,-121.0,1.8264462809917354,1.7751519072059982,1.0288957658088382
 Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,50,-200.0,-157.0,-175.0,-157.0,-153.0,-155.0,-160.0,,,-157.0,DraftKings,-153.0,1.65359477124183,1.6074882696041226,1.0286823254076136
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,25,,,-145.0,,-146.0,,-136.0,,,,FanDuel,-136.0,1.7352941176470589,1.6872933396315541,1.0284483894341612
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,25,-450.0,,-350.0,,-330.0,,-340.0,,,,DraftKings,-330.0,1.303030303030303,1.2673513849984437,1.0281523486336848
-Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,50,-165.0,-175.0,-175.0,-185.0,-162.0,-170.0,-160.0,,,-175.0,FanDuel,-160.0,1.625,1.5809151579459702,1.027885647014295
+Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Rushing,25,-650.0,,-500.0,,-431.0,-450.0,-500.0,,-425.0,,HardRockBet,-425.0,1.2352941176470589,1.201617387510659,1.0280261674693028
+Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,25,-1100.0,,-750.0,,-730.0,,-770.0,,-650.0,,HardRockBet,-650.0,1.1538461538461537,1.1227747138706043,1.0276737974160775
 New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,25,-375.0,,-375.0,,-326.0,,-350.0,,,,DraftKings,-326.0,1.3067484662576687,1.273015873015873,1.0264981717485429
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,25,-160.0,,-160.0,,-146.0,-155.0,-148.0,,,,DraftKings,-146.0,1.6849315068493151,1.6427092414995639,1.025702823289171
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,50,-165.0,-141.0,-145.0,-143.0,-154.0,-140.0,-138.0,,,-141.0,FanDuel,-138.0,1.7246376811594204,1.682441793960503,1.025080146814225
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,25,-210.0,,-195.0,,-183.0,,-186.0,,,,DraftKings,-183.0,1.5464480874316942,1.5088817992043797,1.0248967733901508
 Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,25,-1200.0,,-775.0,,-700.0,,-750.0,,,,DraftKings,-700.0,1.1428571428571428,1.1152329749103942,1.0247698629508046
 Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,25,-2000.0,,-1300.0,,-960.0,-1000.0,-1200.0,,,,DraftKings,-960.0,1.1041666666666667,1.0775641025641025,1.0246876859012495
+Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,110,,,800.0,725.0,790.0,800.0,800.0,,,,Bovada,800.0,9.0,8.7875,1.0241820768136558
 Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,25,,,,,201.0,,194.0,,,,DraftKings,201.0,3.01,2.94,1.0238095238095237
+Detroit Lions @ Cincinnati Bengals,David Montgomery,Rushing,50,-165.0,-167.0,-175.0,-185.0,-162.0,-170.0,-160.0,,,-167.0,FanDuel,-160.0,1.625,1.5887362504548304,1.0228255316354669
+Detroit Lions @ Cincinnati Bengals,Chase Brown,AnytimeTD,Anytime,120.0,115.0,120.0,115.0,115.0,,115.0,110.0,,116.0,BetMGM,120.0,2.2,2.1514285714285717,1.0225763612217795
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,50,,-286.0,-275.0,-285.0,-278.0,-275.0,-260.0,,,-286.0,FanDuel,-260.0,1.3846153846153846,1.3561938082952851,1.0209568692514714
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,25,,,,,-3500.0,-2000.0,,,,,ESPNBET,-2000.0,1.05,1.0285714285714285,1.0208333333333335
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,25,-165.0,,-180.0,,-163.0,-160.0,-158.0,,,,FanDuel,-158.0,1.6329113924050633,1.6000282735328748,1.0205515861289016
-Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,25,-1200.0,,-800.0,,-740.0,,-770.0,,,,DraftKings,-740.0,1.135135135135135,1.1127344877344878,1.0201311702365357
 Detroit Lions @ Cincinnati Bengals,Noah Fant,Receiving,80,,,,,1960.0,2000.0,,,,,ESPNBET,2000.0,21.0,20.6,1.0194174757281553
-Washington Commanders @ Los Angeles Chargers,Keenan Allen,Receiving,50,-175.0,-150.0,-150.0,-145.0,-151.0,-145.0,-146.0,,,-150.0,Caesars,-145.0,1.6896551724137931,1.6583238437601169,1.0188933716243476
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,25,-190.0,,-200.0,,-197.0,-210.0,-194.0,,,,BetMGM,-190.0,1.526315789473684,1.4998171517285548,1.0176679121948895
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,50,-190.0,-182.0,-200.0,-182.0,-178.0,-185.0,-188.0,,,-182.0,DraftKings,-178.0,1.5617977528089888,1.5353032674261278,1.0172568416579209
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Receiving,25,-1100.0,,-750.0,,-730.0,,-770.0,,,,DraftKings,-730.0,1.1369863013698631,1.118037518037518,1.0169482535484191
 Detroit Lions @ Cincinnati Bengals,Chase Brown,Rushing,25,-1400.0,,-826.0,,-880.0,-900.0,-850.0,,,,Bovada,-826.0,1.1210653753026634,1.103455776249894,1.0159585906674173
-New England Patriots @ Buffalo Bills,Drake Maye,Rushing,25,-190.0,,-200.0,,-190.0,-210.0,-194.0,,,,BetMGM,-190.0,1.526315789473684,1.5044925457974834,1.0145053850463799
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,25,-1000.0,,-1000.0,,-870.0,,-1000.0,,,,DraftKings,-870.0,1.1149425287356323,1.1,1.013584117032393
-Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,25,,,,,-2700.0,-3500.0,,,,,DraftKings,-2700.0,1.037037037037037,1.0285714285714285,1.008230452674897
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Rushing,25,,,,,545.0,550.0,,,,,ESPNBET,550.0,6.5,6.45,1.0077519379844961
+Detroit Lions @ Cincinnati Bengals,Jahmyr Gibbs,Rushing,25,,,,,-2400.0,-3500.0,,,,,DraftKings,-2400.0,1.0416666666666667,1.0285714285714285,1.0127314814814816
+Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,25,,,,,,-2000.0,,,-2500.0,,ESPNBET,-2000.0,1.05,1.04,1.0096153846153846
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,25,-155.0,,,,-155.0,,-152.0,,,,FanDuel,-152.0,1.6578947368421053,1.6451612903225805,1.0077399380804954
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1200.0,,1200.0,,,,DraftKings,1200.0,13.0,13.0,1.0
-New England Patriots @ Buffalo Bills,Efton Chism III,AnytimeTD,Anytime,,,1800.0,,,,1800.0,,,,Bovada,1800.0,19.0,19.0,1.0
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,80,,,,,3000.0,3000.0,,,,,DraftKings,3000.0,31.0,31.0,1.0
+New England Patriots @ Buffalo Bills,Efton Chism III,AnytimeTD,Anytime,,,1800.0,,,,1800.0,,,,Bovada,1800.0,19.0,19.0,1.0
 Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,,,Bovada,700.0,8.0,8.0,1.0
-Detroit Lions @ Cincinnati Bengals,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Al-Quadin Muhammad,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Amik Robertson,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1200.0,,1200.0,,,,DraftKings,1200.0,13.0,13.0,1.0
 Detroit Lions @ Cincinnati Bengals,Amon-Ra St. Brown,Receiving,25,,,,,-1620.0,,,,,,DraftKings,-1620.0,1.0617283950617284,,
-Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,Receiving,25,,,,,273.0,,,,,,DraftKings,273.0,3.73,,
-Detroit Lions @ Cincinnati Bengals,BJ Hill,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Brian Branch,AnytimeTD,Anytime,,,,,,,,,2500.0,,HardRockBet,2500.0,26.0,,
+Detroit Lions @ Cincinnati Bengals,Andrei Iosivas,Receiving,25,,,,,236.0,,,,,,DraftKings,236.0,3.36,,
 Detroit Lions @ Cincinnati Bengals,Chase Brown,Receiving,80,,,,,4000.0,,,,,,DraftKings,4000.0,41.0,,
 Detroit Lions @ Cincinnati Bengals,Cincinnati Bengals Defense,AnytimeTD,Anytime,,,,,,,750.0,,,,FanDuel,750.0,8.5,,
-Detroit Lions @ Cincinnati Bengals,DJ Reader,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,DJ Turner II,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,David Montgomery,Receiving,25,,,,,387.0,,,,,,DraftKings,387.0,4.87,,
+Detroit Lions @ Cincinnati Bengals,David Montgomery,Receiving,25,,,,,374.0,,,,,,DraftKings,374.0,4.74,,
 Detroit Lions @ Cincinnati Bengals,David Montgomery,Receiving,50,,,,,1740.0,,,,,,DraftKings,1740.0,18.4,,
-Detroit Lions @ Cincinnati Bengals,Dax Hill,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Demetrius Knight Jr.,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Geno Stone,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Jack Campbell,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Cincinnati Bengals,Jake Browning,Rushing,50,,,,,2300.0,,,,,,DraftKings,2300.0,24.0,,
-Detroit Lions @ Cincinnati Bengals,Jermaine Burton,AnytimeTD,Anytime,2500.0,,,,,,,,,,BetMGM,2500.0,26.0,,
-Detroit Lions @ Cincinnati Bengals,Jordan Battle,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Joseph Ossai,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Josh Newton,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Logan Wilson,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Cincinnati Bengals,Mike Gesicki,Receiving,80,,,,,3700.0,,,,,,DraftKings,3700.0,38.0,,
 Detroit Lions @ Cincinnati Bengals,No Scorer,AnytimeTD,Anytime,,,,,,,,7000.0,,,Fanatics,7000.0,71.0,,
 Detroit Lions @ Cincinnati Bengals,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,,BetMGM,15000.0,151.0,,
-Detroit Lions @ Cincinnati Bengals,Trey Hendrickson,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Cincinnati Bengals,Tyleik Williams,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,110,,,,,3200.0,,,,,,DraftKings,3200.0,33.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,110,,,,,4200.0,,,,,,DraftKings,4200.0,43.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,25,,,,,597.0,,,,,,DraftKings,597.0,6.97,,
@@ -403,15 +388,24 @@ New England Patriots @ Buffalo Bills,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,
 New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,80,,,,,3100.0,,,,,,DraftKings,3100.0,32.0,,
 New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,110,,,,,2900.0,,,,,,DraftKings,2900.0,30.0,,
 New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,80,,,,,2100.0,,,,,,DraftKings,2100.0,22.0,,
-Washington Commanders @ Los Angeles Chargers,Deebo Samuel Sr.,Rushing,50,,,,,3400.0,,,,,,DraftKings,3400.0,35.0,,
-Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Receiving,25,,,,,473.0,,,,,,DraftKings,473.0,5.73,,
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,110,,,,,4600.0,,,,,,DraftKings,4600.0,47.0,,
+Washington Commanders @ Los Angeles Chargers,Bobby Wagner,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Daiyan Henley,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Daron Payne,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Derwin James Jr.,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Elijah Molden,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Frankie Luvu,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,Jacory Croskey-Merritt,Rushing,110,,,,,4500.0,,,,,,DraftKings,4500.0,46.0,,
+Washington Commanders @ Los Angeles Chargers,Jartavius Martin,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,Jayden Daniels,Passing,350,,,,,3000.0,,,,,,DraftKings,3000.0,31.0,,
-Washington Commanders @ Los Angeles Chargers,Jaylin Lane,Receiving,80,,,,,2600.0,,,,,,DraftKings,2600.0,27.0,,
+Washington Commanders @ Los Angeles Chargers,Jeremy McNichols,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
+Washington Commanders @ Los Angeles Chargers,Jeremy McNichols,Receiving,50,,,,,,,,,600.0,,HardRockBet,600.0,7.0,,
+Washington Commanders @ Los Angeles Chargers,Jeremy Reaves,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,110,,,,,3600.0,,,,,,DraftKings,3600.0,37.0,,
 Washington Commanders @ Los Angeles Chargers,Justin Herbert,Rushing,80,,,,,1500.0,,,,,,DraftKings,1500.0,16.0,,
+Washington Commanders @ Los Angeles Chargers,Marshon Lattimore,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,No Scorer,AnytimeTD,Anytime,,,,,,,,5000.0,,,Fanatics,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,,BetMGM,15000.0,151.0,,
-Washington Commanders @ Los Angeles Chargers,Omarion Hampton,Rushing,25,,,,,,-2000.0,,,,,ESPNBET,-2000.0,1.05,,
-Washington Commanders @ Los Angeles Chargers,Oronde Gadsden II,Receiving,80,,,,,2700.0,,,,,,DraftKings,2700.0,28.0,,
+Washington Commanders @ Los Angeles Chargers,Tarheeb Still,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Washington Commanders @ Los Angeles Chargers,Troy Dye,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Washington Commanders @ Los Angeles Chargers,Washington Commanders Defense,AnytimeTD,Anytime,,,,,,,800.0,,,,FanDuel,800.0,9.0,,
