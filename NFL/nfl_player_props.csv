@@ -1,212 +1,214 @@
-event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,betPARX,best_book,best_odds,best_decimal,avg_other,value_ratio
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,110,,,1100.0,,4600.0,,,,,DraftKings,4600.0,47.0,12.0,3.9166666666666665
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,80,,,,,3300.0,,1500.0,,,DraftKings,3300.0,34.0,16.0,2.125
-Kansas City Chiefs @ Jacksonville Jaguars,Nikko Remigio,AnytimeTD,Anytime,2800.0,1400.0,1600.0,1600.0,2200.0,,1600.0,1500.0,1400.0,BetMGM,2800.0,29.0,17.142857142857142,1.6916666666666667
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,50,,,,,850.0,1500.0,,,,ESPNBET,1500.0,16.0,9.5,1.6842105263157894
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,350,,,1600.0,,2800.0,,1700.0,,,DraftKings,2800.0,29.0,17.5,1.6571428571428573
-New England Patriots @ Buffalo Bills,Jack Westover,AnytimeTD,Anytime,4500.0,1800.0,3000.0,2900.0,4000.0,,3300.0,2500.0,1800.0,BetMGM,4500.0,46.0,28.571428571428573,1.6099999999999999
-Kansas City Chiefs @ Jacksonville Jaguars,Cody Schrader,AnytimeTD,Anytime,,,1400.0,1500.0,2200.0,,1400.0,,,DraftKings,2200.0,23.0,15.333333333333334,1.5
-New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,50,600.0,,,,940.0,1200.0,,,,ESPNBET,1200.0,13.0,8.7,1.4942528735632186
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,80,,,1100.0,,1840.0,1300.0,1200.0,,,DraftKings,1840.0,19.4,13.0,1.4923076923076921
-Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,AnytimeTD,Anytime,1700.0,1400.0,2500.0,1600.0,1600.0,,2500.0,1300.0,1400.0,Bovada,2500.0,26.0,17.428571428571427,1.4918032786885247
-New England Patriots @ Buffalo Bills,DeMario Douglas,AnytimeTD,Anytime,1200.0,600.0,900.0,800.0,900.0,,900.0,740.0,600.0,BetMGM,1200.0,13.0,8.77142857142857,1.4820846905537461
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,80,,,1100.0,,1720.0,1200.0,1100.0,,,DraftKings,1720.0,18.2,12.333333333333334,1.4756756756756755
-New England Patriots @ Buffalo Bills,Tyrell Shavers,AnytimeTD,Anytime,1500.0,750.0,1100.0,1100.0,1300.0,,1100.0,800.0,750.0,BetMGM,1500.0,16.0,10.857142857142858,1.4736842105263157
-Kansas City Chiefs @ Jacksonville Jaguars,Robert Tonyan,AnytimeTD,Anytime,2200.0,1200.0,1700.0,1500.0,1800.0,,1700.0,1300.0,1200.0,BetMGM,2200.0,23.0,15.857142857142858,1.4504504504504505
-New England Patriots @ Buffalo Bills,Austin Hooper,AnytimeTD,Anytime,950.0,460.0,800.0,700.0,800.0,,800.0,600.0,460.0,BetMGM,950.0,10.5,7.6000000000000005,1.381578947368421
-New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,50,,,,,920.0,,1300.0,,,FanDuel,1300.0,14.0,10.2,1.3725490196078431
-New England Patriots @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,1400.0,950.0,1100.0,1000.0,1200.0,,1000.0,800.0,950.0,BetMGM,1400.0,15.0,11.0,1.3636363636363635
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,110,,,500.0,625.0,780.0,,520.0,,,DraftKings,780.0,8.8,6.483333333333333,1.3573264781491003
-New England Patriots @ Buffalo Bills,Kyle Williams,AnytimeTD,Anytime,2000.0,1050.0,1800.0,1500.0,1500.0,,1800.0,,1050.0,BetMGM,2000.0,21.0,15.5,1.3548387096774193
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Rushing,25,,,,,980.0,700.0,,,,DraftKings,980.0,10.8,8.0,1.35
-Kansas City Chiefs @ Jacksonville Jaguars,Jared Wiley,AnytimeTD,Anytime,2200.0,,1700.0,1600.0,1800.0,,1700.0,1500.0,,BetMGM,2200.0,23.0,17.6,1.3068181818181817
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,50,,,,900.0,670.0,750.0,580.0,,,Caesars,900.0,10.0,7.666666666666667,1.3043478260869565
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,110,,,1100.0,,1660.0,1400.0,1280.0,,,DraftKings,1660.0,17.6,13.6,1.2941176470588236
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,50,,,,,1680.0,2200.0,,,,ESPNBET,2200.0,23.0,17.8,1.2921348314606742
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,AnytimeTD,Anytime,750.0,575.0,525.0,550.0,650.0,,550.0,530.0,575.0,BetMGM,750.0,8.5,6.6499999999999995,1.2781954887218046
-New England Patriots @ Buffalo Bills,James Cook,Receiving,50,,,,,650.0,850.0,,,,ESPNBET,850.0,9.5,7.5,1.2666666666666666
-New England Patriots @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,850.0,550.0,900.0,700.0,700.0,,900.0,600.0,550.0,Bovada,900.0,10.0,7.928571428571429,1.2612612612612613
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,25,,,,,202.0,,280.0,,,FanDuel,280.0,3.8,3.02,1.2582781456953642
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,50,,,,,830.0,650.0,630.0,,,DraftKings,830.0,9.3,7.4,1.2567567567567568
-Kansas City Chiefs @ Jacksonville Jaguars,Johnny Mundt,AnytimeTD,Anytime,2000.0,1400.0,1800.0,1600.0,1700.0,,1800.0,1300.0,1400.0,BetMGM,2000.0,21.0,16.714285714285715,1.2564102564102564
-New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,50,,,,,1580.0,2000.0,,,,ESPNBET,2000.0,21.0,16.8,1.25
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,50,,,,,584.0,750.0,,,,ESPNBET,750.0,8.5,6.84,1.2426900584795322
-Kansas City Chiefs @ Jacksonville Jaguars,Tim Patrick,AnytimeTD,Anytime,1400.0,800.0,1400.0,1100.0,1200.0,,1400.0,1050.0,800.0,BetMGM,1400.0,15.0,12.071428571428571,1.2426035502958581
-New England Patriots @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,4000.0,,4000.0,3000.0,3500.0,,3500.0,2000.0,,BetMGM,4000.0,41.0,33.0,1.2424242424242424
-New England Patriots @ Buffalo Bills,Elijah Moore,AnytimeTD,Anytime,1300.0,950.0,1100.0,1000.0,1200.0,,1100.0,900.0,950.0,BetMGM,1300.0,14.0,11.285714285714286,1.240506329113924
-New England Patriots @ Buffalo Bills,Antonio Gibson,AnytimeTD,Anytime,600.0,510.0,400.0,420.0,550.0,,440.0,420.0,510.0,BetMGM,600.0,7.0,5.642857142857144,1.2405063291139238
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,300,525.0,,625.0,575.0,770.0,650.0,640.0,,,DraftKings,770.0,8.7,7.029999999999999,1.2375533428165006
-New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,25,,,,,224.0,,300.0,,,FanDuel,300.0,4.0,3.24,1.2345679012345678
-New England Patriots @ Buffalo Bills,Josh Allen,Passing,350,1200.0,,1200.0,,1480.0,1600.0,1280.0,,,ESPNBET,1600.0,17.0,13.899999999999999,1.2230215827338131
-New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,25,150.0,,,,204.0,,,,,DraftKings,204.0,3.04,2.5,1.216
-Kansas City Chiefs @ Jacksonville Jaguars,Jalen Royals,AnytimeTD,Anytime,1600.0,800.0,1600.0,1500.0,1500.0,,1600.0,1300.0,800.0,BetMGM,1600.0,17.0,14.0,1.2142857142857142
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,110,,,575.0,500.0,680.0,550.0,550.0,,,DraftKings,680.0,7.8,6.4375,1.2116504854368932
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,110,,,,,2200.0,1800.0,,,,DraftKings,2200.0,23.0,19.0,1.2105263157894737
-Kansas City Chiefs @ Jacksonville Jaguars,Elijah Mitchell,AnytimeTD,Anytime,2800.0,2800.0,,,2000.0,,,1600.0,2800.0,BetMGM,2800.0,29.0,24.0,1.2083333333333333
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,110,,,600.0,600.0,750.0,650.0,580.0,,,DraftKings,750.0,8.5,7.075,1.2014134275618373
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,80,,,900.0,,1220.0,1200.0,920.0,,,DraftKings,1220.0,13.2,11.066666666666668,1.1927710843373491
-New England Patriots @ Buffalo Bills,Mack Hollins,AnytimeTD,Anytime,800.0,700.0,625.0,625.0,700.0,,650.0,600.0,700.0,BetMGM,800.0,9.0,7.571428571428571,1.1886792452830188
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,50,,,,,810.0,900.0,680.0,,,ESPNBET,900.0,10.0,8.45,1.183431952662722
-Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,470.0,,BetMGM,650.0,7.5,6.35,1.1811023622047245
-New England Patriots @ Buffalo Bills,James Cook,Rushing,110,,,300.0,305.0,398.0,,370.0,,,DraftKings,398.0,4.98,4.25,1.171764705882353
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,50,320.0,400.0,300.0,305.0,345.0,300.0,320.0,,400.0,BetRivers,400.0,5.0,4.271428571428571,1.1705685618729098
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,50,210.0,300.0,250.0,220.0,232.0,225.0,255.0,,300.0,BetRivers,300.0,4.0,3.4171428571428573,1.1705685618729096
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,AnytimeTD,Anytime,290.0,300.0,350.0,310.0,280.0,,370.0,285.0,300.0,FanDuel,370.0,4.7,4.021428571428571,1.1687388987566607
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,AnytimeTD,Anytime,450.0,310.0,400.0,380.0,425.0,,410.0,360.0,310.0,BetMGM,450.0,5.5,4.707142857142857,1.1684370257966616
-New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,50,450.0,,,450.0,466.0,500.0,560.0,,,FanDuel,560.0,6.6,5.665,1.1650485436893203
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,AnytimeTD,Anytime,500.0,400.0,400.0,420.0,450.0,,440.0,420.0,400.0,BetMGM,500.0,6.0,5.185714285714285,1.15702479338843
-New England Patriots @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,800.0,700.0,825.0,700.0,750.0,,850.0,580.0,700.0,FanDuel,850.0,9.5,8.221428571428572,1.155516941789748
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,300,525.0,,450.0,380.0,457.0,450.0,470.0,,,BetMGM,525.0,6.25,5.414,1.1544144809752495
-Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,500.0,,BetMGM,650.0,7.5,6.5,1.1538461538461537
-New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,80,,,850.0,,1020.0,900.0,870.0,,,DraftKings,1020.0,11.2,9.733333333333333,1.1506849315068493
-New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,50,,,,,820.0,700.0,,,,DraftKings,820.0,9.2,8.0,1.15
-New England Patriots @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,500.0,375.0,440.0,420.0,475.0,,490.0,380.0,375.0,BetMGM,500.0,6.0,5.221428571428571,1.1491108071135432
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,AnytimeTD,Anytime,300.0,220.0,260.0,250.0,290.0,,260.0,240.0,220.0,BetMGM,300.0,4.0,3.4857142857142853,1.1475409836065575
-Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,50,,,,,1140.0,1400.0,1280.0,,,ESPNBET,1400.0,15.0,13.100000000000001,1.1450381679389312
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,25,,,400.0,,319.0,375.0,430.0,,,FanDuel,430.0,5.3,4.6466666666666665,1.1406025824964132
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,80,,,,,1140.0,1100.0,880.0,,,DraftKings,1140.0,12.4,10.9,1.1376146788990826
-Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,AnytimeTD,Anytime,600.0,650.0,525.0,500.0,550.0,,550.0,550.0,650.0,BetRivers,650.0,7.5,6.607142857142857,1.1351351351351353
-New England Patriots @ Buffalo Bills,Dawson Knox,AnytimeTD,Anytime,750.0,650.0,700.0,600.0,650.0,,700.0,600.0,650.0,BetMGM,750.0,8.5,7.5,1.1333333333333333
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,AnytimeTD,Anytime,450.0,370.0,400.0,400.0,400.0,,400.0,360.0,370.0,BetMGM,450.0,5.5,4.857142857142857,1.1323529411764708
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,250,170.0,240.0,200.0,170.0,224.0,200.0,205.0,,240.0,BetRivers,240.0,3.4,3.012857142857143,1.1284969179706021
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,50,525.0,,650.0,600.0,544.0,650.0,680.0,,,FanDuel,680.0,7.8,6.938,1.1242432977803403
-Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,AnytimeTD,Anytime,650.0,650.0,525.0,525.0,600.0,,550.0,470.0,650.0,BetMGM,650.0,7.5,6.671428571428572,1.1241970021413277
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,25,,,,,247.0,,290.0,,,FanDuel,290.0,3.9,3.47,1.1239193083573487
-New England Patriots @ Buffalo Bills,Drake Maye,AnytimeTD,Anytime,375.0,300.0,320.0,325.0,350.0,,320.0,345.0,300.0,BetMGM,375.0,4.75,4.228571428571429,1.1233108108108107
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,80,,175.0,160.0,150.0,198.0,160.0,172.0,,175.0,DraftKings,198.0,2.98,2.653333333333333,1.1231155778894475
-Kansas City Chiefs @ Jacksonville Jaguars,LeQuint Allen Jr.,AnytimeTD,Anytime,1400.0,1200.0,1400.0,1200.0,1200.0,,1400.0,1050.0,1200.0,BetMGM,1400.0,15.0,13.357142857142858,1.1229946524064172
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,350,1250.0,,1200.0,,1400.0,,1260.0,,,DraftKings,1400.0,15.0,13.366666666666667,1.1221945137157108
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,50,200.0,225.0,250.0,205.0,205.0,210.0,255.0,,225.0,FanDuel,255.0,3.55,3.1714285714285717,1.1193693693693691
-New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,110,,,1200.0,,1060.0,1300.0,1200.0,,,ESPNBET,1300.0,14.0,12.533333333333333,1.1170212765957448
-New England Patriots @ Buffalo Bills,Stefon Diggs,AnytimeTD,Anytime,275.0,220.0,260.0,235.0,245.0,,260.0,215.0,220.0,BetMGM,275.0,3.75,3.3642857142857143,1.1146496815286624
-New England Patriots @ Buffalo Bills,New England Patriots D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,550.0,,BetMGM,650.0,7.5,6.75,1.1111111111111112
-New England Patriots @ Buffalo Bills,Buffalo Bills D/ST,AnytimeTD,Anytime,550.0,,,,500.0,,,470.0,,BetMGM,550.0,6.5,5.85,1.1111111111111112
-New England Patriots @ Buffalo Bills,Curtis Samuel,AnytimeTD,Anytime,900.0,900.0,800.0,700.0,800.0,,800.0,700.0,900.0,BetMGM,900.0,10.0,9.0,1.1111111111111112
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,AnytimeTD,Anytime,380.0,410.0,350.0,340.0,370.0,,350.0,315.0,410.0,BetRivers,410.0,5.1,4.592857142857143,1.1104199066874025
-New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,25,,,,,260.0,225.0,,,,DraftKings,260.0,3.6,3.25,1.1076923076923078
-New England Patriots @ Buffalo Bills,Josh Allen,Rushing,50,300.0,280.0,275.0,240.0,233.0,250.0,270.0,,280.0,BetMGM,300.0,4.0,3.6114285714285717,1.1075949367088607
-Kansas City Chiefs @ Jacksonville Jaguars,Quintin Morris,AnytimeTD,Anytime,,,2500.0,,,,2500.0,2000.0,,Bovada,2500.0,26.0,23.5,1.1063829787234043
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,AnytimeTD,Anytime,250.0,215.0,220.0,210.0,225.0,,220.0,210.0,215.0,BetMGM,250.0,3.5,3.164285714285714,1.1060948081264108
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,110,,,875.0,,810.0,1000.0,1000.0,,,ESPNBET,1000.0,11.0,9.950000000000001,1.1055276381909547
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,80,,,1200.0,,1440.0,1400.0,1280.0,,,DraftKings,1440.0,15.4,13.933333333333332,1.105263157894737
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,80,,,,,760.0,850.0,,,,ESPNBET,850.0,9.5,8.6,1.1046511627906976
-New England Patriots @ Buffalo Bills,Kayshon Boutte,AnytimeTD,Anytime,375.0,320.0,350.0,360.0,360.0,,390.0,325.0,320.0,FanDuel,390.0,4.9,4.442857142857142,1.1028938906752415
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,1100.0,,1260.0,1100.0,1200.0,,,DraftKings,1260.0,13.6,12.333333333333334,1.1027027027027025
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,350,750.0,,850.0,750.0,920.0,900.0,880.0,,,DraftKings,920.0,10.2,9.26,1.101511879049676
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,25,,,,,151.0,,176.0,,,FanDuel,176.0,2.76,2.51,1.099601593625498
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,50,135.0,185.0,190.0,150.0,165.0,165.0,194.0,,185.0,FanDuel,194.0,2.94,2.6785714285714284,1.0976000000000001
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,25,-700.0,,-500.0,,-335.0,,-480.0,,,DraftKings,-335.0,1.2985074626865671,1.1837301587301585,1.096962388860258
-Kansas City Chiefs @ Jacksonville Jaguars,Jason Brownlee,AnytimeTD,Anytime,,,1600.0,,,,1600.0,1300.0,,Bovada,1600.0,17.0,15.5,1.096774193548387
-Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,25,,,,,238.0,,270.0,,,FanDuel,270.0,3.7,3.38,1.0946745562130178
-New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,25,,,,,414.0,,370.0,,,DraftKings,414.0,5.14,4.7,1.0936170212765957
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,80,,440.0,550.0,525.0,525.0,550.0,560.0,,440.0,FanDuel,560.0,6.6,6.05,1.0909090909090908
-New England Patriots @ Buffalo Bills,Josh Allen,Rushing,80,,,1100.0,,800.0,1100.0,1100.0,,,Bovada,1100.0,12.0,11.0,1.0909090909090908
-New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,25,-325.0,,-275.0,,-212.0,,-265.0,,,DraftKings,-212.0,1.4716981132075473,1.3495623872982365,1.0905002444190972
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,300,260.0,320.0,300.0,230.0,295.0,300.0,310.0,,320.0,BetRivers,320.0,4.2,3.8785714285714277,1.082872928176796
-New England Patriots @ Buffalo Bills,James Cook,Rushing,80,,130.0,100.0,-104.0,121.0,110.0,118.0,,130.0,BetRivers,130.0,2.3,2.1252564102564104,1.0822223562767688
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,50,125.0,120.0,140.0,120.0,132.0,135.0,146.0,,120.0,FanDuel,146.0,2.46,2.2742857142857145,1.0816582914572863
-New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,80,,,,,1900.0,1800.0,1700.0,,,DraftKings,1900.0,20.0,18.5,1.0810810810810811
-New England Patriots @ Buffalo Bills,Drake Maye,Rushing,80,,,1200.0,,1340.0,1300.0,1200.0,,,DraftKings,1340.0,14.4,13.333333333333334,1.08
-New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,25,125.0,,,,127.0,,144.0,,,FanDuel,144.0,2.44,2.26,1.0796460176991152
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,50,340.0,380.0,300.0,340.0,384.0,350.0,350.0,,380.0,DraftKings,384.0,4.84,4.485714285714286,1.0789808917197452
-New England Patriots @ Buffalo Bills,Josh Allen,Passing,300,450.0,,475.0,390.0,481.0,500.0,490.0,,,ESPNBET,500.0,6.0,5.572,1.0768126346015794
-New England Patriots @ Buffalo Bills,Drake Maye,Passing,250,165.0,155.0,140.0,130.0,144.0,145.0,154.0,,155.0,BetMGM,165.0,2.65,2.4614285714285713,1.0766105629715612
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,80,,330.0,325.0,270.0,298.0,300.0,340.0,,330.0,FanDuel,340.0,4.4,4.088333333333334,1.0762331838565022
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,80,,,400.0,370.0,427.0,450.0,450.0,,,ESPNBET,450.0,5.5,5.1175,1.074743527112848
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,AnytimeTD,Anytime,400.0,390.0,350.0,360.0,380.0,,350.0,345.0,390.0,BetMGM,400.0,5.0,4.664285714285714,1.0719754977029097
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,80,,215.0,200.0,160.0,212.0,185.0,194.0,,215.0,BetRivers,215.0,3.15,2.943333333333333,1.070215175537939
-New England Patriots @ Buffalo Bills,Drake Maye,Rushing,50,300.0,265.0,300.0,265.0,290.0,300.0,310.0,,265.0,FanDuel,310.0,4.1,3.8357142857142854,1.0689013035381751
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,25,-275.0,,-220.0,,-195.0,-240.0,-225.0,,,DraftKings,-195.0,1.5128205128205128,1.4198232323232325,1.0654991962239626
-New England Patriots @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,-125.0,-137.0,-114.0,-115.0,-125.0,,-110.0,-135.0,-136.0,FanDuel,-110.0,1.9090909090909092,1.793245723647788,1.0646008429940494
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,80,,220.0,200.0,180.0,228.0,210.0,220.0,,220.0,DraftKings,228.0,3.28,3.0833333333333335,1.0637837837837836
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,AnytimeTD,Anytime,185.0,163.0,170.0,170.0,180.0,,170.0,160.0,163.0,BetMGM,185.0,2.85,2.68,1.0634328358208955
-New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,80,,,475.0,500.0,402.0,500.0,480.0,,,Caesars,500.0,6.0,5.6425,1.0633584404076206
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,80,,430.0,500.0,450.0,502.0,500.0,490.0,,430.0,DraftKings,502.0,6.02,5.666666666666667,1.0623529411764705
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,50,300.0,280.0,260.0,270.0,291.0,275.0,280.0,,280.0,BetMGM,300.0,4.0,3.765714285714286,1.062215477996965
-New England Patriots @ Buffalo Bills,James Cook,Rushing,50,-700.0,-530.0,-475.0,-515.0,-396.0,-400.0,-360.0,,-530.0,FanDuel,-360.0,1.2777777777777777,1.2039202798599227,1.0613474987948939
-New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,50,-115.0,-115.0,-110.0,-115.0,100.0,-115.0,-106.0,,-115.0,DraftKings,100.0,2.0,1.885759031780361,1.0605808941091392
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,50,165.0,225.0,220.0,190.0,211.0,210.0,225.0,,225.0,BetRivers,225.0,3.25,3.065714285714286,1.0601118359739048
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,50,130.0,120.0,115.0,100.0,121.0,120.0,124.0,,120.0,BetMGM,130.0,2.3,2.1714285714285713,1.0592105263157894
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,AnytimeTD,Anytime,320.0,350.0,330.0,330.0,320.0,,330.0,295.0,350.0,BetRivers,350.0,4.5,4.25,1.0588235294117647
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,AnytimeTD,Anytime,350.0,325.0,330.0,320.0,330.0,,330.0,315.0,325.0,BetMGM,350.0,4.5,4.25,1.0588235294117647
-New England Patriots @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,210.0,190.0,185.0,205.0,205.0,,195.0,180.0,190.0,BetMGM,210.0,3.1,2.9285714285714284,1.0585365853658537
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,50,110.0,118.0,130.0,110.0,132.0,130.0,134.0,,118.0,FanDuel,134.0,2.34,2.2114285714285713,1.058139534883721
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,250,-135.0,-108.0,-115.0,-120.0,-109.0,-110.0,-102.0,,-108.0,FanDuel,-102.0,1.9803921568627452,1.8745733207240989,1.056449558397519
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,50,300.0,295.0,300.0,290.0,303.0,300.0,320.0,,295.0,FanDuel,320.0,4.2,3.9757142857142855,1.056413941789436
-New England Patriots @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,250.0,235.0,240.0,235.0,225.0,,240.0,210.0,235.0,BetMGM,250.0,3.5,3.3142857142857145,1.0560344827586206
-New England Patriots @ Buffalo Bills,James Cook,Receiving,25,,,185.0,,165.0,,190.0,,,FanDuel,190.0,2.9,2.75,1.0545454545454545
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,50,360.0,,375.0,400.0,374.0,375.0,390.0,,,Caesars,400.0,5.0,4.748,1.0530749789385003
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,110,,,1200.0,,1320.0,,1300.0,,,DraftKings,1320.0,14.2,13.5,1.0518518518518518
-New England Patriots @ Buffalo Bills,Hunter Henry,AnytimeTD,Anytime,225.0,225.0,240.0,225.0,210.0,,240.0,215.0,225.0,Bovada,240.0,3.4,3.2357142857142853,1.0507726269315674
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,AnytimeTD,Anytime,100.0,102.0,110.0,110.0,105.0,,115.0,105.0,102.0,FanDuel,115.0,2.15,2.0485714285714285,1.0495118549511855
-New England Patriots @ Buffalo Bills,Josh Allen,Rushing,25,-190.0,,-210.0,,-180.0,-220.0,-210.0,,,DraftKings,-180.0,1.5555555555555556,1.4833105491000227,1.0487052468543197
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,25,,,,,181.0,,168.0,,,DraftKings,181.0,2.81,2.6799999999999997,1.0485074626865674
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,25,,,,,129.0,115.0,122.0,,,DraftKings,129.0,2.29,2.1849999999999996,1.048054919908467
-New England Patriots @ Buffalo Bills,Josh Allen,Passing,250,135.0,160.0,160.0,125.0,149.0,150.0,158.0,,160.0,BetRivers,160.0,2.6,2.4814285714285718,1.047783534830167
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,80,,,675.0,650.0,630.0,700.0,700.0,,,ESPNBET,700.0,8.0,7.6375,1.0474631751227497
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,25,-295.0,,-240.0,,-215.0,,-225.0,,,DraftKings,-215.0,1.4651162790697674,1.4000313873195231,1.0464881661509422
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,AnytimeTD,Anytime,240.0,230.0,225.0,225.0,220.0,,220.0,225.0,230.0,BetMGM,240.0,3.4,3.25,1.0461538461538462
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,25,-350.0,,-275.0,,-271.0,,-250.0,,,FanDuel,-250.0,1.4,1.3394514464625165,1.0452039927967467
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,AnytimeTD,Anytime,150.0,163.0,150.0,150.0,155.0,,150.0,145.0,163.0,BetRivers,163.0,2.63,2.5185714285714282,1.0442427680090756
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,80,,,825.0,,870.0,900.0,880.0,,,ESPNBET,900.0,10.0,9.583333333333334,1.0434782608695652
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,25,-135.0,,-140.0,,-125.0,-140.0,-136.0,,,DraftKings,-125.0,1.8,1.726151571739807,1.042782122653204
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,50,260.0,,,255.0,271.0,275.0,280.0,,,FanDuel,280.0,3.8,3.6525,1.0403832991101984
-New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,25,-150.0,,-135.0,,-137.0,,-128.0,,,FanDuel,-128.0,1.78125,1.7124448049022256,1.0401795111298218
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,25,-500.0,,-375.0,,-335.0,,-350.0,,,DraftKings,-335.0,1.2985074626865671,1.2507936507936508,1.0381468293052505
-New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,50,275.0,245.0,275.0,280.0,268.0,275.0,280.0,,245.0,Caesars,280.0,3.8,3.6614285714285715,1.037846273897776
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,25,-450.0,,-350.0,,-319.0,,-340.0,,,DraftKings,-319.0,1.3134796238244515,1.2673513849984437,1.0363973554390873
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,AnytimeTD,Anytime,180.0,165.0,180.0,175.0,185.0,,180.0,180.0,165.0,DraftKings,185.0,2.85,2.75,1.0363636363636364
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,25,105.0,,110.0,,111.0,110.0,116.0,,,FanDuel,116.0,2.16,2.0900000000000003,1.033492822966507
-New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,50,135.0,140.0,140.0,120.0,142.0,145.0,144.0,,140.0,ESPNBET,145.0,2.45,2.3728571428571428,1.0325105358217943
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,25,-160.0,,-160.0,,-146.0,,-154.0,,,DraftKings,-146.0,1.6849315068493151,1.6331168831168832,1.0317274435578312
-New England Patriots @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,185.0,170.0,185.0,180.0,180.0,,185.0,165.0,170.0,BetMGM,185.0,2.85,2.7642857142857147,1.0310077519379843
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,AnytimeTD,Anytime,250.0,260.0,250.0,240.0,255.0,,250.0,240.0,260.0,BetRivers,260.0,3.6,3.492857142857143,1.030674846625767
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,80,,,900.0,,870.0,900.0,920.0,,,FanDuel,920.0,10.2,9.9,1.0303030303030303
-New England Patriots @ Buffalo Bills,New England Patriots Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,AnytimeTD,Anytime,210.0,215.0,220.0,205.0,210.0,,220.0,200.0,215.0,Bovada,220.0,3.2,3.107142857142857,1.0298850574712644
-New England Patriots @ Buffalo Bills,James Cook,AnytimeTD,Anytime,-210.0,-195.0,-200.0,-205.0,-200.0,,-200.0,-245.0,-190.0,betPARX,-190.0,1.526315789473684,1.4835684474808417,1.0288138656935102
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,50,-200.0,-157.0,-175.0,-157.0,-153.0,-155.0,-160.0,,-157.0,DraftKings,-153.0,1.65359477124183,1.6074882696041226,1.0286823254076136
-New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,25,-375.0,,-375.0,,-326.0,,-360.0,,,DraftKings,-326.0,1.3067484662576687,1.2703703703703704,1.0286358189200309
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,25,,,-145.0,,-146.0,,-136.0,,,FanDuel,-136.0,1.7352941176470589,1.6872933396315541,1.0284483894341612
-New England Patriots @ Buffalo Bills,Drake Maye,Rushing,25,-185.0,,-200.0,,-197.0,-210.0,-194.0,,,BetMGM,-185.0,1.5405405405405406,1.4998171517285548,1.0271522357008998
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,25,-165.0,,-180.0,,-163.0,-170.0,-158.0,,,FanDuel,-158.0,1.6329113924050633,1.5908370970622867,1.0264478967836952
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,25,-160.0,,-160.0,,-146.0,-155.0,-148.0,,,DraftKings,-146.0,1.6849315068493151,1.6427092414995639,1.025702823289171
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,25,-1200.0,,-775.0,,-700.0,,-750.0,,,DraftKings,-700.0,1.1428571428571428,1.1152329749103942,1.0247698629508046
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,25,,,,,201.0,,194.0,,,DraftKings,201.0,3.01,2.94,1.0238095238095237
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,25,-210.0,,-195.0,,-184.0,,-186.0,,,DraftKings,-184.0,1.5434782608695652,1.5088817992043797,1.0229285432983737
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,50,,-286.0,-275.0,-285.0,-278.0,-275.0,-260.0,,-286.0,FanDuel,-260.0,1.3846153846153846,1.3561938082952851,1.0209568692514714
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,25,,,,,-3500.0,-2000.0,,,,ESPNBET,-2000.0,1.05,1.0285714285714285,1.0208333333333335
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,50,-190.0,-182.0,-200.0,-182.0,-178.0,-185.0,-188.0,,-182.0,DraftKings,-178.0,1.5617977528089888,1.5353032674261278,1.0172568416579209
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,25,-1000.0,,-1000.0,,-870.0,,-1000.0,,,DraftKings,-870.0,1.1149425287356323,1.1,1.013584117032393
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,25,-155.0,,,,-155.0,,-152.0,,,FanDuel,-152.0,1.6578947368421053,1.6451612903225805,1.0077399380804954
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,80,,,,,3000.0,3000.0,,,,DraftKings,3000.0,31.0,31.0,1.0
-Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,700.0,,,,700.0,,,Bovada,700.0,8.0,8.0,1.0
-New England Patriots @ Buffalo Bills,Efton Chism III,AnytimeTD,Anytime,,,1800.0,,,,1800.0,,,Bovada,1800.0,19.0,19.0,1.0
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1200.0,,1200.0,,,DraftKings,1200.0,13.0,13.0,1.0
-New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,50,,,,,2000.0,2000.0,,,,DraftKings,2000.0,21.0,21.0,1.0
-New England Patriots @ Buffalo Bills,Buffalo Bills Defense,AnytimeTD,Anytime,,,600.0,,,,600.0,,,Bovada,600.0,7.0,7.0,1.0
-New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,110,,,,,2500.0,2500.0,,,,DraftKings,2500.0,26.0,26.0,1.0
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,110,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,110,,,,,4200.0,,,,,DraftKings,4200.0,43.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,25,,,,,597.0,,,,,DraftKings,597.0,6.97,,
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,50,,,,,2500.0,,,,,DraftKings,2500.0,26.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars Defense,AnytimeTD,Anytime,,,,,,,750.0,,,FanDuel,750.0,8.5,,
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,110,,,,,4400.0,,,,,DraftKings,4400.0,45.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,BetMGM,15000.0,151.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,80,,,,,3500.0,,,,,DraftKings,3500.0,36.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,80,,,,,2400.0,,,,,DraftKings,2400.0,25.0,,
-New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,25,,,,,186.0,,,,,DraftKings,186.0,2.8600000000000003,,
-New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,80,,,,,4100.0,,,,,DraftKings,4100.0,42.0,,
-New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,80,,,,,4400.0,,,,,DraftKings,4400.0,45.0,,
-New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,110,,,,,1720.0,,,,,DraftKings,1720.0,18.2,,
-New England Patriots @ Buffalo Bills,James Cook,Receiving,80,,,,,2400.0,,,,,DraftKings,2400.0,25.0,,
-New England Patriots @ Buffalo Bills,James Cook,Rushing,25,,,,,,-2500.0,,,,ESPNBET,-2500.0,1.04,,
-New England Patriots @ Buffalo Bills,Josh Allen,Rushing,110,,,,,2600.0,,,,,DraftKings,2600.0,27.0,,
-New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,110,,,,,3900.0,,,,,DraftKings,3900.0,40.0,,
-New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,80,,,,,4600.0,,,,,DraftKings,4600.0,47.0,,
-New England Patriots @ Buffalo Bills,No Scorer,AnytimeTD,Anytime,,,,,,,,7000.0,,Fanatics,7000.0,71.0,,
-New England Patriots @ Buffalo Bills,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,BetMGM,20000.0,201.0,,
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,80,,,,,3100.0,,,,,DraftKings,3100.0,32.0,,
-New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,110,,,,,2900.0,,,,,DraftKings,2900.0,30.0,,
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,80,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
-New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,110,,,,,4600.0,,,,,DraftKings,4600.0,47.0,,
+event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,betPARX,best_book,best_odds,best_decimal,avg_other,value_ratio
+Kansas City Chiefs @ Jacksonville Jaguars,Jalen Royals,AnytimeTD,Anytime,1600.0,800.0,,1100.0,800.0,,,740.0,2500.0,800.0,HardRockBet,2500.0,26.0,10.733333333333334,2.422360248447205
+Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,50,,,,,,1300.0,,,600.0,,ESPNBET,1300.0,14.0,7.0,2.0
+Kansas City Chiefs @ Jacksonville Jaguars,Nikko Remigio,AnytimeTD,Anytime,2800.0,1400.0,,1500.0,1600.0,,,1300.0,1300.0,1400.0,BetMGM,2800.0,29.0,15.166666666666666,1.9120879120879122
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,50,,,,,820.0,1600.0,,,,,ESPNBET,1600.0,17.0,9.2,1.847826086956522
+New England Patriots @ Buffalo Bills,Jack Westover,AnytimeTD,Anytime,4500.0,1900.0,2500.0,2900.0,4000.0,,3000.0,2200.0,,1900.0,BetMGM,4500.0,46.0,27.285714285714285,1.6858638743455499
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,350,,,1600.0,,2800.0,,1700.0,,,,DraftKings,2800.0,29.0,17.5,1.6571428571428573
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,80,,,675.0,,,,,,375.0,,Bovada,675.0,7.75,4.75,1.631578947368421
+Kansas City Chiefs @ Jacksonville Jaguars,Robert Tonyan,AnytimeTD,Anytime,2200.0,1200.0,,1500.0,1800.0,,,1300.0,1400.0,1200.0,BetMGM,2200.0,23.0,15.0,1.5333333333333334
+New England Patriots @ Buffalo Bills,Jackson Hawes,AnytimeTD,Anytime,1400.0,650.0,900.0,1000.0,1200.0,,1100.0,900.0,,650.0,BetMGM,1400.0,15.0,10.142857142857142,1.4788732394366197
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,80,,,,,3000.0,2000.0,,,,,DraftKings,3000.0,31.0,21.0,1.4761904761904763
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,50,,,,,670.0,700.0,630.0,,1000.0,,HardRockBet,1000.0,11.0,7.666666666666667,1.434782608695652
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,AnytimeTD,Anytime,450.0,310.0,,295.0,280.0,,,250.0,275.0,310.0,BetMGM,450.0,5.5,3.866666666666667,1.4224137931034482
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,80,,,1100.0,,1660.0,,,,2000.0,,HardRockBet,2000.0,21.0,14.8,1.4189189189189189
+New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,50,,,,,960.0,,1400.0,,,,FanDuel,1400.0,15.0,10.6,1.4150943396226416
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,50,,,190.0,,,,,,105.0,,Bovada,190.0,2.9,2.05,1.4146341463414636
+New England Patriots @ Buffalo Bills,James Cook,Receiving,50,,,,,546.0,800.0,,,,,ESPNBET,800.0,9.0,6.46,1.3931888544891642
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,80,,,1100.0,,1720.0,,,,2000.0,,HardRockBet,2000.0,21.0,15.1,1.390728476821192
+New England Patriots @ Buffalo Bills,Tyrell Shavers,AnytimeTD,Anytime,1500.0,900.0,,1200.0,1300.0,,,1050.0,,900.0,BetMGM,1500.0,16.0,11.7,1.3675213675213675
+Kansas City Chiefs @ Jacksonville Jaguars,Johnny Mundt,AnytimeTD,Anytime,2000.0,1400.0,,1500.0,1700.0,,,1300.0,1400.0,1400.0,BetMGM,2000.0,21.0,15.5,1.3548387096774193
+New England Patriots @ Buffalo Bills,Reggie Gilliam,AnytimeTD,Anytime,4000.0,,5000.0,3500.0,3500.0,,5000.0,2500.0,,,Bovada,5000.0,51.0,38.0,1.3421052631578947
+New England Patriots @ Buffalo Bills,Kyle Williams,AnytimeTD,Anytime,2000.0,1100.0,1400.0,1600.0,1800.0,,1800.0,,,1100.0,BetMGM,2000.0,21.0,15.666666666666666,1.3404255319148937
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,110,,,500.0,625.0,780.0,,550.0,,,,DraftKings,780.0,8.8,6.583333333333333,1.336708860759494
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,AnytimeTD,Anytime,450.0,370.0,,305.0,255.0,,,225.0,350.0,370.0,BetMGM,450.0,5.5,4.125,1.3333333333333333
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1200.0,,1200.0,,600.0,,DraftKings,1200.0,13.0,10.0,1.3
+Kansas City Chiefs @ Jacksonville Jaguars,Elijah Mitchell,AnytimeTD,Anytime,2800.0,2800.0,,1900.0,1700.0,,,1500.0,,2800.0,BetMGM,2800.0,29.0,22.4,1.2946428571428572
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,110,,,,,1680.0,2200.0,,,,,ESPNBET,2200.0,23.0,17.8,1.2921348314606742
+Kansas City Chiefs @ Jacksonville Jaguars,Jared Wiley,AnytimeTD,Anytime,2200.0,,,1750.0,1800.0,,,1500.0,,,BetMGM,2200.0,23.0,17.833333333333332,1.2897196261682244
+New England Patriots @ Buffalo Bills,DeMario Douglas,AnytimeTD,Anytime,800.0,650.0,800.0,800.0,1000.0,,850.0,740.0,,650.0,DraftKings,1000.0,11.0,8.557142857142857,1.2854757929883138
+Kansas City Chiefs @ Jacksonville Jaguars,Tim Patrick,AnytimeTD,Anytime,1400.0,800.0,,1200.0,1200.0,,,1050.0,1400.0,800.0,BetMGM,1400.0,15.0,11.75,1.2765957446808511
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,80,,,,,1140.0,900.0,920.0,,800.0,,DraftKings,1140.0,12.4,9.733333333333333,1.2739726027397262
+New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,50,550.0,,,,940.0,900.0,,,,,DraftKings,940.0,10.4,8.25,1.2606060606060607
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,25,,,,,202.0,,280.0,,,,FanDuel,280.0,3.8,3.02,1.2582781456953642
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,AnytimeTD,Anytime,500.0,400.0,,450.0,450.0,,,420.0,575.0,400.0,HardRockBet,575.0,6.75,5.366666666666667,1.2577639751552794
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,80,,,,,576.0,750.0,,,,,ESPNBET,750.0,8.5,6.76,1.257396449704142
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,50,,,,,810.0,900.0,680.0,,600.0,,ESPNBET,900.0,10.0,7.966666666666666,1.2552301255230127
+Kansas City Chiefs @ Jacksonville Jaguars,LeQuint Allen Jr.,AnytimeTD,Anytime,1400.0,1200.0,,1100.0,1200.0,,,900.0,1000.0,1200.0,BetMGM,1400.0,15.0,12.0,1.25
+New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,50,,,,,1580.0,2000.0,,,,,ESPNBET,2000.0,21.0,16.8,1.25
+New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,25,145.0,,,,206.0,,,,,,DraftKings,206.0,3.06,2.45,1.2489795918367346
+New England Patriots @ Buffalo Bills,Ty Johnson,AnytimeTD,Anytime,850.0,600.0,625.0,675.0,700.0,,750.0,700.0,,600.0,BetMGM,850.0,9.5,7.642857142857143,1.2429906542056075
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,AnytimeTD,Anytime,300.0,220.0,,245.0,250.0,,,225.0,180.0,220.0,BetMGM,300.0,4.0,3.233333333333333,1.2371134020618557
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,AnytimeTD,Anytime,750.0,575.0,,600.0,650.0,,,580.0,550.0,575.0,BetMGM,750.0,8.5,6.883333333333333,1.234866828087167
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,300,525.0,,625.0,575.0,770.0,650.0,640.0,,800.0,,HardRockBet,800.0,9.0,7.308333333333334,1.2314709236031927
+Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,AnytimeTD,Anytime,1700.0,1400.0,,1400.0,1600.0,,,1200.0,1200.0,1400.0,BetMGM,1700.0,18.0,14.666666666666666,1.2272727272727273
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,350,,,1200.0,,1540.0,,1280.0,,,,DraftKings,1540.0,16.4,13.4,1.2238805970149251
+New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,80,,,850.0,,1100.0,900.0,900.0,,,,DraftKings,1100.0,12.0,9.833333333333334,1.2203389830508473
+New England Patriots @ Buffalo Bills,Antonio Gibson,AnytimeTD,Anytime,600.0,550.0,400.0,420.0,550.0,,450.0,400.0,,550.0,BetMGM,600.0,7.0,5.742857142857143,1.2189054726368158
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,80,,,200.0,195.0,,,,,260.0,,HardRockBet,260.0,3.6,2.975,1.2100840336134453
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,25,,,,,247.0,,290.0,,200.0,,FanDuel,290.0,3.9,3.2350000000000003,1.2055641421947447
+New England Patriots @ Buffalo Bills,Josh Allen,Rushing,80,,,1100.0,,840.0,1000.0,1200.0,,,,FanDuel,1200.0,13.0,10.799999999999999,1.2037037037037037
+New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,50,,,,,820.0,1000.0,,,,,ESPNBET,1000.0,11.0,9.2,1.1956521739130437
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,80,,,1200.0,,1280.0,1600.0,1500.0,,,,ESPNBET,1600.0,17.0,14.266666666666666,1.191588785046729
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,80,,,,,2400.0,,,,2000.0,,DraftKings,2400.0,25.0,21.0,1.1904761904761905
+New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,25,,,,,237.0,,300.0,,,,FanDuel,300.0,4.0,3.37,1.1869436201780414
+New England Patriots @ Buffalo Bills,Ray Davis,AnytimeTD,Anytime,800.0,600.0,625.0,675.0,750.0,,700.0,660.0,,600.0,BetMGM,800.0,9.0,7.585714285714286,1.1864406779661016
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,50,,,,,1680.0,2200.0,,,2000.0,,ESPNBET,2200.0,23.0,19.4,1.1855670103092784
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,1100.0,,1260.0,1100.0,1200.0,,800.0,,DraftKings,1260.0,13.6,11.5,1.182608695652174
+Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,470.0,,,BetMGM,650.0,7.5,6.35,1.1811023622047245
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,110,,,600.0,750.0,750.0,550.0,580.0,,,,Caesars,750.0,8.5,7.2,1.1805555555555556
+New England Patriots @ Buffalo Bills,Mack Hollins,AnytimeTD,Anytime,800.0,750.0,600.0,625.0,700.0,,650.0,580.0,,750.0,BetMGM,800.0,9.0,7.6499999999999995,1.1764705882352942
+Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,AnytimeTD,Anytime,600.0,650.0,,500.0,500.0,,,550.0,475.0,650.0,BetRivers,650.0,7.5,6.458333333333333,1.1612903225806452
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,AnytimeTD,Anytime,380.0,410.0,,325.0,295.0,,,250.0,375.0,410.0,BetRivers,410.0,5.1,4.391666666666667,1.161290322580645
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,AnytimeTD,Anytime,250.0,260.0,,200.0,190.0,,,175.0,195.0,260.0,BetRivers,260.0,3.6,3.116666666666667,1.1550802139037433
+Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,500.0,,,BetMGM,650.0,7.5,6.5,1.1538461538461537
+New England Patriots @ Buffalo Bills,Josh Allen,Passing,350,1200.0,,1200.0,,1480.0,1400.0,1280.0,,,,DraftKings,1480.0,15.8,13.7,1.1532846715328469
+New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,80,,,,,1800.0,1600.0,1500.0,,,,DraftKings,1800.0,19.0,16.5,1.1515151515151516
+New England Patriots @ Buffalo Bills,Joshua Palmer,AnytimeTD,Anytime,500.0,360.0,440.0,420.0,450.0,,500.0,420.0,,360.0,BetMGM,500.0,6.0,5.214285714285714,1.1506849315068493
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,80,,175.0,160.0,150.0,198.0,160.0,172.0,,210.0,175.0,HardRockBet,210.0,3.1,2.6999999999999997,1.1481481481481484
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,50,,400.0,300.0,295.0,333.0,,,,350.0,400.0,BetRivers,400.0,5.0,4.356,1.1478420569329661
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,80,,,1200.0,,900.0,1000.0,1200.0,,,,Bovada,1200.0,13.0,11.333333333333334,1.1470588235294117
+New England Patriots @ Buffalo Bills,Dawson Knox,AnytimeTD,Anytime,750.0,700.0,600.0,575.0,650.0,,700.0,580.0,,700.0,BetMGM,750.0,8.5,7.435714285714285,1.1431316042267052
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,80,,440.0,550.0,550.0,503.0,600.0,600.0,,,440.0,ESPNBET,600.0,7.0,6.138333333333333,1.1403746945424926
+New England Patriots @ Buffalo Bills,Austin Hooper,AnytimeTD,Anytime,700.0,500.0,700.0,675.0,750.0,,750.0,700.0,,500.0,DraftKings,750.0,8.5,7.464285714285714,1.138755980861244
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,25,,,,,129.0,120.0,124.0,,155.0,,HardRockBet,155.0,2.55,2.2433333333333336,1.1367013372956907
+New England Patriots @ Buffalo Bills,Curtis Samuel,AnytimeTD,Anytime,700.0,650.0,600.0,625.0,750.0,,650.0,660.0,,650.0,DraftKings,750.0,8.5,7.478571428571429,1.1365807067812799
+New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,25,100.0,,,,131.0,,144.0,,,,FanDuel,144.0,2.44,2.1550000000000002,1.1322505800464036
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,110,,,875.0,,740.0,1000.0,1000.0,,,,ESPNBET,1000.0,11.0,9.716666666666667,1.1320754716981132
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,50,360.0,,375.0,425.0,345.0,425.0,450.0,,,,FanDuel,450.0,5.5,4.86,1.1316872427983538
+New England Patriots @ Buffalo Bills,Joshua Palmer,Receiving,50,375.0,,,450.0,482.0,500.0,520.0,,,,FanDuel,520.0,6.2,5.5175,1.1236973266878116
+New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,110,,,1200.0,,1040.0,1300.0,1200.0,,,,ESPNBET,1300.0,14.0,12.466666666666667,1.1229946524064172
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,50,775.0,,,,610.0,750.0,,,,,BetMGM,775.0,8.75,7.8,1.1217948717948718
+New England Patriots @ Buffalo Bills,Buffalo Bills Defense,AnytimeTD,Anytime,,,525.0,,,,600.0,,,,FanDuel,600.0,7.0,6.25,1.12
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,250,165.0,240.0,200.0,170.0,224.0,200.0,210.0,,225.0,240.0,BetRivers,240.0,3.4,3.0425,1.1175020542317173
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,50,200.0,240.0,250.0,205.0,179.0,210.0,255.0,,,240.0,FanDuel,255.0,3.55,3.177142857142857,1.1173561151079137
+New England Patriots @ Buffalo Bills,James Cook,Rushing,110,,,300.0,320.0,376.0,,360.0,,,,DraftKings,376.0,4.76,4.266666666666667,1.1156249999999999
+New England Patriots @ Buffalo Bills,Dalton Kincaid,AnytimeTD,Anytime,250.0,280.0,230.0,230.0,235.0,,250.0,210.0,,280.0,BetRivers,280.0,3.8,3.4071428571428575,1.1153039832285114
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,300,525.0,,450.0,390.0,472.0,500.0,490.0,,,,BetMGM,525.0,6.25,5.604000000000001,1.1152748037116345
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,300,,320.0,300.0,225.0,295.0,260.0,,,260.0,320.0,BetRivers,320.0,4.2,3.766666666666666,1.1150442477876108
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,50,300.0,275.0,300.0,270.0,231.0,225.0,310.0,,,275.0,FanDuel,310.0,4.1,3.6799999999999997,1.1141304347826086
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,50,225.0,280.0,250.0,225.0,223.0,225.0,260.0,,,280.0,BetRivers,280.0,3.8,3.411428571428572,1.113902847571189
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,50,,,650.0,600.0,544.0,600.0,,,550.0,,Bovada,650.0,7.5,6.735,1.1135857461024499
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,350,,,850.0,700.0,920.0,900.0,,,,,DraftKings,920.0,10.2,9.166666666666666,1.1127272727272728
+New England Patriots @ Buffalo Bills,Kayshon Boutte,AnytimeTD,Anytime,375.0,340.0,350.0,360.0,360.0,,400.0,325.0,,340.0,FanDuel,400.0,5.0,4.5,1.1111111111111112
+New England Patriots @ Buffalo Bills,New England Patriots D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,550.0,,,BetMGM,650.0,7.5,6.75,1.1111111111111112
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,80,,,500.0,425.0,,,,,525.0,,HardRockBet,525.0,6.25,5.625,1.1111111111111112
+Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,AnytimeTD,Anytime,650.0,650.0,,525.0,600.0,,,450.0,575.0,650.0,BetMGM,650.0,7.5,6.75,1.1111111111111112
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,80,,,900.0,,,,,,800.0,,Bovada,900.0,10.0,9.0,1.1111111111111112
+New England Patriots @ Buffalo Bills,Drake Maye,AnytimeTD,Anytime,375.0,325.0,320.0,320.0,350.0,,330.0,325.0,,325.0,BetMGM,375.0,4.75,4.2785714285714285,1.1101836393989983
+New England Patriots @ Buffalo Bills,Josh Allen,Rushing,50,290.0,260.0,275.0,245.0,243.0,250.0,300.0,,,260.0,FanDuel,300.0,4.0,3.6042857142857145,1.1097899326198968
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,80,,,400.0,370.0,379.0,400.0,440.0,,,,FanDuel,440.0,5.4,4.8725,1.1082606464853773
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,25,,,-275.0,,,,,,-425.0,,Bovada,-275.0,1.3636363636363638,1.2352941176470589,1.103896103896104
+New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,25,-350.0,,-275.0,,-211.0,,-280.0,,,,DraftKings,-211.0,1.4739336492890995,1.3354978354978355,1.1036585834223078
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,50,,380.0,300.0,340.0,371.0,,,,400.0,380.0,HardRockBet,400.0,5.0,4.542,1.1008366358432409
+New England Patriots @ Buffalo Bills,Josh Allen,AnytimeTD,Anytime,-125.0,-139.0,100.0,-112.0,-120.0,,-105.0,-125.0,,-137.0,Bovada,100.0,2.0,1.818274699471765,1.0999438096900478
+New England Patriots @ Buffalo Bills,James Cook,Receiving,25,,,185.0,,151.0,,168.0,,,,Bovada,185.0,2.85,2.5949999999999998,1.0982658959537575
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,AnytimeTD,Anytime,250.0,225.0,220.0,215.0,225.0,,220.0,205.0,,225.0,BetMGM,250.0,3.5,3.192857142857143,1.0961968680089484
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,AnytimeTD,Anytime,210.0,215.0,,185.0,180.0,,,170.0,165.0,215.0,BetRivers,215.0,3.15,2.875,1.0956521739130434
+New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,50,,,,,1980.0,1800.0,,,,,DraftKings,1980.0,20.8,19.0,1.0947368421052632
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,50,,,-200.0,-136.0,,,,,-130.0,,HardRockBet,-130.0,1.7692307692307692,1.6176470588235294,1.0937062937062936
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,AnytimeTD,Anytime,350.0,325.0,,320.0,330.0,,,305.0,275.0,325.0,BetMGM,350.0,4.5,4.133333333333334,1.0887096774193548
+New England Patriots @ Buffalo Bills,Stefon Diggs,AnytimeTD,Anytime,275.0,235.0,250.0,235.0,265.0,,260.0,240.0,,235.0,BetMGM,275.0,3.75,3.457142857142857,1.084710743801653
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,80,,335.0,325.0,270.0,269.0,300.0,340.0,,,335.0,FanDuel,340.0,4.4,4.0566666666666675,1.0846343467543138
+New England Patriots @ Buffalo Bills,Josh Allen,Passing,300,425.0,,475.0,380.0,448.0,450.0,450.0,,,,Bovada,475.0,5.75,5.306,1.083678854127403
+New England Patriots @ Buffalo Bills,Buffalo Bills D/ST,AnytimeTD,Anytime,550.0,,,,500.0,,,500.0,,,BetMGM,550.0,6.5,6.0,1.0833333333333333
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,25,,,,,181.0,,164.0,,195.0,,HardRockBet,195.0,2.95,2.7249999999999996,1.0825688073394497
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,AnytimeTD,Anytime,150.0,163.0,,150.0,155.0,,,145.0,175.0,163.0,HardRockBet,175.0,2.75,2.543333333333333,1.0812581913499346
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,50,125.0,120.0,140.0,120.0,133.0,135.0,146.0,,,120.0,FanDuel,146.0,2.46,2.275714285714286,1.0809792843691148
+New England Patriots @ Buffalo Bills,Josh Allen,Rushing,25,-200.0,,-210.0,,-165.0,-210.0,-198.0,,,,DraftKings,-165.0,1.606060606060606,1.4893578643578644,1.0783577570546201
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,25,,,400.0,,319.0,425.0,430.0,,425.0,,FanDuel,430.0,5.3,4.922499999999999,1.0766886744540376
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,AnytimeTD,Anytime,320.0,350.0,,310.0,320.0,,,285.0,325.0,350.0,BetRivers,350.0,4.5,4.183333333333334,1.0756972111553784
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,25,-700.0,,-500.0,,-373.0,,-500.0,,,,DraftKings,-373.0,1.2680965147453083,1.180952380952381,1.0737914036149787
+New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,80,,,475.0,450.0,390.0,450.0,460.0,,,,Bovada,475.0,5.75,5.375,1.069767441860465
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,50,,,130.0,110.0,,,,,120.0,,Bovada,130.0,2.3,2.1500000000000004,1.0697674418604648
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,50,115.0,128.0,115.0,100.0,108.0,110.0,116.0,,,128.0,BetRivers,128.0,2.2800000000000002,2.1314285714285712,1.0697050938337804
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,25,160.0,,,,157.0,,176.0,,,,FanDuel,176.0,2.76,2.585,1.0676982591876207
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,25,,,-1000.0,,,,,,-575.0,,HardRockBet,-575.0,1.1739130434782608,1.1,1.067193675889328
+New England Patriots @ Buffalo Bills,Josh Allen,Passing,250,130.0,155.0,160.0,125.0,149.0,140.0,152.0,,,155.0,Bovada,160.0,2.6,2.437142857142857,1.0668229777256744
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,AnytimeTD,Anytime,400.0,390.0,,360.0,380.0,,,345.0,350.0,390.0,BetMGM,400.0,5.0,4.691666666666666,1.0657193605683837
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,50,165.0,225.0,220.0,185.0,211.0,200.0,225.0,,210.0,225.0,BetRivers,225.0,3.25,3.0512499999999996,1.0651372388365425
+New England Patriots @ Buffalo Bills,New England Patriots Defense,AnytimeTD,Anytime,,,700.0,,,,750.0,,,,FanDuel,750.0,8.5,8.0,1.0625
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,50,300.0,295.0,300.0,280.0,294.0,300.0,320.0,,300.0,295.0,FanDuel,320.0,4.2,3.955,1.0619469026548674
+New England Patriots @ Buffalo Bills,Antonio Gibson,Rushing,25,,,,,245.0,225.0,,,,,DraftKings,245.0,3.45,3.25,1.0615384615384615
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,50,-275.0,-286.0,-275.0,-285.0,-278.0,-275.0,-250.0,,-225.0,-286.0,HardRockBet,-225.0,1.4444444444444444,1.3625999016760093,1.0600649850831236
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,80,,,825.0,,870.0,900.0,880.0,,800.0,,ESPNBET,900.0,10.0,9.4375,1.0596026490066226
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,AnytimeTD,Anytime,240.0,245.0,225.0,225.0,220.0,,220.0,205.0,,245.0,BetRivers,245.0,3.45,3.257142857142857,1.0592105263157896
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,25,-250.0,,-220.0,,-195.0,-240.0,-225.0,,,,DraftKings,-195.0,1.5128205128205128,1.4289141414141415,1.0587203730262844
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,AnytimeTD,Anytime,185.0,163.0,,165.0,180.0,,,160.0,185.0,163.0,BetMGM,185.0,2.85,2.693333333333333,1.0581683168316833
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,50,250.0,,,240.0,271.0,260.0,280.0,,275.0,,FanDuel,280.0,3.8,3.592,1.0579064587973273
+New England Patriots @ Buffalo Bills,Keon Coleman,AnytimeTD,Anytime,185.0,185.0,180.0,175.0,185.0,,195.0,160.0,,185.0,FanDuel,195.0,2.95,2.792857142857143,1.0562659846547313
+New England Patriots @ Buffalo Bills,Drake Maye,Passing,250,165.0,160.0,140.0,130.0,150.0,155.0,162.0,,,160.0,BetMGM,165.0,2.65,2.5100000000000007,1.0557768924302786
+New England Patriots @ Buffalo Bills,DeMario Douglas,Receiving,25,,,,,375.0,,350.0,,,,DraftKings,375.0,4.75,4.5,1.0555555555555556
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,25,,,-160.0,,-146.0,,,,-175.0,,DraftKings,-146.0,1.6849315068493151,1.5982142857142856,1.0542588199280631
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,25,-140.0,,-140.0,,-121.0,-115.0,-114.0,,,,FanDuel,-114.0,1.8771929824561404,1.7811457317386172,1.0539244201111884
+New England Patriots @ Buffalo Bills,James Cook,Rushing,50,-700.0,-590.0,-475.0,-515.0,-419.0,-450.0,-390.0,,,-590.0,FanDuel,-390.0,1.2564102564102564,1.1924895676406746,1.0536027236666297
+New England Patriots @ Buffalo Bills,Keon Coleman,Receiving,50,130.0,150.0,140.0,120.0,139.0,140.0,142.0,,,150.0,BetRivers,150.0,2.5,2.3728571428571428,1.053582179409994
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,80,,220.0,200.0,190.0,228.0,210.0,220.0,,220.0,220.0,DraftKings,228.0,3.28,3.114285714285714,1.053211009174312
+New England Patriots @ Buffalo Bills,James Cook,Rushing,80,,120.0,100.0,-104.0,111.0,110.0,118.0,,,120.0,BetRivers,120.0,2.2,2.091923076923077,1.0516639088067659
+New England Patriots @ Buffalo Bills,Dalton Kincaid,Receiving,25,-210.0,,-195.0,,-173.0,,-192.0,,,,DraftKings,-173.0,1.5780346820809248,1.503281440781441,1.0497267106953874
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,AnytimeTD,Anytime,290.0,300.0,,280.0,280.0,,,240.0,300.0,300.0,BetRivers,300.0,4.0,3.8166666666666664,1.0480349344978166
+New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,50,275.0,245.0,275.0,280.0,277.0,275.0,285.0,,,245.0,FanDuel,285.0,3.85,3.674285714285714,1.047822706065319
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,25,,,-180.0,,-163.0,,,,-190.0,,DraftKings,-163.0,1.6134969325153374,1.5409356725146197,1.047089090930257
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,AnytimeTD,Anytime,180.0,165.0,,175.0,185.0,,,175.0,175.0,165.0,DraftKings,185.0,2.85,2.7249999999999996,1.0458715596330277
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,50,,,260.0,,,,,,275.0,,HardRockBet,275.0,3.75,3.6,1.0416666666666667
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,25,-300.0,,-240.0,,-215.0,,-225.0,,-230.0,,DraftKings,-215.0,1.4651162790697674,1.4073067632850242,1.0410781197766723
+New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,25,-150.0,,-135.0,,-137.0,,-128.0,,,,FanDuel,-128.0,1.78125,1.7124448049022256,1.0401795111298218
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,AnytimeTD,Anytime,100.0,102.0,,105.0,105.0,,,-110.0,-120.0,102.0,Caesars,105.0,2.05,1.972070707070707,1.039516480139319
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,50,-210.0,-157.0,-175.0,-164.0,-153.0,-170.0,-160.0,,-170.0,-157.0,DraftKings,-153.0,1.65359477124183,1.5915913854667236,1.0389568493152683
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,110,,,575.0,600.0,,,,,,,Caesars,600.0,7.0,6.75,1.037037037037037
+New England Patriots @ Buffalo Bills,Hunter Henry,AnytimeTD,Anytime,225.0,245.0,240.0,230.0,225.0,,240.0,225.0,,245.0,BetRivers,245.0,3.45,3.3285714285714283,1.0364806866952792
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,25,,,-375.0,,,,,,-450.0,,Bovada,-375.0,1.2666666666666666,1.2222222222222223,1.0363636363636362
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,25,-185.0,,-200.0,,-182.0,-225.0,-200.0,,,,DraftKings,-182.0,1.5494505494505495,1.4962462462462462,1.0355585207567144
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,250,,-108.0,-115.0,-120.0,-109.0,-120.0,,,-125.0,-108.0,BetRivers,-108.0,1.925925925925926,1.8632648337740747,1.0336297293954344
+New England Patriots @ Buffalo Bills,Stefon Diggs,Receiving,50,-115.0,-114.0,-110.0,-120.0,-112.0,-110.0,-106.0,,,-114.0,FanDuel,-106.0,1.9433962264150944,1.8811890680965544,1.0330679990509848
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,80,,,900.0,,870.0,900.0,920.0,,,,FanDuel,920.0,10.2,9.9,1.0303030303030303
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,25,-400.0,,-350.0,,-319.0,,-340.0,,,,DraftKings,-319.0,1.3134796238244515,1.276610644257703,1.0288803635882156
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,25,-450.0,,-375.0,,-352.0,,-390.0,,,,DraftKings,-352.0,1.2840909090909092,1.2484330484330484,1.0285620928592176
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,25,,,-145.0,,-146.0,,-136.0,,-145.0,,FanDuel,-136.0,1.7352941176470589,1.6880806172256337,1.0279687474280823
+New England Patriots @ Buffalo Bills,Khalil Shakir,AnytimeTD,Anytime,210.0,210.0,200.0,200.0,205.0,,210.0,180.0,,210.0,BetMGM,210.0,3.1,3.0214285714285714,1.0260047281323879
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,25,-155.0,,,,-155.0,,-152.0,,-145.0,,HardRockBet,-145.0,1.6896551724137931,1.6494057724957554,1.0244023639235453
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,25,,,-160.0,,,,,,-170.0,,Bovada,-160.0,1.625,1.5882352941176472,1.0231481481481481
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,25,-1200.0,,-775.0,,-700.0,,-750.0,,-800.0,,DraftKings,-700.0,1.1428571428571428,1.1176747311827957,1.0225310736404476
+New England Patriots @ Buffalo Bills,Khalil Shakir,Receiving,110,,,1200.0,,1160.0,,1200.0,,,,Bovada,1200.0,13.0,12.8,1.015625
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,25,,,,,-3300.0,-2000.0,,,-1800.0,,HardRockBet,-1800.0,1.0555555555555556,1.040151515151515,1.0148094197620783
+New England Patriots @ Buffalo Bills,James Cook,AnytimeTD,Anytime,-210.0,-195.0,-200.0,-190.0,-190.0,,-195.0,-200.0,,-195.0,Caesars,-190.0,1.526315789473684,1.5058525434465282,1.0135891433169948
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,25,,,110.0,,107.0,105.0,,,110.0,,Bovada,110.0,2.1,2.0733333333333337,1.012861736334405
+Kansas City Chiefs @ Jacksonville Jaguars,Andrew Wingard,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Arik Armstead,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,110,,,,,3200.0,,,,,,DraftKings,3200.0,33.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Chris Jones,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Cody Schrader,AnytimeTD,Anytime,,,,,2200.0,,,,,,DraftKings,2200.0,23.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Dawuane Smoot,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Devin Lloyd,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,110,,,,,4200.0,,,,,,DraftKings,4200.0,43.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Emmanuel Ogbah,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Foyesade Oluokun,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,George Karlaftis,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Jason Brownlee,AnytimeTD,Anytime,,,,,,,,1300.0,,,Fanatics,1300.0,14.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Josh Allen,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Jourdan Lewis,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,,BetMGM,15000.0,151.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,80,,,,,3500.0,,,,,,DraftKings,3500.0,36.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Quintin Morris,AnytimeTD,Anytime,,,,,,,,2000.0,,,Fanatics,2000.0,21.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,110,,,1100.0,,,,,,,,Bovada,1100.0,12.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,110,,,1100.0,,,,,,,,Bovada,1100.0,12.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Tyson Campbell,AnytimeTD,Anytime,,,,,,,,,4000.0,,HardRockBet,4000.0,41.0,,
+New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,25,,,,,186.0,,,,,,DraftKings,186.0,2.8600000000000003,,
+New England Patriots @ Buffalo Bills,Austin Hooper,Receiving,80,,,,,4100.0,,,,,,DraftKings,4100.0,42.0,,
+New England Patriots @ Buffalo Bills,Dawson Knox,Receiving,80,,,,,4400.0,,,,,,DraftKings,4400.0,45.0,,
+New England Patriots @ Buffalo Bills,Drake Maye,Rushing,110,,,,,2800.0,,,,,,DraftKings,2800.0,29.0,,
+New England Patriots @ Buffalo Bills,Hunter Henry,Receiving,110,,,,,1720.0,,,,,,DraftKings,1720.0,18.2,,
+New England Patriots @ Buffalo Bills,James Cook,Receiving,80,,,,,1980.0,,,,,,DraftKings,1980.0,20.8,,
+New England Patriots @ Buffalo Bills,James Cook,Rushing,25,,,,,,-2500.0,,,,,ESPNBET,-2500.0,1.04,,
+New England Patriots @ Buffalo Bills,Josh Allen,Rushing,110,,,,,2500.0,,,,,,DraftKings,2500.0,26.0,,
+New England Patriots @ Buffalo Bills,Kayshon Boutte,Receiving,110,,,,,3900.0,,,,,,DraftKings,3900.0,40.0,,
+New England Patriots @ Buffalo Bills,Mack Hollins,Receiving,80,,,,,3800.0,,,,,,DraftKings,3800.0,39.0,,
+New England Patriots @ Buffalo Bills,No Scorer,AnytimeTD,Anytime,,,,,,,,6000.0,,,Fanatics,6000.0,61.0,,
+New England Patriots @ Buffalo Bills,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,,BetMGM,20000.0,201.0,,
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Receiving,80,,,,,3100.0,,,,,,DraftKings,3100.0,32.0,,
+New England Patriots @ Buffalo Bills,Rhamondre Stevenson,Rushing,110,,,,,2900.0,,,,,,DraftKings,2900.0,30.0,,
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Receiving,80,,,,,2300.0,,,,,,DraftKings,2300.0,24.0,,
+New England Patriots @ Buffalo Bills,TreVeyon Henderson,Rushing,110,,,,,3600.0,,,,,,DraftKings,3600.0,37.0,,
