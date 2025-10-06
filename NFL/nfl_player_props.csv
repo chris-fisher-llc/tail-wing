@@ -1,129 +1,130 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,betPARX,best_book,best_odds,best_decimal,avg_other,value_ratio
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Receiving,25,,,,,528.0,,,,200.0,,DraftKings,528.0,6.28,3.0,2.0933333333333333
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,25,,,,,502.0,,,,200.0,,DraftKings,502.0,6.02,3.0,2.0066666666666664
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Receiving,25,,,,,552.0,,,,200.0,,DraftKings,552.0,6.52,3.0,2.1733333333333333
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,25,,,,,479.0,,,,200.0,,DraftKings,479.0,5.79,3.0,1.93
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,110,,,1500.0,,3000.0,2000.0,,,,,DraftKings,3000.0,31.0,18.5,1.6756756756756757
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,80,,,1100.0,,2300.0,1300.0,1260.0,,2000.0,,DraftKings,2300.0,24.0,15.15,1.584158415841584
-Kansas City Chiefs @ Jacksonville Jaguars,Nikko Remigio,AnytimeTD,Anytime,2800.0,2200.0,1700.0,1700.0,1900.0,,1700.0,1600.0,1400.0,2200.0,BetMGM,2800.0,29.0,19.0,1.5263157894736843
+Kansas City Chiefs @ Jacksonville Jaguars,Nikko Remigio,AnytimeTD,Anytime,2800.0,2200.0,1400.0,1600.0,1900.0,,1700.0,2000.0,1300.0,2200.0,BetMGM,2800.0,29.0,18.875,1.5364238410596027
+Kansas City Chiefs @ Jacksonville Jaguars,Tim Patrick,AnytimeTD,Anytime,1400.0,1150.0,1400.0,1500.0,2200.0,,1800.0,1700.0,1400.0,1150.0,DraftKings,2200.0,23.0,15.375,1.4959349593495934
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1240.0,,1400.0,,600.0,,FanDuel,1400.0,15.0,10.2,1.4705882352941178
 Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,350,,,1600.0,,2200.0,,1400.0,,,,DraftKings,2200.0,23.0,16.0,1.4375
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,80,,,,,2900.0,2000.0,,,,,DraftKings,2900.0,30.0,21.0,1.4285714285714286
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,50,,,,,1320.0,,1400.0,,600.0,,FanDuel,1400.0,15.0,10.6,1.4150943396226416
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,110,,,1500.0,,2500.0,2000.0,,,,,DraftKings,2500.0,26.0,18.5,1.4054054054054055
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,80,,,1100.0,,2000.0,1300.0,1200.0,,2000.0,,DraftKings,2000.0,21.0,15.0,1.4
-Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,50,,,,,940.0,1300.0,1200.0,,600.0,,ESPNBET,1300.0,14.0,10.133333333333333,1.381578947368421
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,50,,,,,1380.0,1800.0,,,1200.0,,ESPNBET,1800.0,19.0,13.9,1.3669064748201438
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Rushing,25,,,800.0,,1260.0,1000.0,,,,,DraftKings,1260.0,13.6,10.0,1.3599999999999999
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,300,525.0,,625.0,475.0,630.0,600.0,580.0,,800.0,,HardRockBet,800.0,9.0,6.724999999999999,1.3382899628252791
-Kansas City Chiefs @ Jacksonville Jaguars,Tim Patrick,AnytimeTD,Anytime,1400.0,1150.0,1800.0,1500.0,2000.0,,1800.0,1500.0,1500.0,1150.0,DraftKings,2000.0,21.0,15.75,1.3333333333333333
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,80,,,,,2700.0,,,,2000.0,,DraftKings,2700.0,28.0,21.0,1.3333333333333333
-Kansas City Chiefs @ Jacksonville Jaguars,Jalen Royals,AnytimeTD,Anytime,1600.0,1100.0,1700.0,1600.0,1900.0,,1700.0,1200.0,,950.0,DraftKings,1900.0,20.0,15.071428571428571,1.3270142180094786
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,80,,,,,1420.0,,1500.0,,800.0,,FanDuel,1500.0,16.0,12.1,1.322314049586777
-Kansas City Chiefs @ Jacksonville Jaguars,Robert Tonyan,AnytimeTD,Anytime,2200.0,1300.0,2500.0,2400.0,2500.0,,2700.0,2000.0,,1300.0,FanDuel,2700.0,28.0,21.285714285714285,1.3154362416107384
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,50,,,,,650.0,650.0,580.0,,850.0,,HardRockBet,850.0,9.5,7.266666666666667,1.3073394495412844
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,80,,,900.0,,1220.0,1100.0,900.0,,800.0,,DraftKings,1220.0,13.2,10.25,1.2878048780487805
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Rushing,25,,,800.0,,1280.0,1000.0,,,,,DraftKings,1280.0,13.8,10.0,1.3800000000000001
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,300,525.0,,625.0,475.0,630.0,550.0,550.0,,800.0,,HardRockBet,800.0,9.0,6.591666666666666,1.365360303413401
+Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,50,,,,,990.0,1300.0,1200.0,,600.0,,ESPNBET,1300.0,14.0,10.299999999999999,1.3592233009708738
+Kansas City Chiefs @ Jacksonville Jaguars,Jalen Royals,AnytimeTD,Anytime,1600.0,1100.0,1400.0,1500.0,1900.0,,1700.0,1200.0,,1100.0,DraftKings,1900.0,20.0,14.714285714285714,1.3592233009708738
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,80,,,900.0,,1280.0,1100.0,900.0,,800.0,,DraftKings,1280.0,13.8,10.25,1.3463414634146342
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,50,,,,,830.0,1000.0,750.0,,600.0,,ESPNBET,1000.0,11.0,8.266666666666667,1.3306451612903225
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,110,,,500.0,575.0,720.0,,520.0,,,,DraftKings,720.0,8.2,6.316666666666666,1.2981530343007914
+Kansas City Chiefs @ Jacksonville Jaguars,Robert Tonyan,AnytimeTD,Anytime,2200.0,1300.0,2200.0,2400.0,2500.0,,2700.0,2500.0,,1300.0,FanDuel,2700.0,28.0,21.571428571428573,1.2980132450331126
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,110,,,1100.0,,1740.0,1500.0,1400.0,,,,DraftKings,1740.0,18.4,14.333333333333334,1.283720930232558
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,110,,,500.0,600.0,720.0,,520.0,,,,DraftKings,720.0,8.2,6.3999999999999995,1.28125
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,50,,,,,1580.0,1800.0,,,1200.0,,ESPNBET,1800.0,19.0,14.9,1.2751677852348993
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,80,,,,,1420.0,,1400.0,,800.0,,DraftKings,1420.0,15.2,12.0,1.2666666666666666
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,50,,,,,730.0,650.0,580.0,,850.0,,HardRockBet,850.0,9.5,7.533333333333334,1.2610619469026547
 Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,80,,,,,1200.0,1000.0,1000.0,,800.0,,DraftKings,1200.0,13.0,10.333333333333334,1.2580645161290323
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,AnytimeTD,Anytime,300.0,255.0,350.0,330.0,400.0,,400.0,345.0,180.0,255.0,DraftKings,400.0,5.0,4.01875,1.244167962674961
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,25,,,,,257.0,,300.0,,200.0,,FanDuel,300.0,4.0,3.285,1.21765601217656
-Kansas City Chiefs @ Jacksonville Jaguars,Johnny Mundt,AnytimeTD,Anytime,2000.0,1500.0,1700.0,1600.0,1900.0,,1700.0,1500.0,1600.0,1500.0,BetMGM,2000.0,21.0,17.25,1.2173913043478262
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,80,,,425.0,475.0,490.0,500.0,500.0,,600.0,,HardRockBet,600.0,7.0,5.779999999999999,1.2110726643598617
-Kansas City Chiefs @ Jacksonville Jaguars,LeQuint Allen Jr.,AnytimeTD,Anytime,1400.0,1700.0,1300.0,1200.0,1400.0,,1300.0,1300.0,1500.0,1700.0,BetRivers,1700.0,18.0,14.875,1.2100840336134453
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,50,,,,,840.0,900.0,750.0,,600.0,,ESPNBET,900.0,10.0,8.299999999999999,1.2048192771084338
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,110,,,575.0,450.0,452.0,450.0,600.0,,,,FanDuel,600.0,7.0,5.8175,1.2032660077352815
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,50,260.0,275.0,260.0,230.0,290.0,225.0,240.0,,325.0,275.0,HardRockBet,325.0,4.25,3.56875,1.1908931698774081
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,50,340.0,430.0,300.0,360.0,461.0,360.0,370.0,,400.0,430.0,DraftKings,461.0,5.61,4.7375,1.1841688654353564
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,110,,,600.0,575.0,720.0,600.0,600.0,,,,DraftKings,720.0,8.2,6.9375,1.181981981981982
+Kansas City Chiefs @ Jacksonville Jaguars,Johnny Mundt,AnytimeTD,Anytime,2000.0,1500.0,1400.0,1600.0,1900.0,,1700.0,1600.0,1500.0,1500.0,BetMGM,2000.0,21.0,16.875,1.2444444444444445
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,AnytimeTD,Anytime,300.0,255.0,350.0,330.0,400.0,,390.0,345.0,190.0,255.0,DraftKings,400.0,5.0,4.018750000000001,1.2441679626749609
+Kansas City Chiefs @ Jacksonville Jaguars,Jason Brownlee,AnytimeTD,Anytime,,,1400.0,,,,1700.0,1300.0,,,FanDuel,1700.0,18.0,14.5,1.2413793103448276
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,25,,,,,251.0,,300.0,,200.0,,FanDuel,300.0,4.0,3.255,1.228878648233487
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,80,,,425.0,450.0,490.0,500.0,520.0,,600.0,,HardRockBet,600.0,7.0,5.77,1.2131715771230505
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,50,360.0,360.0,300.0,340.0,438.0,360.0,320.0,,450.0,360.0,HardRockBet,450.0,5.5,4.5475,1.2094557449147882
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,110,,,575.0,450.0,451.0,450.0,600.0,,,,FanDuel,600.0,7.0,5.8149999999999995,1.2037833190025797
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,AnytimeTD,Anytime,500.0,460.0,440.0,450.0,475.0,,490.0,420.0,575.0,460.0,HardRockBet,575.0,6.75,5.61875,1.2013348164627362
+Kansas City Chiefs @ Jacksonville Jaguars,LeQuint Allen Jr.,AnytimeTD,Anytime,1400.0,1700.0,1300.0,1300.0,1400.0,,1500.0,1200.0,1400.0,1700.0,BetRivers,1700.0,18.0,15.0,1.2
+Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs D/ST,AnytimeTD,Anytime,650.0,,,,600.0,,,470.0,,,BetMGM,650.0,7.5,6.35,1.1811023622047245
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,110,,,600.0,525.0,700.0,600.0,600.0,,,,DraftKings,700.0,8.0,6.8125,1.1743119266055047
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,50,260.0,275.0,260.0,235.0,288.0,250.0,255.0,,325.0,275.0,HardRockBet,325.0,4.25,3.6225,1.173222912353347
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,800.0,,920.0,850.0,830.0,,600.0,,DraftKings,920.0,10.2,8.7,1.1724137931034484
 Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,25,,,,,198.0,,250.0,,200.0,,FanDuel,250.0,3.5,2.99,1.1705685618729096
-Kansas City Chiefs @ Jacksonville Jaguars,Elijah Mitchell,AnytimeTD,Anytime,2800.0,2800.0,,2200.0,2200.0,,,1900.0,,2800.0,BetMGM,2800.0,29.0,24.8,1.1693548387096775
-Kansas City Chiefs @ Jacksonville Jaguars,Jared Wiley,AnytimeTD,Anytime,2200.0,,2500.0,2400.0,2500.0,,2700.0,1900.0,,,FanDuel,2700.0,28.0,24.0,1.1666666666666667
-Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs D/ST,AnytimeTD,Anytime,650.0,,,,650.0,,,450.0,,,BetMGM,650.0,7.5,6.5,1.1538461538461537
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,AnytimeTD,Anytime,290.0,310.0,350.0,325.0,310.0,,380.0,345.0,300.0,310.0,FanDuel,380.0,4.8,4.175,1.1497005988023952
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,80,,,800.0,,920.0,800.0,900.0,,650.0,,DraftKings,920.0,10.2,8.875,1.1492957746478873
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,50,360.0,360.0,300.0,350.0,422.0,360.0,350.0,,400.0,360.0,DraftKings,422.0,5.22,4.55,1.1472527472527472
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,300,230.0,325.0,300.0,210.0,257.0,250.0,270.0,,325.0,325.0,BetRivers,325.0,4.25,3.7087499999999998,1.145938658577688
-Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,AnytimeTD,Anytime,1000.0,1300.0,1200.0,1000.0,1000.0,,1200.0,1200.0,1100.0,1300.0,BetRivers,1300.0,14.0,12.25,1.1428571428571428
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,AnytimeTD,Anytime,500.0,460.0,440.0,450.0,550.0,,490.0,420.0,550.0,460.0,DraftKings,550.0,6.5,5.7125,1.1378555798687089
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,50,145.0,165.0,150.0,135.0,177.0,160.0,190.0,,150.0,165.0,FanDuel,190.0,2.9,2.55875,1.1333659013190034
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,25,,,,,123.0,115.0,124.0,,150.0,,HardRockBet,150.0,2.5,2.2066666666666666,1.1329305135951662
-Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,AnytimeTD,Anytime,650.0,650.0,625.0,575.0,600.0,,650.0,550.0,550.0,700.0,betPARX,700.0,8.0,7.0625,1.1327433628318584
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,250,165.0,225.0,200.0,150.0,187.0,175.0,182.0,,220.0,225.0,BetRivers,225.0,3.25,2.88,1.1284722222222223
-Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,AnytimeTD,Anytime,350.0,350.0,350.0,360.0,400.0,,390.0,345.0,260.0,350.0,DraftKings,400.0,5.0,4.4437500000000005,1.1251758087201125
-Kansas City Chiefs @ Jacksonville Jaguars,Jason Brownlee,AnytimeTD,Anytime,,,1700.0,,,,1700.0,1300.0,,,Bovada,1700.0,18.0,16.0,1.125
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,80,,,575.0,700.0,730.0,750.0,750.0,,550.0,,ESPNBET,750.0,8.5,7.609999999999999,1.1169513797634691
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,AnytimeTD,Anytime,400.0,335.0,350.0,390.0,425.0,,380.0,380.0,400.0,335.0,DraftKings,425.0,5.25,4.7125,1.1140583554376657
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,80,,195.0,200.0,150.0,160.0,150.0,210.0,,200.0,195.0,FanDuel,210.0,3.1,2.785714285714285,1.112820512820513
+Kansas City Chiefs @ Jacksonville Jaguars,Jared Wiley,AnytimeTD,Anytime,2200.0,,2200.0,2300.0,2500.0,,2700.0,,,,FanDuel,2700.0,28.0,24.0,1.1666666666666667
+Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,AnytimeTD,Anytime,1000.0,1300.0,1100.0,1000.0,1100.0,,1200.0,1050.0,1100.0,1300.0,BetRivers,1300.0,14.0,12.0625,1.160621761658031
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,300,230.0,325.0,270.0,210.0,257.0,250.0,270.0,,325.0,325.0,BetRivers,325.0,4.25,3.6712499999999997,1.1576438542730678
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,50,340.0,430.0,300.0,360.0,442.0,360.0,370.0,,400.0,430.0,DraftKings,442.0,5.42,4.7375,1.1440633245382585
+Kansas City Chiefs @ Jacksonville Jaguars,Cody Schrader,AnytimeTD,Anytime,,,1300.0,,,,1500.0,,,,FanDuel,1500.0,16.0,14.0,1.1428571428571428
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Passing,250,165.0,225.0,200.0,150.0,187.0,165.0,178.0,,210.0,225.0,BetRivers,225.0,3.25,2.8499999999999996,1.1403508771929827
+Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,AnytimeTD,Anytime,400.0,410.0,400.0,400.0,400.0,,460.0,470.0,375.0,410.0,Fanatics,470.0,5.7,5.06875,1.1245376078914922
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,80,,,575.0,700.0,730.0,700.0,700.0,,525.0,,DraftKings,730.0,8.3,7.4,1.1216216216216217
+Kansas City Chiefs @ Jacksonville Jaguars,Quintin Morris,AnytimeTD,Anytime,,,1100.0,1200.0,1300.0,,1200.0,1050.0,1200.0,,DraftKings,1300.0,14.0,12.5,1.12
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,50,130.0,125.0,110.0,115.0,128.0,125.0,130.0,,150.0,125.0,HardRockBet,150.0,2.5,2.2350000000000003,1.1185682326621922
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,AnytimeTD,Anytime,180.0,180.0,185.0,185.0,215.0,,190.0,180.0,175.0,180.0,DraftKings,215.0,3.15,2.81875,1.1175166297117516
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,50,145.0,170.0,150.0,135.0,174.0,160.0,186.0,,145.0,170.0,FanDuel,186.0,2.8600000000000003,2.5612500000000002,1.1166422645192777
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,AnytimeTD,Anytime,400.0,335.0,350.0,390.0,425.0,,380.0,400.0,375.0,335.0,DraftKings,425.0,5.25,4.70625,1.1155378486055778
+Kansas City Chiefs @ Jacksonville Jaguars,Elijah Mitchell,AnytimeTD,Anytime,2800.0,2800.0,,2200.0,2200.0,,,,,2800.0,BetMGM,2800.0,29.0,26.0,1.1153846153846154
 Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars D/ST,AnytimeTD,Anytime,650.0,,,,650.0,,,500.0,,,BetMGM,650.0,7.5,6.75,1.1111111111111112
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,350,700.0,,850.0,650.0,830.0,800.0,800.0,,,,Bovada,850.0,9.5,8.559999999999999,1.1098130841121496
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,50,230.0,320.0,,260.0,289.0,275.0,285.0,,300.0,320.0,BetRivers,320.0,4.2,3.7985714285714285,1.1056788266265514
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,AnytimeTD,Anytime,550.0,575.0,525.0,500.0,450.0,,550.0,450.0,500.0,575.0,BetRivers,575.0,6.75,6.125,1.1020408163265305
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,50,475.0,,,500.0,431.0,500.0,520.0,,550.0,,HardRockBet,550.0,6.5,5.851999999999999,1.1107313738892688
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,50,165.0,195.0,220.0,170.0,178.0,175.0,220.0,,210.0,195.0,Bovada,220.0,3.2,2.885,1.1091854419410747
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,AnytimeTD,Anytime,350.0,350.0,350.0,350.0,380.0,,390.0,345.0,260.0,350.0,FanDuel,390.0,4.9,4.41875,1.108910891089109
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,50,230.0,320.0,,265.0,289.0,275.0,285.0,,325.0,320.0,HardRockBet,325.0,4.25,3.834285714285714,1.108420268256334
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,80,,200.0,200.0,150.0,167.0,155.0,210.0,,190.0,200.0,FanDuel,210.0,3.1,2.8028571428571425,1.106014271151886
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,80,,,825.0,,750.0,850.0,900.0,,800.0,,FanDuel,900.0,10.0,9.0625,1.103448275862069
 Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,AnytimeTD,Anytime,320.0,360.0,350.0,370.0,400.0,,400.0,345.0,325.0,360.0,DraftKings,400.0,5.0,4.5375,1.1019283746556474
-Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,AnytimeTD,Anytime,400.0,410.0,440.0,400.0,400.0,,460.0,450.0,375.0,410.0,FanDuel,460.0,5.6,5.10625,1.0966952264381884
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,25,150.0,,,,150.0,,176.0,,155.0,,FanDuel,176.0,2.76,2.5166666666666666,1.0966887417218543
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,50,130.0,125.0,110.0,115.0,128.0,125.0,130.0,,145.0,125.0,HardRockBet,145.0,2.45,2.2350000000000003,1.0961968680089484
-Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,25,,,320.0,,263.0,275.0,320.0,,275.0,,Bovada,320.0,4.2,3.8325,1.095890410958904
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,50,165.0,195.0,220.0,175.0,184.0,185.0,220.0,,220.0,195.0,Bovada,220.0,3.2,2.92375,1.0944848225737496
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,AnytimeTD,Anytime,250.0,280.0,250.0,245.0,255.0,,250.0,240.0,210.0,280.0,BetRivers,280.0,3.8,3.475,1.093525179856115
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,50,525.0,,600.0,600.0,560.0,650.0,640.0,,600.0,,ESPNBET,650.0,7.5,6.875,1.0909090909090908
-Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,25,-155.0,,-180.0,,-126.0,-140.0,-136.0,,-175.0,,DraftKings,-126.0,1.7936507936507935,1.6443450498478964,1.090799521558269
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,AnytimeTD,Anytime,400.0,375.0,350.0,350.0,400.0,,370.0,360.0,300.0,375.0,BetMGM,400.0,5.0,4.6,1.0869565217391306
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,50,475.0,,,500.0,446.0,500.0,540.0,,525.0,,FanDuel,540.0,6.4,5.892,1.0862186014935507
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,25,-165.0,,,,-141.0,,-150.0,,-125.0,,HardRockBet,-125.0,1.8,1.6606490436277668,1.0839135498899963
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,AnytimeTD,Anytime,180.0,180.0,185.0,185.0,205.0,,190.0,180.0,175.0,180.0,DraftKings,205.0,3.05,2.81875,1.082039911308204
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,AnytimeTD,Anytime,185.0,175.0,150.0,155.0,160.0,,155.0,155.0,180.0,180.0,BetMGM,185.0,2.85,2.6375,1.080568720379147
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,80,,,825.0,,780.0,900.0,900.0,,800.0,,ESPNBET,900.0,10.0,9.2625,1.0796221322537112
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,50,250.0,245.0,225.0,200.0,226.0,225.0,250.0,,185.0,245.0,BetMGM,250.0,3.5,3.25125,1.0765090349865436
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,AnytimeTD,Anytime,380.0,390.0,330.0,340.0,370.0,,340.0,360.0,350.0,390.0,BetRivers,390.0,4.9,4.575,1.0710382513661203
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,AnytimeTD,Anytime,400.0,390.0,400.0,400.0,425.0,,430.0,360.0,400.0,390.0,FanDuel,430.0,5.3,4.95625,1.0693568726355611
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,25,105.0,,115.0,,107.0,110.0,116.0,,125.0,,HardRockBet,125.0,2.25,2.106,1.0683760683760684
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,AnytimeTD,Anytime,150.0,150.0,150.0,145.0,145.0,,150.0,145.0,165.0,155.0,HardRockBet,165.0,2.65,2.4875,1.065326633165829
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,AnytimeTD,Anytime,210.0,245.0,240.0,225.0,245.0,,240.0,225.0,165.0,245.0,BetRivers,245.0,3.45,3.24375,1.0635838150289019
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,80,,185.0,160.0,145.0,184.0,165.0,172.0,,165.0,185.0,BetRivers,185.0,2.85,2.68,1.0634328358208955
-Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,250,-140.0,-108.0,-115.0,-129.0,-129.0,-130.0,-118.0,,-115.0,-108.0,BetRivers,-108.0,1.925925925925926,1.818302258530361,1.0591890962521004
-Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,25,-325.0,,-325.0,,-248.0,,-265.0,,-325.0,,DraftKings,-248.0,1.403225806451613,1.3251088534107403,1.0589513479136488
-Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,25,-185.0,,-160.0,,-150.0,,-180.0,,-145.0,,HardRockBet,-145.0,1.6896551724137931,1.5969406906906904,1.0580575611001577
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,80,,230.0,200.0,175.0,228.0,210.0,220.0,,225.0,230.0,BetRivers,230.0,3.3,3.1257142857142854,1.0557586837294333
-Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,25,-150.0,,-160.0,,-138.0,-155.0,-146.0,,-160.0,,DraftKings,-138.0,1.7246376811594204,1.6493518927677122,1.045645679810252
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,25,-190.0,,-200.0,,-189.0,,-180.0,,-220.0,,FanDuel,-180.0,1.5555555555555556,1.502490443279917,1.0353181030288605
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,25,-295.0,,-240.0,,-248.0,,-235.0,,-225.0,,HardRockBet,-225.0,1.4444444444444444,1.3961018597148387,1.0346268321277647
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,50,-190.0,-152.0,-175.0,-164.0,-158.0,-170.0,-160.0,,-155.0,-152.0,BetRivers,-152.0,1.6578947368421053,1.6070878965188284,1.0316142262245465
-Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,AnytimeTD,Anytime,290.0,310.0,350.0,325.0,330.0,,360.0,325.0,300.0,310.0,FanDuel,360.0,4.6,4.175,1.1017964071856288
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,AnytimeTD,Anytime,380.0,390.0,330.0,340.0,350.0,,340.0,325.0,400.0,390.0,HardRockBet,400.0,5.0,4.55625,1.0973936899862824
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,AnytimeTD,Anytime,400.0,380.0,350.0,350.0,380.0,,360.0,345.0,300.0,380.0,BetMGM,400.0,5.0,4.55625,1.0973936899862824
+Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Rushing,25,,,,,132.0,115.0,124.0,,145.0,,HardRockBet,145.0,2.45,2.236666666666667,1.0953800298062593
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,50,250.0,245.0,225.0,195.0,219.0,210.0,230.0,,195.0,245.0,BetMGM,250.0,3.5,3.205,1.0920436817472698
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,AnytimeTD,Anytime,550.0,575.0,500.0,525.0,500.0,,550.0,450.0,500.0,575.0,BetRivers,575.0,6.75,6.1875,1.0909090909090908
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,25,-165.0,,,,-148.0,,-148.0,,-125.0,,HardRockBet,-125.0,1.8,1.6524706524706525,1.0892780439451513
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,350,700.0,,800.0,675.0,830.0,800.0,800.0,,,,DraftKings,830.0,9.3,8.55,1.087719298245614
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,50,525.0,,600.0,600.0,543.0,650.0,640.0,,650.0,,ESPNBET,650.0,7.5,6.93,1.0822510822510822
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,AnytimeTD,Anytime,250.0,280.0,250.0,245.0,265.0,,250.0,250.0,220.0,280.0,BetRivers,280.0,3.8,3.5125,1.081850533807829
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,AnytimeTD,Anytime,185.0,180.0,150.0,155.0,160.0,,155.0,145.0,185.0,180.0,BetMGM,185.0,2.85,2.6375,1.080568720379147
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,80,,185.0,160.0,145.0,187.0,165.0,174.0,,150.0,185.0,DraftKings,187.0,2.87,2.662857142857143,1.0777896995708156
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,AnytimeTD,Anytime,210.0,245.0,230.0,220.0,245.0,,240.0,215.0,175.0,245.0,BetRivers,245.0,3.45,3.225,1.0697674418604652
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,80,,230.0,200.0,170.0,211.0,200.0,230.0,,220.0,230.0,BetRivers,230.0,3.3,3.087142857142857,1.068949560388709
+Kansas City Chiefs @ Jacksonville Jaguars,Trevor Lawrence,Rushing,25,,,320.0,,292.0,300.0,320.0,,260.0,,Bovada,320.0,4.2,3.93,1.0687022900763359
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,AnytimeTD,Anytime,400.0,370.0,400.0,400.0,400.0,,420.0,360.0,400.0,370.0,FanDuel,420.0,5.2,4.875,1.0666666666666667
+Kansas City Chiefs @ Jacksonville Jaguars,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,700.0,,,,750.0,,,,FanDuel,750.0,8.5,8.0,1.0625
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Passing,250,-140.0,-108.0,-120.0,-129.0,-123.0,-130.0,-118.0,,-115.0,-108.0,BetRivers,-108.0,1.925925925925926,1.8185000644770757,1.0590738837723064
+Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,AnytimeTD,Anytime,650.0,650.0,600.0,600.0,650.0,,650.0,550.0,525.0,650.0,BetMGM,650.0,7.5,7.09375,1.0572687224669604
+Kansas City Chiefs @ Jacksonville Jaguars,Marquise Brown,Receiving,25,-325.0,,-325.0,,-248.0,,-265.0,,-300.0,,DraftKings,-248.0,1.403225806451613,1.3315191098209966,1.053853298913792
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,25,-185.0,,-160.0,,-150.0,,-172.0,,-145.0,,HardRockBet,-145.0,1.6896551724137931,1.603400639011104,1.0537947480524186
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,25,105.0,,115.0,,103.0,105.0,116.0,,120.0,,HardRockBet,120.0,2.2,2.088,1.053639846743295
+Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Rushing,25,-155.0,,-180.0,,-137.0,-140.0,-136.0,,-165.0,,FanDuel,-136.0,1.7352941176470589,1.6501980347047454,1.0515671944534457
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,AnytimeTD,Anytime,150.0,155.0,150.0,145.0,140.0,,150.0,145.0,160.0,155.0,HardRockBet,160.0,2.6,2.4875,1.0452261306532664
+Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Rushing,25,-150.0,,-160.0,,-138.0,-155.0,-148.0,,-155.0,,DraftKings,-138.0,1.7246376811594204,1.6515329845975006,1.0442647511395216
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,25,150.0,,,,150.0,,164.0,,160.0,,FanDuel,164.0,2.6399999999999997,2.533333333333333,1.0421052631578946
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,AnytimeTD,Anytime,100.0,107.0,110.0,110.0,110.0,,110.0,-105.0,-125.0,108.0,Bovada,110.0,2.1,2.025297619047619,1.0368846436443793
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,50,-190.0,-152.0,-175.0,-164.0,-164.0,-170.0,-160.0,,-160.0,-152.0,BetRivers,-152.0,1.6578947368421053,1.601673323372995,1.035101673136887
+Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,50,-190.0,-186.0,-200.0,-205.0,-197.0,-220.0,-180.0,,-190.0,-186.0,FanDuel,-180.0,1.5555555555555556,1.509733117742984,1.0303513497015122
 Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,25,-1100.0,,-1000.0,,-750.0,,-950.0,,-950.0,,DraftKings,-750.0,1.1333333333333333,1.100358851674641,1.0299670254013118
-Kansas City Chiefs @ Jacksonville Jaguars,Xavier Worthy,Receiving,50,-190.0,-190.0,-200.0,-200.0,-197.0,-225.0,-180.0,,-180.0,-190.0,FanDuel,-180.0,1.5555555555555556,1.5108201977023776,1.0296099813341193
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,AnytimeTD,Anytime,100.0,107.0,110.0,110.0,110.0,,110.0,100.0,-115.0,108.0,Bovada,110.0,2.1,2.039945652173913,1.0294391900892501
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Kelce,Receiving,25,-450.0,,-425.0,,-351.0,,-390.0,,-350.0,,HardRockBet,-350.0,1.2857142857142856,1.2497067202949557,1.0288128125059866
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,25,-10000.0,,,,,-2000.0,,,-2500.0,,ESPNBET,-2000.0,1.05,1.025,1.024390243902439
-Kansas City Chiefs @ Jacksonville Jaguars,Quintin Morris,AnytimeTD,Anytime,,,1200.0,1200.0,1200.0,,1200.0,1050.0,1200.0,,Bovada,1200.0,13.0,12.7,1.0236220472440944
-Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,25,,,,,175.0,,182.0,,185.0,,HardRockBet,185.0,2.85,2.785,1.0233393177737882
-Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,25,-1200.0,,-775.0,,-710.0,,-770.0,,-800.0,,DraftKings,-710.0,1.1408450704225352,1.1168089303169948,1.021522159657801
-Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,50,-275.0,-278.0,-275.0,-285.0,-287.0,-300.0,-260.0,,-260.0,-278.0,FanDuel,-260.0,1.3846153846153846,1.3579943942980857,1.0196031665734957
-Kansas City Chiefs @ Jacksonville Jaguars,Cody Schrader,AnytimeTD,Anytime,,,1300.0,,,,1300.0,1300.0,,,Bovada,1300.0,14.0,14.0,1.0
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,25,-10000.0,,,,,-2000.0,,,-3000.0,,ESPNBET,-2000.0,1.05,1.0216666666666667,1.0277324632952691
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,25,-295.0,,-240.0,,-259.0,,-235.0,,-240.0,,FanDuel,-235.0,1.425531914893617,1.3896041925702944,1.0258546444486962
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Rushing,50,-275.0,-278.0,-275.0,-285.0,-299.0,-300.0,-260.0,,-300.0,-278.0,FanDuel,-260.0,1.3846153846153846,1.3498361509860777,1.0257655224331488
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,25,-190.0,,-200.0,,-189.0,,-194.0,,-210.0,,DraftKings,-189.0,1.529100529100529,1.5044925457974834,1.0163563344808744
+Kansas City Chiefs @ Jacksonville Jaguars,Brian Thomas Jr,Receiving,25,-1200.0,,-775.0,,-740.0,,-770.0,,-750.0,,DraftKings,-740.0,1.135135135135135,1.118892263650328,1.0145169217917511
+Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,25,,,,,181.0,,182.0,,185.0,,HardRockBet,185.0,2.85,2.8150000000000004,1.0124333925399644
 Kansas City Chiefs @ Jacksonville Jaguars,Andrew Wingard,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Arik Armstead,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Bhayshul Tuten,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,Receiving,50,,,,,,,,,600.0,,HardRockBet,600.0,7.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,Rushing,25,,,,,,,,,325.0,,HardRockBet,325.0,4.25,,
+Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,Rushing,25,,,,,,,,,300.0,,HardRockBet,300.0,4.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Brashard Smith,Rushing,50,,,,,,,,,1750.0,,HardRockBet,1750.0,18.5,,
-Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,110,,,,,3300.0,,,,,,DraftKings,3300.0,34.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Brenton Strange,Receiving,110,,,,,2900.0,,,,,,DraftKings,2900.0,30.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Bryan Cook,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Chamarri Conner,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Charles Omenihu,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Chris Jones,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Dawuane Smoot,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Devin Lloyd,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,110,,,,,4700.0,,,,,,DraftKings,4700.0,48.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Dyami Brown,Receiving,110,,,,,4600.0,,,,,,DraftKings,4600.0,47.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Foyesade Oluokun,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,George Karlaftis,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Hunter Long,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Isiah Pacheco,Receiving,50,,,,,2500.0,,,,,,DraftKings,2500.0,26.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Jacksonville Jaguars Defense,AnytimeTD,Anytime,,,,,,,750.0,,,,FanDuel,750.0,8.5,,
-Kansas City Chiefs @ Jacksonville Jaguars,Jaylen Watson,AnytimeTD,Anytime,,,,,,,,,4000.0,,HardRockBet,4000.0,41.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Jaylen Watson,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Josh Allen,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Jourdan Lewis,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,JuJu Smith-Schuster,Receiving,110,,,,,4800.0,,,,,,DraftKings,4800.0,49.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Kareem Hunt,Receiving,50,,,,,2600.0,,,,,,DraftKings,2600.0,27.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Nick Bolton,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,,BetMGM,15000.0,151.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Noah Gray,Receiving,80,,,,,4600.0,,,,,,DraftKings,4600.0,47.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Parker Washington,Receiving,80,,,,,4100.0,,,,,,DraftKings,4100.0,42.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Patrick Mahomes,Rushing,80,,,,,2400.0,,,,,,DraftKings,2400.0,25.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Travis Etienne Jr.,Receiving,80,,,,,4800.0,,,,,,DraftKings,4800.0,49.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Travis Hunter,Receiving,110,,,,,3200.0,,,,,,DraftKings,3200.0,33.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Trent McDuffie,AnytimeTD,Anytime,,,,,,,,,2500.0,,HardRockBet,2500.0,26.0,,
-Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,110,,,,,3900.0,,,,,,DraftKings,3900.0,40.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Trent McDuffie,AnytimeTD,Anytime,,,,,,,,,3000.0,,HardRockBet,3000.0,31.0,,
+Kansas City Chiefs @ Jacksonville Jaguars,Tyquan Thornton,Receiving,110,,,,,3500.0,,,,,,DraftKings,3500.0,36.0,,
 Kansas City Chiefs @ Jacksonville Jaguars,Tyson Campbell,AnytimeTD,Anytime,,,,,,,,,4000.0,,HardRockBet,4000.0,41.0,,
