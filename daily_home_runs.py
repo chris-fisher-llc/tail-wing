@@ -3,12 +3,13 @@ import requests
 import csv
 from datetime import datetime, timezone
 from collections import defaultdict
+from zoneinfo import ZoneInfo  # Python 3.9+
 
 API_KEY = "7f8cbb98207020adbd0218844a595725"  # use repo secret in CI; hardcode locally if you must
 TARGET_MARKETS = ["batter_home_runs", "batter_home_runs_alternate"]
+LOCAL_TZ = ZoneInfo("America/New_York")
 
 def _titlecase_book(book_key: str) -> str:
-    # Known mappings for nicer column names; add more as needed
     mapping = {
         "draftkings": "DraftKings",
         "fanduel": "FanDuel",
@@ -25,19 +26,29 @@ def _titlecase_book(book_key: str) -> str:
     label = mapping.get(book_key, book_key.replace("_", " ").title().replace(" ", ""))
     return f"{label}_Odds"
 
+def _parse_iso_utc(ts: str) -> datetime:
+    # The Odds API returns ISO8601 like "2025-10-06T01:05:00Z"
+    return datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(timezone.utc)
+
 def get_today_events():
+    # Pull 2 days of events so late games are present even if they cross UTC date
     resp = requests.get(
         "https://api.the-odds-api.com/v4/sports/baseball_mlb/events",
-        params={"apiKey": API_KEY, "dateFormat": "iso"},
+        params={"apiKey": API_KEY, "dateFormat": "iso", "daysFrom": 2},
         timeout=30,
     )
     resp.raise_for_status()
     events = resp.json()
-    today = datetime.now(timezone.utc).date()
-    return [
-        ev for ev in events
-        if datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00")).date() == today
-    ]
+
+    today_local = datetime.now(LOCAL_TZ).date()
+
+    filtered = []
+    for ev in events:
+        utc_start = _parse_iso_utc(ev["commence_time"])
+        local_start_date = utc_start.astimezone(LOCAL_TZ).date()
+        if local_start_date == today_local:
+            filtered.append(ev)
+    return filtered
 
 def get_home_run_odds(event_id):
     url = f"https://api.the-odds-api.com/v4/sports/baseball_mlb/events/{event_id}/odds"
@@ -96,12 +107,10 @@ def main():
 
     rows = []
     for player, odds_by_book in sorted(player_to_book_odds.items()):
-        # Compute value stats
         odds_list = [(book, odds) for book, odds in odds_by_book.items()]
         if not odds_list:
             continue
 
-        # Best = highest American odds (larger numeric value)
         best_book, best_odds = max(odds_list, key=lambda x: x[1])
 
         other_odds = [o for b, o in odds_list if b != best_book]
@@ -113,23 +122,21 @@ def main():
             value = ""
             value_flag = "FALSE"
 
-        # Build CSV row
         row = {
-            "normalized_player": player,          # API data is already grouped/consistent
+            "normalized_player": player,
             "bet_type": "To Hit 1+ HR",
             "player": player,
             "value": round(value, 4) if value != "" else "",
             "value_book": best_book,
             "value_odds": best_odds,
             "value_flag": value_flag,
-            "GPT Value": ""                       # reserved column; not used here
+            "GPT Value": ""
         }
         for book_col in books_order:
             row[book_col] = odds_by_book.get(book_col, "")
 
         rows.append(row)
 
-    # Stable column order for Streamlit (dynamic odds columns in the middle)
     base_prefix = ["normalized_player", "bet_type", "player"]
     base_suffix = ["value", "value_book", "value_odds", "value_flag", "GPT Value"]
     fieldnames = base_prefix + books_order + base_suffix
@@ -143,4 +150,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
