@@ -3,7 +3,7 @@ from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
-
+#
 # ---- simple settings (inline for step 1) ----
 JWT_SECRET = "change-me-to-a-long-random-string"
 JWT_ISSUER = "tailwing"
