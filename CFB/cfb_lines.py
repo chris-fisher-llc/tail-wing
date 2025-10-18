@@ -1,4 +1,4 @@
-# daily_cfb_spreads_totals.py
+# daily_cfb_spreads_totals.py  (updated to include Moneylines)
 import os
 import csv
 import math
@@ -10,7 +10,8 @@ from zoneinfo import ZoneInfo  # Python 3.9+
 #API_KEY = os.getenv("THE_ODDS_API_KEY", "YOUR_API_KEY_HERE")
 API_KEY = "7f8cbb98207020adbd0218844a595725"
 SPORT_KEY = "americanfootball_ncaaf"
-TARGET_MARKETS = ["spreads", "totals"]
+# ADD h2h for moneylines:
+TARGET_MARKETS = ["spreads", "totals", "h2h"]
 REGIONS = "us"
 ODDS_FORMAT = "american"
 DATE_FMT = "iso"
@@ -120,31 +121,53 @@ def main():
 
                 for outcome in market.get("outcomes", []):
                     name = (outcome.get("name") or "").strip()
-                    point = outcome.get("point")
                     price = outcome.get("price")
-                    if price is None or point is None:
+
+                    if price is None:
                         continue
 
+                    # Normalize home/away tokens if present
+                    if name not in (home, away):
+                        if name.lower() == "home":
+                            name = home
+                        elif name.lower() == "away":
+                            name = away
+
                     if mkey == "spreads":
+                        point = outcome.get("point")
+                        if point is None:
+                            continue
                         if name not in (home, away):
-                            if name.lower() == "home":
-                                name = home
-                            elif name.lower() == "away":
-                                name = away
-                            else:
-                                continue
+                            continue
                         bet_type = "Spread"
                         selection = name
+                        line_point = float(point)
+                        stored_point = line_point  # keep numeric internally
+
                     elif mkey == "totals":
+                        point = outcome.get("point")
+                        if point is None:
+                            continue
                         lname = name.lower()
                         if lname not in ("over", "under"):
                             continue
                         bet_type = "Total"
                         selection = "Over" if lname == "over" else "Under"
+                        line_point = float(point)
+                        stored_point = line_point
+
+                    elif mkey == "h2h":
+                        # Moneyline: no point
+                        if name not in (home, away):
+                            continue
+                        bet_type = "Moneyline"
+                        selection = name
+                        line_point = 0.0  # fixed for key/sorting
+                        stored_point = 0.0
                     else:
                         continue
 
-                    bet_key = (ev_id, bet_type, selection, float(point))
+                    bet_key = (ev_id, bet_type, selection, line_point)
                     if bet_key not in agg:
                         agg[bet_key] = {
                             "event_id": ev_id,
@@ -154,7 +177,8 @@ def main():
                             "kickoff_et": kickoff_et,
                             "bet_type": bet_type,
                             "selection": selection,
-                            "point": float(point),
+                            # store 0.0 internally for Moneyline; we’ll print "" later
+                            "point": stored_point,
                             "opponent": away if selection == home else (home if selection == away else ""),
                             "book_odds": {},
                         }
@@ -171,13 +195,16 @@ def main():
                         agg[bet_key]["book_odds"][book_col] = int(price)
 
     if not agg:
-        print("No spreads/totals found for today.")
+        print("No spreads/totals/moneylines found for today.")
         return
 
     books_order = sorted(books_seen)
 
     rows = []
-    for (ev_id, bet_type, selection, point), rec in sorted(agg.items(), key=lambda x: (x[1]["game"], x[1]["bet_type"], x[1]["selection"], x[1]["point"])):
+    for (ev_id, bet_type, selection, point), rec in sorted(
+        agg.items(),
+        key=lambda x: (x[1]["game"], x[1]["bet_type"], x[1]["selection"], x[1]["point"])
+    ):
         odds_by_book = rec["book_odds"]
         if not odds_by_book:
             continue
@@ -199,13 +226,16 @@ def main():
             value_ratio = ""
             value_flag = "FALSE"
 
+        # Blank line for Moneyline rows in the CSV
+        display_line = "" if rec["bet_type"] == "Moneyline" else rec["point"]
+
         row = {
             "game": rec["game"],
             "kickoff_et": rec["kickoff_et"],
             "bet_type": rec["bet_type"],
             "selection": rec["selection"],
             "opponent": rec["opponent"],
-            "line": rec["point"],
+            "line": display_line,
             "best_book": best_book,
             "best_odds": best_odds,
             "best_decimal": round(best_dec, 4) if isinstance(best_dec, float) else "",
@@ -226,15 +256,13 @@ def main():
     # Save inside the same folder as this script (CFB/)
     script_dir = os.path.dirname(__file__)
     output_path = os.path.join(script_dir, "cfb_matched_output.csv")
-    
+
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
-    
+
     print(f"Wrote {output_path} with {len(rows)} rows and {len(books_order)} book columns.")
 
 if __name__ == "__main__":
     main()
-
-
