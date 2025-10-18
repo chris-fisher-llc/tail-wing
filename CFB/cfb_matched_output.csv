@@ -1,232 +1,280 @@
 game,kickoff_et,bet_type,selection,opponent,line,BetMGM_Odds,BetRivers_Odds,Betonlineag_Odds,Betus_Odds,Bovada_Odds,DraftKings_Odds,FanDuel_Odds,Fanatics_Odds,Lowvig_Odds,Mybookieag_Odds,WilliamhillUs_Odds,best_book,best_odds,best_decimal,avg_other_decimal,value_ratio,value_flag
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Moneyline,Akron Zips,Ball State Cardinals,,-115,-113,,,-115,-112,-112,-115,,-115,-110,WilliamhillUs_Odds,-110,1.9091,1.8784,1.0163,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Moneyline,Ball State Cardinals,Akron Zips,,-105,-109,,,-105,-108,-104,-105,,-106,-110,FanDuel_Odds,-104,1.9615,1.9361,1.0131,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Akron Zips,Ball State Cardinals,-1.5,-105,,,,,-105,-104,,,,,FanDuel_Odds,-104,1.9615,1.9524,1.0047,FALSE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Moneyline,Akron Zips,Ball State Cardinals,,-115,-113,-125,-125,-115,-115,-112,-115,-125,-118,-120,FanDuel_Odds,-112,1.8929,1.8444,1.0263,TRUE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Moneyline,Ball State Cardinals,Akron Zips,,-105,-109,105,105,-105,-105,-104,-105,105,-104,100,Lowvig_Odds,105,2.05,1.975,1.038,TRUE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Akron Zips,Ball State Cardinals,-1.5,-105,,-110,,,-105,-104,,-106,,,FanDuel_Odds,-104,1.9615,1.9393,1.0115,FALSE
 Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Akron Zips,Ball State Cardinals,-1.0,,,,-110,-110,,,-110,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Akron Zips,Ball State Cardinals,0.0,,-113,-110,,,,,,-106,,,Lowvig_Odds,-106,1.9434,1.897,1.0244,TRUE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Ball State Cardinals,Akron Zips,0.0,,-109,-110,,,,,,-106,,,Lowvig_Odds,-106,1.9434,1.9133,1.0158,FALSE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Akron Zips,Ball State Cardinals,0.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Ball State Cardinals,Akron Zips,0.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
 Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Ball State Cardinals,Akron Zips,1.0,,,,-110,-110,,,-110,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Ball State Cardinals,Akron Zips,1.5,-115,,,,,-115,-118,,,,,DraftKings_Odds,-115,1.8696,1.8585,1.0059,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,43.0,,,-125,,,,,,-124,,,Lowvig_Odds,-124,1.8065,1.8,1.0036,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,43.5,-115,-112,,,,-115,-115,-115,,-110,,Mybookieag_Odds,-110,1.9091,1.8742,1.0186,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,44.0,,,,,-105,,,,,,-110,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Spread,Ball State Cardinals,Akron Zips,1.5,-115,,-110,,,-115,-118,,-106,,,Lowvig_Odds,-106,1.9434,1.8739,1.0371,TRUE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,43.5,-115,-112,,,-110,-115,-115,-110,,-110,,Fanatics_Odds,-110,1.9091,1.8866,1.0119,FALSE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,44.0,,,-110,,,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
 Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Over,,44.5,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,43.0,,,105,,,,,,106,,,Lowvig_Odds,106,2.06,2.05,1.0049,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,43.5,-105,-112,,,,-105,-105,-105,,-110,,DraftKings_Odds,-105,1.9524,1.9318,1.0106,FALSE
-Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,44.0,,,,,-115,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,43.5,-105,-112,,,-110,-105,-105,-110,,-110,,DraftKings_Odds,-105,1.9524,1.9208,1.0164,FALSE
+Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,44.0,,,-110,,,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
 Akron Zips @ Ball State Cardinals,2025-10-18 15:30 ET,Total,Under,,44.5,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Moneyline,Arizona Wildcats,Houston Cougars,,-115,-115,-119,-115,-120,-118,-112,-115,-119,-117,-115,FanDuel_Odds,-112,1.8929,1.8564,1.0196,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Moneyline,Houston Cougars,Arizona Wildcats,,-105,-108,-101,-105,100,-102,-104,-105,-101,-104,-105,Bovada_Odds,100,2.0,1.9619,1.0194,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Spread,Arizona Wildcats,Houston Cougars,-1.5,-105,,,,-110,-110,-106,-110,,,,BetMGM_Odds,-105,1.9524,1.9177,1.0181,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Spread,Arizona Wildcats,Houston Cougars,-1.0,,-109,-115,-115,,,,,-111,-110,-110,BetRivers_Odds,-109,1.9174,1.8916,1.0136,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Spread,Houston Cougars,Arizona Wildcats,1.0,,-114,-105,-105,,,,,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.92,1.0365,TRUE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Spread,Houston Cougars,Arizona Wildcats,1.5,-115,,,,-110,-110,-114,-110,,,,DraftKings_Odds,-110,1.9091,1.8912,1.0094,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Total,Over,,47.0,,-114,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9045,1.0112,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Total,Over,,47.5,-105,,,,,-105,-105,,,,,FanDuel_Odds,-105,1.9524,1.9524,1.0,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Total,Under,,47.0,,-109,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9103,1.0082,FALSE
-Arizona Wildcats @ Houston Cougars,2025-10-18 12:00 ET,Total,Under,,47.5,-115,,,,,-115,-115,,,,,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Moneyline,Army Black Knights,Tulane Green Wave,,280,265,303,290,295,285,300,290,303,313,285,Mybookieag_Odds,313,4.13,3.896,1.0601,TRUE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Moneyline,Tulane Green Wave,Army Black Knights,,-375,-375,-380,-360,-390,-360,-375,-375,-380,-427,-380,DraftKings_Odds,-360,1.2778,1.2625,1.0121,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Spread,Army Black Knights,Tulane Green Wave,9.5,,,-105,,-105,,-102,-105,-101,,,Lowvig_Odds,-101,1.9901,1.9594,1.0157,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Spread,Army Black Knights,Tulane Green Wave,10.0,-110,-113,,-110,,-110,,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.9043,1.0025,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Spread,Tulane Green Wave,Army Black Knights,-10.0,-110,-112,,-110,,-110,,,,-110,-112,Mybookieag_Odds,-110,1.9091,1.9026,1.0034,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Spread,Tulane Green Wave,Army Black Knights,-9.5,,,-115,,-115,,-120,-115,-111,,,Lowvig_Odds,-111,1.9009,1.8605,1.0217,TRUE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Over,,44.5,-118,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,1.8475,1.0334,TRUE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Over,,45.0,,,-110,-110,-110,,,-110,-108,-110,-112,Lowvig_Odds,-108,1.9259,1.9064,1.0103,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Over,,45.5,,,,,,-102,-105,,,,,DraftKings_Odds,-102,1.9804,1.9524,1.0143,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Under,,44.5,-102,-112,,,,,,,,,,BetMGM_Odds,-102,1.9804,1.8929,1.0462,TRUE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Under,,45.0,,,-110,-110,-110,,,-110,-108,-110,-109,Lowvig_Odds,-108,1.9259,1.9105,1.0081,FALSE
-Army Black Knights @ Tulane Green Wave,2025-10-18 12:00 ET,Total,Under,,45.5,,,,,,-118,-115,,,,,FanDuel_Odds,-115,1.8696,1.8475,1.012,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Moneyline,Baylor Bears,TCU Horned Frogs,,125,123,130,129,130,124,126,125,130,124,130,WilliamhillUs_Odds,130,2.3,2.266,1.015,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Moneyline,TCU Horned Frogs,Baylor Bears,,-150,-155,-150,-150,-150,-148,-146,-150,-150,-152,-155,FanDuel_Odds,-146,1.6849,1.6624,1.0136,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Spread,Baylor Bears,TCU Horned Frogs,2.5,,,,,,,100,,,,,FanDuel_Odds,100,2.0,,,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Spread,Baylor Bears,TCU Horned Frogs,3.0,-115,-114,-110,-110,-110,-110,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9012,1.0222,TRUE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Spread,TCU Horned Frogs,Baylor Bears,-3.0,-105,-109,-110,-110,-110,-110,,-110,-106,-110,-110,BetMGM_Odds,-105,1.9524,1.9138,1.0201,TRUE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Spread,TCU Horned Frogs,Baylor Bears,-2.5,,,,,,,-122,,,,,FanDuel_Odds,-122,1.8197,,,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Total,Over,,65.5,-110,-109,-110,-110,-105,-105,-110,-105,-108,-110,-110,DraftKings_Odds,-105,1.9524,1.9203,1.0167,FALSE
-Baylor Bears @ TCU Horned Frogs,2025-10-18 12:00 ET,Total,Under,,65.5,-110,-114,-110,-110,-115,-115,-110,-115,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.894,1.0168,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Moneyline,Buffalo Bulls,UMass Minutemen,,-800,-770,-800,-800,-800,-800,-670,-800,-800,-879,-800,FanDuel_Odds,-670,1.1493,1.1244,1.0221,TRUE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Moneyline,UMass Minutemen,Buffalo Bulls,,550,480,561,550,525,550,490,550,561,547,550,Betonlineag_Odds,561,6.61,6.353,1.0405,TRUE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-16.5,-110,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Moneyline,Arizona Wildcats,Houston Cougars,,-250,-121,-127,-130,-225,-250,-230,-225,-127,-132,-240,BetRivers_Odds,-121,1.8264,1.5642,1.1677,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Moneyline,Houston Cougars,Arizona Wildcats,,190,-103,107,110,170,190,176,165,107,108,185,DraftKings_Odds,190,2.9,2.4151,1.2008,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Arizona Wildcats,Houston Cougars,-7.5,,,,,,,,,,,-105,WilliamhillUs_Odds,-105,1.9524,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Arizona Wildcats,Houston Cougars,-6.5,-118,,,,,-120,-114,,,,,FanDuel_Odds,-114,1.8772,1.8404,1.02,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Arizona Wildcats,Houston Cougars,-5.5,,,,,-115,,,-120,,,,Bovada_Odds,-115,1.8696,1.8333,1.0198,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Arizona Wildcats,Houston Cougars,-2.0,,,-115,-110,,,,,-106,-110,,Lowvig_Odds,-106,1.9434,1.8959,1.025,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Arizona Wildcats,Houston Cougars,-1.5,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Houston Cougars,Arizona Wildcats,1.5,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Houston Cougars,Arizona Wildcats,2.0,,,-105,-110,,,,,-106,-110,,Betonlineag_Odds,-105,1.9524,1.9205,1.0166,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Houston Cougars,Arizona Wildcats,5.5,,,,,-115,,,-110,,,,Fanatics_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Houston Cougars,Arizona Wildcats,6.5,-110,,,,,-110,-114,,,,,DraftKings_Odds,-110,1.9091,1.8931,1.0084,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Spread,Houston Cougars,Arizona Wildcats,7.5,,,,,,,,,,,-125,WilliamhillUs_Odds,-125,1.8,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Over,,47.0,,,-110,,,,,,-108,-124,,Lowvig_Odds,-108,1.9259,1.8578,1.0367,TRUE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Over,,47.5,,-110,,-110,,,,,,,,Betus_Odds,-110,1.9091,1.9091,1.0,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Over,,53.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Over,,53.5,,,,,,,,-115,,,,Fanatics_Odds,-115,1.8696,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Over,,54.5,-115,,,,,-110,-110,,,,-115,FanDuel_Odds,-110,1.9091,1.8827,1.014,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Under,,47.0,,,-110,,,,,,-108,-111,,Lowvig_Odds,-108,1.9259,1.905,1.011,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Under,,47.5,,-113,,-110,,,,,,,,Betus_Odds,-110,1.9091,1.885,1.0128,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Under,,53.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Under,,53.5,,,,,,,,-115,,,,Fanatics_Odds,-115,1.8696,,,FALSE
+Arizona Wildcats @ Houston Cougars,2025-10-18 12:03 ET,Total,Under,,54.5,-115,,,,,-120,-120,,,,-115,WilliamhillUs_Odds,-115,1.8696,1.8454,1.0131,FALSE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Moneyline,Army Black Knights,Tulane Green Wave,,280,,316,290,290,285,300,275,316,290,285,Lowvig_Odds,316,4.16,3.9011,1.0664,TRUE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Moneyline,Tulane Green Wave,Army Black Knights,,-350,,-400,-360,-435,-360,-375,-400,-400,-400,-380,BetMGM_Odds,-350,1.2857,1.2573,1.0226,TRUE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Spread,Army Black Knights,Tulane Green Wave,10.0,-110,,-105,-110,,-110,,,-101,,,Lowvig_Odds,-101,1.9901,1.9199,1.0366,TRUE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Spread,Army Black Knights,Tulane Green Wave,10.5,,,,,-120,,-115,-120,,-118,-114,WilliamhillUs_Odds,-114,1.8772,1.8459,1.0169,FALSE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Spread,Tulane Green Wave,Army Black Knights,-10.5,,,,,-110,,-105,-110,,-111,-107,FanDuel_Odds,-105,1.9524,1.9134,1.0204,TRUE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Spread,Tulane Green Wave,Army Black Knights,-10.0,-110,,-115,-110,,-110,,,-111,,,DraftKings_Odds,-110,1.9091,1.8972,1.0063,FALSE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Total,Over,,44.0,,,-111,,,,,,-109,,,Lowvig_Odds,-109,1.9174,1.9009,1.0087,FALSE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Total,Over,,44.5,-110,,,-110,-115,-105,-110,-115,,-111,-109,DraftKings_Odds,-105,1.9524,1.8978,1.0287,TRUE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Total,Under,,44.0,,,-109,,,,,,-107,,,Lowvig_Odds,-107,1.9346,1.9174,1.0089,FALSE
+Army Black Knights @ Tulane Green Wave,2025-10-18 12:15 ET,Total,Under,,44.5,-110,,,-110,-115,-115,-110,-115,,-118,-112,FanDuel_Odds,-110,1.9091,1.881,1.0149,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Moneyline,Baylor Bears,TCU Horned Frogs,,120,125,138,134,145,145,122,125,138,145,195,WilliamhillUs_Odds,195,2.95,2.337,1.2623,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Moneyline,TCU Horned Frogs,Baylor Bears,,-150,-162,-158,-155,-170,-188,-156,-165,-158,-182,-250,BetMGM_Odds,-150,1.6667,1.5845,1.0519,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,Baylor Bears,TCU Horned Frogs,3.0,,-107,,,,,,,,,,BetRivers_Odds,-107,1.9346,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,Baylor Bears,TCU Horned Frogs,3.5,-130,,-118,-120,-115,-115,-125,-115,-114,,,Lowvig_Odds,-114,1.8772,1.837,1.0219,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,Baylor Bears,TCU Horned Frogs,4.5,,,,,,,,,,-111,,Mybookieag_Odds,-111,1.9009,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,Baylor Bears,TCU Horned Frogs,6.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,TCU Horned Frogs,Baylor Bears,-6.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,TCU Horned Frogs,Baylor Bears,-4.5,,,,,,,,,,-111,,Mybookieag_Odds,-111,1.9009,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,TCU Horned Frogs,Baylor Bears,-3.5,100,,-102,100,-105,-115,-106,-115,102,,,Lowvig_Odds,102,2.02,1.945,1.0385,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Spread,TCU Horned Frogs,Baylor Bears,-3.0,,-117,,,,,,,,,,BetRivers_Odds,-117,1.8547,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Over,,61.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Over,,62.5,-115,,,,,-115,,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Over,,63.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Over,,66.5,,-110,-105,-110,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9235,1.0246,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Over,,67.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Under,,61.5,,,,,,,-110,,,,,FanDuel_Odds,-110,1.9091,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Under,,62.5,-110,,,,,-115,,-115,,,,BetMGM_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Under,,63.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Under,,66.5,,-113,-115,-110,,,,,-114,,,Betus_Odds,-110,1.9091,1.8772,1.017,FALSE
+Baylor Bears @ TCU Horned Frogs,2025-10-18 12:02 ET,Total,Under,,67.5,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Moneyline,Buffalo Bulls,UMass Minutemen,,-800,-770,-800,-800,-850,-800,-670,-800,-800,-879,-800,FanDuel_Odds,-670,1.1493,1.1236,1.0228,TRUE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Moneyline,UMass Minutemen,Buffalo Bulls,,550,480,561,550,550,550,490,550,561,547,550,Betonlineag_Odds,561,6.61,6.378,1.0364,TRUE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-16.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
 Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-16.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-15.5,,-109,,-110,,-112,,-110,,,-110,BetRivers_Odds,-109,1.9174,1.905,1.0065,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-15.0,,,-110,,-110,,,,-106,,,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,15.0,,,-110,,-110,,,,-106,,,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,15.5,,-114,,-110,,-108,,-110,,,-110,DraftKings_Odds,-108,1.9259,1.9011,1.013,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-15.5,-110,-109,,-110,-110,-112,,-110,,,-110,BetRivers_Odds,-109,1.9174,1.9064,1.0058,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,Buffalo Bulls,UMass Minutemen,-15.0,,,-115,,,,,,-111,,,Lowvig_Odds,-111,1.9009,1.8696,1.0168,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,15.0,,,-105,,,,,,-101,,,Lowvig_Odds,-101,1.9901,1.9524,1.0193,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,15.5,-110,-114,,-110,-110,-108,,-110,,,-110,DraftKings_Odds,-108,1.9259,1.9038,1.0116,FALSE
 Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,16.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,16.5,-110,,,,,,-115,,,,,BetMGM_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Over,,46.5,-115,-115,-115,,,-115,-110,-115,-114,,,FanDuel_Odds,-110,1.9091,1.8708,1.0204,TRUE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Over,,47.0,,,,-110,-110,,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Under,,46.5,-105,-108,-105,,,-105,-110,-105,-103,,,Lowvig_Odds,-103,1.9709,1.9408,1.0155,FALSE
-Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Under,,47.0,,,,-110,-110,,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Moneyline,Bowling Green Falcons,Central Michigan Chippewas,,-160,-165,-162,-155,-165,-162,-162,-165,-162,-173,-160,Betus_Odds,-155,1.6452,1.6115,1.0209,TRUE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Moneyline,Central Michigan Chippewas,Bowling Green Falcons,,135,133,142,134,140,136,136,135,142,140,135,Lowvig_Odds,142,2.42,2.366,1.0228,TRUE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-3.5,-105,-107,-105,-110,100,-102,-106,-105,-101,-110,-105,Bovada_Odds,100,2.0,1.9476,1.0269,TRUE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,3.5,-115,-117,-115,-110,-120,-118,-114,-115,-111,-110,-115,Mybookieag_Odds,-110,1.9091,1.8701,1.0209,TRUE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Over,,43.0,,,-115,,,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Over,,43.5,-110,-113,,,-110,-110,-110,-110,,-110,-110,DraftKings_Odds,-110,1.9091,1.9056,1.0018,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Over,,44.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Under,,43.0,,,-105,,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Under,,43.5,-110,-110,,,-110,-110,-110,-110,,-110,-110,DraftKings_Odds,-110,1.9091,1.9091,1.0,FALSE
-Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:00 ET,Total,Under,,44.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Moneyline,Cincinnati Bearcats,Oklahoma State Cowboys,,-2500,-2500,-2300,-2300,-2000,-2400,-2500,-2000,-2300,-2524,-2400,Fanatics_Odds,-2000,1.05,1.0423,1.0074,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Moneyline,Oklahoma State Cowboys,Cincinnati Bearcats,,1100,950,1116,1125,950,1200,1200,1100,1116,1029,1150,FanDuel_Odds,1200,13.0,11.836,1.0983,TRUE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Cincinnati Bearcats,Oklahoma State Cowboys,-24.0,,-115,-110,-110,-105,,,,-103,,-110,Lowvig_Odds,-103,1.9709,1.9098,1.032,TRUE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Cincinnati Bearcats,Oklahoma State Cowboys,-23.5,-115,,,,,-115,-114,-115,,-110,,Mybookieag_Odds,-110,1.9091,1.8715,1.0201,TRUE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Oklahoma State Cowboys,Cincinnati Bearcats,23.5,-105,,,,,-105,-106,-105,,-110,,Fanatics_Odds,-105,1.9524,1.9393,1.0067,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Oklahoma State Cowboys,Cincinnati Bearcats,24.0,,-108,-110,-110,-115,,,,-109,,-110,BetRivers_Odds,-108,1.9259,1.9029,1.0121,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Over,,57.5,-115,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Over,,58.0,,-110,-110,-110,-115,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9034,1.0118,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Spread,UMass Minutemen,Buffalo Bulls,16.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Over,,46.5,-115,-115,-115,,,-115,-110,,-114,,,FanDuel_Odds,-110,1.9091,1.8711,1.0203,TRUE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Over,,47.0,,,,-110,,,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Over,,47.5,,,,,-110,,,-110,,,,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Under,,46.5,-105,-108,-105,,,-105,-110,,-103,,,Lowvig_Odds,-103,1.9709,1.9384,1.0167,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Under,,47.0,,,,-110,,,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
+Buffalo Bulls @ UMass Minutemen,2025-10-18 14:30 ET,Total,Under,,47.5,,,,,-110,,,-110,,,,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Moneyline,Bowling Green Falcons,Central Michigan Chippewas,,-140,,-160,-160,-220,-210,-205,-210,-160,-154,-230,BetMGM_Odds,-140,1.7143,1.5393,1.1137,TRUE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Moneyline,Central Michigan Chippewas,Bowling Green Falcons,,110,,140,138,165,160,158,155,140,125,180,WilliamhillUs_Odds,180,2.8,2.4344,1.1502,TRUE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-6.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-4.5,,,,,-115,-115,,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-3.5,,,100,,,,-118,,104,,,Lowvig_Odds,104,2.04,1.9237,1.0604,TRUE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-3.0,,,,-115,,,,,,,,Betus_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Bowling Green Falcons,Central Michigan Chippewas,-2.5,-125,,,,,,,,,,,BetMGM_Odds,-125,1.8,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,2.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,3.0,,,,-105,,,,,,,,Betus_Odds,-105,1.9524,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,3.5,,,-120,,,,-110,,-116,,,FanDuel_Odds,-110,1.9091,1.8477,1.0332,TRUE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,4.5,,,,,-115,-115,,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Spread,Central Michigan Chippewas,Bowling Green Falcons,6.5,,,,,,,,,,,-115,WilliamhillUs_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Over,,41.5,,,,,,-115,,,,,,DraftKings_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Over,,42.5,-115,,,,,,-114,-110,,,,Fanatics_Odds,-110,1.9091,1.8734,1.0191,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Over,,43.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Over,,44.0,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Over,,44.5,,,,,,,,,,,-120,WilliamhillUs_Odds,-120,1.8333,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Under,,41.5,,,,,,-115,,,,,,DraftKings_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Under,,42.5,-115,,,,,,-114,-120,,,,FanDuel_Odds,-114,1.8772,1.8514,1.0139,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Under,,43.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Under,,44.0,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Central Michigan Chippewas @ Bowling Green Falcons,2025-10-18 12:03 ET,Total,Under,,44.5,,,,,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,,,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Moneyline,Cincinnati Bearcats,Oklahoma State Cowboys,,,-2500,-2300,-2300,-2000,-2400,-2500,-2000,-2300,-2524,-2400,Fanatics_Odds,-2000,1.05,1.0426,1.0071,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Moneyline,Oklahoma State Cowboys,Cincinnati Bearcats,,,950,1116,1125,950,1200,1200,1100,1116,1029,1150,FanDuel_Odds,1200,13.0,11.8178,1.1,TRUE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Cincinnati Bearcats,Oklahoma State Cowboys,-24.0,,-117,-110,-110,-105,,,-110,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9075,1.0332,TRUE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Cincinnati Bearcats,Oklahoma State Cowboys,-23.5,,,,,,-115,-114,,,,,FanDuel_Odds,-114,1.8772,1.8696,1.0041,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Oklahoma State Cowboys,Cincinnati Bearcats,23.5,,,,,,-105,-106,,,,,DraftKings_Odds,-105,1.9524,1.9434,1.0046,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Spread,Oklahoma State Cowboys,Cincinnati Bearcats,24.0,,-107,-110,-110,-115,,,-110,-109,-110,-110,BetRivers_Odds,-107,1.9346,1.9046,1.0157,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Over,,57.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Over,,58.0,,-108,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9115,1.0075,FALSE
 Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Over,,58.5,,,,,,-102,,,,,,DraftKings_Odds,-102,1.9804,,,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Under,,57.5,-105,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,1.9524,1.0,FALSE
-Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Under,,58.0,,-112,-110,-110,-105,,,-110,-108,-110,-110,Bovada_Odds,-105,1.9524,1.9092,1.0226,TRUE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Under,,57.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
+Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Under,,58.0,,-115,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9034,1.0118,FALSE
 Cincinnati Bearcats @ Oklahoma State Cowboys,2025-10-18 20:00 ET,Total,Under,,58.5,,,,,,-118,,,,,,DraftKings_Odds,-118,1.8475,,,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Moneyline,Appalachian State Mountaineers,Coastal Carolina Chanticleers,,-400,-400,-415,-405,-420,-395,-390,-425,-415,-421,-400,FanDuel_Odds,-390,1.2564,1.2443,1.0097,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Moneyline,Coastal Carolina Chanticleers,Appalachian State Mountaineers,,310,285,327,325,315,310,310,325,327,319,300,Betonlineag_Odds,327,4.27,4.126,1.0349,TRUE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Appalachian State Mountaineers,Coastal Carolina Chanticleers,-10.5,-110,-112,-110,-110,,-108,-105,-105,-106,-110,-110,Fanatics_Odds,-105,1.9524,1.9178,1.018,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Appalachian State Mountaineers,Coastal Carolina Chanticleers,-10.0,,,,,-110,,,,,,,Bovada_Odds,-110,1.9091,,,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Coastal Carolina Chanticleers,Appalachian State Mountaineers,10.0,,,,,-110,,,,,,,Bovada_Odds,-110,1.9091,,,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Coastal Carolina Chanticleers,Appalachian State Mountaineers,10.5,-110,-110,-110,-110,,-112,-115,-115,-106,-110,-112,Lowvig_Odds,-106,1.9434,1.8967,1.0246,TRUE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Over,,48.5,-115,,,,,-112,-118,-110,,,,Fanatics_Odds,-110,1.9091,1.87,1.0209,TRUE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Over,,49.0,,-110,-110,-110,-110,,,,-108,-110,-102,WilliamhillUs_Odds,-102,1.9804,1.9119,1.0358,TRUE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Under,,48.5,-105,,,,,-108,-104,-110,,,,FanDuel_Odds,-104,1.9615,1.9291,1.0168,FALSE
-Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Under,,49.0,,-113,-110,-110,-110,,,,-108,-110,-115,Lowvig_Odds,-108,1.9259,1.8985,1.0145,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Moneyline,Eastern Michigan Eagles,Miami (OH) RedHawks,,375,350,367,375,355,370,380,370,367,338,360,FanDuel_Odds,380,4.8,4.627,1.0374,TRUE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Moneyline,Miami (OH) RedHawks,Eastern Michigan Eagles,,-500,-500,-475,-475,-490,-485,-490,-500,-475,-463,-480,Mybookieag_Odds,-463,1.216,1.2054,1.0088,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,12.5,,,,,-105,-108,-105,-110,,,,FanDuel_Odds,-105,1.9524,1.9291,1.0121,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,13.0,,-112,-113,-110,,,,,-109,-110,-110,Lowvig_Odds,-109,1.9174,1.901,1.0086,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-13.0,,-112,-107,-110,,,,,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9109,1.0314,TRUE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-12.5,,,,,-115,-112,-115,-110,,,,Fanatics_Odds,-110,1.9091,1.8773,1.0169,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Total,Over,,47.5,-118,-112,-110,,-110,-115,-115,-110,-108,,-110,Lowvig_Odds,-108,1.9259,1.8895,1.0193,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Total,Over,,48.0,,,,-110,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Total,Under,,47.5,-102,-112,-110,,-110,-105,-105,-110,-108,,-110,BetMGM_Odds,-102,1.9804,1.92,1.0315,TRUE
-Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:00 ET,Total,Under,,48.0,,,,-110,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Moneyline,Florida Atlantic Owls,South Florida Bulls,,1000,950,945,950,850,1000,980,1000,945,941,950,DraftKings_Odds,1000,11.0,10.511,1.0465,TRUE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Moneyline,South Florida Bulls,Florida Atlantic Owls,,-2000,-1667,-1700,-1700,-1800,-1800,-1800,-1800,-1700,-2061,-1700,BetRivers_Odds,-1667,1.06,1.0556,1.0042,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,Florida Atlantic Owls,South Florida Bulls,20.5,,,,,,,100,,,,,FanDuel_Odds,100,2.0,,,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,Florida Atlantic Owls,South Florida Bulls,21.0,-110,-110,-107,-105,,-108,,-105,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9252,1.0237,TRUE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,Florida Atlantic Owls,South Florida Bulls,21.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,South Florida Bulls,Florida Atlantic Owls,-21.5,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,South Florida Bulls,Florida Atlantic Owls,-21.0,-110,-112,-113,-115,,-112,,-115,-109,-110,-110,Lowvig_Odds,-109,1.9174,1.8921,1.0134,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,South Florida Bulls,Florida Atlantic Owls,-20.5,,,,,,,-122,,,,,FanDuel_Odds,-122,1.8197,,,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Over,,72.5,,,,,-115,-112,-115,,,,,DraftKings_Odds,-112,1.8929,1.8696,1.0125,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Over,,73.0,,-113,-105,-110,,,,-110,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9123,1.0306,TRUE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Over,,73.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Under,,72.5,,,,,-105,-108,-105,,,,,FanDuel_Odds,-105,1.9524,1.9392,1.0068,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Under,,73.0,,-110,-115,-110,,,,-110,-114,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8972,1.0063,FALSE
-Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Under,,73.5,-115,,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Moneyline,Florida State Seminoles,Stanford Cardinal,,-1000,-910,-1000,-900,-1000,-1000,-1000,-1000,-1000,-1000,-1000,Betus_Odds,-900,1.1111,1.101,1.0092,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Moneyline,Stanford Cardinal,Florida State Seminoles,,650,550,661,600,625,650,660,660,661,610,650,Betonlineag_Odds,661,7.61,7.316,1.0402,TRUE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Florida State Seminoles,Stanford Cardinal,-18.0,,,-110,,-110,,,,-106,-110,-105,WilliamhillUs_Odds,-105,1.9524,1.9177,1.0181,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Florida State Seminoles,Stanford Cardinal,-17.5,-115,-114,,-110,,-115,-115,-110,,,,Fanatics_Odds,-110,1.9091,1.879,1.016,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Stanford Cardinal,Florida State Seminoles,17.5,-105,-109,,-110,,-105,-105,-110,,,,FanDuel_Odds,-105,1.9524,1.9281,1.0126,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Stanford Cardinal,Florida State Seminoles,18.0,,,-110,,-110,,,,-106,-110,-115,Lowvig_Odds,-106,1.9434,1.8992,1.0233,TRUE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Over,,54.0,,,-110,-110,-105,,,-110,-108,-110,-110,Bovada_Odds,-105,1.9524,1.9119,1.0212,TRUE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Over,,54.5,-105,-112,,,,-105,-105,,,,,FanDuel_Odds,-105,1.9524,1.9325,1.0103,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Under,,54.0,,,-110,-110,-115,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9025,1.0123,FALSE
-Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Under,,54.5,-115,-112,,,,-115,-115,,,,,BetRivers_Odds,-112,1.8929,1.8696,1.0125,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Moneyline,Georgia Southern Eagles,Georgia State Panthers,,-250,-240,-245,-235,-240,-238,-230,-245,-245,-255,-250,FanDuel_Odds,-230,1.4348,1.4096,1.0179,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Moneyline,Georgia State Panthers,Georgia Southern Eagles,,200,188,203,200,200,195,190,200,203,204,195,Mybookieag_Odds,204,3.04,2.974,1.0222,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Moneyline,Appalachian State Mountaineers,Coastal Carolina Chanticleers,,-400,-420,-415,-405,-430,-395,-370,-425,-415,-440,-400,FanDuel_Odds,-370,1.2703,1.2415,1.0232,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Moneyline,Coastal Carolina Chanticleers,Appalachian State Mountaineers,,310,290,327,325,320,310,295,325,327,319,305,Betonlineag_Odds,327,4.27,4.126,1.0349,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Appalachian State Mountaineers,Coastal Carolina Chanticleers,-10.5,-110,-114,-110,-110,-105,-108,-105,-110,-106,-110,-110,FanDuel_Odds,-105,1.9524,1.9153,1.0193,FALSE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Spread,Coastal Carolina Chanticleers,Appalachian State Mountaineers,10.5,-110,-109,-110,-110,-115,-112,-115,-110,-106,-110,-112,Lowvig_Odds,-106,1.9434,1.8988,1.0235,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Over,,47.5,-115,-114,-119,,-110,-105,-110,-115,-118,-110,-107,DraftKings_Odds,-105,1.9524,1.8851,1.0357,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Over,,48.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Under,,47.5,-105,-109,-101,,-110,-115,-110,-105,101,-110,-115,Lowvig_Odds,101,2.01,1.9199,1.047,TRUE
+Coastal Carolina Chanticleers @ Appalachian State Mountaineers,2025-10-18 15:30 ET,Total,Under,,48.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Moneyline,Eastern Michigan Eagles,Miami (OH) RedHawks,,450,,367,340,350,450,360,355,367,230,380,DraftKings_Odds,450,5.5,4.5544,1.2076,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Moneyline,Miami (OH) RedHawks,Eastern Michigan Eagles,,-650,,-475,-435,-550,-720,-530,-550,-475,-286,-550,Mybookieag_Odds,-286,1.3497,1.1864,1.1376,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,12.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,12.5,,,-110,,-110,,,,-106,,-115,Lowvig_Odds,-106,1.9434,1.8959,1.025,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,13.5,,,,,,,-118,-120,,,,FanDuel_Odds,-118,1.8475,1.8333,1.0077,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Eastern Michigan Eagles,Miami (OH) RedHawks,14.5,,,,,,-120,,,,,,DraftKings_Odds,-120,1.8333,,,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-14.5,,,,,,-110,,,,,,DraftKings_Odds,-110,1.9091,,,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-13.5,,,,,,,-110,-110,,,,FanDuel_Odds,-110,1.9091,1.9091,1.0,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-12.5,,,-110,,-120,,,,-106,,-115,Lowvig_Odds,-106,1.9434,1.8707,1.0389,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Spread,Miami (OH) RedHawks,Eastern Michigan Eagles,-12.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Over,,44.5,-125,,,,,-120,,,,,,DraftKings_Odds,-120,1.8333,1.8,1.0185,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Over,,45.5,,,,,105,,-113,-115,,,-110,Bovada_Odds,105,2.05,1.8879,1.0859,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Over,,47.5,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Under,,44.5,-105,,,,,-110,,,,,,BetMGM_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Under,,45.5,,,,,-135,,-115,-115,,,-120,FanDuel_Odds,-115,1.8696,1.8145,1.0303,TRUE
+Eastern Michigan Eagles @ Miami (OH) RedHawks,2025-10-18 12:02 ET,Total,Under,,47.5,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Moneyline,Florida Atlantic Owls,South Florida Bulls,,,950,910,900,750,1000,980,900,910,941,950,DraftKings_Odds,1000,11.0,10.1011,1.089,TRUE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Moneyline,South Florida Bulls,Florida Atlantic Owls,,,-1667,-1600,-1600,-1400,-1800,-1800,-1500,-1600,-2061,-1700,Bovada_Odds,-1400,1.0714,1.0592,1.0116,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,Florida Atlantic Owls,South Florida Bulls,20.5,,-108,,,-105,-105,100,-105,,,,FanDuel_Odds,100,2.0,1.9458,1.0279,TRUE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,Florida Atlantic Owls,South Florida Bulls,21.0,,,-116,-115,,,,,-112,-110,-115,Mybookieag_Odds,-110,1.9091,1.8735,1.019,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,South Florida Bulls,Florida Atlantic Owls,-21.0,,,-104,-105,,,,,100,-110,-105,Lowvig_Odds,100,2.0,1.9438,1.0289,TRUE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Spread,South Florida Bulls,Florida Atlantic Owls,-20.5,,-115,,,-115,-115,-122,-115,,,,DraftKings_Odds,-115,1.8696,1.8571,1.0067,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Over,,72.5,,,,-110,-115,-112,-115,-115,,,,Betus_Odds,-110,1.9091,1.8754,1.018,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Over,,73.0,,-114,-105,,,,,,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9119,1.0308,TRUE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Under,,72.5,,,,-110,-105,-108,-105,-105,,,,FanDuel_Odds,-105,1.9524,1.9349,1.009,FALSE
+Florida Atlantic Owls @ South Florida Bulls,2025-10-18 19:30 ET,Total,Under,,73.0,,-109,-115,,,,,,-114,-110,-110,BetRivers_Odds,-109,1.9174,1.8912,1.0139,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Moneyline,Florida State Seminoles,Stanford Cardinal,,,-910,-1000,-900,-1000,-950,-1000,-1000,-1000,-1000,-1000,Betus_Odds,-900,1.1111,1.1017,1.0086,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Moneyline,Stanford Cardinal,Florida State Seminoles,,,550,661,600,625,625,660,660,661,610,650,Betonlineag_Odds,661,7.61,7.2678,1.0471,TRUE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Florida State Seminoles,Stanford Cardinal,-18.0,,,-110,,,,,,-106,,-105,WilliamhillUs_Odds,-105,1.9524,1.9262,1.0136,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Florida State Seminoles,Stanford Cardinal,-17.5,,-114,,-110,-115,-115,-115,-115,,-110,,Betus_Odds,-110,1.9091,1.8774,1.0169,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Stanford Cardinal,Florida State Seminoles,17.5,,-109,,-110,-105,-105,-105,-105,,-110,,FanDuel_Odds,-105,1.9524,1.9321,1.0105,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Spread,Stanford Cardinal,Florida State Seminoles,18.0,,,-110,,,,,,-106,,-115,Lowvig_Odds,-106,1.9434,1.8893,1.0286,TRUE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Over,,54.0,,,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Over,,54.5,,-112,,,,-105,-105,,,,,FanDuel_Odds,-105,1.9524,1.9226,1.0155,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Under,,54.0,,,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Florida State Seminoles @ Stanford Cardinal,2025-10-18 22:30 ET,Total,Under,,54.5,,-112,,,,-115,-115,,,,,BetRivers_Odds,-112,1.8929,1.8696,1.0125,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Moneyline,Georgia Southern Eagles,Georgia State Panthers,,-250,-240,-245,-235,-235,-238,-230,-245,-245,-250,-250,FanDuel_Odds,-230,1.4348,1.4112,1.0167,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Moneyline,Georgia State Panthers,Georgia Southern Eagles,,200,188,203,200,195,195,190,200,203,199,195,Betonlineag_Odds,203,3.03,2.965,1.0219,TRUE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia Southern Eagles,Georgia State Panthers,-7.0,,,100,,,,,,,,,Betonlineag_Odds,100,2.0,,,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia Southern Eagles,Georgia State Panthers,-6.5,-115,-114,,-115,-115,-115,-115,-115,-111,-115,-115,Lowvig_Odds,-111,1.9009,1.8704,1.0163,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia State Panthers,Georgia Southern Eagles,6.5,-105,-109,,-105,-105,-105,-105,-105,-101,-105,-106,Lowvig_Odds,-101,1.9901,1.9475,1.0219,TRUE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia Southern Eagles,Georgia State Panthers,-6.5,-115,-114,,-115,-110,-115,-115,-115,-111,-115,-115,Bovada_Odds,-110,1.9091,1.8739,1.0188,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia State Panthers,Georgia Southern Eagles,6.5,-105,-109,,-105,-110,-105,-105,-105,-101,-105,-106,Lowvig_Odds,-101,1.9901,1.9427,1.0244,TRUE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Spread,Georgia State Panthers,Georgia Southern Eagles,7.0,,,-120,,,,,,,,,Betonlineag_Odds,-120,1.8333,,,FALSE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,59.0,,,-125,,,,,,-124,,,Lowvig_Odds,-124,1.8065,1.8,1.0036,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,59.5,-115,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,59.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,60.0,,-113,,-110,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.901,1.0042,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,60.5,,,,,,-108,,-105,,,-109,Fanatics_Odds,-105,1.9524,1.9217,1.016,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Over,,60.5,-105,,,,,-108,,-105,,,-107,Fanatics_Odds,-105,1.9524,1.9376,1.0076,FALSE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,59.0,,,105,,,,,,106,,,Lowvig_Odds,106,2.06,2.05,1.0049,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,59.5,-105,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,1.9524,1.0,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,59.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
 Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,60.0,,-110,,-110,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
-Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,60.5,,,,,,-112,,-115,,,-112,DraftKings_Odds,-112,1.8929,1.8812,1.0062,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Moneyline,Duke Blue Devils,Georgia Tech Yellow Jackets,,-160,-162,-165,-165,-170,-166,-164,-165,-165,-167,-165,BetMGM_Odds,-160,1.625,1.6047,1.0127,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Moneyline,Georgia Tech Yellow Jackets,Duke Blue Devils,,135,128,145,142,145,140,138,135,145,136,140,Lowvig_Odds,145,2.45,2.384,1.0277,TRUE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Spread,Duke Blue Devils,Georgia Tech Yellow Jackets,-3.5,,-105,,,100,,-104,,,,,Bovada_Odds,100,2.0,1.957,1.022,TRUE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Spread,Duke Blue Devils,Georgia Tech Yellow Jackets,-3.0,-115,,-117,-120,,-115,,-110,-113,,-115,Fanatics_Odds,-110,1.9091,1.8636,1.0244,TRUE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Spread,Georgia Tech Yellow Jackets,Duke Blue Devils,3.0,-105,,-103,100,,-105,,-110,101,,-105,Lowvig_Odds,101,2.01,1.9562,1.0275,TRUE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Spread,Georgia Tech Yellow Jackets,Duke Blue Devils,3.5,,-120,,,-120,,-118,,,,,FanDuel_Odds,-118,1.8475,1.8333,1.0077,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Over,,59.5,,,,,,,-112,,,,,FanDuel_Odds,-112,1.8929,,,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Over,,60.0,,-109,-110,-110,-110,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9105,1.0081,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Over,,60.5,-110,,,,,-108,,-110,,,,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Under,,59.5,,,,,,,-108,,,,,FanDuel_Odds,-108,1.9259,,,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Under,,60.0,,-114,-110,-110,-110,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9038,1.0116,FALSE
-Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:00 ET,Total,Under,,60.5,-118,,,,,-112,,-110,,,,Fanatics_Odds,-110,1.9091,1.8702,1.0208,TRUE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Moneyline,Colorado State Rams,Hawaii Rainbow Warriors,,-135,-137,-135,-135,-130,-135,-142,-140,-135,-139,-137,Bovada_Odds,-130,1.7692,1.7301,1.0226,TRUE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Moneyline,Hawaii Rainbow Warriors,Colorado State Rams,,110,110,115,115,110,114,120,115,115,113,110,FanDuel_Odds,120,2.2,2.127,1.0343,TRUE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Colorado State Rams,Hawaii Rainbow Warriors,-2.5,-118,-117,-113,-110,-110,-112,-115,-115,-109,-110,-115,Lowvig_Odds,-109,1.9174,1.8816,1.019,FALSE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Hawaii Rainbow Warriors,Colorado State Rams,2.5,-102,-108,-107,-110,-110,-108,-105,-105,-103,-110,-106,BetMGM_Odds,-102,1.9804,1.9333,1.0244,TRUE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Over,,54.0,,-114,-115,-110,-110,,,,-114,,,Bovada_Odds,-110,1.9091,1.8833,1.0137,FALSE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Over,,54.5,-110,,,,,-110,-105,-110,,-110,-107,FanDuel_Odds,-105,1.9524,1.9142,1.02,FALSE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Under,,54.0,,-109,-105,-110,-110,,,,-103,,,Lowvig_Odds,-103,1.9709,1.922,1.0254,TRUE
-Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Under,,54.5,-110,,,,,-110,-115,-110,,-110,-114,DraftKings_Odds,-110,1.9091,1.8948,1.0075,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Moneyline,Kent State Golden Flashes,Toledo Rockets,,1200,1050,1216,1175,1100,1400,1400,1300,1216,1161,1350,DraftKings_Odds,1400,15.0,13.168,1.1391,TRUE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Moneyline,Toledo Rockets,Kent State Golden Flashes,,-3000,-2500,-2800,-2500,-2800,-3200,-3500,-2500,-2800,-3367,-3500,Fanatics_Odds,-2500,1.04,1.0339,1.0059,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Kent State Golden Flashes,Toledo Rockets,24.0,,-112,-105,-110,-105,,,,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9208,1.0361,TRUE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Kent State Golden Flashes,Toledo Rockets,24.5,-115,,,,,-115,-110,-115,,,,FanDuel_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Toledo Rockets,Kent State Golden Flashes,-24.5,-105,,,,,-105,-110,-105,,,,DraftKings_Odds,-105,1.9524,1.938,1.0074,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Toledo Rockets,Kent State Golden Flashes,-24.0,,-112,-115,-110,-115,,,,-111,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8918,1.0091,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,48.5,,-113,,,,-115,-115,,,,,BetRivers_Odds,-113,1.885,1.8696,1.0082,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,49.0,,,-110,-110,-105,,,-110,-108,-110,,Bovada_Odds,-105,1.9524,1.9125,1.0209,TRUE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,49.5,-110,,,,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,48.5,,-110,,,,-105,-105,,,,,DraftKings_Odds,-105,1.9524,1.9307,1.0112,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,49.0,,,-110,-110,-115,,,-110,-108,-110,,Lowvig_Odds,-108,1.9259,1.9012,1.013,FALSE
-Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,49.5,-110,,,,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.9091,1.0,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Moneyline,LSU Tigers,Vanderbilt Commodores,,100,104,110,105,105,105,106,105,110,104,105,Lowvig_Odds,110,2.1,2.049,1.0249,TRUE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Moneyline,Vanderbilt Commodores,LSU Tigers,,-120,-134,-130,-125,-125,-125,-124,-125,-130,-127,-125,BetMGM_Odds,-120,1.8333,1.7879,1.0254,TRUE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,LSU Tigers,Vanderbilt Commodores,1.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,LSU Tigers,Vanderbilt Commodores,2.0,,-110,-107,-110,-110,,,-110,-106,,-110,Lowvig_Odds,-106,1.9434,1.9133,1.0157,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,LSU Tigers,Vanderbilt Commodores,2.5,,,,,,-115,-115,,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,Vanderbilt Commodores,LSU Tigers,-2.5,,,,,,-105,-105,,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,Vanderbilt Commodores,LSU Tigers,-2.0,,-113,-113,-110,-110,,,-110,-106,,-110,Lowvig_Odds,-106,1.9434,1.901,1.0223,TRUE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Spread,Vanderbilt Commodores,LSU Tigers,-1.5,-115,,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Total,Over,,47.5,-115,-112,,-110,-110,-112,-115,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.8932,1.0084,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Total,Over,,48.0,,,-105,,,,,,-103,,-110,Lowvig_Odds,-103,1.9709,1.9307,1.0208,TRUE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Total,Under,,47.5,-105,-112,,-110,-110,-108,-105,-110,,-110,,FanDuel_Odds,-105,1.9524,1.9154,1.0193,FALSE
-LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:00 ET,Total,Under,,48.0,,,-115,,,,,,-114,,-110,WilliamhillUs_Odds,-110,1.9091,1.8734,1.0191,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Moneyline,Lafayette Leopards,Oregon State Beavers,,,750,,,900,1100,1040,1000,,760,1150,WilliamhillUs_Odds,1150,12.5,10.25,1.2195,TRUE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Moneyline,Oregon State Beavers,Lafayette Leopards,,,-1430,,,-1900,-2100,-2000,-1800,,-2000,-2400,BetRivers_Odds,-1430,1.0699,1.0496,1.0194,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Lafayette Leopards,Oregon State Beavers,21.0,,-113,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.885,1.0128,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Lafayette Leopards,Oregon State Beavers,21.5,,,-110,,-110,-115,,-110,-110,,,Fanatics_Odds,-110,1.9091,1.8992,1.0052,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Lafayette Leopards,Oregon State Beavers,22.5,,,,,,,-110,,,,-115,FanDuel_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Oregon State Beavers,Lafayette Leopards,-22.5,,,,,,,-110,,,,-105,WilliamhillUs_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Oregon State Beavers,Lafayette Leopards,-21.5,,,-110,,-110,-105,,-110,-110,,,DraftKings_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Oregon State Beavers,Lafayette Leopards,-21.0,,-110,,,,,,,,-110,,BetRivers_Odds,-110,1.9091,1.9091,1.0,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,54.5,,,,,,,-110,,,-110,-115,FanDuel_Odds,-110,1.9091,1.8893,1.0105,FALSE
+Georgia State Panthers @ Georgia Southern Eagles,2025-10-18 19:00 ET,Total,Under,,60.5,-115,,,,,-112,,-115,,,-114,DraftKings_Odds,-112,1.8929,1.8721,1.0111,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Moneyline,Duke Blue Devils,Georgia Tech Yellow Jackets,,-165,-162,-163,-170,-170,-175,-164,-170,-163,-154,-170,Mybookieag_Odds,-154,1.6494,1.5984,1.0318,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Moneyline,Georgia Tech Yellow Jackets,Duke Blue Devils,,140,125,143,146,145,145,138,140,143,130,143,Betus_Odds,146,2.46,2.392,1.0284,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Spread,Duke Blue Devils,Georgia Tech Yellow Jackets,-3.5,-105,-107,,-105,100,-102,-110,-105,,100,,Mybookieag_Odds,100,2.0,1.9545,1.0233,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Spread,Duke Blue Devils,Georgia Tech Yellow Jackets,-3.0,,,-116,,,,,,-112,,-120,Lowvig_Odds,-112,1.8929,1.8477,1.0244,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Spread,Georgia Tech Yellow Jackets,Duke Blue Devils,3.0,,,-104,,,,,,100,,100,WilliamhillUs_Odds,100,2.0,1.9808,1.0097,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Spread,Georgia Tech Yellow Jackets,Duke Blue Devils,3.5,-115,-117,,-115,-120,-118,-110,-125,,-125,,FanDuel_Odds,-110,1.9091,1.8392,1.038,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Over,,60.0,,-114,,,,,,,,,,BetRivers_Odds,-114,1.8772,,,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Over,,60.5,-110,,,,,-115,,-115,,-111,,BetMGM_Odds,-110,1.9091,1.88,1.0155,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Over,,61.0,,,-110,-110,-110,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Over,,61.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Under,,60.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Under,,60.5,-110,,,,,-105,,-115,,-118,,DraftKings_Odds,-105,1.9524,1.8754,1.0411,TRUE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Under,,61.0,,,-110,-110,-110,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Georgia Tech Yellow Jackets @ Duke Blue Devils,2025-10-18 12:11 ET,Total,Under,,61.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Moneyline,Colorado State Rams,Hawaii Rainbow Warriors,,,-137,-125,-130,-125,-125,-126,-130,-125,-131,-130,DraftKings_Odds,-125,1.8,1.7772,1.0128,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Moneyline,Hawaii Rainbow Warriors,Colorado State Rams,,,110,105,110,105,105,108,110,105,107,105,Betus_Odds,110,2.1,2.0667,1.0161,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Colorado State Rams,Hawaii Rainbow Warriors,-2.5,,-117,-105,-110,,-108,-105,-110,-101,,100,WilliamhillUs_Odds,100,2.0,1.9277,1.0375,TRUE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Colorado State Rams,Hawaii Rainbow Warriors,-2.0,,,,,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Hawaii Rainbow Warriors,Colorado State Rams,2.0,,,,,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Spread,Hawaii Rainbow Warriors,Colorado State Rams,2.5,,-108,-115,-110,,-112,-115,-110,-111,,-121,BetRivers_Odds,-108,1.9259,1.8825,1.0231,TRUE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Over,,53.5,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Over,,54.0,,,-115,,-115,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Over,,54.5,,,,-110,,-110,-105,-110,,-110,-107,FanDuel_Odds,-105,1.9524,1.9142,1.02,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Under,,53.5,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Under,,54.0,,,-105,,-105,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
+Hawaii Rainbow Warriors @ Colorado State Rams,2025-10-18 19:00 ET,Total,Under,,54.5,,,,-110,,-110,-115,-110,,-110,-114,DraftKings_Odds,-110,1.9091,1.8948,1.0075,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Moneyline,Kent State Golden Flashes,Toledo Rockets,,1300,1150,1216,1175,1100,1400,1400,1300,1216,1161,1250,DraftKings_Odds,1400,15.0,13.268,1.1305,TRUE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Moneyline,Toledo Rockets,Kent State Golden Flashes,,-3000,-3335,-2800,-2500,-3300,-3200,-3500,-2500,-2800,-3366,-2800,Fanatics_Odds,-2500,1.04,1.033,1.0067,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Kent State Golden Flashes,Toledo Rockets,24.0,,,100,,,,,,104,,,Lowvig_Odds,104,2.04,2.0,1.02,TRUE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Kent State Golden Flashes,Toledo Rockets,24.5,-118,-112,,-110,-110,-110,-115,-110,,-110,-110,DraftKings_Odds,-110,1.9091,1.8944,1.0077,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Toledo Rockets,Kent State Golden Flashes,-24.5,-102,-113,,-110,-110,-110,-105,-110,,-110,-110,BetMGM_Odds,-102,1.9804,1.9115,1.036,TRUE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Spread,Toledo Rockets,Kent State Golden Flashes,-24.0,,,-120,,,,,,-116,,,Lowvig_Odds,-116,1.8621,1.8333,1.0157,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,48.5,,,,,,-115,-115,,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,49.0,,-109,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9103,1.0082,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Over,,49.5,-110,,,,,,,,,,,BetMGM_Odds,-110,1.9091,,,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,48.5,,,,,,-105,-105,,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,49.0,,-113,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9056,1.0106,FALSE
+Kent State Golden Flashes @ Toledo Rockets,2025-10-18 14:00 ET,Total,Under,,49.5,-110,,,,,,,,,,,BetMGM_Odds,-110,1.9091,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Moneyline,LSU Tigers,Vanderbilt Commodores,,-110,,100,110,105,-105,-108,-120,100,100,100,Betus_Odds,110,2.1,1.9634,1.0696,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Moneyline,Vanderbilt Commodores,LSU Tigers,,-115,,-120,-130,-135,-125,-118,-110,-120,-118,-120,Fanatics_Odds,-110,1.9091,1.8194,1.0493,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,LSU Tigers,Vanderbilt Commodores,-1.5,,,,,,,,-110,,,,Fanatics_Odds,-110,1.9091,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,LSU Tigers,Vanderbilt Commodores,1.0,,,-105,,,,,,-101,,,Lowvig_Odds,-101,1.9901,1.9524,1.0193,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,LSU Tigers,Vanderbilt Commodores,1.5,-118,,,-105,,-115,-118,,,-111,-110,Betus_Odds,-105,1.9524,1.8749,1.0413,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,LSU Tigers,Vanderbilt Commodores,2.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,Vanderbilt Commodores,LSU Tigers,-2.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,Vanderbilt Commodores,LSU Tigers,-1.5,-110,,,-115,,-115,-112,,,-111,-110,BetMGM_Odds,-110,1.9091,1.8884,1.011,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,Vanderbilt Commodores,LSU Tigers,-1.0,,,-115,,,,,,-111,,,Lowvig_Odds,-111,1.9009,1.8696,1.0168,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Spread,Vanderbilt Commodores,LSU Tigers,1.5,,,,,,,,-120,,,,Fanatics_Odds,-120,1.8333,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Over,,47.5,-110,,,,,-110,,-120,,,,DraftKings_Odds,-110,1.9091,1.8712,1.0202,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Over,,48.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Over,,48.5,,,-110,-110,,,100,,-108,-111,-110,FanDuel_Odds,100,2.0,1.9108,1.0467,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Under,,47.5,-118,,,,,-120,,-110,,,,Fanatics_Odds,-110,1.9091,1.8404,1.0373,TRUE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Under,,48.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+LSU Tigers @ Vanderbilt Commodores,2025-10-18 12:07 ET,Total,Under,,48.5,,,-110,-110,,,-132,,-108,-118,-110,Lowvig_Odds,-108,1.9259,1.8665,1.0319,TRUE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Moneyline,Lafayette Leopards,Oregon State Beavers,,,750,,,900,1100,980,1000,,800,1050,DraftKings_Odds,1100,12.0,10.1333,1.1842,TRUE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Moneyline,Oregon State Beavers,Lafayette Leopards,,,-1430,,,-1900,-2100,-1800,-1800,,-2273,-2000,BetRivers_Odds,-1430,1.0699,1.0509,1.0181,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Lafayette Leopards,Oregon State Beavers,21.0,,-113,-105,,,,,,-105,-110,,Betonlineag_Odds,-105,1.9524,1.9155,1.0193,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Lafayette Leopards,Oregon State Beavers,21.5,,,,,-115,-115,-115,-115,,,-115,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Oregon State Beavers,Lafayette Leopards,-21.5,,,,,-105,-105,-105,-105,,,-105,FanDuel_Odds,-105,1.9524,1.9524,1.0,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Spread,Oregon State Beavers,Lafayette Leopards,-21.0,,-110,-115,,,,,,-115,-110,,BetRivers_Odds,-110,1.9091,1.8827,1.014,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,54.5,,,,,,,-110,,,-110,,FanDuel_Odds,-110,1.9091,1.9091,1.0,FALSE
 Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,55.0,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,55.5,,,-115,,-105,-108,,-105,-115,,,Fanatics_Odds,-105,1.9524,1.9044,1.0252,TRUE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,54.5,,,,,,,-110,,,-110,-105,WilliamhillUs_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,55.5,,,-115,,,-108,,,-115,,-110,DraftKings_Odds,-108,1.9259,1.8827,1.0229,TRUE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Over,,56.0,,,,,-110,,,-110,,,,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,54.5,,,,,,,-110,,,-110,,FanDuel_Odds,-110,1.9091,1.9091,1.0,FALSE
 Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,55.0,,-115,,,,,,,,,,BetRivers_Odds,-115,1.8696,,,FALSE
-Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,55.5,,,-105,,-115,-112,,-115,-105,,,Betonlineag_Odds,-105,1.9524,1.8961,1.0297,TRUE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Moneyline,Maryland Terrapins,UCLA Bruins,,135,116,140,134,145,136,130,130,140,135,140,Bovada_Odds,145,2.45,2.336,1.0488,TRUE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Moneyline,UCLA Bruins,Maryland Terrapins,,-160,-152,-160,-155,-170,-162,-154,-155,-160,-165,-175,BetRivers_Odds,-152,1.6579,1.6198,1.0235,TRUE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,Maryland Terrapins,UCLA Bruins,3.0,-105,-114,-105,-110,100,-108,,-105,-101,-110,-110,Bovada_Odds,100,2.0,1.9308,1.0358,TRUE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,Maryland Terrapins,UCLA Bruins,3.5,,,,,,,-122,,,,,FanDuel_Odds,-122,1.8197,,,FALSE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,UCLA Bruins,Maryland Terrapins,-3.5,,,,,,,100,,,,,FanDuel_Odds,100,2.0,,,FALSE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,UCLA Bruins,Maryland Terrapins,-3.0,-115,-110,-115,-110,-120,-112,,-115,-111,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8848,1.0129,FALSE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Over,,52.5,-110,-114,-110,-110,-115,-110,-110,-110,-108,-110,-107,WilliamhillUs_Odds,-107,1.9346,1.9036,1.0163,FALSE
-Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Under,,52.5,-110,-109,-110,-110,-105,-110,-110,-110,-108,-110,-112,Bovada_Odds,-105,1.9524,1.91,1.0222,TRUE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Moneyline,Memphis Tigers,UAB Blazers,,-2000,-2000,-1600,-1600,-1800,-1800,-1500,-1800,-1600,-2000,-2000,FanDuel_Odds,-1500,1.0667,1.0554,1.0107,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Moneyline,UAB Blazers,Memphis Tigers,,950,850,910,900,850,1000,870,1000,910,920,900,DraftKings_Odds,1000,11.0,10.06,1.0934,TRUE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,Memphis Tigers,UAB Blazers,-21.5,-110,-112,-104,,,,-106,-105,100,-110,-108,Lowvig_Odds,100,2.0,1.9278,1.0375,TRUE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,Memphis Tigers,UAB Blazers,-21.0,,,,-110,-115,-115,,,,,,Betus_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,UAB Blazers,Memphis Tigers,21.0,,,,-110,-105,-105,,,,,,DraftKings_Odds,-105,1.9524,1.9307,1.0112,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,UAB Blazers,Memphis Tigers,21.5,-110,-112,-116,,,,-114,-115,-112,-110,-113,Mybookieag_Odds,-110,1.9091,1.8841,1.0133,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,62.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,62.5,-105,,-110,,-110,-108,-110,-110,-108,-110,-111,BetMGM_Odds,-105,1.9524,1.9123,1.021,TRUE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,63.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,62.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,62.5,-115,,-110,,-110,-112,-110,-110,-108,-110,-111,Lowvig_Odds,-108,1.9259,1.9011,1.0131,FALSE
-Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,63.0,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Moneyline,Indiana Hoosiers,Michigan State Spartans,,-10000,,-4500,,-5000,-5000,-8000,-4000,-4500,-7692,-4500,Fanatics_Odds,-4000,1.025,1.0178,1.0071,FALSE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Moneyline,Michigan State Spartans,Indiana Hoosiers,,1750,,1500,,1300,1800,2200,1800,1500,1425,1550,FanDuel_Odds,2200,23.0,16.7812,1.3706,TRUE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Indiana Hoosiers,Michigan State Spartans,-28.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Indiana Hoosiers,Michigan State Spartans,-27.5,-110,-110,-115,,-110,-108,-115,-110,-111,-110,-110,DraftKings_Odds,-108,1.9259,1.8994,1.014,FALSE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Michigan State Spartans,Indiana Hoosiers,27.5,-110,-113,-105,,-110,-112,-105,-110,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9142,1.0396,TRUE
-Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Michigan State Spartans,Indiana Hoosiers,28.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,55.5,,,-105,,,-112,,,-105,,-110,Betonlineag_Odds,-105,1.9524,1.9181,1.0179,FALSE
+Lafayette Leopards @ Oregon State Beavers,2025-10-18 22:00 ET,Total,Under,,56.0,,,,,-110,,,-110,,,,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Moneyline,Maryland Terrapins,UCLA Bruins,,135,123,140,138,145,140,130,135,140,135,140,Bovada_Odds,145,2.45,2.356,1.0399,TRUE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Moneyline,UCLA Bruins,Maryland Terrapins,,-160,-159,-160,-160,-170,-166,-154,-165,-160,-165,-175,FanDuel_Odds,-154,1.6494,1.6103,1.0242,TRUE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,Maryland Terrapins,UCLA Bruins,3.0,-105,-108,-105,-105,,-102,,,-101,-110,,Lowvig_Odds,-101,1.9901,1.9454,1.023,TRUE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,Maryland Terrapins,UCLA Bruins,3.5,,,,,-120,,-122,-120,,,-117,WilliamhillUs_Odds,-117,1.8547,1.8288,1.0142,FALSE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,UCLA Bruins,Maryland Terrapins,-3.5,,,,,100,,100,100,,,-105,FanDuel_Odds,100,2.0,1.9841,1.008,FALSE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Spread,UCLA Bruins,Maryland Terrapins,-3.0,-115,-118,-115,-115,,-118,,,-111,-110,,Mybookieag_Odds,-110,1.9091,1.8674,1.0223,TRUE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Over,,52.5,-110,,-110,-110,-115,-110,-110,-110,-108,-110,-107,WilliamhillUs_Odds,-107,1.9346,1.9066,1.0147,FALSE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Over,,53.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Under,,52.5,-110,,-110,-110,-105,-110,-110,-110,-108,-110,-112,Bovada_Odds,-105,1.9524,1.9092,1.0226,TRUE
+Maryland Terrapins @ UCLA Bruins,2025-10-18 19:00 ET,Total,Under,,53.0,,-114,,,,,,,,,,BetRivers_Odds,-114,1.8772,,,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Moneyline,Memphis Tigers,UAB Blazers,,-2000,-2000,-1700,-1600,-1800,-2100,-1600,-1500,-1700,-2000,-2000,Fanatics_Odds,-1500,1.0667,1.0546,1.0115,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Moneyline,UAB Blazers,Memphis Tigers,,950,850,945,900,850,1100,900,900,945,920,900,DraftKings_Odds,1100,12.0,10.06,1.1928,TRUE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,Memphis Tigers,UAB Blazers,-22.0,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,Memphis Tigers,UAB Blazers,-21.5,-110,,-110,-110,-110,-110,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,UAB Blazers,Memphis Tigers,21.5,-110,,-110,-110,-110,-110,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Spread,UAB Blazers,Memphis Tigers,22.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,61.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,61.5,,,,,-110,-115,,,,,,Bovada_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,62.0,,-110,,,,,,-110,,,,BetRivers_Odds,-110,1.9091,1.9091,1.0,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Over,,62.5,-110,,105,,,,-110,,106,-110,-108,Lowvig_Odds,106,2.06,1.9406,1.0615,TRUE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,61.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,61.5,,,,,-110,-105,,,,,,DraftKings_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,62.0,,-113,,,,,,-110,,,,Fanatics_Odds,-110,1.9091,1.885,1.0128,FALSE
+Memphis Tigers @ UAB Blazers,2025-10-18 16:00 ET,Total,Under,,62.5,-110,,-125,,,,-110,,-124,-110,-113,FanDuel_Odds,-110,1.9091,1.8619,1.0253,TRUE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Moneyline,Indiana Hoosiers,Michigan State Spartans,,-10000,,-4500,,-5000,-5000,-8000,-4000,-4500,-5000,-4500,Fanatics_Odds,-4000,1.025,1.0186,1.0062,FALSE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Moneyline,Michigan State Spartans,Indiana Hoosiers,,1750,,1500,,1300,1800,2200,1800,1500,1400,1550,FanDuel_Odds,2200,23.0,16.75,1.3731,TRUE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Indiana Hoosiers,Michigan State Spartans,-28.0,,,,-105,,,,,,,,Betus_Odds,-105,1.9524,,,FALSE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Indiana Hoosiers,Michigan State Spartans,-27.5,-110,-110,-110,,-105,-108,-115,-110,-106,-110,-110,Bovada_Odds,-105,1.9524,1.9104,1.022,TRUE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Michigan State Spartans,Indiana Hoosiers,27.5,-110,-113,-110,,-115,-112,-105,-110,-106,-110,-110,FanDuel_Odds,-105,1.9524,1.904,1.0254,TRUE
+Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Spread,Michigan State Spartans,Indiana Hoosiers,28.0,,,,-115,,,,,,,,Betus_Odds,-115,1.8696,,,FALSE
 Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Total,Over,,49.5,-105,-109,-110,-110,-110,-112,-110,-110,-108,-110,-110,BetMGM_Odds,-105,1.9524,1.91,1.0222,TRUE
 Michigan State Spartans @ Indiana Hoosiers,2025-10-18 15:30 ET,Total,Under,,49.5,-115,-114,-110,-110,-110,-108,-110,-110,-108,-110,-110,DraftKings_Odds,-108,1.9259,1.9036,1.0117,FALSE
-Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Moneyline,Florida Gators,Mississippi State Bulldogs,,-375,-375,-360,-355,-380,-360,-350,-375,-360,-400,-365,FanDuel_Odds,-350,1.2857,1.2702,1.0122,FALSE
-Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Moneyline,Mississippi State Bulldogs,Florida Gators,,290,275,289,285,290,285,280,290,289,295,285,Mybookieag_Odds,295,3.95,3.858,1.0238,TRUE
+Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Moneyline,Florida Gators,Mississippi State Bulldogs,,-375,-375,-360,-340,-380,-360,-350,-375,-360,-400,-365,Betus_Odds,-340,1.2941,1.2706,1.0185,FALSE
+Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Moneyline,Mississippi State Bulldogs,Florida Gators,,290,275,289,275,290,285,280,290,289,295,285,Mybookieag_Odds,295,3.95,3.848,1.0265,TRUE
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Spread,Florida Gators,Mississippi State Bulldogs,-10.0,,,,-110,-105,,,,,,,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Spread,Florida Gators,Mississippi State Bulldogs,-9.5,-115,-112,-115,,,-112,-115,-115,-111,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8842,1.0132,FALSE
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Spread,Mississippi State Bulldogs,Florida Gators,9.5,-105,-112,-105,,,-108,-105,-105,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9308,1.0307,TRUE
@@ -237,22 +285,26 @@ Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Total,Over,,51.5
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Total,Under,,50.5,-105,,-110,,,-105,,,-108,,-110,DraftKings_Odds,-105,1.9524,1.9241,1.0147,FALSE
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Total,Under,,51.0,,-114,,-110,-110,,,-110,,-110,,Fanatics_Odds,-110,1.9091,1.9011,1.0042,FALSE
 Mississippi State Bulldogs @ Florida Gators,2025-10-18 16:15 ET,Total,Under,,51.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Moneyline,Auburn Tigers,Missouri Tigers,,100,102,-102,-105,100,-102,102,100,-102,-101,100,FanDuel_Odds,102,2.02,1.9904,1.0149,FALSE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Moneyline,Missouri Tigers,Auburn Tigers,,-120,-125,-118,-115,-120,-118,-120,-120,-118,-121,-120,Betus_Odds,-115,1.8696,1.8335,1.0196,FALSE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Auburn Tigers,Missouri Tigers,1.0,,,-113,-110,,,,-110,-109,-110,,Lowvig_Odds,-109,1.9174,1.9031,1.0076,FALSE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Auburn Tigers,Missouri Tigers,1.5,-110,-109,,,-110,-115,-110,,,,-110,BetRivers_Odds,-109,1.9174,1.9012,1.0085,FALSE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Missouri Tigers,Auburn Tigers,-1.5,-110,-114,,,-110,-105,-110,,,,-110,DraftKings_Odds,-105,1.9524,1.9027,1.0261,TRUE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Missouri Tigers,Auburn Tigers,-1.0,,,-107,-110,,,,-110,-103,-110,,Lowvig_Odds,-103,1.9709,1.9155,1.0289,TRUE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Over,,43.5,-115,-109,-115,-115,-115,-115,-115,-115,-114,-110,-110,BetRivers_Odds,-109,1.9174,1.8782,1.0209,TRUE
-Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Under,,43.5,-105,-114,-105,-105,-105,-105,-105,-105,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9362,1.0179,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Moneyline,Nevada Wolf Pack,New Mexico Lobos,,375,350,393,425,390,390,385,390,393,390,400,Betus_Odds,425,5.25,4.856,1.0811,TRUE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Moneyline,New Mexico Lobos,Nevada Wolf Pack,,-500,-530,-515,-550,-550,-520,-500,-525,-515,-553,-550,FanDuel_Odds,-500,1.2,1.1886,1.0096,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,Nevada Wolf Pack,New Mexico Lobos,13.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,Nevada Wolf Pack,New Mexico Lobos,13.5,-110,,-109,-110,-105,-112,-110,-110,-106,-110,-110,Bovada_Odds,-105,1.9524,1.912,1.0211,TRUE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,New Mexico Lobos,Nevada Wolf Pack,-13.5,-110,,-111,-110,-115,-108,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9057,1.0198,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,New Mexico Lobos,Nevada Wolf Pack,-13.0,,-115,,,,,,,,,,BetRivers_Odds,-115,1.8696,,,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Over,,49.5,-110,-113,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9067,1.0101,FALSE
-Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Under,,49.5,-110,-110,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Moneyline,Auburn Tigers,Missouri Tigers,,,102,-102,-105,-105,-105,-104,100,-102,-101,100,BetRivers_Odds,102,2.02,1.9744,1.0231,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Moneyline,Missouri Tigers,Auburn Tigers,,,-125,-118,-115,-115,-115,-112,-120,-118,-121,-120,FanDuel_Odds,-112,1.8929,1.8441,1.0265,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Auburn Tigers,Missouri Tigers,1.0,,,-113,-110,-115,,,-110,-109,-110,-110,Lowvig_Odds,-109,1.9174,1.8985,1.01,FALSE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Auburn Tigers,Missouri Tigers,1.5,,-109,,,,-115,-114,,,,,BetRivers_Odds,-109,1.9174,1.8734,1.0235,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Missouri Tigers,Auburn Tigers,-1.5,,-114,,,,-105,-106,,,,,DraftKings_Odds,-105,1.9524,1.9103,1.022,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Spread,Missouri Tigers,Auburn Tigers,-1.0,,,-107,-110,-105,,,-110,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9206,1.0262,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Over,,43.5,,-109,-115,-115,,-115,-115,-115,-114,-110,-110,BetRivers_Odds,-109,1.9174,1.8804,1.0197,FALSE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Over,,44.0,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Under,,43.5,,-114,-105,-105,,-105,-105,-105,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9322,1.02,TRUE
+Missouri Tigers @ Auburn Tigers,2025-10-18 19:45 ET,Total,Under,,44.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Moneyline,Nevada Wolf Pack,New Mexico Lobos,,,360,393,405,390,390,385,390,393,390,400,Betus_Odds,405,5.05,4.8789,1.0351,TRUE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Moneyline,New Mexico Lobos,Nevada Wolf Pack,,,-560,-515,-525,-550,-520,-500,-525,-515,-553,-550,FanDuel_Odds,-500,1.2,1.1872,1.0108,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,Nevada Wolf Pack,New Mexico Lobos,13.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,Nevada Wolf Pack,New Mexico Lobos,13.5,,,-109,-110,-105,-112,-110,-110,-106,-110,-110,Bovada_Odds,-105,1.9524,1.9124,1.0209,TRUE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,New Mexico Lobos,Nevada Wolf Pack,-13.5,,,-111,-110,-115,-108,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9052,1.02,TRUE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Spread,New Mexico Lobos,Nevada Wolf Pack,-13.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Over,,49.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Over,,49.5,,,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Under,,49.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
+Nevada Wolf Pack @ New Mexico Lobos,2025-10-18 21:45 ET,Total,Under,,49.5,,,-110,-110,-110,-110,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Moneyline,Northern Illinois Huskies,Ohio Bobcats,,350,310,340,320,330,330,340,325,340,330,335,BetMGM_Odds,350,4.5,4.3,1.0465,TRUE
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Moneyline,Ohio Bobcats,Northern Illinois Huskies,,-450,-420,-435,-400,-440,-425,-430,-425,-435,-450,-440,Betus_Odds,-400,1.25,1.23,1.0163,FALSE
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Spread,Northern Illinois Huskies,Ohio Bobcats,10.5,-105,,-107,-105,-110,-105,,,-103,,-110,Lowvig_Odds,-103,1.9709,1.935,1.0185,FALSE
@@ -267,110 +319,102 @@ Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Total,Over,,42.5,-1
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Total,Under,,41.5,,,,,-110,,,-110,,,,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Total,Under,,42.0,,,-110,-110,,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
 Northern Illinois Huskies @ Ohio Bobcats,2025-10-18 15:30 ET,Total,Under,,42.5,-115,-113,,,,-112,-110,,,,,FanDuel_Odds,-110,1.9091,1.8825,1.0141,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Moneyline,Ohio State Buckeyes,Wisconsin Badgers,,-5000,,-4500,,-5000,-2800,-4500,-4000,-4500,-5000,-4500,DraftKings_Odds,-2800,1.0357,1.0217,1.0137,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Moneyline,Wisconsin Badgers,Ohio State Buckeyes,,1600,,1500,,1200,1300,1600,1800,1500,1400,1550,Fanatics_Odds,1800,19.0,15.5625,1.2209,TRUE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Ohio State Buckeyes,Wisconsin Badgers,-25.5,-110,-114,,,,,-106,,,,,FanDuel_Odds,-106,1.9434,1.8931,1.0265,TRUE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Ohio State Buckeyes,Wisconsin Badgers,-25.0,,,-110,-110,-110,,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Moneyline,Ohio State Buckeyes,Wisconsin Badgers,,-5000,-10000,-4500,,-5000,-2800,-4500,-4000,-4500,-5000,-4500,DraftKings_Odds,-2800,1.0357,1.0204,1.015,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Moneyline,Wisconsin Badgers,Ohio State Buckeyes,,1600,1600,1500,,1200,1300,2000,1800,1500,1400,1550,FanDuel_Odds,2000,21.0,15.9444,1.3171,TRUE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Ohio State Buckeyes,Wisconsin Badgers,-25.5,-110,,,,,,-106,,,,,FanDuel_Odds,-106,1.9434,1.9091,1.018,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Ohio State Buckeyes,Wisconsin Badgers,-25.0,,-110,-110,-110,-110,,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
 Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Ohio State Buckeyes,Wisconsin Badgers,-24.5,,,,,,-115,,,,,,DraftKings_Odds,-115,1.8696,,,FALSE
 Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Wisconsin Badgers,Ohio State Buckeyes,24.5,,,,,,-105,,,,,,DraftKings_Odds,-105,1.9524,,,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Wisconsin Badgers,Ohio State Buckeyes,25.0,,,-110,-110,-110,,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Wisconsin Badgers,Ohio State Buckeyes,25.5,-110,-109,,,,,-114,,,,,BetRivers_Odds,-109,1.9174,1.8931,1.0128,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Over,,41.0,,-115,-115,-110,,,,,-114,,-110,WilliamhillUs_Odds,-110,1.9091,1.8814,1.0147,FALSE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Over,,41.5,-105,,,,-105,100,-105,-105,,-110,,DraftKings_Odds,100,2.0,1.9437,1.029,TRUE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Under,,41.0,,-108,-105,-110,,,,,-103,,-110,Lowvig_Odds,-103,1.9709,1.9241,1.0243,TRUE
-Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Under,,41.5,-115,,,,-115,-120,-115,-115,,-110,,Mybookieag_Odds,-110,1.9091,1.8623,1.0251,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Moneyline,Oklahoma Sooners,South Carolina Gamecocks,,-190,-195,-190,-180,-185,-192,-196,-190,-190,-206,-190,Betus_Odds,-180,1.5556,1.5201,1.0233,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Moneyline,South Carolina Gamecocks,Oklahoma Sooners,,155,145,165,155,160,160,164,155,165,166,158,Mybookieag_Odds,166,2.66,2.582,1.0302,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,Oklahoma Sooners,South Carolina Gamecocks,-5.5,,,,,,,-102,,,,,FanDuel_Odds,-102,1.9804,,,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,Oklahoma Sooners,South Carolina Gamecocks,-4.5,-105,,-105,,,,,-105,-101,-110,-105,Lowvig_Odds,-101,1.9901,1.9437,1.0239,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,Oklahoma Sooners,South Carolina Gamecocks,-4.0,,-118,,-110,-110,-112,,,,,,Bovada_Odds,-110,1.9091,1.8831,1.0138,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,South Carolina Gamecocks,Oklahoma Sooners,4.0,,-109,,-110,-110,-108,,,,,,DraftKings_Odds,-108,1.9259,1.9119,1.0074,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,South Carolina Gamecocks,Oklahoma Sooners,4.5,-115,,-115,,,,,-115,-111,-110,-115,Mybookieag_Odds,-110,1.9091,1.8758,1.0177,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Spread,South Carolina Gamecocks,Oklahoma Sooners,5.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Total,Over,,42.5,-115,-113,,-110,,-112,-110,,,-110,-110,FanDuel_Odds,-110,1.9091,1.8958,1.007,FALSE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Total,Over,,43.0,,,-105,,-110,,,-110,-103,,,Lowvig_Odds,-103,1.9709,1.9235,1.0246,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Total,Under,,42.5,-105,-110,,-110,,-108,-110,,,-110,-110,BetMGM_Odds,-105,1.9524,1.9119,1.0212,TRUE
-Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:45 ET,Total,Under,,43.0,,,-115,,-110,,,-110,-114,,,Bovada_Odds,-110,1.9091,1.8853,1.0126,FALSE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Moneyline,James Madison Dukes,Old Dominion Monarchs,,-135,-150,-140,-135,-130,-135,-130,-140,-140,-140,-140,FanDuel_Odds,-130,1.7692,1.723,1.0269,TRUE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Moneyline,Old Dominion Monarchs,James Madison Dukes,,110,120,120,115,110,114,110,115,120,114,118,Betonlineag_Odds,120,2.2,2.146,1.0252,TRUE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Spread,James Madison Dukes,Old Dominion Monarchs,-2.5,-105,-115,-110,-110,-115,-110,-110,-105,-106,-110,-115,Fanatics_Odds,-105,1.9524,1.905,1.0249,TRUE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Spread,Old Dominion Monarchs,James Madison Dukes,2.5,-115,-109,-110,-110,-105,-110,-110,-115,-106,-110,-105,WilliamhillUs_Odds,-105,1.9524,1.9098,1.0223,TRUE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Over,,47.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Over,,47.5,-115,,-115,,-110,-112,-110,-110,-114,-110,-110,FanDuel_Odds,-110,1.9091,1.8932,1.0084,FALSE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Over,,48.0,,-109,,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Under,,47.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Under,,47.5,-105,,-105,,-110,-108,-110,-110,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.922,1.0254,TRUE
-Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Under,,48.0,,-114,,,,,,,,,,BetRivers_Odds,-114,1.8772,,,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Moneyline,Georgia Bulldogs,Ole Miss Rebels,,-275,-275,-275,-260,-275,-270,-270,-280,,-264,-267,Betus_Odds,-260,1.3846,1.3673,1.0127,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Moneyline,Ole Miss Rebels,Georgia Bulldogs,,220,210,226,218,225,220,220,225,,208,215,Betonlineag_Odds,226,3.26,3.1789,1.0255,TRUE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Georgia Bulldogs,Ole Miss Rebels,-7.5,,,,,,,,100,,,,Fanatics_Odds,100,2.0,,,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Georgia Bulldogs,Ole Miss Rebels,-7.0,-115,-112,-120,-110,-125,-112,,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8724,1.0196,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Georgia Bulldogs,Ole Miss Rebels,-6.5,,,,,,,-128,,,,,FanDuel_Odds,-128,1.7812,,,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Ole Miss Rebels,Georgia Bulldogs,6.5,,,,,,,104,,,,,FanDuel_Odds,104,2.04,,,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Ole Miss Rebels,Georgia Bulldogs,7.0,-105,-110,100,-110,105,-108,,,,-110,-110,Bovada_Odds,105,2.05,1.9307,1.0618,TRUE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Ole Miss Rebels,Georgia Bulldogs,7.5,,,,,,,,-120,,,,Fanatics_Odds,-120,1.8333,,,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Over,,57.0,,-112,-110,-110,-110,,,-110,,-110,-110,Betonlineag_Odds,-110,1.9091,1.9064,1.0014,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Over,,57.5,-105,,,,,-105,-110,,,,,DraftKings_Odds,-105,1.9524,1.9307,1.0112,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Under,,57.0,,-112,-110,-110,-110,,,-110,,-110,-110,Betonlineag_Odds,-110,1.9091,1.9064,1.0014,FALSE
-Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Under,,57.5,-115,,,,,-115,-110,,,,,FanDuel_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Moneyline,Oregon Ducks,Rutgers Scarlet Knights,,-900,-910,-900,-950,-850,-800,,-850,-900,-918,,DraftKings_Odds,-800,1.125,1.1116,1.0121,FALSE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Moneyline,Rutgers Scarlet Knights,Oregon Ducks,,600,575,613,630,550,550,,580,613,578,,Betus_Odds,630,7.3,6.8238,1.0698,TRUE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Oregon Ducks,Rutgers Scarlet Knights,-17.5,-105,-114,-110,-110,,-110,,-105,-106,-110,,Fanatics_Odds,-105,1.9524,1.9156,1.0192,FALSE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Oregon Ducks,Rutgers Scarlet Knights,-17.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Rutgers Scarlet Knights,Oregon Ducks,17.0,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Rutgers Scarlet Knights,Oregon Ducks,17.5,-115,-109,-110,-110,,-110,,-115,-106,-110,,Lowvig_Odds,-106,1.9434,1.899,1.0234,TRUE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Over,,61.0,,-109,-115,,-110,,,-110,-114,-110,,BetRivers_Odds,-109,1.9174,1.8948,1.0119,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Wisconsin Badgers,Ohio State Buckeyes,25.0,,-113,-110,-110,-110,,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9056,1.0198,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Spread,Wisconsin Badgers,Ohio State Buckeyes,25.5,-110,,,,,,-114,,,,,BetMGM_Odds,-110,1.9091,1.8772,1.017,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Over,,41.0,,-112,-115,,-115,,,-115,-114,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8813,1.0148,FALSE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Over,,41.5,-105,,,-110,,100,-105,,,,,DraftKings_Odds,100,2.0,1.938,1.032,TRUE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Under,,41.0,,-112,-105,,-105,,,-105,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.928,1.0222,TRUE
+Ohio State Buckeyes @ Wisconsin Badgers,2025-10-18 15:30 ET,Total,Under,,41.5,-115,,,-110,,-120,-115,,,,,Betus_Odds,-110,1.9091,1.8575,1.0278,TRUE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Moneyline,Oklahoma Sooners,South Carolina Gamecocks,,-190,-195,-190,-180,-185,-192,-178,-190,-190,-189,-190,FanDuel_Odds,-178,1.5618,1.529,1.0214,TRUE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Moneyline,South Carolina Gamecocks,Oklahoma Sooners,,155,155,165,155,160,160,150,155,165,153,158,Betonlineag_Odds,165,2.65,2.566,1.0327,TRUE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Spread,Oklahoma Sooners,South Carolina Gamecocks,-4.5,100,,-105,,,,-105,-105,-101,,,BetMGM_Odds,100,2.0,1.9618,1.0195,FALSE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Spread,Oklahoma Sooners,South Carolina Gamecocks,-4.0,,-114,,-110,-110,-112,,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8995,1.0051,FALSE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Spread,South Carolina Gamecocks,Oklahoma Sooners,4.0,,-112,,-110,-110,-108,,,,-110,-110,DraftKings_Odds,-108,1.9259,1.9058,1.0105,FALSE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Spread,South Carolina Gamecocks,Oklahoma Sooners,4.5,-120,,-115,,,,-115,-115,-111,,,Lowvig_Odds,-111,1.9009,1.8605,1.0217,TRUE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Total,Over,,42.5,-115,-113,,-110,,-112,-110,-110,,-110,-110,FanDuel_Odds,-110,1.9091,1.8977,1.006,FALSE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Total,Over,,43.0,,,-105,,-105,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Total,Under,,42.5,-105,-110,,-110,,-108,-110,-110,,-110,-110,BetMGM_Odds,-105,1.9524,1.9115,1.0214,TRUE
+Oklahoma Sooners @ South Carolina Gamecocks,2025-10-18 12:48 ET,Total,Under,,43.0,,,-115,,-115,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Moneyline,James Madison Dukes,Old Dominion Monarchs,,-135,-150,-145,-140,-140,-142,-130,-140,-145,-140,-140,FanDuel_Odds,-130,1.7692,1.7062,1.0369,TRUE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Moneyline,Old Dominion Monarchs,James Madison Dukes,,110,120,125,120,120,120,110,115,125,114,118,Betonlineag_Odds,125,2.25,2.172,1.0359,TRUE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Spread,James Madison Dukes,Old Dominion Monarchs,-2.5,-110,-115,-120,-115,-120,-110,-106,-110,-116,-110,-115,FanDuel_Odds,-106,1.9434,1.8774,1.0352,TRUE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Spread,Old Dominion Monarchs,James Madison Dukes,2.5,-110,-109,100,-105,100,-110,-114,-110,104,-110,-105,Lowvig_Odds,104,2.04,1.9336,1.055,TRUE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Over,,47.5,-115,,-115,-110,-110,-112,-110,-110,-114,,-110,FanDuel_Odds,-110,1.9091,1.8932,1.0084,FALSE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Over,,48.0,,-109,,,,,,,,-110,,BetRivers_Odds,-109,1.9174,1.9091,1.0044,FALSE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Under,,47.5,-105,,-105,-110,-110,-108,-110,-110,-103,,-110,Lowvig_Odds,-103,1.9709,1.922,1.0254,TRUE
+Old Dominion Monarchs @ James Madison Dukes,2025-10-18 15:30 ET,Total,Under,,48.0,,-114,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.8772,1.017,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Moneyline,Georgia Bulldogs,Ole Miss Rebels,,-275,-275,-285,-260,-270,-285,-270,-280,,-256,-267,Mybookieag_Odds,-256,1.3906,1.3651,1.0187,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Moneyline,Ole Miss Rebels,Georgia Bulldogs,,220,210,234,218,220,230,220,225,,202,215,Betonlineag_Odds,234,3.34,3.1778,1.051,TRUE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Georgia Bulldogs,Ole Miss Rebels,-7.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Georgia Bulldogs,Ole Miss Rebels,-7.0,-115,-114,-116,-110,-115,-112,,-115,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8824,1.0142,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Ole Miss Rebels,Georgia Bulldogs,7.0,-105,-109,-104,-110,-105,-108,,-105,,-110,-110,Betonlineag_Odds,-104,1.9615,1.9285,1.0171,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Spread,Ole Miss Rebels,Georgia Bulldogs,7.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Over,,56.0,,,,,-115,,,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.8893,1.0105,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Over,,56.5,-110,-110,,-110,,-110,-110,,,,-110,DraftKings_Odds,-110,1.9091,1.9091,1.0,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Over,,57.0,,,-102,,,,,,,,,Betonlineag_Odds,-102,1.9804,,,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Under,,56.0,,,,,-105,,,-110,,-110,,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Under,,56.5,-110,-113,,-110,,-110,-110,,,,-110,DraftKings_Odds,-110,1.9091,1.9043,1.0025,FALSE
+Ole Miss Rebels @ Georgia Bulldogs,2025-10-18 15:30 ET,Total,Under,,57.0,,,-118,,,,,,,,,Betonlineag_Odds,-118,1.8475,,,FALSE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Moneyline,Oregon Ducks,Rutgers Scarlet Knights,,-900,-910,-900,-950,-850,-900,,-850,-900,-918,,Fanatics_Odds,-850,1.1176,1.1108,1.0062,FALSE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Moneyline,Rutgers Scarlet Knights,Oregon Ducks,,600,575,613,630,550,600,,580,613,578,,Betus_Odds,630,7.3,6.8863,1.0601,TRUE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Oregon Ducks,Rutgers Scarlet Knights,-17.5,-105,-114,-110,-110,,-110,,-105,-106,,,Fanatics_Odds,-105,1.9524,1.9167,1.0186,FALSE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Oregon Ducks,Rutgers Scarlet Knights,-17.0,,,,,-115,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Rutgers Scarlet Knights,Oregon Ducks,17.0,,,,,-105,,,,,-110,,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Spread,Rutgers Scarlet Knights,Oregon Ducks,17.5,-115,-109,-110,-110,,-110,,-115,-106,,,Lowvig_Odds,-106,1.9434,1.8973,1.0243,TRUE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Over,,61.0,,-109,-115,,-115,,,-110,-114,-110,,BetRivers_Odds,-109,1.9174,1.8869,1.0162,FALSE
 Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Over,,61.5,-105,,,-110,,-108,,,,,,BetMGM_Odds,-105,1.9524,1.9175,1.0182,FALSE
-Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Under,,61.0,,-114,-105,,-110,,,-110,-103,-110,,Lowvig_Odds,-103,1.9709,1.9114,1.0311,TRUE
+Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Under,,61.0,,-114,-105,,-105,,,-110,-103,-110,,Lowvig_Odds,-103,1.9709,1.92,1.0265,TRUE
 Oregon Ducks @ Rutgers Scarlet Knights,2025-10-18 18:30 ET,Total,Under,,61.5,-115,,,-110,,-112,,,,,,Betus_Odds,-110,1.9091,1.8812,1.0148,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Moneyline,Iowa Hawkeyes,Penn State Nittany Lions,,-155,-159,-157,-155,-165,-162,-156,-155,-157,-161,-165,Fanatics_Odds,-155,1.6452,1.6285,1.0103,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Moneyline,Penn State Nittany Lions,Iowa Hawkeyes,,130,123,137,134,140,136,132,130,137,131,140,WilliamhillUs_Odds,140,2.4,2.33,1.03,TRUE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Iowa Hawkeyes,Penn State Nittany Lions,-3.0,-110,-112,-115,-110,-115,-112,,-105,-111,-110,-110,Fanatics_Odds,-105,1.9524,1.8958,1.0299,TRUE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Iowa Hawkeyes,Penn State Nittany Lions,-2.5,,,,,,,-128,,,,,FanDuel_Odds,-128,1.7812,,,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Penn State Nittany Lions,Iowa Hawkeyes,2.5,,,,,,,104,,,,,FanDuel_Odds,104,2.04,,,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Penn State Nittany Lions,Iowa Hawkeyes,3.0,-110,-112,-105,-110,-105,-108,,-115,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9144,1.0395,TRUE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,39.5,,,-120,,,,,,-119,,,Lowvig_Odds,-119,1.8403,1.8333,1.0038,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,40.0,,-114,,,-115,,,,,,,BetRivers_Odds,-114,1.8772,1.8696,1.0041,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,40.5,-110,,,-110,,-108,-110,-110,,-110,-110,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,39.5,,,100,,,,,,102,,,Lowvig_Odds,102,2.02,2.0,1.01,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,40.0,,-109,,,-105,,,,,,,Bovada_Odds,-105,1.9524,1.9174,1.0182,FALSE
-Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,40.5,-110,,,-110,,-112,-110,-110,,-110,-110,FanDuel_Odds,-110,1.9091,1.9064,1.0014,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Moneyline,Pittsburgh Panthers,Syracuse Orange,,-350,-400,-345,-355,-390,-375,-360,-375,-345,-350,-390,Lowvig_Odds,-345,1.2899,1.2717,1.0143,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Moneyline,Syracuse Orange,Pittsburgh Panthers,,280,285,278,285,295,295,290,290,278,265,290,DraftKings_Odds,295,3.95,3.836,1.0297,TRUE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Pittsburgh Panthers,Syracuse Orange,-9.5,-110,-113,-110,,-110,-115,-115,,-106,-110,-114,Lowvig_Odds,-106,1.9434,1.8922,1.0271,TRUE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Pittsburgh Panthers,Syracuse Orange,-8.5,,,,-110,,,,-115,,,,Betus_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Syracuse Orange,Pittsburgh Panthers,8.5,,,,-110,,,,-105,,,,Fanatics_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Syracuse Orange,Pittsburgh Panthers,9.5,-110,-110,-110,,-110,-105,-105,,-106,-110,-107,FanDuel_Odds,-105,1.9524,1.922,1.0158,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Over,,54.5,-115,,-110,-110,-110,-115,-115,-115,-108,-110,-112,Lowvig_Odds,-108,1.9259,1.8897,1.0192,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Over,,55.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Under,,54.5,-105,,-110,-110,-110,-105,-105,-105,-108,-110,-110,FanDuel_Odds,-105,1.9524,1.9254,1.014,FALSE
-Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Under,,55.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Moneyline,Northwestern Wildcats,Purdue Boilermakers,,-155,-157,-165,-165,-170,-166,-154,-165,-165,-162,-162,FanDuel_Odds,-154,1.6494,1.6132,1.0224,TRUE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Moneyline,Purdue Boilermakers,Northwestern Wildcats,,130,120,145,142,145,140,130,135,145,132,130,Lowvig_Odds,145,2.45,2.349,1.043,TRUE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Northwestern Wildcats,Purdue Boilermakers,-3.5,,,,,-105,,100,-105,,,,FanDuel_Odds,100,2.0,1.9524,1.0244,TRUE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Northwestern Wildcats,Purdue Boilermakers,-3.0,-110,-112,-120,-115,,-118,,,-113,-110,-112,Mybookieag_Odds,-110,1.9091,1.8757,1.0178,FALSE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Purdue Boilermakers,Northwestern Wildcats,3.0,-110,-112,100,-105,,-102,,,101,-110,-110,Lowvig_Odds,101,2.01,1.9361,1.0382,TRUE
-Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Purdue Boilermakers,Northwestern Wildcats,3.5,,,,,-115,,-122,-115,,,,Fanatics_Odds,-115,1.8696,1.8446,1.0135,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Moneyline,Iowa Hawkeyes,Penn State Nittany Lions,,-155,-159,-155,-155,-165,-162,-156,-165,-155,-165,-165,Lowvig_Odds,-155,1.6452,1.6247,1.0126,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Moneyline,Penn State Nittany Lions,Iowa Hawkeyes,,130,123,135,134,140,136,132,135,135,134,140,WilliamhillUs_Odds,140,2.4,2.334,1.0283,TRUE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Iowa Hawkeyes,Penn State Nittany Lions,-3.5,,,,,,,-102,,,,,FanDuel_Odds,-102,1.9804,,,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Iowa Hawkeyes,Penn State Nittany Lions,-3.0,-110,-112,-115,-107,-115,-112,,-110,-111,-110,-110,Betus_Odds,-107,1.9346,1.8958,1.0205,TRUE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Penn State Nittany Lions,Iowa Hawkeyes,3.0,-110,-112,-105,-113,-105,-108,,-110,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9161,1.0386,TRUE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Spread,Penn State Nittany Lions,Iowa Hawkeyes,3.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,40.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,41.0,,-109,-110,-110,,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9108,1.0079,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,41.5,-105,,,,-110,-105,,,,,,DraftKings_Odds,-105,1.9524,1.9307,1.0112,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Over,,42.0,,,,,,,,-105,,,,Fanatics_Odds,-105,1.9524,,,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,40.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,41.0,,-114,-110,-110,,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9027,1.0122,FALSE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,41.5,-115,,,,-110,-115,,,,,,Bovada_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Penn State Nittany Lions @ Iowa Hawkeyes,2025-10-18 19:00 ET,Total,Under,,42.0,,,,,,,,-110,,,,Fanatics_Odds,-110,1.9091,,,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Moneyline,Pittsburgh Panthers,Syracuse Orange,,,-400,-345,-355,-390,-375,-360,-375,-345,-360,-390,Lowvig_Odds,-345,1.2899,1.2693,1.0162,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Moneyline,Syracuse Orange,Pittsburgh Panthers,,,285,278,285,295,295,290,290,278,275,290,DraftKings_Odds,295,3.95,3.8511,1.0257,TRUE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Pittsburgh Panthers,Syracuse Orange,-9.5,,-113,-110,,-110,-110,-115,-110,-106,-110,-114,Lowvig_Odds,-106,1.9434,1.8971,1.0244,TRUE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Pittsburgh Panthers,Syracuse Orange,-9.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Syracuse Orange,Pittsburgh Panthers,9.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Spread,Syracuse Orange,Pittsburgh Panthers,9.5,,-110,-110,,-110,-110,-105,-110,-106,-110,-107,FanDuel_Odds,-105,1.9524,1.9166,1.0187,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Over,,54.5,,-112,-110,-110,-110,-112,-115,-110,-108,-110,-112,Lowvig_Odds,-108,1.9259,1.8993,1.014,FALSE
+Pittsburgh Panthers @ Syracuse Orange,2025-10-18 19:30 ET,Total,Under,,54.5,,-112,-110,-110,-110,-108,-105,-110,-108,-110,-110,FanDuel_Odds,-105,1.9524,1.911,1.0216,TRUE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Moneyline,Northwestern Wildcats,Purdue Boilermakers,,-155,-157,-165,-165,-170,-166,-154,-165,-165,-165,-162,FanDuel_Odds,-154,1.6494,1.612,1.0231,TRUE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Moneyline,Purdue Boilermakers,Northwestern Wildcats,,130,120,145,142,145,140,130,135,145,134,130,Lowvig_Odds,145,2.45,2.351,1.0421,TRUE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Northwestern Wildcats,Purdue Boilermakers,-3.5,,,,,-105,,100,100,,,,FanDuel_Odds,100,2.0,1.9762,1.012,FALSE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Northwestern Wildcats,Purdue Boilermakers,-3.0,-110,-112,-118,-115,,-118,,,-114,-110,-112,Mybookieag_Odds,-110,1.9091,1.8766,1.0173,FALSE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Purdue Boilermakers,Northwestern Wildcats,3.0,-110,-112,-102,-105,,-102,,,102,-110,-110,Lowvig_Odds,102,2.02,1.9333,1.0448,TRUE
+Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Spread,Purdue Boilermakers,Northwestern Wildcats,3.5,,,,,-115,,-122,-120,,,,Bovada_Odds,-115,1.8696,1.8265,1.0236,TRUE
 Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Total,Over,,46.0,,,-110,,-115,,,,-108,,,Lowvig_Odds,-108,1.9259,1.8893,1.0194,FALSE
 Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Total,Over,,46.5,-110,-113,,-110,,-108,-110,-110,,-110,-112,DraftKings_Odds,-108,1.9259,1.9033,1.0119,FALSE
 Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Total,Under,,46.0,,,-110,,-105,,,,-108,,,Bovada_Odds,-105,1.9524,1.9175,1.0182,FALSE
 Purdue Boilermakers @ Northwestern Wildcats,2025-10-18 15:00 ET,Total,Under,,46.5,-110,-110,,-110,,-112,-110,-110,,-110,-110,FanDuel_Odds,-110,1.9091,1.9068,1.0012,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Moneyline,Clemson Tigers,SMU Mustangs,,-185,-190,-180,-185,-185,-198,-178,-190,-180,-206,-190,FanDuel_Odds,-178,1.5618,1.5302,1.0206,TRUE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Moneyline,SMU Mustangs,Clemson Tigers,,150,143,157,159,160,164,148,155,157,165,158,Mybookieag_Odds,165,2.65,2.551,1.0388,TRUE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,Clemson Tigers,SMU Mustangs,-4.5,-105,-110,,-105,,,-105,-105,,,,FanDuel_Odds,-105,1.9524,1.9416,1.0056,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,Clemson Tigers,SMU Mustangs,-4.0,,,,,-110,-112,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.9037,1.0028,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,Clemson Tigers,SMU Mustangs,-3.5,,,-113,,,,,,-109,,,Lowvig_Odds,-109,1.9174,1.885,1.0172,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,SMU Mustangs,Clemson Tigers,3.5,,,-107,,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9346,1.0188,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,SMU Mustangs,Clemson Tigers,4.0,,,,,-110,-108,,,,-110,-110,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,SMU Mustangs,Clemson Tigers,4.5,-115,-115,,-115,,,-115,-115,,,,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,49.5,,,,,,-112,,,,,,DraftKings_Odds,-112,1.8929,,,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,50.0,,-112,,-110,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.901,1.0043,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,50.5,-105,,100,,-105,,-110,-110,102,-110,,Lowvig_Odds,102,2.02,1.9387,1.042,TRUE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,49.5,,,,,,-108,,,,,,DraftKings_Odds,-108,1.9259,,,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,50.0,,-112,,-110,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.901,1.0043,FALSE
-SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,50.5,-115,,-120,,-115,,-110,-110,-119,-110,,FanDuel_Odds,-110,1.9091,1.8718,1.0199,FALSE
-Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Moneyline,Louisiana Ragin Cajuns,Southern Mississippi Golden Eagles,,145,130,149,146,145,142,140,145,149,142,140,Lowvig_Odds,149,2.49,2.424,1.0272,TRUE
-Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Moneyline,Southern Mississippi Golden Eagles,Louisiana Ragin Cajuns,,-175,-167,-170,-170,-170,-170,-166,-175,-170,-175,-176,FanDuel_Odds,-166,1.6024,1.5822,1.0127,FALSE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Moneyline,Clemson Tigers,SMU Mustangs,,-165,-177,-170,-170,-175,-180,-164,-175,-170,-179,-178,FanDuel_Odds,-164,1.6098,1.5755,1.0218,TRUE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Moneyline,SMU Mustangs,Clemson Tigers,,140,132,149,146,150,150,138,145,149,145,150,DraftKings_Odds,150,2.5,2.444,1.0229,TRUE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,Clemson Tigers,SMU Mustangs,-3.5,-105,-114,-107,100,-110,-108,-108,-110,-103,-110,-110,Betus_Odds,100,2.0,1.9223,1.0404,TRUE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Spread,SMU Mustangs,Clemson Tigers,3.5,-115,-109,-113,-120,-110,-112,-112,-110,-109,-110,-110,Lowvig_Odds,-109,1.9174,1.8927,1.013,FALSE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,49.5,,,,,,-112,-110,-110,,,,FanDuel_Odds,-110,1.9091,1.901,1.0043,FALSE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,50.0,,-112,,-110,-105,,,,,-110,-110,Bovada_Odds,-105,1.9524,1.905,1.0249,TRUE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Over,,50.5,-105,,100,,,,,,102,,,Lowvig_Odds,102,2.02,1.9762,1.0222,TRUE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,49.5,,,,,,-108,-110,-110,,,,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,50.0,,-112,,-110,-115,,,,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8952,1.0074,FALSE
+SMU Mustangs @ Clemson Tigers,2025-10-18 15:30 ET,Total,Under,,50.5,-115,,-120,,,,,,-119,,,BetMGM_Odds,-115,1.8696,1.8368,1.0178,FALSE
+Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Moneyline,Louisiana Ragin Cajuns,Southern Mississippi Golden Eagles,,145,130,149,142,145,142,140,145,149,142,140,Lowvig_Odds,149,2.49,2.42,1.0289,TRUE
+Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Moneyline,Southern Mississippi Golden Eagles,Louisiana Ragin Cajuns,,-175,-167,-170,-165,-170,-170,-166,-175,-170,-175,-176,Betus_Odds,-165,1.6061,1.5837,1.0141,FALSE
 Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Spread,Louisiana Ragin Cajuns,Southern Mississippi Golden Eagles,3.5,-110,-112,-115,-110,-115,-112,-110,-115,-111,-110,-113,FanDuel_Odds,-110,1.9091,1.8908,1.0097,FALSE
 Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Spread,Southern Mississippi Golden Eagles,Louisiana Ragin Cajuns,-3.5,-110,-112,-105,-110,-105,-108,-110,-105,-101,-110,-108,Lowvig_Odds,-101,1.9901,1.9238,1.0345,TRUE
 Southern Mississippi Golden Eagles @ Louisiana Ragin Cajuns,2025-10-18 17:00 ET,Total,Over,,54.5,-115,-114,-108,,-110,-112,-110,-110,-106,-110,-109,Lowvig_Odds,-106,1.9434,1.9021,1.0217,TRUE
@@ -391,175 +435,197 @@ Temple Owls @ Charlotte 49ers,2025-10-18 15:30 ET,Total,Over,,48.0,,-114,-110,,,
 Temple Owls @ Charlotte 49ers,2025-10-18 15:30 ET,Total,Over,,48.5,-105,,,-110,-105,-105,-110,-105,,-110,-110,DraftKings_Odds,-105,1.9524,1.9276,1.0128,FALSE
 Temple Owls @ Charlotte 49ers,2025-10-18 15:30 ET,Total,Under,,48.0,,-109,-110,,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9133,1.0066,FALSE
 Temple Owls @ Charlotte 49ers,2025-10-18 15:30 ET,Total,Under,,48.5,-115,,,-110,-115,-115,-110,-115,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.8865,1.012,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Moneyline,Alabama Crimson Tide,Tennessee Volunteers,,-325,-345,-340,-340,-330,-325,-335,-340,-340,-374,-335,DraftKings_Odds,-325,1.3077,1.2941,1.0105,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Moneyline,Tennessee Volunteers,Alabama Crimson Tide,,260,250,274,275,265,260,270,265,274,286,260,Mybookieag_Odds,286,3.86,3.653,1.0567,TRUE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Alabama Crimson Tide,Tennessee Volunteers,-9.5,-105,-112,,,-110,-108,-110,-110,,-110,,BetMGM_Odds,-105,1.9524,1.9092,1.0226,TRUE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Alabama Crimson Tide,Tennessee Volunteers,-9.0,,,-115,-110,,,,,-111,,-110,WilliamhillUs_Odds,-110,1.9091,1.8932,1.0084,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Tennessee Volunteers,Alabama Crimson Tide,9.0,,,-105,-110,,,,,-101,,-110,Lowvig_Odds,-101,1.9901,1.9235,1.0346,TRUE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Tennessee Volunteers,Alabama Crimson Tide,9.5,-115,-112,,,-110,-112,-110,-110,,-110,,FanDuel_Odds,-110,1.9091,1.8971,1.0063,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Over,,58.5,-115,,,,,-115,,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Over,,59.0,,-109,-107,-110,-105,,,,-105,-110,-110,Lowvig_Odds,-105,1.9524,1.9219,1.0158,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Over,,59.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Under,,58.5,-105,,,,,-105,,-105,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Under,,59.0,,-114,-113,-110,-115,,,,-112,-110,-110,Mybookieag_Odds,-110,1.9091,1.8905,1.0099,FALSE
-Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Under,,59.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Moneyline,Arkansas Razorbacks,Texas A&M Aggies,,240,235,245,238,235,235,250,240,245,240,240,FanDuel_Odds,250,3.5,3.393,1.0315,TRUE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Moneyline,Texas A&M Aggies,Arkansas Razorbacks,,-300,-305,-300,-285,-285,-290,-310,-300,-300,-310,-305,Bovada_Odds,-285,1.3509,1.333,1.0134,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Arkansas Razorbacks,Texas A&M Aggies,7.5,-115,-110,-110,-115,-115,-112,-110,-115,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.8917,1.0274,TRUE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Texas A&M Aggies,Arkansas Razorbacks,-7.5,-105,-113,-110,-105,-105,-108,-110,-105,-106,-110,-110,BetMGM_Odds,-105,1.9524,1.9248,1.0143,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,57.5,,,,,,-115,,,,,,DraftKings_Odds,-115,1.8696,,,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,58.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,58.5,-110,-114,-105,,,,-105,,-103,,,Lowvig_Odds,-103,1.9709,1.9228,1.025,TRUE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,57.5,,,,,,-105,,,,,,DraftKings_Odds,-105,1.9524,,,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,58.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
-Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,58.5,-110,-109,-115,,,,-115,,-114,,,BetRivers_Odds,-109,1.9174,1.8814,1.0192,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Moneyline,Kentucky Wildcats,Texas Longhorns,,375,310,370,378,355,380,370,370,370,360,360,DraftKings_Odds,380,4.8,4.618,1.0394,TRUE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Moneyline,Texas Longhorns,Kentucky Wildcats,,-500,-480,-480,-480,-490,-500,-480,-500,-480,-500,-480,FanDuel_Odds,-480,1.2083,1.2046,1.0031,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Kentucky Wildcats,Texas Longhorns,12.0,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Kentucky Wildcats,Texas Longhorns,12.5,-110,,-110,-110,-110,-108,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.911,1.017,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Texas Longhorns,Kentucky Wildcats,-12.5,-110,,-110,-110,-110,-112,-110,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9073,1.0189,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Texas Longhorns,Kentucky Wildcats,-12.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Moneyline,Alabama Crimson Tide,Tennessee Volunteers,,,-345,-340,-350,-330,-345,-335,-340,-340,-374,-350,Bovada_Odds,-330,1.303,1.2888,1.011,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Moneyline,Tennessee Volunteers,Alabama Crimson Tide,,,250,274,280,265,275,270,265,274,286,275,Mybookieag_Odds,286,3.86,3.6978,1.0439,TRUE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Alabama Crimson Tide,Tennessee Volunteers,-10.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Alabama Crimson Tide,Tennessee Volunteers,-9.5,,,,-110,-110,-108,-110,-110,,,-110,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Alabama Crimson Tide,Tennessee Volunteers,-9.0,,-113,-115,,,,,,-111,,,Lowvig_Odds,-111,1.9009,1.8773,1.0126,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Tennessee Volunteers,Alabama Crimson Tide,9.0,,-112,-105,,,,,,-101,,,Lowvig_Odds,-101,1.9901,1.9226,1.0351,TRUE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Tennessee Volunteers,Alabama Crimson Tide,9.5,,,,-110,-110,-112,-110,-110,,,-110,FanDuel_Odds,-110,1.9091,1.9058,1.0017,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Spread,Tennessee Volunteers,Alabama Crimson Tide,10.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Over,,59.5,,,-110,-110,-115,-110,-105,-105,-108,-110,-110,FanDuel_Odds,-105,1.9524,1.9117,1.0213,TRUE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Over,,60.5,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Under,,59.5,,,-110,-110,-105,-110,-115,-115,-108,-110,-110,Bovada_Odds,-105,1.9524,1.9013,1.0269,TRUE
+Tennessee Volunteers @ Alabama Crimson Tide,2025-10-18 19:30 ET,Total,Under,,60.5,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Moneyline,Arkansas Razorbacks,Texas A&M Aggies,,240,235,237,230,225,235,235,230,237,234,235,BetMGM_Odds,240,3.4,3.333,1.0201,TRUE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Moneyline,Texas A&M Aggies,Arkansas Razorbacks,,-300,-305,-290,-275,-275,-290,-290,-285,-290,-300,-292,Bovada_Odds,-275,1.3636,1.3431,1.0153,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Arkansas Razorbacks,Texas A&M Aggies,7.0,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Arkansas Razorbacks,Texas A&M Aggies,7.5,-115,-109,-115,-115,,-115,-115,-115,-110,-110,-115,BetRivers_Odds,-109,1.9174,1.8783,1.0208,TRUE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Texas A&M Aggies,Arkansas Razorbacks,-7.5,-105,-114,-105,-105,,-105,-105,-105,-102,-110,-105,Lowvig_Odds,-102,1.9804,1.9392,1.0212,TRUE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Spread,Texas A&M Aggies,Arkansas Razorbacks,-7.0,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,57.0,,,,-110,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,57.5,-110,,,,-110,-115,-105,-115,,,,FanDuel_Odds,-105,1.9524,1.8893,1.0334,TRUE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,58.0,,-109,,,,,,,,,-110,BetRivers_Odds,-109,1.9174,1.9091,1.0044,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Over,,58.5,,,-105,,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,57.0,,,,-110,,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,57.5,-110,,,,-110,-105,-115,-105,,,,DraftKings_Odds,-105,1.9524,1.91,1.0222,TRUE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,58.0,,-114,,,,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.8772,1.017,FALSE
+Texas A&M Aggies @ Arkansas Razorbacks,2025-10-18 15:30 ET,Total,Under,,58.5,,,-115,,,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Moneyline,Kentucky Wildcats,Texas Longhorns,,375,310,370,378,355,380,410,370,370,360,360,FanDuel_Odds,410,5.1,4.628,1.102,TRUE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Moneyline,Texas Longhorns,Kentucky Wildcats,,-500,-480,-480,-480,-490,-500,-550,-500,-480,-500,-480,BetRivers_Odds,-480,1.2083,1.2019,1.0053,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Kentucky Wildcats,Texas Longhorns,12.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Kentucky Wildcats,Texas Longhorns,12.5,-110,-113,-110,-110,-110,-108,-105,-110,-106,,-110,FanDuel_Odds,-105,1.9524,1.9121,1.0211,TRUE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Texas Longhorns,Kentucky Wildcats,-12.5,-110,-110,-110,-110,-110,-112,-115,-110,-106,,-110,Lowvig_Odds,-106,1.9434,1.9029,1.0213,TRUE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Spread,Texas Longhorns,Kentucky Wildcats,-12.0,,,,,,,,,,-110,,Mybookieag_Odds,-110,1.9091,,,FALSE
 Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Over,,43.0,,,-120,,,,,,-119,,,Lowvig_Odds,-119,1.8403,1.8333,1.0038,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Over,,43.5,-115,-115,,,,-115,-110,,,-110,-110,FanDuel_Odds,-110,1.9091,1.8854,1.0126,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Over,,44.0,,,,-110,-110,,,-110,,,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Over,,43.5,-115,,,,,-115,-110,,,-110,-110,FanDuel_Odds,-110,1.9091,1.8893,1.0105,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Over,,44.0,,-113,,-110,-110,,,-110,,,,Bovada_Odds,-110,1.9091,1.901,1.0042,FALSE
 Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Under,,43.0,,,100,,,,,,102,,,Lowvig_Odds,102,2.02,2.0,1.01,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Under,,43.5,-105,-108,,,,-105,-110,,,-110,-110,DraftKings_Odds,-105,1.9524,1.9211,1.0163,FALSE
-Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Under,,44.0,,,,-110,-110,,,-110,,,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Moneyline,Marshall Thundering Herd,Texas State Bobcats,,115,123,125,125,120,120,124,120,125,122,120,Lowvig_Odds,125,2.25,2.214,1.0163,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Moneyline,Texas State Bobcats,Marshall Thundering Herd,,-140,-152,-145,-145,-140,-142,-146,-145,-145,-149,-145,Bovada_Odds,-140,1.7143,1.6881,1.0155,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Marshall Thundering Herd,Texas State Bobcats,2.5,-105,,100,,100,,100,,104,-105,-103,Lowvig_Odds,104,2.04,1.9793,1.0307,TRUE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Marshall Thundering Herd,Texas State Bobcats,3.0,,-120,,-115,,-118,,-115,,,,Betus_Odds,-115,1.8696,1.8501,1.0105,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Texas State Bobcats,Marshall Thundering Herd,-3.0,,-105,,-105,,-102,,-105,,,,DraftKings_Odds,-102,1.9804,1.9524,1.0143,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Texas State Bobcats,Marshall Thundering Herd,-2.5,-115,,-120,,-120,,-122,,-116,-115,-120,Mybookieag_Odds,-115,1.8696,1.8419,1.015,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Over,,65.5,-110,,-115,-110,,-110,-115,,-114,-110,-112,DraftKings_Odds,-110,1.9091,1.8909,1.0096,FALSE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Over,,66.0,,-109,,,-105,,,-110,,,,Bovada_Odds,-105,1.9524,1.9133,1.0204,TRUE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Under,,65.5,-110,,-105,-110,,-110,-105,,-103,-110,-109,Lowvig_Odds,-103,1.9709,1.9227,1.0251,TRUE
-Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Under,,66.0,,-114,,,-115,,,-110,,,,Fanatics_Odds,-110,1.9091,1.8734,1.0191,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Moneyline,Arizona State Sun Devils,Texas Tech Red Raiders,,220,190,219,210,220,215,205,220,219,218,215,Fanatics_Odds,220,3.2,3.131,1.022,TRUE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Moneyline,Texas Tech Red Raiders,Arizona State Sun Devils,,-275,-265,-265,-250,-270,-265,-250,-275,-265,-281,-267,FanDuel_Odds,-250,1.4,1.3737,1.0191,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Arizona State Sun Devils,Texas Tech Red Raiders,6.5,,,,,,,-104,,,,,FanDuel_Odds,-104,1.9615,,,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Arizona State Sun Devils,Texas Tech Red Raiders,7.0,-110,-114,-110,-115,-115,-115,,-115,-106,-110,-115,Lowvig_Odds,-106,1.9434,1.8836,1.0318,TRUE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Texas Tech Red Raiders,Arizona State Sun Devils,-7.0,-110,-109,-110,-105,-105,-105,,-105,-106,-110,-105,DraftKings_Odds,-105,1.9524,1.9331,1.01,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Texas Tech Red Raiders,Arizona State Sun Devils,-6.5,,,,,,,-118,,,,,FanDuel_Odds,-118,1.8475,,,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Over,,50.5,-110,,,-110,-110,-112,-110,-110,,-110,-110,FanDuel_Odds,-110,1.9091,1.9068,1.0012,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Over,,51.0,,-112,-108,,,,,,-106,,,Lowvig_Odds,-106,1.9434,1.9094,1.0178,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Under,,50.5,-110,,,-110,-110,-108,-110,-110,,-110,-110,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Under,,51.0,,-112,-112,,,,,,-110,,,Lowvig_Odds,-110,1.9091,1.8929,1.0086,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Moneyline,Troy Trojans,UL Monroe Warhawks,,-210,-205,-205,-200,-195,-218,-205,-205,-205,-216,-205,Bovada_Odds,-195,1.5128,1.4825,1.0205,TRUE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Moneyline,UL Monroe Warhawks,Troy Trojans,,170,163,177,170,165,180,172,170,177,173,170,DraftKings_Odds,180,2.8,2.707,1.0344,TRUE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-5.5,-105,,-110,,,,-110,,-106,,,BetMGM_Odds,-105,1.9524,1.9205,1.0166,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-5.0,,-112,,-110,,,,-110,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.905,1.0021,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-4.5,,,,,-110,-115,,,,,,Bovada_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,4.5,,,,,-110,-105,,,,,,DraftKings_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,5.0,,-112,,-110,,,,-110,,-110,-110,WilliamhillUs_Odds,-110,1.9091,1.905,1.0021,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,5.5,-115,,-110,,,,-110,,-106,,,Lowvig_Odds,-106,1.9434,1.8959,1.025,TRUE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Over,,46.5,-115,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,1.8696,1.0,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Under,,43.5,-105,,,,,-105,-110,,,-110,-110,DraftKings_Odds,-105,1.9524,1.9199,1.0169,FALSE
+Texas Longhorns @ Kentucky Wildcats,2025-10-18 19:00 ET,Total,Under,,44.0,,-110,,-110,-110,,,-110,,,,BetRivers_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Moneyline,Marshall Thundering Herd,Texas State Bobcats,,115,120,125,125,125,124,120,120,125,122,120,Lowvig_Odds,125,2.25,2.216,1.0153,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Moneyline,Texas State Bobcats,Marshall Thundering Herd,,-140,-152,-145,-145,-145,-148,-142,-145,-145,-149,-145,BetMGM_Odds,-140,1.7143,1.6847,1.0176,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Marshall Thundering Herd,Texas State Bobcats,2.5,-105,,100,,100,,-105,,104,-105,-106,Lowvig_Odds,104,2.04,1.9668,1.0372,TRUE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Marshall Thundering Herd,Texas State Bobcats,3.0,,-118,,-115,,-118,,-115,,,,Betus_Odds,-115,1.8696,1.8548,1.0079,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Texas State Bobcats,Marshall Thundering Herd,-3.0,,-106,,-105,,-102,,-105,,,,DraftKings_Odds,-102,1.9804,1.9494,1.0159,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Spread,Texas State Bobcats,Marshall Thundering Herd,-2.5,-115,,-120,,-120,,-115,,-116,-115,-115,WilliamhillUs_Odds,-115,1.8696,1.8562,1.0072,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Over,,65.5,-110,-108,-115,-110,,-110,-115,-115,-114,,-112,BetRivers_Odds,-108,1.9259,1.8883,1.02,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Over,,66.0,,,,,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Under,,65.5,-110,-115,-105,-110,,-110,-105,-105,-103,,-109,Lowvig_Odds,-103,1.9709,1.9214,1.0257,TRUE
+Texas State Bobcats @ Marshall Thundering Herd,2025-10-18 15:30 ET,Total,Under,,66.0,,,,,-110,,,,,-110,,Bovada_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Moneyline,Arizona State Sun Devils,Texas Tech Red Raiders,,200,195,219,210,230,215,205,220,219,214,215,Bovada_Odds,230,3.3,3.112,1.0604,TRUE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Moneyline,Texas Tech Red Raiders,Arizona State Sun Devils,,-250,-275,-265,-250,-280,-265,-250,-275,-265,-273,-267,FanDuel_Odds,-250,1.4,1.3757,1.0176,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Arizona State Sun Devils,Texas Tech Red Raiders,6.5,,,,,,,-102,,,,,FanDuel_Odds,-102,1.9804,,,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Arizona State Sun Devils,Texas Tech Red Raiders,7.0,-110,-113,-115,-120,-115,-115,,-115,-111,-110,-115,Mybookieag_Odds,-110,1.9091,1.8751,1.0181,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Texas Tech Red Raiders,Arizona State Sun Devils,-7.0,-110,-110,-105,100,-105,-105,,-105,-101,-110,-105,Betus_Odds,100,2.0,1.9421,1.0298,TRUE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Spread,Texas Tech Red Raiders,Arizona State Sun Devils,-6.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Over,,51.5,,-114,-110,-110,,,-110,,-108,,,Lowvig_Odds,-108,1.9259,1.9011,1.013,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Over,,52.0,,,,,,,,-110,,-110,-110,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Over,,52.5,-105,,,,-105,-108,,,,,,Bovada_Odds,-105,1.9524,1.9392,1.0068,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Under,,51.5,,-109,-110,-110,,,-110,,-108,,,Lowvig_Odds,-108,1.9259,1.9112,1.0077,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Under,,52.0,,,,,,,,-110,,-110,-110,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
+Texas Tech Red Raiders @ Arizona State Sun Devils,2025-10-18 16:00 ET,Total,Under,,52.5,-115,,,,-115,-112,,,,,,DraftKings_Odds,-112,1.8929,1.8696,1.0125,FALSE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Moneyline,Troy Trojans,UL Monroe Warhawks,,-210,-215,-200,-200,-185,-205,-190,-200,-200,-206,-195,Bovada_Odds,-185,1.5405,1.4954,1.0302,TRUE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Moneyline,UL Monroe Warhawks,Troy Trojans,,170,170,174,170,160,170,160,165,174,166,162,Lowvig_Odds,174,2.74,2.667,1.0274,TRUE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-5.5,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-4.5,-115,,-112,-110,,-110,-110,-110,-108,,-110,Lowvig_Odds,-108,1.9259,1.9011,1.013,FALSE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,Troy Trojans,UL Monroe Warhawks,-4.0,,,,,-115,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.8696,1.0211,TRUE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,4.0,,,,,-105,,,,,-110,,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,4.5,-105,,-108,-110,,-110,-110,-110,-104,,-110,Lowvig_Odds,-104,1.9615,1.9177,1.0229,TRUE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Spread,UL Monroe Warhawks,Troy Trojans,5.5,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Over,,46.5,-115,,,,,-115,-115,,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
 Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Over,,47.0,,-113,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9056,1.0106,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Over,,47.5,,,,,,-105,,,,,,DraftKings_Odds,-105,1.9524,,,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Under,,46.5,-105,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,1.9524,1.0,FALSE
+Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Under,,46.5,-105,,,,,-105,-105,,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
 Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Under,,47.0,,-110,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Troy Trojans @ UL Monroe Warhawks,2025-10-18 15:00 ET,Total,Under,,47.5,,,,,,-115,,,,,,DraftKings_Odds,-115,1.8696,,,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Moneyline,Boston College Eagles,UConn Huskies,,-110,-106,,,-105,-108,-108,-110,,-107,-110,Bovada_Odds,-105,1.9524,1.9224,1.0156,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Moneyline,UConn Huskies,Boston College Eagles,,-110,-117,,,-115,-112,-108,-110,,-114,-112,FanDuel_Odds,-108,1.9259,1.8865,1.0209,TRUE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,Boston College Eagles,UConn Huskies,-1.5,,,,,,,-102,,,,,FanDuel_Odds,-102,1.9804,,,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,Boston College Eagles,UConn Huskies,0.0,,,-105,,,,,,-101,,,Lowvig_Odds,-101,1.9901,1.9524,1.0193,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,Boston College Eagles,UConn Huskies,1.0,-110,-114,,-110,-110,,,-110,,-110,-113,Mybookieag_Odds,-110,1.9091,1.8998,1.0049,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,Boston College Eagles,UConn Huskies,1.5,,,,,,-118,,,,,,DraftKings_Odds,-118,1.8475,,,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,UConn Huskies,Boston College Eagles,-1.5,,,,,,-102,,,,,,DraftKings_Odds,-102,1.9804,,,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,UConn Huskies,Boston College Eagles,-1.0,-110,-113,,-110,-110,,,-110,,-110,-108,WilliamhillUs_Odds,-108,1.9259,1.9051,1.0109,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,UConn Huskies,Boston College Eagles,0.0,,,-115,,,,,,-111,,,Lowvig_Odds,-111,1.9009,1.8696,1.0168,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Spread,UConn Huskies,Boston College Eagles,1.5,,,,,,,-120,,,,,FanDuel_Odds,-120,1.8333,,,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Over,,57.5,,-113,,,,-115,-115,,,,,BetRivers_Odds,-113,1.885,1.8696,1.0082,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Over,,58.0,,,,-110,-110,,,-110,,-110,-115,Mybookieag_Odds,-110,1.9091,1.8992,1.0052,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Over,,58.5,-105,,100,,,,,,102,,,Lowvig_Odds,102,2.02,1.9762,1.0222,TRUE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Under,,57.5,,-110,,,,-105,-105,,,,,FanDuel_Odds,-105,1.9524,1.9307,1.0112,FALSE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Under,,58.0,,,,-110,-110,,,-110,,-110,-102,WilliamhillUs_Odds,-102,1.9804,1.9091,1.0373,TRUE
-UConn Huskies @ Boston College Eagles,2025-10-18 12:00 ET,Total,Under,,58.5,-115,,-120,,,,,,-119,,,BetMGM_Odds,-115,1.8696,1.8368,1.0178,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Moneyline,Boise State Broncos,UNLV Rebels,,-500,-560,-500,-510,-500,-485,-480,-475,-500,-500,-480,Fanatics_Odds,-475,1.2105,1.1998,1.009,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Moneyline,UNLV Rebels,Boise State Broncos,,375,350,383,395,360,370,370,355,383,360,360,Betus_Odds,395,4.95,4.666,1.0609,TRUE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,Boise State Broncos,UNLV Rebels,-13.5,-110,-113,,,,,-105,-110,,,,FanDuel_Odds,-105,1.9524,1.901,1.027,TRUE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,Boise State Broncos,UNLV Rebels,-13.0,,,-110,-110,-110,,,,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,Boise State Broncos,UNLV Rebels,-12.5,,,,,,-112,,,,,,DraftKings_Odds,-112,1.8929,,,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,UNLV Rebels,Boise State Broncos,12.5,,,,,,-108,,,,,,DraftKings_Odds,-108,1.9259,,,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,UNLV Rebels,Boise State Broncos,13.0,,,-110,-110,-110,,,,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9091,1.018,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,UNLV Rebels,Boise State Broncos,13.5,-110,-109,,,,,-115,-110,,,,BetRivers_Odds,-109,1.9174,1.8959,1.0113,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,60.5,-118,,,,-110,-112,-110,,,,,FanDuel_Odds,-110,1.9091,1.8831,1.0138,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,61.0,,-115,-105,-110,,,,-110,-103,-110,-110,Lowvig_Odds,-103,1.9709,1.9097,1.032,TRUE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,60.5,-110,,,,-110,-108,-110,,,,,DraftKings_Odds,-108,1.9259,1.9091,1.0088,FALSE
-UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,61.0,,-108,-115,-110,,,,-110,-114,-110,-110,BetRivers_Odds,-108,1.9259,1.8972,1.0151,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Moneyline,Notre Dame Fighting Irish,USC Trojans,,-375,-375,-365,-365,-390,-360,-370,-375,-365,-400,-365,DraftKings_Odds,-360,1.2778,1.2673,1.0083,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Moneyline,USC Trojans,Notre Dame Fighting Irish,,290,265,292,293,295,285,295,290,292,300,285,Mybookieag_Odds,300,4.0,3.882,1.0304,TRUE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,Notre Dame Fighting Irish,USC Trojans,-10.5,,,,,-105,-105,-105,-105,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,Notre Dame Fighting Irish,USC Trojans,-10.0,-110,-112,-115,-115,,,,,-111,-110,-110,Mybookieag_Odds,-110,1.9091,1.8918,1.0091,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,USC Trojans,Notre Dame Fighting Irish,10.0,-110,-112,-105,-105,,,,,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9208,1.0361,TRUE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,USC Trojans,Notre Dame Fighting Irish,10.5,,,,,-115,-115,-115,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Over,,59.5,-110,-113,,,-110,-110,-110,-110,,-110,-110,DraftKings_Odds,-110,1.9091,1.9056,1.0018,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Over,,60.0,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Under,,59.5,-110,-110,,,-110,-110,-110,-110,,-110,-110,DraftKings_Odds,-110,1.9091,1.9091,1.0,FALSE
-USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Under,,60.0,,,-110,-110,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Moneyline,North Texas Mean Green,UTSA Roadrunners,,-185,-180,-180,-180,-180,-180,-172,-180,-180,-182,-190,FanDuel_Odds,-172,1.5814,1.5505,1.0199,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Moneyline,UTSA Roadrunners,North Texas Mean Green,,150,143,157,155,155,150,144,150,157,147,158,WilliamhillUs_Odds,158,2.58,2.508,1.0287,TRUE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,North Texas Mean Green,UTSA Roadrunners,-4.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,North Texas Mean Green,UTSA Roadrunners,-4.0,,-109,-114,-115,-110,-108,,-110,-110,-110,-110,DraftKings_Odds,-108,1.9259,1.9012,1.013,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Moneyline,Boston College Eagles,UConn Huskies,,-105,,113,125,-115,-105,102,-110,113,105,-105,Betus_Odds,125,2.25,1.9962,1.1271,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Moneyline,UConn Huskies,Boston College Eagles,,-120,,-133,-145,-115,-125,-130,-120,-133,-125,-125,Bovada_Odds,-115,1.8696,1.781,1.0497,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,Boston College Eagles,UConn Huskies,-2.5,,,,,105,,,,,,,Bovada_Odds,105,2.05,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,Boston College Eagles,UConn Huskies,1.5,-115,,,,,-120,,-125,,,-110,WilliamhillUs_Odds,-110,1.9091,1.8343,1.0408,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,Boston College Eagles,UConn Huskies,2.0,,,-105,,,,,,-101,,,Lowvig_Odds,-101,1.9901,1.9524,1.0193,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,Boston College Eagles,UConn Huskies,2.5,,,,-110,,,-114,,,-118,,Betus_Odds,-110,1.9091,1.8623,1.0251,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,UConn Huskies,Boston College Eagles,-2.5,,,,-110,,,-114,,,-111,,Betus_Odds,-110,1.9091,1.889,1.0106,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,UConn Huskies,Boston College Eagles,-2.0,,,-115,,,,,,-111,,,Lowvig_Odds,-111,1.9009,1.8696,1.0168,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,UConn Huskies,Boston College Eagles,-1.5,-110,,,,,-110,,-105,,,-120,Fanatics_Odds,-105,1.9524,1.8838,1.0364,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Spread,UConn Huskies,Boston College Eagles,2.5,,,,,-135,,,,,,,Bovada_Odds,-135,1.7407,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,53.5,,,,,,-120,,,,,,DraftKings_Odds,-120,1.8333,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,54.5,-115,,,,-110,,102,,,,,FanDuel_Odds,102,2.02,1.8893,1.0692,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,55.5,,,,,,,,-110,,,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,57.5,,,,,,,,,,-111,,Mybookieag_Odds,-111,1.9009,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,58.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Over,,58.5,,,100,,,,,,102,,,Lowvig_Odds,102,2.02,2.0,1.01,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,53.5,,,,,,-110,,,,,,DraftKings_Odds,-110,1.9091,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,54.5,-110,,,,-120,,-136,,,,,BetMGM_Odds,-110,1.9091,1.7843,1.0699,TRUE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,55.5,,,,,,,,-120,,,-120,Fanatics_Odds,-120,1.8333,1.8333,1.0,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,57.5,,,,,,,,,,-118,,Mybookieag_Odds,-118,1.8475,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,58.0,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+UConn Huskies @ Boston College Eagles,2025-10-18 12:03 ET,Total,Under,,58.5,,,-120,,,,,,-119,,,Lowvig_Odds,-119,1.8403,1.8333,1.0038,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Moneyline,Boise State Broncos,UNLV Rebels,,-500,-560,-500,-500,-510,-485,-460,-500,-500,-526,-480,FanDuel_Odds,-460,1.2174,1.1979,1.0162,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Moneyline,UNLV Rebels,Boise State Broncos,,375,350,383,390,370,370,360,370,383,370,360,Betus_Odds,390,4.9,4.691,1.0446,TRUE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,Boise State Broncos,UNLV Rebels,-13.5,-110,,,,,-105,-105,-110,,-110,,DraftKings_Odds,-105,1.9524,1.9199,1.0169,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,Boise State Broncos,UNLV Rebels,-13.0,,-114,-110,-110,-115,,,,-106,,-110,Lowvig_Odds,-106,1.9434,1.8948,1.0256,TRUE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,UNLV Rebels,Boise State Broncos,13.0,,-113,-110,-110,-105,,,,-106,,-110,Bovada_Odds,-105,1.9524,1.9111,1.0216,TRUE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Spread,UNLV Rebels,Boise State Broncos,13.5,-110,,,,,-115,-115,-110,,-110,,Fanatics_Odds,-110,1.9091,1.8893,1.0105,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,60.0,,,-112,,,,,,-110,,,Lowvig_Odds,-110,1.9091,1.8929,1.0086,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,60.5,,-112,,,,-115,,,,,,BetRivers_Odds,-112,1.8929,1.8696,1.0125,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,61.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Over,,61.5,-105,,,,,,-110,,,,,BetMGM_Odds,-105,1.9524,1.9091,1.0227,TRUE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,60.0,,,-108,,,,,,-106,,,Lowvig_Odds,-106,1.9434,1.9259,1.0091,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,60.5,,-112,,,,-105,,,,,,DraftKings_Odds,-105,1.9524,1.8929,1.0314,TRUE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,61.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
+UNLV Rebels @ Boise State Broncos,2025-10-18 15:30 ET,Total,Under,,61.5,-115,,,,,,-110,,,,,FanDuel_Odds,-110,1.9091,1.8696,1.0211,TRUE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Moneyline,Notre Dame Fighting Irish,USC Trojans,,,-400,-380,-365,-390,-360,-370,-375,-380,-420,-385,DraftKings_Odds,-360,1.2778,1.2602,1.014,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Moneyline,USC Trojans,Notre Dame Fighting Irish,,,285,303,293,295,285,295,290,303,310,300,Mybookieag_Odds,310,4.1,3.9433,1.0397,TRUE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,Notre Dame Fighting Irish,USC Trojans,-11.0,,,-108,,,,,,-104,,,Lowvig_Odds,-104,1.9615,1.9259,1.0185,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,Notre Dame Fighting Irish,USC Trojans,-10.5,,,,-110,-105,-105,-102,-105,,-110,-110,FanDuel_Odds,-102,1.9804,1.9307,1.0257,TRUE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,Notre Dame Fighting Irish,USC Trojans,-10.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,USC Trojans,Notre Dame Fighting Irish,10.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,USC Trojans,Notre Dame Fighting Irish,10.5,,,,-110,-115,-115,-120,-115,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8767,1.0173,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Spread,USC Trojans,Notre Dame Fighting Irish,11.0,,,-112,,,,,,-108,,,Lowvig_Odds,-108,1.9259,1.8929,1.0175,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Over,,59.5,,-113,,,-110,-110,-110,-110,,,,DraftKings_Odds,-110,1.9091,1.9031,1.0032,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Over,,60.0,,,-110,,,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Over,,60.5,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Under,,59.5,,-110,,,-110,-110,-110,-110,,,,DraftKings_Odds,-110,1.9091,1.9091,1.0,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Under,,60.0,,,-110,,,,,,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+USC Trojans @ Notre Dame Fighting Irish,2025-10-18 19:30 ET,Total,Under,,60.5,,,,-110,,,,,,,,Betus_Odds,-110,1.9091,,,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Moneyline,North Texas Mean Green,UTSA Roadrunners,,-185,-180,-180,-180,-195,-192,-172,-180,-180,-187,-190,FanDuel_Odds,-172,1.5814,1.5413,1.026,TRUE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Moneyline,UTSA Roadrunners,North Texas Mean Green,,150,143,157,155,165,160,144,150,157,151,158,Bovada_Odds,165,2.65,2.525,1.0495,TRUE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,North Texas Mean Green,UTSA Roadrunners,-4.5,-105,,,,-110,-108,,,,,,BetMGM_Odds,-105,1.9524,1.9175,1.0182,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,North Texas Mean Green,UTSA Roadrunners,-4.0,,-109,-115,-115,,,,-110,-111,-110,-115,BetRivers_Odds,-109,1.9174,1.888,1.0156,FALSE
 UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,North Texas Mean Green,UTSA Roadrunners,-3.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
 UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,UTSA Roadrunners,North Texas Mean Green,3.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,UTSA Roadrunners,North Texas Mean Green,4.0,,-114,-106,-105,-110,-112,,-110,-102,-110,-110,Lowvig_Odds,-102,1.9804,1.9128,1.0354,TRUE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,UTSA Roadrunners,North Texas Mean Green,4.5,-115,,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Over,,64.5,-115,,,-110,-110,-115,-110,-115,,-110,,FanDuel_Odds,-110,1.9091,1.8893,1.0105,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Over,,65.0,,-114,-110,,,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.8985,1.0145,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Under,,64.5,-105,,,-110,-110,-105,-110,-105,,-110,,DraftKings_Odds,-105,1.9524,1.9235,1.015,FALSE
-UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Under,,65.0,,-109,-110,,,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9119,1.0074,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Moneyline,BYU Cougars,Utah Utes,,150,150,153,146,155,154,146,150,,146,150,Bovada_Odds,155,2.55,2.4944,1.0223,TRUE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Moneyline,Utah Utes,BYU Cougars,,-185,-186,-175,-170,-180,-185,-174,-180,,-180,-178,Betus_Odds,-170,1.5882,1.5548,1.0215,TRUE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,BYU Cougars,Utah Utes,3.5,-110,,-110,-110,-105,-112,-105,-110,,-110,-110,FanDuel_Odds,-105,1.9524,1.9125,1.0209,TRUE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,BYU Cougars,Utah Utes,4.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,Utah Utes,BYU Cougars,-4.0,,-112,,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,Utah Utes,BYU Cougars,-3.5,-110,,-110,-110,-115,-108,-115,-110,,-110,-110,DraftKings_Odds,-108,1.9259,1.8992,1.0141,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,48.5,-115,,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,49.0,,-110,-115,-115,,,,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8893,1.0105,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,49.5,,,,,-110,-105,-105,-105,,,,DraftKings_Odds,-105,1.9524,1.938,1.0074,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,48.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,49.0,,-113,-105,-105,,,,,,-110,-110,Betonlineag_Odds,-105,1.9524,1.9139,1.0201,TRUE
-Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,49.5,,,,,-110,-115,-115,-115,,,,Bovada_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Moneyline,Michigan Wolverines,Washington Huskies,,-190,-205,-180,-190,-185,-185,-180,-190,-180,-196,-190,FanDuel_Odds,-180,1.5556,1.5295,1.017,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Moneyline,Washington Huskies,Michigan Wolverines,,160,163,157,163,160,154,152,155,157,158,158,BetRivers_Odds,163,2.63,2.574,1.0218,TRUE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Spread,Michigan Wolverines,Washington Huskies,-4.5,-110,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Spread,Michigan Wolverines,Washington Huskies,-4.0,,-109,-110,-110,-110,-112,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9081,1.0185,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Spread,Washington Huskies,Michigan Wolverines,4.0,,-115,-110,-110,-110,-108,,-110,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.9063,1.0195,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Spread,Washington Huskies,Michigan Wolverines,4.5,-110,,,,,,-115,,,,,BetMGM_Odds,-110,1.9091,1.8696,1.0211,TRUE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Over,,49.5,,,,,,-112,,,,,,DraftKings_Odds,-112,1.8929,,,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Over,,50.0,,,-110,-110,-110,,,-110,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Over,,50.5,-110,-110,,,,,-105,,,-110,-110,FanDuel_Odds,-105,1.9524,1.9091,1.0227,TRUE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Under,,49.5,,,,,,-108,,,,,,DraftKings_Odds,-108,1.9259,,,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Under,,50.0,,,-110,-110,-110,,,-110,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
-Washington Huskies @ Michigan Wolverines,2025-10-18 12:00 ET,Total,Under,,50.5,-110,-113,,,,,-115,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8932,1.0084,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Moneyline,Virginia Cavaliers,Washington State Cougars,,-900,-1000,-950,-950,-950,-950,-900,-950,-950,-1009,-900,FanDuel_Odds,-900,1.1111,1.1053,1.0053,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Moneyline,Washington State Cougars,Virginia Cavaliers,,600,575,637,630,600,625,610,620,637,601,600,Betonlineag_Odds,637,7.37,7.098,1.0383,TRUE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,UTSA Roadrunners,North Texas Mean Green,4.0,,-114,-105,-105,,,,-110,-101,-110,-105,Lowvig_Odds,-101,1.9901,1.9254,1.0336,TRUE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Spread,UTSA Roadrunners,North Texas Mean Green,4.5,-115,,,,-110,-112,,,,,,Bovada_Odds,-110,1.9091,1.8812,1.0148,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Over,,64.5,-115,,,-110,,-115,-110,,,,,FanDuel_Odds,-110,1.9091,1.8827,1.014,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Over,,65.0,,-114,-110,,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9038,1.0116,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Under,,64.5,-105,,,-110,,-105,-110,,,,,DraftKings_Odds,-105,1.9524,1.9235,1.015,FALSE
+UTSA Roadrunners @ North Texas Mean Green,2025-10-18 15:30 ET,Total,Under,,65.0,,-109,-110,,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9105,1.0081,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Moneyline,BYU Cougars,Utah Utes,,,150,165,155,160,160,144,155,,150,158,Betonlineag_Odds,165,2.65,2.54,1.0433,TRUE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Moneyline,Utah Utes,BYU Cougars,,,-186,-190,-180,-185,-192,-172,-190,,-186,-190,FanDuel_Odds,-172,1.5814,1.5339,1.031,TRUE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,BYU Cougars,Utah Utes,3.5,,,,,,,-105,,,,,FanDuel_Odds,-105,1.9524,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,BYU Cougars,Utah Utes,4.0,,-112,,-110,-105,-112,,-110,,-110,-110,Bovada_Odds,-105,1.9524,1.9037,1.0256,TRUE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,BYU Cougars,Utah Utes,4.5,,,-115,,,,,,,,,Betonlineag_Odds,-115,1.8696,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,Utah Utes,BYU Cougars,-4.5,,,-105,,,,,,,,,Betonlineag_Odds,-105,1.9524,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,Utah Utes,BYU Cougars,-4.0,,-112,,-110,-115,-108,,-110,,-110,-110,DraftKings_Odds,-108,1.9259,1.8998,1.0138,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Spread,Utah Utes,BYU Cougars,-3.5,,,,,,,-115,,,,,FanDuel_Odds,-115,1.8696,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,48.5,,,,,,,-110,,,,,FanDuel_Odds,-110,1.9091,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,49.0,,-110,-115,-115,-115,,,,,-110,-110,Mybookieag_Odds,-110,1.9091,1.8854,1.0126,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Over,,49.5,,,,,,-105,,-105,,,,DraftKings_Odds,-105,1.9524,1.9524,1.0,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,48.5,,,,,,,-110,,,,,FanDuel_Odds,-110,1.9091,,,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,49.0,,-113,-105,-105,-105,,,,,-110,-110,Betonlineag_Odds,-105,1.9524,1.9216,1.016,FALSE
+Utah Utes @ BYU Cougars,2025-10-18 20:00 ET,Total,Under,,49.5,,,,,,-115,,-115,,,,DraftKings_Odds,-115,1.8696,1.8696,1.0,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Moneyline,Michigan Wolverines,Washington Huskies,,-185,-205,-175,-175,-195,-192,-186,-190,-175,-182,-190,Lowvig_Odds,-175,1.5714,1.5345,1.0241,TRUE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Moneyline,Washington Huskies,Michigan Wolverines,,150,163,153,150,165,160,144,155,153,145,158,Bovada_Odds,165,2.65,2.531,1.047,TRUE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Spread,Michigan Wolverines,Washington Huskies,-4.5,,,,,,,-112,,,-111,,Mybookieag_Odds,-111,1.9009,1.8929,1.0042,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Spread,Michigan Wolverines,Washington Huskies,-4.0,-110,-112,-110,-110,-115,-112,,-110,-106,,-110,Lowvig_Odds,-106,1.9434,1.9001,1.0228,TRUE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Spread,Washington Huskies,Michigan Wolverines,4.0,-110,-113,-110,-110,-105,-108,,-110,-106,,-110,Bovada_Odds,-105,1.9524,1.9125,1.0209,TRUE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Spread,Washington Huskies,Michigan Wolverines,4.5,,,,,,,-118,,,-118,,FanDuel_Odds,-118,1.8475,1.8475,1.0,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Over,,50.5,-110,-110,,,,-110,,-115,,-125,,DraftKings_Odds,-110,1.9091,1.8719,1.0198,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Over,,51.0,,,,-110,-105,,,,,,-110,Bovada_Odds,-105,1.9524,1.9091,1.0227,TRUE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Over,,51.5,,,-110,,,,-110,,-108,,,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Under,,50.5,-110,-112,,,,-110,,-105,,-105,,Mybookieag_Odds,-105,1.9524,1.9159,1.0191,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Under,,51.0,,,,-110,-115,,,,,,-110,WilliamhillUs_Odds,-110,1.9091,1.8893,1.0105,FALSE
+Washington Huskies @ Michigan Wolverines,2025-10-18 12:12 ET,Total,Under,,51.5,,,-110,,,,-120,,-108,,,Lowvig_Odds,-108,1.9259,1.8712,1.0292,TRUE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Moneyline,Virginia Cavaliers,Washington State Cougars,,-900,-1000,-950,-950,-950,-950,-900,-900,-950,-1009,-900,FanDuel_Odds,-900,1.1111,1.1059,1.0047,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Moneyline,Washington State Cougars,Virginia Cavaliers,,600,575,637,630,600,625,610,600,637,601,600,Betonlineag_Odds,637,7.37,7.078,1.0413,TRUE
 Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Virginia Cavaliers,Washington State Cougars,-17.5,-105,,,,,,-108,,,,,BetMGM_Odds,-105,1.9524,1.9259,1.0137,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Virginia Cavaliers,Washington State Cougars,-17.0,,,-115,-110,-110,,,-110,-111,-110,-110,Fanatics_Odds,-110,1.9091,1.9011,1.0042,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Virginia Cavaliers,Washington State Cougars,-16.5,,-117,,,,-118,,,,,,BetRivers_Odds,-117,1.8547,1.8475,1.0039,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Washington State Cougars,Virginia Cavaliers,16.5,,-110,,,,-102,,,,,,DraftKings_Odds,-102,1.9804,1.9091,1.0373,TRUE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Washington State Cougars,Virginia Cavaliers,17.0,,,-105,-110,-110,,,-110,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9163,1.0385,TRUE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Virginia Cavaliers,Washington State Cougars,-17.0,,-108,-115,-110,-110,,,-110,-111,-110,-110,BetRivers_Odds,-108,1.9259,1.9023,1.0124,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Virginia Cavaliers,Washington State Cougars,-16.5,,,,,,-118,,,,,,DraftKings_Odds,-118,1.8475,,,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Washington State Cougars,Virginia Cavaliers,16.5,,,,,,-102,,,,,,DraftKings_Odds,-102,1.9804,,,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Washington State Cougars,Virginia Cavaliers,17.0,,-115,-105,-110,-110,,,-110,-101,-110,-110,Lowvig_Odds,-101,1.9901,1.9096,1.0421,TRUE
 Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Spread,Washington State Cougars,Virginia Cavaliers,17.5,-115,,,,,,-112,,,,,FanDuel_Odds,-112,1.8929,1.8696,1.0125,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Over,,55.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Over,,55.5,-105,-113,-105,,,-102,-110,,-103,,,DraftKings_Odds,-102,1.9804,1.9339,1.024,TRUE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Under,,55.0,,,,-110,-110,,,-110,,-110,-110,Fanatics_Odds,-110,1.9091,1.9091,1.0,FALSE
-Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Under,,55.5,-115,-110,-115,,,-118,-110,,-114,,,FanDuel_Odds,-110,1.9091,1.8746,1.0184,FALSE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Moneyline,UCF Knights,West Virginia Mountaineers,,-285,-295,-300,-280,-300,-310,-320,-300,-300,-319,-310,Betus_Odds,-280,1.3571,1.3294,1.0208,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Moneyline,West Virginia Mountaineers,UCF Knights,,230,225,245,235,250,250,260,240,245,247,240,FanDuel_Odds,260,3.6,3.407,1.0566,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,UCF Knights,West Virginia Mountaineers,-8.0,,,,,-120,,,,,-110,,Mybookieag_Odds,-110,1.9091,1.8333,1.0413,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,UCF Knights,West Virginia Mountaineers,-7.5,-110,-112,-110,-110,,-112,-115,-110,-108,,-110,Lowvig_Odds,-108,1.9259,1.9001,1.0136,FALSE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,West Virginia Mountaineers,UCF Knights,7.5,-110,-112,-110,-110,,-108,-105,-110,-104,,-112,Lowvig_Odds,-104,1.9615,1.9125,1.0256,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,West Virginia Mountaineers,UCF Knights,8.0,,,,,100,,,,,-110,,Bovada_Odds,100,2.0,1.9091,1.0476,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Over,,46.5,-115,,,,,-115,-114,,,,-112,WilliamhillUs_Odds,-112,1.8929,1.8721,1.0111,FALSE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Over,,47.0,,-112,-108,-110,-115,,,-110,-106,-110,,Lowvig_Odds,-106,1.9434,1.9026,1.0214,TRUE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Under,,46.5,-105,,,,,-105,-106,,,,-110,DraftKings_Odds,-105,1.9524,1.935,1.009,FALSE
-West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Under,,47.0,,-112,-112,-110,-105,,,-110,-110,-110,,Bovada_Odds,-105,1.9524,1.9037,1.0256,TRUE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Moneyline,Air Force Falcons,Wyoming Cowboys,,-190,-195,-190,-190,-195,-198,-184,-195,-190,-195,-193,FanDuel_Odds,-184,1.5435,1.518,1.0168,FALSE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Moneyline,Wyoming Cowboys,Air Force Falcons,,155,155,165,163,165,164,154,160,165,157,155,Lowvig_Odds,165,2.65,2.593,1.022,TRUE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Spread,Air Force Falcons,Wyoming Cowboys,-4.5,-110,-107,-110,-110,-110,-108,-110,-110,-106,-110,-108,Lowvig_Odds,-106,1.9434,1.915,1.0148,FALSE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Spread,Wyoming Cowboys,Air Force Falcons,4.5,-110,-115,-110,-110,-110,-112,-110,-110,-106,-110,-113,Lowvig_Odds,-106,1.9434,1.9011,1.0222,TRUE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Over,,57.0,,-113,,,,,,,,,,BetRivers_Odds,-113,1.885,,,FALSE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Over,,57.5,-115,,-110,-110,-115,-112,-114,-115,-108,-110,-112,Lowvig_Odds,-108,1.9259,1.8888,1.0197,FALSE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Under,,57.0,,-110,,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
-Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Under,,57.5,-105,,-110,-110,-105,-108,-106,-105,-108,-110,-109,Bovada_Odds,-105,1.9524,1.9272,1.0131,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Over,,55.0,,,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Over,,55.5,-105,-109,,,,-102,-110,,,,,DraftKings_Odds,-102,1.9804,1.9263,1.0281,TRUE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Under,,55.0,,,-110,-110,-110,,,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9091,1.0088,FALSE
+Washington State Cougars @ Virginia Cavaliers,2025-10-18 18:30 ET,Total,Under,,55.5,-115,-114,,,,-118,-110,,,,,FanDuel_Odds,-110,1.9091,1.8647,1.0238,TRUE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Moneyline,UCF Knights,West Virginia Mountaineers,,-275,-295,-260,-260,-275,-278,-270,-280,-260,-288,-290,Betonlineag_Odds,-260,1.3846,1.3615,1.017,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Moneyline,West Virginia Mountaineers,UCF Knights,,220,225,215,218,225,225,220,225,215,223,225,DraftKings_Odds,225,3.25,3.211,1.0121,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,UCF Knights,West Virginia Mountaineers,-7.5,,-112,,,,,-106,,,,,FanDuel_Odds,-106,1.9434,1.8929,1.0267,TRUE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,UCF Knights,West Virginia Mountaineers,-7.0,-110,,-113,-115,-125,-115,,-115,-109,-110,-111,Lowvig_Odds,-109,1.9174,1.8766,1.0218,TRUE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,West Virginia Mountaineers,UCF Knights,7.0,-110,,-107,-105,105,-105,,-105,-103,-110,-111,Bovada_Odds,105,2.05,1.9352,1.0593,TRUE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Spread,West Virginia Mountaineers,UCF Knights,7.5,,-112,,,,,-114,,,,,BetRivers_Odds,-112,1.8929,1.8772,1.0083,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Over,,46.5,,,-110,,,-115,-114,,-108,,-112,Lowvig_Odds,-108,1.9259,1.8872,1.0205,TRUE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Over,,47.0,,-112,,-110,-110,,,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.905,1.0021,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Over,,47.5,-105,,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Under,,46.5,,,-110,,,-105,-106,,-108,,-110,DraftKings_Odds,-105,1.9524,1.9219,1.0159,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Under,,47.0,,-112,,-110,-110,,,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.905,1.0021,FALSE
+West Virginia Mountaineers @ UCF Knights,2025-10-18 13:00 ET,Total,Under,,47.5,-115,,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Moneyline,Air Force Falcons,Wyoming Cowboys,,-190,-195,-190,-190,-195,-205,-184,-195,-190,-195,-193,FanDuel_Odds,-184,1.5435,1.5162,1.018,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Moneyline,Wyoming Cowboys,Air Force Falcons,,155,155,165,163,165,170,154,160,165,157,155,DraftKings_Odds,170,2.7,2.594,1.0409,TRUE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Spread,Air Force Falcons,Wyoming Cowboys,-4.5,-110,-107,-115,-110,-110,-108,-110,-110,-111,-110,-108,BetRivers_Odds,-107,1.9346,1.9077,1.0141,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Spread,Wyoming Cowboys,Air Force Falcons,4.5,-110,-115,-105,-110,-110,-112,-110,-110,-101,-110,-113,Lowvig_Odds,-101,1.9901,1.9054,1.0444,TRUE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Over,,56.5,,,,,-115,,,,,,,Bovada_Odds,-115,1.8696,,,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Over,,57.0,,-113,,-110,,,,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.901,1.0042,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Over,,57.5,-110,,-105,,,-108,-114,,-103,,-107,Lowvig_Odds,-103,1.9709,1.9198,1.0266,TRUE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Under,,56.5,,,,,-105,,,,,,,Bovada_Odds,-105,1.9524,,,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Under,,57.0,,-110,,-110,,,,-110,,-110,,Mybookieag_Odds,-110,1.9091,1.9091,1.0,FALSE
+Wyoming Cowboys @ Air Force Falcons,2025-10-18 15:30 ET,Total,Under,,57.5,-110,,-115,,,-112,-106,,-114,,-114,FanDuel_Odds,-106,1.9434,1.8852,1.0309,TRUE
