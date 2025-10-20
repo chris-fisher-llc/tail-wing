@@ -1,0 +1,63 @@
+name: Update NBA Player Props
+
+on:
+  schedule:
+    # 8:00 AM ET year-round (run at both UTC times to cover DST)
+    - cron: "0 12 * * *"   # 8am EDT
+    - cron: "0 13 * * *"   # 8am EST
+  workflow_dispatch:  # <-- Triggered by the Streamlit button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-nba-props
+  cancel-in-progress: false
+
+jobs:
+  update-csv:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: NBA   # <- exact folder name in repo root (case-sensitive)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify layout (debug)
+        run: |
+          pwd
+          ls -la
+          echo "----- NBA dir -----"
+          ls -la .
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install requests pandas pytz
+
+      - name: Run scraper (now → end of tomorrow ET)
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: |
+          python nba_player_props.py
+          test -f nba_player_props.csv || (echo "CSV missing after run" && exit 1)
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add nba_player_props.csv
+            git commit -m "Auto-update NBA props ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
