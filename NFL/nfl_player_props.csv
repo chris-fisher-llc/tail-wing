@@ -1,10 +1,10 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,betPARX,best_book,best_odds,best_decimal,avg_other,value_ratio
 Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,80,,,,,2300.0,,,,800.0,,DraftKings,2300.0,24.0,9.0,2.6666666666666665
 Houston Texans @ Seattle Seahawks,Zach Charbonnet,Receiving,50,,,,,1700.0,,,,600.0,,DraftKings,1700.0,18.0,7.0,2.5714285714285716
-Atlanta Falcons @ San Francisco 49ers,Jake Tonges,Receiving,50,,,,,930.0,2500.0,,,,,ESPNBET,2500.0,26.0,10.3,2.524271844660194
 Atlanta Falcons @ San Francisco 49ers,Nathan Carter,AnytimeTD,Anytime,,2200.0,2200.0,2500.0,2500.0,,2700.0,,5000.0,2200.0,HardRockBet,5000.0,51.0,24.833333333333332,2.053691275167785
 Houston Texans @ Seattle Seahawks,George Holani,AnytimeTD,Anytime,3500.0,850.0,2000.0,2100.0,2500.0,,2000.0,1300.0,,850.0,BetMGM,3500.0,36.0,17.571428571428573,2.048780487804878
 Atlanta Falcons @ San Francisco 49ers,Kyle Juszczyk,Receiving,25,,,,,514.0,,,,200.0,,DraftKings,514.0,6.14,3.0,2.0466666666666664
+Atlanta Falcons @ San Francisco 49ers,Jake Tonges,Receiving,50,,,,,930.0,2000.0,,,,,ESPNBET,2000.0,21.0,10.3,2.0388349514563107
 Atlanta Falcons @ San Francisco 49ers,Michael Penix Jr.,Rushing,50,,,,,1920.0,4000.0,,,,,ESPNBET,4000.0,41.0,20.2,2.0297029702970297
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Receiving,80,,,,,1660.0,,,,800.0,,DraftKings,1660.0,17.6,9.0,1.9555555555555557
 Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Receiving,50,,,,,1480.0,2000.0,,,600.0,,ESPNBET,2000.0,21.0,11.4,1.8421052631578947
@@ -20,16 +20,15 @@ Houston Texans @ Seattle Seahawks,Seattle Seahawks D/ST,AnytimeTD,Anytime,825.0,
 Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,80,,,,,1340.0,1800.0,,,800.0,,ESPNBET,1800.0,19.0,11.7,1.623931623931624
 Atlanta Falcons @ San Francisco 49ers,Michael Penix Jr.,Passing,350,,,1500.0,,2300.0,,1400.0,,,,DraftKings,2300.0,24.0,15.5,1.5483870967741935
 Atlanta Falcons @ San Francisco 49ers,Jake Tonges,Receiving,25,,,,,248.0,,400.0,,200.0,,FanDuel,400.0,5.0,3.24,1.5432098765432098
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,50,,,,,582.0,900.0,,,525.0,,ESPNBET,900.0,10.0,6.535,1.530221882172915
 Tampa Bay Buccaneers @ Detroit Lions,Dominic Lovett,AnytimeTD,Anytime,4000.0,3500.0,6000.0,3500.0,3500.0,,6000.0,2200.0,5000.0,3500.0,Bovada,6000.0,61.0,40.0,1.525
 Houston Texans @ Seattle Seahawks,Eric Saubert,AnytimeTD,Anytime,3300.0,2200.0,2500.0,2200.0,2200.0,,2700.0,1700.0,1600.0,2200.0,BetMGM,3300.0,34.0,22.625,1.5027624309392265
-Atlanta Falcons @ San Francisco 49ers,Feleipe Franks,AnytimeTD,Anytime,,3500.0,3300.0,3300.0,4000.0,,4000.0,1800.0,5000.0,3500.0,HardRockBet,5000.0,51.0,34.42857142857143,1.4813278008298754
 Tampa Bay Buccaneers @ Detroit Lions,Devin Culp,AnytimeTD,Anytime,1100.0,1600.0,900.0,950.0,1200.0,,900.0,850.0,900.0,1600.0,BetRivers,1600.0,17.0,11.5,1.4782608695652173
 Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Receiving,25,,,,,342.0,,,,200.0,,DraftKings,342.0,4.42,3.0,1.4733333333333334
 Tampa Bay Buccaneers @ Detroit Lions,Jacob Saylors,AnytimeTD,Anytime,3500.0,2800.0,2500.0,2200.0,3000.0,,2700.0,1700.0,1100.0,2800.0,BetMGM,3500.0,36.0,24.5,1.469387755102041
 Atlanta Falcons @ San Francisco 49ers,KhaDarel Hodge,AnytimeTD,Anytime,,2200.0,2000.0,2000.0,2000.0,,2200.0,1500.0,3000.0,2200.0,HardRockBet,3000.0,31.0,21.142857142857142,1.4662162162162162
 Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,350,,,,,1920.0,,1280.0,,,,DraftKings,1920.0,20.2,13.8,1.4637681159420288
 Atlanta Falcons @ San Francisco 49ers,Brian Robinson Jr.,Rushing,50,,,,,1040.0,1300.0,1200.0,,1750.0,,HardRockBet,1750.0,18.5,12.799999999999999,1.4453125000000002
+Atlanta Falcons @ San Francisco 49ers,Feleipe Franks,AnytimeTD,Anytime,,3500.0,3300.0,3300.0,4000.0,,4000.0,2500.0,5000.0,3500.0,HardRockBet,5000.0,51.0,35.42857142857143,1.439516129032258
 Houston Texans @ Seattle Seahawks,Brady Russell,AnytimeTD,Anytime,3300.0,2400.0,,2500.0,2200.0,,,1900.0,,2400.0,BetMGM,3300.0,34.0,23.8,1.4285714285714286
 Atlanta Falcons @ San Francisco 49ers,Tyler Allgeier,Rushing,80,,,850.0,,650.0,750.0,750.0,,1100.0,,HardRockBet,1100.0,12.0,8.5,1.411764705882353
 Houston Texans @ Seattle Seahawks,C.J. Stroud,AnytimeTD,Anytime,800.0,650.0,1100.0,800.0,900.0,,1100.0,700.0,425.0,650.0,Bovada,1100.0,12.0,8.53125,1.4065934065934067
@@ -43,6 +42,7 @@ Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,350,,,,,2000.0,1500.0,1400
 Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,AnytimeTD,Anytime,1700.0,1000.0,1400.0,1300.0,1500.0,,1500.0,1200.0,1000.0,1000.0,BetMGM,1700.0,18.0,13.375,1.3457943925233644
 Atlanta Falcons @ San Francisco 49ers,Michael Penix Jr.,Rushing,25,,,,,600.0,900.0,880.0,,1100.0,,HardRockBet,1100.0,12.0,8.933333333333334,1.3432835820895521
 Houston Texans @ Seattle Seahawks,Harrison Bryant,AnytimeTD,Anytime,2200.0,1700.0,1700.0,1600.0,1800.0,,1700.0,1300.0,1500.0,1700.0,BetMGM,2200.0,23.0,17.25,1.3333333333333333
+Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,50,,,,,582.0,900.0,920.0,,525.0,,FanDuel,920.0,10.2,7.69,1.3263979193758126
 Houston Texans @ Seattle Seahawks,Nick Chubb,Receiving,25,,,,,467.0,,470.0,,200.0,,FanDuel,470.0,5.7,4.335,1.3148788927335642
 Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,110,,,,,1220.0,,920.0,,,,DraftKings,1220.0,13.2,10.2,1.2941176470588236
 Atlanta Falcons @ San Francisco 49ers,Isaac Guerendo,AnytimeTD,Anytime,,1800.0,2200.0,2300.0,2200.0,,2700.0,1700.0,2500.0,1800.0,FanDuel,2700.0,28.0,21.714285714285715,1.2894736842105263
@@ -69,9 +69,9 @@ Atlanta Falcons @ San Francisco 49ers,Charlie Woerner,AnytimeTD,Anytime,,1200.0,
 Atlanta Falcons @ San Francisco 49ers,Jamal Agnew,AnytimeTD,Anytime,,1900.0,1600.0,1600.0,2000.0,,1800.0,1300.0,1300.0,1900.0,DraftKings,2000.0,21.0,17.285714285714285,1.2148760330578514
 Houston Texans @ Seattle Seahawks,Jake Bobo,AnytimeTD,Anytime,2000.0,1900.0,1800.0,1750.0,2200.0,,1800.0,1300.0,2000.0,1900.0,DraftKings,2200.0,23.0,19.0625,1.2065573770491804
 Houston Texans @ Seattle Seahawks,Dare Ogunbowale,AnytimeTD,Anytime,3000.0,2800.0,2200.0,2400.0,3000.0,,2200.0,1900.0,,2800.0,BetMGM,3000.0,31.0,25.714285714285715,1.2055555555555555
-Atlanta Falcons @ San Francisco 49ers,Jake Tonges,AnytimeTD,Anytime,,450.0,525.0,500.0,500.0,,600.0,470.0,475.0,450.0,FanDuel,600.0,7.0,5.814285714285715,1.2039312039312038
 Tampa Bay Buccaneers @ Detroit Lions,Kameron Johnson,AnytimeTD,Anytime,375.0,700.0,700.0,575.0,750.0,,700.0,500.0,,700.0,DraftKings,750.0,8.5,7.071428571428571,1.202020202020202
 Houston Texans @ Seattle Seahawks,Nick Kallerup,AnytimeTD,Anytime,3000.0,3000.0,2500.0,2300.0,2200.0,,2700.0,1700.0,,3000.0,BetMGM,3000.0,31.0,25.857142857142858,1.1988950276243093
+Atlanta Falcons @ San Francisco 49ers,Jake Tonges,AnytimeTD,Anytime,,450.0,525.0,500.0,500.0,,600.0,500.0,475.0,450.0,FanDuel,600.0,7.0,5.857142857142857,1.1951219512195124
 Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Receiving,80,,350.0,,255.0,296.0,275.0,290.0,,200.0,350.0,BetRivers,350.0,4.5,3.776666666666667,1.1915269196822595
 Tampa Bay Buccaneers @ Detroit Lions,Ryan Miller,AnytimeTD,Anytime,400.0,575.0,700.0,550.0,700.0,,700.0,500.0,,575.0,Bovada,700.0,8.0,6.714285714285714,1.1914893617021276
 Atlanta Falcons @ San Francisco 49ers,Jauan Jennings,Receiving,80,,,750.0,525.0,640.0,700.0,680.0,,800.0,,HardRockBet,800.0,9.0,7.589999999999999,1.1857707509881426
@@ -84,26 +84,26 @@ Tampa Bay Buccaneers @ Detroit Lions,Tampa Bay Buccaneers D/ST,AnytimeTD,Anytime
 Tampa Bay Buccaneers @ Detroit Lions,Isaac TeSlaa,AnytimeTD,Anytime,625.0,650.0,500.0,500.0,600.0,,500.0,500.0,450.0,650.0,BetRivers,650.0,7.5,6.40625,1.170731707317073
 Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,110,,440.0,,380.0,490.0,375.0,400.0,,,440.0,DraftKings,490.0,5.9,5.07,1.1637080867850098
 Atlanta Falcons @ San Francisco 49ers,Michael Penix Jr.,Passing,300,,,575.0,450.0,600.0,550.0,550.0,,650.0,,HardRockBet,650.0,7.5,6.45,1.1627906976744187
-Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,80,,,625.0,550.0,492.0,750.0,750.0,,750.0,,ESPNBET,750.0,8.5,7.3340000000000005,1.1589855467684755
 Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,25,,,,,188.0,,240.0,,200.0,,FanDuel,240.0,3.4,2.94,1.1564625850340136
+Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,80,,,625.0,550.0,508.0,750.0,750.0,,750.0,,ESPNBET,750.0,8.5,7.366,1.1539505837632364
 Tampa Bay Buccaneers @ Detroit Lions,Tez Johnson,AnytimeTD,Anytime,240.0,300.0,400.0,340.0,400.0,,400.0,345.0,350.0,300.0,Bovada,400.0,5.0,4.34375,1.1510791366906474
 Atlanta Falcons @ San Francisco 49ers,Mac Jones,Passing,300,,380.0,300.0,250.0,320.0,300.0,320.0,,350.0,380.0,BetRivers,380.0,4.8,4.171428571428572,1.1506849315068493
 Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,80,,,,,578.0,800.0,850.0,,800.0,,FanDuel,850.0,9.5,8.26,1.1501210653753027
 Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,50,,,,,524.0,550.0,580.0,,400.0,,FanDuel,580.0,6.8,5.913333333333334,1.149943630214205
 Houston Texans @ Seattle Seahawks,Elijah Arroyo,AnytimeTD,Anytime,700.0,575.0,625.0,625.0,650.0,,650.0,550.0,525.0,575.0,BetMGM,700.0,8.0,6.96875,1.147982062780269
 Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Passing,300,,380.0,,245.0,331.0,300.0,310.0,,350.0,380.0,BetRivers,380.0,4.8,4.193333333333333,1.1446740858505564
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,25,,,,,136.0,155.0,,,110.0,,ESPNBET,155.0,2.55,2.2300000000000004,1.1434977578475334
 Houston Texans @ Seattle Seahawks,Tory Horton,AnytimeTD,Anytime,575.0,440.0,525.0,500.0,550.0,,550.0,500.0,425.0,440.0,BetMGM,575.0,6.75,5.9125,1.1416490486257929
 Atlanta Falcons @ San Francisco 49ers,Demarcus Robinson,AnytimeTD,Anytime,,370.0,500.0,525.0,550.0,,550.0,500.0,475.0,370.0,DraftKings,550.0,6.5,5.700000000000001,1.1403508771929822
 Atlanta Falcons @ San Francisco 49ers,Kyle Pitts,Receiving,50,,165.0,200.0,145.0,159.0,165.0,176.0,,170.0,165.0,Bovada,200.0,3.0,2.6357142857142857,1.1382113821138211
 Tampa Bay Buccaneers @ Detroit Lions,Payne Durham,AnytimeTD,Anytime,800.0,900.0,900.0,850.0,1000.0,,900.0,700.0,1000.0,900.0,DraftKings,1000.0,11.0,9.6875,1.135483870967742
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,110,,,,600.0,506.0,,640.0,,,,FanDuel,640.0,7.4,6.529999999999999,1.1332312404287903
 Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,110,,335.0,,225.0,250.0,300.0,310.0,,,335.0,BetRivers,335.0,4.35,3.84,1.1328125
-Atlanta Falcons @ San Francisco 49ers,Kyle Juszczyk,AnytimeTD,Anytime,,950.0,800.0,850.0,900.0,,850.0,700.0,750.0,950.0,BetRivers,950.0,10.5,9.285714285714286,1.1307692307692307
 Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,25,,,,,117.0,,132.0,,-105.0,,FanDuel,132.0,2.3200000000000003,2.0611904761904762,1.1255631281044243
 Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,80,,,,,800.0,700.0,700.0,,700.0,,DraftKings,800.0,9.0,8.0,1.125
 Tampa Bay Buccaneers @ Detroit Lions,Kalif Raymond,AnytimeTD,Anytime,850.0,700.0,800.0,750.0,850.0,,800.0,660.0,700.0,700.0,BetMGM,850.0,9.5,8.45,1.124260355029586
+Atlanta Falcons @ San Francisco 49ers,Kyle Juszczyk,AnytimeTD,Anytime,,950.0,800.0,850.0,900.0,,850.0,740.0,750.0,950.0,BetRivers,950.0,10.5,9.342857142857143,1.1238532110091743
 Atlanta Falcons @ San Francisco 49ers,Brian Robinson Jr.,AnytimeTD,Anytime,,650.0,600.0,550.0,600.0,,650.0,550.0,375.0,650.0,BetRivers,650.0,7.5,6.678571428571429,1.1229946524064172
+Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,25,,,,,136.0,155.0,162.0,,110.0,,FanDuel,162.0,2.62,2.3366666666666664,1.1212553495007134
 Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,50,,175.0,175.0,170.0,169.0,200.0,215.0,,210.0,175.0,FanDuel,215.0,3.15,2.82,1.1170212765957448
 Atlanta Falcons @ San Francisco 49ers,George Kittle,Receiving,110,,,850.0,900.0,740.0,800.0,800.0,,,,Caesars,900.0,10.0,8.975,1.1142061281337048
 Houston Texans @ Seattle Seahawks,Nick Chubb,AnytimeTD,Anytime,260.0,215.0,275.0,250.0,265.0,,280.0,270.0,180.0,215.0,FanDuel,280.0,3.8,3.4124999999999996,1.1135531135531136
@@ -149,7 +149,6 @@ Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,80,,425.0,,390.0,42
 Atlanta Falcons @ San Francisco 49ers,Atlanta Falcons Defense,AnytimeTD,Anytime,,,600.0,,,,650.0,,,,FanDuel,650.0,7.5,7.0,1.0714285714285714
 Atlanta Falcons @ San Francisco 49ers,Kendrick Bourne,Receiving,50,,106.0,,-118.0,-109.0,-115.0,-106.0,,-110.0,106.0,BetRivers,106.0,2.06,1.9244901954460838,1.070413351481121
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,AnytimeTD,Anytime,-190.0,-230.0,-230.0,-200.0,-205.0,,-210.0,-210.0,-175.0,-230.0,HardRockBet,-175.0,1.5714285714285714,1.471356180748797,1.0680137087056962
-Atlanta Falcons @ San Francisco 49ers,Drake London,AnytimeTD,Anytime,,160.0,160.0,145.0,160.0,,170.0,155.0,130.0,160.0,FanDuel,170.0,2.7,2.528571428571429,1.0677966101694913
 Houston Texans @ Seattle Seahawks,Nico Collins,AnytimeTD,Anytime,150.0,125.0,150.0,150.0,160.0,,150.0,155.0,145.0,125.0,DraftKings,160.0,2.6,2.4375,1.0666666666666667
 Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,Receiving,50,,155.0,150.0,130.0,146.0,150.0,154.0,,165.0,155.0,HardRockBet,165.0,2.65,2.4857142857142853,1.0660919540229887
 Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,Rushing,110,,340.0,300.0,290.0,343.0,,350.0,,,340.0,FanDuel,350.0,4.5,4.226000000000001,1.0648367250354944
@@ -159,13 +158,14 @@ Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,50,,,,,1140.0,1100.0,1100.
 Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,25,,,,,-1020.0,,,,-3000.0,,DraftKings,-1020.0,1.0980392156862746,1.0333333333333334,1.0626185958254268
 Houston Texans @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,275.0,245.0,260.0,250.0,255.0,,260.0,250.0,260.0,245.0,BetMGM,275.0,3.75,3.53125,1.0619469026548674
 Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,50,,163.0,,135.0,151.0,165.0,172.0,,160.0,163.0,FanDuel,172.0,2.7199999999999998,2.561666666666667,1.0618087182823681
+Atlanta Falcons @ San Francisco 49ers,Drake London,AnytimeTD,Anytime,,160.0,160.0,145.0,160.0,,170.0,165.0,130.0,160.0,FanDuel,170.0,2.7,2.542857142857143,1.0617977528089888
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Receiving,50,,,,450.0,392.0,425.0,430.0,,425.0,,Caesars,450.0,5.5,5.18,1.0617760617760619
 Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,25,,,,,-176.0,-190.0,-178.0,,-155.0,,HardRockBet,-155.0,1.6451612903225805,1.5520984534881637,1.0599593644496383
 Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,AnytimeTD,Anytime,100.0,-114.0,110.0,110.0,110.0,,110.0,110.0,115.0,-114.0,HardRockBet,115.0,2.15,2.031798245614035,1.0581759309228278
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,50,,-245.0,,-205.0,-193.0,-240.0,-220.0,,-230.0,-245.0,DraftKings,-193.0,1.5181347150259068,1.4350210230947997,1.057918100566821
 Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,AnytimeTD,Anytime,-118.0,-103.0,110.0,100.0,105.0,,110.0,100.0,-105.0,-103.0,Bovada,110.0,2.1,1.9864482690393912,1.0571631956041425
-Atlanta Falcons @ San Francisco 49ers,Kyle Pitts,AnytimeTD,Anytime,,280.0,275.0,280.0,300.0,,290.0,270.0,275.0,280.0,DraftKings,300.0,4.0,3.7857142857142856,1.0566037735849056
 Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,50,,-235.0,,-218.0,-215.0,-250.0,-240.0,,-195.0,-235.0,HardRockBet,-195.0,1.5128205128205128,1.4319270619756572,1.0564927173966845
+Atlanta Falcons @ San Francisco 49ers,George Kittle,AnytimeTD,Anytime,,175.0,180.0,180.0,180.0,,185.0,195.0,180.0,175.0,Fanatics,195.0,2.95,2.7928571428571423,1.0562659846547318
 Atlanta Falcons @ San Francisco 49ers,Demarcus Robinson,Receiving,25,,,,,173.0,,162.0,,155.0,,DraftKings,173.0,2.73,2.585,1.056092843326886
 Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,80,,110.0,,-112.0,101.0,-105.0,104.0,,-105.0,110.0,BetRivers,110.0,2.1,1.991269841269841,1.0546034276604226
 Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,50,,220.0,,175.0,224.0,210.0,200.0,,220.0,220.0,DraftKings,224.0,3.24,3.0749999999999997,1.0536585365853661
@@ -177,20 +177,21 @@ Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,AnytimeTD,Anytime,140.0,123
 Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,250,,180.0,,140.0,167.0,165.0,174.0,,175.0,180.0,BetRivers,180.0,2.8,2.6683333333333334,1.0493441599000624
 Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,50,,110.0,,-107.0,105.0,-105.0,102.0,,-105.0,110.0,BetRivers,110.0,2.1,2.00155689066904,1.049183268179829
 Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,50,,118.0,,105.0,112.0,120.0,126.0,,120.0,118.0,FanDuel,126.0,2.26,2.155,1.048723897911833
-Atlanta Falcons @ San Francisco 49ers,Kendrick Bourne,AnytimeTD,Anytime,,190.0,210.0,175.0,210.0,,210.0,195.0,200.0,190.0,Bovada,210.0,3.1,2.957142857142857,1.0483091787439616
 Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,25,,,,,-400.0,,-490.0,,-550.0,,DraftKings,-400.0,1.25,1.1929499072356216,1.0478227060653187
 Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,80,,,,,2100.0,,,,2000.0,,DraftKings,2100.0,22.0,21.0,1.0476190476190477
 Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,50,,-137.0,,-129.0,-132.0,-130.0,-122.0,,-150.0,-137.0,FanDuel,-122.0,1.819672131147541,1.7380868344202245,1.0469397127414126
+Atlanta Falcons @ San Francisco 49ers,Kyle Pitts,AnytimeTD,Anytime,,280.0,275.0,280.0,300.0,,290.0,295.0,275.0,280.0,DraftKings,300.0,4.0,3.8214285714285716,1.0467289719626167
 Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,25,,,,,-305.0,-325.0,-290.0,,-450.0,,FanDuel,-290.0,1.3448275862068966,1.2859277941245155,1.0458033431981935
+Atlanta Falcons @ San Francisco 49ers,Kendrick Bourne,AnytimeTD,Anytime,,190.0,210.0,175.0,210.0,,210.0,200.0,200.0,190.0,Bovada,210.0,3.1,2.9642857142857144,1.0457831325301206
 Houston Texans @ Seattle Seahawks,Zach Charbonnet,AnytimeTD,Anytime,140.0,135.0,135.0,135.0,130.0,,135.0,130.0,145.0,135.0,HardRockBet,145.0,2.45,2.34375,1.0453333333333334
 Atlanta Falcons @ San Francisco 49ers,Christian McCaffrey,Receiving,110,,,1200.0,,1280.0,,1300.0,,,,FanDuel,1300.0,14.0,13.4,1.044776119402985
 Houston Texans @ Seattle Seahawks,Kenneth Walker III,AnytimeTD,Anytime,165.0,150.0,150.0,155.0,165.0,,155.0,165.0,140.0,150.0,BetMGM,165.0,2.65,2.5374999999999996,1.0443349753694582
-Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,AnytimeTD,Anytime,,-205.0,-176.0,-170.0,-170.0,,-170.0,-160.0,-175.0,-200.0,Fanatics,-160.0,1.625,1.5560173071445873,1.0443328570567132
 Atlanta Falcons @ San Francisco 49ers,Drake London,Receiving,80,,123.0,115.0,100.0,114.0,120.0,126.0,,120.0,123.0,FanDuel,126.0,2.26,2.164285714285714,1.0442244224422441
 Atlanta Falcons @ San Francisco 49ers,Jauan Jennings,AnytimeTD,Anytime,,255.0,250.0,235.0,230.0,,250.0,240.0,220.0,255.0,BetRivers,255.0,3.55,3.3999999999999995,1.0441176470588236
 Atlanta Falcons @ San Francisco 49ers,Michael Penix Jr.,Passing,250,,185.0,175.0,145.0,173.0,175.0,178.0,,180.0,185.0,BetRivers,185.0,2.85,2.7300000000000004,1.0439560439560438
 Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Passing,250,,110.0,,-110.0,104.0,-105.0,102.0,,105.0,110.0,BetRivers,110.0,2.1,2.011911976911977,1.0437832390775001
 Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,25,,,,,-950.0,-1600.0,,,-1800.0,,DraftKings,-950.0,1.1052631578947367,1.0590277777777777,1.0436583261432268
+Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,25,,,-245.0,,-180.0,,-186.0,,-190.0,,DraftKings,-180.0,1.5555555555555556,1.4907044877939857,1.0435036375704079
 Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,AnytimeTD,Anytime,110.0,130.0,120.0,115.0,120.0,,120.0,120.0,130.0,130.0,BetRivers,130.0,2.3,2.20625,1.0424929178470255
 Atlanta Falcons @ San Francisco 49ers,Christian McCaffrey,Rushing,80,,,175.0,150.0,178.0,175.0,182.0,,175.0,,FanDuel,182.0,2.8200000000000003,2.7060000000000004,1.0421286031042127
 Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,50,,165.0,,135.0,163.0,160.0,168.0,,155.0,165.0,FanDuel,168.0,2.6799999999999997,2.5716666666666668,1.0421257290991572
@@ -205,7 +206,6 @@ Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,50,,-118.0,,-120.0,
 Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,25,,,,,-125.0,,-114.0,,-120.0,,FanDuel,-114.0,1.8771929824561404,1.8166666666666669,1.0333172380492515
 Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,25,,,,,136.0,,138.0,,125.0,,FanDuel,138.0,2.38,2.305,1.0325379609544467
 Atlanta Falcons @ San Francisco 49ers,Tyler Allgeier,Rushing,25,,,-225.0,,-236.0,-240.0,-230.0,,-210.0,,HardRockBet,-210.0,1.4761904761904763,1.4299056333415214,1.0323691590337976
-Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,25,,,-245.0,,-187.0,,-186.0,,-190.0,,FanDuel,-186.0,1.5376344086021505,1.4897461376895256,1.0321452559607878
 Atlanta Falcons @ San Francisco 49ers,Christian McCaffrey,Rushing,50,,,-275.0,-250.0,-280.0,-300.0,-270.0,,-275.0,,Caesars,-250.0,1.4,1.3576238576238577,1.0312134632418068
 Houston Texans @ Seattle Seahawks,AJ Barner,AnytimeTD,Anytime,360.0,360.0,350.0,340.0,350.0,,360.0,325.0,325.0,360.0,BetMGM,360.0,4.6,4.4625,1.0308123249299719
 Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,25,,,,,-430.0,-475.0,-470.0,,-600.0,,DraftKings,-430.0,1.2325581395348837,1.1966529799676497,1.0300046547898996
@@ -223,16 +223,16 @@ Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,25,,,,,-1140.0,,-1400.
 Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,80,,-150.0,,-154.0,-152.0,-155.0,-146.0,,-165.0,-150.0,FanDuel,-146.0,1.6849315068493151,1.6486334359848789,1.0220170658147256
 Tampa Bay Buccaneers @ Detroit Lions,Detroit Lions D/ST,AnytimeTD,Anytime,475.0,,,,500.0,,,500.0,,,DraftKings,500.0,6.0,5.875,1.0212765957446808
 Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,Rushing,50,,-590.0,-500.0,-575.0,-501.0,-475.0,-470.0,,-525.0,-590.0,FanDuel,-470.0,1.2127659574468086,1.1876427712849396,1.021153824002724
-Atlanta Falcons @ San Francisco 49ers,George Kittle,AnytimeTD,Anytime,,175.0,180.0,180.0,180.0,,185.0,185.0,180.0,175.0,FanDuel,185.0,2.85,2.7928571428571423,1.0204603580562663
+Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,AnytimeTD,Anytime,,-205.0,-176.0,-170.0,-170.0,,-170.0,-170.0,-175.0,-200.0,Caesars,-170.0,1.5882352941176472,1.5560173071445873,1.0207054168518102
 Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,25,,,,,-266.0,,-275.0,,-300.0,,DraftKings,-266.0,1.3759398496240602,1.3484848484848486,1.020359888485258
 Atlanta Falcons @ San Francisco 49ers,Drake London,Receiving,25,,,,,-1640.0,,,,-2500.0,,DraftKings,-1640.0,1.0609756097560976,1.04,1.0201688555347093
 Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,25,,,,,-850.0,-800.0,-800.0,,-1500.0,,ESPNBET,-800.0,1.125,1.1031045751633988,1.019848911272404
 Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,80,,,,650.0,690.0,700.0,700.0,,700.0,,ESPNBET,700.0,8.0,7.85,1.019108280254777
+Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,AnytimeTD,Anytime,,285.0,300.0,295.0,300.0,,300.0,285.0,300.0,285.0,Bovada,300.0,4.0,3.9285714285714293,1.018181818181818
 Atlanta Falcons @ San Francisco 49ers,George Kittle,Receiving,25,,,-600.0,,-552.0,,-670.0,,-600.0,,DraftKings,-552.0,1.181159420289855,1.160862354892206,1.0174844720496892
 Atlanta Falcons @ San Francisco 49ers,Christian McCaffrey,AnytimeTD,Anytime,,-167.0,-168.0,-162.0,-160.0,,-165.0,-160.0,-190.0,-162.0,DraftKings,-160.0,1.625,1.597997826745219,1.0168975031147436
 Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,50,,-715.0,,-625.0,-589.0,-650.0,-600.0,,-650.0,-715.0,DraftKings,-589.0,1.169779286926995,1.1523465423465424,1.0151280399947693
 Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,AnytimeTD,Anytime,-120.0,-117.0,-122.0,-115.0,-115.0,,-115.0,-120.0,-125.0,-117.0,Caesars,-115.0,1.8695652173913042,1.8418588677498158,1.0150426018663075
-Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,AnytimeTD,Anytime,,285.0,300.0,295.0,300.0,,300.0,295.0,300.0,285.0,Bovada,300.0,4.0,3.942857142857143,1.0144927536231882
 Atlanta Falcons @ San Francisco 49ers,Bijan Robinson,Receiving,25,,,-325.0,,-295.0,,-310.0,,-300.0,,DraftKings,-295.0,1.3389830508474576,1.3212020953956438,1.0134581647378398
 Atlanta Falcons @ San Francisco 49ers,Kyle Pitts,Receiving,25,,,-275.0,,-255.0,,-265.0,,-260.0,,DraftKings,-255.0,1.392156862745098,1.375203412939262,1.0123279579197675
 Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,25,,,,,-289.0,-275.0,-275.0,,-300.0,,ESPNBET,-275.0,1.3636363636363638,1.3476634860717907,1.0118522744955651
@@ -256,7 +256,7 @@ Atlanta Falcons @ San Francisco 49ers,Bryce Huff,AnytimeTD,Anytime,,,,,,,,,5000.
 Atlanta Falcons @ San Francisco 49ers,Casey Washington,Receiving,25,,,,,,,,,200.0,,HardRockBet,200.0,3.0,,
 Atlanta Falcons @ San Francisco 49ers,Casey Washington,Receiving,50,,,,,,,,,600.0,,HardRockBet,600.0,7.0,,
 Atlanta Falcons @ San Francisco 49ers,Chase Lucas,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
-Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,110,,,,,1300.0,,,,,,DraftKings,1300.0,14.0,,
+Atlanta Falcons @ San Francisco 49ers,Darnell Mooney,Receiving,110,,,,,1380.0,,,,,,DraftKings,1380.0,14.8,,
 Atlanta Falcons @ San Francisco 49ers,Darrell Luter Jr.,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ San Francisco 49ers,David Onyemata,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
 Atlanta Falcons @ San Francisco 49ers,DeMarcco Hellams,AnytimeTD,Anytime,,,,,,,,,5000.0,,HardRockBet,5000.0,51.0,,
