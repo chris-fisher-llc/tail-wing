@@ -45,7 +45,7 @@ EXCLUDED_BOOKS = {"BetOnline.ag", "Bally Bet", "Fliff", "ReBet"}
 # ---- Helpers -----------------------------------------------------------------
 
 def american_to_decimal_one(x):
-    \"\"\"Convert one American odds value to Decimal; return None on failure.\"\"\"
+    """Convert one American odds value to Decimal; return None on failure."""
     if x is None:
         return None
     try:
@@ -56,7 +56,7 @@ def american_to_decimal_one(x):
 
 
 def nb_window_now_to_tomorrow():
-    \"\"\"Return (start_utc, end_utc) covering from 'now' through end of *tomorrow* in ET.\"\"\"
+    """Return (start_utc, end_utc) covering from 'now' through end of *tomorrow* in ET."""
     tz_et = ZoneInfo("America/New_York")
     now_utc = datetime.now(timezone.utc)
     now_et = now_utc.astimezone(tz_et)
@@ -77,7 +77,7 @@ for group, keys in MARKETS.items():
 REQUEST_MARKETS = ",".join(sorted({k for keys in MARKETS.values() for k in keys}))
 
 def normalize_threshold(market_key: str, point: float):
-    \"\"\"Map an alt-line 'point' to one of our canonical thresholds with +/-0.5 tolerance.\"\"\"
+    """Map an alt-line 'point' to one of our canonical thresholds with +/-0.5 tolerance."""
     group = MARKET_TO_GROUP.get(market_key)
     if not group:
         return None
@@ -96,7 +96,7 @@ def normalize_threshold(market_key: str, point: float):
 # ---- API calls ---------------------------------------------------------------
 
 def fetch_events():
-    \"\"\"Fetch NBA events and filter to [now, end-of-tomorrow ET] window in UTC.\"\"\"
+    """Fetch NBA events and filter to [now, end-of-tomorrow ET] window in UTC."""
     if not API_KEY:
         print("ERROR: THE_ODDS_API_KEY is not set in your environment.")
         sys.exit(1)
