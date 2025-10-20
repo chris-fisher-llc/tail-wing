@@ -34,7 +34,7 @@ MARKETS = {
     "AnytimeTD": "player_anytime_td",
 }
 
-EXCLUDED_BOOKS = {"BetOnline.ag", "Bally Bet", "Fliff", "ReBet"}
+EXCLUDED_BOOKS = {"BetOnline.ag", "Bally Bet", "Fliff", "ReBet", "betPARX"}
 # ---- Helpers -----------------------------------------------------------------
 
 def american_to_decimal_one(x):
@@ -241,6 +241,7 @@ if __name__ == "__main__":
     out.to_csv("nfl_player_props.csv", index=False)
 
     print("Saved nfl_player_props.csv with", len(out), "rows.")
+
 
 
 
