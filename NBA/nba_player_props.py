@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import math
 import requests
 import pandas as pd
 from datetime import datetime, timedelta, timezone
@@ -62,17 +63,29 @@ def et_window_today_tomorrow():
     # Convert both to UTC for comparison against API datetimes
     return start_et.astimezone(timezone.utc), end_et.astimezone(timezone.utc)
 
-def normalize_threshold(group: str, point: float | None):
+def normalize_threshold(group: str, point):
     if point is None:
         return None
     try:
         p = float(point)
     except Exception:
         return None
-    for t in THRESHOLDS[group]:
-        if abs(p - t) <= 0.5:
+
+    # Alt player props are listed as X.5 for "X+"; always round UP.
+    target = int(math.ceil(p - 1e-9))  # tiny epsilon to avoid 2.0000000001→3
+
+    # If that exact threshold is supported, use it.
+    if target in THRESHOLDS[group]:
+        return str(target)
+
+    # Fallback: pick the smallest configured threshold >= target (e.g., 26 -> 30)
+    for t in sorted(THRESHOLDS[group]):
+        if t >= target:
             return str(t)
+
+    # Otherwise no suitable bucket
     return None
+
 
 def fetch_events():
     # Mirror NFL script structure including dateFormat=iso
