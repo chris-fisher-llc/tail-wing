@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import time
 import math
@@ -63,7 +64,17 @@ def et_window_today_tomorrow():
     # Convert both to UTC for comparison against API datetimes
     return start_et.astimezone(timezone.utc), end_et.astimezone(timezone.utc)
 
-def normalize_threshold(group: str, point):
+PLUS_RE = re.compile(r'(\d+)\+')
+
+def normalize_threshold(group: str, point, *, name=None, description=None):
+    # 1) Prefer explicit "+N" in the text if available
+    txt = f"{name or ''} {description or ''}"
+    m = PLUS_RE.search(txt)
+    if m:
+        t = int(m.group(1))
+        return str(t) if t in THRESHOLDS[group] else None
+
+    # 2) Numeric fallback: for alt props, X.5 corresponds to X+
     if point is None:
         return None
     try:
@@ -71,20 +82,10 @@ def normalize_threshold(group: str, point):
     except Exception:
         return None
 
-    # Alt player props are listed as X.5 for "X+"; always round UP.
-    target = int(math.ceil(p - 1e-9))  # tiny epsilon to avoid 2.0000000001→3
+    target = int(math.ceil(p - 1e-9))  # 2.5->3, 24.5->25; integers stay as-is
 
-    # If that exact threshold is supported, use it.
-    if target in THRESHOLDS[group]:
-        return str(target)
-
-    # Fallback: pick the smallest configured threshold >= target (e.g., 26 -> 30)
-    for t in sorted(THRESHOLDS[group]):
-        if t >= target:
-            return str(t)
-
-    # Otherwise no suitable bucket
-    return None
+    # 3) ONLY keep if it's one of your configured thresholds
+    return str(target) if target in THRESHOLDS[group] else None
 
 
 def fetch_events():
@@ -149,7 +150,12 @@ def main():
                 for o in m.get("outcomes", []) or []:
                     price = o.get("price")
                     player = o.get("description") or o.get("name") or "Unknown"
-                    thr = normalize_threshold(group, o.get("point"))
+                    thr = normalize_threshold(
+                        group,
+                        o.get("point"),
+                        name=o.get("name"),
+                        description=o.get("description"),
+                    )
                     if price is None or not thr:
                         continue
                     rows.append({
