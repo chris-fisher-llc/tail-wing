@@ -53,8 +53,14 @@ def et_window_today_tomorrow():
     tz_et = ZoneInfo("America/New_York")
     now_utc = datetime.now(timezone.utc)
     now_et = now_utc.astimezone(tz_et)
-    end_et = (now_et + timedelta(days=1)).replace(hour=23, minute=59, second=59, microsecond=0)
-    return now_utc, end_et.astimezone(timezone.utc)
+
+    # Start of day (midnight ET)
+    start_et = now_et.replace(hour=0, minute=0, second=0, microsecond=0)
+    # End of day (just before midnight ET)
+    end_et = start_et.replace(hour=23, minute=59, second=59, microsecond=0)
+
+    # Convert both to UTC for comparison against API datetimes
+    return start_et.astimezone(timezone.utc), end_et.astimezone(timezone.utc)
 
 def normalize_threshold(group: str, point: float | None):
     if point is None:
