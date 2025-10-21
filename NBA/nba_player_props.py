@@ -12,7 +12,7 @@ SPORT_KEY = "basketball_nba"
 REGIONS = "us,us2"
 
 # EXACTLY match NFL excluded list
-EXCLUDED_BOOKS = {"BetOnline.ag", "Bally Bet", "Fliff", "ReBet"}
+EXCLUDED_BOOKS = {"BetOnline.ag", "Bally Bet", "Fliff", "ReBet", "betPARX"}
 
 # Use ONLY alternate markets (with the correct key for threes)
 MARKETS = [
