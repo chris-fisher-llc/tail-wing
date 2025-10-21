@@ -1,646 +1,756 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,4,230.0,,,225.0,-121.0,-800.0,-142.0,900.0,HardRockBet,900.0,10.0,2.2411343266208825,4.462026162919789
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Assists,4,340.0,,,,134.0,,,1200.0,HardRockBet,1200.0,13.0,3.37,3.857566765578635
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Assists,4,390.0,,,,126.0,,,1200.0,HardRockBet,1200.0,13.0,3.58,3.631284916201117
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,4,310.0,,,,105.0,,,1000.0,HardRockBet,1000.0,11.0,3.0749999999999997,3.577235772357724
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,15,,,,,450.0,,,1750.0,HardRockBet,1750.0,18.5,5.5,3.3636363636363638
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,4,300.0,,,225.0,-121.0,-500.0,-128.0,700.0,HardRockBet,700.0,8.0,2.411539256198347,3.3173832768584246
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,10,425.0,,,,-157.0,,,-175.0,BetMGM,425.0,5.25,1.6041856232939034,3.2726885989790135
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Points,15,,,,,1460.0,,,5000.0,HardRockBet,5000.0,51.0,15.6,3.269230769230769
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,4,340.0,,,,-178.0,,,850.0,HardRockBet,850.0,9.5,2.9808988764044946,3.186958160572936
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Points,15,,,,,610.0,1600.0,1500.0,4000.0,HardRockBet,4000.0,41.0,13.366666666666667,3.0673316708229423
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,4,240.0,,,-137.0,-133.0,,,550.0,HardRockBet,550.0,6.5,2.2939355688491303,2.8335582255525407
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Assists,4,,,,140.0,148.0,,,500.0,HardRockBet,500.0,6.0,2.44,2.459016393442623
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,25,,,2800.0,,,,,7500.0,HardRockBet,7500.0,76.0,29.0,2.6206896551724137
 Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,25,,,3000.0,,,,,7500.0,HardRockBet,7500.0,76.0,31.0,2.4516129032258065
 Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,25,,,3000.0,,,,,7500.0,HardRockBet,7500.0,76.0,31.0,2.4516129032258065
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,25,,,3000.0,,,,,7500.0,HardRockBet,7500.0,76.0,31.0,2.4516129032258065
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,4,165.0,,,500.0,-131.0,-700.0,-136.0,450.0,Caesars,500.0,6.0,2.5583020078260312,2.3453055900537016
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,4,170.0,,,,-169.0,,,400.0,HardRockBet,400.0,5.0,2.1458579881656803,2.3300703157314215
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,12,,,,,1260.0,,,3000.0,HardRockBet,3000.0,31.0,13.6,2.2794117647058822
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,6,220.0,,,,299.0,320.0,750.0,275.0,FanDuel,750.0,8.5,3.785,2.2457067371202113
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,8,700.0,,,,1120.0,,,2000.0,HardRockBet,2000.0,21.0,10.1,2.0792079207920793
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,10,165.0,,,-440.0,-266.0,,,-450.0,BetMGM,165.0,2.65,1.2751449330396698,2.078195137930692
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,6,,,,425.0,340.0,410.0,900.0,375.0,FanDuel,900.0,10.0,4.875,2.051282051282051
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Assists,4,,,,,135.0,,,375.0,HardRockBet,375.0,4.75,2.35,2.021276595744681
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Points,15,,,,,1640.0,1600.0,,4000.0,HardRockBet,4000.0,41.0,17.2,2.3837209302325584
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,20,,,,,3200.0,1600.0,1500.0,1500.0,DraftKings,3200.0,33.0,16.333333333333332,2.0204081632653064
 Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,45,,,2400.0,,4800.0,,,,DraftKings,4800.0,49.0,25.0,1.96
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,10,,,4000.0,,,,,2000.0,Bovada,4000.0,41.0,21.0,1.9523809523809523
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,4,,180.0,,-420.0,-119.0,-3000.0,-340.0,-130.0,BetRivers,180.0,2.8,1.435022624434389,1.9511887494481932
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,6,,,,,1020.0,,,2000.0,HardRockBet,2000.0,21.0,11.2,1.8750000000000002
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,8,210.0,,190.0,225.0,241.0,600.0,560.0,230.0,ESPNBET,600.0,7.0,3.76,1.8617021276595747
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,4,-250.0,,,,-174.0,-600.0,162.0,-185.0,FanDuel,162.0,2.62,1.420479962721342,1.8444469959158234
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Points,10,425.0,,,-197.0,-126.0,-180.0,350.0,400.0,BetMGM,425.0,5.25,2.871364112480864,1.8283992535742846
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Assists,4,650.0,,,,154.0,,,500.0,BetMGM,650.0,7.5,4.27,1.7564402810304451
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,4,,,,,-117.0,,,225.0,HardRockBet,225.0,3.25,1.8547008547008548,1.7523041474654377
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,10,,,3500.0,,,,,2000.0,Bovada,3500.0,36.0,21.0,1.7142857142857142
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,4,,,,,405.0,,,850.0,HardRockBet,850.0,9.5,5.05,1.8811881188118813
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,30,,,2000.0,,5100.0,,3000.0,3000.0,DraftKings,5100.0,52.0,27.666666666666668,1.8795180722891565
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,5,,,,,1020.0,,,2000.0,HardRockBet,2000.0,21.0,11.2,1.8750000000000002
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,7,,,,,2100.0,,,1100.0,DraftKings,2100.0,22.0,12.0,1.8333333333333333
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,20,,,2100.0,,3500.0,2000.0,,1500.0,DraftKings,3500.0,36.0,19.666666666666668,1.830508474576271
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,20,,,,,2800.0,,,1500.0,DraftKings,2800.0,29.0,16.0,1.8125
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,10,,,,,2600.0,1400.0,1400.0,,DraftKings,2600.0,27.0,15.0,1.8
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,12,,,,,,1600.0,1700.0,3000.0,HardRockBet,3000.0,31.0,17.5,1.7714285714285714
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,20,,,,,3100.0,2000.0,1800.0,1500.0,DraftKings,3100.0,32.0,18.666666666666668,1.7142857142857142
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,7,,,3500.0,,,,,2000.0,Bovada,3500.0,36.0,21.0,1.7142857142857142
 Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,7,,,3500.0,,,,,2000.0,Bovada,3500.0,36.0,21.0,1.7142857142857142
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Assists,4,600.0,,,,-223.0,,,575.0,BetMGM,600.0,7.0,4.0992152466367715,1.7076439217831259
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,8,,,,,1140.0,,,2000.0,HardRockBet,2000.0,21.0,12.4,1.6935483870967742
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,12,,,,,1740.0,,,3000.0,HardRockBet,3000.0,31.0,18.4,1.6847826086956523
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,30,,,2500.0,,4700.0,,,3000.0,DraftKings,4700.0,48.0,28.5,1.6842105263157894
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,6,725.0,,,525.0,600.0,,,1100.0,HardRockBet,1100.0,12.0,7.166666666666667,1.6744186046511627
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,6,195.0,,215.0,195.0,211.0,190.0,400.0,210.0,FanDuel,400.0,5.0,3.026666666666667,1.6519823788546255
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,6,,,,,1180.0,,,2000.0,HardRockBet,2000.0,21.0,12.8,1.640625
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,8,950.0,,,,1500.0,2000.0,,1100.0,ESPNBET,2000.0,21.0,12.833333333333334,1.6363636363636362
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,25,,,1400.0,,1500.0,1600.0,1500.0,2500.0,HardRockBet,2500.0,26.0,16.0,1.625
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,30,,,3000.0,,4900.0,,,,DraftKings,4900.0,50.0,31.0,1.6129032258064515
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,25,,,2000.0,,4700.0,,2500.0,5000.0,HardRockBet,5000.0,51.0,31.666666666666668,1.6105263157894736
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,8,525.0,,600.0,575.0,527.0,1100.0,1060.0,600.0,ESPNBET,1100.0,12.0,7.478333333333333,1.6046356139959885
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,6,250.0,,265.0,250.0,284.0,260.0,540.0,550.0,HardRockBet,550.0,6.5,4.081666666666667,1.592486729277256
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,4,-225.0,114.0,-200.0,-850.0,-181.0,-800.0,-590.0,-200.0,BetRivers,114.0,2.1399999999999997,1.3441527452195723,1.592080965210857
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,8,250.0,,240.0,215.0,207.0,400.0,460.0,200.0,FanDuel,460.0,5.6,3.52,1.5909090909090908
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,25,,,1400.0,,1640.0,1600.0,1500.0,2500.0,HardRockBet,2500.0,26.0,16.35,1.5902140672782874
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,8,450.0,,,400.0,453.0,900.0,870.0,475.0,ESPNBET,900.0,10.0,6.296,1.5883100381194408
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,10,,,,,2700.0,1600.0,1700.0,,DraftKings,2700.0,28.0,17.5,1.6
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,6,,,1900.0,,2800.0,1600.0,1700.0,,DraftKings,2800.0,29.0,18.333333333333332,1.581818181818182
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,12,,,,,2100.0,,,1300.0,DraftKings,2100.0,22.0,14.0,1.5714285714285714
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,8,850.0,,850.0,950.0,910.0,1600.0,1500.0,850.0,ESPNBET,1600.0,17.0,10.85,1.566820276497696
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,8,310.0,,,290.0,211.0,600.0,600.0,325.0,ESPNBET,600.0,7.0,4.4719999999999995,1.5652951699463329
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,10,-120.0,,-1300.0,-560.0,-385.0,-800.0,-102.0,-600.0,FanDuel,-102.0,1.9803921568627452,1.273372460872461,1.5552340086779197
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,8,,,,,2800.0,1600.0,1700.0,2000.0,DraftKings,2800.0,29.0,18.666666666666668,1.5535714285714284
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,35,,,2300.0,,4600.0,,3500.0,3000.0,DraftKings,4600.0,47.0,30.333333333333332,1.5494505494505495
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,10,-115.0,,-800.0,,-397.0,-900.0,100.0,-700.0,FanDuel,100.0,2.0,1.3000845280250601,1.5383615117996763
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,8,175.0,,,225.0,212.0,425.0,440.0,220.0,FanDuel,440.0,5.4,3.5140000000000002,1.5367103016505408
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,8,155.0,290.0,185.0,180.0,201.0,360.0,390.0,170.0,FanDuel,390.0,4.9,3.201428571428571,1.530566711289603
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,10,,,3000.0,,1860.0,,,2000.0,Bovada,3000.0,31.0,20.3,1.5270935960591132
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,25,,,1400.0,,2300.0,1600.0,1500.0,1400.0,DraftKings,2300.0,24.0,15.75,1.5238095238095237
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,4,-295.0,-109.0,-250.0,-1450.0,-245.0,-1200.0,-850.0,-240.0,BetRivers,-109.0,1.9174311926605505,1.2619655560312126,1.519400575948149
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Threes,3,,,,,690.0,,,1100.0,HardRockBet,1100.0,12.0,7.9,1.5189873417721518
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,6,195.0,280.0,,170.0,173.0,190.0,400.0,375.0,FanDuel,400.0,5.0,3.3049999999999997,1.5128593040847202
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,8,220.0,,235.0,235.0,218.0,425.0,450.0,250.0,FanDuel,450.0,5.5,3.638333333333333,1.5116811726981219
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,8,310.0,,,350.0,378.0,650.0,600.0,350.0,ESPNBET,650.0,7.5,4.976,1.507234726688103
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,6,110.0,200.0,,100.0,114.0,110.0,240.0,125.0,FanDuel,240.0,3.4,2.2649999999999997,1.501103752759382
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,6,-190.0,132.0,-180.0,-159.0,-148.0,-140.0,158.0,-160.0,FanDuel,158.0,2.58,1.720823364657242,1.4992822929934422
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,10,185.0,,,-360.0,-236.0,-300.0,190.0,180.0,FanDuel,190.0,2.9,1.9369679849340866,1.4971853032969382
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,8,340.0,,,350.0,380.0,800.0,750.0,700.0,ESPNBET,800.0,9.0,6.04,1.490066225165563
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,8,170.0,,205.0,190.0,200.0,410.0,430.0,375.0,FanDuel,430.0,5.3,3.5833333333333335,1.4790697674418603
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,15,,,,,1120.0,,,1750.0,HardRockBet,1750.0,18.5,12.2,1.5163934426229508
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,5,,,,,1700.0,1200.0,,1000.0,DraftKings,1700.0,18.0,12.0,1.5
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,12,,,,1100.0,710.0,800.0,750.0,550.0,Caesars,1100.0,12.0,8.025,1.4953271028037383
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,35,,,1800.0,,3500.0,,2200.0,3000.0,DraftKings,3500.0,36.0,24.333333333333332,1.4794520547945207
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,25,,,2000.0,,4700.0,,,5000.0,HardRockBet,5000.0,51.0,34.5,1.4782608695652173
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,5,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,5,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,12,,,,,2200.0,2000.0,1800.0,3000.0,HardRockBet,3000.0,31.0,21.0,1.4761904761904763
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,7,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
 Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,5,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,7,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,5,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,5,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,12,,,,,2000.0,,3000.0,2000.0,FanDuel,3000.0,31.0,21.0,1.4761904761904763
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,7,,,3000.0,,,,,2000.0,Bovada,3000.0,31.0,21.0,1.4761904761904763
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,7,,,,,2400.0,,,1600.0,DraftKings,2400.0,25.0,17.0,1.4705882352941178
 Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,4,,,1400.0,,1880.0,1100.0,,,DraftKings,1880.0,19.8,13.5,1.4666666666666668
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,30,,,1000.0,,2100.0,1600.0,1500.0,1500.0,DraftKings,2100.0,22.0,15.0,1.4666666666666666
 Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,25,,,1900.0,,5100.0,,,5000.0,DraftKings,5100.0,52.0,35.5,1.4647887323943662
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,4,-450.0,-139.0,-350.0,-2500.0,-324.0,-2500.0,-1600.0,-350.0,BetRivers,-139.0,1.7194244604316546,1.1778275384227765,1.4598270157056508
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,10,,,1100.0,625.0,437.0,1000.0,900.0,650.0,Bovada,1100.0,12.0,8.224,1.4591439688715953
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,6,,,,,1080.0,1600.0,,2000.0,HardRockBet,2000.0,21.0,14.4,1.4583333333333333
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,10,,,900.0,850.0,810.0,1400.0,1400.0,700.0,ESPNBET,1400.0,15.0,10.32,1.4534883720930232
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,6,-125.0,,,-110.0,101.0,-115.0,180.0,105.0,FanDuel,180.0,2.8,1.927731225296443,1.4524846427019
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,16,,,1400.0,,2000.0,,2500.0,,FanDuel,2500.0,26.0,18.0,1.4444444444444444
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,10,150.0,,,135.0,-239.0,-450.0,136.0,-325.0,BetMGM,150.0,2.5,1.7316649143511067,1.4436973223175833
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,10,155.0,150.0,-330.0,170.0,-209.0,-350.0,200.0,175.0,FanDuel,200.0,3.0,2.0810304983237313,1.4415934809299997
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,14,360.0,,400.0,450.0,385.0,700.0,680.0,,ESPNBET,700.0,8.0,5.55,1.4414414414414416
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,6,475.0,,,,435.0,,,700.0,HardRockBet,700.0,8.0,5.55,1.4414414414414416
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,30,,,1000.0,,1620.0,1200.0,1100.0,1100.0,DraftKings,1620.0,17.2,12.0,1.4333333333333333
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,10,,,,,2900.0,,,2000.0,DraftKings,2900.0,30.0,21.0,1.4285714285714286
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,12,,,,,1140.0,,3000.0,3000.0,FanDuel,3000.0,31.0,21.7,1.4285714285714286
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,14,950.0,,725.0,,1200.0,1600.0,1500.0,,ESPNBET,1600.0,17.0,11.9375,1.4240837696335078
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,8,,,1000.0,,1400.0,1600.0,1500.0,2000.0,HardRockBet,2000.0,21.0,14.75,1.423728813559322
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,35,,,1800.0,,3500.0,,2500.0,3000.0,DraftKings,3500.0,36.0,25.333333333333332,1.4210526315789473
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,8,170.0,295.0,175.0,180.0,195.0,375.0,390.0,325.0,FanDuel,390.0,4.9,3.4499999999999997,1.420289855072464
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,6,130.0,275.0,155.0,135.0,137.0,140.0,300.0,300.0,FanDuel,300.0,4.0,2.817142857142857,1.4198782961460445
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,8,150.0,225.0,140.0,155.0,158.0,285.0,300.0,160.0,FanDuel,300.0,4.0,2.8185714285714285,1.419158641662443
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,12,,,,575.0,528.0,900.0,800.0,525.0,ESPNBET,900.0,10.0,7.07,1.4144271570014144
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,15,775.0,,,950.0,314.0,700.0,680.0,750.0,Caesars,950.0,10.5,7.438,1.411669803710675
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,8,115.0,190.0,125.0,-110.0,120.0,240.0,240.0,110.0,ESPNBET,240.0,3.4,2.4155844155844157,1.40752688172043
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,10,105.0,104.0,-650.0,-480.0,-292.0,-500.0,126.0,125.0,FanDuel,126.0,2.26,1.6063778915148776,1.4068918726643647
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,8,,,,,2000.0,,,1400.0,DraftKings,2000.0,21.0,15.0,1.4
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Assists,4,333.0,,,,146.0,,,375.0,HardRockBet,375.0,4.75,3.395,1.3991163475699557
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,6,-185.0,112.0,-160.0,-165.0,-140.0,-170.0,138.0,-140.0,FanDuel,138.0,2.38,1.7012011241843175,1.3990115372990652
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,20,,,1400.0,,2400.0,2000.0,1700.0,1500.0,DraftKings,2400.0,25.0,17.5,1.4285714285714286
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,8,,,,,2900.0,,,2000.0,DraftKings,2900.0,30.0,21.0,1.4285714285714286
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,14,,,,,2400.0,1600.0,1700.0,,DraftKings,2400.0,25.0,17.5,1.4285714285714286
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,4,,,,625.0,730.0,550.0,500.0,900.0,HardRockBet,900.0,10.0,7.0125,1.4260249554367201
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,25,,,800.0,,1700.0,1200.0,1060.0,1600.0,DraftKings,1700.0,18.0,12.65,1.4229249011857708
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,7,950.0,,,,1500.0,,,1100.0,DraftKings,1500.0,16.0,11.25,1.4222222222222223
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,5,,,,,1160.0,1600.0,,2000.0,HardRockBet,2000.0,21.0,14.8,1.4189189189189189
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,10,,,,,1380.0,1000.0,900.0,,DraftKings,1380.0,14.8,10.5,1.4095238095238096
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,7,,,,,2000.0,,,1400.0,DraftKings,2000.0,21.0,15.0,1.4
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,25,,,2500.0,,4000.0,2000.0,,4000.0,DraftKings,4000.0,41.0,29.333333333333332,1.3977272727272727
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,12,,,,,1740.0,2500.0,,3000.0,HardRockBet,3000.0,31.0,22.2,1.3963963963963963
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,8,165.0,295.0,205.0,180.0,177.0,320.0,340.0,375.0,HardRockBet,375.0,4.75,3.402857142857143,1.3958858102434928
 Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,5,,,2100.0,,2900.0,,,2000.0,DraftKings,2900.0,30.0,21.5,1.3953488372093024
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,6,-155.0,107.0,-160.0,-179.0,-150.0,-190.0,132.0,-180.0,FanDuel,132.0,2.3200000000000003,1.663908359985083,1.3943075567099135
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,10,475.0,,500.0,675.0,352.0,550.0,540.0,325.0,Caesars,675.0,7.75,5.57,1.3913824057450628
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,30,,,1400.0,,3100.0,,2200.0,3000.0,DraftKings,3100.0,32.0,23.0,1.391304347826087
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,10,875.0,,650.0,1000.0,445.0,900.0,800.0,475.0,Caesars,1000.0,11.0,7.908333333333334,1.3909378292939936
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,15,700.0,,725.0,1000.0,332.0,900.0,800.0,700.0,Caesars,1000.0,11.0,7.928333333333334,1.387429051923481
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,6,-125.0,143.0,,-129.0,-126.0,-130.0,164.0,-115.0,FanDuel,164.0,2.6399999999999997,1.90627342978708,1.3849010109189177
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,8,,,,,1420.0,,,1000.0,DraftKings,1420.0,15.2,11.0,1.3818181818181818
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,10,,,1100.0,950.0,730.0,900.0,,500.0,Bovada,1100.0,12.0,8.7,1.3793103448275863
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,10,-135.0,-113.0,-800.0,-118.0,-451.0,-1000.0,-102.0,-700.0,FanDuel,-102.0,1.9803921568627452,1.437534393278727,1.377631148250908
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,14,650.0,,625.0,800.0,740.0,1100.0,1060.0,,ESPNBET,1100.0,12.0,8.75,1.3714285714285714
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,16,600.0,,400.0,525.0,520.0,800.0,750.0,,ESPNBET,800.0,9.0,6.590000000000001,1.3657056145675264
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,10,,,1200.0,800.0,610.0,1100.0,1100.0,650.0,Bovada,1200.0,13.0,9.52,1.365546218487395
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,25,,,800.0,,1520.0,1200.0,1060.0,1600.0,HardRockBet,1600.0,17.0,12.450000000000001,1.3654618473895581
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,12,,,,400.0,443.0,650.0,630.0,325.0,ESPNBET,650.0,7.5,5.495,1.364877161055505
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,10,,,1000.0,700.0,650.0,1100.0,1000.0,550.0,ESPNBET,1100.0,12.0,8.8,1.3636363636363635
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,10,1000.0,,850.0,650.0,573.0,1100.0,1060.0,550.0,ESPNBET,1100.0,12.0,8.805000000000001,1.3628620102214648
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,4,-295.0,-122.0,,-2500.0,-275.0,-260.0,-113.0,-275.0,FanDuel,-113.0,1.8849557522123894,1.3850905489805185,1.3608899097606229
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,20,,,1200.0,,1940.0,1400.0,1400.0,1500.0,DraftKings,1940.0,20.4,14.75,1.383050847457627
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,6,,,,,1420.0,,,1000.0,DraftKings,1420.0,15.2,11.0,1.3818181818181818
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,7,,,,,1420.0,,,1000.0,DraftKings,1420.0,15.2,11.0,1.3818181818181818
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,6,,,,,2800.0,,,2000.0,DraftKings,2800.0,29.0,21.0,1.380952380952381
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,30,,,1400.0,,3100.0,2500.0,2000.0,3000.0,DraftKings,3100.0,32.0,23.25,1.3763440860215055
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,7,,,,,1140.0,,,1600.0,HardRockBet,1600.0,17.0,12.4,1.3709677419354838
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,14,,,,950.0,620.0,700.0,680.0,,Caesars,950.0,10.5,7.666666666666667,1.3695652173913042
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,6,,,,,720.0,,,500.0,DraftKings,720.0,8.2,6.0,1.3666666666666665
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,6,,,2200.0,,2900.0,,2000.0,,DraftKings,2900.0,30.0,22.0,1.3636363636363635
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,40,,,1800.0,,3200.0,2500.0,2000.0,3000.0,DraftKings,3200.0,33.0,24.25,1.3608247422680413
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,8,775.0,,,750.0,690.0,1400.0,1400.0,1400.0,ESPNBET,1400.0,15.0,11.03,1.359927470534905
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,12,,,,290.0,296.0,500.0,480.0,300.0,ESPNBET,500.0,6.0,4.415,1.3590033975084939
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,8,,265.0,,400.0,412.0,350.0,370.0,525.0,HardRockBet,525.0,6.25,4.593999999999999,1.3604701784936877
 Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,6,,,1700.0,,2300.0,1600.0,1700.0,,DraftKings,2300.0,24.0,17.666666666666668,1.3584905660377358
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,8,210.0,,235.0,255.0,249.0,375.0,,300.0,ESPNBET,375.0,4.75,3.498,1.3579188107489994
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,6,-210.0,,,-159.0,-164.0,-150.0,134.0,125.0,FanDuel,134.0,2.34,1.7263088116056362,1.3554932838601286
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,8,-110.0,155.0,110.0,115.0,114.0,210.0,230.0,210.0,FanDuel,230.0,3.3,2.4355844155844153,1.3549109523301697
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,6,,,,,1700.0,1200.0,,2000.0,HardRockBet,2000.0,21.0,15.5,1.3548387096774193
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,8,230.0,265.0,,215.0,215.0,350.0,370.0,210.0,FanDuel,370.0,4.7,3.475,1.3525179856115108
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,6,-118.0,170.0,,-112.0,103.0,-110.0,200.0,195.0,FanDuel,200.0,3.0,2.2215676131777826,1.3503977921737567
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,10,,,1200.0,700.0,620.0,1100.0,1100.0,800.0,Bovada,1200.0,13.0,9.64,1.3485477178423235
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,8,210.0,250.0,205.0,205.0,216.0,300.0,340.0,200.0,FanDuel,340.0,4.4,3.2657142857142856,1.347331583552056
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,14,425.0,,425.0,525.0,415.0,700.0,680.0,,ESPNBET,700.0,8.0,5.9399999999999995,1.3468013468013469
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,6,-250.0,102.0,-210.0,-209.0,-162.0,-170.0,112.0,-220.0,FanDuel,112.0,2.12,1.5763891535703418,1.3448455891734865
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,12,,,,,1920.0,2500.0,,1750.0,ESPNBET,2500.0,26.0,19.35,1.3436692506459946
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,5,,,1900.0,,2900.0,,2500.0,2000.0,DraftKings,2900.0,30.0,22.333333333333332,1.3432835820895523
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,12,,,,,1100.0,1600.0,1500.0,900.0,ESPNBET,1600.0,17.0,12.666666666666666,1.3421052631578947
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,12,,,,,1300.0,2000.0,1800.0,1300.0,ESPNBET,2000.0,21.0,15.666666666666666,1.3404255319148937
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,6,-225.0,104.0,-200.0,-200.0,-173.0,-190.0,112.0,-200.0,FanDuel,112.0,2.12,1.5841135594284361,1.338287894439157
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,16,875.0,,900.0,,910.0,1400.0,1400.0,,ESPNBET,1400.0,15.0,11.2125,1.3377926421404682
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,15,450.0,295.0,475.0,550.0,214.0,400.0,420.0,450.0,Caesars,550.0,6.5,4.862857142857143,1.336662749706228
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,6,-235.0,105.0,-185.0,-193.0,-180.0,-170.0,114.0,-180.0,FanDuel,114.0,2.1399999999999997,1.604793367955546,1.3335050123781913
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,15,775.0,,,750.0,281.0,,,650.0,BetMGM,775.0,8.75,6.603333333333334,1.3250883392226147
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,8,210.0,,215.0,195.0,206.0,340.0,360.0,325.0,FanDuel,360.0,4.6,3.485,1.3199426111908177
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,30,,,2000.0,,,2500.0,,3000.0,HardRockBet,3000.0,31.0,23.5,1.3191489361702127
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,5,,,,,1920.0,,,1400.0,DraftKings,1920.0,20.2,15.0,1.3466666666666667
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,6,,,,,2700.0,,,2000.0,DraftKings,2700.0,28.0,21.0,1.3333333333333333
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,10,425.0,,,,243.0,,,350.0,BetMGM,425.0,5.25,3.965,1.3240857503152585
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,6,,,,900.0,990.0,,,550.0,DraftKings,990.0,10.9,8.25,1.3212121212121213
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,7,,,2500.0,,,,3000.0,2000.0,FanDuel,3000.0,31.0,23.5,1.3191489361702127
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,10,1000.0,,1000.0,625.0,630.0,1100.0,1060.0,550.0,ESPNBET,1100.0,12.0,9.108333333333333,1.3174748398902105
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,14,850.0,,750.0,900.0,740.0,1200.0,1200.0,,ESPNBET,1200.0,13.0,9.879999999999999,1.3157894736842106
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,30,,,2000.0,,,2500.0,,3000.0,HardRockBet,3000.0,31.0,23.5,1.3191489361702127
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,25,,,800.0,,1380.0,1200.0,1100.0,1000.0,DraftKings,1380.0,14.8,11.25,1.3155555555555556
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,10,,,1000.0,750.0,630.0,900.0,830.0,575.0,Bovada,1000.0,11.0,8.370000000000001,1.3142174432497011
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,50,,,1200.0,,1720.0,1600.0,1500.0,2000.0,HardRockBet,2000.0,21.0,16.05,1.308411214953271
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,8,-160.0,,-160.0,-152.0,-145.0,120.0,128.0,-150.0,FanDuel,128.0,2.2800000000000002,1.7440360959870942,1.3073123917825564
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,12,,,,600.0,455.0,800.0,750.0,550.0,ESPNBET,800.0,9.0,6.8875,1.306715063520871
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,6,,,1400.0,,1860.0,1400.0,1400.0,,DraftKings,1860.0,19.6,15.0,1.3066666666666669
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,10,115.0,107.0,-700.0,105.0,-329.0,-500.0,124.0,110.0,FanDuel,124.0,2.24,1.7166869300911853,1.3048389666955862
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,20,,,1400.0,,1460.0,2000.0,1700.0,1500.0,ESPNBET,2000.0,21.0,16.15,1.30030959752322
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,4,155.0,,,,-187.0,,,165.0,HardRockBet,165.0,2.65,2.0423796791443847,1.2975060548537019
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,30,,,1000.0,,1900.0,2000.0,1700.0,1500.0,ESPNBET,2000.0,21.0,16.25,1.2923076923076924
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,7,,,1000.0,,1400.0,,,1100.0,DraftKings,1400.0,15.0,11.5,1.3043478260869565
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Threes,2,,,,,1320.0,,,1750.0,HardRockBet,1750.0,18.5,14.2,1.3028169014084507
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,3,230.0,,,225.0,253.0,200.0,,325.0,HardRockBet,325.0,4.25,3.27,1.2996941896024465
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Steals,2,,280.0,,,385.0,,270.0,,DraftKings,385.0,4.85,3.75,1.2933333333333332
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,35,,,2300.0,,,,,3000.0,HardRockBet,3000.0,31.0,24.0,1.2916666666666667
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,12,,,,,2300.0,,,3000.0,HardRockBet,3000.0,31.0,24.0,1.2916666666666667
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,8,-125.0,155.0,-120.0,-129.0,-115.0,145.0,172.0,150.0,FanDuel,172.0,2.7199999999999998,2.111156049882036,1.2883936268718665
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,40,,,1200.0,,1820.0,1600.0,1500.0,2000.0,HardRockBet,2000.0,21.0,16.3,1.2883435582822085
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,20,450.0,280.0,300.0,360.0,244.0,350.0,360.0,400.0,BetMGM,450.0,5.5,4.277142857142857,1.2859051436205746
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,6,,,,,2600.0,,,2000.0,DraftKings,2600.0,27.0,21.0,1.2857142857142858
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,6,-175.0,105.0,,-173.0,-169.0,-200.0,116.0,-125.0,FanDuel,116.0,2.16,1.6818632049734763,1.2842899432085884
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,20,,,750.0,,740.0,1200.0,1060.0,1100.0,ESPNBET,1200.0,13.0,10.125,1.2839506172839505
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,10,,,1100.0,675.0,690.0,1100.0,1060.0,650.0,Bovada,1100.0,12.0,9.35,1.2834224598930482
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,12,,,,265.0,275.0,375.0,400.0,450.0,HardRockBet,450.0,5.5,4.2875,1.282798833819242
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,16,1000.0,,950.0,,930.0,1400.0,1400.0,,ESPNBET,1400.0,15.0,11.7,1.2820512820512822
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Steals,2,,280.0,,,385.0,,280.0,,DraftKings,385.0,4.85,3.8,1.276315789473684
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,14,,,1100.0,,1100.0,1600.0,1500.0,,ESPNBET,1600.0,17.0,13.333333333333334,1.275
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,6,-185.0,105.0,-165.0,-182.0,-151.0,-160.0,112.0,-165.0,FanDuel,112.0,2.12,1.6627662796773488,1.2749837580368633
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,6,425.0,,,375.0,430.0,,,550.0,HardRockBet,550.0,6.5,5.1000000000000005,1.2745098039215685
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,10,,,,1200.0,515.0,1400.0,1400.0,1200.0,ESPNBET,1400.0,15.0,11.7875,1.2725344644750796
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,6,-275.0,-120.0,-250.0,-240.0,-200.0,-240.0,-113.0,-220.0,FanDuel,-113.0,1.8849557522123894,1.4835497835497837,1.2705712832245752
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,6,475.0,,,,630.0,,,475.0,DraftKings,630.0,7.3,5.75,1.2695652173913043
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,20,575.0,,440.0,550.0,307.0,650.0,600.0,475.0,ESPNBET,650.0,7.5,5.911666666666666,1.2686777558500142
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,5,,,,,2600.0,,,2000.0,DraftKings,2600.0,27.0,21.0,1.2857142857142858
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,8,,,,425.0,442.0,600.0,520.0,400.0,ESPNBET,600.0,7.0,5.4675,1.2802926383173296
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,5,,,,,1180.0,,,900.0,DraftKings,1180.0,12.8,10.0,1.28
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,12,,,,,1740.0,1400.0,1500.0,2000.0,HardRockBet,2000.0,21.0,16.466666666666665,1.2753036437246965
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,3,340.0,,,,166.0,,,350.0,HardRockBet,350.0,4.5,3.5300000000000002,1.2747875354107647
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Assists,4,,,,,1300.0,,,1000.0,DraftKings,1300.0,14.0,11.0,1.2727272727272727
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,15,775.0,,,950.0,730.0,700.0,680.0,750.0,Caesars,950.0,10.5,8.27,1.2696493349455866
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,5,475.0,,,,630.0,,,475.0,DraftKings,630.0,7.3,5.75,1.2695652173913043
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,5,725.0,,,525.0,600.0,,,525.0,BetMGM,725.0,8.25,6.5,1.2692307692307692
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,5,,,1900.0,,,,2500.0,2000.0,FanDuel,2500.0,26.0,20.5,1.2682926829268293
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,4,,,1400.0,,1800.0,1400.0,1400.0,,DraftKings,1800.0,19.0,15.0,1.2666666666666666
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,10,-150.0,,-4000.0,-141.0,-620.0,-1400.0,-132.0,-130.0,HardRockBet,-130.0,1.7692307692307692,1.3985301960679448,1.2650644041902508
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,6,-250.0,100.0,-185.0,-209.0,-155.0,-210.0,100.0,-185.0,BetRivers,100.0,2.0,1.5829859638736672,1.2634350813230668
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,10,675.0,,675.0,475.0,357.0,650.0,600.0,325.0,BetMGM,675.0,7.75,6.136666666666667,1.2629005975013579
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,20,,,1200.0,,770.0,1400.0,1300.0,1500.0,HardRockBet,1500.0,16.0,12.675,1.26232741617357
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,12,,,,800.0,870.0,1200.0,1200.0,850.0,ESPNBET,1200.0,13.0,10.3,1.262135922330097
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,12,,215.0,,190.0,183.0,260.0,280.0,160.0,FanDuel,280.0,3.8,3.0159999999999996,1.259946949602122
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Assists,3,650.0,,,,488.0,,,500.0,BetMGM,650.0,7.5,5.9399999999999995,1.2626262626262628
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,4,,,,,720.0,,,550.0,DraftKings,720.0,8.2,6.5,1.2615384615384615
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,15,700.0,,725.0,1000.0,810.0,900.0,800.0,700.0,Caesars,1000.0,11.0,8.725,1.2607449856733526
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,14,,,,,1980.0,1600.0,1500.0,,DraftKings,1980.0,20.8,16.5,1.2606060606060607
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,10,,,,,780.0,1400.0,1400.0,,ESPNBET,1400.0,15.0,11.9,1.2605042016806722
 Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Blocks,2,,,,,309.0,,225.0,,DraftKings,309.0,4.09,3.25,1.2584615384615385
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,45,,,1600.0,,2100.0,,1700.0,,DraftKings,2100.0,22.0,17.5,1.2571428571428571
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,10,1000.0,,,850.0,680.0,1100.0,1100.0,650.0,ESPNBET,1100.0,12.0,9.559999999999999,1.2552301255230127
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,5,,,1200.0,,1400.0,1000.0,1100.0,1500.0,HardRockBet,1500.0,16.0,12.75,1.2549019607843137
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,6,-350.0,-150.0,-310.0,-345.0,-284.0,-275.0,-140.0,-350.0,FanDuel,-140.0,1.7142857142857144,1.3666114279161425,1.2544061020327615
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,14,240.0,240.0,190.0,210.0,233.0,300.0,320.0,,FanDuel,320.0,4.2,3.355,1.2518628912071537
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,10,-210.0,-177.0,-3500.0,-1250.0,-840.0,-1600.0,-170.0,-180.0,FanDuel,-170.0,1.5882352941176472,1.269548118682501,1.2510241012100196
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,15,700.0,,,675.0,308.0,550.0,520.0,650.0,BetMGM,700.0,8.0,6.406000000000001,1.248829222603809
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,10,,,1100.0,,1280.0,900.0,,,DraftKings,1280.0,13.8,11.0,1.2545454545454546
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,10,,,1100.0,,670.0,1000.0,900.0,,Bovada,1100.0,12.0,9.566666666666666,1.2543554006968642
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,6,,,,950.0,1060.0,,,700.0,DraftKings,1060.0,11.6,9.25,1.2540540540540541
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,40,,,1200.0,,1820.0,1600.0,1700.0,2000.0,HardRockBet,2000.0,21.0,16.8,1.25
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,12,,,,,1760.0,,3000.0,3000.0,FanDuel,3000.0,31.0,24.8,1.25
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,6,,,,,1400.0,,,1100.0,DraftKings,1400.0,15.0,12.0,1.25
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,7,,,1200.0,,1460.0,1200.0,1200.0,1600.0,HardRockBet,1600.0,17.0,13.65,1.2454212454212454
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,6,-185.0,110.0,-160.0,-190.0,-164.0,-190.0,112.0,100.0,FanDuel,112.0,2.12,1.7039897452926975,1.2441389426529934
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,10,333.0,,290.0,340.0,178.0,275.0,285.0,165.0,Caesars,340.0,4.4,3.5433333333333334,1.241768579492004
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,14,,,1900.0,,2900.0,,3000.0,,FanDuel,3000.0,31.0,25.0,1.24
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,25,425.0,,400.0,500.0,600.0,650.0,630.0,475.0,ESPNBET,650.0,7.5,6.05,1.2396694214876034
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,12,,,,1100.0,920.0,900.0,800.0,850.0,Caesars,1100.0,12.0,9.675,1.2403100775193798
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,5,,,2500.0,,,,,2000.0,Bovada,2500.0,26.0,21.0,1.2380952380952381
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,6,,,2500.0,,,,2000.0,,Bovada,2500.0,26.0,21.0,1.2380952380952381
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,20,,,,,1920.0,1600.0,1500.0,1500.0,DraftKings,1920.0,20.2,16.333333333333332,1.236734693877551
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,6,,,,,,2500.0,,2000.0,ESPNBET,2500.0,26.0,21.0,1.2380952380952381
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,6,,,,,2500.0,,,2000.0,DraftKings,2500.0,26.0,21.0,1.2380952380952381
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,15,450.0,300.0,475.0,550.0,485.0,400.0,420.0,450.0,Caesars,550.0,6.5,5.257142857142857,1.236413043478261
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,25,775.0,,625.0,800.0,870.0,1000.0,870.0,800.0,ESPNBET,1000.0,11.0,8.9,1.2359550561797752
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,6,,,,,2000.0,1200.0,,2000.0,DraftKings,2000.0,21.0,17.0,1.2352941176470589
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Threes,2,,,,,1400.0,,,1750.0,HardRockBet,1750.0,18.5,15.0,1.2333333333333334
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,4,-750.0,,,-675.0,-495.0,-700.0,-230.0,-475.0,FanDuel,-230.0,1.434782608695652,1.16737702842966,1.229065309453367
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,4,475.0,,450.0,475.0,553.0,650.0,600.0,,ESPNBET,650.0,7.5,6.106,1.2283000327546676
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,6,-1400.0,-265.0,-1400.0,-1250.0,-690.0,-1000.0,-350.0,-950.0,BetRivers,-265.0,1.3773584905660377,1.1226803032425785,1.2268483615396881
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,5,,,,,2000.0,1200.0,,2000.0,DraftKings,2000.0,21.0,17.0,1.2352941176470589
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,5,,,1000.0,,1640.0,1600.0,1700.0,1200.0,FanDuel,1700.0,18.0,14.6,1.2328767123287672
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,5,,,1200.0,,1780.0,1600.0,1500.0,1400.0,DraftKings,1780.0,18.8,15.25,1.2327868852459016
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,20,,,1400.0,,1780.0,1400.0,1400.0,1500.0,DraftKings,1780.0,18.8,15.25,1.2327868852459016
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,10,,,900.0,,1500.0,1400.0,1300.0,,DraftKings,1500.0,16.0,13.0,1.2307692307692308
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Threes,2,550.0,,,,473.0,,,650.0,HardRockBet,650.0,7.5,6.115,1.2264922322158627
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Blocks,2,,270.0,,,317.0,,210.0,,DraftKings,317.0,4.17,3.4000000000000004,1.226470588235294
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,45,775.0,,625.0,650.0,700.0,900.0,830.0,,ESPNBET,900.0,10.0,8.16,1.2254901960784315
 Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,7,,,2300.0,,2800.0,,2500.0,2000.0,DraftKings,2800.0,29.0,23.666666666666668,1.2253521126760563
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,4,115.0,,,-320.0,100.0,,,-105.0,BetMGM,115.0,2.15,1.7549603174603174,1.2250989259468625
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,6,,,2200.0,,2900.0,,2500.0,,DraftKings,2900.0,30.0,24.5,1.2244897959183674
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,6,-600.0,-182.0,-550.0,-590.0,-421.0,-500.0,-205.0,-240.0,BetRivers,-182.0,1.5494505494505495,1.2657110871193464,1.224173956615147
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,20,138.0,150.0,150.0,150.0,-110.0,190.0,200.0,150.0,FanDuel,200.0,3.0,2.4555844155844153,1.22170509837106
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Blocks,2,,,,,297.0,,225.0,,DraftKings,297.0,3.97,3.25,1.2215384615384617
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,20,,,750.0,,1140.0,1000.0,900.0,1000.0,DraftKings,1140.0,12.4,10.125,1.2246913580246914
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,25,425.0,,400.0,550.0,600.0,650.0,630.0,475.0,ESPNBET,650.0,7.5,6.133333333333333,1.2228260869565217
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,25,375.0,280.0,400.0,390.0,488.0,450.0,450.0,325.0,DraftKings,488.0,5.88,4.814285714285715,1.2213649851632045
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Steals,2,,,,,259.0,,194.0,,DraftKings,259.0,3.59,2.94,1.2210884353741496
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,20,700.0,,525.0,675.0,406.0,650.0,600.0,475.0,BetMGM,700.0,8.0,6.551666666666667,1.2210633426609006
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,50,,,1400.0,,2200.0,2000.0,1700.0,2250.0,HardRockBet,2250.0,23.5,19.25,1.2207792207792207
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,12,,,,,1880.0,,3000.0,3000.0,FanDuel,3000.0,31.0,25.4,1.220472440944882
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,5,,,1800.0,,2300.0,,2500.0,2000.0,FanDuel,2500.0,26.0,21.333333333333332,1.21875
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,10,270.0,240.0,320.0,330.0,193.0,275.0,285.0,190.0,Caesars,330.0,4.3,3.532857142857143,1.2171451678123735
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,12,,,,,1000.0,1400.0,1400.0,1000.0,ESPNBET,1400.0,15.0,12.333333333333334,1.2162162162162162
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,8,-200.0,102.0,-145.0,-154.0,-146.0,120.0,124.0,115.0,FanDuel,124.0,2.24,1.8419910469448226,1.2160754004289687
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,12,,,,,1580.0,1200.0,1100.0,1600.0,HardRockBet,1600.0,17.0,13.933333333333332,1.2200956937799043
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,7,700.0,,,,1120.0,,,1100.0,DraftKings,1120.0,12.2,10.0,1.22
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,10,875.0,,650.0,1000.0,790.0,900.0,800.0,,Caesars,1000.0,11.0,9.03,1.2181616832779625
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Assists,3,333.0,,,,453.0,,,375.0,DraftKings,453.0,5.53,4.54,1.2180616740088106
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,20,450.0,280.0,300.0,360.0,412.0,350.0,360.0,400.0,BetMGM,450.0,5.5,4.517142857142857,1.2175838077166352
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,6,,,2500.0,,2400.0,,3000.0,,FanDuel,3000.0,31.0,25.5,1.2156862745098038
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,5,450.0,,525.0,525.0,514.0,650.0,600.0,500.0,ESPNBET,650.0,7.5,6.19,1.2116316639741518
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,8,-250.0,-103.0,-240.0,-213.0,-180.0,-115.0,-102.0,-130.0,FanDuel,-102.0,1.9803921568627452,1.6359107947610256,1.2105746616532604
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,10,475.0,,430.0,425.0,273.0,400.0,450.0,275.0,BetMGM,475.0,5.75,4.755,1.2092534174553102
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,8,,,,,1980.0,1600.0,1500.0,1750.0,DraftKings,1980.0,20.8,17.166666666666668,1.2116504854368932
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,15,700.0,,,675.0,770.0,550.0,520.0,650.0,DraftKings,770.0,8.7,7.19,1.2100139082058412
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,6,,,,1000.0,920.0,,,700.0,Caesars,1000.0,11.0,9.1,1.208791208791209
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,7,,,800.0,800.0,800.0,1000.0,900.0,750.0,ESPNBET,1000.0,11.0,9.1,1.208791208791209
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,6,-450.0,-165.0,-330.0,-360.0,-313.0,-300.0,-148.0,-150.0,FanDuel,-148.0,1.6756756756756757,1.3897971038546117,1.205698062708706
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,35,525.0,,525.0,700.0,690.0,800.0,750.0,700.0,ESPNBET,800.0,9.0,7.483333333333333,1.2026726057906458
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,4,-1400.0,-295.0,-1200.0,-2500.0,-720.0,-1200.0,-350.0,-900.0,BetRivers,-295.0,1.3389830508474576,1.1162585034013603,1.199527749860298
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,20,,,1200.0,,1040.0,1400.0,1300.0,1500.0,HardRockBet,1500.0,16.0,13.35,1.198501872659176
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,10,,,1000.0,,1120.0,900.0,830.0,,DraftKings,1120.0,12.2,10.1,1.2079207920792079
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,20,575.0,,440.0,550.0,486.0,650.0,600.0,475.0,ESPNBET,650.0,7.5,6.21,1.2077294685990339
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,8,,,,475.0,455.0,375.0,,300.0,Caesars,475.0,5.75,4.766666666666667,1.2062937062937062
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,6,,,,625.0,660.0,800.0,750.0,550.0,ESPNBET,800.0,9.0,7.4625,1.2060301507537687
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,4,600.0,,450.0,475.0,459.0,500.0,520.0,,BetMGM,600.0,7.0,5.808,1.2052341597796143
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Steals,1,,-115.0,,,-174.0,,-188.0,,BetRivers,-115.0,1.8695652173913042,1.553313768647591,1.2035979176435556
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,5,450.0,,525.0,500.0,514.0,650.0,650.0,500.0,ESPNBET,650.0,7.5,6.2316666666666665,1.203530355710083
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Blocks,2,,,,,297.0,,230.0,,DraftKings,297.0,3.97,3.3,1.2030303030303031
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,12,,,,,1960.0,1600.0,1500.0,1750.0,DraftKings,1960.0,20.6,17.166666666666668,1.2
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,35,,,850.0,1200.0,1180.0,1000.0,900.0,1000.0,Caesars,1200.0,13.0,10.86,1.1970534069981584
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Steals,1,,-115.0,,,-169.0,,-188.0,,BetRivers,-115.0,1.8695652173913042,1.561815434974191,1.1970461909426569
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,12,,215.0,,170.0,168.0,250.0,265.0,275.0,HardRockBet,275.0,3.75,3.136,1.1957908163265305
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,40,,,750.0,1000.0,870.0,1000.0,900.0,1100.0,HardRockBet,1100.0,12.0,10.040000000000001,1.195219123505976
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,4,-550.0,-182.0,,-560.0,-447.0,-600.0,-196.0,-180.0,HardRockBet,-180.0,1.5555555555555556,1.3017374257786531,1.1949841225660984
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,5,600.0,,650.0,700.0,770.0,800.0,750.0,450.0,ESPNBET,800.0,9.0,7.533333333333334,1.1946902654867255
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,5,,,1200.0,,1780.0,1600.0,1700.0,1400.0,DraftKings,1780.0,18.8,15.75,1.1936507936507936
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,5,,,1000.0,,1500.0,1600.0,1600.0,1200.0,ESPNBET,1600.0,17.0,14.25,1.1929824561403508
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,4,600.0,,450.0,475.0,459.0,550.0,500.0,,BetMGM,600.0,7.0,5.868,1.192910702113156
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,30,1000.0,,800.0,1200.0,1040.0,1100.0,1000.0,1000.0,Caesars,1200.0,13.0,10.9,1.1926605504587156
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,12,,,,,2500.0,,2500.0,3000.0,HardRockBet,3000.0,31.0,26.0,1.1923076923076923
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,30,,,2000.0,,,,3000.0,3000.0,FanDuel,3000.0,31.0,26.0,1.1923076923076923
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,4,475.0,,450.0,500.0,584.0,650.0,630.0,,ESPNBET,650.0,7.5,6.2780000000000005,1.1946479770627587
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,6,,,,1000.0,640.0,1000.0,900.0,750.0,Caesars,1000.0,11.0,9.225,1.1924119241192412
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,12,,,,,,2500.0,,3000.0,HardRockBet,3000.0,31.0,26.0,1.1923076923076923
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,12,,,,,,,2500.0,3000.0,HardRockBet,3000.0,31.0,26.0,1.1923076923076923
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,30,,,2500.0,,,,,3000.0,HardRockBet,3000.0,31.0,26.0,1.1923076923076923
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,6,-650.0,,-700.0,-800.0,-464.0,-475.0,-250.0,-500.0,FanDuel,-250.0,1.4,1.1746244756453468,1.191870277716485
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,8,,,,,2400.0,,,2000.0,DraftKings,2400.0,25.0,21.0,1.1904761904761905
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,12,,,,,,2500.0,,3000.0,HardRockBet,3000.0,31.0,26.0,1.1923076923076923
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,25,,,1200.0,,1520.0,1600.0,1500.0,1750.0,HardRockBet,1750.0,18.5,15.55,1.1897106109324758
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,20,,,750.0,,650.0,1000.0,900.0,1000.0,ESPNBET,1000.0,11.0,9.25,1.1891891891891893
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,8,-325.0,-150.0,-300.0,-310.0,-238.0,-150.0,-142.0,-300.0,FanDuel,-142.0,1.704225352112676,1.435777288582927,1.1869705459644788
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,4,,,1400.0,,1520.0,1200.0,1200.0,,DraftKings,1520.0,16.2,13.666666666666666,1.1853658536585365
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,5,475.0,,,390.0,435.0,,,325.0,BetMGM,475.0,5.75,4.833333333333333,1.1896551724137931
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,35,525.0,,525.0,700.0,690.0,800.0,800.0,700.0,ESPNBET,800.0,9.0,7.566666666666666,1.1894273127753305
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,4,,,,500.0,630.0,550.0,560.0,450.0,DraftKings,630.0,7.3,6.15,1.186991869918699
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,8,,,,400.0,347.0,400.0,470.0,375.0,FanDuel,470.0,5.7,4.805,1.186264308012487
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,4,,,1100.0,,1520.0,1400.0,1300.0,,DraftKings,1520.0,16.2,13.666666666666666,1.1853658536585365
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,15,310.0,,240.0,275.0,102.0,300.0,320.0,300.0,FanDuel,320.0,4.2,3.545,1.1847672778561356
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,20,500.0,330.0,400.0,450.0,270.0,450.0,470.0,475.0,BetMGM,500.0,6.0,5.064285714285715,1.1847672778561353
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Threes,3,,,,,1200.0,1400.0,1300.0,1000.0,ESPNBET,1400.0,15.0,12.666666666666666,1.1842105263157896
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,14,,,1200.0,,1460.0,1600.0,1700.0,,FanDuel,1700.0,18.0,15.200000000000001,1.1842105263157894
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,4,-1400.0,-278.0,-1400.0,-1700.0,-770.0,-1100.0,-295.0,-350.0,BetRivers,-278.0,1.3597122302158273,1.1495938899442675,1.1827761456541375
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,8,,250.0,,400.0,374.0,300.0,340.0,350.0,Caesars,400.0,5.0,4.228,1.1825922421948913
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,3,165.0,,,185.0,225.0,180.0,,170.0,DraftKings,225.0,3.25,2.75,1.1818181818181819
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,10,475.0,,500.0,650.0,589.0,550.0,560.0,,Caesars,650.0,7.5,6.348000000000001,1.1814744801512287
 Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Threes,2,,,,,1340.0,,,1600.0,HardRockBet,1600.0,17.0,14.4,1.1805555555555556
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,4,-1200.0,-315.0,,-1700.0,-890.0,-2000.0,-400.0,-700.0,BetRivers,-315.0,1.3174603174603174,1.1162289260273397,1.1802778863195746
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,20,220.0,205.0,225.0,215.0,100.0,260.0,265.0,240.0,FanDuel,265.0,3.65,3.0928571428571425,1.1801385681293304
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,4,-750.0,-215.0,,-800.0,-500.0,-800.0,-230.0,-230.0,BetRivers,-215.0,1.4651162790697674,1.2421497584541064,1.1795005144091077
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,3,300.0,,,225.0,211.0,260.0,,260.0,BetMGM,300.0,4.0,3.3899999999999997,1.1799410029498527
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Blocks,1,,170.0,,,129.0,,,,BetRivers,170.0,2.7,2.29,1.1790393013100438
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,8,-400.0,-177.0,-290.0,-335.0,-266.0,-160.0,-154.0,-300.0,FanDuel,-154.0,1.6493506493506493,1.398939997609041,1.1790002803333886
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,20,650.0,,525.0,550.0,335.0,600.0,560.0,650.0,BetMGM,650.0,7.5,6.366666666666667,1.1780104712041883
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,15,310.0,285.0,400.0,360.0,154.0,375.0,390.0,400.0,Bovada,400.0,5.0,4.248571428571429,1.1768661735036985
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,20,,,750.0,,1240.0,1200.0,1100.0,1100.0,DraftKings,1240.0,13.4,11.375,1.178021978021978
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,20,138.0,155.0,150.0,160.0,190.0,200.0,210.0,150.0,FanDuel,210.0,3.1,2.632857142857143,1.1774281063483452
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,25,,,1100.0,,1580.0,1400.0,1300.0,1600.0,HardRockBet,1600.0,17.0,14.45,1.1764705882352942
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Blocks,2,,265.0,,,384.0,,360.0,,DraftKings,384.0,4.84,4.125,1.1733333333333333
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,20,350.0,,300.0,340.0,243.0,375.0,390.0,300.0,FanDuel,390.0,4.9,4.180000000000001,1.1722488038277512
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,15,550.0,,450.0,550.0,234.0,550.0,520.0,425.0,BetMGM,550.0,6.5,5.548333333333333,1.171522979873836
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,20,,,,,1780.0,2000.0,1800.0,1500.0,ESPNBET,2000.0,21.0,17.933333333333334,1.1710037174721188
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,8,-600.0,-200.0,-450.0,-530.0,-354.0,-225.0,-220.0,-450.0,BetRivers,-200.0,1.5,1.2830380187271777,1.1691001966473735
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,15,250.0,200.0,250.0,245.0,-110.0,250.0,260.0,275.0,HardRockBet,275.0,3.75,3.208441558441559,1.1687917425622343
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,30,210.0,210.0,225.0,245.0,262.0,285.0,300.0,260.0,FanDuel,300.0,4.0,3.424285714285715,1.1681268251981642
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,12,,,,,1980.0,1600.0,1700.0,1750.0,DraftKings,1980.0,20.8,17.833333333333332,1.166355140186916
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,35,145.0,165.0,155.0,145.0,-109.0,190.0,190.0,150.0,ESPNBET,190.0,2.9,2.4882044560943646,1.165499078219647
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,4,-1600.0,,,-1700.0,-960.0,-1100.0,-330.0,-325.0,HardRockBet,-325.0,1.3076923076923077,1.123885918003565,1.1635454157262248
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,4,-300.0,,,-950.0,-188.0,,,-195.0,DraftKings,-188.0,1.5319148936170213,1.3171390013495277,1.1630624346006277
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,30,210.0,205.0,225.0,245.0,262.0,285.0,300.0,260.0,FanDuel,300.0,4.0,3.4171428571428577,1.1705685618729096
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,12,,,,700.0,750.0,650.0,630.0,525.0,DraftKings,750.0,8.5,7.2625,1.1703958691910499
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,20,700.0,,525.0,675.0,680.0,600.0,560.0,475.0,BetMGM,700.0,8.0,6.858333333333333,1.166464155528554
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,6,,,1100.0,,1160.0,1400.0,1300.0,,ESPNBET,1400.0,15.0,12.866666666666667,1.16580310880829
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,10,1000.0,,,,1260.0,1100.0,1100.0,,DraftKings,1260.0,13.6,11.666666666666666,1.1657142857142857
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,3,500.0,,430.0,425.0,474.0,550.0,520.0,400.0,ESPNBET,550.0,6.5,5.581666666666666,1.164526724395342
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,30,1000.0,,800.0,1200.0,1040.0,1200.0,1060.0,1000.0,Caesars,1200.0,13.0,11.166666666666666,1.164179104477612
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,10,,,1100.0,,1280.0,1100.0,1060.0,,DraftKings,1280.0,13.8,11.866666666666667,1.1629213483146068
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,14,,240.0,,330.0,362.0,300.0,320.0,,DraftKings,362.0,4.62,3.9749999999999996,1.1622641509433964
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,50,,,3000.0,,,,3500.0,,FanDuel,3500.0,36.0,31.0,1.1612903225806452
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,4,-135.0,,,-500.0,-128.0,,,-150.0,DraftKings,-128.0,1.78125,1.5358024691358025,1.159817122186495
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Steals,3,,,,,288.0,,350.0,,FanDuel,350.0,4.5,3.88,1.1597938144329898
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,4,-2000.0,-375.0,-1900.0,-2500.0,-990.0,-1600.0,-400.0,-1100.0,BetRivers,-375.0,1.2666666666666666,1.0924358244095085,1.1594884004754555
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,3,175.0,190.0,175.0,185.0,203.0,225.0,240.0,200.0,FanDuel,240.0,3.4,2.932857142857143,1.159279103750609
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,15,375.0,,400.0,,184.0,410.0,420.0,375.0,FanDuel,420.0,5.2,4.4879999999999995,1.1586452762923354
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,3,500.0,,430.0,425.0,496.0,550.0,520.0,400.0,ESPNBET,550.0,6.5,5.618333333333333,1.156926727973895
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,6,375.0,,385.0,370.0,384.0,450.0,470.0,,FanDuel,470.0,5.7,4.928,1.156655844155844
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,20,,,1400.0,,1080.0,1600.0,1500.0,1500.0,ESPNBET,1600.0,17.0,14.7,1.1564625850340136
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,6,,,2100.0,,,2500.0,2200.0,,ESPNBET,2500.0,26.0,22.5,1.1555555555555554
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,4,-1400.0,-335.0,-1100.0,-480.0,-850.0,-1600.0,-400.0,-1500.0,BetRivers,-335.0,1.2985074626865671,1.123926388737313,1.1553314128920749
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,45,775.0,,625.0,625.0,700.0,800.0,830.0,,FanDuel,830.0,9.3,8.05,1.15527950310559
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,10,145.0,140.0,170.0,160.0,107.0,135.0,144.0,105.0,Bovada,170.0,2.7,2.337142857142857,1.1552567237163816
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,12,,220.0,,320.0,283.0,275.0,285.0,250.0,Caesars,320.0,4.2,3.6260000000000003,1.1583011583011582
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Points,10,425.0,,,340.0,327.0,340.0,360.0,400.0,BetMGM,425.0,5.25,4.534000000000001,1.1579179532421702
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,20,,,1000.0,,1220.0,1100.0,1060.0,1000.0,DraftKings,1220.0,13.2,11.4,1.157894736842105
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,4,,,1400.0,,1520.0,1200.0,1300.0,,DraftKings,1520.0,16.2,14.0,1.157142857142857
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,5,-175.0,,,-173.0,-169.0,-200.0,,-125.0,HardRockBet,-125.0,1.8,1.560294807460214,1.1536281421906214
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Threes,2,310.0,,,,211.0,,,300.0,BetMGM,310.0,4.1,3.5549999999999997,1.1533052039381153
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,5,175.0,180.0,190.0,175.0,188.0,220.0,230.0,175.0,FanDuel,230.0,3.3,2.861428571428571,1.1532700948577135
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,10,210.0,210.0,195.0,235.0,160.0,225.0,240.0,130.0,FanDuel,240.0,3.4,2.95,1.1525423728813557
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,4,-1400.0,-315.0,-1300.0,-1450.0,-558.0,-1100.0,-330.0,-300.0,HardRockBet,-300.0,1.3333333333333333,1.1582754780752555,1.1511366324952135
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Blocks,2,,275.0,,,258.0,,194.0,,BetRivers,275.0,3.75,3.26,1.1503067484662577
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,35,400.0,270.0,340.0,360.0,360.0,375.0,390.0,425.0,HardRockBet,425.0,5.25,4.564285714285714,1.1502347417840375
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,15,155.0,143.0,140.0,140.0,-135.0,165.0,172.0,140.0,FanDuel,172.0,2.7199999999999998,2.367248677248677,1.1490132093605416
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,3,175.0,195.0,175.0,185.0,211.0,225.0,240.0,200.0,FanDuel,240.0,3.4,2.951428571428571,1.1519845111326235
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Assists,4,,,,,1280.0,,,1100.0,DraftKings,1280.0,13.8,12.0,1.1500000000000001
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,6,375.0,,385.0,370.0,399.0,450.0,470.0,,FanDuel,470.0,5.7,4.958,1.1496571198063736
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,5,360.0,270.0,320.0,295.0,297.0,300.0,320.0,300.0,BetMGM,360.0,4.6,4.002857142857143,1.149179157744468
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,14,,,,750.0,591.0,700.0,630.0,,Caesars,750.0,8.5,7.403333333333333,1.1481314723097704
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,4,,,,,164.0,,,130.0,DraftKings,164.0,2.6399999999999997,2.3,1.1478260869565218
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Steals,3,,290.0,,,382.0,,350.0,,DraftKings,382.0,4.82,4.2,1.1476190476190475
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,20,,,1000.0,,730.0,1100.0,1060.0,1000.0,ESPNBET,1100.0,12.0,10.475,1.1455847255369929
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,7,310.0,,,290.0,211.0,,,325.0,HardRockBet,325.0,4.25,3.703333333333333,1.1476147614761476
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,8,,295.0,,330.0,287.0,320.0,340.0,375.0,HardRockBet,375.0,4.75,4.144,1.1462355212355213
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,35,400.0,270.0,340.0,360.0,372.0,375.0,390.0,425.0,HardRockBet,425.0,5.25,4.581428571428572,1.1459307764265667
 Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,5,,,1000.0,,1140.0,1200.0,1100.0,900.0,ESPNBET,1200.0,13.0,11.35,1.145374449339207
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,4,500.0,,575.0,600.0,690.0,650.0,630.0,,DraftKings,690.0,7.9,6.909999999999999,1.1432706222865414
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,5,360.0,270.0,320.0,295.0,313.0,300.0,320.0,300.0,BetMGM,360.0,4.6,4.025714285714286,1.1426543647977287
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,8,,290.0,,330.0,361.0,360.0,390.0,300.0,FanDuel,390.0,4.9,4.281999999999999,1.1443250817375061
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Blocks,2,,275.0,,,258.0,,198.0,,BetRivers,275.0,3.75,3.2800000000000002,1.1432926829268293
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,8,,190.0,,200.0,211.0,240.0,250.0,190.0,FanDuel,250.0,3.5,3.0620000000000003,1.1430437622468974
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,8,,,,,2300.0,,,2000.0,DraftKings,2300.0,24.0,21.0,1.1428571428571428
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,5,,,1800.0,,2300.0,,2200.0,2000.0,DraftKings,2300.0,24.0,21.0,1.1428571428571428
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,5,950.0,,850.0,1000.0,1080.0,1000.0,950.0,850.0,DraftKings,1080.0,11.8,10.333333333333334,1.1419354838709677
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,4,475.0,,500.0,475.0,545.0,375.0,500.0,,DraftKings,545.0,6.45,5.65,1.1415929203539823
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Threes,2,310.0,,,,219.0,,,300.0,BetMGM,310.0,4.1,3.5949999999999998,1.1404728789986092
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,20,350.0,,300.0,340.0,405.0,375.0,390.0,300.0,DraftKings,405.0,5.05,4.425,1.1412429378531073
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,3,220.0,165.0,175.0,180.0,178.0,190.0,200.0,175.0,BetMGM,220.0,3.2,2.8042857142857147,1.1411105450840549
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,10,210.0,210.0,195.0,240.0,265.0,225.0,240.0,,DraftKings,265.0,3.65,3.1999999999999997,1.140625
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,5,950.0,,1000.0,1200.0,1240.0,1100.0,1100.0,1100.0,DraftKings,1240.0,13.4,11.75,1.1404255319148937
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Threes,3,1000.0,,,,830.0,,,900.0,BetMGM,1000.0,11.0,9.65,1.1398963730569949
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,4,-800.0,-265.0,,-1000.0,-431.0,-1000.0,-280.0,-260.0,HardRockBet,-260.0,1.3846153846153846,1.215253318198969,1.1393635910144344
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,20,,,2100.0,,2000.0,2000.0,,1500.0,Bovada,2100.0,22.0,19.333333333333332,1.1379310344827587
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,15,195.0,,165.0,170.0,-111.0,180.0,186.0,165.0,BetMGM,195.0,2.95,2.593483483483483,1.1374662760672976
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,10,,,,800.0,770.0,1000.0,900.0,1000.0,ESPNBET,1000.0,11.0,9.675,1.1369509043927648
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,20,220.0,200.0,225.0,215.0,261.0,275.0,280.0,240.0,FanDuel,280.0,3.8,3.337142857142857,1.1386986301369861
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,40,310.0,290.0,295.0,260.0,293.0,320.0,350.0,300.0,FanDuel,350.0,4.5,3.954285714285714,1.1380057803468209
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,14,,,,,1720.0,1600.0,1400.0,,DraftKings,1720.0,18.2,16.0,1.1375
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,5,220.0,,,285.0,299.0,320.0,,275.0,ESPNBET,320.0,4.2,3.6975000000000002,1.1359026369168357
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Threes,2,333.0,,,290.0,321.0,350.0,370.0,275.0,FanDuel,370.0,4.7,4.138,1.1358144030932817
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,5,425.0,,,375.0,430.0,,,300.0,DraftKings,430.0,5.3,4.666666666666667,1.1357142857142857
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,4,500.0,,575.0,625.0,690.0,650.0,630.0,,DraftKings,690.0,7.9,6.959999999999999,1.135057471264368
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,8,,,,700.0,730.0,650.0,600.0,575.0,DraftKings,730.0,8.3,7.3125,1.1350427350427352
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,20,,,1100.0,,1340.0,1400.0,1400.0,1500.0,HardRockBet,1500.0,16.0,14.1,1.1347517730496455
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Blocks,1,,128.0,,,101.0,,,,BetRivers,128.0,2.2800000000000002,2.01,1.1343283582089554
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,45,,,750.0,900.0,1020.0,1000.0,900.0,,DraftKings,1020.0,11.2,9.875,1.1341772151898732
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,30,390.0,295.0,350.0,360.0,415.0,350.0,360.0,375.0,DraftKings,415.0,5.15,4.542857142857144,1.1336477987421383
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,6,175.0,,,250.0,268.0,,,250.0,DraftKings,268.0,3.68,3.25,1.1323076923076925
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,15,-105.0,,-105.0,-104.0,-204.0,110.0,116.0,100.0,FanDuel,116.0,2.16,1.9094160741219566,1.1312358941951792
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,3,220.0,163.0,175.0,180.0,178.0,200.0,210.0,175.0,BetMGM,220.0,3.2,2.8300000000000005,1.1307420494699645
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,20,115.0,112.0,145.0,120.0,-107.0,140.0,148.0,110.0,FanDuel,148.0,2.48,2.1935113484646194,1.1306073258913898
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,6,-900.0,-278.0,-600.0,-850.0,-532.0,-700.0,-280.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.2061581416613092,1.1305618364090724
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,3,,,-1900.0,,-502.0,-2500.0,,-1200.0,DraftKings,-502.0,1.199203187250996,1.0586549707602337,1.1327611170519822
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,16,,,,900.0,800.0,800.0,750.0,,Caesars,900.0,10.0,8.833333333333334,1.1320754716981132
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,4,,-400.0,,-530.0,-266.0,-500.0,-480.0,-425.0,DraftKings,-266.0,1.3759398496240602,1.2164613392526822,1.131100352494023
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,3,,,,,267.0,,,225.0,DraftKings,267.0,3.67,3.25,1.1292307692307693
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,3,-1100.0,,-1000.0,-1200.0,-543.0,-375.0,,-650.0,ESPNBET,-375.0,1.2666666666666666,1.122450128140736,1.128483693760912
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,20,650.0,,525.0,550.0,504.0,600.0,560.0,650.0,BetMGM,650.0,7.5,6.648333333333333,1.1281022812735022
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Steals,2,,125.0,,,-110.0,,108.0,,BetRivers,125.0,2.25,1.9945454545454546,1.1280765724703736
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,10,-325.0,-245.0,-350.0,-310.0,-1560.0,-1000.0,-295.0,-300.0,BetRivers,-245.0,1.4081632653061225,1.2503437409787481,1.1262209096226898
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,4,-1100.0,-360.0,-1300.0,-2000.0,-630.0,-1400.0,-350.0,-375.0,FanDuel,-350.0,1.2857142857142856,1.141776477490763,1.126064786813483
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,4,-2000.0,-360.0,-1600.0,-500.0,-860.0,-1600.0,-410.0,-475.0,BetRivers,-360.0,1.2777777777777777,1.1351011177973294,1.1256951101037704
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,4,,-375.0,-2500.0,-500.0,-780.0,-1400.0,-410.0,-1400.0,BetRivers,-375.0,1.2666666666666666,1.1258274516811102,1.1250984018690007
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,20,,,,,1700.0,,,1500.0,DraftKings,1700.0,18.0,16.0,1.125
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,8,,,,,1000.0,1100.0,1060.0,1200.0,HardRockBet,1200.0,13.0,11.533333333333333,1.1271676300578035
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,8,,295.0,,340.0,340.0,375.0,390.0,325.0,FanDuel,390.0,4.9,4.35,1.1264367816091956
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,8,,,,575.0,336.0,600.0,600.0,575.0,ESPNBET,600.0,7.0,6.215,1.1263073209975865
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,4,850.0,,900.0,1000.0,1040.0,900.0,,,DraftKings,1040.0,11.4,10.125,1.125925925925926
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,20,500.0,330.0,400.0,450.0,456.0,450.0,470.0,475.0,BetMGM,500.0,6.0,5.33,1.125703564727955
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,4,,,,165.0,187.0,,,145.0,DraftKings,187.0,2.87,2.55,1.1254901960784316
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,8,,155.0,,195.0,197.0,210.0,230.0,210.0,FanDuel,230.0,3.3,2.9339999999999997,1.1247443762781186
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,25,-800.0,-315.0,-575.0,-530.0,-498.0,-600.0,-520.0,-650.0,BetRivers,-315.0,1.3174603174603174,1.1716022877761711,1.1244944903282843
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,5,950.0,,1000.0,1200.0,1240.0,1200.0,1100.0,1100.0,DraftKings,1240.0,13.4,11.916666666666666,1.1244755244755245
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Assists,3,,,,,434.0,,,375.0,DraftKings,434.0,5.34,4.75,1.1242105263157895
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,15,250.0,205.0,250.0,245.0,290.0,250.0,255.0,275.0,DraftKings,290.0,3.9,3.4714285714285715,1.1234567901234567
 Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Blocks,1,,-134.0,,,-158.0,,-210.0,,BetRivers,-134.0,1.7462686567164178,1.5545509342977697,1.1233267551347565
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,30,-235.0,-143.0,-180.0,-190.0,-190.0,-190.0,-180.0,-210.0,BetRivers,-143.0,1.6993006993006992,1.5131115529451795,1.1230505087302478
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,45,,,750.0,900.0,970.0,1000.0,900.0,,ESPNBET,1000.0,11.0,9.8,1.1224489795918366
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,10,1000.0,,1000.0,,1180.0,1100.0,1060.0,,DraftKings,1180.0,12.8,11.4,1.1228070175438596
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,15,310.0,285.0,360.0,340.0,348.0,375.0,400.0,400.0,FanDuel,400.0,5.0,4.454285714285715,1.1225144323284155
 Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Threes,1,,,,,203.0,,,240.0,HardRockBet,240.0,3.4,3.03,1.1221122112211221
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,4,750.0,,750.0,800.0,830.0,900.0,830.0,,ESPNBET,900.0,10.0,8.919999999999998,1.1210762331838566
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,8,-650.0,-235.0,-475.0,-590.0,-408.0,-240.0,-225.0,-250.0,FanDuel,-225.0,1.4444444444444444,1.288737230833618,1.120821537459663
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,16,,,2400.0,,2700.0,,,,DraftKings,2700.0,28.0,25.0,1.12
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,6,,,,,1580.0,,,1400.0,DraftKings,1580.0,16.8,15.0,1.12
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,30,155.0,133.0,145.0,140.0,-108.0,160.0,162.0,170.0,HardRockBet,170.0,2.7,2.410846560846561,1.11993854932514
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Blocks,1,,125.0,,,101.0,,,,BetRivers,125.0,2.25,2.01,1.119402985074627
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,4,-135.0,,,-400.0,-129.0,,,-130.0,DraftKings,-129.0,1.7751937984496124,1.5866571699905032,1.1188263173828772
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,8,-1200.0,-385.0,-1900.0,-2500.0,-670.0,-450.0,-430.0,-850.0,BetRivers,-385.0,1.2597402597402598,1.1282351520292315,1.1165582436201396
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,4,,-435.0,-3500.0,-625.0,-960.0,-2500.0,-500.0,-1300.0,BetRivers,-435.0,1.2298850574712643,1.1016101953601953,1.1164430600327975
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,15,-275.0,-167.0,-230.0,-213.0,-444.0,-190.0,-180.0,-220.0,BetRivers,-167.0,1.5988023952095807,1.4327920807438648,1.1158649023098508
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,2,155.0,,175.0,165.0,165.0,140.0,,190.0,HardRockBet,190.0,2.9,2.6,1.1153846153846154
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,5,,,,,1580.0,,,1400.0,DraftKings,1580.0,16.8,15.0,1.12
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,2,155.0,,175.0,155.0,170.0,140.0,,190.0,HardRockBet,190.0,2.9,2.5900000000000003,1.1196911196911195
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,10,1000.0,,850.0,,980.0,1100.0,1060.0,,ESPNBET,1100.0,12.0,10.725,1.118881118881119
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,14,,,,,1220.0,1100.0,1060.0,,DraftKings,1220.0,13.2,11.8,1.11864406779661
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Assists,4,,,,,1420.0,,,1600.0,HardRockBet,1600.0,17.0,15.2,1.118421052631579
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,4,,,,,269.0,,,230.0,DraftKings,269.0,3.69,3.3,1.1181818181818182
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,3,525.0,,550.0,525.0,581.0,375.0,,575.0,DraftKings,581.0,6.81,6.1,1.116393442622951
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,7,210.0,,235.0,255.0,260.0,,,190.0,DraftKings,260.0,3.6,3.225,1.1162790697674418
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,4,,,,130.0,137.0,150.0,164.0,130.0,FanDuel,164.0,2.6399999999999997,2.3674999999999997,1.1151003167898628
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,10,333.0,,290.0,340.0,290.0,275.0,285.0,,Caesars,340.0,4.4,3.946,1.1150532184490625
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,4,550.0,,550.0,525.0,454.0,600.0,560.0,,ESPNBET,600.0,7.0,6.2780000000000005,1.1150047785919082
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,40,310.0,285.0,295.0,260.0,293.0,320.0,340.0,300.0,FanDuel,340.0,4.4,3.947142857142857,1.1147303655446978
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,4,200.0,220.0,235.0,220.0,223.0,240.0,260.0,,FanDuel,260.0,3.6,3.23,1.1145510835913313
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Steals,2,,133.0,,,168.0,,148.0,,DraftKings,168.0,2.6799999999999997,2.4050000000000002,1.1143451143451142
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,10,100.0,110.0,115.0,120.0,-129.0,105.0,110.0,-155.0,Caesars,120.0,2.2,1.97433644125317,1.114298431630829
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,10,-220.0,,-250.0,-235.0,-780.0,-2000.0,-215.0,-230.0,FanDuel,-215.0,1.4651162790697674,1.315510851056642,1.1137242067543263
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,40,350.0,360.0,350.0,340.0,409.0,410.0,420.0,350.0,FanDuel,420.0,5.2,4.67,1.113490364025696
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,5,600.0,,800.0,800.0,890.0,900.0,800.0,900.0,ESPNBET,900.0,10.0,8.983333333333333,1.1131725417439704
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,6,-2000.0,-455.0,-2500.0,-750.0,-790.0,-1600.0,-530.0,-1400.0,BetRivers,-455.0,1.2197802197802199,1.0960747755037052,1.1128622307904725
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,7,280.0,270.0,340.0,305.0,309.0,340.0,360.0,350.0,FanDuel,360.0,4.6,4.134285714285714,1.1126468555632343
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,15,115.0,-103.0,-105.0,-102.0,-219.0,100.0,102.0,115.0,BetMGM,115.0,2.15,1.9328954143168107,1.1123209171459107
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,6,,133.0,,120.0,131.0,150.0,158.0,125.0,FanDuel,158.0,2.58,2.318,1.1130284728213977
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,6,,,,550.0,620.0,550.0,540.0,550.0,DraftKings,620.0,7.2,6.475,1.111969111969112
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,4,750.0,,750.0,800.0,830.0,900.0,870.0,,ESPNBET,900.0,10.0,9.0,1.1111111111111112
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,4,260.0,,290.0,290.0,330.0,285.0,310.0,,DraftKings,330.0,4.3,3.87,1.111111111111111
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,4,,-400.0,-1900.0,-530.0,-524.0,-2500.0,-480.0,-1200.0,BetRivers,-400.0,1.25,1.1273028642589236,1.1088413235086882
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,4,850.0,,900.0,,990.0,900.0,,,DraftKings,990.0,10.9,9.833333333333334,1.1084745762711865
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,6,333.0,,,,339.0,,,260.0,DraftKings,339.0,4.390000000000001,3.965,1.10718789407314
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,25,310.0,300.0,315.0,305.0,342.0,350.0,370.0,350.0,FanDuel,370.0,4.7,4.2457142857142856,1.1069986541049799
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,15,180.0,135.0,165.0,160.0,-124.0,175.0,176.0,180.0,BetMGM,180.0,2.8,2.5309216589861747,1.1063163452959708
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,20,-105.0,114.0,110.0,105.0,-132.0,120.0,126.0,110.0,FanDuel,126.0,2.26,2.042850958565244,1.1062970553599594
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,4,-120.0,,,,112.0,,,100.0,DraftKings,112.0,2.12,1.9166666666666667,1.106086956521739
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,10,270.0,245.0,320.0,330.0,323.0,275.0,290.0,,Caesars,330.0,4.3,3.8716666666666666,1.1106328024106757
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,35,145.0,165.0,155.0,145.0,178.0,190.0,190.0,150.0,ESPNBET,190.0,2.9,2.6114285714285717,1.110503282275711
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,6,,280.0,,360.0,362.0,375.0,400.0,375.0,FanDuel,400.0,5.0,4.504,1.1101243339253997
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,4,475.0,,500.0,475.0,527.0,375.0,500.0,,DraftKings,527.0,6.27,5.65,1.1097345132743361
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,20,115.0,112.0,145.0,120.0,152.0,140.0,148.0,110.0,DraftKings,152.0,2.52,2.2714285714285714,1.109433962264151
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,7,250.0,,240.0,215.0,207.0,,,200.0,BetMGM,250.0,3.5,3.155,1.109350237717908
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Points,15,,,,,4500.0,,,5000.0,HardRockBet,5000.0,51.0,46.0,1.108695652173913
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,7,280.0,270.0,340.0,305.0,321.0,340.0,360.0,350.0,FanDuel,360.0,4.6,4.151428571428572,1.1080523055746727
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,15,550.0,,450.0,550.0,573.0,550.0,520.0,425.0,DraftKings,573.0,6.73,6.075,1.1078189300411523
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,5,175.0,,,250.0,260.0,,,250.0,DraftKings,260.0,3.6,3.25,1.1076923076923078
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,8,,155.0,,140.0,156.0,145.0,176.0,150.0,FanDuel,176.0,2.76,2.492,1.1075441412520064
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,5,333.0,,,,339.0,,,260.0,DraftKings,339.0,4.390000000000001,3.965,1.10718789407314
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,8,,,,360.0,370.0,410.0,430.0,375.0,FanDuel,430.0,5.3,4.7875,1.1070496083550914
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,6,,107.0,,115.0,120.0,105.0,134.0,110.0,FanDuel,134.0,2.34,2.114,1.1069063386944182
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Assists,4,,,,625.0,486.0,700.0,680.0,700.0,ESPNBET,700.0,8.0,7.2275,1.106883431338637
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,3,425.0,,525.0,450.0,479.0,450.0,460.0,525.0,Bovada,525.0,6.25,5.648333333333333,1.1065210976689288
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,5,-250.0,,-185.0,-209.0,-155.0,-210.0,,-185.0,DraftKings,-155.0,1.6451612903225805,1.4871480913586177,1.1062524975704378
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,3,-120.0,,,,112.0,,,100.0,DraftKings,112.0,2.12,1.9166666666666667,1.106086956521739
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,4,,,,175.0,193.0,,,155.0,DraftKings,193.0,2.9299999999999997,2.65,1.1056603773584905
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,6,140.0,150.0,175.0,160.0,169.0,180.0,190.0,,FanDuel,190.0,2.9,2.623333333333333,1.105463786531131
-Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,15,140.0,128.0,125.0,120.0,-175.0,135.0,144.0,140.0,FanDuel,144.0,2.44,2.20734693877551,1.1053994082840237
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,16,,,1800.0,,2000.0,,,,DraftKings,2000.0,21.0,19.0,1.105263157894737
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,5,,,,425.0,340.0,410.0,,375.0,Caesars,425.0,5.25,4.75,1.105263157894737
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Points,10,150.0,,,135.0,166.0,135.0,136.0,170.0,HardRockBet,170.0,2.7,2.444,1.1047463175122751
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,7,155.0,,185.0,180.0,201.0,,,170.0,DraftKings,201.0,3.01,2.7249999999999996,1.104587155963303
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Steals,2,,265.0,,,231.0,,230.0,,BetRivers,265.0,3.65,3.3049999999999997,1.1043872919818458
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Steals,3,,290.0,,,325.0,,350.0,,FanDuel,350.0,4.5,4.075,1.1042944785276072
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,3,190.0,,220.0,215.0,244.0,240.0,255.0,220.0,FanDuel,255.0,3.55,3.215,1.104199066874028
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,25,-125.0,-104.0,-115.0,-107.0,-111.0,110.0,114.0,100.0,FanDuel,114.0,2.1399999999999997,1.9380834312975719,1.1041836308188457
 Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Steals,2,,118.0,,,165.0,,162.0,,DraftKings,165.0,2.65,2.4,1.1041666666666667
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,6,,,-1900.0,-850.0,-1020.0,-2000.0,-530.0,-1400.0,FanDuel,-530.0,1.1886792452830188,1.0779492849771488,1.1027227921100364
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,10,-110.0,104.0,110.0,105.0,-148.0,-105.0,102.0,-145.0,Bovada,110.0,2.1,1.9052575299373327,1.1022132005792795
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,3,310.0,,330.0,,351.0,300.0,,300.0,DraftKings,351.0,4.51,4.1,1.1
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,3,-800.0,,,-1000.0,-431.0,-1000.0,,-700.0,DraftKings,-431.0,1.2320185614849188,1.1169642857142859,1.1030062261095994
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,5,600.0,,800.0,800.0,890.0,900.0,850.0,900.0,ESPNBET,900.0,10.0,9.066666666666666,1.1029411764705883
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,3,310.0,,330.0,305.0,351.0,300.0,,300.0,DraftKings,351.0,4.51,4.09,1.1026894865525672
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,12,,125.0,,135.0,159.0,135.0,140.0,140.0,DraftKings,159.0,2.59,2.35,1.102127659574468
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,10,,,1200.0,,1040.0,1100.0,1100.0,,Bovada,1200.0,13.0,11.799999999999999,1.1016949152542375
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,15,310.0,,240.0,275.0,319.0,300.0,330.0,300.0,FanDuel,330.0,4.3,3.9066666666666663,1.1006825938566553
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,7,165.0,,205.0,180.0,177.0,,,210.0,HardRockBet,210.0,3.1,2.8175,1.1002661934338953
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,25,-125.0,-105.0,-115.0,-107.0,109.0,110.0,116.0,100.0,FanDuel,116.0,2.16,1.9637893727177989,1.0999142932577612
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,3,500.0,,575.0,625.0,571.0,600.0,560.0,550.0,Caesars,625.0,7.25,6.593333333333334,1.0995955510616784
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,3,105.0,,115.0,115.0,136.0,130.0,132.0,-110.0,DraftKings,136.0,2.3600000000000003,2.1465151515151515,1.0994564833768619
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Threes,1,105.0,,,,-105.0,,,120.0,HardRockBet,120.0,2.2,2.001190476190476,1.0993456276026177
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,10,,,,,1440.0,1600.0,1500.0,1400.0,ESPNBET,1600.0,17.0,15.466666666666667,1.0991379310344827
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Steals,2,,145.0,,,190.0,,194.0,,FanDuel,194.0,2.94,2.675,1.0990654205607477
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,10,-2000.0,-590.0,-2500.0,-1200.0,-2100.0,-3000.0,-950.0,-1100.0,BetRivers,-590.0,1.1694915254237288,1.0643511375842203,1.0987835537792048
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,12,,125.0,,-117.0,107.0,135.0,140.0,140.0,FanDuel,140.0,2.4,2.184940170940171,1.0984282461918806
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,3,525.0,,550.0,575.0,581.0,375.0,,575.0,DraftKings,581.0,6.81,6.2,1.0983870967741935
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,10,-285.0,-240.0,-310.0,-260.0,-990.0,-600.0,-250.0,-325.0,BetRivers,-240.0,1.4166666666666667,1.2904917568754581,1.097772735950444
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,10,,,,,1400.0,1400.0,1400.0,1000.0,DraftKings,1400.0,15.0,13.666666666666666,1.0975609756097562
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,3,155.0,150.0,165.0,155.0,180.0,175.0,190.0,170.0,FanDuel,190.0,2.9,2.642857142857143,1.0972972972972972
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Blocks,1,,-159.0,,,-178.0,,-245.0,,BetRivers,-159.0,1.6289308176100628,1.4849805090575556,1.096937507040995
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,15,333.0,,330.0,340.0,161.0,320.0,340.0,325.0,Caesars,340.0,4.4,4.015,1.0958904109589043
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,3,115.0,,,-109.0,100.0,,,-105.0,BetMGM,115.0,2.15,1.9566040483471676,1.0988426615064006
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,10,165.0,,,130.0,149.0,,,145.0,BetMGM,165.0,2.65,2.4133333333333336,1.0980662983425413
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,8,,,,425.0,381.0,425.0,450.0,375.0,FanDuel,450.0,5.5,5.015000000000001,1.0967098703888334
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,10,145.0,140.0,170.0,160.0,173.0,135.0,144.0,,DraftKings,173.0,2.73,2.4899999999999998,1.0963855421686748
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,15,155.0,143.0,140.0,140.0,154.0,165.0,172.0,140.0,FanDuel,172.0,2.7199999999999998,2.4814285714285718,1.0961427748992514
 Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Steals,1,,-112.0,,,-139.0,,-136.0,,BetRivers,-112.0,1.8928571428571428,1.7273592890393568,1.0958097454698177
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,7,340.0,,,350.0,380.0,,,400.0,HardRockBet,400.0,5.0,4.566666666666666,1.094890510948905
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,5,,,1200.0,,1080.0,1400.0,1400.0,1400.0,ESPNBET,1400.0,15.0,13.7,1.094890510948905
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,10,-175.0,-165.0,-200.0,-190.0,-144.0,-190.0,-180.0,,DraftKings,-144.0,1.6944444444444444,1.5476127186653503,1.0948762723439756
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,7,310.0,,,350.0,378.0,,,350.0,DraftKings,378.0,4.779999999999999,4.366666666666666,1.0946564885496182
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,8,,,,700.0,740.0,800.0,750.0,700.0,ESPNBET,800.0,9.0,8.225,1.0942249240121582
 Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Threes,1,,,,,220.0,,,250.0,HardRockBet,250.0,3.5,3.2,1.09375
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Steals,1,,-159.0,,,-133.0,,-174.0,,DraftKings,-133.0,1.7518796992481203,1.6018217306441118,1.0936795685395455
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,10,-235.0,-240.0,-250.0,-245.0,-820.0,-600.0,-260.0,-220.0,HardRockBet,-220.0,1.4545454545454546,1.3319421596658076,1.0920485127600503
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Points,15,775.0,,,750.0,700.0,,,650.0,BetMGM,775.0,8.75,8.0,1.09375
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,5,-250.0,,-210.0,-209.0,-162.0,-170.0,,-220.0,DraftKings,-162.0,1.617283950617284,1.4794880248750217,1.0931375742320744
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Steals,1,,,,,-186.0,,-245.0,,DraftKings,-186.0,1.5376344086021505,1.4081632653061225,1.0919432756739909
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,5,390.0,,,,454.0,,,425.0,DraftKings,454.0,5.54,5.075,1.0916256157635467
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,3,340.0,265.0,305.0,305.0,352.0,320.0,340.0,325.0,DraftKings,352.0,4.52,4.142857142857143,1.0910344827586205
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,10,175.0,170.0,180.0,175.0,116.0,175.0,176.0,110.0,Bovada,180.0,2.8,2.567142857142857,1.0907067334446299
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,4,200.0,225.0,235.0,220.0,223.0,250.0,255.0,,FanDuel,255.0,3.55,3.2550000000000003,1.0906298003072195
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,6,,200.0,,210.0,229.0,225.0,240.0,250.0,HardRockBet,250.0,3.5,3.2079999999999997,1.0910224438902745
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Steals,1,,-157.0,,,-133.0,,-174.0,,DraftKings,-133.0,1.7518796992481203,1.6058276594186982,1.0909512543097508
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,6,,143.0,,150.0,132.0,150.0,164.0,170.0,HardRockBet,170.0,2.7,2.478,1.089588377723971
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Assists,3,340.0,,,,424.0,,,425.0,HardRockBet,425.0,5.25,4.82,1.0892116182572613
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,10,675.0,,675.0,475.0,630.0,650.0,630.0,,BetMGM,675.0,7.75,7.12,1.0884831460674158
 Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,4,250.0,,350.0,305.0,356.0,340.0,350.0,,DraftKings,356.0,4.5600000000000005,4.19,1.0883054892601431
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,10,475.0,,430.0,425.0,483.0,400.0,450.0,,DraftKings,483.0,5.83,5.36,1.087686567164179
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,7,-250.0,,-240.0,-213.0,-180.0,,,-230.0,DraftKings,-180.0,1.5555555555555556,1.4302332108593592,1.0876237132131032
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,4,950.0,,800.0,1000.0,1020.0,1000.0,900.0,,DraftKings,1020.0,11.2,10.3,1.087378640776699
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,3,425.0,,525.0,475.0,504.0,450.0,470.0,525.0,Bovada,525.0,6.25,5.748333333333332,1.087271672948681
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,35,120.0,140.0,130.0,120.0,-112.0,140.0,142.0,120.0,FanDuel,142.0,2.42,2.227551020408163,1.0863948694457168
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,7,210.0,,190.0,225.0,241.0,,,230.0,DraftKings,241.0,3.41,3.1375,1.0868525896414343
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,3,-1400.0,,-1300.0,-1450.0,-558.0,-1100.0,,-850.0,DraftKings,-558.0,1.17921146953405,1.0851746630651296,1.0866559178623918
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,4,155.0,128.0,140.0,130.0,134.0,135.0,142.0,,BetMGM,155.0,2.55,2.348333333333333,1.085876508161817
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Blocks,1,,-162.0,,,-151.0,,-225.0,,DraftKings,-151.0,1.6622516556291391,1.5308641975308643,1.085825678273873
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,15,-450.0,-250.0,-310.0,-310.0,-620.0,-285.0,-290.0,-325.0,BetRivers,-250.0,1.4,1.2902958460010154,1.085022480959687
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,8,,225.0,,285.0,272.0,285.0,300.0,275.0,FanDuel,300.0,4.0,3.684,1.0857763300760044
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,6,,-275.0,,-460.0,-341.0,-375.0,-350.0,-450.0,BetRivers,-275.0,1.3636363636363638,1.257049922183162,1.0847909375532911
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,7,775.0,,,750.0,720.0,,,650.0,BetMGM,775.0,8.75,8.066666666666666,1.084710743801653
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,10,155.0,150.0,195.0,170.0,191.0,200.0,200.0,175.0,ESPNBET,200.0,3.0,2.7657142857142856,1.084710743801653
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,4,400.0,,425.0,400.0,453.0,450.0,470.0,,FanDuel,470.0,5.7,5.256,1.0844748858447488
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,4,,,,,442.0,,,400.0,DraftKings,442.0,5.42,5.0,1.084
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,6,,,,400.0,442.0,375.0,400.0,425.0,DraftKings,442.0,5.42,5.0,1.084
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Steals,1,,-106.0,,,-126.0,,,,BetRivers,-106.0,1.9433962264150944,1.7936507936507935,1.08348639171815
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,25,310.0,300.0,315.0,305.0,342.0,350.0,360.0,350.0,FanDuel,360.0,4.6,4.2457142857142856,1.0834454912516824
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,10,-2000.0,-590.0,-2500.0,-1200.0,-880.0,-1200.0,-1000.0,-1100.0,BetRivers,-590.0,1.1694915254237288,1.08017316017316,1.0826889322414293
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,3,210.0,210.0,210.0,195.0,184.0,225.0,230.0,200.0,FanDuel,230.0,3.3,3.0485714285714285,1.0824742268041236
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,3,155.0,135.0,150.0,145.0,164.0,165.0,172.0,145.0,FanDuel,172.0,2.7199999999999998,2.5128571428571433,1.0824332006822055
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,2,,165.0,,,152.0,,138.0,,BetRivers,165.0,2.65,2.45,1.0816326530612244
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Blocks,1,,-165.0,,,-178.0,,-245.0,,BetRivers,-165.0,1.606060606060606,1.4849805090575556,1.0815364890411214
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,30,155.0,133.0,145.0,140.0,153.0,160.0,162.0,170.0,HardRockBet,170.0,2.7,2.4971428571428573,1.0812356979405033
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,4,,-315.0,,-440.0,-362.0,-425.0,-400.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.261254051260551,1.0811750117063945
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,20,-105.0,114.0,110.0,105.0,117.0,125.0,128.0,110.0,FanDuel,128.0,2.2800000000000002,2.10891156462585,1.0811264152769269
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Threes,2,280.0,,,,228.0,,,275.0,BetMGM,280.0,3.8,3.5149999999999997,1.0810810810810811
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,15,-165.0,-141.0,-145.0,-150.0,-296.0,-130.0,-132.0,-145.0,ESPNBET,-130.0,1.7692307692307692,1.636667295874926,1.0809959810952157
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,4,155.0,128.0,140.0,130.0,141.0,135.0,142.0,,BetMGM,155.0,2.55,2.36,1.0805084745762712
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,6,-175.0,,-145.0,-148.0,-127.0,-145.0,,-155.0,DraftKings,-127.0,1.7874015748031495,1.6543151764508828,1.0804480308509206
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,4,,185.0,,185.0,174.0,210.0,210.0,180.0,ESPNBET,210.0,3.1,2.868,1.080892608089261
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,5,-125.0,,,-110.0,101.0,-115.0,,105.0,HardRockBet,105.0,2.05,1.8971640316205534,1.08056022875834
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,5,-175.0,,-145.0,-148.0,-127.0,-145.0,,-155.0,DraftKings,-127.0,1.7874015748031495,1.6543151764508828,1.0804480308509206
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,15,375.0,,400.0,400.0,433.0,410.0,400.0,375.0,DraftKings,433.0,5.33,4.933333333333334,1.0804054054054053
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,2,-115.0,108.0,-105.0,-110.0,-106.0,-110.0,-106.0,-105.0,BetRivers,108.0,2.08,1.9256144847378882,1.0801746748820944
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,2,-295.0,,-275.0,-275.0,-208.0,-240.0,-230.0,-325.0,DraftKings,-208.0,1.4807692307692308,1.370899560195802,1.080144216077899
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,6,,,,,980.0,,,900.0,DraftKings,980.0,10.8,10.0,1.08
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,10,-115.0,,110.0,-113.0,101.0,-105.0,100.0,-105.0,Bovada,110.0,2.1,1.9448804790609333,1.0797578682130455
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,7,850.0,,850.0,950.0,940.0,,,850.0,Caesars,950.0,10.5,9.725,1.0796915167095116
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,7,-1200.0,,-1900.0,-2500.0,-630.0,,,-850.0,DraftKings,-630.0,1.1587301587301586,1.0734029927760578,1.0794922005326497
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Blocks,1,,-148.0,,,-159.0,,-210.0,,BetRivers,-148.0,1.6756756756756757,1.5525606469002695,1.079298048048048
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,15,-350.0,-250.0,-230.0,-280.0,-555.0,-260.0,-260.0,-300.0,Bovada,-230.0,1.434782608695652,1.332228775085918,1.0769791461703866
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,2,130.0,,165.0,145.0,151.0,145.0,146.0,160.0,Bovada,165.0,2.65,2.461666666666667,1.0765064319566688
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,5,110.0,,,100.0,114.0,110.0,,125.0,HardRockBet,125.0,2.25,2.085,1.079136690647482
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,3,310.0,,,,324.0,,,350.0,HardRockBet,350.0,4.5,4.17,1.079136690647482
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,3,,165.0,,,180.0,,194.0,,FanDuel,194.0,2.94,2.7249999999999996,1.0788990825688074
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,15,-275.0,-167.0,-230.0,-197.0,-188.0,-190.0,-180.0,-220.0,BetRivers,-167.0,1.5988023952095807,1.4820521255316716,1.0787760886858322
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,3,190.0,,220.0,220.0,244.0,225.0,240.0,220.0,DraftKings,244.0,3.44,3.191666666666667,1.0778067885117493
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,10,,,1200.0,,1020.0,1100.0,1200.0,,Bovada,1200.0,13.0,12.066666666666668,1.0773480662983423
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,2,130.0,,165.0,140.0,151.0,145.0,150.0,160.0,Bovada,165.0,2.65,2.46,1.0772357723577235
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,3,240.0,,,205.0,222.0,,,220.0,BetMGM,240.0,3.4,3.1566666666666663,1.0770855332629357
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,3,-1100.0,,-1300.0,-2000.0,-630.0,-1400.0,,-1100.0,DraftKings,-630.0,1.1587301587301586,1.076033966033966,1.0768527716657434
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,7,115.0,,125.0,-110.0,120.0,,,110.0,Bovada,125.0,2.25,2.0897727272727273,1.0766721044045677
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,3,-165.0,,,,-139.0,,,-170.0,DraftKings,-139.0,1.7194244604316546,1.5971479500891266,1.0765592882836588
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,4,400.0,,375.0,370.0,439.0,425.0,440.0,,FanDuel,440.0,5.4,5.018,1.076125946592268
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,10,-550.0,,-550.0,-420.0,-820.0,-1200.0,-390.0,-375.0,HardRockBet,-375.0,1.2666666666666666,1.1772377351645644,1.075965056870693
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,7,450.0,,,400.0,453.0,,,475.0,HardRockBet,475.0,5.75,5.343333333333334,1.0761072988147222
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,3,-250.0,,,-190.0,-174.0,-160.0,,-185.0,ESPNBET,-160.0,1.625,1.5103922434230963,1.075879465798342
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,5,250.0,,265.0,250.0,284.0,260.0,,260.0,DraftKings,284.0,3.84,3.5700000000000003,1.0756302521008403
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,2,105.0,100.0,100.0,100.0,115.0,120.0,122.0,105.0,FanDuel,122.0,2.2199999999999998,2.0642857142857145,1.075432525951557
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Steals,1,,-167.0,,,-201.0,,-210.0,,BetRivers,-167.0,1.5988023952095807,1.4868514570007108,1.0752939627437286
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,25,140.0,128.0,140.0,125.0,-118.0,135.0,144.0,145.0,HardRockBet,145.0,2.45,2.281065375302663,1.0740595278532612
-Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,6,400.0,,,400.0,418.0,,,350.0,DraftKings,418.0,5.18,4.833333333333333,1.0717241379310345
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,10,-175.0,-165.0,-200.0,-190.0,-223.0,-190.0,-180.0,-275.0,BetRivers,-165.0,1.606060606060606,1.4988117946916286,1.071555889637927
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,7,175.0,,,225.0,212.0,,,220.0,Caesars,225.0,3.25,3.0233333333333334,1.0749724366041895
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,5,-225.0,,-200.0,-200.0,-165.0,-190.0,,-200.0,DraftKings,-165.0,1.606060606060606,1.4941520467836258,1.0748977050346913
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,6,,-182.0,,-245.0,-207.0,-240.0,-205.0,-240.0,BetRivers,-182.0,1.5494505494505495,1.44247865282557,1.074158391471125
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,15,-105.0,,-105.0,-104.0,111.0,110.0,116.0,100.0,FanDuel,116.0,2.16,2.012716727716728,1.0731763542554513
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,7,-325.0,,-300.0,-310.0,-238.0,,,-300.0,DraftKings,-238.0,1.4201680672268908,1.3242349048800661,1.0724442181619682
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,12,,,,450.0,456.0,375.0,400.0,450.0,DraftKings,456.0,5.56,5.1875,1.0718072289156626
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,5,400.0,,,400.0,418.0,,,350.0,DraftKings,418.0,5.18,4.833333333333333,1.0717241379310345
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,4,,-265.0,,-295.0,-218.0,-285.0,-280.0,-260.0,DraftKings,-218.0,1.4587155963302751,1.3617953952308386,1.071170897947564
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,25,-175.0,-155.0,-180.0,-162.0,-158.0,-180.0,-160.0,-140.0,HardRockBet,-140.0,1.7142857142857144,1.600413759412087,1.0711515720256355
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,4,-1100.0,,-1000.0,-1200.0,-543.0,-1000.0,,-650.0,DraftKings,-543.0,1.1841620626151013,1.1056177156177156,1.0710411436863623
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,7,220.0,,235.0,235.0,218.0,,,250.0,HardRockBet,250.0,3.5,3.27,1.070336391437309
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,35,120.0,140.0,130.0,120.0,126.0,140.0,144.0,120.0,FanDuel,144.0,2.44,2.2800000000000002,1.070175438596491
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,2,150.0,148.0,135.0,135.0,151.0,160.0,162.0,135.0,FanDuel,162.0,2.62,2.448571428571429,1.0700116686114352
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,3,,170.0,,,180.0,,194.0,,FanDuel,194.0,2.94,2.75,1.069090909090909
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,5,-190.0,,-180.0,-159.0,-148.0,-140.0,,-160.0,ESPNBET,-140.0,1.7142857142857144,1.6022955676629955,1.069893563261902
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,5,130.0,,155.0,135.0,137.0,140.0,,150.0,Bovada,155.0,2.55,2.384,1.0696308724832215
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,6,,,,180.0,202.0,175.0,180.0,195.0,DraftKings,202.0,3.02,2.825,1.0690265486725663
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,3,180.0,,200.0,180.0,200.0,180.0,210.0,200.0,FanDuel,210.0,3.1,2.9,1.0689655172413794
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,4,-125.0,-113.0,-115.0,-121.0,-112.0,-105.0,100.0,,FanDuel,100.0,2.0,1.8710342243055873,1.0689275343118199
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,20,,,-5000.0,-2000.0,-870.0,-2500.0,-1600.0,,DraftKings,-870.0,1.1149425287356323,1.043125,1.0688484397705282
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,15,195.0,,165.0,170.0,190.0,180.0,186.0,165.0,BetMGM,195.0,2.95,2.76,1.068840579710145
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,7,-600.0,,-450.0,-530.0,-354.0,,,-450.0,DraftKings,-354.0,1.2824858757062148,1.1999475890985325,1.0687849097390076
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Blocks,1,,180.0,,,162.0,,,,BetRivers,180.0,2.8,2.62,1.0687022900763357
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,6,,,-20000.0,-2000.0,-1560.0,-3000.0,-800.0,-850.0,FanDuel,-800.0,1.125,1.054016591251885,1.067345627514085
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,20,-550.0,-360.0,-650.0,-460.0,-670.0,-475.0,-460.0,-400.0,BetRivers,-360.0,1.2777777777777777,1.1971752844989634,1.0673272279527117
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,10,-1100.0,-560.0,-850.0,-750.0,-1280.0,-3000.0,-670.0,-750.0,BetRivers,-560.0,1.1785714285714286,1.105133554439415,1.0664515830118517
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,12,,215.0,,270.0,255.0,250.0,265.0,275.0,HardRockBet,275.0,3.75,3.5099999999999993,1.0683760683760686
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,5,-118.0,,,-112.0,103.0,-110.0,,-105.0,DraftKings,103.0,2.0300000000000002,1.9004466578619121,1.0681699439456203
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,10,-325.0,-245.0,-350.0,-310.0,-326.0,-300.0,-295.0,-300.0,BetRivers,-245.0,1.4081632653061225,1.3183407746199536,1.0681329838349745
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,5,-2000.0,,-2500.0,,-790.0,-1600.0,,-1400.0,DraftKings,-790.0,1.1265822784810127,1.0559821428571428,1.0668573196066071
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,7,-110.0,,110.0,110.0,114.0,,,120.0,HardRockBet,120.0,2.2,2.0622727272727275,1.0667842186466827
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,4,,-375.0,,-500.0,-327.0,-450.0,-410.0,-525.0,DraftKings,-327.0,1.305810397553517,1.224653503677894,1.066269270150203
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,2,150.0,,180.0,180.0,167.0,180.0,190.0,175.0,FanDuel,190.0,2.9,2.72,1.0661764705882353
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,7,525.0,,600.0,575.0,527.0,,,600.0,Bovada,600.0,7.0,6.5675,1.0658545869813476
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,5,-150.0,-117.0,-115.0,-122.0,-115.0,-110.0,-105.0,-120.0,FanDuel,-105.0,1.9523809523809523,1.8317991899602735,1.0658269547675114
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Steals,2,,143.0,,,130.0,,126.0,,BetRivers,143.0,2.4299999999999997,2.28,1.0657894736842104
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,20,-400.0,-250.0,-350.0,-295.0,-402.0,-275.0,-265.0,-300.0,BetRivers,-250.0,1.4,1.313968820428993,1.0654742930223557
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Steals,2,,105.0,,,120.0,,108.0,,DraftKings,120.0,2.2,2.065,1.0653753026634383
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,10,-135.0,-114.0,-105.0,-118.0,-116.0,-105.0,100.0,-110.0,FanDuel,100.0,2.0,1.8773304470979402,1.0653425469616646
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,3,155.0,150.0,165.0,155.0,180.0,165.0,180.0,170.0,DraftKings,180.0,2.8,2.6285714285714286,1.0652173913043477
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,3,-300.0,,,-213.0,-188.0,,,-195.0,DraftKings,-188.0,1.5319148936170213,1.438545804742988,1.064905190064987
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,25,-550.0,-305.0,-450.0,-390.0,-307.0,-400.0,-370.0,-450.0,BetRivers,-305.0,1.3278688524590163,1.2469537217094222,1.0648902435919347
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,15,-1000.0,-560.0,-1100.0,-850.0,-1440.0,-1000.0,-720.0,-750.0,BetRivers,-560.0,1.1785714285714286,1.107174688057041,1.064485524537849
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Steals,1,,-106.0,,,-121.0,,,,BetRivers,-106.0,1.9433962264150944,1.8264462809917354,1.0640314180824726
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,4,,,-20000.0,-1000.0,-700.0,-3000.0,-700.0,-650.0,HardRockBet,-650.0,1.1538461538461537,1.0848095238095237,1.0636394026060854
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,3,180.0,,200.0,180.0,210.0,180.0,210.0,200.0,DraftKings,210.0,3.1,2.9166666666666665,1.062857142857143
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,3,-750.0,,,-800.0,-470.0,-800.0,,-575.0,DraftKings,-470.0,1.2127659574468086,1.1393115942028986,1.0644725846885645
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,7,170.0,,205.0,190.0,200.0,,,210.0,HardRockBet,210.0,3.1,2.9125,1.0643776824034334
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,6,,,,130.0,143.0,140.0,,115.0,DraftKings,143.0,2.4299999999999997,2.283333333333333,1.0642335766423356
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,15,180.0,135.0,165.0,155.0,164.0,175.0,168.0,180.0,BetMGM,180.0,2.8,2.6314285714285712,1.0640608034744843
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,5,-275.0,,-250.0,-240.0,-200.0,-240.0,,-220.0,DraftKings,-200.0,1.5,1.4103030303030306,1.0636012032660076
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,3,,,-2500.0,,-780.0,-1400.0,,-1400.0,DraftKings,-780.0,1.1282051282051282,1.0609523809523809,1.0633890346637205
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,7,170.0,,175.0,180.0,195.0,,,185.0,DraftKings,195.0,2.95,2.775,1.063063063063063
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,6,,170.0,,180.0,205.0,190.0,200.0,195.0,DraftKings,205.0,3.05,2.87,1.0627177700348431
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,4,,,,-345.0,-243.0,-275.0,,-300.0,DraftKings,-243.0,1.4115226337448559,1.328941589811155,1.0621404616778047
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,3,-1200.0,,,-1700.0,-890.0,-2000.0,,-700.0,HardRockBet,-700.0,1.1428571428571428,1.076129103326724,1.0620074666916237
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,2,-160.0,,-145.0,-132.0,-117.0,-120.0,-120.0,-135.0,DraftKings,-117.0,1.8547008547008548,1.7466063895661597,1.061888279912651
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,5,-185.0,,-160.0,-165.0,-140.0,-170.0,,-140.0,DraftKings,-140.0,1.7142857142857144,1.6148244310009012,1.0615926297468543
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,6,,112.0,,120.0,124.0,130.0,138.0,135.0,FanDuel,138.0,2.38,2.242,1.0615521855486172
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,14,,,,,1280.0,1200.0,1200.0,,DraftKings,1280.0,13.8,13.0,1.0615384615384615
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,15,115.0,-103.0,-105.0,-102.0,111.0,100.0,102.0,115.0,BetMGM,115.0,2.15,2.0262352708073523,1.0610811246728193
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,4,,-360.0,,-400.0,-291.0,-425.0,-330.0,-375.0,DraftKings,-291.0,1.343642611683849,1.2665537730243612,1.0608650341591181
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,5,-1400.0,,-1400.0,-1250.0,-660.0,-1000.0,,-950.0,DraftKings,-660.0,1.1515151515151516,1.085624060150376,1.0606942069390473
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,6,,,,120.0,115.0,130.0,136.0,125.0,FanDuel,136.0,2.3600000000000003,2.2249999999999996,1.0606741573033711
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,6,,102.0,,-106.0,114.0,110.0,112.0,-110.0,DraftKings,114.0,2.1399999999999997,2.018497427101201,1.0601945641681052
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Steals,1,,-335.0,,,-264.0,,-330.0,,DraftKings,-264.0,1.378787878787879,1.300768882858435,1.059979137691238
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,2,-175.0,-148.0,-180.0,-159.0,-145.0,-140.0,-136.0,-160.0,FanDuel,-136.0,1.7352941176470589,1.6372187867099106,1.0599036193166562
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,10,-550.0,-420.0,-550.0,-440.0,-990.0,-1600.0,-500.0,-425.0,BetRivers,-420.0,1.2380952380952381,1.1699590442237502,1.058238101759105
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Steals,1,,-385.0,,,-269.0,,-300.0,,DraftKings,-269.0,1.3717472118959106,1.2965367965367967,1.0580087009948425
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,2,,-106.0,,,-117.0,,-122.0,,BetRivers,-106.0,1.9433962264150944,1.837186492924198,1.0578110790058366
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,6,,105.0,,110.0,123.0,110.0,112.0,115.0,DraftKings,123.0,2.23,2.104,1.0598859315589353
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,3,-2000.0,,-1600.0,,-790.0,-1600.0,,-1300.0,DraftKings,-790.0,1.1265822784810127,1.0629807692307691,1.0598331701675743
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Assists,4,,,,,1860.0,,,1750.0,DraftKings,1860.0,19.6,18.5,1.0594594594594595
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,3,-105.0,130.0,135.0,120.0,136.0,135.0,140.0,135.0,FanDuel,140.0,2.4,2.2660544217687075,1.0591096034343008
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,4,,-315.0,,-360.0,-263.0,-350.0,-330.0,-300.0,DraftKings,-263.0,1.3802281368821292,1.3034632034632032,1.0588930575216602
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,10,,,1000.0,,1100.0,1100.0,1000.0,,DraftKings,1100.0,12.0,11.333333333333334,1.0588235294117647
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,15,140.0,128.0,125.0,120.0,126.0,135.0,144.0,140.0,FanDuel,144.0,2.44,2.305714285714285,1.0582403965303595
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,10,-235.0,-240.0,-250.0,-245.0,-203.0,-260.0,-260.0,-220.0,DraftKings,-203.0,1.4926108374384237,1.4105911529489474,1.0581456110213139
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,30,-175.0,-130.0,-150.0,-152.0,-127.0,-130.0,-130.0,-160.0,DraftKings,-127.0,1.7874015748031495,1.6898117546613787,1.05775188855952
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,2,-175.0,-143.0,-180.0,-159.0,-145.0,-140.0,-136.0,-160.0,FanDuel,-136.0,1.7352941176470589,1.640593790084914,1.0577232024980683
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Points,10,185.0,,,145.0,171.0,190.0,190.0,180.0,ESPNBET,190.0,2.9,2.742,1.0576221735959153
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,3,-120.0,,,-139.0,-126.0,,,-145.0,BetMGM,-120.0,1.8333333333333335,1.7342434754987472,1.0571372239449188
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,3,-1400.0,,-1200.0,-2500.0,-720.0,-1200.0,,-900.0,DraftKings,-720.0,1.1388888888888888,1.0778412698412698,1.0566387841658813
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,4,,,,575.0,600.0,,,550.0,DraftKings,600.0,7.0,6.625,1.0566037735849056
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,6,,-150.0,,-205.0,-147.0,-145.0,-140.0,-170.0,FanDuel,-140.0,1.7142857142857144,1.622526824018085,1.0565530806081802
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Threes,1,-150.0,,,-152.0,-146.0,-130.0,-132.0,-165.0,ESPNBET,-130.0,1.7692307692307692,1.6746258547988901,1.0564931648229212
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,6,390.0,,,,436.0,,,425.0,DraftKings,436.0,5.36,5.075,1.0561576354679802
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Assists,3,,,,475.0,461.0,,,500.0,HardRockBet,500.0,6.0,5.68,1.0563380281690142
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,25,140.0,128.0,140.0,125.0,150.0,135.0,144.0,145.0,DraftKings,150.0,2.5,2.367142857142857,1.0561255280627642
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Threes,1,-155.0,,,,-195.0,,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.5789909015715466,1.0555264536406495
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,6,,,-10000.0,-1450.0,-1360.0,-3000.0,-900.0,-850.0,HardRockBet,-850.0,1.1176470588235294,1.0593878746901058,1.054993251787468
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,3,-105.0,132.0,135.0,125.0,136.0,135.0,140.0,135.0,FanDuel,140.0,2.4,2.2760544217687078,1.0544563333134076
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,2,-200.0,-182.0,-185.0,-182.0,-161.0,-200.0,-178.0,-175.0,DraftKings,-161.0,1.62111801242236,1.5389525662398855,1.0533904994766856
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,2,-175.0,,-160.0,-164.0,-140.0,-160.0,-150.0,-150.0,DraftKings,-140.0,1.7142857142857144,1.627419667053813,1.053376550001487
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,4,-120.0,,,,-126.0,,,-145.0,BetMGM,-120.0,1.8333333333333335,1.7416529830322933,1.0526398491514772
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Steals,1,,-360.0,,,-269.0,,-310.0,,DraftKings,-269.0,1.3717472118959106,1.3001792114695339,1.0550447198317274
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,8,,-105.0,,-120.0,-104.0,-115.0,-102.0,-130.0,FanDuel,-102.0,1.9803921568627452,1.8772097467749638,1.054965839733705
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,4,,-360.0,,-500.0,-335.0,-450.0,-410.0,-475.0,DraftKings,-335.0,1.2985074626865671,1.2308857509627729,1.0549374397021836
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,10,105.0,106.0,125.0,110.0,127.0,115.0,128.0,125.0,FanDuel,128.0,2.2800000000000002,2.1614285714285715,1.0548578982154662
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,5,-185.0,,-160.0,-190.0,-164.0,-190.0,,-200.0,Bovada,-160.0,1.625,1.5405856434097769,1.054793679891362
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,20,-550.0,-360.0,-650.0,-460.0,-401.0,-475.0,-460.0,-400.0,BetRivers,-360.0,1.2777777777777777,1.211478545536136,1.054725882258444
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,6,,-455.0,,-750.0,-420.0,-600.0,-530.0,-600.0,DraftKings,-420.0,1.2380952380952381,1.1750252263459813,1.0536754533733612
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,8,,,,450.0,363.0,425.0,450.0,450.0,Caesars,450.0,5.5,5.22,1.053639846743295
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,5,-155.0,,-160.0,-179.0,-150.0,-190.0,,-180.0,DraftKings,-150.0,1.6666666666666665,1.582138370645783,1.053426613998611
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,7,230.0,,,215.0,215.0,,,210.0,BetMGM,230.0,3.3,3.1333333333333333,1.053191489361702
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,3,-135.0,,,-150.0,-128.0,,,-150.0,DraftKings,-128.0,1.78125,1.6913580246913582,1.053147810218978
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,3,,,-3500.0,,-960.0,-2500.0,,-1300.0,DraftKings,-960.0,1.1041666666666667,1.0484981684981685,1.0530935578535496
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,7,-400.0,,-290.0,-335.0,-266.0,,,-300.0,DraftKings,-266.0,1.3759398496240602,1.3066670955566992,1.0530148454054762
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,2,,-107.0,,,-117.0,,-122.0,,BetRivers,-107.0,1.9345794392523366,1.837186492924198,1.0530120086900492
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,8,,-385.0,,-800.0,-365.0,-450.0,-430.0,-475.0,DraftKings,-365.0,1.273972602739726,1.2100093874573679,1.0528617512767948
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Steals,2,,140.0,,,130.0,,126.0,,BetRivers,140.0,2.4,2.28,1.0526315789473684
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,8,,-195.0,,-240.0,-215.0,-225.0,-215.0,-250.0,BetRivers,-195.0,1.5128205128205128,1.4382687338501292,1.0518343875631744
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,15,-165.0,-143.0,-145.0,-150.0,-128.0,-130.0,-136.0,-145.0,DraftKings,-128.0,1.78125,1.6936947433904836,1.0516948269168302
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,8,,,,115.0,112.0,120.0,124.0,105.0,FanDuel,124.0,2.24,2.13,1.051643192488263
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,2,-105.0,,110.0,100.0,112.0,115.0,,105.0,ESPNBET,115.0,2.15,2.0444761904761903,1.0516141053710346
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,2,-200.0,-180.0,-185.0,-182.0,-161.0,-200.0,-174.0,-175.0,DraftKings,-161.0,1.62111801242236,1.541669694379054,1.0515339429275776
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Steals,1,,-305.0,,,-239.0,,-270.0,,DraftKings,-239.0,1.4184100418410042,1.3491196114146933,1.0513597384843087
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,15,,,-4000.0,-1700.0,-860.0,-1600.0,-1200.0,-1200.0,DraftKings,-860.0,1.1162790697674418,1.0625980392156862,1.0505186614040602
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,10,,,,,1700.0,2000.0,2000.0,2000.0,ESPNBET,2000.0,21.0,20.0,1.05
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,1,-2000.0,,-3500.0,,-900.0,-1600.0,-1200.0,-1500.0,DraftKings,-900.0,1.1111111111111112,1.0582142857142856,1.0499868751640606
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,15,-1000.0,-560.0,-1100.0,-850.0,-597.0,-1000.0,-720.0,-750.0,BetRivers,-560.0,1.1785714285714286,1.121183222794219,1.0511853946888239
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Steals,2,,160.0,,,169.0,,178.0,,FanDuel,178.0,2.7800000000000002,2.645,1.0510396975425331
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,6,,,,550.0,537.0,,,500.0,Caesars,550.0,6.5,6.1850000000000005,1.0509296685529506
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,5,,,-10000.0,,-1360.0,-3000.0,,,DraftKings,-1360.0,1.0735294117647058,1.0216666666666667,1.0507628826408213
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,4,,-335.0,,-480.0,-333.0,-425.0,-400.0,-500.0,DraftKings,-333.0,1.3003003003003002,1.2384269827333918,1.0499612156627474
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,1,,-265.0,,,-289.0,,-360.0,,BetRivers,-265.0,1.3773584905660377,1.3118992695117262,1.0498965298446081
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,4,,-210.0,,-245.0,-200.0,-240.0,-245.0,-230.0,DraftKings,-200.0,1.5,1.4287932564330081,1.0498369818351188
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,8,,102.0,,115.0,115.0,120.0,124.0,115.0,FanDuel,124.0,2.24,2.134,1.0496719775070291
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,3,155.0,,,,150.0,,,165.0,HardRockBet,165.0,2.65,2.525,1.0495049504950495
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,10,115.0,107.0,120.0,105.0,125.0,120.0,124.0,110.0,DraftKings,125.0,2.25,2.1442857142857146,1.0493004663557628
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,5,195.0,,215.0,195.0,211.0,190.0,,210.0,Bovada,215.0,3.15,3.002,1.0493004663557628
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,1,-800.0,,-800.0,-675.0,-495.0,-700.0,-560.0,-650.0,DraftKings,-495.0,1.202020202020202,1.1455704789038121,1.049276516945868
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,4,-165.0,,,,-148.0,,,-170.0,DraftKings,-148.0,1.6756756756756757,1.5971479500891266,1.049167471042471
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,10,,,-2500.0,,-1100.0,-3000.0,-2000.0,,DraftKings,-1100.0,1.0909090909090908,1.041111111111111,1.0478315707771417
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,8,,,,,2100.0,,,2000.0,DraftKings,2100.0,22.0,21.0,1.0476190476190477
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,6,1000.0,,,,1000.0,,,900.0,BetMGM,1000.0,11.0,10.5,1.0476190476190477
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,8,,,,,2100.0,,,2000.0,DraftKings,2100.0,22.0,21.0,1.0476190476190477
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,3,-125.0,100.0,-105.0,-110.0,-107.0,100.0,102.0,-110.0,FanDuel,102.0,2.02,1.929306029973587,1.0470085971937042
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,6,,,-7000.0,,-1280.0,,-2200.0,,DraftKings,-1280.0,1.078125,1.0298701298701298,1.0468552963430013
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,3,-125.0,-103.0,-105.0,-110.0,-107.0,100.0,102.0,-110.0,FanDuel,102.0,2.02,1.9251451423175534,1.0492715357389921
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,7,210.0,,215.0,195.0,206.0,,,190.0,Bovada,215.0,3.15,3.0025000000000004,1.0491257285595335
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,15,,,-4000.0,-1700.0,-860.0,-1600.0,-1100.0,-1200.0,DraftKings,-860.0,1.1162790697674418,1.0641131907308377,1.0490228666376895
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,10,-110.0,102.0,110.0,105.0,106.0,-105.0,102.0,,Bovada,110.0,2.1,2.001911976911977,1.048997170814337
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,6,,,,-1450.0,-650.0,-1200.0,-770.0,-850.0,DraftKings,-650.0,1.1538461538461537,1.0999540098170928,1.0489949066488902
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,5,195.0,,,170.0,180.0,190.0,,185.0,BetMGM,195.0,2.95,2.8125,1.048888888888889
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,5,-185.0,,-165.0,-182.0,-151.0,-160.0,,-165.0,DraftKings,-151.0,1.6622516556291391,1.5854224604224605,1.048459762066324
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,4,,,,-235.0,-202.0,-240.0,-230.0,-195.0,HardRockBet,-195.0,1.5128205128205128,1.4430076738016078,1.0483800885375634
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,15,-350.0,-250.0,-230.0,-280.0,-230.0,-260.0,-260.0,-300.0,Bovada,-230.0,1.434782608695652,1.3686005505881285,1.048357468568227
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,5,-125.0,,,-129.0,-126.0,-130.0,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.7845188403327938,1.0476578756897015
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,6,,,2100.0,,,2000.0,2000.0,,Bovada,2100.0,22.0,21.0,1.0476190476190477
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,8,,,,,2100.0,,,2000.0,DraftKings,2100.0,22.0,21.0,1.0476190476190477
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,5,1000.0,,,,1000.0,,,900.0,BetMGM,1000.0,11.0,10.5,1.0476190476190477
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,7,,,,,2100.0,,,2000.0,DraftKings,2100.0,22.0,21.0,1.0476190476190477
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Assists,3,600.0,,,,620.0,,,575.0,DraftKings,620.0,7.2,6.875,1.0472727272727274
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Assists,3,,,,-134.0,-119.0,-115.0,,-130.0,ESPNBET,-115.0,1.8695652173913042,1.7852785201336563,1.0472120715659188
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,7,-650.0,,-475.0,-590.0,-408.0,,,-450.0,DraftKings,-408.0,1.2450980392156863,1.1890215543203948,1.0471618741405768
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,6,,275.0,,280.0,270.0,285.0,300.0,300.0,FanDuel,300.0,4.0,3.8200000000000003,1.0471204188481675
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,10,-120.0,,-115.0,-113.0,-106.0,-105.0,-102.0,100.0,HardRockBet,100.0,2.0,1.9106706064326364,1.0467529009273597
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,3,-750.0,,,-675.0,-495.0,-700.0,,-475.0,HardRockBet,-475.0,1.2105263157894737,1.1565897065897066,1.0466341770918948
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,3,-1400.0,,-1400.0,-1700.0,-770.0,-1100.0,,-950.0,DraftKings,-770.0,1.12987012987013,1.0795705842145469,1.04659217877095
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,3,-1100.0,,-850.0,-950.0,-577.0,-900.0,-670.0,-650.0,DraftKings,-577.0,1.173310225303293,1.1213383839879842,1.0463480444952518
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,20,-220.0,-190.0,-210.0,-213.0,-278.0,-210.0,-200.0,-210.0,BetRivers,-190.0,1.526315789473684,1.45890181162969,1.0462087148748471
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,2,-105.0,,110.0,,112.0,115.0,,105.0,ESPNBET,115.0,2.15,2.055595238095238,1.045925754329067
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,2,-150.0,-132.0,-145.0,-152.0,-152.0,-145.0,-136.0,-150.0,BetRivers,-132.0,1.7575757575757576,1.6805324670703126,1.0458445712981406
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,4,-140.0,,,,-117.0,,,-120.0,DraftKings,-117.0,1.8547008547008548,1.773809523809524,1.0456031664085355
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,2,-140.0,-155.0,-180.0,-159.0,-159.0,-145.0,-146.0,-155.0,BetMGM,-140.0,1.7142857142857144,1.6397609215262785,1.0454485722772737
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Steals,2,,163.0,,,169.0,,178.0,,FanDuel,178.0,2.7800000000000002,2.66,1.0451127819548873
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,1,-900.0,,-900.0,-1250.0,-610.0,-1100.0,-720.0,-650.0,DraftKings,-610.0,1.1639344262295082,1.1143110593110592,1.0445327779023654
-Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Steals,2,,,,,350.0,,370.0,,FanDuel,370.0,4.7,4.5,1.0444444444444445
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,3,-140.0,,,,-117.0,,,-120.0,DraftKings,-117.0,1.8547008547008548,1.773809523809524,1.0456031664085355
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,5,-600.0,,-550.0,-590.0,-421.0,-500.0,,-500.0,DraftKings,-421.0,1.2375296912114013,1.1835952747817156,1.0455682931309713
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,5,-235.0,,-185.0,-193.0,-180.0,-170.0,,-180.0,ESPNBET,-170.0,1.5882352941176472,1.519063656314235,1.0455357071547917
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,10,100.0,112.0,115.0,120.0,119.0,105.0,112.0,,Caesars,120.0,2.2,2.105,1.0451306413301664
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,5,-210.0,,,-159.0,-164.0,-150.0,,-150.0,ESPNBET,-150.0,1.6666666666666665,1.5953860145070453,1.0446792509846878
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,4,,-435.0,,-625.0,-409.0,-600.0,-500.0,-500.0,DraftKings,-409.0,1.2444987775061125,1.1913103448275861,1.0446469997590964
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Threes,1,-2000.0,,-3500.0,,-950.0,-1600.0,-1200.0,-1500.0,DraftKings,-950.0,1.1052631578947367,1.0582142857142856,1.0444606284526707
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,5,,,-20000.0,,-1560.0,-3000.0,,,DraftKings,-1560.0,1.064102564102564,1.0191666666666666,1.0440908233222217
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,3,-450.0,,-350.0,-420.0,-324.0,-425.0,,-350.0,DraftKings,-324.0,1.308641975308642,1.253408029878618,1.0440670109919217
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,10,-220.0,,-250.0,-235.0,-200.0,-225.0,-215.0,-230.0,DraftKings,-200.0,1.5,1.4374034502748225,1.0435483508219001
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,15,333.0,,330.0,340.0,350.0,320.0,340.0,325.0,DraftKings,350.0,4.5,4.3133333333333335,1.0432766615146831
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,2,-200.0,-200.0,-210.0,-209.0,-177.0,-190.0,-184.0,-210.0,DraftKings,-177.0,1.5649717514124295,1.5000919860351047,1.0432505246220325
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,5,-350.0,,-310.0,-345.0,-284.0,-275.0,,-350.0,ESPNBET,-275.0,1.3636363636363638,1.3071953930219935,1.0431771492736746
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,6,,,,-850.0,-484.0,-600.0,-530.0,-650.0,DraftKings,-484.0,1.2066115702479339,1.1567097811548421,1.0431411490644356
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,2,-1200.0,,-1400.0,-1450.0,-760.0,-1200.0,-900.0,-1100.0,DraftKings,-760.0,1.131578947368421,1.0848468262261366,1.043077160768264
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,2,-325.0,-205.0,-220.0,-245.0,-217.0,-225.0,-220.0,-220.0,BetRivers,-205.0,1.4878048780487805,1.426395124880971,1.0430524138064017
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Steals,1,,-375.0,,,-484.0,,-450.0,,BetRivers,-375.0,1.2666666666666666,1.214416896235078,1.043024574669187
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,4,,-295.0,,-440.0,-299.0,-350.0,-350.0,-350.0,BetRivers,-295.0,1.3389830508474576,1.2837727489901403,1.0430062890030558
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,20,-220.0,-190.0,-210.0,-213.0,-183.0,-210.0,-200.0,-210.0,DraftKings,-183.0,1.5464480874316942,1.482702320095098,1.0429929639096456
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,10,-1100.0,-560.0,-850.0,-750.0,-586.0,-900.0,-650.0,-750.0,BetRivers,-560.0,1.1785714285714286,1.1301183636457677,1.042874327578707
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,15,-450.0,-265.0,-310.0,-310.0,-267.0,-285.0,-290.0,-325.0,BetRivers,-265.0,1.3773584905660377,1.320758919233208,1.0428538248037647
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,4,,,,-1250.0,-610.0,-900.0,-670.0,-800.0,DraftKings,-610.0,1.1639344262295082,1.1163412106135988,1.042633215690165
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,4,,115.0,,115.0,128.0,125.0,130.0,120.0,FanDuel,130.0,2.3,2.2060000000000004,1.0426110607434267
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,20,-400.0,-265.0,-350.0,-295.0,-257.0,-275.0,-265.0,-300.0,DraftKings,-257.0,1.3891050583657587,1.3323405735233593,1.042605086094681
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,2,-140.0,-152.0,-180.0,-159.0,-159.0,-145.0,-142.0,-155.0,BetMGM,-140.0,1.7142857142857144,1.6443362489238336,1.0425396359215826
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Threes,1,-175.0,,,,-196.0,,,-165.0,HardRockBet,-165.0,1.606060606060606,1.5408163265306123,1.0423439694962873
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,6,,,1100.0,,1220.0,1200.0,1200.0,,DraftKings,1220.0,13.2,12.666666666666666,1.0421052631578946
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,5,-650.0,,-700.0,-800.0,-464.0,-475.0,,-500.0,DraftKings,-464.0,1.2155172413793103,1.166445922498554,1.0420690903318042
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,8,,,,360.0,365.0,340.0,360.0,325.0,DraftKings,365.0,4.65,4.4625,1.0420168067226891
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,10,,,-2500.0,,-1180.0,-3000.0,-2000.0,,DraftKings,-1180.0,1.0847457627118644,1.041111111111111,1.0419116183998698
 Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,10,,,-7000.0,,-1320.0,-3000.0,-2000.0,,DraftKings,-1320.0,1.0757575757575757,1.0325396825396824,1.0418559150303963
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,1,-1100.0,,-1200.0,-1000.0,-730.0,-1600.0,-1000.0,-850.0,DraftKings,-730.0,1.1369863013698631,1.0923982471776588,1.04081666581524
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,4,,,,-1250.0,-1600.0,-900.0,-720.0,-800.0,FanDuel,-720.0,1.1388888888888888,1.0946527777777777,1.0404110892596588
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,3,-1400.0,,-1100.0,,-850.0,-1600.0,,-1500.0,DraftKings,-850.0,1.1176470588235294,1.072876082251082,1.041729867328676
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,10,-210.0,-177.0,-160.0,-170.0,-181.0,-170.0,-166.0,-180.0,Bovada,-160.0,1.625,1.5611548853990396,1.0408960796895186
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,4,,,,225.0,246.0,,,240.0,DraftKings,246.0,3.46,3.325,1.0406015037593985
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,3,-225.0,,-200.0,-209.0,-181.0,-180.0,,-200.0,ESPNBET,-180.0,1.5555555555555556,1.495079906362256,1.0404497772566856
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,3,270.0,,290.0,270.0,292.0,285.0,300.0,300.0,FanDuel,300.0,4.0,3.845,1.0403120936280883
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,12,,,,,2400.0,,,2500.0,HardRockBet,2500.0,26.0,25.0,1.04
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,12,,,,,2400.0,,,2500.0,HardRockBet,2500.0,26.0,25.0,1.04
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,10,-285.0,-240.0,-310.0,-260.0,-236.0,-250.0,-250.0,-325.0,DraftKings,-236.0,1.423728813559322,1.3689188853025869,1.040038842947674
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,4,,-278.0,,-390.0,-309.0,-300.0,-295.0,-350.0,BetRivers,-278.0,1.3597122302158273,1.3076131043549177,1.039842921187771
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Threes,1,-1100.0,,-1500.0,-1700.0,-780.0,-1200.0,-900.0,-1000.0,DraftKings,-780.0,1.1282051282051282,1.0851406219053275,1.0396856457407213
-Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,6,,,,,1920.0,,,2000.0,HardRockBet,2000.0,21.0,20.2,1.0396039603960396
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,1,,-275.0,,,-289.0,,-360.0,,BetRivers,-275.0,1.3636363636363638,1.3118992695117262,1.0394367885759197
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,1,-1000.0,,-1100.0,-850.0,-640.0,-1000.0,-700.0,-800.0,DraftKings,-640.0,1.15625,1.1127355487649604,1.0391058336217773
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,1,-500.0,,-450.0,-480.0,-380.0,-450.0,,-450.0,DraftKings,-380.0,1.263157894736842,1.215,1.0396361273554255
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,7,-200.0,,-145.0,-154.0,-146.0,,,-150.0,Bovada,-145.0,1.6896551724137931,1.6252372057166578,1.0396360398780866
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,3,-2000.0,,-1900.0,-2500.0,-990.0,-1600.0,,-1100.0,DraftKings,-990.0,1.101010101010101,1.0592081339712918,1.0394653002541445
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,10,175.0,170.0,180.0,175.0,186.0,175.0,176.0,,DraftKings,186.0,2.8600000000000003,2.7516666666666665,1.0393700787401576
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Threes,1,-1100.0,,-1200.0,-1000.0,-730.0,-1600.0,-900.0,-850.0,DraftKings,-730.0,1.1369863013698631,1.0942500990295105,1.0390552419216186
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,3,-160.0,-180.0,-180.0,-176.0,-171.0,-180.0,-178.0,-175.0,BetMGM,-160.0,1.625,1.5646957329604958,1.0385405710319189
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,1,,,-7000.0,,-1500.0,,-2500.0,,DraftKings,-1500.0,1.0666666666666667,1.0271428571428571,1.0384793694946686
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Steals,1,,-315.0,,,-348.0,,-400.0,,BetRivers,-315.0,1.3174603174603174,1.2686781609195403,1.0384511675564903
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,1,-500.0,,-450.0,,-380.0,-450.0,,-450.0,DraftKings,-380.0,1.263157894736842,1.2166666666666668,1.0382119682768565
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,6,,100.0,,-104.0,110.0,105.0,100.0,110.0,DraftKings,110.0,2.1,2.022307692307692,1.0384176492963104
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,5,-900.0,,-600.0,-850.0,-532.0,-700.0,,-550.0,DraftKings,-532.0,1.1879699248120301,1.1440200322553262,1.0384170655386697
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,8,,-150.0,,-162.0,-139.0,-150.0,-142.0,-160.0,DraftKings,-139.0,1.7194244604316546,1.6559685272126585,1.0383195285273965
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,1,-1000.0,,-1100.0,-850.0,-640.0,-1000.0,-670.0,-800.0,DraftKings,-640.0,1.15625,1.113801646845984,1.038111232169767
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,5,,,-1900.0,,-1020.0,-2000.0,,-1400.0,DraftKings,-1020.0,1.0980392156862746,1.0580200501253134,1.0378245814493037
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,4,,,,,960.0,,,1000.0,HardRockBet,1000.0,11.0,10.6,1.0377358490566038
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,1,-600.0,-420.0,-550.0,-560.0,-466.0,-500.0,-500.0,-475.0,BetRivers,-420.0,1.2380952380952381,1.193167838217695,1.0376538810706246
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,7,-125.0,,-120.0,-129.0,-115.0,,,-125.0,DraftKings,-115.0,1.8695652173913042,1.8021317829457366,1.0374187032733766
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,4,,,,110.0,123.0,,,120.0,DraftKings,123.0,2.23,2.1500000000000004,1.0372093023255813
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,7,150.0,,140.0,155.0,158.0,,,160.0,HardRockBet,160.0,2.6,2.5075000000000003,1.036889332003988
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,6,,105.0,,100.0,107.0,110.0,114.0,110.0,FanDuel,114.0,2.1399999999999997,2.064,1.0368217054263564
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,6,,,675.0,650.0,660.0,650.0,630.0,,Bovada,675.0,7.75,7.4750000000000005,1.0367892976588629
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,1,-600.0,-420.0,-550.0,-560.0,-466.0,-500.0,-480.0,-475.0,BetRivers,-420.0,1.2380952380952381,1.194358314408171,1.036619599963801
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,2,-525.0,,-625.0,-675.0,-481.0,-700.0,-560.0,-575.0,DraftKings,-481.0,1.207900207900208,1.165660992255195,1.0362362778935348
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,10,-550.0,,-550.0,-420.0,-368.0,-425.0,-390.0,-375.0,DraftKings,-368.0,1.2717391304347827,1.2266837737425973,1.0367293981192252
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,20,,,-25000.0,-2500.0,-1620.0,,-3500.0,,DraftKings,-1620.0,1.0617283950617284,1.024190476190476,1.036651306318407
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,6,,110.0,,105.0,115.0,110.0,112.0,100.0,DraftKings,115.0,2.15,2.0740000000000003,1.0366441658630663
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,7,210.0,,205.0,205.0,216.0,,,200.0,DraftKings,216.0,3.16,3.05,1.036065573770492
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,12,,,,475.0,487.0,500.0,480.0,475.0,ESPNBET,500.0,6.0,5.7925,1.0358221838584376
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,6,,,,-2000.0,-740.0,-1100.0,-800.0,-850.0,DraftKings,-740.0,1.135135135135135,1.095889037433155,1.035812109037886
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,4,-350.0,-240.0,-260.0,-290.0,-239.0,-260.0,-250.0,,DraftKings,-239.0,1.4184100418410042,1.3694065513031033,1.0357844721067457
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Points,20,,,-25000.0,-2500.0,-1620.0,,-3000.0,,DraftKings,-1620.0,1.0617283950617284,1.025777777777778,1.0350471788946658
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,1,,,-7000.0,,-1500.0,,-2200.0,,DraftKings,-1500.0,1.0666666666666667,1.0298701298701298,1.03572929802438
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,10,-150.0,,-165.0,-141.0,-135.0,-130.0,-132.0,-130.0,ESPNBET,-130.0,1.7692307692307692,1.7082490664050944,1.0356983674248434
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,1,-900.0,,-900.0,-1250.0,-650.0,-1100.0,-720.0,-650.0,DraftKings,-650.0,1.1538461538461537,1.1143110593110592,1.0354794060462236
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,6,,,,,-1220.0,,-2200.0,,DraftKings,-1220.0,1.0819672131147542,1.0454545454545454,1.0349251603706344
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,6,,-120.0,,-118.0,-108.0,-115.0,-113.0,-115.0,DraftKings,-108.0,1.925925925925926,1.8609754294893954,1.0349013186350082
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,3,-1600.0,,,-1700.0,-920.0,-1100.0,,-850.0,HardRockBet,-850.0,1.1176470588235294,1.080232068123692,1.0346360673821
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Threes,3,-325.0,-275.0,-300.0,-295.0,-255.0,-260.0,-260.0,-325.0,DraftKings,-255.0,1.392156862745098,1.345795447490363,1.0344490801638464
 Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,1,,,-1900.0,,-1000.0,-2000.0,-1400.0,-950.0,HardRockBet,-950.0,1.1052631578947367,1.068515037593985,1.0343917670859353
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Steals,1,,-435.0,,,-373.0,,-450.0,,DraftKings,-373.0,1.2680965147453083,1.2260536398467434,1.0342912198391419
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Threes,2,-325.0,-210.0,-220.0,-245.0,-217.0,-225.0,-215.0,-220.0,BetRivers,-210.0,1.4761904761904763,1.4279052426701586,1.0338154326193418
-Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,1,-350.0,,-280.0,-295.0,-288.0,-350.0,-330.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.3196345007785684,1.0333439773148057
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,12,,,,,2900.0,,,3000.0,HardRockBet,3000.0,31.0,30.0,1.0333333333333334
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Blocks,1,,-155.0,,,-134.0,,-136.0,,DraftKings,-134.0,1.7462686567164178,1.6902277039848197,1.0331558597693542
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,6,,104.0,,100.0,112.0,110.0,112.0,100.0,DraftKings,112.0,2.12,2.0520000000000005,1.033138401559454
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,4,,,,175.0,184.0,,,175.0,DraftKings,184.0,2.84,2.75,1.0327272727272727
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,5,-450.0,,-330.0,-360.0,-313.0,-300.0,,-300.0,ESPNBET,-300.0,1.3333333333333333,1.291170490851002,1.0326547444981817
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,3,-295.0,,,-335.0,-275.0,-260.0,,-275.0,ESPNBET,-260.0,1.3846153846153846,1.341190810201688,1.0323776259749098
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,1,-750.0,,-850.0,-850.0,-610.0,-900.0,-670.0,-700.0,DraftKings,-610.0,1.1639344262295082,1.1286415727153216,1.0312702051451799
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Points,10,,,,,-101.0,,,105.0,HardRockBet,105.0,2.05,1.99009900990099,1.030099502487562
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,6,,-167.0,,-162.0,-162.0,-160.0,-148.0,-150.0,FanDuel,-148.0,1.6756756756756757,1.625007392622163,1.0311803400301784
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,1,-350.0,,-280.0,-295.0,-288.0,-350.0,-310.0,-275.0,HardRockBet,-275.0,1.3636363636363638,1.322892891133733,1.030798768952272
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,8,,-177.0,,-176.0,-157.0,-160.0,-154.0,-165.0,FanDuel,-154.0,1.6493506493506493,1.600231370162818,1.0306951107844071
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,4,,-139.0,,-154.0,-144.0,-150.0,-156.0,-145.0,BetRivers,-139.0,1.7194244604316546,1.668228514780239,1.0306888086361237
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,3,-550.0,,,-560.0,-447.0,-600.0,,-450.0,DraftKings,-447.0,1.2237136465324385,1.187319624819625,1.0306522531524251
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Steals,3,,,,,415.0,,400.0,,DraftKings,415.0,5.15,5.0,1.03
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,2,-400.0,-295.0,-340.0,-335.0,-314.0,-300.0,-310.0,-350.0,BetRivers,-295.0,1.3389830508474576,1.3003892445048453,1.0296786569911287
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,4,,,,,-1560.0,,-3000.0,,DraftKings,-1560.0,1.064102564102564,1.0333333333333334,1.029776674937965
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,2,-175.0,,-160.0,-164.0,-148.0,-160.0,-150.0,-150.0,DraftKings,-148.0,1.6756756756756757,1.627419667053813,1.0296518529293814
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Threes,2,-525.0,,-625.0,-675.0,-501.0,-700.0,-560.0,-575.0,DraftKings,-501.0,1.1996007984031936,1.165660992255195,1.0291163609089597
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,8,,-235.0,,-280.0,-237.0,-240.0,-225.0,-250.0,FanDuel,-225.0,1.4444444444444444,1.4042564733946368,1.028618683133187
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,3,-295.0,,-250.0,-265.0,-245.0,-275.0,,-240.0,HardRockBet,-240.0,1.4166666666666667,1.3776282340711963,1.0283374219763943
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,3,,,-20000.0,,,-3000.0,,,ESPNBET,-3000.0,1.0333333333333334,1.005,1.0281923714759538
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,2,,,,,-1740.0,,-3500.0,,DraftKings,-1740.0,1.0574712643678161,1.0285714285714285,1.0280970625798214
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,7,-160.0,,-160.0,-152.0,-145.0,,,-150.0,DraftKings,-145.0,1.6896551724137931,1.643640350877193,1.0279956752777715
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,1,-300.0,,-260.0,-260.0,-249.0,-250.0,-235.0,-240.0,FanDuel,-235.0,1.425531914893617,1.3868061991555967,1.0279243889748977
-Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Points,20,,,-5000.0,-2000.0,-1400.0,-2500.0,-1600.0,,DraftKings,-1400.0,1.0714285714285714,1.043125,1.0271334417529743
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,1,-700.0,,-1100.0,-1000.0,-680.0,-900.0,-670.0,-650.0,HardRockBet,-650.0,1.1538461538461537,1.1235316499583399,1.0269814418569676
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,4,,,,-1000.0,-700.0,-1000.0,-670.0,-650.0,HardRockBet,-650.0,1.1538461538461537,1.1230277185501065,1.0274422748316805
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,1,-450.0,-435.0,-550.0,-480.0,-398.0,-425.0,-390.0,-425.0,FanDuel,-390.0,1.2564102564102564,1.2234433302208794,1.0269460181563335
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,1,,-500.0,,,-536.0,,-650.0,,BetRivers,-500.0,1.2,1.1702066590126292,1.0254598969830757
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Threes,1,-700.0,,-1100.0,-1000.0,-680.0,-900.0,-650.0,-650.0,FanDuel,-650.0,1.1538461538461537,1.1242970537088182,1.026282289044394
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,4,,-122.0,,-124.0,-117.0,-115.0,-113.0,-120.0,FanDuel,-113.0,1.8849557522123894,1.836744629895252,1.0262481357138291
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,4,,-109.0,,-109.0,-102.0,-105.0,-102.0,100.0,HardRockBet,100.0,2.0,1.9496055302855086,1.0258485467606933
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Assists,4,,,,,1540.0,,,1500.0,DraftKings,1540.0,16.4,16.0,1.025
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,10,-550.0,-420.0,-550.0,-440.0,-434.0,-500.0,-500.0,-425.0,BetRivers,-420.0,1.2380952380952381,1.2080882792999899,1.024838382516744
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Steals,2,,104.0,,,102.0,,108.0,,FanDuel,108.0,2.08,2.0300000000000002,1.024630541871921
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,4,,,,,-1240.0,-3000.0,-1800.0,-1300.0,DraftKings,-1240.0,1.0806451612903225,1.0552706552706554,1.0240454957151812
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,3,,265.0,,,253.0,,260.0,,BetRivers,265.0,3.65,3.565,1.023842917251052
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,4,,-182.0,,-205.0,-183.0,-200.0,-196.0,-180.0,HardRockBet,-180.0,1.5555555555555556,1.5187815193127352,1.0242128546964813
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Threes,2,-400.0,-305.0,-340.0,-335.0,-314.0,-325.0,-310.0,-350.0,BetRivers,-305.0,1.3278688524590163,1.2967262408418416,1.024016334856428
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,4,,,,,-1020.0,-2000.0,-1100.0,-1300.0,DraftKings,-1020.0,1.0980392156862746,1.0726107226107224,1.0237071031824663
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Blocks,1,,155.0,,,161.0,,,,DraftKings,161.0,2.6100000000000003,2.55,1.023529411764706
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Rebounds,6,,105.0,,115.0,117.0,115.0,116.0,110.0,DraftKings,117.0,2.17,2.122,1.0226201696512724
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,4,,-375.0,,-460.0,-386.0,-425.0,-400.0,-425.0,BetRivers,-375.0,1.2666666666666666,1.2394093794309795,1.0219921582715479
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,1,-300.0,-286.0,-350.0,-325.0,-295.0,-300.0,-295.0,-325.0,BetRivers,-286.0,1.3496503496503496,1.320818809922926,1.0218285350805276
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,4,,,,,-1240.0,-3000.0,-1600.0,-1300.0,DraftKings,-1240.0,1.0806451612903225,1.0575854700854699,1.0218040922999718
 Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,1,-300.0,,-275.0,-265.0,-264.0,-250.0,,-250.0,ESPNBET,-250.0,1.4,1.3706232132647227,1.0214331600770892
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Points,15,,,,-2500.0,-1380.0,,-2500.0,-1400.0,DraftKings,-1380.0,1.0724637681159421,1.0504761904761903,1.0209310575899722
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,2,,-157.0,,,-165.0,,-166.0,,BetRivers,-157.0,1.6369426751592355,1.6042351223074114,1.020388253814553
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,8,,,,850.0,900.0,900.0,870.0,900.0,DraftKings,900.0,10.0,9.8,1.0204081632653061
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,4,,,,-390.0,-351.0,-350.0,-330.0,-325.0,HardRockBet,-325.0,1.3076923076923077,1.2825137825137825,1.019632167327804
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Steals,2,,,,,361.0,,370.0,,FanDuel,370.0,4.7,4.609999999999999,1.0195227765726682
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Threes,3,,,,,1960.0,,,2000.0,HardRockBet,2000.0,21.0,20.6,1.0194174757281553
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,4,,,,,-1680.0,,-2500.0,,DraftKings,-1680.0,1.0595238095238095,1.04,1.0187728937728937
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,6,,,,-295.0,-248.0,-260.0,-250.0,-260.0,DraftKings,-248.0,1.403225806451613,1.3770534550195568,1.0190060533501109
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,1,,-500.0,,,-516.0,,-600.0,,BetRivers,-500.0,1.2,1.1802325581395348,1.0167487684729064
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,3,,265.0,,,253.0,,265.0,,BetRivers,265.0,3.65,3.59,1.0167130919220055
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,6,,-278.0,,-310.0,-268.0,-285.0,-280.0,-275.0,DraftKings,-268.0,1.373134328358209,1.350789857827759,1.0165417813888407
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,2,,-159.0,,,-165.0,,-166.0,,BetRivers,-159.0,1.6289308176100628,1.6042351223074114,1.01539406222894
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Assists,4,,,,,1220.0,,,1200.0,DraftKings,1220.0,13.2,13.0,1.0153846153846153
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Assists,4,,,,,1220.0,,,1200.0,DraftKings,1220.0,13.2,13.0,1.0153846153846153
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,3,-135.0,,,-136.0,-129.0,,,-130.0,DraftKings,-129.0,1.7751937984496124,1.7484218758728562,1.015312049652428
 Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,4,,,,,-990.0,-1600.0,-1100.0,-1000.0,DraftKings,-990.0,1.101010101010101,1.084469696969697,1.0152520665968099
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Rebounds,16,,,,,1420.0,1400.0,1400.0,,DraftKings,1420.0,15.2,15.0,1.0133333333333332
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Rebounds,16,,,,,1420.0,1400.0,1400.0,,DraftKings,1420.0,15.2,15.0,1.0133333333333332
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Points,10,,,,,690.0,,,700.0,HardRockBet,700.0,8.0,7.9,1.0126582278481011
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Steals,2,,,,,269.0,,265.0,,DraftKings,269.0,3.69,3.65,1.010958904109589
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Assists,3,390.0,,,,400.0,,,400.0,DraftKings,400.0,5.0,4.95,1.0101010101010102
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,3,170.0,,,,175.0,,,175.0,DraftKings,175.0,2.75,2.725,1.0091743119266054
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Steals,1,,-275.0,,,-269.0,,-280.0,,DraftKings,-269.0,1.3717472118959106,1.3603896103896105,1.0083487858327935
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Steals,1,,-455.0,,,-435.0,,-450.0,,DraftKings,-435.0,1.2298850574712643,1.221001221001221,1.0072758620689655
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Steals,1,,-275.0,,,-269.0,,-270.0,,DraftKings,-269.0,1.3717472118959106,1.367003367003367,1.003470251066713
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,4,,,,,197.0,,,195.0,DraftKings,197.0,2.9699999999999998,2.95,1.006779661016949
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,30,,,3000.0,,,,,3000.0,Bovada,3000.0,31.0,31.0,1.0
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,8,,,,,,2000.0,,2000.0,ESPNBET,2000.0,21.0,21.0,1.0
+Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,12,,,,,,,3000.0,3000.0,FanDuel,3000.0,31.0,31.0,1.0
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Rebounds,10,,,,,,2000.0,2000.0,,ESPNBET,2000.0,21.0,21.0,1.0
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Rebounds,8,,,,,1400.0,1400.0,1400.0,1400.0,DraftKings,1400.0,15.0,15.0,1.0
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,4,,,,,400.0,,,400.0,DraftKings,400.0,5.0,5.0,1.0
+Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,12,,,,,,,3000.0,3000.0,FanDuel,3000.0,31.0,31.0,1.0
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Assists,7,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Points,25,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,14,,,3000.0,,,,,,Bovada,3000.0,31.0,,
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Rebounds,16,,,5000.0,,,,,,Bovada,5000.0,51.0,,
-Golden State Warriors @ Los Angeles Lakers,Al Horford,Steals,2,,,,,448.0,,,,DraftKings,448.0,5.48,,
+Golden State Warriors @ Los Angeles Lakers,Al Horford,Steals,2,,,,,421.0,,,,DraftKings,421.0,5.21,,
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,6,,,3500.0,,,,,,Bovada,3500.0,36.0,,
 Golden State Warriors @ Los Angeles Lakers,Al Horford,Threes,7,,,5000.0,,,,,,Bovada,5000.0,51.0,,
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Assists,14,,,3500.0,,,,,,Bovada,3500.0,36.0,,
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,10,,,,,,,-7000.0,,FanDuel,-7000.0,1.0142857142857142,,
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,45,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Points,50,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,14,,,,,2800.0,,,,DraftKings,2800.0,29.0,,
+Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Rebounds,12,,,,,1920.0,,,,DraftKings,1920.0,20.2,,
 Golden State Warriors @ Los Angeles Lakers,Austin Reaves,Steals,3,,,,,,,750.0,,FanDuel,750.0,8.5,,
+Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Assists,10,,,3500.0,,,,,,Bovada,3500.0,36.0,,
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Blocks,1,,,,,302.0,,,,DraftKings,302.0,4.02,,
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Points,35,,,4000.0,,,,,,Bovada,4000.0,41.0,,
 Golden State Warriors @ Los Angeles Lakers,Brandin Podziemski,Steals,3,,,,,,,470.0,,FanDuel,470.0,5.7,,
-Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Blocks,1,,,,,339.0,,,,DraftKings,339.0,4.390000000000001,,
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Points,30,,,4500.0,,,,,,Bovada,4500.0,46.0,,
+Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Rebounds,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Steals,1,,,,,-123.0,,,,DraftKings,-123.0,1.8130081300813008,,
 Golden State Warriors @ Los Angeles Lakers,Buddy Hield,Steals,2,,,,,408.0,,,,DraftKings,408.0,5.08,,
 Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Blocks,3,,,,,,,680.0,,FanDuel,680.0,7.8,,
 Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Points,35,,,3500.0,,,,,,Bovada,3500.0,36.0,,
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Assists,14,,,4000.0,,,,,,Bovada,4000.0,41.0,,
+Golden State Warriors @ Los Angeles Lakers,Deandre Ayton,Rebounds,5,,,-7000.0,,,,,,Bovada,-7000.0,1.0142857142857142,,
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Blocks,3,,,,,,,640.0,,FanDuel,640.0,7.4,,
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,25,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Points,30,,,5000.0,,,,,,Bovada,5000.0,51.0,,
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,14,,,2400.0,,,,,,Bovada,2400.0,25.0,,
-Golden State Warriors @ Los Angeles Lakers,Draymond Green,Rebounds,16,,,4000.0,,,,,,Bovada,4000.0,41.0,,
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Steals,4,,,,,,,880.0,,FanDuel,880.0,9.8,,
 Golden State Warriors @ Los Angeles Lakers,Draymond Green,Threes,6,,,4000.0,,,,,,Bovada,4000.0,41.0,,
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Blocks,1,,,,,351.0,,,,DraftKings,351.0,4.51,,
+Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Rebounds,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Steals,1,,,,,-154.0,,,,DraftKings,-154.0,1.6493506493506493,,
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Steals,2,,,,,318.0,,,,DraftKings,318.0,4.18,,
 Golden State Warriors @ Los Angeles Lakers,Gabe Vincent,Threes,7,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Blocks,1,,,,,273.0,,,,DraftKings,273.0,3.73,,
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,20,,,,,2600.0,,,,DraftKings,2600.0,27.0,,
-Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Rebounds,10,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Points,20,,,,,4800.0,,,,DraftKings,4800.0,49.0,,
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Steals,1,,,,,-130.0,,,,DraftKings,-130.0,1.7692307692307692,,
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Steals,2,,,,,375.0,,,,DraftKings,375.0,4.75,,
 Golden State Warriors @ Los Angeles Lakers,Jake LaRavia,Threes,4,,,,,2200.0,,,,DraftKings,2200.0,23.0,,
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Blocks,1,,,,,224.0,,,,DraftKings,224.0,3.24,,
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,14,,,3500.0,,,,,,Bovada,3500.0,36.0,,
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Rebounds,12,,,,,,,,2250.0,HardRockBet,2250.0,23.5,,
 Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Steals,1,,,,,-150.0,,,,DraftKings,-150.0,1.6666666666666665,,
-Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Steals,2,,,,,314.0,,,,DraftKings,314.0,4.140000000000001,,
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,14,,,3500.0,,,,,,Bovada,3500.0,36.0,,
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Assists,16,,,4500.0,,,,,,Bovada,4500.0,46.0,,
+Golden State Warriors @ Los Angeles Lakers,Jarred Vanderbilt,Steals,2,,,,,305.0,,,,DraftKings,305.0,4.05,,
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Blocks,1,,,,,194.0,,,,DraftKings,194.0,2.94,,
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Points,40,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,14,,,3000.0,,,,,,Bovada,3000.0,31.0,,
-Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Rebounds,16,,,4500.0,,,,,,Bovada,4500.0,46.0,,
 Golden State Warriors @ Los Angeles Lakers,Jimmy Butler,Steals,4,,,,,,,880.0,,FanDuel,880.0,9.8,,
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Assists,7,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Blocks,1,,,,,173.0,,,,DraftKings,173.0,2.73,,
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Points,35,,,3500.0,,,,,,Bovada,3500.0,36.0,,
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Rebounds,12,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Steals,1,,,,,-119.0,,,,DraftKings,-119.0,1.8403361344537816,,
-Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Steals,2,,,,,431.0,,,,DraftKings,431.0,5.31,,
+Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Steals,2,,,,,447.0,,,,DraftKings,447.0,5.47,,
 Golden State Warriors @ Los Angeles Lakers,Jonathan Kuminga,Threes,4,,,,,2800.0,,,,DraftKings,2800.0,29.0,,
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Assists,4,,,,,-1680.0,,,,DraftKings,-1680.0,1.0595238095238095,,
+Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Rebounds,16,,,,,,,2500.0,,FanDuel,2500.0,26.0,,
 Golden State Warriors @ Los Angeles Lakers,Luka Doncic,Steals,4,,,,,,,880.0,,FanDuel,880.0,9.8,,
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,10,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Assists,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Blocks,1,,,,,313.0,,,,DraftKings,313.0,4.13,,
-Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Rebounds,7,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Steals,3,,,,,,,630.0,,FanDuel,630.0,7.3,,
 Golden State Warriors @ Los Angeles Lakers,Marcus Smart,Threes,6,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Points,35,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,14,,,3000.0,,,,,,Bovada,3000.0,31.0,,
-Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Rebounds,16,,,5000.0,,,,,,Bovada,5000.0,51.0,,
 Golden State Warriors @ Los Angeles Lakers,Rui Hachimura,Threes,7,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,14,,,3500.0,,,,,,Bovada,3500.0,36.0,,
+Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Assists,12,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Blocks,1,,,,,192.0,,,,DraftKings,192.0,2.92,,
 Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Steals,3,,,,,,,630.0,,FanDuel,630.0,7.3,,
-Golden State Warriors @ Los Angeles Lakers,Stephen Curry,Threes,2,,,,,,,-3500.0,,FanDuel,-3500.0,1.0285714285714285,,
+Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Points,35,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Rebounds,10,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,6,,,2800.0,,,,,,Bovada,2800.0,29.0,,
 Houston Rockets @ Oklahoma City Thunder,Aaron Wiggins,Threes,7,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,10,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Assists,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Points,30,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Rebounds,10,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Alex Caruso,Threes,6,,,3500.0,,,,,,Bovada,3500.0,36.0,,
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,14,,,2800.0,,,,,,Bovada,2800.0,29.0,,
-Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,16,,,4500.0,,,,,,Bovada,4500.0,46.0,,
+Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Assists,3,,,,,-1600.0,,,,DraftKings,-1600.0,1.0625,,
 Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,40,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Points,45,,,4500.0,,,,,,Bovada,4500.0,46.0,,
 Houston Rockets @ Oklahoma City Thunder,Alperen Sengun,Steals,3,,,,,,,580.0,,FanDuel,580.0,6.8,,
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Assists,14,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,3,,,,,,,430.0,,FanDuel,430.0,5.3,,
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,3,,,,,,,410.0,,FanDuel,410.0,5.1,,
+Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Blocks,4,,,,,,,1000.0,,FanDuel,1000.0,11.0,,
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,35,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Points,40,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Amen Thompson,Rebounds,16,,,2500.0,,,,,,Bovada,2500.0,26.0,,
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,7,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Assists,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Rebounds,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Cason Wallace,Threes,6,,,4500.0,,,,,,Bovada,4500.0,46.0,,
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Assists,6,,,,,,2000.0,,,ESPNBET,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,1,,,,,,,-900.0,,FanDuel,-900.0,1.1111111111111112,,
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,4,,,,,,,520.0,,FanDuel,520.0,6.2,,
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Blocks,4,,,,,,,490.0,,FanDuel,490.0,5.9,,
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Points,40,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,16,,,1600.0,,,,,,Bovada,1600.0,17.0,,
+Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Rebounds,16,,,,,,,3500.0,,FanDuel,3500.0,36.0,,
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,6,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Chet Holmgren,Threes,7,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Blocks,1,,-200.0,,,,,,,BetRivers,-200.0,1.5,,
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Assists,10,,,4000.0,,,,,,Bovada,4000.0,41.0,,
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Blocks,1,,-195.0,,,,,,,BetRivers,-195.0,1.5128205128205128,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Blocks,2,,215.0,,,,,,,BetRivers,215.0,3.15,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Points,30,,,4000.0,,,,,,Bovada,4000.0,41.0,,
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Steals,1,,-162.0,,,,,,,BetRivers,-162.0,1.617283950617284,,
-Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Steals,2,,265.0,,,,,,,BetRivers,265.0,3.65,,
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Steals,1,,-159.0,,,,,,,BetRivers,-159.0,1.6289308176100628,,
+Houston Rockets @ Oklahoma City Thunder,Isaiah Hartenstein,Steals,2,,275.0,,,,,,,BetRivers,275.0,3.75,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,1,,,-700.0,,,,,,Bovada,-700.0,1.1428571428571428,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,2,,,-125.0,,,,,,Bovada,-125.0,1.8,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,3,,,240.0,,,,,,Bovada,240.0,3.4,,
@@ -648,17 +758,14 @@ Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,4,,,625.0,,,,,,Bovada,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,5,,,1400.0,,,,,,Bovada,1400.0,15.0,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,6,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Isaiah Joe,Threes,7,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Blocks,1,,120.0,,,,,,,BetRivers,120.0,2.2,,
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Points,35,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,14,,,1900.0,,,,,,Bovada,1900.0,20.0,,
-Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Rebounds,16,,,3500.0,,,,,,Bovada,3500.0,36.0,,
 Houston Rockets @ Oklahoma City Thunder,Jabari Smith Jr,Steals,1,,125.0,,,,,,,BetRivers,125.0,2.25,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,10,,,1900.0,,,,,,Bovada,1900.0,20.0,,
-Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,14,,,5000.0,,,,,,Bovada,5000.0,51.0,,
-Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,4,,,-725.0,,,,,,Bovada,-725.0,1.1379310344827587,,
-Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,6,,,-110.0,,,,,,Bovada,-110.0,1.9090909090909092,,
-Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,8,,,340.0,,,,,,Bovada,340.0,4.4,,
+Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,3,,,-725.0,,,,,,Bovada,-725.0,1.1379310344827587,,
+Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,5,,,-110.0,,,,,,Bovada,-110.0,1.9090909090909092,,
+Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Assists,7,,,340.0,,,,,,Bovada,340.0,4.4,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Points,15,,,-700.0,,,,,,Bovada,-700.0,1.1428571428571428,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Points,20,,,-160.0,,,,,,Bovada,-160.0,1.625,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Points,25,,,180.0,,,,,,Bovada,180.0,2.8,,
@@ -673,27 +780,30 @@ Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Threes,4,,,625.0,,,,,,Bov
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Threes,5,,,1400.0,,,,,,Bovada,1400.0,15.0,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Threes,6,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Jalen Williams,Threes,7,,,4500.0,,,,,,Bovada,4500.0,46.0,,
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Assists,10,,,3000.0,,,,,,Bovada,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Blocks,3,,,,,,,630.0,,FanDuel,630.0,7.3,,
 Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Points,50,,,3500.0,,,,,,Bovada,3500.0,36.0,,
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,14,,,3000.0,,,,,,Bovada,3000.0,31.0,,
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,16,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Steals,1,,117.0,,,,,,,BetRivers,117.0,2.17,,
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Blocks,1,,200.0,,,,,,,BetRivers,200.0,3.0,,
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Rebounds,12,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
+Houston Rockets @ Oklahoma City Thunder,Kevin Durant,Steals,1,,116.0,,,,,,,BetRivers,116.0,2.16,,
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Assists,5,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Blocks,1,,205.0,,,,,,,BetRivers,205.0,3.05,,
 Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Points,30,,,4500.0,,,,,,Bovada,4500.0,46.0,,
-Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Steals,3,,,,,,,490.0,,FanDuel,490.0,5.9,,
+Houston Rockets @ Oklahoma City Thunder,Luguentz Dort,Steals,3,,,,,,,520.0,,FanDuel,520.0,6.2,,
 Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Points,30,,,5000.0,,,,,,Bovada,5000.0,51.0,,
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,7,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Rebounds,8,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Steals,1,,-220.0,,,,,,,BetRivers,-220.0,1.4545454545454546,,
-Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Steals,2,,185.0,,,,,,,BetRivers,185.0,2.85,,
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,16,,,3500.0,,,,,,Bovada,3500.0,36.0,,
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Steals,1,,-215.0,,,,,,,BetRivers,-215.0,1.4651162790697674,,
+Houston Rockets @ Oklahoma City Thunder,Reed Sheppard,Steals,2,,188.0,,,,,,,BetRivers,188.0,2.88,,
+Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Assists,14,,,,,,,3000.0,,FanDuel,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Blocks,3,,,,,,,750.0,,FanDuel,750.0,8.5,,
-Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Rebounds,12,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Steals,4,,,,,,,680.0,,FanDuel,680.0,7.8,,
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,6,,,2200.0,,,,,,Bovada,2200.0,23.0,,
 Houston Rockets @ Oklahoma City Thunder,Shai Gilgeous-Alexander,Threes,7,,,3500.0,,,,,,Bovada,3500.0,36.0,,
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Assists,6,,,,,2500.0,,,,DraftKings,2500.0,26.0,,
 Houston Rockets @ Oklahoma City Thunder,Steven Adams,Blocks,1,,,,,,,-146.0,,FanDuel,-146.0,1.6849315068493151,,
 Houston Rockets @ Oklahoma City Thunder,Steven Adams,Blocks,2,,,,,,,320.0,,FanDuel,320.0,4.2,,
-Houston Rockets @ Oklahoma City Thunder,Steven Adams,Points,20,,,,,4200.0,,,,DraftKings,4200.0,43.0,,
+Houston Rockets @ Oklahoma City Thunder,Steven Adams,Rebounds,16,,,,,,,3500.0,,FanDuel,3500.0,36.0,,
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Assists,6,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
 Houston Rockets @ Oklahoma City Thunder,Tari Eason,Points,30,,,3500.0,,,,,,Bovada,3500.0,36.0,,
+Houston Rockets @ Oklahoma City Thunder,Tari Eason,Rebounds,12,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 Houston Rockets @ Oklahoma City Thunder,Tari Eason,Threes,6,,,4500.0,,,,,,Bovada,4500.0,46.0,,
