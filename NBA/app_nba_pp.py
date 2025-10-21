@@ -4,6 +4,8 @@ import os
 from datetime import datetime
 from pathlib import Path
 import pytz
+import requests
+import time
 
 st.set_page_config(page_title="The Tail Wing - NBA Player Props (Free Board)", layout="wide")
 
@@ -19,6 +21,49 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# ---------- GitHub Actions Trigger (manual refresh) ----------
+def trigger_github_action():
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO")  # e.g., "your-org-or-user/your-repo"
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nba-player-props.yml")
+    ref = st.secrets.get("GITHUB_REF", "main")
+
+    if not token or not repo:
+        st.error("Missing secrets: please set GITHUB_TOKEN and GITHUB_REPO in st.secrets.")
+        return False
+
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"token {token}",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    payload = {"ref": ref}
+
+    with st.spinner("Triggering GitHub Action…"):
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+    if resp.status_code == 204:
+        st.success("Refresh kicked off. Odds will update automatically when the CSV is pushed.")
+        return True
+    else:
+        st.error(f"Failed to trigger workflow ({resp.status_code}): {resp.text}")
+        return False
+
+def wait_for_csv_update(max_checks: int = 12, sleep_seconds: int = 10):
+    csv_path = _find_csv_path()
+    if not csv_path or not csv_path.exists():
+        return
+    old_mtime = csv_path.stat().st_mtime
+    with st.spinner("Waiting for new data…"):
+        for _ in range(max_checks):
+            time.sleep(sleep_seconds)
+            if not csv_path.exists():
+                continue
+            if csv_path.stat().st_mtime != old_mtime:
+                st.success("Data updated — reloading!")
+                st.rerun()
+
+# ---------- CSV discovery ----------
 def _find_csv_path() -> Path | None:
     env = os.getenv("NBA_PROPS_CSV")
     if env:
@@ -52,6 +97,13 @@ def to_american(x):
         return f"+{x}" if x > 0 else str(x)
     except Exception:
         return ""
+
+# ---------- Top controls ----------
+btn_cols = st.columns([1, 1, 1])
+with btn_cols[1]:
+    if st.button("Refresh Odds", use_container_width=True):
+        if trigger_github_action():
+            wait_for_csv_update()
 
 def run_app(df: pd.DataFrame | None = None):
     if df is None:
@@ -111,6 +163,7 @@ def run_app(df: pd.DataFrame | None = None):
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
+    # ---------- Sidebar Filters ----------
     with st.sidebar:
         st.header("Filters")
         events = ["All"] + sorted(df["Event"].dropna().unique().tolist()) if "Event" in df.columns else ["All"]
@@ -135,6 +188,7 @@ def run_app(df: pd.DataFrame | None = None):
     df["Value_display"] = df["_Value_print"]
     df.drop(columns=["_Value_print"], inplace=True)
 
+    # ---------- Styling ----------
     def value_step_style(val):
         try:
             v = float(val)
