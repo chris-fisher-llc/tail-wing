@@ -1,225 +1,116 @@
-event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,80,,,,,2500.0,,,800.0,DraftKings,2500.0,26.0,9.0,2.888888888888889
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Receiving,50,,,,,1920.0,,,600.0,DraftKings,1920.0,20.2,7.0,2.8857142857142857
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Receiving,50,,,,,1740.0,,,600.0,DraftKings,1740.0,18.4,7.0,2.6285714285714286
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Receiving,80,,,,,1860.0,,,800.0,DraftKings,1860.0,19.6,9.0,2.177777777777778
-Houston Texans @ Seattle Seahawks,Brenden Bates,AnytimeTD,Anytime,2500.0,2500.0,,2400.0,2500.0,,1800.0,5000.0,HardRockBet,5000.0,51.0,24.4,2.0901639344262297
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Receiving,50,,,,,1380.0,2000.0,,600.0,ESPNBET,2000.0,21.0,10.9,1.926605504587156
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,80,,,700.0,,740.0,650.0,,1400.0,HardRockBet,1400.0,15.0,7.966666666666666,1.882845188284519
-Houston Texans @ Seattle Seahawks,Nick Chubb,AnytimeTD,Anytime,260.0,225.0,525.0,240.0,265.0,,270.0,175.0,Bovada,525.0,6.25,3.391666666666667,1.8427518427518426
-Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,80,,,1500.0,,2100.0,,,800.0,DraftKings,2100.0,22.0,12.5,1.76
-Houston Texans @ Seattle Seahawks,Nico Collins,AnytimeTD,Anytime,150.0,120.0,325.0,150.0,145.0,,145.0,145.0,Bovada,325.0,4.25,2.4250000000000003,1.7525773195876286
-Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,80,,,,,1420.0,2000.0,,800.0,ESPNBET,2000.0,21.0,12.1,1.7355371900826446
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Receiving,25,,,,,417.0,,,200.0,DraftKings,417.0,5.17,3.0,1.7233333333333334
-Houston Texans @ Seattle Seahawks,George Holani,AnytimeTD,Anytime,3500.0,1050.0,,2100.0,2500.0,,1500.0,3000.0,BetMGM,3500.0,36.0,21.3,1.6901408450704225
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Receiving,25,,,,,403.0,,,200.0,DraftKings,403.0,5.03,3.0,1.6766666666666667
-Houston Texans @ Seattle Seahawks,Woody Marks,AnytimeTD,Anytime,260.0,255.0,475.0,245.0,265.0,,250.0,185.0,Bovada,475.0,5.75,3.4333333333333336,1.674757281553398
-Houston Texans @ Seattle Seahawks,Dameon Pierce,AnytimeTD,Anytime,3000.0,1500.0,,2000.0,2200.0,,1600.0,1600.0,BetMGM,3000.0,31.0,18.8,1.6489361702127658
-Houston Texans @ Seattle Seahawks,British Brooks,AnytimeTD,Anytime,4500.0,,,3000.0,4000.0,,2200.0,1750.0,BetMGM,4500.0,46.0,28.375,1.6211453744493391
-Houston Texans @ Seattle Seahawks,Seattle Seahawks D/ST,AnytimeTD,Anytime,825.0,,,,500.0,,450.0,,BetMGM,825.0,9.25,5.75,1.608695652173913
-Tampa Bay Buccaneers @ Detroit Lions,Kameron Johnson,AnytimeTD,Anytime,725.0,900.0,,1000.0,1500.0,,660.0,1200.0,DraftKings,1500.0,16.0,9.97,1.6048144433299898
-Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,Receiving,80,,,625.0,,1100.0,1400.0,,800.0,ESPNBET,1400.0,15.0,9.416666666666666,1.592920353982301
-Houston Texans @ Seattle Seahawks,Dalton Schultz,AnytimeTD,Anytime,350.0,325.0,575.0,340.0,370.0,,325.0,260.0,Bovada,575.0,6.75,4.283333333333334,1.5758754863813227
-Tampa Bay Buccaneers @ Detroit Lions,Ryan Miller,AnytimeTD,Anytime,700.0,1050.0,,950.0,1300.0,,600.0,1500.0,HardRockBet,1500.0,16.0,10.2,1.5686274509803924
-Tampa Bay Buccaneers @ Detroit Lions,Dominic Lovett,AnytimeTD,Anytime,4000.0,3500.0,,4000.0,6000.0,,2500.0,5000.0,DraftKings,6000.0,61.0,39.0,1.564102564102564
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,110,,,900.0,,1460.0,,,,DraftKings,1460.0,15.6,10.0,1.56
-Tampa Bay Buccaneers @ Detroit Lions,Craig Reynolds,AnytimeTD,Anytime,3000.0,1400.0,,2700.0,3500.0,,2200.0,1750.0,DraftKings,3500.0,36.0,23.1,1.5584415584415583
-Tampa Bay Buccaneers @ Detroit Lions,Tez Johnson,AnytimeTD,Anytime,380.0,700.0,275.0,500.0,700.0,,400.0,275.0,BetRivers,700.0,8.0,5.216666666666667,1.5335463258785942
-Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,50,,,,,770.0,1100.0,,600.0,ESPNBET,1100.0,12.0,7.85,1.5286624203821657
-Tampa Bay Buccaneers @ Detroit Lions,Ross Dwelley,AnytimeTD,Anytime,1400.0,1700.0,,1400.0,2000.0,,900.0,1000.0,DraftKings,2000.0,21.0,13.8,1.5217391304347825
-Houston Texans @ Seattle Seahawks,Nick Chubb,Receiving,25,,,475.0,,362.0,,,200.0,Bovada,475.0,5.75,3.81,1.5091863517060367
-Houston Texans @ Seattle Seahawks,Woody Marks,Receiving,50,,,,,970.0,1200.0,,600.0,ESPNBET,1200.0,13.0,8.85,1.4689265536723164
-Tampa Bay Buccaneers @ Detroit Lions,Isaac TeSlaa,Receiving,50,,,,,1280.0,1100.0,,600.0,DraftKings,1280.0,13.8,9.5,1.4526315789473685
-Tampa Bay Buccaneers @ Detroit Lions,Jacob Saylors,AnytimeTD,Anytime,3500.0,2500.0,,2800.0,3500.0,,2000.0,1100.0,BetMGM,3500.0,36.0,24.8,1.4516129032258065
-Tampa Bay Buccaneers @ Detroit Lions,Sean Tucker,AnytimeTD,Anytime,450.0,550.0,,575.0,750.0,,530.0,375.0,DraftKings,750.0,8.5,5.96,1.4261744966442953
-Tampa Bay Buccaneers @ Detroit Lions,Sterling Shepard,Receiving,80,,,,,1180.0,,,800.0,DraftKings,1180.0,12.8,9.0,1.4222222222222223
-Houston Texans @ Seattle Seahawks,Eric Saubert,AnytimeTD,Anytime,3300.0,2400.0,,2400.0,3000.0,,1800.0,2000.0,BetMGM,3300.0,34.0,24.2,1.4049586776859504
-Tampa Bay Buccaneers @ Detroit Lions,Devin Culp,AnytimeTD,Anytime,1300.0,2200.0,,1800.0,2200.0,,900.0,1500.0,BetRivers,2200.0,23.0,16.4,1.402439024390244
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,AnytimeTD,Anytime,165.0,150.0,250.0,155.0,160.0,,155.0,120.0,Bovada,250.0,3.5,2.5083333333333333,1.3953488372093024
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Receiving,25,,,,,318.0,,,200.0,DraftKings,318.0,4.18,3.0,1.3933333333333333
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,350,1200.0,,1200.0,,1700.0,,,,DraftKings,1700.0,18.0,13.0,1.3846153846153846
-Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,80,,,850.0,,880.0,1200.0,,800.0,ESPNBET,1200.0,13.0,9.433333333333334,1.3780918727915195
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Receiving,80,,,,,1480.0,1600.0,,800.0,ESPNBET,1600.0,17.0,12.4,1.3709677419354838
-Houston Texans @ Seattle Seahawks,Houston Texans D/ST,AnytimeTD,Anytime,700.0,,,,500.0,,470.0,,BetMGM,700.0,8.0,5.85,1.3675213675213675
-Houston Texans @ Seattle Seahawks,C.J. Stroud,AnytimeTD,Anytime,900.0,700.0,,800.0,1000.0,,700.0,425.0,DraftKings,1000.0,11.0,8.05,1.3664596273291925
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,AnytimeTD,Anytime,105.0,100.0,175.0,105.0,110.0,,100.0,-110.0,Bovada,175.0,2.75,2.018181818181818,1.3626126126126126
-Tampa Bay Buccaneers @ Detroit Lions,Sean Tucker,Rushing,50,,,,,1020.0,1000.0,,1400.0,HardRockBet,1400.0,15.0,11.1,1.3513513513513513
-Houston Texans @ Seattle Seahawks,Sam Darnold,AnytimeTD,Anytime,1100.0,950.0,,850.0,850.0,,800.0,525.0,BetMGM,1100.0,12.0,8.95,1.340782122905028
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,AnytimeTD,Anytime,140.0,135.0,220.0,145.0,125.0,,135.0,160.0,Bovada,220.0,3.2,2.4,1.3333333333333335
-Houston Texans @ Seattle Seahawks,AJ Barner,AnytimeTD,Anytime,360.0,380.0,500.0,340.0,350.0,,325.0,350.0,Bovada,500.0,6.0,4.508333333333333,1.3308687615526804
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,50,900.0,,,,543.0,900.0,,525.0,BetMGM,900.0,10.0,7.56,1.3227513227513228
-Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,AnytimeTD,Anytime,110.0,102.0,175.0,110.0,110.0,,105.0,115.0,Bovada,175.0,2.75,2.086666666666667,1.317891373801917
-Tampa Bay Buccaneers @ Detroit Lions,Tez Johnson,Receiving,50,525.0,,,,770.0,,,600.0,DraftKings,770.0,8.7,6.625,1.3132075471698113
-Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,50,,,,,880.0,1000.0,,600.0,ESPNBET,1000.0,11.0,8.4,1.3095238095238095
-Houston Texans @ Seattle Seahawks,Nick Kallerup,AnytimeTD,Anytime,3000.0,3300.0,,2500.0,2800.0,,1700.0,,BetRivers,3300.0,34.0,26.0,1.3076923076923077
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,50,160.0,160.0,185.0,155.0,180.0,175.0,,250.0,HardRockBet,250.0,3.5,2.691666666666667,1.3003095975232197
-Houston Texans @ Seattle Seahawks,Dareke Young,AnytimeTD,Anytime,3500.0,3000.0,,2800.0,3000.0,,1900.0,,BetMGM,3500.0,36.0,27.75,1.2972972972972974
-Houston Texans @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,275.0,260.0,375.0,260.0,265.0,,270.0,275.0,Bovada,375.0,4.75,3.6750000000000003,1.292517006802721
-Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,AnytimeTD,Anytime,1500.0,1100.0,,1300.0,1500.0,,1050.0,750.0,BetMGM,1500.0,16.0,12.4,1.2903225806451613
-Houston Texans @ Seattle Seahawks,Brady Russell,AnytimeTD,Anytime,3300.0,2500.0,,2800.0,3500.0,,1900.0,3000.0,DraftKings,3500.0,36.0,28.0,1.2857142857142858
-Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,AnytimeTD,Anytime,130.0,205.0,175.0,195.0,245.0,,175.0,130.0,DraftKings,245.0,3.45,2.6833333333333336,1.2857142857142856
-Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,80,,,1200.0,,1780.0,1300.0,,1600.0,DraftKings,1780.0,18.8,14.666666666666666,1.281818181818182
-Tampa Bay Buccaneers @ Detroit Lions,Sterling Shepard,Receiving,50,260.0,370.0,,270.0,291.0,,,250.0,BetRivers,370.0,4.7,3.6775,1.2780421481985045
-Houston Texans @ Seattle Seahawks,Braxton Berrios,AnytimeTD,Anytime,900.0,1200.0,,850.0,900.0,,740.0,1200.0,BetRivers,1200.0,13.0,10.18,1.2770137524557956
-Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,350,1100.0,,1400.0,,1680.0,1400.0,,,DraftKings,1680.0,17.8,14.0,1.2714285714285716
-Tampa Bay Buccaneers @ Detroit Lions,Kalif Raymond,AnytimeTD,Anytime,950.0,1050.0,,900.0,1100.0,,740.0,600.0,DraftKings,1100.0,12.0,9.48,1.2658227848101264
-Tampa Bay Buccaneers @ Detroit Lions,Brock Wright,AnytimeTD,Anytime,950.0,1000.0,,700.0,700.0,,600.0,900.0,BetRivers,1000.0,11.0,8.7,1.264367816091954
-Tampa Bay Buccaneers @ Detroit Lions,Sterling Shepard,AnytimeTD,Anytime,240.0,300.0,250.0,295.0,360.0,,250.0,260.0,DraftKings,360.0,4.6,3.6583333333333337,1.257403189066059
-Houston Texans @ Seattle Seahawks,Harrison Bryant,AnytimeTD,Anytime,2000.0,1800.0,,1500.0,1900.0,,1200.0,1500.0,BetMGM,2000.0,21.0,16.8,1.25
-Tampa Bay Buccaneers @ Detroit Lions,Isaac TeSlaa,Receiving,25,,,,,274.0,,,200.0,DraftKings,274.0,3.74,3.0,1.2466666666666668
-Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,80,,450.0,375.0,285.0,329.0,325.0,,400.0,BetRivers,450.0,5.5,4.428,1.2420957542908762
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,AnytimeTD,Anytime,-190.0,-230.0,-120.0,-205.0,-205.0,,-200.0,-200.0,Bovada,-120.0,1.8333333333333335,1.489451359044483,1.2308782842760697
-Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,110,,,400.0,425.0,562.0,500.0,,,DraftKings,562.0,6.62,5.416666666666667,1.2221538461538461
-Houston Texans @ Seattle Seahawks,Jayden Higgins,AnytimeTD,Anytime,300.0,410.0,,285.0,320.0,,285.0,400.0,BetRivers,410.0,5.1,4.18,1.2200956937799043
-Houston Texans @ Seattle Seahawks,Dare Ogunbowale,AnytimeTD,Anytime,3000.0,2800.0,,2400.0,3000.0,,1600.0,,BetMGM,3000.0,31.0,25.5,1.2156862745098038
-Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,Receiving,50,210.0,280.0,175.0,255.0,279.0,325.0,,300.0,ESPNBET,325.0,4.25,3.498333333333333,1.2148642210576466
-Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,Passing,350,550.0,,700.0,475.0,562.0,650.0,,,Bovada,700.0,8.0,6.5925,1.2135001896094046
-Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,50,340.0,,,360.0,368.0,450.0,,350.0,ESPNBET,450.0,5.5,4.545,1.21012101210121
-Houston Texans @ Seattle Seahawks,Sam Darnold,Rushing,25,,,850.0,,690.0,900.0,,650.0,ESPNBET,900.0,10.0,8.299999999999999,1.2048192771084338
-Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,80,,,800.0,,920.0,750.0,,700.0,DraftKings,920.0,10.2,8.5,1.2
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Passing,350,625.0,,750.0,525.0,640.0,650.0,,,Bovada,750.0,8.5,7.1,1.1971830985915493
-Tampa Bay Buccaneers @ Detroit Lions,Isaac TeSlaa,AnytimeTD,Anytime,600.0,700.0,,550.0,650.0,,550.0,500.0,BetRivers,700.0,8.0,6.7,1.1940298507462686
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Receiving,25,-130.0,,120.0,,102.0,,,-135.0,Bovada,120.0,2.2,1.84332383665717,1.1934962030272744
-Tampa Bay Buccaneers @ Detroit Lions,Tez Johnson,Receiving,25,145.0,,,,225.0,,,200.0,DraftKings,225.0,3.25,2.725,1.1926605504587156
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,110,,,1400.0,,1160.0,,,,Bovada,1400.0,15.0,12.6,1.1904761904761905
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Receiving,50,400.0,,,475.0,439.0,550.0,,475.0,ESPNBET,550.0,6.5,5.4725,1.187756966651439
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,AnytimeTD,Anytime,180.0,175.0,225.0,175.0,180.0,,175.0,160.0,Bovada,225.0,3.25,2.741666666666667,1.1854103343465043
-Houston Texans @ Seattle Seahawks,Xavier Hutchinson,AnytimeTD,Anytime,500.0,400.0,,420.0,425.0,,400.0,400.0,BetMGM,500.0,6.0,5.09,1.1787819253438114
-Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,50,325.0,390.0,325.0,295.0,361.0,300.0,,300.0,BetRivers,390.0,4.9,4.176666666666667,1.1731843575418994
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Receiving,80,,255.0,275.0,205.0,237.0,250.0,,155.0,Bovada,275.0,3.75,3.2039999999999997,1.1704119850187267
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Receiving,50,360.0,450.0,400.0,360.0,350.0,350.0,,400.0,BetRivers,450.0,5.5,4.7,1.1702127659574468
-Houston Texans @ Seattle Seahawks,Jake Bobo,AnytimeTD,Anytime,2000.0,2000.0,,1600.0,2000.0,,1300.0,1600.0,BetMGM,2000.0,21.0,18.0,1.1666666666666667
-Tampa Bay Buccaneers @ Detroit Lions,Payne Durham,AnytimeTD,Anytime,1000.0,1100.0,,950.0,1000.0,,700.0,1000.0,BetRivers,1100.0,12.0,10.3,1.1650485436893203
-Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,AnytimeTD,Anytime,170.0,170.0,210.0,160.0,170.0,,180.0,150.0,Bovada,210.0,3.1,2.6666666666666665,1.1625
-Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,300,425.0,,550.0,425.0,508.0,500.0,,575.0,HardRockBet,575.0,6.75,5.816,1.1605914718019257
-Houston Texans @ Seattle Seahawks,Tory Horton,AnytimeTD,Anytime,575.0,475.0,,525.0,600.0,,530.0,425.0,DraftKings,600.0,7.0,6.0600000000000005,1.155115511551155
-Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,Receiving,25,-220.0,,-300.0,,-144.0,,,-160.0,DraftKings,-144.0,1.6944444444444444,1.470959595959596,1.1519313304721028
-Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,50,230.0,300.0,225.0,275.0,260.0,325.0,,325.0,ESPNBET,325.0,4.25,3.691666666666667,1.1512415349887133
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,80,,,525.0,525.0,406.0,500.0,,575.0,HardRockBet,575.0,6.75,5.89,1.1460101867572157
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,80,,275.0,210.0,205.0,218.0,275.0,,230.0,BetRivers,275.0,3.75,3.276,1.1446886446886448
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,50,,,1100.0,,850.0,1000.0,,1000.0,Bovada,1100.0,12.0,10.5,1.1428571428571428
-Houston Texans @ Seattle Seahawks,Elijah Arroyo,AnytimeTD,Anytime,700.0,600.0,,625.0,650.0,,600.0,550.0,BetMGM,700.0,8.0,7.05,1.1347517730496455
-Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,50,390.0,,525.0,425.0,496.0,500.0,,450.0,Bovada,525.0,6.25,5.522,1.1318362911988409
-Houston Texans @ Seattle Seahawks,Jaylin Noel,AnytimeTD,Anytime,800.0,850.0,,750.0,850.0,,700.0,600.0,BetRivers,850.0,9.5,8.4,1.130952380952381
-Tampa Bay Buccaneers @ Detroit Lions,Emeka Egbuka,Receiving,80,,295.0,,235.0,299.0,275.0,,210.0,DraftKings,299.0,3.99,3.5375,1.1279151943462897
-Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,50,450.0,,575.0,550.0,558.0,600.0,,475.0,ESPNBET,600.0,7.0,6.215999999999999,1.1261261261261262
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,250,140.0,175.0,150.0,130.0,148.0,140.0,,160.0,BetRivers,175.0,2.75,2.4466666666666668,1.1239782016348774
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,AnytimeTD,Anytime,-130.0,-155.0,100.0,-130.0,-135.0,,-125.0,-105.0,Bovada,100.0,2.0,1.7794574203176354,1.1239381044829932
-Tampa Bay Buccaneers @ Detroit Lions,Sean Tucker,Rushing,25,,,,,215.0,210.0,,250.0,HardRockBet,250.0,3.5,3.125,1.12
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,80,,370.0,350.0,340.0,395.0,350.0,,300.0,DraftKings,395.0,4.95,4.42,1.1199095022624435
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Passing,300,210.0,250.0,250.0,180.0,238.0,210.0,,190.0,BetRivers,250.0,3.5,3.1299999999999994,1.1182108626198084
-Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,110,,,1500.0,,1700.0,1800.0,,,ESPNBET,1800.0,19.0,17.0,1.1176470588235294
-Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,250,140.0,185.0,170.0,140.0,155.0,150.0,,180.0,BetRivers,185.0,2.85,2.5583333333333336,1.1140065146579803
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,AnytimeTD,Anytime,625.0,550.0,,625.0,650.0,,550.0,525.0,DraftKings,650.0,7.5,6.75,1.1111111111111112
-Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,Passing,300,185.0,215.0,225.0,160.0,188.0,210.0,,200.0,Bovada,225.0,3.25,2.9299999999999997,1.1092150170648465
-Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,80,,160.0,150.0,140.0,182.0,185.0,,165.0,ESPNBET,185.0,2.85,2.5940000000000003,1.0986892829606785
-Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,25,-175.0,,-190.0,,-128.0,,,-130.0,DraftKings,-128.0,1.78125,1.6223250433776748,1.0979612299465242
-Tampa Bay Buccaneers @ Detroit Lions,Tampa Bay Buccaneers D/ST,AnytimeTD,Anytime,600.0,,600.0,,650.0,,550.0,,DraftKings,650.0,7.5,6.833333333333333,1.0975609756097562
-Tampa Bay Buccaneers @ Detroit Lions,Emeka Egbuka,AnytimeTD,Anytime,110.0,138.0,,135.0,145.0,,155.0,135.0,Fanatics,155.0,2.55,2.326,1.0963026655202062
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,25,165.0,,160.0,,128.0,155.0,,125.0,BetMGM,165.0,2.65,2.42,1.0950413223140496
-Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,80,,,625.0,650.0,540.0,600.0,,575.0,Caesars,650.0,7.5,6.85,1.094890510948905
-Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,50,150.0,185.0,165.0,140.0,178.0,160.0,,170.0,BetRivers,185.0,2.85,2.6050000000000004,1.0940499040307101
-Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,110,,250.0,240.0,190.0,206.0,250.0,,,BetRivers,250.0,3.5,3.215,1.088646967340591
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,300,450.0,,475.0,390.0,502.0,450.0,,500.0,DraftKings,502.0,6.02,5.529999999999999,1.0886075949367089
-Tampa Bay Buccaneers @ Detroit Lions,Detroit Lions D/ST,AnytimeTD,Anytime,525.0,,,,550.0,,470.0,,DraftKings,550.0,6.5,5.975,1.087866108786611
-Tampa Bay Buccaneers @ Detroit Lions,Emeka Egbuka,Receiving,50,-155.0,-121.0,,-130.0,-115.0,-130.0,,-165.0,DraftKings,-115.0,1.8695652173913042,1.7232259431672923,1.08492169863404
-Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,110,,200.0,180.0,150.0,179.0,200.0,,,BetRivers,200.0,3.0,2.7725,1.0820559062218216
-Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,Passing,250,-190.0,-175.0,-140.0,-170.0,-170.0,-155.0,,-170.0,Bovada,-140.0,1.7142857142857144,1.5846019222629628,1.0818399815125497
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,80,,380.0,375.0,330.0,329.0,360.0,,325.0,BetRivers,380.0,4.8,4.438,1.081568273997296
-Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,25,105.0,,130.0,,123.0,,,110.0,Bovada,130.0,2.3,2.1266666666666665,1.0815047021943573
-Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,50,-750.0,-560.0,-425.0,-425.0,-345.0,-500.0,,-575.0,DraftKings,-345.0,1.289855072463768,1.1927343401128567,1.0814269607947413
-Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,110,,310.0,275.0,245.0,313.0,300.0,,,DraftKings,313.0,4.13,3.825,1.0797385620915032
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,25,,,180.0,,165.0,175.0,,195.0,HardRockBet,195.0,2.95,2.733333333333333,1.0792682926829271
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Receiving,25,-600.0,,-450.0,,-391.0,,,-900.0,DraftKings,-391.0,1.2557544757033248,1.1666666666666667,1.0763609791742783
-Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,50,-120.0,105.0,100.0,-121.0,-105.0,-115.0,,-105.0,BetRivers,105.0,2.05,1.9056844560797133,1.0757289820252645
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,25,-2500.0,,,,-700.0,-1300.0,,-1400.0,DraftKings,-700.0,1.1428571428571428,1.0627838827838827,1.075342937892052
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,50,-120.0,-132.0,-110.0,-130.0,-139.0,-115.0,,-140.0,Bovada,-110.0,1.9090909090909092,1.7772358753747557,1.0741910713952643
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,50,-190.0,-200.0,-225.0,-176.0,-156.0,-170.0,,-185.0,DraftKings,-156.0,1.641025641025641,1.527952981126356,1.0740027090466695
-Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,50,210.0,205.0,200.0,170.0,187.0,200.0,,170.0,BetMGM,210.0,3.1,2.8866666666666667,1.073903002309469
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Receiving,25,-150.0,,-115.0,,-132.0,,,-125.0,Bovada,-115.0,1.8695652173913042,1.7414141414141413,1.0735902350448905
-Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,50,140.0,165.0,170.0,135.0,151.0,165.0,,155.0,Bovada,170.0,2.7,2.518333333333333,1.0721376571806753
-Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,25,-350.0,,-325.0,,-254.0,,,-325.0,DraftKings,-254.0,1.3937007874015748,1.3003663003663002,1.0717755351003662
-Tampa Bay Buccaneers @ Detroit Lions,Emeka Egbuka,Receiving,110,,,,950.0,910.0,850.0,,,Caesars,950.0,10.5,9.8,1.0714285714285714
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Receiving,110,,,750.0,750.0,630.0,700.0,,,Bovada,750.0,8.5,7.933333333333334,1.0714285714285714
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,50,-125.0,-136.0,-125.0,-129.0,-110.0,-115.0,,-140.0,DraftKings,-110.0,1.9090909090909092,1.7823898079622815,1.0710849560307343
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Receiving,50,-135.0,-129.0,-120.0,-139.0,-119.0,-135.0,,-190.0,DraftKings,-119.0,1.8403361344537816,1.7226248105282942,1.0683325371874726
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Passing,250,-150.0,-139.0,-125.0,-145.0,-133.0,-140.0,,-170.0,Bovada,-125.0,1.8,1.6883578345272658,1.066124706024771
-Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,80,,,700.0,650.0,750.0,750.0,,700.0,DraftKings,750.0,8.5,8.0,1.0625
-Tampa Bay Buccaneers @ Detroit Lions,Emeka Egbuka,Receiving,25,-750.0,,,,-496.0,,,-750.0,DraftKings,-496.0,1.2016129032258065,1.1333333333333333,1.060246679316888
-Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,50,-375.0,-345.0,-350.0,-375.0,-280.0,-350.0,,-350.0,DraftKings,-280.0,1.3571428571428572,1.2800552104899932,1.0602221263748113
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,50,120.0,110.0,125.0,105.0,123.0,120.0,,130.0,HardRockBet,130.0,2.3,2.171666666666667,1.0590943975441287
-Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,25,110.0,,135.0,,126.0,,,130.0,Bovada,135.0,2.35,2.2199999999999998,1.0585585585585586
-Tampa Bay Buccaneers @ Detroit Lions,Sterling Shepard,Receiving,25,-175.0,,,,-147.0,,,-165.0,DraftKings,-147.0,1.6802721088435373,1.5887445887445888,1.057609964966913
-Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,110,,,1100.0,,970.0,1100.0,,,Bovada,1100.0,12.0,11.35,1.0572687224669604
-Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,25,,,,,-1200.0,,,-4000.0,DraftKings,-1200.0,1.0833333333333333,1.025,1.056910569105691
-Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,25,-325.0,,-275.0,,-338.0,-300.0,,-425.0,Bovada,-275.0,1.3636363636363638,1.293044436709595,1.0545935815681662
-Tampa Bay Buccaneers @ Detroit Lions,Sam LaPorta,Receiving,25,-750.0,,-500.0,,-432.0,,,-550.0,DraftKings,-432.0,1.2314814814814814,1.1717171717171715,1.051005747126437
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,110,,,1100.0,,1160.0,,,,DraftKings,1160.0,12.6,12.0,1.05
-Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,80,,110.0,105.0,-104.0,116.0,110.0,,110.0,DraftKings,116.0,2.16,2.062307692307692,1.0473703841850057
-Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,50,-250.0,-235.0,-250.0,-193.0,-193.0,-200.0,,-220.0,Caesars,-193.0,1.5181347150259068,1.4497020140774965,1.0472046670859851
-Tampa Bay Buccaneers @ Detroit Lions,David Montgomery,Rushing,25,-550.0,,-475.0,,-386.0,-475.0,,-475.0,DraftKings,-386.0,1.2590673575129534,1.2033492822966507,1.0463024959053966
-Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,AnytimeTD,Anytime,140.0,123.0,,130.0,135.0,,140.0,120.0,BetMGM,140.0,2.4,2.2960000000000003,1.0452961672473866
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,25,-450.0,,-300.0,,-322.0,-350.0,,-350.0,Bovada,-300.0,1.3333333333333333,1.2760524499654933,1.044889129259059
-Houston Texans @ Seattle Seahawks,Woody Marks,Receiving,25,,,185.0,,180.0,,,195.0,HardRockBet,195.0,2.95,2.825,1.0442477876106195
-Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,25,-5000.0,,,,-1200.0,,,-1800.0,DraftKings,-1200.0,1.0833333333333333,1.037777777777778,1.0438972162740898
-Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,25,,,,,188.0,,,200.0,HardRockBet,200.0,3.0,2.88,1.0416666666666667
-Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,25,-190.0,,-180.0,,-173.0,-185.0,,-220.0,DraftKings,-173.0,1.5780346820809248,1.5192393350288085,1.0387005165654175
-Tampa Bay Buccaneers @ Detroit Lions,Mike Evans,Receiving,25,-2000.0,,-1400.0,,-900.0,,,-1100.0,DraftKings,-900.0,1.1111111111111112,1.0707792207792208,1.03766592547672
-Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,25,-120.0,,,,-113.0,,,-125.0,DraftKings,-113.0,1.8849557522123894,1.8166666666666669,1.0375903223187464
-Tampa Bay Buccaneers @ Detroit Lions,Rachaad White,Rushing,25,-1100.0,,-800.0,,-710.0,-800.0,,-1500.0,DraftKings,-710.0,1.1408450704225352,1.1018939393939393,1.0353492560727031
-Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,25,-1100.0,,-700.0,,-1040.0,-800.0,,-950.0,Bovada,-700.0,1.1428571428571428,1.1043315237394185,1.0348859181229124
-Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,Receiving,80,,-121.0,-130.0,-124.0,-118.0,-115.0,,-125.0,ESPNBET,-115.0,1.8695652173913042,1.8099172580488752,1.0329561802215923
-Tampa Bay Buccaneers @ Detroit Lions,Amon-Ra St. Brown,AnytimeTD,Anytime,-115.0,-125.0,,-118.0,-120.0,,-115.0,-135.0,BetMGM,-115.0,1.8695652173913042,1.8182193837168046,1.028239625060832
-Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,80,,-148.0,-155.0,-154.0,-157.0,-145.0,,-150.0,ESPNBET,-145.0,1.6896551724137931,1.6547593914349616,1.021088129887313
-Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,25,-350.0,,-275.0,,-277.0,,,-275.0,Bovada,-275.0,1.3636363636363638,1.336787159891853,1.0200848755509313
-Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,25,,,,,206.0,,,200.0,DraftKings,206.0,3.06,3.0,1.02
-Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,50,-700.0,-715.0,-650.0,-625.0,-610.0,-600.0,,-600.0,ESPNBET,-600.0,1.1666666666666667,1.1545274215766017,1.0105144709975689
-Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,25,,,,,-4300.0,,,-3000.0,HardRockBet,-3000.0,1.0333333333333334,1.0232558139534884,1.009848484848485
-Tampa Bay Buccaneers @ Detroit Lions,Jahmyr Gibbs,Rushing,110,,,625.0,,620.0,,,,Bovada,625.0,7.25,7.2,1.0069444444444444
-Tampa Bay Buccaneers @ Detroit Lions,Baker Mayfield,Rushing,80,,,,,2000.0,,,2000.0,DraftKings,2000.0,21.0,21.0,1.0
-Houston Texans @ Seattle Seahawks,Azeez Al-Shaair,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Byron Murphy II,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,80,,,,,3800.0,,,,DraftKings,3800.0,39.0,,
-Houston Texans @ Seattle Seahawks,Christian Kirk,AnytimeTD,Anytime,,,625.0,,,,,,Bovada,625.0,7.25,,
-Houston Texans @ Seattle Seahawks,Coby Bryant,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,110,,,,,2900.0,,,,DraftKings,2900.0,30.0,,
-Houston Texans @ Seattle Seahawks,DeMarcus Lawrence,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Derek Stingley Jr.,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,80,,,,,3200.0,,,,DraftKings,3200.0,33.0,,
-Houston Texans @ Seattle Seahawks,Ernest Jones,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Jalen Pitre,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,110,,,,,2600.0,,,,DraftKings,2600.0,27.0,,
-Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,80,,,,,4600.0,,,,DraftKings,4600.0,47.0,,
-Houston Texans @ Seattle Seahawks,Kamari Lassiter,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Houston Texans @ Seattle Seahawks,Leonard Williams,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Nick Chubb,Receiving,50,,,,,1620.0,,,,DraftKings,1620.0,17.2,,
-Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,110,,,,,3700.0,,,,DraftKings,3700.0,38.0,,
-Houston Texans @ Seattle Seahawks,No Scorer,AnytimeTD,Anytime,,,,,,,2500.0,,Fanatics,2500.0,26.0,,
-Houston Texans @ Seattle Seahawks,No Touchdown,AnytimeTD,Anytime,6600.0,,,,,,,,BetMGM,6600.0,67.0,,
-Houston Texans @ Seattle Seahawks,Riq Woolen,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Sam Darnold,Rushing,50,,,,,3300.0,,,,DraftKings,3300.0,34.0,,
-Houston Texans @ Seattle Seahawks,Tim Settle,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Houston Texans @ Seattle Seahawks,Woody Marks,Receiving,80,,,,,4400.0,,,,DraftKings,4400.0,45.0,,
-Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,110,,,,,2600.0,,,,DraftKings,2600.0,27.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Amik Robertson,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Antoine Winfield Jr.,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Brock Wright,Receiving,25,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Cade Otton,Receiving,110,,,,,4200.0,,,,DraftKings,4200.0,43.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Jack Campbell,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Jamel Dean,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Jameson Williams,Rushing,25,,,,,,,,2000.0,HardRockBet,2000.0,21.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Jared Goff,Rushing,25,,,,,,,,1600.0,HardRockBet,1600.0,17.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Kalif Raymond,Receiving,25,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Kalif Raymond,Receiving,50,,,,,,,,600.0,HardRockBet,600.0,7.0,,
-Tampa Bay Buccaneers @ Detroit Lions,No Scorer,AnytimeTD,Anytime,,,,,,,12000.0,,Fanatics,12000.0,121.0,,
-Tampa Bay Buccaneers @ Detroit Lions,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,BetMGM,15000.0,151.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Sean Tucker,Receiving,25,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Sean Tucker,Rushing,80,,,,,3900.0,,,,DraftKings,3900.0,40.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Sterling Shepard,Receiving,110,,,,,4600.0,,,,DraftKings,4600.0,47.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Tez Johnson,Receiving,80,,,,,2600.0,,,,DraftKings,2600.0,27.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Tykee Smith,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Vita Vea,AnytimeTD,Anytime,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Tampa Bay Buccaneers @ Detroit Lions,Zyon McCollum,AnytimeTD,Anytime,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Receiving,50,,,,,1980.0,,,,600.0,DraftKings,1980.0,20.8,7.0,2.9714285714285715
+Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,80,,,,,2500.0,,,,800.0,DraftKings,2500.0,26.0,9.0,2.888888888888889
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Receiving,50,,,,,1900.0,,,,600.0,DraftKings,1900.0,20.0,7.0,2.857142857142857
+Houston Texans @ Seattle Seahawks,Brenden Bates,AnytimeTD,Anytime,2500.0,2500.0,,2500.0,2500.0,,3300.0,1900.0,5000.0,HardRockBet,5000.0,51.0,26.333333333333332,1.9367088607594938
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,80,,,700.0,,790.0,650.0,640.0,,1400.0,HardRockBet,1400.0,15.0,7.949999999999999,1.886792452830189
+Houston Texans @ Seattle Seahawks,Nick Chubb,AnytimeTD,Anytime,260.0,230.0,525.0,235.0,245.0,,260.0,240.0,160.0,Bovada,525.0,6.25,3.3285714285714287,1.8776824034334763
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Receiving,25,,,,,429.0,,,,200.0,DraftKings,429.0,5.29,3.0,1.7633333333333334
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Receiving,25,,,,,425.0,,,,200.0,DraftKings,425.0,5.25,3.0,1.75
+Houston Texans @ Seattle Seahawks,Nico Collins,AnytimeTD,Anytime,150.0,120.0,325.0,145.0,145.0,,155.0,155.0,135.0,Bovada,325.0,4.25,2.4357142857142864,1.7448680351906154
+Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,80,,,,,1420.0,2000.0,,,800.0,ESPNBET,2000.0,21.0,12.1,1.7355371900826446
+Houston Texans @ Seattle Seahawks,George Holani,AnytimeTD,Anytime,3500.0,1000.0,,2100.0,2200.0,,2000.0,1600.0,3000.0,BetMGM,3500.0,36.0,20.833333333333332,1.7280000000000002
+Houston Texans @ Seattle Seahawks,Woody Marks,AnytimeTD,Anytime,260.0,235.0,475.0,255.0,285.0,,270.0,270.0,195.0,Bovada,475.0,5.75,3.5285714285714285,1.6295546558704455
+Houston Texans @ Seattle Seahawks,British Brooks,AnytimeTD,Anytime,4500.0,,,3500.0,6000.0,,6000.0,2800.0,1750.0,DraftKings,6000.0,61.0,38.1,1.601049868766404
+Houston Texans @ Seattle Seahawks,Dalton Schultz,AnytimeTD,Anytime,350.0,320.0,575.0,340.0,390.0,,360.0,325.0,275.0,Bovada,575.0,6.75,4.371428571428572,1.5441176470588234
+Houston Texans @ Seattle Seahawks,Seattle Seahawks D/ST,AnytimeTD,Anytime,825.0,,,,550.0,,,470.0,,BetMGM,825.0,9.25,6.1,1.5163934426229508
+Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,80,,,1500.0,,1960.0,,1700.0,,800.0,DraftKings,1960.0,20.6,14.333333333333334,1.4372093023255814
+Houston Texans @ Seattle Seahawks,Brady Russell,AnytimeTD,Anytime,3300.0,2500.0,,2800.0,3500.0,,,1700.0,4000.0,HardRockBet,4000.0,41.0,28.6,1.4335664335664335
+Houston Texans @ Seattle Seahawks,Woody Marks,Receiving,50,,,,,1020.0,1200.0,,,600.0,ESPNBET,1200.0,13.0,9.1,1.4285714285714286
+Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,50,,,,,770.0,1000.0,,,600.0,ESPNBET,1000.0,11.0,7.85,1.4012738853503186
+Houston Texans @ Seattle Seahawks,Eric Saubert,AnytimeTD,Anytime,3300.0,2200.0,,2600.0,3500.0,,3000.0,1800.0,2000.0,DraftKings,3500.0,36.0,25.833333333333332,1.3935483870967742
+Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,80,,,850.0,,840.0,1300.0,1200.0,,800.0,ESPNBET,1300.0,14.0,10.225,1.36919315403423
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,AnytimeTD,Anytime,165.0,150.0,250.0,160.0,175.0,,160.0,170.0,125.0,Bovada,250.0,3.5,2.5785714285714287,1.3573407202216066
+Houston Texans @ Seattle Seahawks,AJ Barner,AnytimeTD,Anytime,360.0,370.0,500.0,330.0,320.0,,330.0,345.0,350.0,Bovada,500.0,6.0,4.435714285714286,1.3526570048309179
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,350,1200.0,,1200.0,,1660.0,,1260.0,,,DraftKings,1660.0,17.6,13.200000000000001,1.3333333333333333
+Houston Texans @ Seattle Seahawks,Dareke Young,AnytimeTD,Anytime,3500.0,3000.0,,2700.0,2500.0,,3300.0,1700.0,,BetMGM,3500.0,36.0,27.4,1.3138686131386863
+Houston Texans @ Seattle Seahawks,Dare Ogunbowale,AnytimeTD,Anytime,3000.0,1900.0,,2400.0,3000.0,,2500.0,1500.0,,BetMGM,3000.0,31.0,23.6,1.3135593220338981
+Houston Texans @ Seattle Seahawks,Nick Chubb,Receiving,25,,,475.0,,356.0,,480.0,,200.0,FanDuel,480.0,5.8,4.4366666666666665,1.3072877535687453
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,AnytimeTD,Anytime,140.0,135.0,220.0,145.0,140.0,,145.0,155.0,165.0,Bovada,220.0,3.2,2.4642857142857144,1.298550724637681
+Houston Texans @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,275.0,265.0,375.0,265.0,285.0,,260.0,250.0,275.0,Bovada,375.0,4.75,3.6785714285714284,1.2912621359223302
+Houston Texans @ Seattle Seahawks,Jake Bobo,AnytimeTD,Anytime,2000.0,2000.0,,1600.0,2200.0,,1700.0,1300.0,1500.0,DraftKings,2200.0,23.0,17.833333333333332,1.2897196261682244
+Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,80,,,1200.0,,1660.0,1300.0,1200.0,,1750.0,HardRockBet,1750.0,18.5,14.4,1.284722222222222
+Houston Texans @ Seattle Seahawks,C.J. Stroud,AnytimeTD,Anytime,900.0,700.0,,800.0,950.0,,1000.0,800.0,400.0,FanDuel,1000.0,11.0,8.583333333333334,1.2815533980582523
+Houston Texans @ Seattle Seahawks,Sam Darnold,AnytimeTD,Anytime,1100.0,1000.0,,850.0,850.0,,1000.0,800.0,525.0,BetMGM,1100.0,12.0,9.375,1.28
+Houston Texans @ Seattle Seahawks,Braxton Berrios,AnytimeTD,Anytime,900.0,1200.0,,900.0,900.0,,1000.0,800.0,1100.0,BetRivers,1200.0,13.0,10.333333333333334,1.2580645161290323
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,50,145.0,195.0,185.0,155.0,189.0,165.0,172.0,,240.0,HardRockBet,240.0,3.4,2.722857142857143,1.248688352570829
+Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,50,,,,,930.0,850.0,,,600.0,DraftKings,930.0,10.3,8.25,1.2484848484848485
+Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,50,450.0,,575.0,550.0,558.0,700.0,680.0,,450.0,ESPNBET,700.0,8.0,6.438333333333333,1.2425575977219778
+Houston Texans @ Seattle Seahawks,Jaylin Noel,AnytimeTD,Anytime,800.0,850.0,,850.0,950.0,,1000.0,740.0,550.0,FanDuel,1000.0,11.0,8.9,1.2359550561797752
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,50,,,1100.0,,960.0,1300.0,1200.0,,900.0,ESPNBET,1300.0,14.0,11.4,1.2280701754385965
+Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,50,300.0,410.0,325.0,290.0,370.0,300.0,310.0,,325.0,BetRivers,410.0,5.1,4.171428571428572,1.2226027397260273
+Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,80,,,800.0,,930.0,750.0,750.0,,700.0,DraftKings,930.0,10.3,8.5,1.211764705882353
+Houston Texans @ Seattle Seahawks,Jayden Higgins,AnytimeTD,Anytime,300.0,410.0,,285.0,350.0,,330.0,305.0,375.0,BetRivers,410.0,5.1,4.241666666666666,1.2023575638506876
+Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,50,340.0,430.0,,360.0,355.0,450.0,480.0,,375.0,FanDuel,480.0,5.8,4.85,1.1958762886597938
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,80,,410.0,375.0,295.0,343.0,300.0,300.0,,350.0,BetRivers,410.0,5.1,4.2716666666666665,1.1939133827545845
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,110,,,1100.0,,1200.0,,880.0,,,DraftKings,1200.0,13.0,10.9,1.1926605504587156
+Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,50,250.0,300.0,225.0,265.0,258.0,350.0,350.0,,300.0,ESPNBET,350.0,4.5,3.782857142857143,1.1895770392749245
+Houston Texans @ Seattle Seahawks,Houston Texans D/ST,AnytimeTD,Anytime,700.0,,,,650.0,,,500.0,,BetMGM,700.0,8.0,6.75,1.1851851851851851
+Houston Texans @ Seattle Seahawks,Harrison Bryant,AnytimeTD,Anytime,2000.0,1800.0,,1600.0,1900.0,,1700.0,1300.0,1750.0,BetMGM,2000.0,21.0,17.75,1.1830985915492958
+Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,25,,,,,180.0,,240.0,,200.0,FanDuel,240.0,3.4,2.9,1.1724137931034482
+Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,350,1100.0,,1400.0,,1500.0,1600.0,1400.0,,,ESPNBET,1600.0,17.0,14.5,1.1724137931034482
+Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,80,,,700.0,650.0,670.0,850.0,830.0,,750.0,ESPNBET,850.0,9.5,8.2,1.1585365853658538
+Houston Texans @ Seattle Seahawks,Xavier Hutchinson,AnytimeTD,Anytime,500.0,390.0,,420.0,450.0,,460.0,420.0,400.0,BetMGM,500.0,6.0,5.233333333333333,1.1464968152866242
+Houston Texans @ Seattle Seahawks,Xavier Hutchinson,Receiving,25,105.0,,130.0,,120.0,,146.0,,105.0,FanDuel,146.0,2.46,2.15,1.144186046511628
+Houston Texans @ Seattle Seahawks,Tory Horton,AnytimeTD,Anytime,575.0,425.0,,500.0,550.0,,550.0,500.0,450.0,BetMGM,575.0,6.75,5.958333333333333,1.132867132867133
+Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,50,195.0,225.0,200.0,165.0,190.0,200.0,194.0,,170.0,BetRivers,225.0,3.25,2.8771428571428572,1.1295928500496524
+Houston Texans @ Seattle Seahawks,Elijah Arroyo,AnytimeTD,Anytime,700.0,600.0,,625.0,650.0,,650.0,600.0,525.0,BetMGM,700.0,8.0,7.083333333333333,1.1294117647058823
+Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,300,425.0,,550.0,400.0,486.0,500.0,520.0,,525.0,Bovada,550.0,6.5,5.760000000000001,1.128472222222222
+Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,110,,180.0,180.0,150.0,174.0,200.0,210.0,,,FanDuel,210.0,3.1,2.768,1.119942196531792
+Houston Texans @ Seattle Seahawks,Sam Darnold,Rushing,25,,,850.0,,670.0,850.0,850.0,,650.0,Bovada,850.0,9.5,8.55,1.111111111111111
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,300,450.0,,475.0,380.0,503.0,450.0,450.0,,475.0,DraftKings,503.0,6.03,5.466666666666666,1.103048780487805
+Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,25,-160.0,,-190.0,,-126.0,,-120.0,,-140.0,FanDuel,-120.0,1.8333333333333335,1.664813074352548,1.101224733020747
+Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,50,145.0,180.0,170.0,130.0,150.0,165.0,176.0,,155.0,BetRivers,180.0,2.8,2.5585714285714287,1.094360692350642
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,50,-130.0,-121.0,-110.0,-136.0,-132.0,-155.0,-146.0,,-125.0,Bovada,-110.0,1.9090909090909092,1.7455199603738882,1.0937090107419822
+Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,25,-125.0,,,,-121.0,,-102.0,,-120.0,FanDuel,-102.0,1.9803921568627452,1.819926538108356,1.08817148131769
+Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,110,,300.0,275.0,240.0,269.0,300.0,310.0,,,FanDuel,310.0,4.1,3.768,1.0881104033970275
+Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,50,390.0,,525.0,475.0,503.0,500.0,520.0,,475.0,Bovada,525.0,6.25,5.771666666666666,1.0828761189719898
+Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,50,155.0,185.0,165.0,140.0,166.0,175.0,186.0,,165.0,FanDuel,186.0,2.8600000000000003,2.6442857142857146,1.0815775256618045
+Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,25,,,,,211.0,,230.0,,200.0,FanDuel,230.0,3.3,3.0549999999999997,1.0801963993453356
+Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,110,,,1500.0,,1800.0,1800.0,1700.0,,,DraftKings,1800.0,19.0,17.666666666666668,1.0754716981132075
+Houston Texans @ Seattle Seahawks,Sam Darnold,Passing,250,140.0,163.0,170.0,135.0,150.0,160.0,164.0,,165.0,Bovada,170.0,2.7,2.538571428571428,1.0635903207653352
+Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,80,,,625.0,625.0,533.0,600.0,630.0,,550.0,FanDuel,630.0,7.3,6.866,1.0632100203903292
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Passing,250,145.0,160.0,150.0,130.0,152.0,145.0,148.0,,145.0,BetRivers,160.0,2.6,2.4499999999999997,1.0612244897959184
+Houston Texans @ Seattle Seahawks,Tory Horton,Receiving,25,115.0,,135.0,,125.0,,140.0,,130.0,FanDuel,140.0,2.4,2.2625,1.0607734806629834
+Houston Texans @ Seattle Seahawks,Woody Marks,Receiving,25,,,185.0,,183.0,,168.0,,195.0,HardRockBet,195.0,2.95,2.7866666666666666,1.0586124401913877
+Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,AnytimeTD,Anytime,140.0,118.0,,135.0,145.0,,145.0,140.0,120.0,DraftKings,145.0,2.45,2.33,1.051502145922747
+Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,25,-350.0,,-275.0,,-325.0,-300.0,-290.0,,-400.0,Bovada,-275.0,1.3636363636363638,1.3043135025893646,1.0454820569818755
+Houston Texans @ Seattle Seahawks,Kenneth Walker III,Rushing,25,-1200.0,,-700.0,,-1020.0,-1100.0,-1100.0,,-850.0,Bovada,-700.0,1.1428571428571428,1.0961675579322638,1.0425934744985073
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,25,-450.0,,-300.0,,-323.0,-350.0,-340.0,,-350.0,Bovada,-300.0,1.3333333333333333,1.2794731927858862,1.0420955599938546
+Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,80,,-175.0,-155.0,-154.0,-163.0,-145.0,-142.0,,-150.0,FanDuel,-142.0,1.704225352112676,1.639293213782933,1.0396098378153482
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,25,,,180.0,,185.0,185.0,194.0,,185.0,FanDuel,194.0,2.94,2.8375,1.036123348017621
+Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,25,-350.0,,-325.0,,-352.0,,-295.0,,-325.0,FanDuel,-295.0,1.3389830508474576,1.2962974525474524,1.0329288607457496
+Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,80,,108.0,105.0,-104.0,101.0,110.0,110.0,,100.0,ESPNBET,110.0,2.1,2.033589743589743,1.032656663724625
+Houston Texans @ Seattle Seahawks,Woody Marks,Rushing,25,-210.0,,-180.0,,-181.0,-190.0,-180.0,,-225.0,Bovada,-180.0,1.5555555555555556,1.5109984907018927,1.0294884906423467
+Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,50,-375.0,-360.0,-350.0,-375.0,-377.0,-350.0,-330.0,,-375.0,FanDuel,-330.0,1.303030303030303,1.2734940483708956,1.0231930841743557
+Houston Texans @ Seattle Seahawks,Nico Collins,Receiving,25,-5000.0,,,,-1760.0,,,,-2000.0,DraftKings,-1760.0,1.0568181818181819,1.0350000000000001,1.0210803689064558
+Houston Texans @ Seattle Seahawks,Cooper Kupp,Receiving,25,-325.0,,-275.0,,-277.0,,-265.0,,-275.0,FanDuel,-265.0,1.3773584905660377,1.3489939663224861,1.021026427805957
+Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,50,-650.0,,-650.0,-625.0,-650.0,-600.0,-590.0,,-650.0,FanDuel,-590.0,1.1694915254237288,1.1570085470085472,1.0107890114100335
+Houston Texans @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,25,,,,,-4200.0,,,,-4000.0,HardRockBet,-4000.0,1.025,1.0238095238095237,1.0011627906976743
+Houston Texans @ Seattle Seahawks,AJ Barner,Receiving,110,,,,,4600.0,,,,,DraftKings,4600.0,47.0,,
+Houston Texans @ Seattle Seahawks,Azeez Al-Shaair,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Byron Murphy II,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,C.J. Stroud,Rushing,80,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
+Houston Texans @ Seattle Seahawks,Christian Kirk,AnytimeTD,Anytime,,,625.0,,,,,,,Bovada,625.0,7.25,,
+Houston Texans @ Seattle Seahawks,Coby Bryant,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Houston Texans @ Seattle Seahawks,Dalton Schultz,Receiving,110,,,,,2500.0,,,,,DraftKings,2500.0,26.0,,
+Houston Texans @ Seattle Seahawks,DeMarcus Lawrence,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Derek Stingley Jr.,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
+Houston Texans @ Seattle Seahawks,Elijah Arroyo,Receiving,80,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
+Houston Texans @ Seattle Seahawks,Ernest Jones,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Houston Texans Defense,AnytimeTD,Anytime,,,,,,,800.0,,,FanDuel,800.0,9.0,,
+Houston Texans @ Seattle Seahawks,Jalen Pitre,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Jayden Higgins,Receiving,110,,,,,2500.0,,,,,DraftKings,2500.0,26.0,,
+Houston Texans @ Seattle Seahawks,Jaylin Noel,Receiving,80,,,,,4200.0,,,,,DraftKings,4200.0,43.0,,
+Houston Texans @ Seattle Seahawks,Kamari Lassiter,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Houston Texans @ Seattle Seahawks,Leonard Williams,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Nick Chubb,Receiving,50,,,,,1620.0,,,,,DraftKings,1620.0,17.2,,
+Houston Texans @ Seattle Seahawks,Nick Chubb,Rushing,110,,,,,3700.0,,,,,DraftKings,3700.0,38.0,,
+Houston Texans @ Seattle Seahawks,No Scorer,AnytimeTD,Anytime,,,,,,,,2200.0,,Fanatics,2200.0,23.0,,
+Houston Texans @ Seattle Seahawks,No Touchdown,AnytimeTD,Anytime,6600.0,,,,,,,,,BetMGM,6600.0,67.0,,
+Houston Texans @ Seattle Seahawks,Riq Woolen,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Sam Darnold,Rushing,50,,,,,2900.0,,,,,DraftKings,2900.0,30.0,,
+Houston Texans @ Seattle Seahawks,Seattle Seahawks Defense,AnytimeTD,Anytime,,,,,,,1000.0,,,FanDuel,1000.0,11.0,,
+Houston Texans @ Seattle Seahawks,Tim Settle,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Will Anderson Jr.,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Houston Texans @ Seattle Seahawks,Zach Charbonnet,Rushing,110,,,,,2800.0,,,,,DraftKings,2800.0,29.0,,
