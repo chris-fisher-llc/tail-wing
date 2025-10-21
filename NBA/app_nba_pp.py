@@ -25,7 +25,7 @@ st.markdown(
 def trigger_github_action():
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO")  # e.g., "your-org-or-user/your-repo"
-    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nba-player-props.yml")
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "main_nba.yml")
     ref = st.secrets.get("GITHUB_REF", "main")
 
     if not token or not repo:
