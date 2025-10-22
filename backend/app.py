@@ -11,8 +11,9 @@ from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from jose import jwt, JWTError
 
-from billing import router as billing_router
-from utils_origin import ALLOWED as FILE_ALLOWED, DEFAULT_FRONTEND as FILE_DEFAULT_FRONTEND
+from backend.billing import router as billing_router
+from backend.utils_origin import ALLOWED as FILE_ALLOWED, DEFAULT_FRONTEND as FILE_DEFAULT_FRONTEND
+
 
 # ---------------------------
 # Config & Environment
