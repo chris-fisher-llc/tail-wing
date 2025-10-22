@@ -5,7 +5,7 @@ load_dotenv(dotenv_path=Path(__file__).with_name(".env"))  # load .env BEFORE ro
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
-from jose import jwt, JWTError
+from jose import jwt, JWTErrorf
 from billing import router as billing_router
 import os
 
@@ -18,13 +18,18 @@ TOKEN_TTL_MIN = 120
 # Key = email (lowercased), Value = bool is_subscriber
 SUBSCRIPTIONS = {}
 
-app = FastAPI()
+allowed = [o.strip() for o in os.getenv("ALLOWED_ORIGINS","").split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed or ["*"],  # tighten in prod via ALLOWED_ORIGINS
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/billing/config_check")
+def config_check():
+    return {"ok": True}
 
 app.include_router(billing_router)
 
