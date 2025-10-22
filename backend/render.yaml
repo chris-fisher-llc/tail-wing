@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tailwing-backend
+    name: high-lines-backend
     env: python
     pythonVersion: 3.11
     plan: starter
@@ -11,10 +11,10 @@ services:
         sync: false
       - key: STRIPE_WEBHOOK_SECRET
         sync: false
-      - key: FRONTEND_URL
-        value: https://app.tailwing.xyz
       - key: ALLOWED_ORIGINS
-        value: https://app.tailwing.xyz
+        value: https://high-lines-nfl-players.streamlit.app,https://high-lines-nba-players.streamlit.app,https://high-lines-cfb_games.streamlit.app,https://high-lines-nhl-players.streamlit.app,https://high-lines.com
+      - key: DEFAULT_FRONTEND_URL
+        value: https://high-lines-nfl-players.streamlit.app
       - key: WHITELISTED_EMAILS
         sync: false
       - key: LOG_LEVEL
