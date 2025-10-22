@@ -24,6 +24,7 @@ MARKETS = [
     "player_threes_alternate",      # <-- corrected
     "player_steals_alternate",
     "player_blocks_alternate",
+    "player_double_double",
 ]
 
 MARKET_TO_GROUP = {
@@ -33,6 +34,7 @@ MARKET_TO_GROUP = {
     "player_threes_alternate": "Threes",
     "player_steals_alternate": "Steals",
     "player_blocks_alternate": "Blocks",
+    "player_double_double": "Double-Double",
 }
 
 THRESHOLDS = {
@@ -150,6 +152,24 @@ def main():
                 for o in m.get("outcomes", []) or []:
                     price = o.get("price")
                     player = o.get("description") or o.get("name") or "Unknown"
+                
+                    # Double-Double (Yes/No)
+                    if group == "Double-Double":
+                        outcome_name = (o.get("name") or o.get("description") or "").strip().lower()
+                        if price is None or outcome_name != "yes":
+                            continue
+                        rows.append({
+                            "event": label,
+                            "player": player,
+                            "group": group,
+                            "threshold": "Yes",
+                            "book": book_name,
+                            "odds": price,
+                        })
+                        total_outcomes += 1
+                        continue  # skip numeric handling
+                
+                    # Numeric alt props
                     thr = normalize_threshold(
                         group,
                         o.get("point"),
@@ -167,7 +187,7 @@ def main():
                         "odds": price,
                     })
                     total_outcomes += 1
-
+                    continue
         print(f"  {label} — {total_outcomes} alt outcomes kept")
 
         time.sleep(0.2)
