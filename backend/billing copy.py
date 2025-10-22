@@ -1,13 +1,11 @@
-# backend/billing.py
 from __future__ import annotations
-import os, json, sqlite3
+import os
 from typing import Optional, Dict, Any
-
 from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel, EmailStr
+import json, sqlite3
 from datetime import datetime
 
-from utils_origin import pick_frontend_base  # dynamic success/cancel per frontend
 
 router = APIRouter(prefix="/billing", tags=["Billing"])
 
@@ -40,17 +38,15 @@ def _get_webhook_secret() -> str:
         raise HTTPException(status_code=500, detail="Stripe webhook secret not configured")
     return wh
 
-# Accept both names for compatibility (prefer WHITELISTED_EMAILS)
-_WHITELIST = os.getenv("WHITELISTED_EMAILS") or os.getenv("FREE_USERS", "")
-FREE_USERS = {e.strip().lower() for e in _WHITELIST.split(",") if e.strip()}
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://127.0.0.1:8501")
+
+# Comma-separated list of free users (emails). Example: FREE_USERS="a@x.com,b@y.com"
+FREE_USERS = {e.strip().lower() for e in os.getenv("FREE_USERS", "").split(",") if e.strip()}
 
 def _is_free(email: str | None) -> bool:
     return bool(email) and email.lower() in FREE_USERS
 
-DB_PATH = os.getenv(
-    "BILLING_DB_PATH",
-    os.path.join(os.path.dirname(__file__), "tailwing.db")
-)
+DB_PATH = os.getenv("BILLING_DB_PATH", os.path.join(os.path.dirname(__file__), "tailwing.db"))
 
 def _db():
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
@@ -83,32 +79,32 @@ def _db_init():
 
 _db_init()
 
+
+
 # ------------------------
 # API models
 # ------------------------
 class CheckoutRequest(BaseModel):
     email: EmailStr
+    # Optional: capture referral handle for attribution in webhooks
     referrer: Optional[str] = None
+    # Optional: if you later want to pre-apply a specific promotion_code ID
+    # promotion_code: Optional[str] = None
 
-class TrackEvent(BaseModel):
-    email: Optional[EmailStr] = None
-    name: str
-    props: Optional[dict] = None
 
 # ------------------------
 # Routes
 # ------------------------
 @router.post("/checkout")
-async def create_checkout(request: Request, data: CheckoutRequest):
+async def create_checkout(data: CheckoutRequest):
     """
-    Create a Stripe Checkout Session for a subscription.
-    - Whitelisted users bypass Stripe and get immediate entitlements.
-    - success_url/cancel_url are built dynamically per frontend using the request origin.
+    Creates a Stripe Checkout Session for a subscription.
+    - Allows promotion codes (user can type a promo in the Checkout UI).
+    - Stores optional referrer in metadata for attribution on webhook.
     """
     stripe = _get_stripe()
-    base = pick_frontend_base(request)
 
-    # Free/whitelisted short-circuit
+        # --- Short-circuit for whitelisted free users ---
     if _is_free(str(data.email)):
         user = upsert_user(
             email=str(data.email),
@@ -119,7 +115,8 @@ async def create_checkout(request: Request, data: CheckoutRequest):
             status="active",
         )
         activate_entitlements(user, _get_price_id())
-        return {"url": f"{base}/?sub=free"}
+        print(f"[billing] Free user: {data.email} -> full entitlements granted")
+        return {"url": f"{FRONTEND_URL}?sub=free"}
 
     metadata: Dict[str, Any] = {}
     if data.referrer:
@@ -129,17 +126,19 @@ async def create_checkout(request: Request, data: CheckoutRequest):
         mode="subscription",
         line_items=[{"price": _get_price_id(), "quantity": 1}],
         customer_email=str(data.email),
-        allow_promotion_codes=True,
+        allow_promotion_codes=True,  # lets users enter promo codes at checkout
         metadata=metadata or None,
-        success_url=f"{base}/?status=success&session_id={{CHECKOUT_SESSION_ID}}",
-        cancel_url=f"{base}/?status=cancelled",
+        success_url=f"{FRONTEND_URL}?sub=success",
+        cancel_url=f"{FRONTEND_URL}?sub=cancel",
     )
     return {"url": session.url}
+
 
 @router.post("/webhook")
 async def stripe_webhook(request: Request):
     """
-    Verify Stripe webhook and handle key lifecycle events.
+    Verifies the Stripe webhook and handles key lifecycle events.
+    Currently logs and calls lightweight stubs for user upsert + entitlement activation.
     """
     stripe = _get_stripe()
     payload = await request.body()
@@ -154,14 +153,16 @@ async def stripe_webhook(request: Request):
     event_type = event.get("type")
     data = event.get("data", {}).get("object", {})  # type: ignore[assignment]
 
+    # ---- Event handling ----
     if event_type == "checkout.session.completed":
+        # Safely extract values
         session = data
         email = (session.get("customer_details") or {}).get("email")
         customer_id = session.get("customer")
         referrer = (session.get("metadata") or {}).get("referrer")
         subscription_id = session.get("subscription")
 
-        # Pull price_id from the subscription (most reliable)
+        # Get price_id reliably by retrieving the subscription (line items often not on the session)
         price_id = None
         if subscription_id:
             try:
@@ -178,7 +179,7 @@ async def stripe_webhook(request: Request):
             subscription_id=subscription_id,
             price_id=price_id,
             referrer=referrer,
-            status="active",
+            status="active",  # on successful checkout we treat as active
         )
         activate_entitlements(user, price_id or _get_price_id())
         print(f"[billing] checkout.session.completed email={email} customer={customer_id} price_id={price_id}")
@@ -195,13 +196,14 @@ async def stripe_webhook(request: Request):
             pass
 
         user = upsert_user(
-            email=None,
+            email=None,  # may not be present on this event
             stripe_customer_id=customer_id,
             subscription_id=data.get("id"),
             price_id=price_id,
             referrer=None,
             status=status,
         )
+        # Update entitlements if price changed or status transitioned
         if status == "active":
             activate_entitlements(user, price_id or _get_price_id())
         elif status in {"canceled", "unpaid", "incomplete_expired"}:
@@ -222,17 +224,21 @@ async def stripe_webhook(request: Request):
         print(f"[billing] customer.subscription.deleted customer={customer_id}")
 
     elif event_type == "invoice.paid":
+        # Renewal succeeded; you can extend access or mark invoice paid (already implied by 'active')
         customer_id = data.get("customer")
         print(f"[billing] invoice.paid customer={customer_id}")
 
     elif event_type == "invoice.payment_failed":
+        # Dunning: consider restricting premium features until resolved
         customer_id = data.get("customer")
         print(f"[billing] invoice.payment_failed customer={customer_id}")
 
     else:
+        # It's fine to ignore unhandled events (still return 200 so Stripe doesn't retry)
         print(f"[billing] Unhandled event type: {event_type}")
 
     return {"status": "ok"}
+
 
 @router.get("/config_check")
 def billing_config_check():
@@ -240,9 +246,13 @@ def billing_config_check():
         "has_secret_key": bool(_env("STRIPE_SECRET_KEY") or _env("STRIPE_SECRET")),
         "has_price_id": bool(_env("STRIPE_PRICE_ID") or _env("PRICE_MONTHLY")),
         "has_webhook_secret": bool(_env("STRIPE_WEBHOOK_SECRET")),
-        "db_path": DB_PATH,
-        "whitelist_count": len(FREE_USERS),
+        "frontend_url": FRONTEND_URL,
     }
+
+class TrackEvent(BaseModel):
+    email: Optional[EmailStr] = None  # pass current user email if you have it
+    name: str
+    props: Optional[dict] = None
 
 @router.post("/track")
 async def track(ev: TrackEvent):
@@ -253,6 +263,8 @@ async def track(ev: TrackEvent):
     )
     conn.commit(); conn.close()
     return {"ok": True}
+
+
 
 # ------------------------
 # Minimal stubs (replace with real DB later)
@@ -273,10 +285,11 @@ def upsert_user(
         "referrer": referrer,
         "status": status,
     }
-    entitlements: list[str] = []
+    entitlements = []  # set/overwrite below only if we activate
     now = datetime.utcnow().isoformat()
 
     conn = _db()
+    # upsert by email (fallback to stripe_customer_id if email missing)
     key_email = email or f"__noemail__{stripe_customer_id or 'unknown'}"
     cur = conn.cursor()
     cur.execute("""
@@ -295,6 +308,7 @@ def upsert_user(
 
     user["email"] = key_email
     user["entitlements"] = entitlements
+    print(f"[billing] upsert_user(db) -> {user}")
     return user
 
 def _price_to_entitlements(price_id: str) -> list[str]:
@@ -302,10 +316,9 @@ def _price_to_entitlements(price_id: str) -> list[str]:
         default_price = _get_price_id()
     except Exception:
         default_price = price_id
-    # Map price → entitlements (adjust as needed)
     if price_id == default_price:
-        return ["nfl", "nba", "mlb", "nhl", "cfb"]
-    return ["nfl"]
+        return ["nba", "nfl", "mlb"]  # all-access for now
+    return ["nba"]
 
 def activate_entitlements(user: Dict[str, Any], price_id: str) -> Dict[str, Any]:
     entitlements = _price_to_entitlements(price_id)
@@ -313,19 +326,17 @@ def activate_entitlements(user: Dict[str, Any], price_id: str) -> Dict[str, Any]
     user["status"] = user.get("status") or "active"
 
     conn = _db()
-    conn.execute(
-        "UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
-        (json.dumps(entitlements), user["status"], datetime.utcnow().isoformat(), user["email"]),
-    )
+    conn.execute("UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
+                 (json.dumps(entitlements), user["status"], datetime.utcnow().isoformat(), user["email"]))
     conn.commit(); conn.close()
+    print(f"[billing] activate_entitlements(db) -> {entitlements}")
     return user
 
 def deactivate_entitlements(user: Dict[str, Any]) -> Dict[str, Any]:
     user["entitlements"] = []
     conn = _db()
-    conn.execute(
-        "UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
-        (json.dumps([]), "canceled", datetime.utcnow().isoformat(), user["email"]),
-    )
+    conn.execute("UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
+                 (json.dumps([]), "canceled", datetime.utcnow().isoformat(), user["email"]))
     conn.commit(); conn.close()
+    print("[billing] deactivate_entitlements(db) -> []")
     return user
