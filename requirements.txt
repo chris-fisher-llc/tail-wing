@@ -2,3 +2,10 @@ openai
 pandas
 streamlit
 playwright
+python-jose
+fastapi
+stripe
+python-dotenv
+requests
+uvicorn
+'pydantic[email]'

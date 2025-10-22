@@ -4,11 +4,84 @@ import os
 from datetime import datetime
 from pathlib import Path
 import pytz
-import requests  # <-- added
+import requests
 
+# ---- Paywall shim (Reveal Wall – Dev auth) ----
+API_BASE = os.getenv("PAYWALL_API", "http://localhost:9000")
+
+def _dev_sign_in():
+    st.subheader("Sign in to unlock full board")
+    email = st.text_input("Email", placeholder="you@example.com")
+    if st.button("Sign in (dev)"):
+        r = requests.post(f"{API_BASE}/auth/dev_login", json={"email": email}, timeout=10)
+        r.raise_for_status()
+        st.session_state["token"] = r.json()["session_token"]
+        st.rerun()
+    st.stop()
+
+def _entitlement():
+    if "token" not in st.session_state:
+        _dev_sign_in()
+    headers = {"Authorization": f"Bearer {st.session_state['token']}"}
+    r = requests.get(f"{API_BASE}/entitlement", headers=headers, timeout=10)
+    r.raise_for_status()
+    data = r.json()
+    st.caption(f"Signed in as: {data.get('email','')} • Subscriber: {'Yes' if data.get('is_subscriber') else 'No'}")
+    return bool(data.get("is_subscriber")), headers
+
+def _to_teaser(df: pd.DataFrame) -> pd.DataFrame:
+    safe_cols = [c for c in df.columns if c.lower() not in {"ev%", "ev", "best book", "best_book", "best price", "best_price", "price"}]
+    out = df[safe_cols].copy()
+    ev_col = next((c for c in df.columns if c.lower() in {"ev%", "ev", "value"}), None)
+    if ev_col:
+        def band(x):
+            try:
+                v = float(x)
+            except Exception:
+                return "—"
+            if v < 2: return "<2%"
+            if v < 4: return "2–4%"
+            if v < 6: return "4–6%"
+            if v < 9: return "6–9%"
+            return "9%+"
+        out["Edge Band"] = pd.to_numeric(df[ev_col], errors="coerce").map(band)
+    return out.head(3)
+
+def render_board(df_full: pd.DataFrame, styled_full):
+    """Render teaser (free) vs full (subscriber) while preserving styling."""
+    is_sub, headers = _entitlement()
+
+    st.markdown("### Current Snapshot")
+    if not is_sub:
+        st.write("**Free preview** — top edges with banded EV. Updated every ~10 minutes.")
+        st.table(_to_teaser(df_full))
+        st.info("Subscribe to unlock exact EV%, best book & price, historical movement, and CSV export.")
+        with st.expander("Developer tools (local only)"):
+            if st.button("Simulate subscription (dev)"):
+                requests.post(
+                    f"{API_BASE}/dev/toggle_subscription",
+                    headers=headers,
+                    json={"is_subscriber": True},
+                    timeout=10
+                )
+                st.rerun()
+    else:
+        st.success("Subscriber view: full board unlocked.")
+        st.dataframe(styled_full, use_container_width=True, hide_index=True, height=1200)
+        st.caption("Watermark: For your account • Live at HH:MM")
+        with st.expander("Developer tools (local only)"):
+            if st.button("Turn off subscription (dev)"):
+                requests.post(
+                    f"{API_BASE}/dev/toggle_subscription",
+                    headers=headers,
+                    json={"is_subscriber": False},
+                    timeout=10
+                )
+                st.rerun()
+
+# ---- PAGE SETUP ----
 st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 
-# ---- Header ----
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
@@ -25,7 +98,7 @@ st.markdown(
 def trigger_github_action():
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO")  # e.g., "chris-fisher-llc/tail-wing"
-    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nfl-player-props.yml")  # filename in .github/workflows/
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nfl-player-props.yml")
     ref = st.secrets.get("GITHUB_REF", "main")
 
     if not token or not repo:
@@ -60,14 +133,12 @@ def wait_for_csv_update():
 
 # ---- CSV path resolution ----
 def _find_csv_path() -> Path | None:
-    # 1) Environment override
     env = os.getenv("NFL_PROPS_CSV")
     if env:
         p = Path(env)
         if p.exists():
             return p
 
-    # 2) Common relative locations
     here = Path(__file__).resolve().parent
     candidates = [
         here / "nfl_player_props.csv",
@@ -81,7 +152,6 @@ def _find_csv_path() -> Path | None:
         if p.exists():
             return p
 
-    # 3) Last resort: recursive search near app (first match)
     try:
         for p in here.rglob("nfl_player_props.csv"):
             return p
@@ -89,7 +159,7 @@ def _find_csv_path() -> Path | None:
         pass
     return None
 
-# Centered refresh button row
+# ---- Refresh button ----
 btn_cols = st.columns([1, 1, 1])
 with btn_cols[1]:
     if st.button("Refresh Odds", use_container_width=True):
@@ -97,6 +167,7 @@ with btn_cols[1]:
         st.info("Waiting for new data...")
         wait_for_csv_update()
 
+# ---- Main App ----
 def run_app(df: pd.DataFrame | None = None):
     # Load DataFrame from CSV if none provided
     if df is None:
@@ -110,10 +181,8 @@ def run_app(df: pd.DataFrame | None = None):
             return
         try:
             df = pd.read_csv(csv_path)
-            # Clean up any stray 'Unnamed' columns created by CSV readers/pivots
             df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
             df = df.dropna(axis=1, how="all")
-            # "Last updated" in US/Eastern
             to_zone = pytz.timezone('US/Eastern')
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
@@ -140,19 +209,13 @@ def run_app(df: pd.DataFrame | None = None):
     }
     df = df.rename(columns=rename_map)
 
-    # Normalize Bet Type values (string + strip) for stable filtering
     if "Bet Type" in df.columns:
         df["Bet Type"] = df["Bet Type"].astype(str).str.strip()
 
-    # Detect sportsbook odds columns dynamically (anything not in fixed set)
     fixed_cols = {"Event", "Player", "Bet Type", "Alt Line", "Best Book", "Best Odds", "Value",
                   "best_decimal", "avg_other"}
-    odds_cols = [
-        c for c in df.columns
-        if c not in fixed_cols and not str(c).startswith("Unnamed")
-    ]
+    odds_cols = [c for c in df.columns if c not in fixed_cols and not str(c).startswith("Unnamed")]
 
-    # Format odds nicely
     def to_american(x):
         try:
             x = int(float(x))
@@ -165,16 +228,14 @@ def run_app(df: pd.DataFrame | None = None):
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
-    # Format Value
     df["Value"] = pd.to_numeric(df.get("Value"), errors="coerce")
     df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
 
-    # Reorder columns for display
     display_cols = ["Event", "Player", "Bet Type", "Alt Line"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
     display_cols = [c for c in display_cols if c in df.columns]
     df = df[display_cols].copy()
 
-    # --- Sidebar filters ---
+    # ---- Sidebar filters ----
     with st.sidebar:
         st.header("Best Book")
         books = df["Best Book"].dropna().unique().tolist() if "Best Book" in df.columns else []
@@ -188,7 +249,6 @@ def run_app(df: pd.DataFrame | None = None):
         bet_types = sorted(df["Bet Type"].dropna().unique().tolist()) if "Bet Type" in df.columns else []
         selected_bet_type = st.selectbox("", ["All"] + bet_types)
 
-    # Apply filters
     if selected_book != "All":
         df = df[df["Best Book"] == selected_book]
     if selected_event != "All":
@@ -196,16 +256,13 @@ def run_app(df: pd.DataFrame | None = None):
     if selected_bet_type != "All":
         df = df[df["Bet Type"].astype(str).str.strip() == selected_bet_type]
 
-    # --- Sort by Value ---
     if "Value" in df.columns:
         df = df.sort_values(by="Value", ascending=False, na_position="last")
 
-    # Printable Value
     df["Value_display"] = df["_Value_print"]
     df.drop(columns=["_Value_print"], inplace=True)
 
     # -------- Styling --------
-    # Step every 0.2 from 1.0 to 4.0; cap above 4.0; green gradient
     def value_step_style(val):
         try:
             v = float(val)
@@ -234,7 +291,7 @@ def run_app(df: pd.DataFrame | None = None):
 
     styled = render_df.style
     if "Value" in render_df.columns:
-        styled = styled.applymap(value_step_style, subset=["Value"])  # gradient fill by value
+        styled = styled.applymap(value_step_style, subset=["Value"])
     styled = styled.apply(highlight_best_book_cells, axis=1).set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'),
                                      ('text-align', 'center'),
@@ -243,14 +300,9 @@ def run_app(df: pd.DataFrame | None = None):
                                      ('color', 'white')]}
     ])
 
-    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+    # ---- Paywall render (preserves your styling) ----
+    render_board(render_df, styled)
 
 # Run if executed directly
 if __name__ == "__main__":
     run_app()
-
-
-
-
-
-

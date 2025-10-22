@@ -1,9 +1,14 @@
-# paywall/backend/app.py
+from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv(dotenv_path=Path(__file__).with_name(".env"))  # load .env BEFORE router imports
+
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
-#
+from billing import router as billing_router
+import os
+
 # ---- simple settings (inline for step 1) ----
 JWT_SECRET = "change-me-to-a-long-random-string"
 JWT_ISSUER = "tailwing"
@@ -13,15 +18,15 @@ TOKEN_TTL_MIN = 120
 # Key = email (lowercased), Value = bool is_subscriber
 SUBSCRIPTIONS = {}
 
-app = FastAPI(title="TailWing Paywall (Step 1)")
-
+app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # tighten to your domains later
-    allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(billing_router)
 
 def mint_session(email: str) -> str:
     now = datetime.utcnow()
