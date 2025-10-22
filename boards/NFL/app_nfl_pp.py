@@ -7,7 +7,7 @@ import pytz
 import requests
 
 # ---- Paywall shim (Reveal Wall – Dev auth) ----
-API_BASE = os.getenv("PAYWALL_API", "http://localhost:9000")
+API_BASE = st.secrets.get("PAYWALL_API") or os.getenv("PAYWALL_API") or "http://localhost:9000"
 
 def _dev_sign_in():
     st.subheader("Sign in to unlock full board")

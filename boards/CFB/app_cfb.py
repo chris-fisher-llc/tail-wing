@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 import pytz
 
+API_BASE = st.secrets.get("PAYWALL_API") or os.getenv("PAYWALL_API") or "http://localhost:9000"
 st.set_page_config(page_title="The Tail Wing - CFB", layout="wide")
 
 # Themed header
