@@ -1,38 +1,37 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
-New York Giants @ Philadelphia Eagles,Xavier Gipson,AnytimeTD,Anytime,2500.0,4000.0,700.0,1000.0,1600.0,,700.0,800.0,5000.0,HardRockBet,5000.0,51.0,17.142857142857142,2.975
+New York Giants @ Philadelphia Eagles,Xavier Gipson,AnytimeTD,Anytime,2500.0,2200.0,700.0,1000.0,1600.0,,700.0,800.0,5000.0,HardRockBet,5000.0,51.0,14.571428571428571,3.5
 Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,Receiving,80,,,,,2500.0,,,,800.0,DraftKings,2500.0,26.0,9.0,2.888888888888889
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Receiving,80,,,,,2400.0,,,,800.0,DraftKings,2400.0,25.0,9.0,2.7777777777777777
 Buffalo Bills @ Carolina Panthers,Reggie Gilliam,AnytimeTD,Anytime,2000.0,,,2000.0,1900.0,,,1300.0,5000.0,HardRockBet,5000.0,51.0,19.0,2.6842105263157894
-Tennessee Titans @ Indianapolis Colts,David Martin-Robinson,AnytimeTD,Anytime,1700.0,2500.0,2200.0,1800.0,1700.0,,2200.0,1200.0,5000.0,HardRockBet,5000.0,51.0,20.0,2.55
-Miami Dolphins @ Atlanta Falcons,Feleipe Franks,AnytimeTD,Anytime,,2500.0,2000.0,1800.0,1600.0,,2000.0,,5000.0,HardRockBet,5000.0,51.0,20.8,2.4519230769230766
+New York Giants @ Philadelphia Eagles,John Metchie III,AnytimeTD,Anytime,2200.0,1100.0,625.0,800.0,800.0,,650.0,660.0,,BetMGM,2200.0,23.0,8.725,2.6361031518624642
+Tennessee Titans @ Indianapolis Colts,David Martin-Robinson,AnytimeTD,Anytime,1700.0,2500.0,2000.0,1800.0,1700.0,,2000.0,1200.0,5000.0,HardRockBet,5000.0,51.0,19.428571428571427,2.625
 Washington Commanders @ Kansas City Chiefs,Colson Yankoff,AnytimeTD,Anytime,,,1900.0,2000.0,2800.0,,1900.0,1300.0,5000.0,HardRockBet,5000.0,51.0,20.8,2.4519230769230766
+Miami Dolphins @ Atlanta Falcons,Feleipe Franks,AnytimeTD,Anytime,,2500.0,2000.0,1800.0,1600.0,,2000.0,,5000.0,HardRockBet,5000.0,51.0,20.8,2.4519230769230766
 New York Giants @ Philadelphia Eagles,Thomas Fidone,AnytimeTD,Anytime,2500.0,,2000.0,2000.0,2200.0,,2000.0,1500.0,5000.0,HardRockBet,5000.0,51.0,21.333333333333332,2.390625
-New York Giants @ Philadelphia Eagles,Beaux Collins,AnytimeTD,Anytime,1100.0,1300.0,900.0,950.0,1000.0,,950.0,800.0,2500.0,HardRockBet,2500.0,26.0,11.0,2.3636363636363638
-New York Giants @ Philadelphia Eagles,John Metchie III,AnytimeTD,Anytime,2200.0,1900.0,625.0,800.0,800.0,,650.0,660.0,,BetMGM,2200.0,23.0,10.058333333333334,2.2866611433305715
+New York Giants @ Philadelphia Eagles,Beaux Collins,AnytimeTD,Anytime,1100.0,1300.0,900.0,950.0,1000.0,,950.0,900.0,2500.0,HardRockBet,2500.0,26.0,11.142857142857142,2.3333333333333335
+Green Bay Packers @ Pittsburgh Steelers,Connor Heyward,AnytimeTD,Anytime,,1100.0,1000.0,950.0,950.0,,1000.0,740.0,2250.0,HardRockBet,2250.0,23.5,10.566666666666666,2.22397476340694
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Rushing,50,,,700.0,,1000.0,,,,2000.0,HardRockBet,2000.0,21.0,9.5,2.210526315789474
-Green Bay Packers @ Pittsburgh Steelers,Connor Heyward,AnytimeTD,Anytime,,1100.0,1000.0,950.0,950.0,,1000.0,800.0,2250.0,HardRockBet,2250.0,23.5,10.666666666666666,2.203125
 Miami Dolphins @ Atlanta Falcons,Cedrick Wilson Jr.,AnytimeTD,Anytime,,2200.0,,,500.0,,,,1400.0,BetRivers,2200.0,23.0,10.5,2.1904761904761907
 Tennessee Titans @ Indianapolis Colts,Daniel Jones,Rushing,50,,,,,650.0,,,,1500.0,HardRockBet,1500.0,16.0,7.5,2.1333333333333333
 Miami Dolphins @ Atlanta Falcons,Teagan Quitoriano,AnytimeTD,Anytime,,2500.0,2000.0,1700.0,1500.0,,2000.0,1300.0,4000.0,HardRockBet,4000.0,41.0,19.333333333333332,2.1206896551724137
 Minnesota Vikings @ Los Angeles Chargers,Tucker Fisk,AnytimeTD,Anytime,1600.0,3500.0,1600.0,1400.0,1400.0,,1600.0,1200.0,2500.0,BetRivers,3500.0,36.0,17.142857142857142,2.1
 New York Giants @ Philadelphia Eagles,Devin Singletary,AnytimeTD,Anytime,700.0,700.0,625.0,625.0,650.0,,650.0,580.0,1400.0,HardRockBet,1400.0,15.0,7.471428571428571,2.0076481835564057
-Minnesota Vikings @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,950.0,950.0,2500.0,1200.0,950.0,,2500.0,740.0,,Bovada,2500.0,26.0,13.15,1.9771863117870723
+Washington Commanders @ Kansas City Chiefs,Washington Commanders D/ST,AnytimeTD,Anytime,,,1100.0,,475.0,,,550.0,,Bovada,1100.0,12.0,6.125,1.9591836734693877
+Minnesota Vikings @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,950.0,950.0,2500.0,1300.0,950.0,,2500.0,850.0,,Bovada,2500.0,26.0,13.5,1.9259259259259258
 Minnesota Vikings @ Los Angeles Chargers,Tai Felton,AnytimeTD,Anytime,3000.0,1800.0,2800.0,2600.0,3000.0,,3000.0,1800.0,5000.0,HardRockBet,5000.0,51.0,26.714285714285715,1.909090909090909
-Washington Commanders @ Kansas City Chiefs,Washington Commanders D/ST,AnytimeTD,Anytime,,,1100.0,,475.0,,,600.0,,Bovada,1100.0,12.0,6.375,1.8823529411764706
+Green Bay Packers @ Pittsburgh Steelers,John FitzPatrick,AnytimeTD,Anytime,,1700.0,1300.0,1200.0,1400.0,,1300.0,900.0,2500.0,HardRockBet,2500.0,26.0,14.0,1.8571428571428572
+New York Giants @ Philadelphia Eagles,Kylen Granson,AnytimeTD,Anytime,2200.0,1500.0,900.0,1100.0,1100.0,,950.0,850.0,1600.0,BetMGM,2200.0,23.0,12.428571428571429,1.8505747126436782
 Green Bay Packers @ Pittsburgh Steelers,Aaron Rodgers,AnytimeTD,Anytime,,1300.0,2200.0,2200.0,2200.0,,3500.0,1900.0,1300.0,FanDuel,3500.0,36.0,19.5,1.8461538461538463
 Tampa Bay Buccaneers @ New Orleans Saints,Foster Moreau,AnytimeTD,Anytime,,,725.0,,750.0,,750.0,660.0,1400.0,HardRockBet,1400.0,15.0,8.2125,1.82648401826484
-Green Bay Packers @ Pittsburgh Steelers,John FitzPatrick,AnytimeTD,Anytime,,1700.0,1300.0,1200.0,1400.0,,1300.0,1050.0,2500.0,HardRockBet,2500.0,26.0,14.25,1.8245614035087718
-New York Giants @ Philadelphia Eagles,Jahan Dotson,AnytimeTD,Anytime,625.0,950.0,400.0,450.0,450.0,,400.0,420.0,600.0,BetRivers,950.0,10.5,5.778571428571429,1.8170580964153273
 Washington Commanders @ Kansas City Chiefs,John Bates,AnytimeTD,Anytime,,,1300.0,1400.0,2500.0,,1300.0,1200.0,1500.0,DraftKings,2500.0,26.0,14.4,1.8055555555555556
-New York Giants @ Philadelphia Eagles,Kylen Granson,AnytimeTD,Anytime,2200.0,1800.0,900.0,1100.0,1100.0,,950.0,850.0,1600.0,BetMGM,2200.0,23.0,12.857142857142858,1.7888888888888888
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Rushing,80,,,2200.0,,3900.0,,,,,DraftKings,3900.0,40.0,23.0,1.7391304347826086
 New York Giants @ Philadelphia Eagles,E.J. Jenkins,AnytimeTD,Anytime,,1800.0,900.0,1100.0,2000.0,,950.0,850.0,,DraftKings,2000.0,21.0,12.2,1.7213114754098362
-Green Bay Packers @ Pittsburgh Steelers,Ben Skowronek,AnytimeTD,Anytime,,1200.0,1400.0,1300.0,1400.0,,1400.0,900.0,2250.0,HardRockBet,2250.0,23.5,13.666666666666666,1.7195121951219512
 San Francisco 49ers @ Houston Texans,Harrison Bryant,AnytimeTD,Anytime,850.0,,800.0,800.0,800.0,,800.0,660.0,1400.0,HardRockBet,1400.0,15.0,8.85,1.6949152542372883
+Miami Dolphins @ Atlanta Falcons,Michael Penix Jr.,Passing,350,1250.0,,,,2400.0,,1500.0,,,DraftKings,2400.0,25.0,14.75,1.694915254237288
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,Rushing,110,,,,,2100.0,,1200.0,,,DraftKings,2100.0,22.0,13.0,1.6923076923076923
 Miami Dolphins @ Atlanta Falcons,Tua Tagovailoa,Passing,350,,,,,4300.0,2500.0,,,,DraftKings,4300.0,44.0,26.0,1.6923076923076923
+Green Bay Packers @ Pittsburgh Steelers,Ben Skowronek,AnytimeTD,Anytime,,1200.0,1400.0,1300.0,1400.0,,1400.0,1050.0,2250.0,HardRockBet,2250.0,23.5,13.916666666666666,1.688622754491018
 Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Receiving,50,,,,,1080.0,,,,600.0,DraftKings,1080.0,11.8,7.0,1.6857142857142857
-Miami Dolphins @ Atlanta Falcons,Michael Penix Jr.,Passing,350,1300.0,,,,2400.0,,1500.0,,,DraftKings,2400.0,25.0,15.0,1.6666666666666667
 Tennessee Titans @ Indianapolis Colts,Tennessee Titans D/ST,AnytimeTD,Anytime,550.0,,1000.0,,550.0,,,580.0,,Bovada,1000.0,11.0,6.6000000000000005,1.6666666666666665
 New York Giants @ Philadelphia Eagles,Tank Bigsby,AnytimeTD,Anytime,825.0,750.0,625.0,650.0,700.0,,650.0,600.0,1200.0,HardRockBet,1200.0,13.0,7.857142857142857,1.6545454545454545
 Tampa Bay Buccaneers @ New Orleans Saints,Jack Stoll,AnytimeTD,Anytime,,,1300.0,,1200.0,,1300.0,900.0,2000.0,HardRockBet,2000.0,21.0,12.75,1.6470588235294117
@@ -48,32 +47,33 @@ Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,Rushing,110,,,,,910.0,,1500.0,,,
 Cleveland Browns @ New England Patriots,Drake Maye,Passing,350,,,,,2400.0,,1500.0,,,DraftKings,2400.0,25.0,16.0,1.5625
 Minnesota Vikings @ Los Angeles Chargers,Scott Matlock,AnytimeTD,Anytime,3300.0,2200.0,5000.0,3000.0,4000.0,,5000.0,,1500.0,Bovada,5000.0,51.0,32.666666666666664,1.5612244897959184
 Green Bay Packers @ Pittsburgh Steelers,Scott Miller,AnytimeTD,Anytime,,1050.0,1000.0,1000.0,1100.0,,1000.0,800.0,1600.0,HardRockBet,1600.0,17.0,10.916666666666666,1.5572519083969467
+Washington Commanders @ Kansas City Chiefs,Chris Moore,AnytimeTD,Anytime,,,400.0,425.0,450.0,,420.0,380.0,700.0,HardRockBet,700.0,8.0,5.15,1.5533980582524272
 Washington Commanders @ Kansas City Chiefs,Jalen Royals,AnytimeTD,Anytime,,,3300.0,2300.0,1600.0,,3500.0,1700.0,2250.0,FanDuel,3500.0,36.0,23.3,1.5450643776824033
-Washington Commanders @ Kansas City Chiefs,Chris Moore,AnytimeTD,Anytime,,,400.0,425.0,450.0,,420.0,400.0,700.0,HardRockBet,700.0,8.0,5.1899999999999995,1.5414258188824663
-Minnesota Vikings @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,1600.0,2000.0,1800.0,1500.0,1400.0,,1800.0,1050.0,2500.0,HardRockBet,2500.0,26.0,16.928571428571427,1.5358649789029537
 Green Bay Packers @ Pittsburgh Steelers,Aaron Rodgers,Rushing,25,,,,,2200.0,,,,1400.0,DraftKings,2200.0,23.0,15.0,1.5333333333333334
 Cleveland Browns @ New England Patriots,Terrell Jennings,AnytimeTD,Anytime,,,,1800.0,2500.0,,,1600.0,1400.0,DraftKings,2500.0,26.0,17.0,1.5294117647058822
+Minnesota Vikings @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,1600.0,2000.0,1800.0,1500.0,1400.0,,1800.0,1200.0,2500.0,HardRockBet,2500.0,26.0,17.142857142857142,1.5166666666666666
 New York Giants @ Philadelphia Eagles,Lil'Jordan Humphrey,AnytimeTD,Anytime,725.0,1100.0,,700.0,750.0,,,600.0,,BetRivers,1100.0,12.0,7.9375,1.5118110236220472
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Receiving,80,,,,,1260.0,1600.0,,,800.0,ESPNBET,1600.0,17.0,11.3,1.5044247787610618
 Tennessee Titans @ Indianapolis Colts,Drew Ogletree,AnytimeTD,Anytime,1100.0,1700.0,1200.0,1100.0,1000.0,,1200.0,900.0,1200.0,BetRivers,1700.0,18.0,12.0,1.5
-Washington Commanders @ Kansas City Chiefs,Ben Sinnott,AnytimeTD,Anytime,,,1900.0,2000.0,2800.0,,1900.0,1300.0,3000.0,HardRockBet,3000.0,31.0,20.8,1.4903846153846154
 Buffalo Bills @ Carolina Panthers,Josh Allen,Rushing,80,,,,,710.0,,,,1100.0,HardRockBet,1100.0,12.0,8.1,1.4814814814814816
-Minnesota Vikings @ Los Angeles Chargers,Derius Davis,AnytimeTD,Anytime,900.0,1200.0,1200.0,1000.0,1100.0,,1200.0,740.0,1600.0,HardRockBet,1600.0,17.0,11.485714285714286,1.4800995024875623
 Tennessee Titans @ Indianapolis Colts,Adonai Mitchell,AnytimeTD,Anytime,450.0,440.0,440.0,450.0,450.0,,460.0,420.0,700.0,HardRockBet,700.0,8.0,5.442857142857143,1.4698162729658792
+Minnesota Vikings @ Los Angeles Chargers,Derius Davis,AnytimeTD,Anytime,900.0,1200.0,1200.0,1000.0,1100.0,,1200.0,800.0,1600.0,HardRockBet,1600.0,17.0,11.571428571428571,1.4691358024691359
 Green Bay Packers @ Pittsburgh Steelers,Aaron Rodgers,Passing,350,,,,,2100.0,,1400.0,,,DraftKings,2100.0,22.0,15.0,1.4666666666666666
 Buffalo Bills @ Carolina Panthers,Carolina Panthers D/ST,AnytimeTD,Anytime,800.0,,,,500.0,,,530.0,,BetMGM,800.0,9.0,6.15,1.4634146341463414
+Washington Commanders @ Kansas City Chiefs,Ben Sinnott,AnytimeTD,Anytime,,,1900.0,2000.0,2800.0,,1900.0,1500.0,3000.0,HardRockBet,3000.0,31.0,21.2,1.4622641509433962
 Buffalo Bills @ Carolina Panthers,Hunter Renfrow,AnytimeTD,Anytime,1800.0,,,1200.0,1700.0,,1000.0,900.0,,BetMGM,1800.0,19.0,13.0,1.4615384615384615
 Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,Rushing,110,,,,,980.0,,640.0,,,DraftKings,980.0,10.8,7.4,1.4594594594594594
 Miami Dolphins @ Atlanta Falcons,Jamal Agnew,AnytimeTD,Anytime,,2500.0,2000.0,1600.0,1700.0,,2000.0,1300.0,1500.0,BetRivers,2500.0,26.0,17.833333333333332,1.457943925233645
+Minnesota Vikings @ Los Angeles Chargers,Zavier Scott,AnytimeTD,Anytime,700.0,480.0,725.0,700.0,700.0,,750.0,550.0,1000.0,HardRockBet,1000.0,11.0,7.578571428571428,1.4514608859566447
 Buffalo Bills @ Carolina Panthers,Keon Coleman,Receiving,110,,,,,1640.0,,1100.0,,,DraftKings,1640.0,17.4,12.0,1.45
 San Francisco 49ers @ Houston Texans,C.J. Stroud,Passing,300,,,,1000.0,1340.0,,880.0,,800.0,DraftKings,1340.0,14.4,9.933333333333334,1.4496644295302012
+San Francisco 49ers @ Houston Texans,Dare Ogunbowale,AnytimeTD,Anytime,1800.0,,1400.0,1300.0,1200.0,,1500.0,900.0,2000.0,HardRockBet,2000.0,21.0,14.5,1.4482758620689655
 San Francisco 49ers @ Houston Texans,San Francisco 49ers D/ST,AnytimeTD,Anytime,750.0,,,,475.0,,,500.0,,BetMGM,750.0,8.5,5.875,1.446808510638298
 Miami Dolphins @ Atlanta Falcons,Charlie Woerner,AnytimeTD,Anytime,,1150.0,725.0,700.0,750.0,,750.0,660.0,1000.0,BetRivers,1150.0,12.5,8.641666666666667,1.4464802314368368
 Tampa Bay Buccaneers @ New Orleans Saints,Spencer Rattler,Rushing,50,,,,,,1200.0,,,800.0,ESPNBET,1200.0,13.0,9.0,1.4444444444444444
 Washington Commanders @ Kansas City Chiefs,Zach Ertz,AnytimeTD,Anytime,,,220.0,235.0,245.0,,220.0,225.0,375.0,HardRockBet,375.0,4.75,3.29,1.4437689969604863
-Buffalo Bills @ Carolina Panthers,Trevor Etienne,AnytimeTD,Anytime,2800.0,,,1900.0,2800.0,,2200.0,1500.0,1200.0,BetMGM,2800.0,29.0,20.2,1.4356435643564356
-San Francisco 49ers @ Houston Texans,Dare Ogunbowale,AnytimeTD,Anytime,1800.0,,1400.0,1400.0,1200.0,,1500.0,900.0,2000.0,HardRockBet,2000.0,21.0,14.666666666666666,1.4318181818181819
-Minnesota Vikings @ Los Angeles Chargers,Zavier Scott,AnytimeTD,Anytime,700.0,480.0,725.0,700.0,700.0,,750.0,660.0,1000.0,HardRockBet,1000.0,11.0,7.735714285714286,1.4219759926131117
+Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,80,,,,,730.0,900.0,1200.0,,800.0,FanDuel,1200.0,13.0,9.1,1.4285714285714286
+Buffalo Bills @ Carolina Panthers,Trevor Etienne,AnytimeTD,Anytime,2800.0,,,2000.0,2800.0,,2200.0,1500.0,1200.0,BetMGM,2800.0,29.0,20.4,1.4215686274509804
 Miami Dolphins @ Atlanta Falcons,Jaylen Wright,AnytimeTD,Anytime,,1400.0,1600.0,1300.0,1900.0,,1600.0,1200.0,750.0,DraftKings,1900.0,20.0,14.083333333333334,1.4201183431952662
 Tennessee Titans @ Indianapolis Colts,Anthony Gould,AnytimeTD,Anytime,1200.0,1600.0,1100.0,1100.0,1200.0,,1100.0,900.0,,BetRivers,1600.0,17.0,12.0,1.4166666666666667
 Chicago Bears @ Baltimore Ravens,Caleb Williams,Rushing,50,,,,,820.0,,,,1200.0,HardRockBet,1200.0,13.0,9.2,1.4130434782608696
@@ -81,16 +81,15 @@ San Francisco 49ers @ Houston Texans,Luke Farrell,AnytimeTD,Anytime,1600.0,,1400
 Cleveland Browns @ New England Patriots,Efton Chism III,AnytimeTD,Anytime,2500.0,,3000.0,2400.0,2800.0,,3300.0,1600.0,1600.0,FanDuel,3300.0,34.0,24.166666666666668,1.4068965517241379
 Buffalo Bills @ Carolina Panthers,Josh Allen,Passing,350,1250.0,,,,1820.0,,1280.0,,,DraftKings,1820.0,19.2,13.65,1.4065934065934065
 Dallas Cowboys @ Denver Broncos,Bo Nix,Rushing,80,,,,,1400.0,,,,2000.0,HardRockBet,2000.0,21.0,15.0,1.4
+Minnesota Vikings @ Los Angeles Chargers,Josh Oliver,AnytimeTD,Anytime,900.0,850.0,525.0,650.0,750.0,,550.0,600.0,1000.0,HardRockBet,1000.0,11.0,7.892857142857143,1.3936651583710407
 Green Bay Packers @ Pittsburgh Steelers,Kaleb Johnson,AnytimeTD,Anytime,,950.0,1700.0,1600.0,1700.0,,2000.0,1300.0,1200.0,FanDuel,2000.0,21.0,15.083333333333334,1.3922651933701657
-Minnesota Vikings @ Los Angeles Chargers,Nyheim Hines,AnytimeTD,Anytime,1100.0,650.0,1200.0,900.0,800.0,,1200.0,740.0,450.0,Bovada,1200.0,13.0,9.342857142857143,1.3914373088685015
-Tennessee Titans @ Indianapolis Colts,Ameer Abdullah,AnytimeTD,Anytime,275.0,450.0,275.0,280.0,275.0,,280.0,270.0,425.0,BetRivers,450.0,5.5,3.9714285714285715,1.3848920863309353
-Minnesota Vikings @ Los Angeles Chargers,Will Dissly,AnytimeTD,Anytime,1300.0,1700.0,1200.0,1200.0,1300.0,,1200.0,900.0,1300.0,BetRivers,1700.0,18.0,13.0,1.3846153846153846
 Buffalo Bills @ Carolina Panthers,Andy Dalton,AnytimeTD,Anytime,2200.0,,,1500.0,1700.0,,,1300.0,1750.0,BetMGM,2200.0,23.0,16.625,1.3834586466165413
 Cleveland Browns @ New England Patriots,Dillon Gabriel,Passing,300,,,,1100.0,1320.0,,880.0,,800.0,DraftKings,1320.0,14.2,10.266666666666667,1.383116883116883
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,AnytimeTD,Anytime,1200.0,700.0,900.0,900.0,1100.0,,900.0,740.0,650.0,BetMGM,1200.0,13.0,9.414285714285715,1.3808801213960546
 New York Giants @ Philadelphia Eagles,Chris Manhertz,AnytimeTD,Anytime,2800.0,3000.0,2000.0,2100.0,2500.0,,2000.0,1500.0,,BetRivers,3000.0,31.0,22.5,1.3777777777777778
-Minnesota Vikings @ Los Angeles Chargers,Josh Oliver,AnytimeTD,Anytime,900.0,850.0,525.0,675.0,750.0,,550.0,660.0,1000.0,HardRockBet,1000.0,11.0,8.014285714285714,1.3725490196078431
+Tennessee Titans @ Indianapolis Colts,Ameer Abdullah,AnytimeTD,Anytime,275.0,450.0,275.0,285.0,275.0,,290.0,270.0,425.0,BetRivers,450.0,5.5,3.992857142857143,1.3774597495527727
 Green Bay Packers @ Pittsburgh Steelers,Ke'Shawn Williams,AnytimeTD,Anytime,,1600.0,1400.0,1100.0,950.0,,1400.0,850.0,,BetRivers,1600.0,17.0,12.4,1.3709677419354838
+Minnesota Vikings @ Los Angeles Chargers,Nyheim Hines,AnytimeTD,Anytime,1100.0,650.0,1200.0,900.0,800.0,,1200.0,850.0,450.0,Bovada,1200.0,13.0,9.5,1.368421052631579
 Miami Dolphins @ Atlanta Falcons,Dee Eskridge,AnytimeTD,Anytime,,2200.0,2500.0,2000.0,2200.0,,2700.0,1600.0,1200.0,FanDuel,2700.0,28.0,20.5,1.3658536585365855
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Rushing,50,,,550.0,,568.0,1100.0,1100.0,,900.0,ESPNBET,1100.0,12.0,8.795,1.3644115974985787
 Minnesota Vikings @ Los Angeles Chargers,Ben Yurosek,AnytimeTD,Anytime,3500.0,4000.0,4000.0,3500.0,4000.0,,4000.0,2500.0,5000.0,HardRockBet,5000.0,51.0,37.42857142857143,1.3625954198473282
@@ -102,19 +101,20 @@ Green Bay Packers @ Pittsburgh Steelers,Luke Musgrave,AnytimeTD,Anytime,,800.0,8
 Dallas Cowboys @ Denver Broncos,Tyler Badie,AnytimeTD,Anytime,850.0,900.0,900.0,850.0,850.0,,950.0,800.0,1200.0,HardRockBet,1200.0,13.0,9.714285714285714,1.3382352941176472
 Buffalo Bills @ Carolina Panthers,Mitchell Evans,AnytimeTD,Anytime,750.0,,,700.0,800.0,,700.0,660.0,1000.0,HardRockBet,1000.0,11.0,8.22,1.338199513381995
 Cleveland Browns @ New England Patriots,Gage Larvadain,AnytimeTD,Anytime,2200.0,,1700.0,1600.0,1600.0,,1700.0,1500.0,,BetMGM,2200.0,23.0,17.2,1.3372093023255816
-Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,Receiving,80,,,,525.0,,750.0,,,550.0,ESPNBET,750.0,8.5,6.375,1.3333333333333333
 Cleveland Browns @ New England Patriots,Jamari Thrash,AnytimeTD,Anytime,1500.0,,1300.0,1100.0,1200.0,,1300.0,900.0,800.0,BetMGM,1500.0,16.0,12.0,1.3333333333333333
+Minnesota Vikings @ Los Angeles Chargers,Will Dissly,AnytimeTD,Anytime,1300.0,1700.0,1300.0,1200.0,1300.0,,1300.0,1050.0,1300.0,BetRivers,1700.0,18.0,13.5,1.3333333333333333
 Miami Dolphins @ Atlanta Falcons,Tahj Washington,AnytimeTD,Anytime,,,2500.0,2200.0,1800.0,,2700.0,1500.0,,FanDuel,2700.0,28.0,21.0,1.3333333333333333
+Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,Receiving,80,,,,525.0,,750.0,,,550.0,ESPNBET,750.0,8.5,6.375,1.3333333333333333
 San Francisco 49ers @ Houston Texans,Isaac Guerendo,AnytimeTD,Anytime,3300.0,,2800.0,2600.0,2200.0,,3000.0,1700.0,,BetMGM,3300.0,34.0,25.6,1.328125
 Chicago Bears @ Baltimore Ravens,Rome Odunze,Receiving,110,,,,450.0,630.0,,,,,DraftKings,630.0,7.3,5.5,1.3272727272727272
-Green Bay Packers @ Pittsburgh Steelers,Roman Wilson,AnytimeTD,Anytime,,800.0,1100.0,750.0,700.0,,1100.0,580.0,900.0,Bovada,1100.0,12.0,9.049999999999999,1.3259668508287294
 Tampa Bay Buccaneers @ New Orleans Saints,Devin Culp,AnytimeTD,Anytime,,,3000.0,,2500.0,,3300.0,1900.0,,FanDuel,3300.0,34.0,25.666666666666668,1.3246753246753247
+Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,50,,,,280.0,,,400.0,,275.0,FanDuel,400.0,5.0,3.775,1.3245033112582782
+Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,Receiving,110,,,,475.0,670.0,,490.0,,,DraftKings,670.0,7.7,5.825,1.3218884120171674
+Green Bay Packers @ Pittsburgh Steelers,Pat Freiermuth,AnytimeTD,Anytime,,380.0,260.0,295.0,310.0,,270.0,270.0,425.0,HardRockBet,425.0,5.25,3.975,1.320754716981132
 Green Bay Packers @ Pittsburgh Steelers,Pittsburgh Steelers D/ST,AnytimeTD,Anytime,,,725.0,,550.0,,,500.0,,Bovada,725.0,8.25,6.25,1.32
-New York Giants @ Philadelphia Eagles,Will Shipley,AnytimeTD,Anytime,900.0,1000.0,625.0,700.0,700.0,,650.0,660.0,900.0,BetRivers,1000.0,11.0,8.335714285714285,1.319622964867181
 Cleveland Browns @ New England Patriots,Blake Whiteheart,AnytimeTD,Anytime,1600.0,,1200.0,1200.0,1300.0,,1200.0,1050.0,,BetMGM,1600.0,17.0,12.9,1.317829457364341
 Washington Commanders @ Kansas City Chiefs,Robert Tonyan,AnytimeTD,Anytime,,,2200.0,1750.0,1900.0,,2200.0,1300.0,1100.0,Bovada,2200.0,23.0,17.5,1.3142857142857143
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Passing,350,600.0,,800.0,600.0,950.0,750.0,750.0,,,DraftKings,950.0,10.5,8.0,1.3125
-Green Bay Packers @ Pittsburgh Steelers,Pat Freiermuth,AnytimeTD,Anytime,,380.0,260.0,295.0,310.0,,270.0,285.0,425.0,HardRockBet,425.0,5.25,4.000000000000001,1.3124999999999998
 New York Giants @ Philadelphia Eagles,Wan'Dale Robinson,Receiving,110,,,,900.0,1080.0,750.0,750.0,,,DraftKings,1080.0,11.8,9.0,1.3111111111111111
 Green Bay Packers @ Pittsburgh Steelers,Malik Heath,AnytimeTD,Anytime,,1200.0,1800.0,1400.0,1700.0,,1800.0,1200.0,800.0,Bovada,1800.0,19.0,14.5,1.3103448275862069
 Dallas Cowboys @ Denver Broncos,Brevyn Spann-Ford,AnytimeTD,Anytime,3000.0,1900.0,2500.0,2300.0,2800.0,,2700.0,1700.0,2000.0,BetMGM,3000.0,31.0,23.714285714285715,1.3072289156626506
@@ -123,48 +123,47 @@ Miami Dolphins @ Atlanta Falcons,David Sills V,AnytimeTD,Anytime,,1900.0,1700.0,
 Tampa Bay Buccaneers @ New Orleans Saints,Devin Neal,AnytimeTD,Anytime,,,1400.0,,750.0,,1400.0,,1000.0,Bovada,1400.0,15.0,11.5,1.3043478260869565
 Green Bay Packers @ Pittsburgh Steelers,Jonnu Smith,Receiving,50,230.0,245.0,,215.0,227.0,275.0,280.0,,350.0,HardRockBet,350.0,4.5,3.4533333333333336,1.303088803088803
 Tampa Bay Buccaneers @ New Orleans Saints,Velus Jones Jr.,AnytimeTD,Anytime,,,,,1200.0,,,900.0,,DraftKings,1200.0,13.0,10.0,1.3
-Minnesota Vikings @ Los Angeles Chargers,Tre Harris,AnytimeTD,Anytime,950.0,1200.0,1300.0,950.0,1000.0,,1300.0,740.0,700.0,Bovada,1300.0,14.0,10.771428571428572,1.29973474801061
 Dallas Cowboys @ Denver Broncos,Jalen Tolbert,AnytimeTD,Anytime,450.0,550.0,525.0,525.0,550.0,,550.0,470.0,700.0,HardRockBet,700.0,8.0,6.171428571428572,1.2962962962962963
-Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,Receiving,110,,,,500.0,670.0,,490.0,,,DraftKings,670.0,7.7,5.95,1.2941176470588236
 Green Bay Packers @ Pittsburgh Steelers,Jordan Love,Rushing,50,,,,,1060.0,,,,1400.0,HardRockBet,1400.0,15.0,11.6,1.293103448275862
 Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,Receiving,110,,,,,1580.0,,1200.0,,,DraftKings,1580.0,16.8,13.0,1.2923076923076924
 Green Bay Packers @ Pittsburgh Steelers,Jonnu Smith,Receiving,80,,,,,950.0,1300.0,1200.0,,800.0,ESPNBET,1300.0,14.0,10.833333333333334,1.2923076923076922
 New York Giants @ Philadelphia Eagles,Jaxson Dart,Passing,300,825.0,,,1000.0,1160.0,,880.0,,800.0,DraftKings,1160.0,12.6,9.7625,1.2906530089628683
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,Receiving,50,210.0,,,,,,,,300.0,HardRockBet,300.0,4.0,3.1,1.2903225806451613
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Passing,300,390.0,,550.0,340.0,460.0,425.0,410.0,,400.0,Bovada,550.0,6.5,5.041666666666667,1.2892561983471074
-Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,110,,,850.0,,1080.0,800.0,800.0,,,DraftKings,1080.0,11.8,9.166666666666666,1.2872727272727273
-Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,Receiving,50,,,,600.0,513.0,800.0,800.0,,500.0,ESPNBET,800.0,9.0,7.0325,1.2797724848915748
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Passing,350,1050.0,,1400.0,1400.0,1640.0,,1200.0,,,DraftKings,1640.0,17.4,13.625,1.277064220183486
 New York Giants @ Philadelphia Eagles,Jalen Hurts,Rushing,80,,,,,850.0,1400.0,,,1300.0,ESPNBET,1400.0,15.0,11.75,1.2765957446808511
 Dallas Cowboys @ Denver Broncos,Jaydon Blue,AnytimeTD,Anytime,800.0,1000.0,900.0,750.0,750.0,,950.0,660.0,525.0,BetRivers,1000.0,11.0,8.621428571428572,1.275890637945319
-Miami Dolphins @ Atlanta Falcons,KhaDarel Hodge,AnytimeTD,Anytime,,2500.0,2200.0,2000.0,2000.0,,2200.0,1300.0,,BetRivers,2500.0,26.0,20.4,1.2745098039215688
 Dallas Cowboys @ Denver Broncos,Evan Engram,Receiving,80,,,,,1040.0,,1200.0,,800.0,FanDuel,1200.0,13.0,10.2,1.2745098039215688
+Miami Dolphins @ Atlanta Falcons,KhaDarel Hodge,AnytimeTD,Anytime,,2500.0,2200.0,2000.0,2000.0,,2200.0,1300.0,,BetRivers,2500.0,26.0,20.4,1.2745098039215688
+Green Bay Packers @ Pittsburgh Steelers,Roman Wilson,AnytimeTD,Anytime,,800.0,1100.0,850.0,700.0,,1100.0,700.0,900.0,Bovada,1100.0,12.0,9.416666666666666,1.2743362831858407
 Buffalo Bills @ Carolina Panthers,DeeJay Dallas,AnytimeTD,Anytime,3000.0,,,2600.0,2800.0,,,1600.0,,BetMGM,3000.0,31.0,24.333333333333332,1.273972602739726
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Rushing,80,,350.0,,230.0,258.0,260.0,270.0,,250.0,BetRivers,350.0,4.5,3.536,1.2726244343891402
 San Francisco 49ers @ Houston Texans,Houston Texans D/ST,AnytimeTD,Anytime,700.0,,725.0,,475.0,,,470.0,,Bovada,725.0,8.25,6.483333333333333,1.2724935732647815
 Green Bay Packers @ Pittsburgh Steelers,Jordan Love,AnytimeTD,Anytime,,575.0,825.0,700.0,600.0,,850.0,660.0,525.0,FanDuel,850.0,9.5,7.4750000000000005,1.2709030100334446
+New York Giants @ Philadelphia Eagles,AJ Dillon,AnytimeTD,Anytime,2200.0,2200.0,,1750.0,1700.0,,,1200.0,,BetMGM,2200.0,23.0,18.125,1.2689655172413794
+Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,Receiving,50,,,,625.0,513.0,800.0,800.0,,500.0,ESPNBET,800.0,9.0,7.095,1.2684989429175477
 Green Bay Packers @ Pittsburgh Steelers,Savion Williams,AnytimeTD,Anytime,,1300.0,1800.0,1400.0,1700.0,,1800.0,1300.0,900.0,Bovada,1800.0,19.0,15.0,1.2666666666666666
 Minnesota Vikings @ Los Angeles Chargers,Los Angeles Chargers D/ST,AnytimeTD,Anytime,625.0,,,,475.0,,,470.0,,BetMGM,625.0,7.25,5.725,1.2663755458515285
 Minnesota Vikings @ Los Angeles Chargers,Myles Price,AnytimeTD,Anytime,2800.0,2200.0,2800.0,2400.0,2800.0,,3000.0,1700.0,1750.0,FanDuel,3000.0,31.0,24.5,1.2653061224489797
 New York Jets @ Cincinnati Bengals,Chase Brown,Rushing,110,,,,,1140.0,,880.0,,,DraftKings,1140.0,12.4,9.8,1.2653061224489794
 Dallas Cowboys @ Denver Broncos,Bo Nix,Passing,350,1100.0,,,1300.0,1500.0,,1100.0,,,DraftKings,1500.0,16.0,12.666666666666666,1.2631578947368423
+New York Giants @ Philadelphia Eagles,Grant Calcaterra,AnytimeTD,Anytime,,,,,,,,850.0,1100.0,HardRockBet,1100.0,12.0,9.5,1.263157894736842
+New York Giants @ Philadelphia Eagles,Jahan Dotson,AnytimeTD,Anytime,625.0,600.0,400.0,450.0,450.0,,400.0,420.0,600.0,BetMGM,625.0,7.25,5.742857142857143,1.2624378109452736
+Washington Commanders @ Kansas City Chiefs,Rashee Rice,AnytimeTD,Anytime,,,-114.0,-105.0,-115.0,,-110.0,-110.0,140.0,HardRockBet,140.0,2.4,1.9034641940820431,1.260859020864017
 Cleveland Browns @ New England Patriots,Jerome Ford,AnytimeTD,Anytime,1100.0,,1000.0,900.0,950.0,,1000.0,740.0,525.0,BetMGM,1100.0,12.0,9.525,1.2598425196850394
 San Francisco 49ers @ Houston Texans,Dameon Pierce,AnytimeTD,Anytime,1700.0,,1400.0,1400.0,1300.0,,1500.0,1050.0,,BetMGM,1700.0,18.0,14.3,1.2587412587412588
 Tampa Bay Buccaneers @ New Orleans Saints,Mason Tipton,AnytimeTD,Anytime,,,2500.0,,2200.0,,2500.0,,1200.0,Bovada,2500.0,26.0,20.666666666666668,1.2580645161290323
 San Francisco 49ers @ Houston Texans,Malik Turner,AnytimeTD,Anytime,,,3300.0,3000.0,,,3500.0,2000.0,,FanDuel,3500.0,36.0,28.666666666666668,1.255813953488372
-Washington Commanders @ Kansas City Chiefs,Rashee Rice,AnytimeTD,Anytime,,,-114.0,-105.0,-115.0,,-110.0,-105.0,140.0,HardRockBet,140.0,2.4,1.9121222027400517,1.2551499044155359
 Buffalo Bills @ Carolina Panthers,Khalil Shakir,Receiving,110,,,,,1180.0,,920.0,,,DraftKings,1180.0,12.8,10.2,1.254901960784314
 Tennessee Titans @ Indianapolis Colts,Daniel Jones,Rushing,25,,,,,219.0,,,,300.0,HardRockBet,300.0,4.0,3.19,1.2539184952978057
 New York Giants @ Philadelphia Eagles,Gunner Olszewski,AnytimeTD,Anytime,2200.0,1400.0,2200.0,1750.0,1600.0,,2200.0,1500.0,1500.0,BetMGM,2200.0,23.0,18.357142857142858,1.2529182879377432
 New York Giants @ Philadelphia Eagles,Daniel Bellinger,AnytimeTD,Anytime,725.0,480.0,525.0,575.0,650.0,,550.0,580.0,550.0,BetMGM,725.0,8.25,6.5857142857142845,1.252711496746204
 Buffalo Bills @ Carolina Panthers,Tyrell Shavers,AnytimeTD,Anytime,700.0,,,575.0,750.0,,500.0,530.0,600.0,DraftKings,750.0,8.5,6.81,1.248164464023495
-Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Receiving,50,,,,675.0,,,470.0,,575.0,Caesars,675.0,7.75,6.225,1.244979919678715
 San Francisco 49ers @ Houston Texans,British Brooks,AnytimeTD,Anytime,5000.0,,4000.0,4000.0,,,4000.0,,,BetMGM,5000.0,51.0,41.0,1.2439024390243902
-Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Rushing,25,,,230.0,,223.0,275.0,,,325.0,HardRockBet,325.0,4.25,3.4266666666666663,1.240272373540856
+Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,110,,,850.0,,1080.0,850.0,850.0,,,DraftKings,1080.0,11.8,9.5,1.2421052631578948
 New York Giants @ Philadelphia Eagles,Tyrone Tracy Jr.,AnytimeTD,Anytime,333.0,650.0,625.0,500.0,600.0,,650.0,450.0,375.0,BetRivers,650.0,7.5,6.047142857142857,1.2402551381998583
 Dallas Cowboys @ Denver Broncos,Ryan Flournoy,AnytimeTD,Anytime,800.0,900.0,800.0,750.0,800.0,,800.0,660.0,1000.0,HardRockBet,1000.0,11.0,8.871428571428572,1.2399355877616747
 Green Bay Packers @ Pittsburgh Steelers,Chris Brooks,AnytimeTD,Anytime,,475.0,400.0,400.0,350.0,,420.0,380.0,525.0,HardRockBet,525.0,6.25,5.041666666666667,1.2396694214876032
-Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,AnytimeTD,Anytime,250.0,240.0,210.0,230.0,215.0,,210.0,205.0,300.0,HardRockBet,300.0,4.0,3.2285714285714286,1.238938053097345
 Tampa Bay Buccaneers @ New Orleans Saints,Spencer Rattler,Passing,300,,,,625.0,850.0,,680.0,,700.0,DraftKings,850.0,9.5,7.683333333333334,1.2364425162689805
 New York Giants @ Philadelphia Eagles,Saquon Barkley,Receiving,50,,,,,820.0,900.0,,,600.0,ESPNBET,900.0,10.0,8.1,1.234567901234568
 Dallas Cowboys @ Denver Broncos,Hunter Luepke,AnytimeTD,Anytime,1400.0,1800.0,1900.0,1500.0,1400.0,,1900.0,1050.0,1600.0,Bovada,1900.0,20.0,16.214285714285715,1.2334801762114536
@@ -172,6 +171,7 @@ San Francisco 49ers @ Houston Texans,James Jordan,AnytimeTD,Anytime,3500.0,,2800
 Cleveland Browns @ New England Patriots,Quinshon Judkins,Rushing,110,,,,425.0,547.0,,,,,DraftKings,547.0,6.47,5.25,1.2323809523809524
 Buffalo Bills @ Carolina Panthers,Ty Johnson,AnytimeTD,Anytime,700.0,,,600.0,750.0,,550.0,600.0,500.0,DraftKings,750.0,8.5,6.9,1.2318840579710144
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,Rushing,80,,,,400.0,534.0,,370.0,,475.0,DraftKings,534.0,6.34,5.1499999999999995,1.2310679611650486
+Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,80,,,,,,,1500.0,,1200.0,FanDuel,1500.0,16.0,13.0,1.2307692307692308
 Dallas Cowboys @ Denver Broncos,Adam Trautman,AnytimeTD,Anytime,800.0,750.0,1000.0,800.0,800.0,,1000.0,660.0,750.0,Bovada,1000.0,11.0,8.942857142857143,1.230031948881789
 Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Passing,300,,,,1000.0,1120.0,,880.0,,800.0,DraftKings,1120.0,12.2,9.933333333333334,1.2281879194630871
 Miami Dolphins @ Atlanta Falcons,Tua Tagovailoa,Passing,300,950.0,,,950.0,1120.0,900.0,880.0,,800.0,DraftKings,1120.0,12.2,9.959999999999999,1.2248995983935744
@@ -179,138 +179,142 @@ New York Giants @ Philadelphia Eagles,Jalen Hurts,Passing,300,750.0,,,800.0,990.
 New York Giants @ Philadelphia Eagles,Jalin Hyatt,AnytimeTD,Anytime,950.0,540.0,825.0,800.0,800.0,,850.0,700.0,800.0,BetMGM,950.0,10.5,8.592857142857143,1.221945137157107
 Cleveland Browns @ New England Patriots,Cleveland Browns D/ST,AnytimeTD,Anytime,650.0,,,,500.0,,,530.0,,BetMGM,650.0,7.5,6.15,1.2195121951219512
 San Francisco 49ers @ Houston Texans,Brian Robinson Jr.,AnytimeTD,Anytime,900.0,,900.0,700.0,800.0,,900.0,700.0,325.0,BetMGM,900.0,10.0,8.208333333333334,1.2182741116751268
-Tennessee Titans @ Indianapolis Colts,Julius Chestnut,AnytimeTD,Anytime,2200.0,2500.0,2500.0,2300.0,2200.0,,2700.0,1500.0,,FanDuel,2700.0,28.0,23.0,1.2173913043478262
 Cleveland Browns @ New England Patriots,New England Patriots D/ST,AnytimeTD,Anytime,600.0,,,,500.0,,,450.0,,BetMGM,600.0,7.0,5.75,1.2173913043478262
-Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,50,180.0,225.0,220.0,180.0,201.0,225.0,230.0,,275.0,HardRockBet,275.0,3.75,3.0871428571428576,1.2147154095326236
+Tennessee Titans @ Indianapolis Colts,Julius Chestnut,AnytimeTD,Anytime,2200.0,2500.0,2500.0,2300.0,2200.0,,2700.0,1500.0,,FanDuel,2700.0,28.0,23.0,1.2173913043478262
 Cleveland Browns @ New England Patriots,Dylan Sampson,AnytimeTD,Anytime,1600.0,,1600.0,1300.0,1400.0,,1600.0,1200.0,700.0,BetMGM,1600.0,17.0,14.0,1.2142857142857142
 New York Jets @ Cincinnati Bengals,Joe Flacco,Passing,350,,,,800.0,1040.0,,880.0,,,DraftKings,1040.0,11.4,9.4,1.2127659574468086
 Cleveland Browns @ New England Patriots,Jack Westover,AnytimeTD,Anytime,2000.0,,,1800.0,1800.0,,,1300.0,,BetMGM,2000.0,21.0,17.333333333333332,1.2115384615384617
-New York Giants @ Philadelphia Eagles,AJ Dillon,AnytimeTD,Anytime,2200.0,2200.0,,1800.0,1700.0,,,1500.0,,BetMGM,2200.0,23.0,19.0,1.2105263157894737
+New York Giants @ Philadelphia Eagles,Will Shipley,AnytimeTD,Anytime,900.0,850.0,625.0,700.0,700.0,,650.0,660.0,900.0,BetMGM,900.0,10.0,8.264285714285714,1.2100259291270528
 New York Giants @ Philadelphia Eagles,DeVonta Smith,Receiving,80,,275.0,,,,,,,210.0,BetRivers,275.0,3.75,3.1,1.2096774193548387
 Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,Rushing,80,,,,600.0,381.0,,580.0,,475.0,Caesars,600.0,7.0,5.786666666666666,1.2096774193548387
+Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,80,,,,450.0,443.0,450.0,490.0,,575.0,HardRockBet,575.0,6.75,5.5825,1.2091356918943126
 Minnesota Vikings @ Los Angeles Chargers,Minnesota Vikings D/ST,AnytimeTD,Anytime,625.0,,,,500.0,,,500.0,,BetMGM,625.0,7.25,6.0,1.2083333333333333
 Buffalo Bills @ Carolina Panthers,James Mitchell,AnytimeTD,Anytime,3000.0,,,2600.0,3000.0,,,1800.0,,BetMGM,3000.0,31.0,25.666666666666668,1.2077922077922076
 San Francisco 49ers @ Houston Texans,Xavier Hutchinson,AnytimeTD,Anytime,310.0,,275.0,295.0,290.0,,290.0,305.0,375.0,HardRockBet,375.0,4.75,3.941666666666667,1.20507399577167
 Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Rushing,80,,,,320.0,,325.0,300.0,,400.0,HardRockBet,400.0,5.0,4.1499999999999995,1.2048192771084338
 Green Bay Packers @ Pittsburgh Steelers,Dontayvion Wicks,AnytimeTD,Anytime,,400.0,350.0,400.0,500.0,,360.0,380.0,500.0,DraftKings,500.0,6.0,4.983333333333333,1.2040133779264215
-Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,80,,,,450.0,443.0,,490.0,,575.0,HardRockBet,575.0,6.75,5.609999999999999,1.2032085561497328
 Buffalo Bills @ Carolina Panthers,Ray Davis,AnytimeTD,Anytime,1000.0,,,900.0,1100.0,,900.0,800.0,900.0,DraftKings,1100.0,12.0,10.0,1.2
-New York Giants @ Philadelphia Eagles,Grant Calcaterra,AnytimeTD,Anytime,,,,,,,,900.0,1100.0,HardRockBet,1100.0,12.0,10.0,1.2
+Tennessee Titans @ Indianapolis Colts,Tyler Warren,Receiving,110,,,,475.0,589.0,,,,,DraftKings,589.0,6.89,5.75,1.1982608695652173
 Buffalo Bills @ Carolina Panthers,Tommy Tremble,AnytimeTD,Anytime,900.0,,,750.0,800.0,,850.0,700.0,575.0,BetMGM,900.0,10.0,8.35,1.1976047904191618
 Dallas Cowboys @ Denver Broncos,CeeDee Lamb,Receiving,110,,375.0,,250.0,320.0,,320.0,,,BetRivers,375.0,4.75,3.966666666666667,1.1974789915966386
 Dallas Cowboys @ Denver Broncos,Luke Schoonmaker,AnytimeTD,Anytime,1000.0,1100.0,1000.0,1000.0,1000.0,,1000.0,800.0,1200.0,HardRockBet,1200.0,13.0,10.857142857142858,1.1973684210526314
+Minnesota Vikings @ Los Angeles Chargers,Tre Harris,AnytimeTD,Anytime,950.0,1200.0,1200.0,1000.0,1000.0,,1200.0,850.0,700.0,BetRivers,1200.0,13.0,10.857142857142858,1.1973684210526314
 Cleveland Browns @ New England Patriots,Drake Maye,Passing,300,,,,450.0,640.0,,580.0,,525.0,DraftKings,640.0,7.4,6.183333333333334,1.196765498652291
+Miami Dolphins @ Atlanta Falcons,Nathan Carter,AnytimeTD,Anytime,,1300.0,2000.0,1800.0,1900.0,,2000.0,1300.0,,Bovada,2000.0,21.0,17.6,1.1931818181818181
 Washington Commanders @ Kansas City Chiefs,Jeremy McNichols,AnytimeTD,Anytime,,,900.0,800.0,800.0,,950.0,700.0,700.0,FanDuel,950.0,10.5,8.8,1.1931818181818181
 Miami Dolphins @ Atlanta Falcons,Alec Ingold,AnytimeTD,Anytime,,1400.0,1600.0,1300.0,1400.0,,1600.0,1050.0,1200.0,Bovada,1600.0,17.0,14.25,1.1929824561403508
+Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,50,180.0,225.0,220.0,180.0,201.0,225.0,270.0,,275.0,HardRockBet,275.0,3.75,3.1442857142857146,1.1926397092230803
 New York Giants @ Philadelphia Eagles,Saquon Barkley,Rushing,110,,335.0,,250.0,,,280.0,,,BetRivers,335.0,4.35,3.65,1.191780821917808
 Miami Dolphins @ Atlanta Falcons,Casey Washington,AnytimeTD,Anytime,,850.0,1000.0,850.0,850.0,,1000.0,740.0,650.0,Bovada,1000.0,11.0,9.233333333333333,1.1913357400722022
+Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,80,,,,215.0,,,,,275.0,HardRockBet,275.0,3.75,3.15,1.1904761904761905
 Dallas Cowboys @ Denver Broncos,Dak Prescott,Passing,350,600.0,,,625.0,830.0,750.0,750.0,,,DraftKings,830.0,9.3,7.8125,1.1904000000000001
 Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,Receiving,110,,,,500.0,610.0,500.0,490.0,,,DraftKings,610.0,7.1,5.966666666666666,1.1899441340782124
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Rushing,110,,,,,970.0,,800.0,,,DraftKings,970.0,10.7,9.0,1.1888888888888889
 San Francisco 49ers @ Houston Texans,Jauan Jennings,AnytimeTD,Anytime,275.0,,260.0,260.0,240.0,,260.0,250.0,325.0,HardRockBet,325.0,4.25,3.5749999999999997,1.188811188811189
-Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Receiving,50,625.0,,,750.0,620.0,,,,600.0,Caesars,750.0,8.5,7.1499999999999995,1.188811188811189
 Cleveland Browns @ New England Patriots,Kyle Williams,AnytimeTD,Anytime,1800.0,,2000.0,1700.0,1800.0,,2000.0,1300.0,1400.0,Bovada,2000.0,21.0,17.666666666666668,1.1886792452830188
 Buffalo Bills @ Carolina Panthers,Jackson Hawes,AnytimeTD,Anytime,625.0,,,500.0,600.0,,470.0,470.0,,BetMGM,625.0,7.25,6.1,1.1885245901639345
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Passing,300,,,,230.0,,,310.0,,260.0,FanDuel,310.0,4.1,3.45,1.188405797101449
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Passing,300,210.0,300.0,275.0,195.0,272.0,225.0,240.0,,240.0,BetRivers,300.0,4.0,3.367142857142857,1.1879507848960544
+Green Bay Packers @ Pittsburgh Steelers,Calvin Austin III,AnytimeTD,Anytime,,360.0,260.0,285.0,300.0,,270.0,285.0,325.0,BetRivers,360.0,4.6,3.875,1.1870967741935483
 Dallas Cowboys @ Denver Broncos,Bo Nix,Rushing,50,525.0,410.0,,475.0,404.0,,550.0,,425.0,FanDuel,550.0,6.5,5.478,1.1865644395764878
+Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Receiving,50,,,,,,,470.0,,575.0,HardRockBet,575.0,6.75,5.7,1.1842105263157894
+Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,80,,360.0,,265.0,316.0,275.0,290.0,,375.0,HardRockBet,375.0,4.75,4.012,1.1839481555334
 Washington Commanders @ Kansas City Chiefs,Noah Gray,AnytimeTD,Anytime,,,400.0,425.0,500.0,,410.0,400.0,400.0,DraftKings,500.0,6.0,5.07,1.1834319526627217
-Green Bay Packers @ Pittsburgh Steelers,Calvin Austin III,AnytimeTD,Anytime,,360.0,260.0,285.0,300.0,,270.0,295.0,325.0,BetRivers,360.0,4.6,3.891666666666666,1.1820128479657388
 Washington Commanders @ Kansas City Chiefs,Jaylin Lane,AnytimeTD,Anytime,,,440.0,450.0,450.0,,490.0,420.0,550.0,HardRockBet,550.0,6.5,5.499999999999999,1.181818181818182
-Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,110,,,,450.0,,550.0,,,,ESPNBET,550.0,6.5,5.5,1.1818181818181819
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Receiving,50,650.0,,,575.0,549.0,550.0,550.0,,450.0,BetMGM,650.0,7.5,6.348000000000001,1.1814744801512287
-Minnesota Vikings @ Los Angeles Chargers,Jalen Nailor,AnytimeTD,Anytime,475.0,440.0,525.0,450.0,390.0,,550.0,400.0,475.0,FanDuel,550.0,6.5,5.507142857142857,1.1802853437094682
-Miami Dolphins @ Atlanta Falcons,Drake London,Receiving,110,,,,390.0,536.0,,490.0,,,DraftKings,536.0,6.36,5.4,1.1777777777777778
 Dallas Cowboys @ Denver Broncos,J.K. Dobbins,Rushing,110,,,,340.0,430.0,,360.0,,,DraftKings,430.0,5.3,4.5,1.1777777777777778
 Tampa Bay Buccaneers @ New Orleans Saints,Spencer Rattler,AnytimeTD,Anytime,,,525.0,,600.0,,550.0,530.0,375.0,DraftKings,600.0,7.0,5.95,1.1764705882352942
+Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Rushing,25,,,230.0,,223.0,275.0,320.0,,325.0,HardRockBet,325.0,4.25,3.62,1.1740331491712708
 Tennessee Titans @ Indianapolis Colts,Cam Ward,AnytimeTD,Anytime,750.0,,900.0,750.0,,,900.0,660.0,700.0,Bovada,900.0,10.0,8.52,1.1737089201877935
 Cleveland Browns @ New England Patriots,Malachi Corley,AnytimeTD,Anytime,1800.0,,1700.0,1500.0,1500.0,,1700.0,1200.0,,BetMGM,1800.0,19.0,16.2,1.1728395061728396
 Miami Dolphins @ Atlanta Falcons,Nick Westbrook-Ikhine,AnytimeTD,Anytime,,650.0,725.0,650.0,650.0,,750.0,600.0,475.0,FanDuel,750.0,8.5,7.25,1.1724137931034482
 Tennessee Titans @ Indianapolis Colts,Daniel Jones,Passing,350,,,,1300.0,1480.0,,1200.0,,,DraftKings,1480.0,15.8,13.5,1.1703703703703705
 Minnesota Vikings @ Los Angeles Chargers,Carson Wentz,Passing,250,125.0,175.0,160.0,115.0,141.0,140.0,140.0,,125.0,BetRivers,175.0,2.75,2.3514285714285714,1.169501822600243
 Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,110,,,1100.0,,1060.0,,1280.0,,,FanDuel,1280.0,13.8,11.8,1.1694915254237288
-Green Bay Packers @ Pittsburgh Steelers,Jordan Love,Passing,300,360.0,430.0,,285.0,402.0,,370.0,,350.0,BetRivers,430.0,5.3,4.534,1.1689457432730481
 Miami Dolphins @ Atlanta Falcons,Michael Penix Jr.,AnytimeTD,Anytime,,600.0,525.0,525.0,550.0,,550.0,500.0,650.0,HardRockBet,650.0,7.5,6.416666666666667,1.1688311688311688
 New York Giants @ Philadelphia Eagles,Theo Johnson,AnytimeTD,Anytime,340.0,370.0,300.0,305.0,330.0,,310.0,270.0,260.0,BetRivers,370.0,4.7,4.021428571428571,1.1687388987566607
 Miami Dolphins @ Atlanta Falcons,Kyle Pitts,Receiving,80,,,,400.0,391.0,,490.0,,425.0,FanDuel,490.0,5.9,5.053333333333334,1.1675461741424802
+Miami Dolphins @ Atlanta Falcons,Drake London,Receiving,110,,,,400.0,536.0,,490.0,,,DraftKings,536.0,6.36,5.45,1.1669724770642202
 Washington Commanders @ Kansas City Chiefs,Xavier Worthy,Receiving,110,,,,,1300.0,,1100.0,,,DraftKings,1300.0,14.0,12.0,1.1666666666666667
 San Francisco 49ers @ Houston Texans,Jake Tonges,AnytimeTD,Anytime,1300.0,,1200.0,1100.0,1100.0,,1200.0,900.0,,BetMGM,1300.0,14.0,12.0,1.1666666666666667
-Miami Dolphins @ Atlanta Falcons,Nathan Carter,AnytimeTD,Anytime,,1300.0,2000.0,1800.0,1900.0,,2000.0,1500.0,,Bovada,2000.0,21.0,18.0,1.1666666666666667
+Minnesota Vikings @ Los Angeles Chargers,Jalen Nailor,AnytimeTD,Anytime,475.0,440.0,525.0,450.0,390.0,,550.0,450.0,475.0,FanDuel,550.0,6.5,5.578571428571428,1.1651728553137004
 Dallas Cowboys @ Denver Broncos,Javonte Williams,Rushing,110,,,,675.0,730.0,,550.0,,,DraftKings,730.0,8.3,7.125,1.1649122807017545
 Tampa Bay Buccaneers @ New Orleans Saints,Ryan Miller,AnytimeTD,Anytime,,,1200.0,,1000.0,,1200.0,850.0,,Bovada,1200.0,13.0,11.166666666666666,1.164179104477612
+Tennessee Titans @ Indianapolis Colts,Josh Downs,AnytimeTD,Anytime,210.0,265.0,220.0,210.0,205.0,,220.0,210.0,220.0,BetRivers,265.0,3.65,3.1357142857142857,1.1640091116173121
+Green Bay Packers @ Pittsburgh Steelers,Jordan Love,Passing,300,360.0,430.0,,295.0,402.0,,370.0,,350.0,BetRivers,430.0,5.3,4.554,1.1638120333772506
+Washington Commanders @ Kansas City Chiefs,Tyquan Thornton,AnytimeTD,Anytime,,,825.0,750.0,800.0,,850.0,660.0,550.0,FanDuel,850.0,9.5,8.17,1.1627906976744187
 Tampa Bay Buccaneers @ New Orleans Saints,Brandin Cooks,AnytimeTD,Anytime,,,700.0,,750.0,,700.0,600.0,525.0,DraftKings,750.0,8.5,7.3125,1.1623931623931625
 Chicago Bears @ Baltimore Ravens,D'Andre Swift,Rushing,80,,,,190.0,237.0,,,,,DraftKings,237.0,3.37,2.9,1.1620689655172414
-Tennessee Titans @ Indianapolis Colts,Josh Downs,AnytimeTD,Anytime,210.0,265.0,225.0,210.0,205.0,,220.0,210.0,220.0,BetRivers,265.0,3.65,3.142857142857143,1.1613636363636364
-Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Receiving,50,750.0,,,,800.0,,,,600.0,DraftKings,800.0,9.0,7.75,1.1612903225806452
 Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,Receiving,25,,,,,119.0,,152.0,,115.0,FanDuel,152.0,2.52,2.17,1.1612903225806452
+Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Receiving,50,750.0,,,,800.0,,,,600.0,DraftKings,800.0,9.0,7.75,1.1612903225806452
 Miami Dolphins @ Atlanta Falcons,Tanner Conner,AnytimeTD,Anytime,,475.0,525.0,450.0,400.0,,550.0,450.0,,FanDuel,550.0,6.5,5.6,1.1607142857142858
-Buffalo Bills @ Carolina Panthers,Keon Coleman,Receiving,80,,425.0,,380.0,467.0,,400.0,,350.0,DraftKings,467.0,5.67,4.8875,1.1601023017902812
+Minnesota Vikings @ Los Angeles Chargers,Adam Thielen,AnytimeTD,Anytime,1400.0,1300.0,1200.0,1200.0,1300.0,,1200.0,1050.0,1100.0,BetMGM,1400.0,15.0,12.928571428571429,1.160220994475138
 Cleveland Browns @ New England Patriots,Austin Hooper,AnytimeTD,Anytime,650.0,,525.0,550.0,600.0,,550.0,530.0,525.0,BetMGM,650.0,7.5,6.466666666666666,1.1597938144329898
 San Francisco 49ers @ Houston Texans,Mac Jones,AnytimeTD,Anytime,900.0,,825.0,750.0,800.0,,850.0,800.0,550.0,BetMGM,900.0,10.0,8.625,1.1594202898550725
+Green Bay Packers @ Pittsburgh Steelers,Jonnu Smith,AnytimeTD,Anytime,,320.0,250.0,265.0,270.0,,250.0,240.0,300.0,BetRivers,320.0,4.2,3.625,1.1586206896551725
 Cleveland Browns @ New England Patriots,DeMario Douglas,AnytimeTD,Anytime,500.0,,525.0,500.0,500.0,,550.0,450.0,600.0,HardRockBet,600.0,7.0,6.041666666666667,1.1586206896551723
 Buffalo Bills @ Carolina Panthers,Jimmy Horn Jr.,AnytimeTD,Anytime,1000.0,,,850.0,800.0,,1000.0,800.0,800.0,BetMGM,1000.0,11.0,9.5,1.1578947368421053
-Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,80,,360.0,,,316.0,275.0,290.0,,375.0,HardRockBet,375.0,4.75,4.1025,1.157830591102986
 Green Bay Packers @ Pittsburgh Steelers,Pat Freiermuth,Receiving,50,525.0,,,700.0,650.0,,,,600.0,Caesars,700.0,8.0,6.916666666666667,1.1566265060240963
 Dallas Cowboys @ Denver Broncos,Evan Engram,AnytimeTD,Anytime,220.0,215.0,230.0,225.0,225.0,,230.0,225.0,275.0,HardRockBet,275.0,3.75,3.242857142857143,1.1563876651982379
 Dallas Cowboys @ Denver Broncos,Jonathan Mingo,AnytimeTD,Anytime,800.0,800.0,800.0,750.0,750.0,,800.0,660.0,900.0,HardRockBet,900.0,10.0,8.657142857142857,1.155115511551155
-Miami Dolphins @ Atlanta Falcons,Atlanta Falcons D/ST,AnytimeTD,Anytime,,,,,500.0,,,420.0,,DraftKings,500.0,6.0,5.2,1.1538461538461537
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Passing,350,,,,750.0,,,880.0,,,FanDuel,880.0,9.8,8.5,1.1529411764705884
 San Francisco 49ers @ Houston Texans,C.J. Stroud,AnytimeTD,Anytime,750.0,,800.0,700.0,700.0,,800.0,660.0,475.0,Bovada,800.0,9.0,7.808333333333334,1.152614727854856
-Green Bay Packers @ Pittsburgh Steelers,Emanuel Wilson,AnytimeTD,Anytime,,440.0,400.0,375.0,360.0,,420.0,360.0,300.0,BetRivers,440.0,5.4,4.691666666666666,1.1509769094138544
 Tennessee Titans @ Indianapolis Colts,Tyler Warren,Receiving,80,,,,165.0,200.0,,,,225.0,HardRockBet,225.0,3.25,2.825,1.1504424778761062
 Tennessee Titans @ Indianapolis Colts,Calvin Ridley,AnytimeTD,Anytime,320.0,275.0,,325.0,320.0,,,325.0,375.0,HardRockBet,375.0,4.75,4.13,1.1501210653753027
 Washington Commanders @ Kansas City Chiefs,Jared Wiley,AnytimeTD,Anytime,,,2200.0,1900.0,2000.0,,2200.0,1500.0,,Bovada,2200.0,23.0,20.0,1.15
 Washington Commanders @ Kansas City Chiefs,Marquise Brown,AnytimeTD,Anytime,,,275.0,270.0,245.0,,290.0,270.0,325.0,HardRockBet,325.0,4.25,3.7,1.1486486486486487
 Tampa Bay Buccaneers @ New Orleans Saints,Rachaad White,Rushing,110,,,,750.0,,,640.0,,,Caesars,750.0,8.5,7.4,1.1486486486486487
-Tennessee Titans @ Indianapolis Colts,Tyler Warren,Receiving,110,,,,500.0,589.0,,,,,DraftKings,589.0,6.89,6.0,1.1483333333333332
-Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,80,,,,155.0,,185.0,,,210.0,HardRockBet,210.0,3.1,2.7,1.1481481481481481
+Buffalo Bills @ Carolina Panthers,Keon Coleman,Receiving,80,,425.0,,400.0,467.0,,400.0,,350.0,DraftKings,467.0,5.67,4.9375,1.1483544303797468
+Cleveland Browns @ New England Patriots,Dillon Gabriel,Passing,250,,290.0,,255.0,344.0,,280.0,,350.0,HardRockBet,350.0,4.5,3.9224999999999994,1.1472275334608033
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,Receiving,25,-250.0,,,,,,,,-165.0,HardRockBet,-165.0,1.606060606060606,1.4,1.147186147186147
-Washington Commanders @ Kansas City Chiefs,Terry McLaurin,AnytimeTD,Anytime,,,225.0,215.0,195.0,,220.0,215.0,260.0,HardRockBet,260.0,3.6,3.14,1.1464968152866242
+Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,625.0,550.0,525.0,525.0,550.0,,550.0,500.0,525.0,BetMGM,625.0,7.25,6.321428571428571,1.1468926553672316
 Green Bay Packers @ Pittsburgh Steelers,Jonnu Smith,Receiving,25,-225.0,,,,-198.0,,-186.0,,-140.0,HardRockBet,-140.0,1.7142857142857144,1.4957097860323667,1.1461352531717792
 New York Giants @ Philadelphia Eagles,Dallas Goedert,AnytimeTD,Anytime,200.0,210.0,175.0,185.0,175.0,,175.0,165.0,225.0,HardRockBet,225.0,3.25,2.8357142857142854,1.1460957178841311
+Tennessee Titans @ Indianapolis Colts,Tony Pollard,Rushing,50,,,,140.0,,,,,175.0,HardRockBet,175.0,2.75,2.4,1.1458333333333335
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,Passing,350,,,,360.0,470.0,,490.0,,,FanDuel,490.0,5.9,5.15,1.145631067961165
 Cleveland Browns @ New England Patriots,Isaiah Bond,AnytimeTD,Anytime,500.0,,440.0,475.0,550.0,,490.0,450.0,450.0,DraftKings,550.0,6.5,5.675,1.145374449339207
 San Francisco 49ers @ Houston Texans,Skyy Moore,AnytimeTD,Anytime,1800.0,,1700.0,1600.0,1600.0,,1700.0,1200.0,,BetMGM,1800.0,19.0,16.6,1.1445783132530118
 Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Rushing,110,,,,,930.0,,800.0,,,DraftKings,930.0,10.3,9.0,1.1444444444444446
 New York Giants @ Philadelphia Eagles,Jaxson Dart,Passing,250,300.0,360.0,,255.0,332.0,300.0,300.0,,325.0,BetRivers,360.0,4.6,4.0200000000000005,1.1442786069651738
 Minnesota Vikings @ Los Angeles Chargers,Jalen Nailor,Receiving,50,650.0,,700.0,,447.0,,700.0,,600.0,Bovada,700.0,8.0,6.9925,1.144082946013586
-Tampa Bay Buccaneers @ New Orleans Saints,Devaughn Vele,AnytimeTD,Anytime,,,1300.0,,1300.0,,1300.0,900.0,1000.0,Bovada,1300.0,14.0,12.25,1.1428571428571428
-Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,Receiving,50,,,,120.0,,160.0,,,135.0,ESPNBET,160.0,2.6,2.2750000000000004,1.1428571428571428
 Tennessee Titans @ Indianapolis Colts,Cam Ward,Passing,250,,,,235.0,,,265.0,,300.0,HardRockBet,300.0,4.0,3.5,1.1428571428571428
+Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,Receiving,50,,,,120.0,,160.0,,,135.0,ESPNBET,160.0,2.6,2.2750000000000004,1.1428571428571428
+Tampa Bay Buccaneers @ New Orleans Saints,Devaughn Vele,AnytimeTD,Anytime,,,1300.0,,1300.0,,1300.0,900.0,1000.0,Bovada,1300.0,14.0,12.25,1.1428571428571428
+Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,80,,295.0,250.0,225.0,244.0,250.0,230.0,,275.0,BetRivers,295.0,3.95,3.4566666666666666,1.1427193828351014
+Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,AnytimeTD,Anytime,,340.0,275.0,300.0,300.0,,280.0,270.0,350.0,HardRockBet,350.0,4.5,3.9416666666666664,1.1416490486257929
+Cleveland Browns @ New England Patriots,Drake Maye,Passing,250,,205.0,,145.0,181.0,,178.0,,165.0,BetRivers,205.0,3.05,2.6725,1.1412535079513564
 Chicago Bears @ Baltimore Ravens,Caleb Williams,Passing,300,,,,425.0,558.0,,,,575.0,HardRockBet,575.0,6.75,5.915,1.1411665257819104
-Washington Commanders @ Kansas City Chiefs,Tyquan Thornton,AnytimeTD,Anytime,,,825.0,750.0,800.0,,850.0,740.0,550.0,FanDuel,850.0,9.5,8.33,1.140456182472989
-Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,625.0,550.0,525.0,550.0,550.0,,550.0,500.0,525.0,BetMGM,625.0,7.25,6.357142857142857,1.1404494382022472
-Green Bay Packers @ Pittsburgh Steelers,Jonnu Smith,AnytimeTD,Anytime,,320.0,250.0,270.0,270.0,,250.0,270.0,300.0,BetRivers,320.0,4.2,3.6833333333333336,1.1402714932126696
-Cleveland Browns @ New England Patriots,Dillon Gabriel,Passing,250,,300.0,,255.0,344.0,,280.0,,350.0,HardRockBet,350.0,4.5,3.9475,1.1399620012666245
+Green Bay Packers @ Pittsburgh Steelers,Green Bay Packers D/ST,AnytimeTD,Anytime,,,,,550.0,,,470.0,,DraftKings,550.0,6.5,5.7,1.1403508771929824
 Dallas Cowboys @ Denver Broncos,Dak Prescott,AnytimeTD,Anytime,800.0,650.0,825.0,750.0,800.0,,850.0,660.0,650.0,FanDuel,850.0,9.5,8.335714285714285,1.139674378748929
+Washington Commanders @ Kansas City Chiefs,Terry McLaurin,AnytimeTD,Anytime,,,225.0,215.0,195.0,,220.0,225.0,260.0,HardRockBet,260.0,3.6,3.16,1.139240506329114
 Cleveland Browns @ New England Patriots,TreVeyon Henderson,AnytimeTD,Anytime,225.0,,260.0,250.0,265.0,,260.0,250.0,300.0,HardRockBet,300.0,4.0,3.516666666666667,1.1374407582938388
-Tennessee Titans @ Indianapolis Colts,Elic Ayomanor,AnytimeTD,Anytime,320.0,375.0,350.0,340.0,320.0,,350.0,325.0,400.0,HardRockBet,400.0,5.0,4.4,1.1363636363636362
-Buffalo Bills @ Carolina Panthers,Rico Dowdle,Rushing,80,,,,350.0,346.0,,390.0,,425.0,HardRockBet,425.0,5.25,4.62,1.1363636363636362
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Receiving,25,155.0,,,,179.0,,158.0,,200.0,HardRockBet,200.0,3.0,2.64,1.1363636363636362
-Minnesota Vikings @ Los Angeles Chargers,Adam Thielen,AnytimeTD,Anytime,1400.0,1300.0,1300.0,1200.0,1300.0,,1300.0,1050.0,1100.0,BetMGM,1400.0,15.0,13.214285714285714,1.1351351351351353
-Green Bay Packers @ Pittsburgh Steelers,Darnell Washington,AnytimeTD,Anytime,,340.0,275.0,300.0,300.0,,280.0,285.0,350.0,HardRockBet,350.0,4.5,3.966666666666667,1.134453781512605
+Buffalo Bills @ Carolina Panthers,Rico Dowdle,Rushing,80,,,,350.0,346.0,,390.0,,425.0,HardRockBet,425.0,5.25,4.62,1.1363636363636362
+Green Bay Packers @ Pittsburgh Steelers,Emanuel Wilson,AnytimeTD,Anytime,,440.0,400.0,375.0,360.0,,420.0,400.0,300.0,BetRivers,440.0,5.4,4.758333333333334,1.1348511383537654
 Tennessee Titans @ Indianapolis Colts,Van Jefferson,AnytimeTD,Anytime,550.0,525.0,500.0,525.0,550.0,,500.0,470.0,600.0,HardRockBet,600.0,7.0,6.171428571428572,1.1342592592592593
 Tennessee Titans @ Indianapolis Colts,Bryce Oliver,AnytimeTD,Anytime,1500.0,1600.0,,1400.0,1500.0,,,1200.0,,BetRivers,1600.0,17.0,15.0,1.1333333333333333
 Cleveland Browns @ New England Patriots,Rhamondre Stevenson,Rushing,80,,,,190.0,240.0,,,,210.0,DraftKings,240.0,3.4,3.0,1.1333333333333333
 Buffalo Bills @ Carolina Panthers,Ja'Tavion Sanders,AnytimeTD,Anytime,700.0,,,625.0,600.0,,700.0,580.0,525.0,BetMGM,700.0,8.0,7.06,1.13314447592068
 San Francisco 49ers @ Houston Texans,C.J. Stroud,Passing,250,,330.0,,255.0,349.0,,300.0,,300.0,DraftKings,349.0,4.49,3.9625,1.1331230283911673
+Tennessee Titans @ Indianapolis Colts,Elic Ayomanor,AnytimeTD,Anytime,320.0,375.0,350.0,340.0,320.0,,360.0,325.0,400.0,HardRockBet,400.0,5.0,4.414285714285714,1.132686084142395
+Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Rushing,50,750.0,,,,700.0,900.0,,,900.0,ESPNBET,900.0,10.0,8.833333333333334,1.1320754716981132
 Cleveland Browns @ New England Patriots,Mack Hollins,AnytimeTD,Anytime,725.0,,700.0,625.0,700.0,,700.0,600.0,450.0,BetMGM,725.0,8.25,7.291666666666667,1.1314285714285715
 Dallas Cowboys @ Denver Broncos,Courtland Sutton,Receiving,110,,,,475.0,559.0,,490.0,,,DraftKings,559.0,6.59,5.825,1.1313304721030042
 Tampa Bay Buccaneers @ New Orleans Saints,Sean Tucker,AnytimeTD,Anytime,,,600.0,,550.0,,600.0,500.0,425.0,Bovada,600.0,7.0,6.1875,1.1313131313131313
 New York Giants @ Philadelphia Eagles,Jaxson Dart,Rushing,80,,,,,730.0,,750.0,,850.0,HardRockBet,850.0,9.5,8.4,1.130952380952381
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Rushing,110,,,,800.0,850.0,,680.0,,,DraftKings,850.0,9.5,8.4,1.130952380952381
-Washington Commanders @ Kansas City Chiefs,JuJu Smith-Schuster,AnytimeTD,Anytime,,,525.0,475.0,500.0,,550.0,500.0,375.0,FanDuel,550.0,6.5,5.75,1.1304347826086956
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,Rushing,50,,,,500.0,,,550.0,,450.0,FanDuel,550.0,6.5,5.75,1.1304347826086956
+Washington Commanders @ Kansas City Chiefs,JuJu Smith-Schuster,AnytimeTD,Anytime,,,525.0,475.0,500.0,,550.0,500.0,375.0,FanDuel,550.0,6.5,5.75,1.1304347826086956
 Cleveland Browns @ New England Patriots,Dillon Gabriel,AnytimeTD,Anytime,950.0,,900.0,850.0,850.0,,950.0,740.0,1000.0,HardRockBet,1000.0,11.0,9.733333333333333,1.13013698630137
 Miami Dolphins @ Atlanta Falcons,Michael Penix Jr.,Passing,300,525.0,,,550.0,660.0,,640.0,,575.0,DraftKings,660.0,7.6,6.725,1.1301115241635689
 Dallas Cowboys @ Denver Broncos,Dak Prescott,Passing,300,210.0,285.0,,205.0,260.0,250.0,260.0,,260.0,BetRivers,285.0,3.85,3.4083333333333337,1.1295843520782396
+Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,80,,245.0,230.0,205.0,247.0,225.0,240.0,,275.0,HardRockBet,275.0,3.75,3.3200000000000003,1.1295180722891565
 Minnesota Vikings @ Los Angeles Chargers,Aaron Jones,AnytimeTD,Anytime,,,,,,,,210.0,250.0,HardRockBet,250.0,3.5,3.1,1.129032258064516
 Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Receiving,50,825.0,,950.0,,960.0,900.0,920.0,,600.0,DraftKings,960.0,10.6,9.39,1.128860489882854
 Tampa Bay Buccaneers @ New Orleans Saints,Sterling Shepard,AnytimeTD,Anytime,,,210.0,,185.0,,210.0,200.0,240.0,HardRockBet,240.0,3.4,3.0125,1.1286307053941909
 New York Giants @ Philadelphia Eagles,New York Giants D/ST,AnytimeTD,Anytime,600.0,,,,650.0,,,530.0,,DraftKings,650.0,7.5,6.65,1.1278195488721805
 Green Bay Packers @ Pittsburgh Steelers,Aaron Rodgers,Passing,300,600.0,,,475.0,640.0,,550.0,,600.0,DraftKings,640.0,7.4,6.5625,1.1276190476190477
 Tampa Bay Buccaneers @ New Orleans Saints,Rachaad White,Rushing,80,,,,170.0,,,198.0,,220.0,HardRockBet,220.0,3.2,2.84,1.1267605633802817
-Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,80,,245.0,230.0,210.0,247.0,225.0,240.0,,275.0,HardRockBet,275.0,3.75,3.328333333333333,1.126690035052579
 Chicago Bears @ Baltimore Ravens,Rome Odunze,Receiving,80,,,,155.0,207.0,,,,190.0,DraftKings,207.0,3.07,2.7249999999999996,1.1266055045871561
 Green Bay Packers @ Pittsburgh Steelers,Jordan Love,Rushing,25,,,,,233.0,,,,275.0,HardRockBet,275.0,3.75,3.33,1.1261261261261262
 Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,Receiving,80,,450.0,,425.0,481.0,425.0,430.0,,350.0,DraftKings,481.0,5.81,5.16,1.125968992248062
@@ -318,66 +322,64 @@ New York Giants @ Philadelphia Eagles,Wan'Dale Robinson,Receiving,80,,280.0,,225
 Tennessee Titans @ Indianapolis Colts,Cameron Ward,AnytimeTD,Anytime,,800.0,,,700.0,,,,,BetRivers,800.0,9.0,8.0,1.125
 San Francisco 49ers @ Houston Texans,Brenden Bates,AnytimeTD,Anytime,3300.0,,,3000.0,3500.0,,3000.0,,,DraftKings,3500.0,36.0,32.0,1.125
 Dallas Cowboys @ Denver Broncos,Nate Adkins,AnytimeTD,Anytime,900.0,850.0,725.0,800.0,900.0,,750.0,700.0,800.0,BetMGM,900.0,10.0,8.892857142857142,1.1244979919678715
-Tennessee Titans @ Indianapolis Colts,Gunnar Helm,AnytimeTD,Anytime,450.0,500.0,400.0,425.0,425.0,,420.0,420.0,500.0,BetRivers,500.0,6.0,5.3428571428571425,1.1229946524064172
 Miami Dolphins @ Atlanta Falcons,Tua Tagovailoa,Passing,250,333.0,340.0,,240.0,299.0,275.0,280.0,,325.0,BetRivers,340.0,4.4,3.92,1.1224489795918369
 Washington Commanders @ Kansas City Chiefs,Marcus Mariota,AnytimeTD,Anytime,,,440.0,400.0,450.0,,450.0,420.0,240.0,DraftKings,450.0,5.5,4.9,1.1224489795918366
-Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,110,,,800.0,,910.0,,800.0,,,DraftKings,910.0,10.1,9.0,1.1222222222222222
 San Francisco 49ers @ Houston Texans,Jayden Higgins,AnytimeTD,Anytime,310.0,,300.0,305.0,290.0,,300.0,,350.0,HardRockBet,350.0,4.5,4.01,1.1221945137157108
-Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,80,,295.0,250.0,225.0,252.0,250.0,260.0,,275.0,BetRivers,295.0,3.95,3.52,1.122159090909091
 Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,Rushing,50,,155.0,,120.0,125.0,,154.0,,110.0,BetRivers,155.0,2.55,2.2725,1.1221122112211221
 Green Bay Packers @ Pittsburgh Steelers,Calvin Austin III,Receiving,25,-150.0,,,,,,,,-115.0,HardRockBet,-115.0,1.8695652173913042,1.6666666666666665,1.1217391304347826
 Miami Dolphins @ Atlanta Falcons,Julian Hill,AnytimeTD,Anytime,,380.0,350.0,380.0,350.0,,390.0,360.0,425.0,HardRockBet,425.0,5.25,4.683333333333334,1.1209964412811386
-Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,80,,,,,730.0,900.0,920.0,,800.0,FanDuel,920.0,10.2,9.1,1.120879120879121
 Tampa Bay Buccaneers @ New Orleans Saints,Kameron Johnson,AnytimeTD,Anytime,,,725.0,,650.0,,750.0,600.0,,FanDuel,750.0,8.5,7.583333333333333,1.120879120879121
+Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,AnytimeTD,Anytime,,440.0,440.0,390.0,400.0,,450.0,400.0,275.0,FanDuel,450.0,5.5,4.908333333333334,1.1205432937181663
 Miami Dolphins @ Atlanta Falcons,Malik Washington,AnytimeTD,Anytime,,350.0,440.0,450.0,475.0,,490.0,470.0,375.0,FanDuel,490.0,5.9,5.266666666666667,1.120253164556962
+Tennessee Titans @ Indianapolis Colts,Gunnar Helm,AnytimeTD,Anytime,450.0,500.0,400.0,425.0,425.0,,430.0,420.0,500.0,BetRivers,500.0,6.0,5.357142857142857,1.12
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Rushing,110,,,,500.0,566.0,,490.0,,,DraftKings,566.0,6.66,5.95,1.119327731092437
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Rushing,25,,,140.0,,141.0,185.0,194.0,,185.0,FanDuel,194.0,2.94,2.6275,1.1189343482397716
+Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Receiving,50,625.0,,,700.0,620.0,,,,600.0,Caesars,700.0,8.0,7.1499999999999995,1.118881118881119
 Miami Dolphins @ Atlanta Falcons,Ollie Gordon II,AnytimeTD,Anytime,,430.0,440.0,450.0,500.0,,480.0,420.0,400.0,DraftKings,500.0,6.0,5.366666666666667,1.1180124223602483
 Green Bay Packers @ Pittsburgh Steelers,Christian Watson,AnytimeTD,Anytime,,,350.0,330.0,260.0,,360.0,325.0,375.0,HardRockBet,375.0,4.75,4.25,1.1176470588235294
+Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,25,,,,,,,-154.0,,-210.0,FanDuel,-154.0,1.6493506493506493,1.4761904761904763,1.1173020527859236
 Buffalo Bills @ Carolina Panthers,Buffalo Bills D/ST,AnytimeTD,Anytime,500.0,,,,425.0,,,450.0,,BetMGM,500.0,6.0,5.375,1.1162790697674418
 Tampa Bay Buccaneers @ New Orleans Saints,Tez Johnson,Receiving,50,,,,115.0,,,,,140.0,HardRockBet,140.0,2.4,2.15,1.1162790697674418
+Tennessee Titans @ Indianapolis Colts,Daniel Jones,AnytimeTD,Anytime,145.0,215.0,230.0,225.0,245.0,,230.0,205.0,250.0,HardRockBet,250.0,3.5,3.1357142857142857,1.1161731207289294
 Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,110,,,,,960.0,,850.0,,,DraftKings,960.0,10.6,9.5,1.1157894736842104
 Cleveland Browns @ New England Patriots,Jerry Jeudy,AnytimeTD,Anytime,280.0,,275.0,285.0,300.0,,280.0,270.0,325.0,HardRockBet,325.0,4.25,3.8166666666666664,1.1135371179039302
+Washington Commanders @ Kansas City Chiefs,Travis Kelce,AnytimeTD,Anytime,,,-114.0,105.0,105.0,,-110.0,100.0,120.0,HardRockBet,120.0,2.2,1.9772567783094097,1.1126526529756242
 Dallas Cowboys @ Denver Broncos,KaVontae Turpin,AnytimeTD,Anytime,550.0,390.0,500.0,500.0,550.0,,500.0,500.0,450.0,BetMGM,550.0,6.5,5.8428571428571425,1.1124694376528117
 Dallas Cowboys @ Denver Broncos,Jake Ferguson,Receiving,80,,,,600.0,546.0,,640.0,,550.0,FanDuel,640.0,7.4,6.653333333333333,1.1122244488977957
 Tampa Bay Buccaneers @ New Orleans Saints,Juwan Johnson,Receiving,50,,,,140.0,,,178.0,,160.0,FanDuel,178.0,2.7800000000000002,2.5,1.112
-Tennessee Titans @ Indianapolis Colts,Cam Ward,Passing,300,,,,900.0,,,800.0,,800.0,Caesars,900.0,10.0,9.0,1.1111111111111112
-Buffalo Bills @ Carolina Panthers,Jalen Coker,AnytimeTD,Anytime,525.0,,,500.0,500.0,,550.0,500.0,400.0,FanDuel,550.0,6.5,5.85,1.1111111111111112
 Green Bay Packers @ Pittsburgh Steelers,Calvin Austin III,Receiving,50,260.0,,,305.0,,,,,325.0,HardRockBet,325.0,4.25,3.825,1.1111111111111112
+Buffalo Bills @ Carolina Panthers,Jalen Coker,AnytimeTD,Anytime,525.0,,,500.0,500.0,,550.0,500.0,400.0,FanDuel,550.0,6.5,5.85,1.1111111111111112
+Tennessee Titans @ Indianapolis Colts,Cam Ward,Passing,300,,,,900.0,,,800.0,,800.0,Caesars,900.0,10.0,9.0,1.1111111111111112
 Buffalo Bills @ Carolina Panthers,Elijah Moore,AnytimeTD,Anytime,575.0,,,525.0,550.0,,550.0,450.0,600.0,HardRockBet,600.0,7.0,6.3,1.1111111111111112
 San Francisco 49ers @ Houston Texans,Mac Jones,Passing,300,,,,450.0,,,580.0,,575.0,FanDuel,580.0,6.8,6.125,1.110204081632653
 Buffalo Bills @ Carolina Panthers,Keon Coleman,Receiving,50,105.0,112.0,,105.0,132.0,,118.0,,105.0,DraftKings,132.0,2.3200000000000003,2.09,1.1100478468899524
 Buffalo Bills @ Carolina Panthers,Khalil Shakir,Receiving,80,,325.0,,285.0,359.0,,320.0,,325.0,DraftKings,359.0,4.59,4.1375,1.1093655589123865
-Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,AnytimeTD,Anytime,,440.0,440.0,400.0,400.0,,450.0,420.0,275.0,FanDuel,450.0,5.5,4.958333333333333,1.1092436974789917
 Buffalo Bills @ Carolina Panthers,Rico Dowdle,AnytimeTD,Anytime,145.0,,,145.0,135.0,,160.0,165.0,110.0,Fanatics,165.0,2.65,2.3899999999999997,1.1087866108786613
 Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,Receiving,80,,175.0,,155.0,207.0,,178.0,,200.0,DraftKings,207.0,3.07,2.77,1.108303249097473
 Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,80,,,475.0,400.0,368.0,500.0,490.0,,475.0,ESPNBET,500.0,6.0,5.4159999999999995,1.1078286558345645
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,Rushing,110,,205.0,,150.0,182.0,,194.0,,,BetRivers,205.0,3.05,2.7533333333333334,1.1077481840193704
 Tampa Bay Buccaneers @ New Orleans Saints,Tez Johnson,AnytimeTD,Anytime,,,350.0,,320.0,,350.0,325.0,230.0,Bovada,350.0,4.5,4.0625,1.1076923076923078
-Washington Commanders @ Kansas City Chiefs,Travis Kelce,AnytimeTD,Anytime,,,-114.0,105.0,105.0,,-110.0,105.0,120.0,HardRockBet,120.0,2.2,1.9872567783094097,1.1070537154597477
-Tennessee Titans @ Indianapolis Colts,Daniel Jones,AnytimeTD,Anytime,145.0,215.0,240.0,225.0,245.0,,240.0,205.0,250.0,HardRockBet,250.0,3.5,3.164285714285714,1.1060948081264108
 Tampa Bay Buccaneers @ New Orleans Saints,Rashid Shaheed,Receiving,80,,,,360.0,,,390.0,,425.0,HardRockBet,425.0,5.25,4.75,1.105263157894737
 Tennessee Titans @ Indianapolis Colts,Mo Alie-Cox,AnytimeTD,Anytime,1100.0,1100.0,1000.0,1000.0,1100.0,,1000.0,850.0,850.0,BetMGM,1100.0,12.0,10.857142857142858,1.1052631578947367
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Rushing,80,,230.0,,175.0,220.0,,205.0,,195.0,BetRivers,230.0,3.3,2.9875,1.104602510460251
 Washington Commanders @ Kansas City Chiefs,Jacory Croskey-Merritt,AnytimeTD,Anytime,,,230.0,215.0,225.0,,230.0,240.0,140.0,Fanatics,240.0,3.4,3.08,1.103896103896104
 Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,Receiving,80,,335.0,300.0,255.0,306.0,325.0,350.0,,325.0,FanDuel,350.0,4.5,4.076666666666667,1.1038430089942763
-Cleveland Browns @ New England Patriots,Drake Maye,Passing,250,,195.0,,145.0,181.0,,178.0,,165.0,BetRivers,195.0,2.95,2.6725,1.1038353601496727
 Buffalo Bills @ Carolina Panthers,James Cook,Rushing,110,,,,340.0,366.0,,400.0,,,FanDuel,400.0,5.0,4.53,1.1037527593818983
 Tampa Bay Buccaneers @ New Orleans Saints,Spencer Rattler,Passing,250,,,,185.0,242.0,,225.0,,220.0,DraftKings,242.0,3.42,3.1,1.103225806451613
 Tampa Bay Buccaneers @ New Orleans Saints,Rashid Shaheed,Receiving,50,,,,100.0,,,108.0,,125.0,HardRockBet,125.0,2.25,2.04,1.1029411764705883
 Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,AnytimeTD,Anytime,,,160.0,,165.0,,165.0,180.0,195.0,HardRockBet,195.0,2.95,2.675,1.1028037383177571
 Miami Dolphins @ Atlanta Falcons,Drake London,Receiving,80,,185.0,,135.0,182.0,,172.0,,145.0,BetRivers,185.0,2.85,2.585,1.1025145067698259
-Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Rushing,50,750.0,,,,700.0,900.0,880.0,,900.0,ESPNBET,900.0,10.0,9.075,1.1019283746556474
 Washington Commanders @ Kansas City Chiefs,Rashee Rice,Receiving,80,,132.0,,125.0,143.0,,144.0,,160.0,HardRockBet,160.0,2.6,2.36,1.1016949152542375
 Buffalo Bills @ Carolina Panthers,Rico Dowdle,Rushing,110,,,,,1080.0,,1200.0,,,FanDuel,1200.0,13.0,11.8,1.1016949152542372
 Buffalo Bills @ Carolina Panthers,Josh Allen,Rushing,50,225.0,265.0,,230.0,212.0,,270.0,,275.0,HardRockBet,275.0,3.75,3.404,1.101645123384254
 San Francisco 49ers @ Houston Texans,Braxton Berrios,AnytimeTD,Anytime,800.0,,725.0,700.0,750.0,,750.0,660.0,,BetMGM,800.0,9.0,8.17,1.1015911872705018
-Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,Receiving,110,,,675.0,650.0,760.0,700.0,700.0,,,DraftKings,760.0,8.6,7.8125,1.1008
 Washington Commanders @ Kansas City Chiefs,Travis Kelce,Receiving,80,,450.0,,400.0,411.0,,430.0,,475.0,HardRockBet,475.0,5.75,5.2275,1.099952175992348
 San Francisco 49ers @ Houston Texans,Kyle Juszczyk,AnytimeTD,Anytime,1100.0,,1100.0,1000.0,1000.0,,1100.0,850.0,900.0,BetMGM,1100.0,12.0,10.916666666666666,1.099236641221374
 Chicago Bears @ Baltimore Ravens,DJ Moore,Receiving,80,,,,475.0,532.0,,,,,DraftKings,532.0,6.32,5.75,1.0991304347826087
+Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,Rushing,80,,225.0,,210.0,253.0,,200.0,,250.0,DraftKings,253.0,3.53,3.2125,1.0988326848249026
 New York Jets @ Cincinnati Bengals,Tee Higgins,Receiving,80,,,,205.0,258.0,,220.0,,260.0,HardRockBet,260.0,3.6,3.276666666666667,1.0986775178026449
 Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,110,,,625.0,750.0,730.0,700.0,640.0,,,Caesars,750.0,8.5,7.737500000000001,1.098546042003231
+Green Bay Packers @ Pittsburgh Steelers,Ben Sims,AnytimeTD,Anytime,,,1300.0,1200.0,1300.0,,1300.0,900.0,,Bovada,1300.0,14.0,12.75,1.0980392156862746
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,AnytimeTD,Anytime,,,600.0,,600.0,,600.0,500.0,450.0,Bovada,600.0,7.0,6.375,1.0980392156862746
 New York Jets @ Cincinnati Bengals,Ja'Marr Chase,Receiving,110,,,,155.0,192.0,200.0,210.0,,,FanDuel,210.0,3.1,2.823333333333333,1.0979929161747346
 Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Receiving,25,160.0,,220.0,,201.0,,220.0,,185.0,Bovada,220.0,3.2,2.9149999999999996,1.0977701543739282
@@ -389,33 +391,37 @@ Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Rushing,25,,,,,,-500.0,-1
 New York Jets @ Cincinnati Bengals,Joe Flacco,Passing,300,,,,240.0,304.0,,320.0,,325.0,HardRockBet,325.0,4.25,3.8800000000000003,1.095360824742268
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,Rushing,50,,,,-115.0,105.0,,-114.0,,-115.0,DraftKings,105.0,2.05,1.8721078057462497,1.0950224093440173
 New York Giants @ Philadelphia Eagles,Wan'Dale Robinson,AnytimeTD,Anytime,320.0,295.0,275.0,290.0,310.0,,280.0,295.0,240.0,BetMGM,320.0,4.2,3.8357142857142854,1.0949720670391063
-Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,Rushing,80,,225.0,,210.0,253.0,,205.0,,250.0,DraftKings,253.0,3.53,3.2249999999999996,1.0945736434108528
 Tampa Bay Buccaneers @ New Orleans Saints,Juwan Johnson,Receiving,80,,,,750.0,,700.0,680.0,,650.0,Caesars,750.0,8.5,7.766666666666667,1.094420600858369
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Rushing,25,,,,,179.0,,,,155.0,DraftKings,179.0,2.79,2.55,1.0941176470588236
-Miami Dolphins @ Atlanta Falcons,Kyle Pitts,AnytimeTD,Anytime,,210.0,185.0,180.0,175.0,,190.0,170.0,200.0,BetRivers,210.0,3.1,2.8333333333333335,1.0941176470588234
-Cleveland Browns @ New England Patriots,Rhamondre Stevenson,Rushing,110,,,,950.0,860.0,,,,,Caesars,950.0,10.5,9.6,1.09375
 San Francisco 49ers @ Houston Texans,Nick Chubb,AnytimeTD,Anytime,250.0,,230.0,225.0,215.0,,230.0,225.0,195.0,BetMGM,250.0,3.5,3.1999999999999997,1.09375
+Cleveland Browns @ New England Patriots,Rhamondre Stevenson,Rushing,110,,,,950.0,860.0,,,,,Caesars,950.0,10.5,9.6,1.09375
 Chicago Bears @ Baltimore Ravens,Caleb Williams,Passing,250,,,,140.0,163.0,,,,175.0,HardRockBet,175.0,2.75,2.5149999999999997,1.0934393638170976
 Buffalo Bills @ Carolina Panthers,Dawson Knox,AnytimeTD,Anytime,240.0,,,215.0,225.0,,210.0,195.0,,BetMGM,240.0,3.4,3.1125,1.0923694779116466
+Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,Receiving,110,,,675.0,675.0,760.0,700.0,700.0,,,DraftKings,760.0,8.6,7.875,1.092063492063492
+Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,50,-110.0,,,-107.0,107.0,100.0,116.0,,120.0,HardRockBet,120.0,2.2,2.0147340696686493,1.0919555256053324
 Buffalo Bills @ Carolina Panthers,Khalil Shakir,AnytimeTD,Anytime,210.0,,,185.0,175.0,,190.0,190.0,180.0,BetMGM,210.0,3.1,2.84,1.091549295774648
 Tennessee Titans @ Indianapolis Colts,Will Mallory,AnytimeTD,Anytime,1100.0,,1000.0,1000.0,,,1000.0,,,BetMGM,1100.0,12.0,11.0,1.0909090909090908
 Tampa Bay Buccaneers @ New Orleans Saints,Tampa Bay Buccaneers D/ST,AnytimeTD,Anytime,,,,,500.0,,,450.0,,DraftKings,500.0,6.0,5.5,1.0909090909090908
-Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,50,-110.0,,,-107.0,107.0,,116.0,,120.0,HardRockBet,120.0,2.2,2.0184175870858114,1.0899627579921938
+Miami Dolphins @ Atlanta Falcons,Atlanta Falcons D/ST,AnytimeTD,Anytime,,,,,500.0,,,450.0,,DraftKings,500.0,6.0,5.5,1.0909090909090908
 New York Giants @ Philadelphia Eagles,Jalen Hurts,Rushing,50,310.0,285.0,,265.0,253.0,300.0,320.0,,300.0,FanDuel,320.0,4.2,3.855,1.0894941634241246
 Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,Rushing,50,,-220.0,,-176.0,-212.0,,-210.0,,-160.0,HardRockBet,-160.0,1.625,1.492653965531324,1.0886649133187183
 New York Jets @ Cincinnati Bengals,Tee Higgins,Receiving,110,,,,750.0,760.0,,630.0,,,DraftKings,760.0,8.6,7.9,1.0886075949367087
 Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,80,,330.0,300.0,275.0,338.0,300.0,310.0,,300.0,DraftKings,338.0,4.38,4.0249999999999995,1.0881987577639753
+Miami Dolphins @ Atlanta Falcons,Kyle Pitts,AnytimeTD,Anytime,,210.0,185.0,180.0,175.0,,190.0,180.0,200.0,BetRivers,210.0,3.1,2.85,1.087719298245614
+Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,80,,,,,,185.0,,,210.0,HardRockBet,210.0,3.1,2.85,1.087719298245614
 Miami Dolphins @ Atlanta Falcons,Kyle Pitts,Receiving,110,,,,,1280.0,,1400.0,,,FanDuel,1400.0,15.0,13.8,1.0869565217391304
+Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,AnytimeTD,Anytime,250.0,240.0,210.0,225.0,215.0,,210.0,205.0,250.0,BetMGM,250.0,3.5,3.2214285714285715,1.0864745011086474
 New York Giants @ Philadelphia Eagles,Saquon Barkley,Rushing,80,,-121.0,,-122.0,,,-114.0,,100.0,HardRockBet,100.0,2.0,1.8411037981984724,1.0863048579645582
+Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,110,,,800.0,,850.0,,750.0,,,DraftKings,850.0,9.5,8.75,1.0857142857142856
 Buffalo Bills @ Carolina Panthers,Joshua Palmer,AnytimeTD,Anytime,450.0,,,400.0,400.0,,,420.0,,BetMGM,450.0,5.5,5.066666666666666,1.0855263157894737
 Tennessee Titans @ Indianapolis Colts,Daniel Jones,Passing,300,,,,325.0,419.0,,410.0,,400.0,DraftKings,419.0,5.19,4.783333333333333,1.0850174216027875
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Rushing,50,-185.0,-143.0,,-173.0,-189.0,-170.0,-160.0,,-185.0,BetRivers,-143.0,1.6993006993006992,1.5669085977300303,1.0844925490628263
+Washington Commanders @ Kansas City Chiefs,Kareem Hunt,AnytimeTD,Anytime,,,260.0,240.0,255.0,,260.0,240.0,165.0,Bovada,260.0,3.6,3.3199999999999994,1.0843373493975905
 Dallas Cowboys @ Denver Broncos,Evan Engram,Receiving,50,,270.0,,235.0,259.0,,290.0,,275.0,FanDuel,290.0,3.9,3.5975,1.08408617095205
 New York Giants @ Philadelphia Eagles,Jalen Hurts,Passing,250,230.0,260.0,,210.0,261.0,250.0,265.0,,275.0,HardRockBet,275.0,3.75,3.4599999999999995,1.0838150289017343
 Dallas Cowboys @ Denver Broncos,J.K. Dobbins,Rushing,80,,130.0,,100.0,121.0,,118.0,,110.0,BetRivers,130.0,2.3,2.1225,1.083627797408716
 Dallas Cowboys @ Denver Broncos,Jake Ferguson,Receiving,50,115.0,145.0,,125.0,147.0,,154.0,,140.0,FanDuel,154.0,2.54,2.3440000000000003,1.0836177474402728
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Receiving,50,260.0,,,245.0,290.0,,,,275.0,DraftKings,290.0,3.9,3.6,1.0833333333333333
-Green Bay Packers @ Pittsburgh Steelers,Green Bay Packers D/ST,AnytimeTD,Anytime,,,,,550.0,,,500.0,,DraftKings,550.0,6.5,6.0,1.0833333333333333
 Buffalo Bills @ Carolina Panthers,Curtis Samuel,AnytimeTD,Anytime,525.0,,,475.0,500.0,,500.0,500.0,550.0,HardRockBet,550.0,6.5,6.0,1.0833333333333333
 Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,Receiving,50,145.0,128.0,,115.0,138.0,130.0,136.0,,110.0,BetMGM,145.0,2.45,2.2616666666666663,1.083271923360354
 San Francisco 49ers @ Houston Texans,Jordan Watkins,AnytimeTD,Anytime,3300.0,,3300.0,3300.0,3000.0,,3500.0,,,FanDuel,3500.0,36.0,33.25,1.0827067669172932
@@ -423,84 +429,83 @@ New York Jets @ Cincinnati Bengals,Chase Brown,Rushing,80,,,,245.0,306.0,,280.0,
 Buffalo Bills @ Carolina Panthers,Chuba Hubbard,AnytimeTD,Anytime,225.0,,,215.0,190.0,,230.0,225.0,170.0,FanDuel,230.0,3.3,3.05,1.0819672131147542
 Miami Dolphins @ Atlanta Falcons,Drake London,Receiving,50,-295.0,-230.0,,-209.0,-190.0,,-225.0,,-275.0,DraftKings,-190.0,1.526315789473684,1.4120630734290898,1.0809119069781636
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,Passing,300,,140.0,,130.0,145.0,,162.0,,155.0,FanDuel,162.0,2.62,2.425,1.0804123711340208
-New York Giants @ Philadelphia Eagles,Jalen Hurts,AnytimeTD,Anytime,-130.0,-127.0,-152.0,-137.0,-140.0,,-140.0,-135.0,-115.0,HardRockBet,-115.0,1.8695652173913042,1.7305380367839238,1.0803375468508927
+Washington Commanders @ Kansas City Chiefs,Chris Rodriguez Jr.,AnytimeTD,Anytime,,,1000.0,950.0,950.0,,1000.0,850.0,850.0,Bovada,1000.0,11.0,10.2,1.0784313725490198
 San Francisco 49ers @ Houston Texans,Mac Jones,Passing,250,,190.0,,150.0,,,182.0,,175.0,BetRivers,190.0,2.9,2.69,1.0780669144981412
-Washington Commanders @ Kansas City Chiefs,Kareem Hunt,AnytimeTD,Anytime,,,260.0,240.0,255.0,,260.0,250.0,165.0,Bovada,260.0,3.6,3.34,1.0778443113772456
 San Francisco 49ers @ Houston Texans,Woody Marks,AnytimeTD,Anytime,200.0,,185.0,180.0,175.0,,190.0,190.0,150.0,BetMGM,200.0,3.0,2.7833333333333337,1.0778443113772453
+New York Giants @ Philadelphia Eagles,Jalen Hurts,AnytimeTD,Anytime,-130.0,-127.0,-152.0,-137.0,-140.0,,-140.0,-130.0,-115.0,HardRockBet,-115.0,1.8695652173913042,1.734608040853928,1.0778026928036943
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,AnytimeTD,Anytime,,,300.0,305.0,330.0,,310.0,305.0,275.0,DraftKings,330.0,4.3,3.9899999999999998,1.0776942355889725
 Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Rushing,80,,275.0,,220.0,272.0,,260.0,,240.0,BetRivers,275.0,3.75,3.48,1.0775862068965518
-Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,105.0,125.0,130.0,105.0,114.0,120.0,128.0,,135.0,HardRockBet,135.0,2.35,2.1814285714285715,1.077275703994761
 New York Giants @ Philadelphia Eagles,Jaxson Dart,Rushing,50,195.0,205.0,,160.0,179.0,,182.0,,200.0,BetRivers,205.0,3.05,2.832,1.0769774011299436
+Miami Dolphins @ Atlanta Falcons,Darnell Mooney,AnytimeTD,Anytime,,255.0,320.0,305.0,290.0,,320.0,295.0,275.0,Bovada,320.0,4.2,3.9,1.076923076923077
 Washington Commanders @ Kansas City Chiefs,Rashee Rice,Receiving,110,,430.0,,350.0,417.0,,410.0,,,BetRivers,430.0,5.3,4.923333333333333,1.076506431956669
-Miami Dolphins @ Atlanta Falcons,Kyle Pitts,Receiving,50,105.0,125.0,,100.0,109.0,,122.0,,110.0,BetRivers,125.0,2.25,2.0919999999999996,1.075525812619503
 New York Giants @ Philadelphia Eagles,Wan'Dale Robinson,Receiving,50,-155.0,-150.0,,-137.0,-120.0,,-140.0,,-130.0,DraftKings,-120.0,1.8333333333333335,1.7050542895610001,1.0752345802463341
 Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Receiving,25,120.0,,,,128.0,,122.0,,140.0,HardRockBet,140.0,2.4,2.2333333333333334,1.0746268656716418
 New York Jets @ Cincinnati Bengals,Ja'Marr Chase,Receiving,50,,,,-440.0,-620.0,-700.0,-650.0,,-900.0,Caesars,-440.0,1.2272727272727273,1.1422761825987633,1.0744098020853332
 Dallas Cowboys @ Denver Broncos,CeeDee Lamb,Receiving,80,,120.0,,-104.0,111.0,,112.0,,100.0,BetRivers,120.0,2.2,2.0478846153846155,1.0742792750493004
+Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,105.0,125.0,130.0,105.0,114.0,125.0,128.0,,135.0,HardRockBet,135.0,2.35,2.1885714285714286,1.0737597911227155
 Cleveland Browns @ New England Patriots,Drake Maye,AnytimeTD,Anytime,325.0,,300.0,300.0,320.0,,310.0,295.0,250.0,BetMGM,325.0,4.25,3.9583333333333326,1.073684210526316
-Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,50,-155.0,-143.0,-150.0,-148.0,-137.0,-155.0,-146.0,,-125.0,HardRockBet,-125.0,1.8,1.678117733776684,1.0726303427763761
+Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,50,-155.0,-143.0,-150.0,-148.0,-137.0,-155.0,-148.0,,-125.0,HardRockBet,-125.0,1.8,1.6767954721804497,1.0734761811226383
 Dallas Cowboys @ Denver Broncos,Javonte Williams,Rushing,80,,180.0,,160.0,191.0,,188.0,,200.0,HardRockBet,200.0,3.0,2.7975000000000003,1.072386058981233
+Tennessee Titans @ Indianapolis Colts,Alec Pierce,AnytimeTD,Anytime,220.0,240.0,220.0,215.0,220.0,,220.0,225.0,200.0,BetRivers,240.0,3.4,3.1714285714285713,1.072072072072072
 Cleveland Browns @ New England Patriots,Rhamondre Stevenson,Rushing,50,,,,-213.0,-186.0,,,,-250.0,DraftKings,-186.0,1.5376344086021505,1.4347417840375587,1.0717150819118393
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Passing,250,,,,-121.0,,,-102.0,,-115.0,FanDuel,-102.0,1.9803921568627452,1.8480057491915198,1.071637443622209
 Tampa Bay Buccaneers @ New Orleans Saints,Sterling Shepard,Receiving,50,,,,250.0,,,,,275.0,HardRockBet,275.0,3.75,3.5,1.0714285714285714
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Passing,250,-160.0,-117.0,-125.0,-141.0,-126.0,-140.0,-136.0,,-135.0,BetRivers,-117.0,1.8547008547008548,1.731170174925762,1.0713567513837223
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Rushing,80,,150.0,,130.0,149.0,150.0,158.0,,165.0,HardRockBet,165.0,2.65,2.4739999999999998,1.0711398544866613
 Cleveland Browns @ New England Patriots,Hunter Henry,AnytimeTD,Anytime,185.0,,175.0,170.0,160.0,,175.0,160.0,190.0,HardRockBet,190.0,2.9,2.7083333333333335,1.0707692307692307
+Miami Dolphins @ Atlanta Falcons,Kyle Pitts,Receiving,50,110.0,125.0,,100.0,109.0,,122.0,,110.0,BetRivers,125.0,2.25,2.102,1.070409134157945
 Buffalo Bills @ Carolina Panthers,James Cook,Rushing,50,-525.0,-560.0,,-325.0,-353.0,,-390.0,,-500.0,Caesars,-325.0,1.3076923076923077,1.2217487988876092,1.070344664044646
 Buffalo Bills @ Carolina Panthers,Josh Allen,Passing,300,500.0,,,425.0,534.0,,520.0,,525.0,DraftKings,534.0,6.34,5.925,1.070042194092827
-Tennessee Titans @ Indianapolis Colts,Alec Pierce,AnytimeTD,Anytime,220.0,240.0,225.0,215.0,220.0,,220.0,225.0,200.0,BetRivers,240.0,3.4,3.1785714285714284,1.0696629213483146
 Chicago Bears @ Baltimore Ravens,DJ Moore,Receiving,50,,,,115.0,138.0,,,,130.0,DraftKings,138.0,2.38,2.2249999999999996,1.0696629213483146
 Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,Receiving,80,,180.0,,160.0,198.0,175.0,188.0,,190.0,DraftKings,198.0,2.98,2.7860000000000005,1.0696338837042352
 Green Bay Packers @ Pittsburgh Steelers,Pat Freiermuth,Receiving,25,115.0,,,,146.0,,,,145.0,DraftKings,146.0,2.46,2.3,1.0695652173913044
 New York Giants @ Philadelphia Eagles,Dallas Goedert,Receiving,50,,150.0,,120.0,,135.0,140.0,,140.0,BetRivers,150.0,2.5,2.3375000000000004,1.06951871657754
 Minnesota Vikings @ Los Angeles Chargers,Jalen Nailor,Receiving,25,155.0,,180.0,,145.0,,178.0,,170.0,Bovada,180.0,2.8,2.62,1.0687022900763357
 Tennessee Titans @ Indianapolis Colts,Daniel Jones,Passing,250,,135.0,,105.0,123.0,,132.0,,120.0,BetRivers,135.0,2.35,2.2,1.0681818181818181
-Washington Commanders @ Kansas City Chiefs,Chris Rodriguez Jr.,AnytimeTD,Anytime,,,1000.0,950.0,950.0,,1000.0,900.0,850.0,Bovada,1000.0,11.0,10.3,1.0679611650485437
-Miami Dolphins @ Atlanta Falcons,Darnell Mooney,AnytimeTD,Anytime,,255.0,320.0,305.0,290.0,,320.0,315.0,275.0,Bovada,320.0,4.2,3.9333333333333336,1.0677966101694916
 Dallas Cowboys @ Denver Broncos,George Pickens,Receiving,110,,,,550.0,610.0,,580.0,,,DraftKings,610.0,7.1,6.65,1.0676691729323307
 Miami Dolphins @ Atlanta Falcons,Michael Penix Jr.,Passing,250,155.0,188.0,,160.0,189.0,,194.0,,185.0,FanDuel,194.0,2.94,2.7539999999999996,1.067538126361656
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Receiving,25,110.0,,,,127.0,,118.0,,110.0,DraftKings,127.0,2.27,2.1266666666666665,1.0673981191222572
-Green Bay Packers @ Pittsburgh Steelers,Ben Sims,AnytimeTD,Anytime,,,1300.0,1200.0,1300.0,,1300.0,1050.0,,Bovada,1300.0,14.0,13.125,1.0666666666666667
 Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,AnytimeTD,Anytime,200.0,205.0,200.0,200.0,220.0,,200.0,205.0,190.0,DraftKings,220.0,3.2,3.0,1.0666666666666667
 New York Giants @ Philadelphia Eagles,Theo Johnson,Receiving,50,,220.0,,200.0,239.0,225.0,240.0,,210.0,FanDuel,240.0,3.4,3.1879999999999997,1.066499372647428
-New York Giants @ Philadelphia Eagles,DeVonta Smith,AnytimeTD,Anytime,210.0,200.0,180.0,190.0,190.0,,180.0,210.0,185.0,BetMGM,210.0,3.1,2.9071428571428575,1.0663390663390662
 Tampa Bay Buccaneers @ New Orleans Saints,Taysom Hill,AnytimeTD,Anytime,,,250.0,,225.0,,250.0,,210.0,Bovada,250.0,3.5,3.283333333333333,1.0659898477157361
 Green Bay Packers @ Pittsburgh Steelers,Jordan Love,Passing,250,105.0,123.0,,100.0,118.0,,118.0,,105.0,BetRivers,123.0,2.23,2.092,1.065965583173996
 Washington Commanders @ Kansas City Chiefs,Xavier Worthy,Receiving,50,,,,110.0,123.0,,132.0,,120.0,FanDuel,132.0,2.3200000000000003,2.1766666666666667,1.0658499234303216
 Cleveland Browns @ New England Patriots,Stefon Diggs,AnytimeTD,Anytime,160.0,,150.0,155.0,150.0,,155.0,150.0,170.0,HardRockBet,170.0,2.7,2.533333333333333,1.0657894736842106
+Tennessee Titans @ Indianapolis Colts,Tyler Warren,AnytimeTD,Anytime,100.0,118.0,120.0,115.0,110.0,,125.0,100.0,115.0,FanDuel,125.0,2.25,2.111428571428571,1.0656292286874156
 Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,Rushing,25,,,,,-404.0,,-340.0,,-550.0,FanDuel,-340.0,1.2941176470588236,1.2146714671467147,1.0654054878713248
 Dallas Cowboys @ Denver Broncos,CeeDee Lamb,Receiving,50,-500.0,-375.0,,-290.0,-330.0,,-340.0,,-400.0,Caesars,-290.0,1.3448275862068966,1.2627629233511586,1.0649881789670799
 Chicago Bears @ Baltimore Ravens,Caleb Williams,Rushing,25,,,,,177.0,,,,195.0,HardRockBet,195.0,2.95,2.77,1.0649819494584838
 San Francisco 49ers @ Houston Texans,Jaylin Noel,AnytimeTD,Anytime,310.0,,275.0,290.0,300.0,,290.0,295.0,260.0,BetMGM,310.0,4.1,3.85,1.0649350649350648
-Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,130.0,112.0,120.0,120.0,125.0,,120.0,120.0,-105.0,BetMGM,130.0,2.3,2.1603401360544217,1.0646471644046982
 New York Giants @ Philadelphia Eagles,Theo Johnson,Receiving,25,,,,,-175.0,,-210.0,,-210.0,DraftKings,-175.0,1.5714285714285714,1.4761904761904763,1.064516129032258
 Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Receiving,25,,,,,,,102.0,,115.0,HardRockBet,115.0,2.15,2.02,1.0643564356435644
 Dallas Cowboys @ Denver Broncos,Jake Ferguson,Receiving,25,-525.0,,,,-315.0,,-390.0,,-375.0,DraftKings,-315.0,1.3174603174603174,1.237851037851038,1.064312487670152
 Tampa Bay Buccaneers @ New Orleans Saints,Spencer Rattler,Rushing,25,,,,,,185.0,198.0,,175.0,FanDuel,198.0,2.98,2.8,1.0642857142857143
-Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,25,-295.0,,-245.0,,-216.0,,-230.0,,-200.0,HardRockBet,-200.0,1.5,1.411222971953049,1.062907867722766
+New York Giants @ Philadelphia Eagles,DeVonta Smith,AnytimeTD,Anytime,210.0,205.0,180.0,190.0,190.0,,180.0,210.0,185.0,BetMGM,210.0,3.1,2.9142857142857146,1.0637254901960784
 Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,Receiving,80,,245.0,220.0,190.0,233.0,225.0,240.0,,240.0,BetRivers,245.0,3.45,3.246666666666666,1.062628336755647
 New York Giants @ Philadelphia Eagles,Dallas Goedert,Receiving,110,,,,,,1600.0,1500.0,,,ESPNBET,1600.0,17.0,16.0,1.0625
 Dallas Cowboys @ Denver Broncos,Bo Nix,Passing,250,125.0,125.0,,110.0,127.0,,134.0,,115.0,FanDuel,134.0,2.34,2.2039999999999997,1.061705989110708
 Dallas Cowboys @ Denver Broncos,J.K. Dobbins,Rushing,50,-500.0,-455.0,,-325.0,-415.0,,-380.0,,-425.0,Caesars,-325.0,1.3076923076923077,1.2318392175171615,1.0615771028365473
 Washington Commanders @ Kansas City Chiefs,Travis Kelce,Receiving,110,,,,,1280.0,,1200.0,,,DraftKings,1280.0,13.8,13.0,1.0615384615384615
-Tampa Bay Buccaneers @ New Orleans Saints,Rashid Shaheed,AnytimeTD,Anytime,,,230.0,,235.0,,230.0,225.0,250.0,HardRockBet,250.0,3.5,3.3,1.0606060606060606
-Tennessee Titans @ Indianapolis Colts,Tyjae Spears,AnytimeTD,Anytime,350.0,325.0,320.0,330.0,350.0,,320.0,325.0,300.0,BetMGM,350.0,4.5,4.242857142857143,1.0606060606060606
 Green Bay Packers @ Pittsburgh Steelers,Romeo Doubs,Receiving,110,,,,,950.0,900.0,880.0,,,DraftKings,950.0,10.5,9.9,1.0606060606060606
+Tampa Bay Buccaneers @ New Orleans Saints,Rashid Shaheed,AnytimeTD,Anytime,,,230.0,,235.0,,230.0,225.0,250.0,HardRockBet,250.0,3.5,3.3,1.0606060606060606
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,AnytimeTD,Anytime,,,180.0,170.0,180.0,,180.0,175.0,115.0,Bovada,180.0,2.8,2.64,1.0606060606060606
+Tennessee Titans @ Indianapolis Colts,Tyjae Spears,AnytimeTD,Anytime,350.0,325.0,320.0,330.0,350.0,,320.0,325.0,300.0,BetMGM,350.0,4.5,4.242857142857143,1.0606060606060606
 New York Giants @ Philadelphia Eagles,Jalen Hurts,Rushing,25,-200.0,,,,-163.0,-190.0,-178.0,,-200.0,DraftKings,-163.0,1.6134969325153374,1.5220283855706682,1.0600964790222187
-Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,AnytimeTD,Anytime,,170.0,180.0,180.0,170.0,,185.0,195.0,185.0,Fanatics,195.0,2.95,2.783333333333333,1.0598802395209581
 Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,Rushing,50,,,,-129.0,,,-146.0,,-120.0,HardRockBet,-120.0,1.8333333333333335,1.7300626526494638,1.059691873312055
-Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,190.0,205.0,185.0,190.0,185.0,,190.0,175.0,200.0,BetRivers,205.0,3.05,2.8785714285714286,1.0595533498759304
+Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,Receiving,110,,240.0,230.0,180.0,240.0,225.0,230.0,,,BetRivers,240.0,3.4,3.21,1.0591900311526479
 Dallas Cowboys @ Denver Broncos,Jake Ferguson,AnytimeTD,Anytime,175.0,195.0,185.0,175.0,180.0,,190.0,175.0,170.0,BetRivers,195.0,2.95,2.785714285714285,1.0589743589743592
 Dallas Cowboys @ Denver Broncos,Jaleel McLaughlin,AnytimeTD,Anytime,350.0,,,330.0,320.0,,,325.0,,BetMGM,350.0,4.5,4.25,1.0588235294117647
-Minnesota Vikings @ Los Angeles Chargers,C.J. Ham,AnytimeTD,Anytime,3500.0,3300.0,,,,,,,,BetMGM,3500.0,36.0,34.0,1.0588235294117647
 New York Giants @ Philadelphia Eagles,Darius Slayton,AnytimeTD,Anytime,,,,,,,,325.0,350.0,HardRockBet,350.0,4.5,4.25,1.0588235294117647
+Minnesota Vikings @ Los Angeles Chargers,C.J. Ham,AnytimeTD,Anytime,3500.0,3300.0,,,,,,,,BetMGM,3500.0,36.0,34.0,1.0588235294117647
 Buffalo Bills @ Carolina Panthers,Dalton Kincaid,AnytimeTD,Anytime,225.0,,,210.0,200.0,,210.0,205.0,210.0,BetMGM,225.0,3.25,3.07,1.0586319218241043
 Buffalo Bills @ Carolina Panthers,Keon Coleman,Receiving,25,-450.0,,,,-315.0,,-380.0,,-400.0,DraftKings,-315.0,1.3174603174603174,1.2451267056530215,1.0580933743360357
 New York Giants @ Philadelphia Eagles,DeVonta Smith,Receiving,50,,-143.0,,,,,,,-165.0,BetRivers,-143.0,1.6993006993006992,1.606060606060606,1.058055152394775
+Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,50,-115.0,-110.0,,-122.0,-113.0,-130.0,-122.0,,-105.0,HardRockBet,-105.0,1.9523809523809523,1.8453644850367426,1.0579920488401937
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Receiving,25,-225.0,,,,-163.0,,,,-165.0,DraftKings,-163.0,1.6134969325153374,1.525252525252525,1.0578556047617114
 Washington Commanders @ Kansas City Chiefs,Jacory Croskey-Merritt,Rushing,50,,,,-103.0,,,100.0,,110.0,HardRockBet,110.0,2.1,1.9854368932038835,1.0577017114914427
+Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,130.0,112.0,120.0,120.0,125.0,,120.0,130.0,-105.0,BetMGM,130.0,2.3,2.174625850340136,1.0576532048675196
 Buffalo Bills @ Carolina Panthers,Rico Dowdle,Rushing,50,-135.0,,,-125.0,-129.0,,-110.0,,-110.0,FanDuel,-110.0,1.9090909090909092,1.8062563620703156,1.0569324206574562
+Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,190.0,205.0,185.0,190.0,185.0,,190.0,180.0,200.0,BetRivers,205.0,3.05,2.8857142857142857,1.056930693069307
 Buffalo Bills @ Carolina Panthers,Khalil Shakir,Receiving,50,-115.0,-121.0,,-117.0,-102.0,,-110.0,,-110.0,DraftKings,-102.0,1.9803921568627452,1.8737788342531423,1.0568974954037718
 New York Giants @ Philadelphia Eagles,Philadelphia Eagles D/ST,AnytimeTD,Anytime,525.0,,525.0,,500.0,,,450.0,,BetMGM,525.0,6.25,5.916666666666667,1.056338028169014
 Tennessee Titans @ Indianapolis Colts,DJ Giddens,AnytimeTD,Anytime,700.0,510.0,700.0,675.0,700.0,,700.0,660.0,,BetMGM,700.0,8.0,7.575,1.056105610561056
@@ -508,95 +513,91 @@ Buffalo Bills @ Carolina Panthers,Tetairoa McMillan,Receiving,25,,,,,-509.0,,-75
 Buffalo Bills @ Carolina Panthers,James Cook,Rushing,80,,118.0,,105.0,121.0,,124.0,,105.0,FanDuel,124.0,2.24,2.1224999999999996,1.0553592461719674
 Tennessee Titans @ Indianapolis Colts,Chigoziem Okonkwo,AnytimeTD,Anytime,450.0,430.0,500.0,475.0,475.0,,500.0,450.0,500.0,Bovada,500.0,6.0,5.685714285714285,1.0552763819095479
 Buffalo Bills @ Carolina Panthers,Xavier Legette,Receiving,50,,,,190.0,209.0,,225.0,,225.0,FanDuel,225.0,3.25,3.08,1.0551948051948052
-Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,50,-115.0,-110.0,,,-113.0,-130.0,-122.0,,-105.0,HardRockBet,-105.0,1.9523809523809523,1.8505029558145825,1.0550542198520962
 San Francisco 49ers @ Houston Texans,Demarcus Robinson,AnytimeTD,Anytime,900.0,,900.0,850.0,850.0,,900.0,740.0,,BetMGM,900.0,10.0,9.48,1.0548523206751055
+Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,160.0,165.0,160.0,160.0,150.0,,165.0,175.0,165.0,Fanatics,175.0,2.75,2.607142857142857,1.0547945205479452
 Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,AnytimeTD,Anytime,,,180.0,,165.0,,185.0,170.0,190.0,HardRockBet,190.0,2.9,2.75,1.0545454545454545
+New York Giants @ Philadelphia Eagles,AJ Brown,AnytimeTD,Anytime,180.0,160.0,180.0,180.0,180.0,,180.0,190.0,165.0,Fanatics,190.0,2.9,2.75,1.0545454545454545
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Rushing,50,-350.0,-360.0,,-265.0,-347.0,-325.0,-290.0,,-300.0,Caesars,-265.0,1.3773584905660377,1.3062549547941578,1.0544331223479144
 Dallas Cowboys @ Denver Broncos,Courtland Sutton,Receiving,80,,175.0,,155.0,184.0,,188.0,,180.0,FanDuel,188.0,2.88,2.7350000000000003,1.0530164533820838
 Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,Receiving,110,,,900.0,,960.0,900.0,920.0,,,DraftKings,960.0,10.6,10.066666666666666,1.0529801324503312
 Buffalo Bills @ Carolina Panthers,Tetairoa McMillan,Receiving,80,,,,185.0,216.0,,225.0,,225.0,FanDuel,225.0,3.25,3.0866666666666664,1.052915766738661
-Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,Receiving,110,,240.0,230.0,190.0,240.0,225.0,230.0,,,BetRivers,240.0,3.4,3.2299999999999995,1.0526315789473686
 Tampa Bay Buccaneers @ New Orleans Saints,Juwan Johnson,AnytimeTD,Anytime,,,275.0,,270.0,,290.0,285.0,300.0,HardRockBet,300.0,4.0,3.8,1.0526315789473684
-Buffalo Bills @ Carolina Panthers,Josh Allen,Passing,250,155.0,155.0,,135.0,159.0,,164.0,,150.0,FanDuel,164.0,2.6399999999999997,2.508,1.0526315789473684
 San Francisco 49ers @ Houston Texans,George Kittle,AnytimeTD,Anytime,200.0,,200.0,190.0,180.0,,200.0,165.0,175.0,BetMGM,200.0,3.0,2.85,1.0526315789473684
+Buffalo Bills @ Carolina Panthers,Josh Allen,Passing,250,155.0,155.0,,135.0,159.0,,164.0,,150.0,FanDuel,164.0,2.6399999999999997,2.508,1.0526315789473684
 Dallas Cowboys @ Denver Broncos,RJ Harvey,AnytimeTD,Anytime,300.0,260.0,275.0,280.0,295.0,,290.0,285.0,275.0,BetMGM,300.0,4.0,3.8,1.0526315789473684
 Miami Dolphins @ Atlanta Falcons,Drake London,Receiving,25,-3000.0,,,,-900.0,,-1400.0,,-1600.0,DraftKings,-900.0,1.1111111111111112,1.0557539682539683,1.0524337530539372
 Tampa Bay Buccaneers @ New Orleans Saints,Rashid Shaheed,Receiving,25,,,,,,,-450.0,,-350.0,HardRockBet,-350.0,1.2857142857142856,1.2222222222222223,1.0519480519480517
 Washington Commanders @ Kansas City Chiefs,Deebo Samuel Sr.,AnytimeTD,Anytime,,,225.0,210.0,200.0,,220.0,215.0,200.0,Bovada,225.0,3.25,3.0900000000000003,1.0517799352750807
-Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,AnytimeTD,Anytime,,150.0,140.0,145.0,145.0,,145.0,130.0,155.0,HardRockBet,155.0,2.55,2.4250000000000003,1.0515463917525771
 New York Giants @ Philadelphia Eagles,Theo Johnson,Receiving,80,,,,,910.0,900.0,920.0,,800.0,FanDuel,920.0,10.2,9.700000000000001,1.0515463917525771
 New York Jets @ Cincinnati Bengals,Joe Flacco,Passing,250,,,,-117.0,-108.0,,-102.0,,-115.0,FanDuel,-102.0,1.9803921568627452,1.8833973326726952,1.0514999264931562
+New York Giants @ Philadelphia Eagles,Cam Skattebo,AnytimeTD,Anytime,-105.0,102.0,-114.0,-107.0,-115.0,,-110.0,-105.0,-105.0,BetRivers,102.0,2.02,1.921081629333364,1.0514909773516297
+Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,25,-295.0,,-245.0,,-216.0,,-200.0,,-200.0,FanDuel,-200.0,1.5,1.4275273197791358,1.0507679812615265
 Buffalo Bills @ Carolina Panthers,Tetairoa McMillan,Receiving,110,,,,600.0,590.0,,630.0,,,FanDuel,630.0,7.3,6.95,1.0503597122302157
 New York Giants @ Philadelphia Eagles,Jaxson Dart,AnytimeTD,Anytime,240.0,245.0,230.0,220.0,215.0,,230.0,225.0,240.0,BetRivers,245.0,3.45,3.285714285714285,1.0500000000000003
 Cleveland Browns @ New England Patriots,David Njoku,AnytimeTD,Anytime,310.0,,300.0,305.0,320.0,,300.0,285.0,,DraftKings,320.0,4.2,4.0,1.05
 Miami Dolphins @ Atlanta Falcons,Miami Dolphins D/ST,AnytimeTD,Anytime,,,,,500.0,,,530.0,,Fanatics,530.0,6.3,6.0,1.05
-Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,AnytimeTD,Anytime,,123.0,130.0,125.0,125.0,,130.0,135.0,110.0,Fanatics,135.0,2.35,2.238333333333333,1.0498883097542817
 Washington Commanders @ Kansas City Chiefs,Rashee Rice,Receiving,50,,-335.0,,-230.0,-247.0,,-270.0,,-225.0,HardRockBet,-225.0,1.4444444444444444,1.3771296853369328,1.048880479321773
 New York Giants @ Philadelphia Eagles,Saquon Barkley,Rushing,50,-1000.0,,,-460.0,,,-580.0,,-475.0,Caesars,-460.0,1.2173913043478262,1.1609800362976408,1.0485893523458687
+Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-500.0,,-425.0,,-334.0,,-390.0,,-375.0,DraftKings,-334.0,1.2994011976047903,1.2395927601809955,1.0482484565455692
 Cleveland Browns @ New England Patriots,Quinshon Judkins,Rushing,50,,,,-320.0,-345.0,,,,-275.0,HardRockBet,-275.0,1.3636363636363638,1.301177536231884,1.0480017719836725
+Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,AnytimeTD,Anytime,,150.0,140.0,145.0,145.0,,145.0,135.0,155.0,HardRockBet,155.0,2.55,2.433333333333333,1.047945205479452
 Dallas Cowboys @ Denver Broncos,Marvin Mims Jr.,AnytimeTD,Anytime,250.0,235.0,250.0,245.0,235.0,,250.0,240.0,260.0,HardRockBet,260.0,3.6,3.435714285714286,1.0478170478170479
-New York Giants @ Philadelphia Eagles,Cam Skattebo,AnytimeTD,Anytime,-105.0,102.0,-114.0,-107.0,-115.0,,-110.0,100.0,-105.0,BetRivers,102.0,2.02,1.9278843504217993,1.0477806926323392
 Green Bay Packers @ Pittsburgh Steelers,Romeo Doubs,Receiving,50,-135.0,-124.0,,-125.0,-113.0,-115.0,-110.0,,-120.0,FanDuel,-110.0,1.9090909090909092,1.8225077760968322,1.0475076892014734
 Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Rushing,50,-210.0,-177.0,,-173.0,-162.0,,-174.0,,-190.0,DraftKings,-162.0,1.617283950617284,1.5440450685671352,1.0474331245512891
 New York Giants @ Philadelphia Eagles,Dallas Goedert,Receiving,80,,,,575.0,,550.0,580.0,,600.0,HardRockBet,600.0,7.0,6.683333333333334,1.0473815461346634
 Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,Rushing,25,,,,,-2400.0,,,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,1.0416666666666667,1.0472727272727271
-Minnesota Vikings @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-500.0,,-425.0,,-334.0,,-380.0,,-375.0,DraftKings,-334.0,1.2994011976047903,1.2412796697626418,1.0468238780171615
 Dallas Cowboys @ Denver Broncos,George Pickens,Receiving,80,,210.0,,180.0,214.0,,210.0,,200.0,DraftKings,214.0,3.14,3.0,1.0466666666666666
 Washington Commanders @ Kansas City Chiefs,Xavier Worthy,Receiving,80,,,,400.0,418.0,,410.0,,375.0,DraftKings,418.0,5.18,4.95,1.0464646464646463
 Green Bay Packers @ Pittsburgh Steelers,Aaron Rodgers,Passing,250,180.0,190.0,,150.0,189.0,,182.0,,185.0,BetRivers,190.0,2.9,2.772,1.0461760461760463
-Washington Commanders @ Kansas City Chiefs,Brashard Smith,AnytimeTD,Anytime,,,260.0,250.0,245.0,,260.0,270.0,,Fanatics,270.0,3.7,3.5375,1.0459363957597174
 Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,Receiving,25,-800.0,,-625.0,,-482.0,,-600.0,,-600.0,DraftKings,-482.0,1.2074688796680497,1.1545833333333335,1.0458048759304652
 Green Bay Packers @ Pittsburgh Steelers,Romeo Doubs,Receiving,80,,300.0,,260.0,312.0,300.0,310.0,,300.0,DraftKings,312.0,4.12,3.94,1.0456852791878173
 Dallas Cowboys @ Denver Broncos,Bo Nix,Rushing,25,-105.0,,,,100.0,,-114.0,,-110.0,DraftKings,100.0,2.0,1.912888281309334,1.045539365545718
-Tennessee Titans @ Indianapolis Colts,Tyler Warren,AnytimeTD,Anytime,100.0,118.0,120.0,110.0,110.0,,120.0,100.0,115.0,Bovada,120.0,2.2,2.104285714285714,1.0454854039375425
 Buffalo Bills @ Carolina Panthers,Tetairoa McMillan,AnytimeTD,Anytime,200.0,,,185.0,190.0,,185.0,200.0,175.0,BetMGM,200.0,3.0,2.87,1.0452961672473868
 San Francisco 49ers @ Houston Texans,Kendrick Bourne,AnytimeTD,Anytime,350.0,,330.0,330.0,330.0,,340.0,325.0,,BetMGM,350.0,4.5,4.31,1.0440835266821347
 Buffalo Bills @ Carolina Panthers,Josh Allen,Rushing,25,-250.0,,,,-188.0,,-210.0,,-190.0,DraftKings,-188.0,1.5319148936170213,1.4675020885547199,1.0438928200270834
 Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,AnytimeTD,Anytime,145.0,123.0,140.0,140.0,140.0,,145.0,145.0,110.0,BetMGM,145.0,2.45,2.347142857142857,1.043822276323798
 Buffalo Bills @ Carolina Panthers,Keon Coleman,AnytimeTD,Anytime,210.0,,,200.0,200.0,,200.0,200.0,185.0,BetMGM,210.0,3.1,2.9699999999999998,1.043771043771044
 Washington Commanders @ Kansas City Chiefs,Travis Kelce,Receiving,25,,,,,-337.0,,-400.0,,-425.0,DraftKings,-337.0,1.2967359050445104,1.2426470588235294,1.0435271188523871
+Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,50,-235.0,-177.0,-175.0,-170.0,-173.0,-185.0,-198.0,,-165.0,HardRockBet,-165.0,1.606060606060606,1.5391133227891767,1.0434973060658768
 Tennessee Titans @ Indianapolis Colts,Indianapolis Colts D/ST,AnytimeTD,Anytime,500.0,,,,500.0,,,450.0,,BetMGM,500.0,6.0,5.75,1.0434782608695652
 Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,Rushing,110,,,,110.0,119.0,,,,,DraftKings,119.0,2.19,2.1,1.0428571428571427
 Dallas Cowboys @ Denver Broncos,Troy Franklin,AnytimeTD,Anytime,225.0,215.0,220.0,220.0,235.0,,220.0,225.0,225.0,DraftKings,235.0,3.35,3.2142857142857144,1.0422222222222222
 Tennessee Titans @ Indianapolis Colts,Chimere Dike,AnytimeTD,Anytime,450.0,430.0,440.0,425.0,450.0,,450.0,400.0,400.0,BetMGM,450.0,5.5,5.278571428571429,1.0419485791610283
+Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,AnytimeTD,Anytime,,170.0,180.0,180.0,170.0,,185.0,190.0,185.0,Fanatics,190.0,2.9,2.783333333333333,1.0419161676646707
 San Francisco 49ers @ Houston Texans,Ricky Pearsall,AnytimeTD,Anytime,275.0,,260.0,260.0,250.0,,260.0,270.0,,BetMGM,275.0,3.75,3.6,1.0416666666666667
 Washington Commanders @ Kansas City Chiefs,Jacory Croskey-Merritt,Rushing,80,,,,475.0,,,430.0,,475.0,Caesars,475.0,5.75,5.525,1.0407239819004523
-Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,50,,,,-170.0,,-190.0,,,-190.0,Caesars,-170.0,1.5882352941176472,1.526315789473684,1.0405679513184587
+Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,AnytimeTD,Anytime,115.0,115.0,120.0,115.0,105.0,,120.0,100.0,110.0,Bovada,120.0,2.2,2.1142857142857143,1.0405405405405406
 Buffalo Bills @ Carolina Panthers,Xavier Legette,Receiving,80,,,,,730.0,,800.0,,800.0,FanDuel,800.0,9.0,8.65,1.0404624277456647
 Washington Commanders @ Kansas City Chiefs,Travis Kelce,Receiving,50,,106.0,,100.0,120.0,,120.0,,120.0,DraftKings,120.0,2.2,2.115,1.0401891252955082
-Miami Dolphins @ Atlanta Falcons,Atlanta Falcons Defense,AnytimeTD,Anytime,,,525.0,,,,550.0,,,FanDuel,550.0,6.5,6.25,1.04
 Dallas Cowboys @ Denver Broncos,Denver Broncos Defense,AnytimeTD,Anytime,,,525.0,,,,550.0,,,FanDuel,550.0,6.5,6.25,1.04
+Miami Dolphins @ Atlanta Falcons,Atlanta Falcons Defense,AnytimeTD,Anytime,,,525.0,,,,550.0,,,FanDuel,550.0,6.5,6.25,1.04
 Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,Receiving,50,-165.0,-186.0,,-173.0,-179.0,-200.0,-192.0,,-175.0,BetMGM,-165.0,1.606060606060606,1.544431702220346,1.0399039360249207
 New York Jets @ Cincinnati Bengals,Tee Higgins,Receiving,50,,,,-143.0,-137.0,,-166.0,,-145.0,DraftKings,-137.0,1.72992700729927,1.663788503422903,1.0397517495404618
 Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,AnytimeTD,Anytime,125.0,165.0,160.0,160.0,160.0,,165.0,150.0,165.0,BetRivers,165.0,2.65,2.55,1.0392156862745099
 Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,Rushing,80,,,,-245.0,-288.0,,,,-275.0,Caesars,-245.0,1.4081632653061225,1.355429292929293,1.0389057346273394
 Cleveland Browns @ New England Patriots,Harold Fannin Jr.,AnytimeTD,Anytime,310.0,,300.0,295.0,295.0,,300.0,285.0,,BetMGM,310.0,4.1,3.95,1.0379746835443036
-Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Rushing,25,155.0,,,,145.0,155.0,162.0,,155.0,FanDuel,162.0,2.62,2.525,1.0376237623762377
 Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,Rushing,25,-3000.0,,,,-980.0,-1300.0,-1400.0,,-1500.0,DraftKings,-980.0,1.1020408163265305,1.062087912087912,1.0376173231838
 Tennessee Titans @ Indianapolis Colts,Tyler Goodson,AnytimeTD,Anytime,700.0,,700.0,675.0,700.0,,700.0,580.0,,BetMGM,700.0,8.0,7.709999999999999,1.0376134889753568
 Buffalo Bills @ Carolina Panthers,Josh Allen,AnytimeTD,Anytime,110.0,,,105.0,-115.0,,110.0,110.0,100.0,BetMGM,110.0,2.1,2.023913043478261,1.037593984962406
 Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Rushing,50,,,,,730.0,,,,700.0,DraftKings,730.0,8.3,8.0,1.0375
 Dallas Cowboys @ Denver Broncos,CeeDee Lamb,AnytimeTD,Anytime,160.0,130.0,150.0,155.0,160.0,,155.0,160.0,145.0,BetMGM,160.0,2.6,2.507142857142857,1.037037037037037
 Washington Commanders @ Kansas City Chiefs,Kansas City Chiefs Defense,AnytimeTD,Anytime,,,440.0,,,,460.0,,,FanDuel,460.0,5.6,5.4,1.037037037037037
-Washington Commanders @ Kansas City Chiefs,Kansas City Chiefs D/ST,AnytimeTD,Anytime,,,,,450.0,,,470.0,,Fanatics,470.0,5.7,5.5,1.0363636363636364
 New York Jets @ Cincinnati Bengals,Ja'Marr Chase,Receiving,80,,,,-152.0,-160.0,-155.0,-148.0,,-185.0,FanDuel,-148.0,1.6756756756756757,1.6171491419263067,1.0361911788047289
 Buffalo Bills @ Carolina Panthers,Xavier Legette,Receiving,25,,,,,-176.0,,-205.0,,-185.0,DraftKings,-176.0,1.5681818181818183,1.5141727092946606,1.0356690544979619
 New York Giants @ Philadelphia Eagles,Wan'Dale Robinson,Receiving,25,-800.0,,,,-562.0,,-750.0,,-650.0,DraftKings,-562.0,1.1779359430604983,1.1373931623931623,1.0356453529068443
 New York Giants @ Philadelphia Eagles,Saquon Barkley,Receiving,25,,,,,178.0,,194.0,,190.0,FanDuel,194.0,2.94,2.84,1.0352112676056338
 Dallas Cowboys @ Denver Broncos,J.K. Dobbins,AnytimeTD,Anytime,-135.0,-127.0,-122.0,-124.0,-130.0,,-120.0,-120.0,-155.0,FanDuel,-120.0,1.8333333333333335,1.7717130646401917,1.0347800498415674
 Dallas Cowboys @ Denver Broncos,George Pickens,Receiving,50,-200.0,-155.0,,-159.0,-151.0,,-158.0,,-160.0,DraftKings,-151.0,1.6622516556291391,1.6064007000675413,1.0347677609697565
-Miami Dolphins @ Atlanta Falcons,Drake London,AnytimeTD,Anytime,,112.0,110.0,105.0,100.0,,110.0,115.0,110.0,Fanatics,115.0,2.15,2.078333333333333,1.0344827586206897
-Cleveland Browns @ New England Patriots,New England Patriots Defense,AnytimeTD,Anytime,,,625.0,,,,650.0,,,FanDuel,650.0,7.5,7.25,1.0344827586206897
 Minnesota Vikings @ Los Angeles Chargers,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,625.0,,,,650.0,,,FanDuel,650.0,7.5,7.25,1.0344827586206897
+Cleveland Browns @ New England Patriots,New England Patriots Defense,AnytimeTD,Anytime,,,625.0,,,,650.0,,,FanDuel,650.0,7.5,7.25,1.0344827586206897
 New York Giants @ Philadelphia Eagles,AJ Brown,Receiving,80,,132.0,,,,,,,140.0,HardRockBet,140.0,2.4,2.3200000000000003,1.0344827586206895
-Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,50,-235.0,-177.0,-175.0,-170.0,-167.0,-185.0,-172.0,,-165.0,HardRockBet,-165.0,1.606060606060606,1.5529865452056566,1.0341754801538998
 Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,Receiving,25,-275.0,,,,-271.0,,-310.0,,-350.0,DraftKings,-271.0,1.3690036900369003,1.3239770981706467,1.034008588160979
 Tampa Bay Buccaneers @ New Orleans Saints,Emeka Egbuka,AnytimeTD,Anytime,,,-114.0,,-105.0,,-110.0,100.0,100.0,Fanatics,100.0,2.0,1.9346662109820005,1.0337700574120419
-Miami Dolphins @ Atlanta Falcons,De'Von Achane,AnytimeTD,Anytime,,-118.0,-122.0,-114.0,-110.0,,-120.0,-120.0,-115.0,DraftKings,-110.0,1.9090909090909092,1.8467591041300497,1.0337519954938692
 Tampa Bay Buccaneers @ New Orleans Saints,Alvin Kamara,AnytimeTD,Anytime,,,130.0,,115.0,,130.0,130.0,115.0,Bovada,130.0,2.3,2.2249999999999996,1.0337078651685394
 Minnesota Vikings @ Los Angeles Chargers,Jordan Addison,Receiving,25,-800.0,,-690.0,,-620.0,,-700.0,,-550.0,HardRockBet,-550.0,1.1818181818181819,1.1435187504174178,1.0334926133802211
 Dallas Cowboys @ Denver Broncos,Evan Engram,Receiving,25,-200.0,,,,-174.0,,-188.0,,-185.0,DraftKings,-174.0,1.5747126436781609,1.524151811385854,1.0331730946449054
 Dallas Cowboys @ Denver Broncos,Javonte Williams,Rushing,50,-295.0,-295.0,,-230.0,-241.0,,-230.0,,-240.0,Caesars,-230.0,1.434782608695652,1.3888706272786668,1.0330570612663503
+New York Giants @ Philadelphia Eagles,Saquon Barkley,AnytimeTD,Anytime,-145.0,-175.0,-168.0,-152.0,-155.0,,-155.0,-145.0,-155.0,BetMGM,-145.0,1.6896551724137931,1.6356714924129008,1.033003986589787
 Tampa Bay Buccaneers @ New Orleans Saints,Rachaad White,AnytimeTD,Anytime,,,-139.0,,-135.0,,-135.0,-125.0,-130.0,Fanatics,-125.0,1.8,1.7425341777859762,1.0329783042115355
 Dallas Cowboys @ Denver Broncos,George Pickens,Receiving,25,-1100.0,,,,-620.0,,-670.0,,-750.0,DraftKings,-620.0,1.1612903225806452,1.1244987185285693,1.0327182267492652
 New York Jets @ Cincinnati Bengals,Tee Higgins,Receiving,25,,,,,-588.0,,-800.0,,-700.0,DraftKings,-588.0,1.1700680272108843,1.1339285714285714,1.0318710161229847
@@ -604,10 +605,12 @@ Green Bay Packers @ Pittsburgh Steelers,Tucker Kraft,Receiving,25,-650.0,,,,-484
 Buffalo Bills @ Carolina Panthers,Khalil Shakir,Receiving,25,-650.0,,,,-447.0,,-490.0,,-500.0,DraftKings,-447.0,1.2237136465324385,1.1859759288330718,1.0318199693449919
 Green Bay Packers @ Pittsburgh Steelers,Romeo Doubs,Receiving,25,-700.0,,,,-468.0,,-490.0,,-550.0,DraftKings,-468.0,1.2136752136752136,1.176252319109462,1.0318153630456468
 Dallas Cowboys @ Denver Broncos,Dak Prescott,Passing,250,-155.0,-121.0,,-130.0,-122.0,-130.0,-120.0,,-120.0,FanDuel,-120.0,1.8333333333333335,1.777179095709455,1.0315973993614085
+Green Bay Packers @ Pittsburgh Steelers,Jaylen Warren,AnytimeTD,Anytime,,123.0,130.0,125.0,125.0,,130.0,125.0,110.0,Bovada,130.0,2.3,2.23,1.0313901345291479
 Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,Receiving,50,-220.0,-195.0,,-182.0,-184.0,,-210.0,,-190.0,Caesars,-182.0,1.5494505494505495,1.5026700987799386,1.0311315509030181
-New York Giants @ Philadelphia Eagles,Saquon Barkley,AnytimeTD,Anytime,-145.0,-167.0,-168.0,-152.0,-155.0,,-155.0,-145.0,-155.0,BetMGM,-145.0,1.6896551724137931,1.6395820386673308,1.0305401819278055
-Dallas Cowboys @ Denver Broncos,Dallas Cowboys Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
 San Francisco 49ers @ Houston Texans,Jared Wayne,AnytimeTD,Anytime,,,725.0,,,,750.0,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
+Dallas Cowboys @ Denver Broncos,Dallas Cowboys Defense,AnytimeTD,Anytime,,,725.0,,,,750.0,,,FanDuel,750.0,8.5,8.25,1.0303030303030303
+Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,AnytimeTD,Anytime,-400.0,-345.0,-460.0,-360.0,-400.0,,-425.0,-400.0,-350.0,BetRivers,-345.0,1.289855072463768,1.2523110693552784,1.0299797742168153
+Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,155.0,170.0,160.0,160.0,165.0,,165.0,165.0,165.0,BetRivers,170.0,2.7,2.6214285714285714,1.0299727520435968
 San Francisco 49ers @ Houston Texans,Christian McCaffrey,AnytimeTD,Anytime,-160.0,,-168.0,-157.0,-165.0,,-155.0,-160.0,-200.0,FanDuel,-155.0,1.6451612903225805,1.598040229409656,1.0294867801484144
 Buffalo Bills @ Carolina Panthers,Xavier Legette,AnytimeTD,Anytime,320.0,,,305.0,320.0,,310.0,305.0,300.0,BetMGM,320.0,4.2,4.08,1.0294117647058825
 Buffalo Bills @ Carolina Panthers,Tetairoa McMillan,Receiving,50,,,,-152.0,-143.0,,-154.0,,-155.0,DraftKings,-143.0,1.6993006993006992,1.6508022255051118,1.0293787305628013
@@ -616,60 +619,59 @@ Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,50,-115.0,-1
 Buffalo Bills @ Carolina Panthers,Rico Dowdle,Rushing,25,-1100.0,,,,-970.0,,-750.0,,-900.0,FanDuel,-750.0,1.1333333333333333,1.1017043285084522,1.0287091590787358
 New York Giants @ Philadelphia Eagles,AJ Brown,Receiving,50,,-265.0,,,,,,,-240.0,HardRockBet,-240.0,1.4166666666666667,1.3773584905660377,1.0285388127853883
 Dallas Cowboys @ Denver Broncos,Javonte Williams,AnytimeTD,Anytime,-140.0,-134.0,-122.0,-121.0,-120.0,,-120.0,-125.0,-135.0,DraftKings,-120.0,1.8333333333333335,1.782963836745069,1.0282504308557472
+Washington Commanders @ Kansas City Chiefs,Xavier Worthy,AnytimeTD,Anytime,,,150.0,150.0,140.0,,150.0,155.0,150.0,Fanatics,155.0,2.55,2.48,1.0282258064516128
 Tampa Bay Buccaneers @ New Orleans Saints,Juwan Johnson,Receiving,25,,,,,,,-270.0,,-300.0,FanDuel,-270.0,1.3703703703703702,1.3333333333333333,1.0277777777777777
+Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,145.0,140.0,145.0,145.0,,145.0,150.0,140.0,Fanatics,150.0,2.5,2.433333333333333,1.0273972602739727
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,Rushing,50,-1400.0,,,-1000.0,-920.0,,-1000.0,,-800.0,HardRockBet,-800.0,1.125,1.095031055900621,1.0273681225184346
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,Rushing,25,,,,,-700.0,,-800.0,,-1000.0,DraftKings,-700.0,1.1428571428571428,1.1125,1.0272873194221508
-Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,155.0,170.0,160.0,160.0,165.0,,165.0,170.0,165.0,BetRivers,170.0,2.7,2.6285714285714286,1.0271739130434783
+Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,25,-3000.0,,-1600.0,,-1080.0,-1200.0,-1600.0,,-1300.0,DraftKings,-1080.0,1.0925925925925926,1.0637179487179487,1.0271450189492857
 Tampa Bay Buccaneers @ New Orleans Saints,New Orleans Saints Defense,AnytimeTD,Anytime,,,825.0,,,,850.0,,,FanDuel,850.0,9.5,9.25,1.027027027027027
+Miami Dolphins @ Atlanta Falcons,De'Von Achane,AnytimeTD,Anytime,,-118.0,-122.0,-114.0,-110.0,,-120.0,-110.0,-115.0,DraftKings,-110.0,1.9090909090909092,1.859385366756312,1.0267322434731796
 Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Receiving,25,,,,,208.0,,,,200.0,DraftKings,208.0,3.08,3.0,1.0266666666666666
 Minnesota Vikings @ Los Angeles Chargers,Keenan Allen,Receiving,50,-135.0,-118.0,-120.0,-124.0,-115.0,-120.0,-114.0,,-115.0,FanDuel,-114.0,1.8771929824561404,1.8286352974588411,1.026554056494905
 Cleveland Browns @ New England Patriots,Rhamondre Stevenson,Rushing,25,,,,,-1480.0,,,,-2500.0,DraftKings,-1480.0,1.0675675675675675,1.04,1.0265072765072765
 Cleveland Browns @ New England Patriots,Quinshon Judkins,Rushing,25,,,,,-3500.0,,,,-1800.0,HardRockBet,-1800.0,1.0555555555555556,1.0285714285714285,1.0262345679012348
 Dallas Cowboys @ Denver Broncos,George Pickens,AnytimeTD,Anytime,175.0,175.0,180.0,175.0,175.0,,180.0,175.0,155.0,Bovada,180.0,2.8,2.7285714285714286,1.0261780104712042
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,Passing,250,,-286.0,,-218.0,-223.0,,-230.0,,-220.0,Caesars,-218.0,1.4587155963302751,1.4218522265412497,1.0259263016936002
-Minnesota Vikings @ Los Angeles Chargers,Kimani Vidal,Rushing,25,-3000.0,,-1600.0,,-1080.0,-1200.0,-1450.0,,-1300.0,DraftKings,-1080.0,1.0925925925925926,1.0650110521662244,1.025897891266262
 Dallas Cowboys @ Denver Broncos,Denver Broncos D/ST,AnytimeTD,Anytime,500.0,,,,500.0,,,470.0,,BetMGM,500.0,6.0,5.85,1.0256410256410258
 Chicago Bears @ Baltimore Ravens,Rome Odunze,Receiving,50,,,,-173.0,-169.0,,,,-190.0,DraftKings,-169.0,1.5917159763313609,1.5521752357773044,1.0254744049786717
 Chicago Bears @ Baltimore Ravens,Rome Odunze,Receiving,25,,,,,-750.0,,,,-950.0,DraftKings,-750.0,1.1333333333333333,1.1052631578947367,1.0253968253968255
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,Rushing,80,,-195.0,,-182.0,-179.0,,-174.0,,-170.0,HardRockBet,-170.0,1.5882352941176472,1.5489107309565795,1.0253885278054609
+Washington Commanders @ Kansas City Chiefs,Brashard Smith,AnytimeTD,Anytime,,,260.0,250.0,245.0,,260.0,250.0,,Bovada,260.0,3.6,3.5125,1.0249110320284698
 Cleveland Browns @ New England Patriots,Rhamondre Stevenson,AnytimeTD,Anytime,105.0,,100.0,100.0,-105.0,,100.0,105.0,100.0,BetMGM,105.0,2.05,2.0003968253968254,1.024796667327911
-Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,AnytimeTD,Anytime,-400.0,-345.0,-400.0,-360.0,-400.0,,-400.0,-400.0,-350.0,BetRivers,-345.0,1.289855072463768,1.2590702947845804,1.0244504042440734
-Minnesota Vikings @ Los Angeles Chargers,Jordan Mason,AnytimeTD,Anytime,115.0,115.0,110.0,115.0,105.0,,115.0,100.0,110.0,BetMGM,115.0,2.15,2.1,1.0238095238095237
-Tennessee Titans @ Indianapolis Colts,Tony Pollard,AnytimeTD,Anytime,175.0,180.0,170.0,175.0,175.0,,170.0,175.0,175.0,BetRivers,180.0,2.8,2.7357142857142853,1.0234986945169713
 New York Jets @ Cincinnati Bengals,Chase Brown,Rushing,50,,,,-164.0,-153.0,,-154.0,,-170.0,DraftKings,-153.0,1.65359477124183,1.6157806803430905,1.0234029849216355
 Miami Dolphins @ Atlanta Falcons,Bijan Robinson,AnytimeTD,Anytime,,-265.0,-250.0,-245.0,-255.0,,-240.0,-235.0,-275.0,Fanatics,-235.0,1.425531914893617,1.3929969414867147,1.0233560982353473
 New York Giants @ Philadelphia Eagles,Dallas Goedert,Receiving,25,,,,,,,-390.0,,-350.0,HardRockBet,-350.0,1.2857142857142856,1.2564102564102564,1.0233236151603498
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,AnytimeTD,Anytime,,-182.0,-190.0,-193.0,-190.0,,-185.0,-185.0,-230.0,BetRivers,-182.0,1.5494505494505495,1.5144383306250013,1.02311894655433
 Miami Dolphins @ Atlanta Falcons,Jaylen Waddle,Receiving,25,-1400.0,,,,-860.0,,-1100.0,,-900.0,DraftKings,-860.0,1.1162790697674418,1.091149591149591,1.0230302781778762
 Chicago Bears @ Baltimore Ravens,D'Andre Swift,Rushing,50,,,,-205.0,-198.0,,,,-220.0,DraftKings,-198.0,1.5050505050505052,1.4711751662971175,1.023026040358369
-Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,AnytimeTD,Anytime,,138.0,130.0,135.0,135.0,,135.0,135.0,140.0,HardRockBet,140.0,2.4,2.3466666666666662,1.022727272727273
-Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,AnytimeTD,Anytime,,200.0,200.0,195.0,195.0,,200.0,205.0,200.0,Fanatics,205.0,3.05,2.983333333333333,1.0223463687150838
-Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,25,-800.0,,,,-590.0,,-650.0,,-650.0,DraftKings,-590.0,1.1694915254237288,1.1442307692307692,1.022076627261074
-Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,160.0,165.0,160.0,160.0,150.0,,165.0,155.0,165.0,BetRivers,165.0,2.65,2.5928571428571425,1.022038567493113
+Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,25,-800.0,,,,-590.0,-700.0,-650.0,,-650.0,DraftKings,-590.0,1.1694915254237288,1.1438873626373627,1.0223834650356944
 Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,Receiving,80,,-121.0,-125.0,-132.0,-119.0,-130.0,-122.0,,-120.0,DraftKings,-119.0,1.8403361344537816,1.8010430453798563,1.021816851726405
+Miami Dolphins @ Atlanta Falcons,Drake London,AnytimeTD,Anytime,,112.0,110.0,105.0,100.0,,110.0,110.0,110.0,BetRivers,112.0,2.12,2.0749999999999997,1.021686746987952
 Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,Receiving,25,-1000.0,,,,-780.0,,-1000.0,,-750.0,HardRockBet,-750.0,1.1333333333333333,1.1094017094017095,1.0215716486902926
 Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,Rushing,50,,,,-1250.0,-1680.0,,,,-1800.0,Caesars,-1250.0,1.08,1.0575396825396826,1.0212382739212007
 Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,Receiving,50,-160.0,-150.0,-160.0,-152.0,-157.0,-160.0,-154.0,,-165.0,BetRivers,-150.0,1.6666666666666665,1.6321783810589423,1.0211302183682573
+Tennessee Titans @ Indianapolis Colts,Tony Pollard,AnytimeTD,Anytime,175.0,180.0,170.0,175.0,175.0,,175.0,175.0,175.0,BetRivers,180.0,2.8,2.742857142857143,1.0208333333333333
 Cleveland Browns @ New England Patriots,Quinshon Judkins,AnytimeTD,Anytime,-110.0,,-122.0,-113.0,-115.0,,-115.0,-110.0,-115.0,BetMGM,-110.0,1.9090909090909092,1.870402407437459,1.0206845871773953
 Buffalo Bills @ Carolina Panthers,James Cook,AnytimeTD,Anytime,-145.0,,,-148.0,-155.0,,-150.0,-150.0,-160.0,BetMGM,-145.0,1.6896551724137931,1.655834059866318,1.0204254238798578
 Tennessee Titans @ Indianapolis Colts,Tyler Warren,Receiving,50,,,,-170.0,-184.0,,,,-175.0,Caesars,-170.0,1.5882352941176472,1.5574534161490683,1.0197642367016597
 Dallas Cowboys @ Denver Broncos,Courtland Sutton,Receiving,25,-1400.0,,,,-880.0,,-1000.0,,-950.0,DraftKings,-880.0,1.1136363636363635,1.0922305764411029,1.0195982310484373
 Minnesota Vikings @ Los Angeles Chargers,Ladd McConkey,Receiving,25,-1100.0,,-826.0,,-740.0,,-800.0,,-850.0,DraftKings,-740.0,1.135135135135135,1.113655381258821,1.0192876128807768
+Miami Dolphins @ Atlanta Falcons,Tyler Allgeier,AnytimeTD,Anytime,,138.0,130.0,135.0,135.0,,135.0,140.0,140.0,Fanatics,140.0,2.4,2.355,1.019108280254777
+Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,50,,,,-134.0,,,,,-140.0,Caesars,-134.0,1.7462686567164178,1.7142857142857144,1.0186567164179103
 Miami Dolphins @ Atlanta Falcons,Kyle Pitts,Receiving,25,-500.0,,,,-405.0,,-420.0,,-425.0,DraftKings,-405.0,1.2469135802469136,1.2244631185807657,1.01833494314812
 Washington Commanders @ Kansas City Chiefs,Jacory Croskey-Merritt,Rushing,25,,,,,,,-750.0,,-650.0,HardRockBet,-650.0,1.1538461538461537,1.1333333333333333,1.0180995475113122
 New York Giants @ Philadelphia Eagles,Jaxson Dart,Rushing,25,-325.0,,,,-293.0,,-320.0,,-300.0,DraftKings,-293.0,1.341296928327645,1.31784188034188,1.0177980745153432
 Miami Dolphins @ Atlanta Falcons,De'Von Achane,Rushing,50,-235.0,-230.0,,-225.0,-219.0,,-230.0,,-240.0,DraftKings,-219.0,1.45662100456621,1.4312416486792066,1.0177324045247176
-New York Giants @ Philadelphia Eagles,AJ Brown,AnytimeTD,Anytime,180.0,163.0,180.0,180.0,180.0,,180.0,180.0,165.0,BetMGM,180.0,2.8,2.7542857142857144,1.016597510373444
 New York Giants @ Philadelphia Eagles,Cam Skattebo,Rushing,25,-2000.0,,,,-1580.0,-1200.0,-1200.0,,-1500.0,ESPNBET,-1200.0,1.0833333333333333,1.0658227848101265,1.0164291369754552
 Tennessee Titans @ Indianapolis Colts,Tyler Warren,Receiving,25,,,,,-850.0,,,,-1000.0,DraftKings,-850.0,1.1176470588235294,1.1,1.016042780748663
 Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,Receiving,50,-525.0,-530.0,-490.0,-500.0,-452.0,-475.0,-470.0,,-475.0,DraftKings,-452.0,1.2212389380530975,1.2024365224911466,1.015636929858881
-Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,25,-525.0,,-475.0,,-440.0,,-450.0,,-475.0,DraftKings,-440.0,1.2272727272727273,1.20843776106934,1.015586211230871
 Dallas Cowboys @ Denver Broncos,Courtland Sutton,AnytimeTD,Anytime,125.0,116.0,130.0,130.0,125.0,,130.0,130.0,130.0,Bovada,130.0,2.3,2.265714285714286,1.0151324085750313
 Green Bay Packers @ Pittsburgh Steelers,Romeo Doubs,AnytimeTD,Anytime,,180.0,185.0,190.0,190.0,,190.0,190.0,180.0,Caesars,190.0,2.9,2.858333333333334,1.0145772594752185
+Minnesota Vikings @ Los Angeles Chargers,Quentin Johnston,Receiving,25,-525.0,,-475.0,,-440.0,,-440.0,,-475.0,DraftKings,-440.0,1.2272727272727273,1.2097003873319663,1.014526191877575
 Buffalo Bills @ Carolina Panthers,Chuba Hubbard,Rushing,110,,,,,1380.0,,1400.0,,,FanDuel,1400.0,15.0,14.8,1.0135135135135134
-Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,50,,,,270.0,,,,,275.0,HardRockBet,275.0,3.75,3.7,1.0135135135135134
 Tampa Bay Buccaneers @ New Orleans Saints,Rachaad White,Rushing,50,,,,-218.0,,,-225.0,,-230.0,Caesars,-218.0,1.4587155963302751,1.4396135265700483,1.0132688873837818
-Washington Commanders @ Kansas City Chiefs,Xavier Worthy,AnytimeTD,Anytime,,,150.0,150.0,140.0,,150.0,145.0,150.0,Bovada,150.0,2.5,2.47,1.0121457489878543
+Green Bay Packers @ Pittsburgh Steelers,Kenneth Gainwell,Rushing,25,155.0,,,,145.0,155.0,,,155.0,BetMGM,155.0,2.55,2.5166666666666666,1.0132450331125826
 Green Bay Packers @ Pittsburgh Steelers,Josh Jacobs,Rushing,25,,,,,,-2250.0,,,-3000.0,ESPNBET,-2250.0,1.0444444444444445,1.0333333333333334,1.010752688172043
 New York Jets @ Cincinnati Bengals,Chase Brown,Rushing,25,,,,,-1140.0,,-1100.0,,-1400.0,FanDuel,-1100.0,1.0909090909090908,1.0795739348370927,1.0104996570463778
 Buffalo Bills @ Carolina Panthers,James Cook,Rushing,25,,,,,-2800.0,,,,-4000.0,DraftKings,-2800.0,1.0357142857142858,1.025,1.010452961672474
@@ -677,26 +679,28 @@ Miami Dolphins @ Atlanta Falcons,De'Von Achane,Rushing,25,-3000.0,,,,-2200.0,,,,
 Minnesota Vikings @ Los Angeles Chargers,Justin Herbert,Rushing,80,,,1900.0,,1880.0,,,,,Bovada,1900.0,20.0,19.8,1.0101010101010102
 Dallas Cowboys @ Denver Broncos,Javonte Williams,Rushing,25,,,,,-2500.0,,,,-2000.0,HardRockBet,-2000.0,1.05,1.04,1.0096153846153846
 Dallas Cowboys @ Denver Broncos,Courtland Sutton,Receiving,50,-200.0,-195.0,,-190.0,-192.0,,-192.0,,-195.0,Caesars,-190.0,1.526315789473684,1.5134615384615386,1.0084932789406806
-Green Bay Packers @ Pittsburgh Steelers,DK Metcalf,AnytimeTD,Anytime,,145.0,140.0,145.0,145.0,,145.0,145.0,140.0,BetRivers,145.0,2.45,2.433333333333333,1.0068493150684934
 Washington Commanders @ Kansas City Chiefs,Rashee Rice,Receiving,25,,,,,-1300.0,,,,-1200.0,HardRockBet,-1200.0,1.0833333333333333,1.0769230769230769,1.005952380952381
 Dallas Cowboys @ Denver Broncos,CeeDee Lamb,Receiving,25,,,,,-1780.0,,,,-2000.0,DraftKings,-1780.0,1.0561797752808988,1.05,1.0058855002675227
 Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,AnytimeTD,Anytime,150.0,150.0,150.0,150.0,150.0,,150.0,150.0,140.0,BetMGM,150.0,2.5,2.4857142857142853,1.0057471264367817
 New York Jets @ Cincinnati Bengals,Ja'Marr Chase,Receiving,25,,,,,-5000.0,,,,-7000.0,DraftKings,-5000.0,1.02,1.0142857142857142,1.0056338028169014
+Green Bay Packers @ Pittsburgh Steelers,Matthew Golden,AnytimeTD,Anytime,,200.0,200.0,195.0,195.0,,200.0,200.0,200.0,BetRivers,200.0,3.0,2.983333333333333,1.005586592178771
 Tennessee Titans @ Indianapolis Colts,Cameron Ward,Passing,250,,275.0,,,277.0,,,,,DraftKings,277.0,3.77,3.75,1.0053333333333334
 Washington Commanders @ Kansas City Chiefs,Patrick Mahomes,Rushing,25,,,,,,,-104.0,,-105.0,FanDuel,-104.0,1.9615384615384617,1.9523809523809523,1.0046904315196998
 Minnesota Vikings @ Los Angeles Chargers,Justin Jefferson,Receiving,25,,,,,-2700.0,,,,-2500.0,HardRockBet,-2500.0,1.04,1.037037037037037,1.002857142857143
 Washington Commanders @ Kansas City Chiefs,Xavier Worthy,Receiving,25,,,,,-319.0,,-320.0,,-325.0,DraftKings,-319.0,1.3134796238244515,1.3100961538461537,1.0025826119467374
-Miami Dolphins @ Atlanta Falcons,Miami Dolphins Defense,AnytimeTD,Anytime,,,1000.0,,,,1000.0,,,Bovada,1000.0,11.0,11.0,1.0
-Minnesota Vikings @ Los Angeles Chargers,Minnesota Vikings Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,,Bovada,800.0,9.0,9.0,1.0
-New York Giants @ Philadelphia Eagles,New York Giants Defense,AnytimeTD,Anytime,,,1000.0,,,,1000.0,,,Bovada,1000.0,11.0,11.0,1.0
-Cleveland Browns @ New England Patriots,Cleveland Browns Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,,Bovada,800.0,9.0,9.0,1.0
-Tampa Bay Buccaneers @ New Orleans Saints,New Orleans Saints D/ST,AnytimeTD,Anytime,,,,,500.0,,,500.0,,DraftKings,500.0,6.0,6.0,1.0
 San Francisco 49ers @ Houston Texans,San Francisco 49ers Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,,Bovada,800.0,9.0,9.0,1.0
-Dallas Cowboys @ Denver Broncos,Dallas Cowboys D/ST,AnytimeTD,Anytime,500.0,,,,500.0,,,500.0,,BetMGM,500.0,6.0,6.0,1.0
+Miami Dolphins @ Atlanta Falcons,Miami Dolphins Defense,AnytimeTD,Anytime,,,1000.0,,,,1000.0,,,Bovada,1000.0,11.0,11.0,1.0
+Green Bay Packers @ Pittsburgh Steelers,Green Bay Packers Defense,AnytimeTD,Anytime,,,600.0,,,,600.0,,,Bovada,600.0,7.0,7.0,1.0
+Washington Commanders @ Kansas City Chiefs,Kansas City Chiefs D/ST,AnytimeTD,Anytime,,,,,450.0,,,450.0,,DraftKings,450.0,5.5,5.5,1.0
+Minnesota Vikings @ Los Angeles Chargers,Minnesota Vikings Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,,Bovada,800.0,9.0,9.0,1.0
 Tampa Bay Buccaneers @ New Orleans Saints,Tez Johnson,Receiving,80,,,,450.0,,,,,450.0,Caesars,450.0,5.5,5.5,1.0
 Tampa Bay Buccaneers @ New Orleans Saints,Tampa Bay Buccaneers Defense,AnytimeTD,Anytime,,,600.0,,,,600.0,,,Bovada,600.0,7.0,7.0,1.0
-Green Bay Packers @ Pittsburgh Steelers,Green Bay Packers Defense,AnytimeTD,Anytime,,,600.0,,,,600.0,,,Bovada,600.0,7.0,7.0,1.0
+Tampa Bay Buccaneers @ New Orleans Saints,New Orleans Saints D/ST,AnytimeTD,Anytime,,,,,500.0,,,500.0,,DraftKings,500.0,6.0,6.0,1.0
+New York Giants @ Philadelphia Eagles,New York Giants Defense,AnytimeTD,Anytime,,,1000.0,,,,1000.0,,,Bovada,1000.0,11.0,11.0,1.0
+Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,50,,,,,,-190.0,,,-190.0,ESPNBET,-190.0,1.526315789473684,1.526315789473684,1.0
+Dallas Cowboys @ Denver Broncos,Dallas Cowboys D/ST,AnytimeTD,Anytime,500.0,,,,500.0,,,500.0,,BetMGM,500.0,6.0,6.0,1.0
 Tennessee Titans @ Indianapolis Colts,Indianapolis Colts Defense,AnytimeTD,Anytime,,,500.0,,,,500.0,,,Bovada,500.0,6.0,6.0,1.0
+Cleveland Browns @ New England Patriots,Cleveland Browns Defense,AnytimeTD,Anytime,,,800.0,,,,800.0,,,Bovada,800.0,9.0,9.0,1.0
 Buffalo Bills @ Carolina Panthers,Andy Dalton,Passing,250,,,,,,,,,220.0,HardRockBet,220.0,3.2,,
 Buffalo Bills @ Carolina Panthers,Andy Dalton,Passing,300,,,,,,,,,750.0,HardRockBet,750.0,8.5,,
 Buffalo Bills @ Carolina Panthers,Buffalo Bills Defense,AnytimeTD,Anytime,,,,,,,550.0,,,FanDuel,550.0,6.5,,
@@ -825,6 +829,7 @@ Minnesota Vikings @ Los Angeles Chargers,No Touchdown,AnytimeTD,Anytime,10000.0,
 Minnesota Vikings @ Los Angeles Chargers,T.J. Hockenson,Receiving,110,,,,,2500.0,,,,,DraftKings,2500.0,26.0,,
 Minnesota Vikings @ Los Angeles Chargers,Tarheeb Still,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Minnesota Vikings @ Los Angeles Chargers,Theo Jackson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Minnesota Vikings @ Los Angeles Chargers,Tre Harris,Receiving,25,,,,,,,320.0,,,FanDuel,320.0,4.2,,
 New York Giants @ Philadelphia Eagles,AJ Brown,Receiving,110,,360.0,,,,,,,,BetRivers,360.0,4.6,,
 New York Giants @ Philadelphia Eagles,AJ Brown,Receiving,25,,,,,,,,,-1200.0,HardRockBet,-1200.0,1.0833333333333333,,
 New York Giants @ Philadelphia Eagles,DeVonta Smith,Receiving,25,,,,,,,,,-850.0,HardRockBet,-850.0,1.1176470588235294,,
@@ -875,6 +880,7 @@ Tampa Bay Buccaneers @ New Orleans Saints,Baker Mayfield,Rushing,80,,,,,2700.0,,
 Tampa Bay Buccaneers @ New Orleans Saints,Brandin Cooks,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Tampa Bay Buccaneers @ New Orleans Saints,Brandin Cooks,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
 Tampa Bay Buccaneers @ New Orleans Saints,Cade Otton,Receiving,25,,,,,,,,,-375.0,HardRockBet,-375.0,1.2666666666666666,,
+Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,110,,,,,,550.0,,,,ESPNBET,550.0,6.5,,
 Tampa Bay Buccaneers @ New Orleans Saints,Chris Olave,Receiving,25,,,,,,,,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,,
 Tampa Bay Buccaneers @ New Orleans Saints,Emeka Egbuka,Receiving,25,,,,,,,,,-1800.0,HardRockBet,-1800.0,1.0555555555555556,,
 Tampa Bay Buccaneers @ New Orleans Saints,Emeka Egbuka,Receiving,50,,,,,,,,,-375.0,HardRockBet,-375.0,1.2666666666666666,,
@@ -904,23 +910,19 @@ Tennessee Titans @ Indianapolis Colts,Jonathan Taylor,Receiving,50,,,,,,,,,600.0
 Tennessee Titans @ Indianapolis Colts,Josh Downs,Receiving,25,,,,,,,,,-275.0,HardRockBet,-275.0,1.3636363636363638,,
 Tennessee Titans @ Indianapolis Colts,Josh Downs,Receiving,50,,,,,,,,,170.0,HardRockBet,170.0,2.7,,
 Tennessee Titans @ Indianapolis Colts,Laquon Treadwell,AnytimeTD,Anytime,,,,,2000.0,,,,,DraftKings,2000.0,21.0,,
+Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,110,,,,750.0,,,,,,Caesars,750.0,8.5,,
 Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,25,,,,,,,,,-750.0,HardRockBet,-750.0,1.1333333333333333,,
-Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,50,,,,,,,,,-140.0,HardRockBet,-140.0,1.7142857142857144,,
-Tennessee Titans @ Indianapolis Colts,Michael Pittman Jr.,Receiving,80,,,,,,,,,275.0,HardRockBet,275.0,3.75,,
 Tennessee Titans @ Indianapolis Colts,No Scorer,AnytimeTD,Anytime,,,,,,,,6000.0,,Fanatics,6000.0,61.0,,
 Tennessee Titans @ Indianapolis Colts,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,BetMGM,15000.0,151.0,,
 Tennessee Titans @ Indianapolis Colts,Tennessee Titans Defense,AnytimeTD,Anytime,,,,,,,1000.0,,,FanDuel,1000.0,11.0,,
 Tennessee Titans @ Indianapolis Colts,Tony Pollard,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Tennessee Titans @ Indianapolis Colts,Tony Pollard,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
 Tennessee Titans @ Indianapolis Colts,Tony Pollard,Rushing,25,,,,,,,,,-400.0,HardRockBet,-400.0,1.25,,
-Tennessee Titans @ Indianapolis Colts,Tony Pollard,Rushing,50,,,,,,,,,175.0,HardRockBet,175.0,2.75,,
 Tennessee Titans @ Indianapolis Colts,Tony Pollard,Rushing,80,,,,,,,,,750.0,HardRockBet,750.0,8.5,,
 Washington Commanders @ Kansas City Chiefs,Isiah Pacheco,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Washington Commanders @ Kansas City Chiefs,Jacory Croskey-Merritt,Rushing,110,,,,,,,1260.0,,,FanDuel,1260.0,13.6,,
 Washington Commanders @ Kansas City Chiefs,JuJu Smith-Schuster,Receiving,25,,,,,,,,,155.0,HardRockBet,155.0,2.55,,
 Washington Commanders @ Kansas City Chiefs,JuJu Smith-Schuster,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
-Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,25,,,,,,,,,-210.0,HardRockBet,-210.0,1.4761904761904763,,
-Washington Commanders @ Kansas City Chiefs,Marcus Mariota,Rushing,80,,,,,,,,,1200.0,HardRockBet,1200.0,13.0,,
 Washington Commanders @ Kansas City Chiefs,Marquise Brown,Receiving,25,,,,,,,,,105.0,HardRockBet,105.0,2.05,,
 Washington Commanders @ Kansas City Chiefs,Marquise Brown,Receiving,50,,,,,,,,,400.0,HardRockBet,400.0,5.0,,
 Washington Commanders @ Kansas City Chiefs,Marquise Brown,Receiving,80,,,,,,,,,800.0,HardRockBet,800.0,9.0,,
