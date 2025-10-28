@@ -25,9 +25,18 @@ def _auth_headers():
     return {"Authorization": f"Bearer {token}"} if token else {}
 
 def _redirect(url: str):
-    # Simple client-side redirect
-    st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
+    # JS redirect (top window) + clickable fallback
+    st.markdown(
+        f"""
+        <script>
+            window.top.location.href = "{url}";
+        </script>
+        <p>If you’re not redirected, <a href="{url}">click here to open Stripe Checkout</a>.</p>
+        """,
+        unsafe_allow_html=True,
+    )
     st.stop()
+
 
 def _subscribe(price_id: str, board_key: str = "all"):
     """Create a Stripe Checkout session via backend and redirect the user."""
