@@ -30,7 +30,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- Best-effort mobile hint (used only to toggle compact styling) ---
+# --- Best-effort mobile hint (adds ?mobile=1 on small screens) ---
 components.html(
     """
     <script>
@@ -49,7 +49,6 @@ components.html(
     """,
     height=0,
 )
-
 
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
@@ -137,6 +136,11 @@ with btn_cols[1]:
 
 # ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
+    # --- Read auto mobile flag from query params early ---
+    qp = st.query_params
+    mobile_flag = qp.get("mobile", None)
+    auto_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag))
+
     if df is None:
         csv_path = _find_csv_path()
         if not csv_path or not csv_path.exists():
@@ -166,7 +170,7 @@ def run_app(df: pd.DataFrame | None = None):
         "threshold": "Alt Line",
         "best_book": "Best Book",
         "best_odds": "Best Odds",
-        "value_ratio": "Line vs. Average",  # rename the ratio column
+        "value_ratio": "Line vs. Average",  # ratio
     }
     df = df.rename(columns=rename_map)
 
@@ -201,8 +205,8 @@ def run_app(df: pd.DataFrame | None = None):
         # Default now 4
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # Fallback toggle for compact/mobile rendering
-        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=False)
+        # DEFAULT ON when accessed from mobile (auto_mobile flag)
+        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
 
     # Apply filters
     if selected_event != "All":
@@ -220,17 +224,11 @@ def run_app(df: pd.DataFrame | None = None):
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
-    # --- Proper numeric + display percent for "Line vs. Average"
-    # Line vs. Average is a RATIO (e.g., 1.25). Create numeric percent + render as %.
-    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")          # ratio
-    df["Line vs. Average (%)]"] = (df["Line vs. Average"] - 1.0) * 100.0                     # numeric percent
+    # --- Numeric percent for Line vs. Average (ratio -> %)
+    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")  # ratio
+    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0             # numeric percent
 
-    # --- Simple, robust Significance score ---
-    # Intuition: edge (%) tempered by payout multiple and market thinness
-    #   edge_pct = (ratio-1)*100
-    #   denom = ln(1 + alpha*(decimal-1))  with floors to avoid explosions for heavy favorites
-    #   quality = min(1, max(0, (#books-3)/3))   (0 when 3 or fewer; ~1 once 6+ books)
-    #   significance = (edge_pct * quality) / denom
+    # --- Significance score (same as your current logic)
     def _significance(row, alpha=8.0, eps=0.6):
         try:
             ratio = float(row.get("Line vs. Average", float("nan")))
@@ -242,65 +240,101 @@ def run_app(df: pd.DataFrame | None = None):
             denom = max(math.log(1.0 + alpha * (d - 1.0)), eps)
             quality = min(1.0, max(0.0, (n - 3) / 3.0))
             score = (edge_pct * quality) / denom
-            # Optional clamp to keep UI sane
             return max(-50.0, min(50.0, score))
         except Exception:
             return float("nan")
 
     df["Significance"] = df.apply(_significance, axis=1)
 
-    # --- Build render dataframe (plain DataFrame so sorting is numeric) ---
+    # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Best-book compactness on mobile (only keep the chosen book on small screens)
-    # Read the query param properly (property, not a function)
-    qp = st.query_params  # dict-like
-    mobile_flag = qp.get("mobile", None)
-    is_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag)) or compact_mobile
+    # Compute effective mobile mode
+    is_mobile = bool(auto_mobile or compact_mobile)
 
+    # Decide which odds columns to show
     if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
 
-    # Hide internal columns from display
     hidden = {"# Books", "Best Book", "Best Odds"}
 
-    display_cols = base_cols + odds_cols_to_show + ["Line vs. Average (%)]", "Significance"]
+    display_cols = base_cols + odds_cols_to_show + ["Line vs. Average (%)", "Significance"]
     display_cols = [c for c in display_cols if c in df.columns and c not in hidden]
-    render_df = df[display_cols].copy()
 
-    # Sort by Significance by default (numeric)
+    render_df = df[display_cols].copy()
     render_df = render_df.sort_values(by=["Significance"], ascending=False, na_position="last")
 
-    # --- Mobile-only table cosmetics (font size down; fix Event/Player widths) ---
+    # --- Conditional green shading by Significance (0.25 steps) ---
+    # alpha steps: 0 -> none; then every +0.25 increases shade up to a cap
+    def _sig_green(val):
+        try:
+            s = float(val)
+        except Exception:
+            return ""
+        if s <= 0:
+            return ""
+        cap = 10.0  # UI sanity cap
+        step_size = 0.25
+        max_steps = int(cap / step_size)  # 40
+        steps = max(0, min(int(s // step_size), max_steps))
+        alpha = 0.12 + (0.95 - 0.12) * (steps / max_steps)
+        return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
+
+    # Shade the selected book's odds column using the same significance-driven tone
+    def _shade_selected_book(row, target_col: str):
+        styles = [""] * len(row)
+        if target_col and target_col in row.index:
+            shade = _sig_green(row.get("Significance", 0))
+            try:
+                idx = list(row.index).index(target_col)
+                styles[idx] = shade
+            except Exception:
+                pass
+        return styles
+
+    # --- Mobile table cosmetics
     if is_mobile:
         st.markdown(
             """
             <style>
-              /* Nudge overall table font-size on mobile */
               [data-testid="stDataFrame"] * { font-size: 0.92rem !important; }
             </style>
             """,
             unsafe_allow_html=True
         )
 
-    # --- Render with numeric sorting + nice formatting ---
-    # Use column_config so "Line vs. Average (%)" displays as percent but sorts numerically
-    col_cfg = {
-        "Event": st.column_config.TextColumn("Event", width="small" if is_mobile else "medium"),
-        "Player": st.column_config.TextColumn("Player", width="small" if is_mobile else "medium"),
-        "Line vs. Average (%)]": st.column_config.NumberColumn("Line vs. Average", format="%.1f%%"),
-        "Significance": st.column_config.NumberColumn("Significance", help="Edge adjusted for payout and market depth", format="%.2f"),
-    }
+    # --- Build Styler with formatting + shading ---
+    styled = render_df.style
 
-    st.dataframe(
-        render_df,
-        use_container_width=True,
-        hide_index=True,
-        height=1200,
-        column_config=col_cfg,
+    # Shade Significance column
+    if "Significance" in render_df.columns:
+        styled = styled.applymap(_sig_green, subset=["Significance"])
+
+    # Shade selected book column (if any and visible)
+    target_col = selected_book if (selected_book != "All" and selected_book in render_df.columns) else None
+    if target_col:
+        styled = styled.apply(_shade_selected_book, axis=1, target_col=target_col)
+
+    # Header style + numeric formats
+    styled = (
+        styled.format({
+            "Line vs. Average (%)": "{:.1f}%",
+            "Significance": "{:.2f}",
+        })
+        .set_table_styles([
+            {'selector': 'th', 'props': [
+                ('font-weight', 'bold'),
+                ('text-align', 'center'),
+                ('font-size', '16px'),
+                ('background-color', '#003366'),
+                ('color', 'white')
+            ]}
+        ])
     )
+
+    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
 
 if __name__ == "__main__":
     run_app()
