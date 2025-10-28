@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="The Tail Wing - NBA Player Props (Free Board)", layout="wide")
 
-# --- Auto-clear cache each run (fixes mobile stuck sessions) ---
+# --- Auto-clear cache each run (helps mobile stuck sessions) ---
 try:
     st.cache_data.clear()
     st.cache_resource.clear()
@@ -30,14 +30,16 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- Optional: detect mobile (for compact layout) ---
+# --- Best-effort mobile hint (used only to toggle compact styling) ---
 components.html(
     """
     <script>
       const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
       const isMobile = w < 800;
-      var streamlitDoc = window.parent;
-      streamlitDoc.postMessage({isMobile:isMobile, type: 'TAILWING_MOBILE_FLAG'}, "*");
+      // We can't read postMessage directly in Python; expose a URL hash we can read if needed.
+      if (isMobile && !location.hash.includes("mobile=1")) {
+        try { history.replaceState({}, "", location.pathname + location.search + "#mobile=1"); } catch(e) {}
+      }
     </script>
     """,
     height=0,
@@ -150,6 +152,7 @@ def run_app(df: pd.DataFrame | None = None):
         st.warning("No data to display.")
         return
 
+    # --- Rename and setup
     rename_map = {
         "event": "Event",
         "player": "Player",
@@ -157,19 +160,19 @@ def run_app(df: pd.DataFrame | None = None):
         "threshold": "Alt Line",
         "best_book": "Best Book",
         "best_odds": "Best Odds",
-        "value_ratio": "% Over Market Avg",
+        "value_ratio": "Line vs. Average",  # rename the ratio column
     }
     df = df.rename(columns=rename_map)
 
-    # Identify sportsbook columns
+    # Identify sportsbook columns (raw before we format display)
     fixed_cols_raw = {
         "Event", "Player", "Bet Type", "Alt Line", "Best Book", "Best Odds",
-        "% Over Market Avg", "best_decimal", "avg_other"
+        "Line vs. Average", "best_decimal", "avg_other"
     }
     all_cols = list(df.columns)
     book_cols = [c for c in all_cols if c not in fixed_cols_raw and not str(c).startswith("Unnamed")]
 
-    # Books available
+    # Count books posting
     def _is_valid_num(v):
         try:
             return pd.notnull(v) and str(v).strip() != ""
@@ -177,18 +180,25 @@ def run_app(df: pd.DataFrame | None = None):
             return False
     df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1)
 
-    # Sidebar filters
+    # --- Sidebar filters
     with st.sidebar:
         st.header("Filters")
         events = ["All"] + sorted(df["Event"].dropna().unique().tolist()) if "Event" in df.columns else ["All"]
         selected_event = st.selectbox("Event", events, index=0)
+
         bet_types = ["All"] + sorted(df["Bet Type"].dropna().unique().tolist()) if "Bet Type" in df.columns else ["All"]
         selected_bet_type = st.selectbox("Bet Type", bet_types, index=0)
+
         books = ["All"] + sorted(df["Best Book"].dropna().unique().tolist()) if "Best Book" in df.columns else ["All"]
         selected_book = st.selectbox("Best Book", books, index=0)
-        min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=3, step=1)
+
+        # Default now 4
+        min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
+
+        # Fallback toggle for compact/mobile rendering
         compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=False)
 
+    # Apply filters
     if selected_event != "All":
         df = df[df["Event"] == selected_event]
     if selected_bet_type != "All":
@@ -198,135 +208,89 @@ def run_app(df: pd.DataFrame | None = None):
 
     df = df[df["# Books"] >= int(min_books)]
 
-    # Convert sportsbook columns
+    # Convert sportsbook columns (for display)
     for col in book_cols:
         df[col] = df[col].apply(to_american)
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
-    # Properly separate numeric and display versions of "% Over Market Avg"
-    df["% Over Market Avg"] = pd.to_numeric(df["% Over Market Avg"], errors="coerce")
-    
-    # numeric version for sorting and calculations
-    df["% Over Market Avg (num)"] = (df["% Over Market Avg"] - 1.0) * 100.0
-    
-    # formatted string for display (1 decimal place + % sign)
-    df["% Over Market Avg (disp)"] = df["% Over Market Avg (num)"].apply(
-        lambda x: f"{x:.1f}%" if pd.notnull(x) else ""
-    )
+    # --- Proper numeric + display percent for "Line vs. Average"
+    # Line vs. Average is a RATIO (e.g., 1.25). Create numeric percent + render as %.
+    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")          # ratio
+    df["Line vs. Average (%)]"] = (df["Line vs. Average"] - 1.0) * 100.0                     # numeric percent
 
-    # --- Kelly & Z Calculations ---
-    def _kelly(row, alpha=8, eps=0.6):
+    # --- Simple, robust Significance score ---
+    # Intuition: edge (%) tempered by payout multiple and market thinness
+    #   edge_pct = (ratio-1)*100
+    #   denom = ln(1 + alpha*(decimal-1))  with floors to avoid explosions for heavy favorites
+    #   quality = min(1, max(0, (#books-3)/3))   (0 when 3 or fewer; ~1 once 6+ books)
+    #   significance = (edge_pct * quality) / denom
+    def _significance(row, alpha=8.0, eps=0.6):
         try:
-            p_fair = 1 / float(row["avg_other"])
-            d = float(row["best_decimal"])
-            b = d - 1
-            if b <= 0 or p_fair <= 0 or p_fair >= 1:
+            ratio = float(row.get("Line vs. Average", float("nan")))
+            d = float(row.get("best_decimal", float("nan")))
+            n = int(row.get("# Books", 0))
+            if not (ratio > 0 and d > 1):
                 return float("nan")
-            f_k = (b * p_fair - (1 - p_fair)) / b
-            f_k = max(0, f_k)
-            denom = max(math.log(1 + alpha * (d - 1)), eps)
-            return f_k / denom
+            edge_pct = (ratio - 1.0) * 100.0
+            denom = max(math.log(1.0 + alpha * (d - 1.0)), eps)
+            quality = min(1.0, max(0.0, (n - 3) / 3.0))
+            score = (edge_pct * quality) / denom
+            # Optional clamp to keep UI sane
+            return max(-50.0, min(50.0, score))
         except Exception:
             return float("nan")
 
-    def _z_score(row, delta=1e-6):
-        """Robust z-score of best book implied prob vs. market median."""
-        try:
-            # get best book implied prob
-            d_best = float(row.get("best_decimal", float("nan")))
-            if pd.isna(d_best) or d_best <= 1:
-                return float("nan")
-            p_best = 1.0 / d_best
-    
-            # collect all implied probabilities across books
-            probs = []
-            for c in book_cols:
-                v = row.get(c)
-                if pd.isna(v):
-                    continue
-                # handle both American (+120) and decimal (1.85) formats
-                s = str(v).strip()
-                if s == "":
-                    continue
-                if s.startswith("+") or s.startswith("-"):
-                    try:
-                        a = float(s)
-                        if a > 0:
-                            dec = 1 + (a / 100)
-                        else:
-                            dec = 1 + (100 / abs(a))
-                        probs.append(1 / dec)
-                    except Exception:
-                        continue
-                else:
-                    try:
-                        dec = float(s)
-                        if dec > 1:
-                            probs.append(1 / dec)
-                    except Exception:
-                        continue
-    
-            if len(probs) < 3:
-                return float("nan")
-    
-            series = pd.Series(probs)
-            m = series.median()
-            mad = (series - m).abs().median() * 1.4826  # robust MAD scale factor
-            return (m - p_best) / (mad + delta)
-        except Exception:
-            return float("nan")
+    df["Significance"] = df.apply(_significance, axis=1)
 
-
-    df["Kelly"] = df.apply(_kelly, axis=1)
-    df["Z"] = df.apply(_z_score, axis=1)
-
-    # Sort by Kelly
-    df = df.sort_values(by=["Kelly"], ascending=False, na_position="last")
-
-    # --- Columns for display ---
+    # --- Build render dataframe (plain DataFrame so sorting is numeric) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
-    is_mobile = st.session_state.get("is_mobile", False)
+
+    # Best-book compactness on mobile (only keep the chosen book on small screens)
+    is_mobile = ("#mobile=1" in st.experimental_get_query_params().get("", [""])) or compact_mobile
     if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
 
-    display_cols = (
-        base_cols + odds_cols_to_show + ["% Over Market Avg (disp)", "Kelly", "Z"]
-    )
-    # hide internal columns
+    # Hide internal columns from display
     hidden = {"# Books", "Best Book", "Best Odds"}
+
+    display_cols = base_cols + odds_cols_to_show + ["Line vs. Average (%)]", "Significance"]
     display_cols = [c for c in display_cols if c in df.columns and c not in hidden]
     render_df = df[display_cols].copy()
 
-    # --- Styling ---
-    def step_style(val, step_size=0.1, floor=0.0, cap=4.0):
-        try:
-            v = float(val)
-        except Exception:
-            return ""
-        if pd.isna(v) or v <= floor:
-            return ""
-        capped = min(v, cap)
-        steps = int((capped - floor) // step_size)
-        alpha = 0.12 + (0.95 - 0.12) * (steps / max(1, int((cap - floor) / step_size)))
-        return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
+    # Sort by Significance by default (numeric)
+    render_df = render_df.sort_values(by=["Significance"], ascending=False, na_position="last")
 
-    styled = render_df.style
-    if "Kelly" in render_df.columns:
-        styled = styled.applymap(step_style, subset=["Kelly"])
-    if "Z" in render_df.columns:
-        styled = styled.applymap(step_style, subset=["Z"])
-    styled = styled.set_table_styles([
-        {'selector': 'th', 'props': [('font-weight', 'bold'),
-                                     ('text-align', 'center'),
-                                     ('font-size', '16px'),
-                                     ('background-color', '#003366'),
-                                     ('color', 'white')]}
-    ])
+    # --- Mobile-only table cosmetics (font size down; fix Event/Player widths) ---
+    if is_mobile:
+        st.markdown(
+            """
+            <style>
+              /* Nudge overall table font-size on mobile */
+              [data-testid="stDataFrame"] * { font-size: 0.92rem !important; }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
 
-    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+    # --- Render with numeric sorting + nice formatting ---
+    # Use column_config so "Line vs. Average (%)" displays as percent but sorts numerically
+    col_cfg = {
+        "Event": st.column_config.TextColumn("Event", width="small" if is_mobile else "medium"),
+        "Player": st.column_config.TextColumn("Player", width="small" if is_mobile else "medium"),
+        "Line vs. Average (%)]": st.column_config.NumberColumn("Line vs. Average", format="%.1f%%"),
+        "Significance": st.column_config.NumberColumn("Significance", help="Edge adjusted for payout and market depth", format="%.2f"),
+    }
+
+    st.dataframe(
+        render_df,
+        use_container_width=True,
+        hide_index=True,
+        height=1200,
+        column_config=col_cfg,
+    )
 
 if __name__ == "__main__":
     run_app()
