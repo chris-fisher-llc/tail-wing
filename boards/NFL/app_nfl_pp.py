@@ -146,13 +146,11 @@ def render_board(df_full: pd.DataFrame, styled_full):
             )
             st.rerun()
 
-# ---- Handle return from Stripe Checkout ----
-_qp = st.query_params()
-if _qp.get("checkout") == ["success"]:
+# ---- Handle return from Stripe Checkout (new API) ----
+_qp = st.query_params            # property, not a function
+if _qp.get("checkout") == "success":
     st.success("Subscription activated. Loading full board…")
-    # Optional: clear the query params so the URL is clean on refresh
-    st.experimental_set_query_params()
-    # Let script continue and re-check entitlement
+    st.query_params.clear()      # wipe query params
 
 # ---- Header ----
 st.markdown(
