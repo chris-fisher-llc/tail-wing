@@ -30,13 +30,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ---------- One-time mobile flag bootstrap (no hard stop) ----------
-# 1) If 'mobile' is missing, JS writes it (1/0) using history.replaceState.
-# 2) We trigger a single auto-refresh so Python sees it on this very load.
+# ---------- One-time mobile flag bootstrap (hard redirect; no autorefresh) ----------
 qp = st.query_params
-first_boot = "mobile" not in qp
-
-if first_boot:
+if "mobile" not in qp:
     components.html(
         """
         <script>
@@ -46,15 +42,16 @@ if first_boot:
             try {
               const url = new URL(window.location);
               url.searchParams.set('mobile', isMobile ? '1' : '0');
-              window.history.replaceState({}, '', url.toString());
+              // Hard reload so Python sees the param immediately
+              window.location.replace(url.toString());
             } catch(e) {}
           })();
         </script>
         """,
         height=0,
     )
-    # single rerun so Python sees ?mobile=...
-    st.autorefresh(interval=100, limit=1, key="bootstrap_mobile")
+    st.write("Loading…")
+    st.stop()
 
 mobile_flag = st.query_params.get("mobile")
 if isinstance(mobile_flag, list):
