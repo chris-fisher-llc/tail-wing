@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import os
@@ -44,7 +43,6 @@ components.html(
         } else {
           url.searchParams.delete('mobile');
         }
-        // Replace without adding to history so desktop won't get stuck with ?mobile=1
         window.history.replaceState({}, '', url);
       } catch(e) {}
     </script>
@@ -138,14 +136,10 @@ with btn_cols[1]:
 
 # ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
-    # --- Read auto mobile flag from query params early (robust parsing; default OFF) ---
+    # --- Read auto mobile flag from query params early ---
     qp = st.query_params
-    _raw_mobile = qp.get("mobile", None)
-    auto_mobile = False
-    if isinstance(_raw_mobile, list):
-        auto_mobile = "1" in _raw_mobile
-    elif isinstance(_raw_mobile, str):
-        auto_mobile = (_raw_mobile == "1")
+    mobile_flag = qp.get("mobile", None)
+    auto_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag))
 
     if df is None:
         csv_path = _find_csv_path()
@@ -211,7 +205,7 @@ def run_app(df: pd.DataFrame | None = None):
         # Default now 4
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # Toggle defaults to URL intent only (desktop won't auto-enable)
+        # DEFAULT ON when accessed from mobile (auto_mobile flag)
         compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
 
     # Apply filters
@@ -234,16 +228,12 @@ def run_app(df: pd.DataFrame | None = None):
     df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")  # ratio
     df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0             # numeric percent
 
-    # --- Significance score (robust against NaN/Inf and weird #Books) ---
+    # --- Significance score (same as your current logic)
     def _significance(row, alpha=8.0, eps=0.6):
         try:
             ratio = float(row.get("Line vs. Average", float("nan")))
             d = float(row.get("best_decimal", float("nan")))
-            n_raw = row.get("# Books", 0)
-            try:
-                n = int(n_raw) if pd.notna(n_raw) else 0
-            except Exception:
-                n = 0
+            n = int(row.get("# Books", 0))
             if not (ratio > 0 and d > 1):
                 return float("nan")
             edge_pct = (ratio - 1.0) * 100.0
@@ -259,11 +249,11 @@ def run_app(df: pd.DataFrame | None = None):
     # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Effective mobile mode: URL intent OR user toggle
-    is_mobile = bool(auto_mobile or st.session_state.get("_compact_mobile_override", False) or compact_mobile)
+    # Compute effective mobile mode
+    is_mobile = bool(auto_mobile or compact_mobile)
 
     # Decide which odds columns to show
-    if selected_book != "All" and is_mobile:
+    if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
@@ -277,12 +267,13 @@ def run_app(df: pd.DataFrame | None = None):
     render_df = render_df.sort_values(by=["Significance"], ascending=False, na_position="last")
 
     # --- Conditional green shading by Significance (0.25 steps) ---
+    # alpha steps: 0 -> none; then every +0.25 increases shade up to a cap
     def _sig_green(val):
         try:
             s = float(val)
         except Exception:
             return ""
-        if not math.isfinite(s) or s <= 0.0:
+        if s <= 0:
             return ""
         cap = 10.0  # UI sanity cap
         step_size = 0.25
