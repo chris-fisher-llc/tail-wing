@@ -7,9 +7,16 @@ import pytz
 import requests
 import time
 import math
-import streamlit.components.v1 as components  # used for a tiny width sniff (optional)
+import streamlit.components.v1 as components
 
 st.set_page_config(page_title="The Tail Wing - NBA Player Props (Free Board)", layout="wide")
+
+# --- Auto-clear cache each run (fixes mobile stuck sessions) ---
+try:
+    st.cache_data.clear()
+    st.cache_resource.clear()
+except Exception:
+    pass
 
 st.markdown(
     """
@@ -23,8 +30,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- (Very light client-width sniff; sets st.session_state["is_mobile"]) ---
-# NOTE: This is deliberately minimal and safe. If it fails, we fall back to sidebar toggle.
+# --- Optional: detect mobile (for compact layout) ---
 components.html(
     """
     <script>
@@ -36,9 +42,8 @@ components.html(
     """,
     height=0,
 )
-# Streamlit can't directly read postMessage; we give the user a manual toggle fallback below.
 
-# ---------- GitHub Actions Trigger (manual refresh) ----------
+# ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO")
@@ -115,37 +120,19 @@ def to_american(x):
     except Exception:
         return ""
 
-# ---------- Top controls ----------
+# ---------- Refresh button ----------
 btn_cols = st.columns([1, 1, 1])
 with btn_cols[1]:
     if st.button("Refresh Odds", use_container_width=True):
         if trigger_github_action():
             wait_for_csv_update()
 
-# ---------- Clear cache (helps some iPhone loads) ----------
-with st.sidebar:
-    if st.button("Clear Cache (fix stuck loads)"):
-        try:
-            st.cache_data.clear()
-        except Exception:
-            pass
-        try:
-            st.cache_resource.clear()
-        except Exception:
-            pass
-        st.success("Cache cleared. Reloading…")
-        st.experimental_rerun()
-
+# ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
-    # ---- Load CSV ----
     if df is None:
         csv_path = _find_csv_path()
         if not csv_path or not csv_path.exists():
-            st.error(
-                "nba_player_props.csv not found.\n\n"
-                "• Place the file next to this app, or in an 'nba/' subfolder, or set env var NBA_PROPS_CSV to the full path.\n\n"
-                f"Working directory: {Path.cwd()}\n"
-            )
+            st.error("nba_player_props.csv not found.")
             return
         try:
             df = pd.read_csv(csv_path)
@@ -156,16 +143,13 @@ def run_app(df: pd.DataFrame | None = None):
             eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
             st.caption(f"Odds last updated: {eastern}")
         except Exception as e:
-            st.error(f"Error loading {csv_path}: {e}")
+            st.error(f"Error loading CSV: {e}")
             return
-    else:
-        st.caption("Odds loaded from memory.")
 
     if df.empty:
         st.warning("No data to display.")
         return
 
-    # ---- Rename for display ----
     rename_map = {
         "event": "Event",
         "player": "Player",
@@ -173,14 +157,11 @@ def run_app(df: pd.DataFrame | None = None):
         "threshold": "Alt Line",
         "best_book": "Best Book",
         "best_odds": "Best Odds",
-        "value_ratio": "% Over Market Avg",  # rename per request
+        "value_ratio": "% Over Market Avg",
     }
     df = df.rename(columns=rename_map)
 
-    if "Bet Type" in df.columns:
-        df["Bet Type"] = df["Bet Type"].astype(str).str.strip()
-
-    # ---- Identify sportsbook columns BEFORE formatting to strings ----
+    # Identify sportsbook columns
     fixed_cols_raw = {
         "Event", "Player", "Bet Type", "Alt Line", "Best Book", "Best Odds",
         "% Over Market Avg", "best_decimal", "avg_other"
@@ -188,36 +169,26 @@ def run_app(df: pd.DataFrame | None = None):
     all_cols = list(df.columns)
     book_cols = [c for c in all_cols if c not in fixed_cols_raw and not str(c).startswith("Unnamed")]
 
-    # ---- Books available count (non-null numeric odds) ----
+    # Books available
     def _is_valid_num(v):
         try:
             return pd.notnull(v) and str(v).strip() != ""
         except Exception:
             return False
+    df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1)
 
-    books_available = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1)
-    df["# Books"] = books_available
-
-    # ---- Sidebar Filters ----
+    # Sidebar filters
     with st.sidebar:
         st.header("Filters")
         events = ["All"] + sorted(df["Event"].dropna().unique().tolist()) if "Event" in df.columns else ["All"]
         selected_event = st.selectbox("Event", events, index=0)
-
         bet_types = ["All"] + sorted(df["Bet Type"].dropna().unique().tolist()) if "Bet Type" in df.columns else ["All"]
         selected_bet_type = st.selectbox("Bet Type", bet_types, index=0)
-
         books = ["All"] + sorted(df["Best Book"].dropna().unique().tolist()) if "Best Book" in df.columns else ["All"]
         selected_book = st.selectbox("Best Book", books, index=0)
-
-        # NEW: min-books filter (default 3)
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=3, step=1)
+        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=False)
 
-        # Fallback toggle for compact mobile mode; ONLY affects phones, but user can force it if auto-detect fails
-        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=False,
-                                   help="On phones, hide all sportsbook columns except the selected Best Book.")
-
-    # ---- Apply filters ----
     if selected_event != "All":
         df = df[df["Event"] == selected_event]
     if selected_bet_type != "All":
@@ -225,71 +196,74 @@ def run_app(df: pd.DataFrame | None = None):
     if selected_book != "All":
         df = df[df["Best Book"] == selected_book]
 
-    # Min-books filter
     df = df[df["# Books"] >= int(min_books)]
 
-    # ---- Compute displays / formatting ----
-    # Convert sportsbook columns to American (strings) for display
+    # Convert sportsbook columns
     for col in book_cols:
         df[col] = df[col].apply(to_american)
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
-    # Ensure numeric for calc fields
     pct_over_ratio = pd.to_numeric(df.get("% Over Market Avg"), errors="coerce")
     best_decimal = pd.to_numeric(df.get("best_decimal"), errors="coerce")
 
-    # Display % as percent (not ratio)
-    df["% Over Market Avg (disp)"] = ((pct_over_ratio - 1.0) * 100.0).map(
-        lambda x: f"{x:.1f}%" if pd.notnull(x) else ""
-    )
-
-    # NEW: Suggested Unit Size (log decay using decimal odds as multiplier)
-    def _suggested_unit(row):
-        val_ratio = row.get("% Over Market Avg")
-        dec = row.get("best_decimal")
+    # --- Kelly & Z Calculations ---
+    def _kelly(row, alpha=8, eps=0.6):
         try:
-            v = float(val_ratio)
-            d = float(dec)
-            if pd.isna(v) or pd.isna(d) or d <= 1.0:
+            p_fair = 1 / float(row["avg_other"])
+            d = float(row["best_decimal"])
+            b = d - 1
+            if b <= 0 or p_fair <= 0 or p_fair >= 1:
                 return float("nan")
-            # Use natural log for decay; higher odds (bigger d) => bigger denominator => smaller score
-            return v / math.log(d)
+            f_k = (b * p_fair - (1 - p_fair)) / b
+            f_k = max(0, f_k)
+            denom = max(math.log(1 + alpha * (d - 1)), eps)
+            return f_k / denom
         except Exception:
             return float("nan")
 
-    df["Suggested Unit Size"] = df.apply(_suggested_unit, axis=1)
+    def _z_score(row, delta=1e-6):
+        try:
+            p_best = 1 / float(row["best_decimal"])
+            probs = []
+            for c in book_cols:
+                v = row.get(c)
+                if pd.notnull(v) and str(v).replace("+", "").replace("-", "").isdigit():
+                    dec = abs(float(v))
+                    if dec != 0:
+                        probs.append(1 / dec)
+            if len(probs) < 3:
+                return float("nan")
+            m = pd.Series(probs).median()
+            mad = pd.Series(probs).mad()
+            return (m - p_best) / (mad + delta)
+        except Exception:
+            return float("nan")
 
-    # Sorting: by Suggested Unit Size (desc)
-    df = df.sort_values(by=["Suggested Unit Size"], ascending=False, na_position="last")
+    df["Kelly"] = df.apply(_kelly, axis=1)
+    df["Z"] = df.apply(_z_score, axis=1)
 
-    # ---- Build render dataframe ----
-    # Columns to show by default (desktop)
+    # Sort by Kelly
+    df = df.sort_values(by=["Kelly"], ascending=False, na_position="last")
+
+    # --- Columns for display ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
-
-    # Mobile compact logic:
-    # Only when device == mobile AND a Best Book is selected do we hide other books.
-    # We expose a user toggle fallback; if not mobile, we keep desktop behavior.
-    # (Auto-detect is best-effort; desktop is unaffected.)
     is_mobile = st.session_state.get("is_mobile", False)
-    # If Best Book filter is selected AND mobile -> show only that book plus metrics
     if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
 
-    # Final column plan
     display_cols = (
-        base_cols
-        + odds_cols_to_show
-        + ["% Over Market Avg (disp)", "Suggested Unit Size", "Best Book", "Best Odds", "# Books"]
+        base_cols + odds_cols_to_show + ["% Over Market Avg", "Kelly", "Z"]
     )
-    display_cols = [c for c in display_cols if c in df.columns]
+    # hide internal columns
+    hidden = {"# Books", "Best Book", "Best Odds"}
+    display_cols = [c for c in display_cols if c in df.columns and c not in hidden]
     render_df = df[display_cols].copy()
 
-    # ---- Styling ----
-    # We now style only "Suggested Unit Size" (step size 0.1). The old % column is plain text.
-    def step_style(val, step_size=0.1, floor=1.0, cap=4.0):
+    # --- Styling ---
+    def step_style(val, step_size=0.1, floor=0.0, cap=4.0):
         try:
             v = float(val)
         except Exception:
@@ -298,23 +272,15 @@ def run_app(df: pd.DataFrame | None = None):
             return ""
         capped = min(v, cap)
         steps = int((capped - floor) // step_size)
-        steps = max(0, min(steps, int((cap - floor) / step_size)))
         alpha = 0.12 + (0.95 - 0.12) * (steps / max(1, int((cap - floor) / step_size)))
         return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
-    def highlight_best_book_cells(row):
-        styles = [""] * len(row)
-        best = row.get("Best Book", "")
-        shade = step_style(row.get("Suggested Unit Size", ""))
-        if best and best in row.index:
-            idx = list(row.index).index(best)
-            styles[idx] = shade
-        return styles
-
     styled = render_df.style
-    if "Suggested Unit Size" in render_df.columns:
-        styled = styled.applymap(step_style, subset=["Suggested Unit Size"])
-    styled = styled.apply(highlight_best_book_cells, axis=1).set_table_styles([
+    if "Kelly" in render_df.columns:
+        styled = styled.applymap(step_style, subset=["Kelly"])
+    if "Z" in render_df.columns:
+        styled = styled.applymap(step_style, subset=["Z"])
+    styled = styled.set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'),
                                      ('text-align', 'center'),
                                      ('font-size', '16px'),
