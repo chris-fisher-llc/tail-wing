@@ -6,6 +6,7 @@ from pathlib import Path
 import pytz
 import requests
 from urllib.parse import urlencode  # needed for _subscribe()
+import streamlit.components.v1 as components
 
 # ---- PAGE SETUP (do this first) ----
 st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
