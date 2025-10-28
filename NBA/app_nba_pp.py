@@ -8,9 +8,6 @@ import requests
 import time
 import math
 import streamlit.components.v1 as components
-from streamlit import runtime as _rt  # safe import even if unused
-from streamlit import cache_data as _cd  # ditto
-from streamlit import cache_resource as _cr  # ditto
 
 st.set_page_config(page_title="The Tail Wing - NBA Player Props (Free Board)", layout="wide")
 
@@ -52,17 +49,6 @@ components.html(
     """,
     height=0,
 )
-
-# One-shot refresh to let the JS set ?mobile before we read it
-try:
-    import streamlit as st
-    st.session_state.setdefault("_awaited_mobile_param", False)
-    if not st.session_state["_awaited_mobile_param"]:
-        # trigger a single autorefresh ~200ms after first paint
-        st.session_state["_awaited_mobile_param"] = True
-        st.autorefresh(interval=250, limit=1, key="await_mobile_param")
-except Exception:
-    pass
 
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
