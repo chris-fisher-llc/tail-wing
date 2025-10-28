@@ -147,7 +147,7 @@ def render_board(df_full: pd.DataFrame, styled_full):
             st.rerun()
 
 # ---- Handle return from Stripe Checkout ----
-_qp = st.experimental_get_query_params()
+_qp = st.query_params()
 if _qp.get("checkout") == ["success"]:
     st.success("Subscription activated. Loading full board…")
     # Optional: clear the query params so the URL is clean on refresh
