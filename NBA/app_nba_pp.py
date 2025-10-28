@@ -30,34 +30,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ---------- One-time mobile flag bootstrap (hard redirect; no autorefresh) ----------
-qp = st.query_params
-if "mobile" not in qp:
-    components.html(
-        """
-        <script>
-          (function() {
-            const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
-            const isMobile = w < 800;
-            try {
-              const url = new URL(window.location);
-              url.searchParams.set('mobile', isMobile ? '1' : '0');
-              // Hard reload so Python sees the param immediately
-              window.location.replace(url.toString());
-            } catch(e) {}
-          })();
-        </script>
-        """,
-        height=0,
-    )
-    st.write("Loading…")
-    st.stop()
-
-mobile_flag = st.query_params.get("mobile")
-if isinstance(mobile_flag, list):
-    mobile_flag = mobile_flag[0] if mobile_flag else None
-auto_mobile = (mobile_flag == "1")
-
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
     token = st.secrets.get("GITHUB_TOKEN")
@@ -207,8 +179,8 @@ def run_app(df: pd.DataFrame | None = None):
 
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # DEFAULT ON when mobile=1
-        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
+        # DEFAULT TO TRUE (reliable for mobile; desktop can toggle off)
+        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=True)
 
     # Apply filters
     if selected_event != "All":
@@ -240,7 +212,7 @@ def run_app(df: pd.DataFrame | None = None):
                 return float("nan")
             edge_pct = (ratio - 1.0) * 100.0
             denom = max(math.log(1.0 + alpha * (d - 1.0)), eps)
-            quality = min(1.0, max(0.0, (n - 3) / 3.0))
+            quality = min(1.0, max(0.0), (n - 3) / 3.0)
             score = (edge_pct * quality) / denom
             return max(-50.0, min(50.0, score))
         except Exception:
@@ -251,11 +223,11 @@ def run_app(df: pd.DataFrame | None = None):
     # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Effective mobile mode
-    is_mobile = bool(auto_mobile or compact_mobile)
+    # Effective compact mode
+    is_compact = bool(compact_mobile)
 
     # Decide which odds columns to show
-    if selected_book != "All" and is_mobile:
+    if selected_book != "All" and is_compact:
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
@@ -294,8 +266,8 @@ def run_app(df: pd.DataFrame | None = None):
                 pass
         return styles
 
-    # --- Mobile table cosmetics
-    if is_mobile:
+    # --- Mobile table cosmetics: smaller font if compact
+    if is_compact:
         st.markdown(
             """
             <style>
