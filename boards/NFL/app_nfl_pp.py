@@ -38,18 +38,20 @@ def _redirect(url: str):
 
 
 def _subscribe(price_id: str, board_key: str = "all"):
-    """Create a Stripe Checkout session via backend and redirect the user."""
+    """Call backend to create a Stripe Checkout session and display link."""
     try:
         payload = {
             "email": st.session_state.get("email"),
             "referrer": None,
         }
-        r = requests.post(f"{PAYWALL_API}/billing/checkout",
-                          json=payload, headers=_auth_headers(), timeout=20)
+        r = requests.post(f"{PAYWALL_API}/billing/checkout", json=payload, timeout=20)
         r.raise_for_status()
-        _redirect(r.json()["url"])
+        url = r.json()["url"]
+        st.link_button("Click to open Stripe Checkout", url)
+        st.stop()
     except Exception as e:
         st.error(f"Checkout failed: {e}")
+
 
 def _open_portal():
     """Open Stripe Billing Portal for the current user."""
