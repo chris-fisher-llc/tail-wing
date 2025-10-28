@@ -30,10 +30,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ---------- Ensure mobile param exists BEFORE sidebar renders ----------
-# First load has no ?mobile; we detect viewport width in JS and reload once with mobile=1 or 0.
+# ---------- One-time mobile flag bootstrap (no hard stop) ----------
+# 1) If 'mobile' is missing, JS writes it (1/0) using history.replaceState.
+# 2) We trigger a single auto-refresh so Python sees it on this very load.
 qp = st.query_params
-if "mobile" not in qp:
+first_boot = "mobile" not in qp
+
+if first_boot:
     components.html(
         """
         <script>
@@ -43,26 +46,17 @@ if "mobile" not in qp:
             try {
               const url = new URL(window.location);
               url.searchParams.set('mobile', isMobile ? '1' : '0');
-              // Avoid loops: only replace if value actually changed or missing
-              if (!window.location.search.includes('mobile=')) {
-                window.location.replace(url.toString());
-              } else {
-                // if present but malformed, still force replace once
-                window.location.replace(url.toString());
-              }
-            } catch(e) {
-              // fallback: do nothing
-            }
-        })();
+              window.history.replaceState({}, '', url.toString());
+            } catch(e) {}
+          })();
         </script>
         """,
         height=0,
     )
-    st.stop()
+    # single rerun so Python sees ?mobile=...
+    st.autorefresh(interval=100, limit=1, key="bootstrap_mobile")
 
-# After first reload, we have mobile=1 or mobile=0 available synchronously to Python.
-mobile_flag = qp.get("mobile")
-# st.query_params values can be str or list depending on version/env
+mobile_flag = st.query_params.get("mobile")
 if isinstance(mobile_flag, list):
     mobile_flag = mobile_flag[0] if mobile_flag else None
 auto_mobile = (mobile_flag == "1")
