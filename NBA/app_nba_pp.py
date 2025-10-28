@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import os
@@ -49,6 +50,15 @@ components.html(
     """,
     height=0,
 )
+
+# --- One-shot refresh so the ?mobile param is present before we read it ---
+try:
+    st.session_state.setdefault("_awaited_mobile_param", False)
+    if not st.session_state["_awaited_mobile_param"]:
+        st.session_state["_awaited_mobile_param"] = True
+        st.autorefresh(interval=250, limit=1, key="await_mobile_param")
+except Exception:
+    pass
 
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
@@ -136,10 +146,14 @@ with btn_cols[1]:
 
 # ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
-    # --- Read auto mobile flag from query params early ---
+    # --- Read auto mobile flag from query params early (robust parsing; default OFF) ---
     qp = st.query_params
-    mobile_flag = qp.get("mobile", None)
-    auto_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag))
+    _raw_mobile = qp.get("mobile", None)
+    auto_mobile = False
+    if isinstance(_raw_mobile, list):
+        auto_mobile = "1" in _raw_mobile
+    elif isinstance(_raw_mobile, str):
+        auto_mobile = (_raw_mobile == "1")
 
     if df is None:
         csv_path = _find_csv_path()
@@ -205,7 +219,7 @@ def run_app(df: pd.DataFrame | None = None):
         # Default now 4
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # DEFAULT ON when accessed from mobile (auto_mobile flag)
+        # Toggle defaults to URL intent only (desktop won't auto-enable)
         compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
 
     # Apply filters
@@ -228,12 +242,16 @@ def run_app(df: pd.DataFrame | None = None):
     df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")  # ratio
     df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0             # numeric percent
 
-    # --- Significance score (same as your current logic)
+    # --- Significance score (robust against NaN/Inf and weird #Books) ---
     def _significance(row, alpha=8.0, eps=0.6):
         try:
             ratio = float(row.get("Line vs. Average", float("nan")))
             d = float(row.get("best_decimal", float("nan")))
-            n = int(row.get("# Books", 0))
+            n_raw = row.get("# Books", 0)
+            try:
+                n = int(n_raw) if pd.notna(n_raw) else 0
+            except Exception:
+                n = 0
             if not (ratio > 0 and d > 1):
                 return float("nan")
             edge_pct = (ratio - 1.0) * 100.0
@@ -249,11 +267,11 @@ def run_app(df: pd.DataFrame | None = None):
     # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Compute effective mobile mode
+    # Effective mobile mode: URL intent OR user toggle
     is_mobile = bool(auto_mobile or compact_mobile)
 
     # Decide which odds columns to show
-    if selected_book != "All" and (is_mobile or compact_mobile):
+    if selected_book != "All" and is_mobile:
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
@@ -264,16 +282,30 @@ def run_app(df: pd.DataFrame | None = None):
     display_cols = [c for c in display_cols if c in df.columns and c not in hidden]
 
     render_df = df[display_cols].copy()
+
+    # --- COMPACT MODE: shrink Event/Player text to keep columns narrow ---
+    def _shrink_text(x: str, maxlen: int = 18) -> str:
+        try:
+            s = str(x)
+            return (s[:maxlen - 1] + "…") if len(s) > maxlen else s
+        except Exception:
+            return x
+
+    if is_mobile:
+        if "Event" in render_df.columns:
+            render_df["Event"] = render_df["Event"].apply(lambda s: _shrink_text(s, 18))
+        if "Player" in render_df.columns:
+            render_df["Player"] = render_df["Player"].apply(lambda s: _shrink_text(s, 16))
+
     render_df = render_df.sort_values(by=["Significance"], ascending=False, na_position="last")
 
     # --- Conditional green shading by Significance (0.25 steps) ---
-    # alpha steps: 0 -> none; then every +0.25 increases shade up to a cap
     def _sig_green(val):
         try:
             s = float(val)
         except Exception:
             return ""
-        if s <= 0:
+        if not math.isfinite(s) or s <= 0.0:
             return ""
         cap = 10.0  # UI sanity cap
         step_size = 0.25
@@ -282,7 +314,7 @@ def run_app(df: pd.DataFrame | None = None):
         alpha = 0.12 + (0.95 - 0.12) * (steps / max_steps)
         return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
-    # Shade the selected book's odds column using the same significance-driven tone
+    # Shade the explicitly selected book column (if any and visible)
     def _shade_selected_book(row, target_col: str):
         styles = [""] * len(row)
         if target_col and target_col in row.index:
@@ -294,12 +326,35 @@ def run_app(df: pd.DataFrame | None = None):
                 pass
         return styles
 
-    # --- Mobile table cosmetics
+    # NEW: Shade the "Best Book" column per row even when no filter is applied
+    def _shade_best_book(row):
+        styles = [""] * len(row)
+        bb = row.get("Best Book", None)
+        if bb and bb in row.index:
+            shade = _sig_green(row.get("Significance", 0))
+            try:
+                idx = list(row.index).index(bb)
+                styles[idx] = shade
+            except Exception:
+                pass
+        return styles
+
+    # --- Mobile table cosmetics + narrow Event/Player CSS ---
     if is_mobile:
         st.markdown(
             """
             <style>
               [data-testid="stDataFrame"] * { font-size: 0.92rem !important; }
+              /* Try to constrain first two columns a bit more on compact */
+              .stDataFrame tbody tr td:nth-child(1),
+              .stDataFrame thead tr th:nth-child(1),
+              .stDataFrame tbody tr td:nth-child(2),
+              .stDataFrame thead tr th:nth-child(2) {
+                  max-width: 140px !important;
+                  white-space: nowrap !important;
+                  text-overflow: ellipsis !important;
+                  overflow: hidden !important;
+              }
             </style>
             """,
             unsafe_allow_html=True
@@ -317,21 +372,34 @@ def run_app(df: pd.DataFrame | None = None):
     if target_col:
         styled = styled.apply(_shade_selected_book, axis=1, target_col=target_col)
 
+    # Always also shade the per-row Best Book column if it exists in the visible table
+    styled = styled.apply(_shade_best_book, axis=1)
+
     # Header style + numeric formats
+    table_styles = [
+        {'selector': 'th', 'props': [
+            ('font-weight', 'bold'),
+            ('text-align', 'center'),
+            ('font-size', '16px'),
+            ('background-color', '#003366'),
+            ('color', 'white')
+        ]}
+    ]
+    # Additional compact constraints via Styler (nth-child selectors for safety)
+    if is_mobile:
+        table_styles.extend([
+            {'selector': 'tbody td:nth-child(1), thead th:nth-child(1)',
+             'props': [('max-width', '140px'), ('white-space', 'nowrap'), ('text-overflow', 'ellipsis'), ('overflow', 'hidden')]},
+            {'selector': 'tbody td:nth-child(2), thead th:nth-child(2)',
+             'props': [('max-width', '130px'), ('white-space', 'nowrap'), ('text-overflow', 'ellipsis'), ('overflow', 'hidden')]},
+        ])
+
     styled = (
         styled.format({
             "Line vs. Average (%)": "{:.1f}%",
             "Significance": "{:.2f}",
         })
-        .set_table_styles([
-            {'selector': 'th', 'props': [
-                ('font-weight', 'bold'),
-                ('text-align', 'center'),
-                ('font-size', '16px'),
-                ('background-color', '#003366'),
-                ('color', 'white')
-            ]}
-        ])
+        .set_table_styles(table_styles)
     )
 
     st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
