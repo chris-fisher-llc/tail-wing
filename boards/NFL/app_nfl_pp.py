@@ -5,10 +5,58 @@ from datetime import datetime
 from pathlib import Path
 import pytz
 import requests
+from urllib.parse import urlencode  # needed for _subscribe()
 
-# ---- Paywall shim (Reveal Wall – Dev auth) ----
-API_BASE = st.secrets.get("PAYWALL_API") or os.getenv("PAYWALL_API") or "http://localhost:9000"
+# ---- PAGE SETUP (do this first) ----
+st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 
+# ---- Config ----
+PAYWALL_API  = st.secrets["PAYWALL_API"]
+FRONTEND_URL = st.secrets["FRONTEND_URL"]
+PRICE_ALL    = st.secrets["STRIPE_PRICE_ALL"]
+PRICE_SINGLE = st.secrets.get("STRIPE_PRICE_SINGLE", PRICE_ALL)  # fallback for now
+
+# Keep a single base for all auth/billing calls
+API_BASE = PAYWALL_API
+
+# ---- Auth helpers ----
+def _auth_headers():
+    token = st.session_state.get("token")
+    return {"Authorization": f"Bearer {token}"} if token else {}
+
+def _redirect(url: str):
+    # Simple client-side redirect
+    st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
+    st.stop()
+
+def _subscribe(price_id: str, board_key: str = "all"):
+    """Create a Stripe Checkout session via backend and redirect the user."""
+    try:
+        payload = {
+            "price_id": price_id,
+            "board": board_key,
+            # Backend will prepend FRONTEND_URL; we only send the querystring
+            "return_path": "?" + urlencode({"checkout": "success", "board": board_key}),
+        }
+        r = requests.post(f"{PAYWALL_API}/billing/create_checkout_session",
+                          json=payload, headers=_auth_headers(), timeout=20)
+        r.raise_for_status()
+        _redirect(r.json()["checkout_url"])
+    except Exception as e:
+        st.error(f"Checkout failed: {e}")
+
+def _open_portal():
+    """Open Stripe Billing Portal for the current user."""
+    try:
+        payload = {"return_path": "?"}  # back to board root after portal
+        r = requests.post(f"{PAYWALL_API}/billing/create_portal_session",
+                          json=payload, headers=_auth_headers(), timeout=20)
+        r.raise_for_status()
+        _redirect(r.json()["portal_url"])
+    except Exception as e:
+        st.error(f"Billing portal failed: {e}")
+
+# ---- Dev sign-in (keep for now) ----
 def _dev_sign_in():
     st.subheader("Sign in to unlock full board")
     email = st.text_input("Email", placeholder="you@example.com")
@@ -19,6 +67,7 @@ def _dev_sign_in():
         st.rerun()
     st.stop()
 
+# ---- Entitlement check (returns is_subscriber flag + headers) ----
 def _entitlement():
     if "token" not in st.session_state:
         _dev_sign_in()
@@ -29,6 +78,7 @@ def _entitlement():
     st.caption(f"Signed in as: {data.get('email','')} • Subscriber: {'Yes' if data.get('is_subscriber') else 'No'}")
     return bool(data.get("is_subscriber")), headers
 
+# ---- Teaser utility ----
 def _to_teaser(df: pd.DataFrame) -> pd.DataFrame:
     safe_cols = [c for c in df.columns if c.lower() not in {"ev%", "ev", "best book", "best_book", "best price", "best_price", "price"}]
     out = df[safe_cols].copy()
@@ -47,15 +97,28 @@ def _to_teaser(df: pd.DataFrame) -> pd.DataFrame:
         out["Edge Band"] = pd.to_numeric(df[ev_col], errors="coerce").map(band)
     return out.head(3)
 
+# ---- Main board renderer (handles paywall gating) ----
 def render_board(df_full: pd.DataFrame, styled_full):
-    """Render teaser (free) vs full (subscriber) while preserving styling."""
-    is_sub, headers = _entitlement()
+    """Render preview (free) vs full (subscriber) while preserving styling."""
+    is_subscriber, headers = _entitlement()
 
     st.markdown("### Current Snapshot")
-    if not is_sub:
+
+    if not is_subscriber:
+        # Preview content
         st.write("**Free preview** — top edges with banded EV. Updated every ~10 minutes.")
         st.table(_to_teaser(df_full))
         st.info("Subscribe to unlock exact EV%, best book & price, historical movement, and CSV export.")
+
+        # Subscription actions
+        c1, c2 = st.columns(2)
+        with c1:
+            if st.button("Subscribe – All Boards (monthly)"):
+                _subscribe(PRICE_ALL, board_key="all")
+        with c2:
+            st.button("Manage Billing", on_click=_open_portal)
+
+        # Dev tools
         with st.expander("Developer tools (local only)"):
             if st.button("Simulate subscription (dev)"):
                 requests.post(
@@ -65,23 +128,33 @@ def render_board(df_full: pd.DataFrame, styled_full):
                     timeout=10
                 )
                 st.rerun()
-    else:
-        st.success("Subscriber view: full board unlocked.")
-        st.dataframe(styled_full, use_container_width=True, hide_index=True, height=1200)
-        st.caption("Watermark: For your account • Live at HH:MM")
-        with st.expander("Developer tools (local only)"):
-            if st.button("Turn off subscription (dev)"):
-                requests.post(
-                    f"{API_BASE}/dev/toggle_subscription",
-                    headers=headers,
-                    json={"is_subscriber": False},
-                    timeout=10
-                )
-                st.rerun()
 
-# ---- PAGE SETUP ----
-st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
+        st.stop()
 
+    # Subscriber view
+    st.success("Subscriber view: full board unlocked.")
+    st.dataframe(styled_full, use_container_width=True, hide_index=True, height=1200)
+    st.caption("Watermark: For your account • Live at HH:MM")
+
+    with st.expander("Developer tools (local only)"):
+        if st.button("Turn off subscription (dev)"):
+            requests.post(
+                f"{API_BASE}/dev/toggle_subscription",
+                headers=headers,
+                json={"is_subscriber": False},
+                timeout=10
+            )
+            st.rerun()
+
+# ---- Handle return from Stripe Checkout ----
+_qp = st.experimental_get_query_params()
+if _qp.get("checkout") == ["success"]:
+    st.success("Subscription activated. Loading full board…")
+    # Optional: clear the query params so the URL is clean on refresh
+    st.experimental_set_query_params()
+    # Let script continue and re-check entitlement
+
+# ---- Header ----
 st.markdown(
     """
     <h1 style='text-align: center; font-size: 42px;'>
