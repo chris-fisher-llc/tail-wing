@@ -8,7 +8,6 @@ import requests
 import time
 import math
 import streamlit.components.v1 as components
-from streamlit import experimental_rerun
 from streamlit import runtime as _rt  # safe import even if unused
 from streamlit import cache_data as _cd  # ditto
 from streamlit import cache_resource as _cr  # ditto
