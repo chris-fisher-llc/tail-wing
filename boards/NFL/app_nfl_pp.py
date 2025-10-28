@@ -1,364 +1,441 @@
-# app_nfl_pp.py — NFL Player Props Board (polished UI + fixed auth/subscribe UX)
+# app_nfl_pp.py — The Tail Wing (NFL Player Props) — polished UX + your st.secrets + correct gating
 
+import streamlit as st
+import pandas as pd
 import os
-import json
-from datetime import datetime, timezone
+from datetime import datetime
+from pathlib import Path
+import pytz
+import requests
 from typing import Optional, Tuple
 
-import requests
-import pandas as pd
-import streamlit as st
+# -------------------------
+# Page + CSS (hierarchy, spacing)
+# -------------------------
+st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
+st.markdown("""
+<style>
+/* Vertical rhythm */
+.block-container { padding-top: 1.0rem; padding-bottom: 2.5rem; }
 
-# ---------------------------
-# Config
-# ---------------------------
-API_BASE = os.getenv("PAYWALL_API", "http://localhost:9000")
-BOARD_NAME = os.getenv("BOARD_NAME", "nfl_player_props")  # used in metadata sent to backend
-PRICE_ID_SINGLE = os.getenv("PRICE_ID_SINGLE", "")        # e.g. price_123 for $5 single board
-PRICE_ID_ALL = os.getenv("PRICE_ID_ALL", "")              # e.g. price_abc for $9 all boards
+/* Title / subtitles */
+.tw-title h1 {
+  font-family: 'Poppins', sans-serif; font-weight: 700; letter-spacing: .2px; margin-bottom: .35rem;
+}
+.tw-subtitle { font-family: 'Montserrat', sans-serif; font-size: .95rem; color: #7a7f87; margin-bottom: 1.25rem; }
 
-st.set_page_config(
-    page_title="NFL Player Props — Anomaly Board",
-    page_icon="🏈",
-    layout="wide",
-)
+/* Section headers */
+.tw-section h3, .tw-section h4 {
+  font-family: 'Montserrat', sans-serif; font-weight: 600; margin-bottom: .5rem;
+}
 
-# ---------------------------
-# Small CSS for hierarchy & visual rhythm
-# ---------------------------
-st.markdown(
+/* Cards */
+.tw-card { border: 1px solid #edf0f2; border-radius: 16px; padding: 18px; background: #fff; box-shadow: 0 1px 2px rgba(16,24,40,.04); }
+.tw-plan  { border: 1px solid #e7ebef; border-radius: 14px; padding: 14px; background: #fcfdff; }
+
+/* Status banners */
+.tw-banner { border-radius: 12px; padding: 10px 12px; font-weight: 600; margin-bottom: 10px; }
+.tw-ok   { background:#ecfdf3; color:#027a48; border:1px solid #abefc6; }
+.tw-warn { background:#fff7ed; color:#b45309; border:1px solid #fed7aa; }
+.tw-err  { background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; }
+
+/* Buttons (natural width) */
+.stButton>button { border-radius: 12px; padding: 8px 14px; font-weight: 600; }
+
+/* Narrow the email input visually by constraining its parent container */
+.narrow { max-width: 420px; }
+
+/* Table header */
+thead tr th { font-weight: 700 !important; text-align: center !important; font-size: 16px !important;
+  background-color: #003366 !important; color: #fff !important; }
+</style>
+""", unsafe_allow_html=True)
+
+# -------------------------
+# Secrets / Config (unchanged: st.secrets)
+# -------------------------
+PAYWALL_API  = st.secrets["PAYWALL_API"]           # e.g., https://your-backend
+FRONTEND_URL = st.secrets["FRONTEND_URL"]          # e.g., https://high-lines-nfl-players.streamlit.app
+PRICE_ALL    = st.secrets.get("STRIPE_PRICE_ALL", "")
+PRICE_SINGLE = st.secrets.get("STRIPE_PRICE_SINGLE", PRICE_ALL)
+
+# Optional GitHub refresh (kept from your original)
+GITHUB_TOKEN         = st.secrets.get("GITHUB_TOKEN")
+GITHUB_REPO          = st.secrets.get("GITHUB_REPO")  # "owner/repo"
+GITHUB_WORKFLOW_FILE = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nfl-player-props.yml")
+GITHUB_REF           = st.secrets.get("GITHUB_REF", "main")
+
+# -------------------------
+# Stripe return (kept)
+# -------------------------
+qp = st.query_params
+if qp.get("status") == "success":
+    st.success("Subscription activated. Loading full board…")
+    st.query_params.clear()
+
+# -------------------------
+# Auth helpers (kept + small hardening)
+# -------------------------
+def _auth_headers():
+    token = st.session_state.get("token")
+    return {"Authorization": f"Bearer {token}"} if token else {}
+
+def _sign_out():
+    st.session_state.pop("token", None)
+    st.session_state.pop("email", None)
+    st.rerun()
+
+def _entitlement_soft() -> Tuple[str, bool, Optional[str]]:
     """
-    <style>
-      /* Fonts (pairing): Title = Poppins, Section = Montserrat, Body = Inter */
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600&family=Poppins:wght@600;700&display=swap');
-
-      /* Title */
-      .tw-title h1 {
-        font-family: 'Poppins', sans-serif !important;
-        font-weight: 700 !important;
-        letter-spacing: 0.2px;
-        margin-bottom: 0.35rem;
-      }
-      .tw-subtitle {
-        font-family: 'Montserrat', sans-serif !important;
-        font-size: 0.95rem;
-        color: #7a7f87;
-        margin-bottom: 1.25rem;
-      }
-
-      /* Section headers */
-      .tw-section h3, .tw-section h4 {
-        font-family: 'Montserrat', sans-serif !important;
-        font-weight: 600 !important;
-        margin-bottom: 0.5rem;
-      }
-
-      /* Body text */
-      .tw-body, .stMarkdown, .stTable, .stDataFrame {
-        font-family: 'Inter', sans-serif !important;
-      }
-
-      /* Cards */
-      .tw-card {
-        border: 1px solid #edf0f2;
-        border-radius: 16px;
-        padding: 18px 18px 14px 18px;
-        background: #fff;
-        box-shadow: 0 1px 2px rgba(16,24,40,0.04);
-      }
-
-      /* Plan cards */
-      .tw-plan {
-        border: 1px solid #e7ebef;
-        border-radius: 16px;
-        padding: 16px;
-        background: #fcfdff;
-      }
-      .tw-plan h4{
-        margin: 0 0 6px 0;
-        font-family: 'Montserrat', sans-serif !important;
-        font-weight: 600;
-      }
-      .tw-price {
-        font-family: 'Inter', sans-serif !important;
-        font-weight: 600;
-        font-size: 1.05rem;
-        margin-bottom: 8px;
-      }
-      .tw-plan small { color: #70757d; }
-
-      /* Buttons: natural width, strong shape */
-      .stButton>button {
-        border-radius: 12px;
-        padding: 8px 14px;
-        font-weight: 600;
-      }
-      /* Primary */
-      .tw-primary .stButton>button {
-        background: #1f6feb;
-        color: #fff;
-        border: 1px solid #1a61ce;
-      }
-      .tw-primary .stButton>button:hover { filter: brightness(0.96); }
-
-      /* Secondary */
-      .tw-secondary .stButton>button {
-        background: #f4f7fb;
-        color: #0f172a;
-        border: 1px solid #e6ebf2;
-      }
-
-      /* Status banner */
-      .tw-banner {
-        border-radius: 12px;
-        padding: 10px 12px;
-        font-family: 'Inter', sans-serif !important;
-        font-weight: 600;
-        margin-bottom: 10px;
-      }
-      .tw-banner.ok { background: #ecfdf3; color: #027a48; border: 1px solid #abefc6; }
-      .tw-banner.warn { background: #fff7ed; color: #b45309; border: 1px solid #fed7aa; }
-      .tw-banner.err { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
-
-      /* Subtle divider spacing fixes */
-      .block-container { padding-top: 1.0rem; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-# ---------------------------
-# Session helpers
-# ---------------------------
-def _get_token() -> Optional[str]:
-    return st.session_state.get("token")
-
-def _set_token(tok: str):
-    st.session_state["token"] = tok
-
-def _get_email() -> Optional[str]:
-    return st.session_state.get("email")
-
-def _set_email(email: str):
-    st.session_state["email"] = email
-
-def _headers() -> dict:
-    headers = {"Content-Type": "application/json"}
-    tok = _get_token()
-    if tok:
-        headers["Authorization"] = f"Bearer {tok}"
-    return headers
-
-# ---------------------------
-# Backend calls
-# ---------------------------
-def dev_sign_in(email: str) -> Tuple[bool, str]:
+    Returns (status, is_subscriber, email)
+    status ∈ {"signed_out", "signed_in"}
     """
-    Dev-only sign-in that many of your flows use. Falls back to /auth/login if /auth/dev_login isn't present.
-    Returns (ok, message).
-    """
-    endpoints = ["/auth/dev_login", "/auth/login"]
-    for ep in endpoints:
-        try:
-            r = requests.post(
-                f"{API_BASE}{ep}",
-                headers={"Content-Type": "application/json"},
-                json={"email": email},
-                timeout=12,
-            )
-            if r.status_code == 200:
-                data = r.json()
-                token = data.get("session_token") or data.get("token")
-                if token:
-                    _set_token(token)
-                    _set_email(email)
-                    return True, "Signed in."
-                else:
-                    return False, "Signed in, but no token returned."
-            else:
-                # keep trying the next endpoint
-                continue
-        except Exception as e:
-            continue
-    return False, "Sign-in failed (no auth endpoint responded 200)."
-
-def fetch_entitlement() -> Tuple[bool, str]:
-    """
-    Query entitlement; if your backend exposes /billing/entitlement, use it.
-    Otherwise infer 'has sub' from token presence.
-    """
+    token = st.session_state.get("token")
+    if not token:
+        return "signed_out", False, None
     try:
-        r = requests.get(f"{API_BASE}/billing/entitlement", headers=_headers(), timeout=10)
-        if r.status_code == 200:
-            data = r.json()
-            return bool(data.get("is_active", False)), data.get("status", "")
+        # your original endpoint
+        r = requests.get(f"{PAYWALL_API}/entitlement", headers=_auth_headers(), timeout=10)
+        if r.status_code == 401:
+            _sign_out()
+        r.raise_for_status()
+        js = r.json()
+        return "signed_in", bool(js.get("is_subscriber")), js.get("email")
+    except Exception:
+        return "signed_out", False, None
+
+def _dev_login(email: str) -> bool:
+    try:
+        r = requests.post(f"{PAYWALL_API}/auth/dev_login", json={"email": email}, timeout=10)
+        r.raise_for_status()
+        st.session_state["token"] = r.json()["session_token"]
+        st.session_state["email"] = email
+        return True
+    except Exception:
+        return False
+
+def _checkout_url(email: str) -> str:
+    """Ask backend for a Stripe Checkout URL. Backend decides plan; your original route."""
+    payload = {"email": email, "referrer": None}
+    r = requests.post(f"{PAYWALL_API}/billing/checkout", json=payload, timeout=20)
+    r.raise_for_status()
+    return r.json()["url"]
+
+# -------------------------
+# Data loading (original)
+# -------------------------
+def _find_csv_path() -> Optional[Path]:
+    env = os.getenv("NFL_PROPS_CSV")
+    if env:
+        p = Path(env)
+        if p.exists():
+            return p
+    here = Path(__file__).resolve().parent
+    candidates = [
+        here / "nfl_player_props.csv",
+        here / "nfl" / "nfl_player_props.csv",
+        here.parent / "nfl_player_props.csv",
+        here.parent / "nfl" / "nfl_player_props.csv",
+        Path.cwd() / "nfl_player_props.csv",
+        Path.cwd() / "nfl" / "nfl_player_props.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    try:
+        for p in here.rglob("nfl_player_props.csv"):
+            return p
     except Exception:
         pass
-    # Fallback: token present but we don't know subscription
-    return (_get_token() is not None), ("unknown" if _get_token() else "signed_out")
+    return None
 
-def start_checkout(price_id: str) -> Tuple[bool, Optional[str], str]:
-    """
-    Attempts multiple common endpoints; returns (ok, url, debug_message).
-    """
-    payload = {
-        "price_id": price_id,
-        "board": BOARD_NAME,
-        "email": _get_email()
+def _load_df() -> Optional[pd.DataFrame]:
+    csv_path = _find_csv_path()
+    if not csv_path or not csv_path.exists():
+        st.error("nfl_player_props.csv not found. Place it next to this app or in an 'nfl/' subfolder.")
+        return None
+    try:
+        df = pd.read_csv(csv_path)
+        df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
+        df = df.dropna(axis=1, how="all")
+        to_zone = pytz.timezone('US/Eastern')
+        ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
+        eastern = ts.astimezone(to_zone).strftime("%Y-%m-%d %I:%M %p %Z")
+        st.caption(f"Odds last updated: {eastern}")
+        return df
+    except Exception as e:
+        st.error(f"Error loading CSV: {e}")
+        return None
+
+# -------------------------
+# Title + Refresh
+# -------------------------
+st.markdown('<div class="tw-title">', unsafe_allow_html=True)
+st.title("NFL Player Props — Anomaly Board 🏈")
+st.markdown('<div class="tw-subtitle">Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges</div></div>', unsafe_allow_html=True)
+
+def _trigger_github_action():
+    if not (GITHUB_TOKEN and GITHUB_REPO):
+        st.error("Missing secrets: set GITHUB_TOKEN and GITHUB_REPO to enable refresh.")
+        return
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{GITHUB_WORKFLOW_FILE}/dispatches"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "X-GitHub-Api-Version": "2022-11-28",
     }
-    endpoints = [
-        "/billing/checkout",
-        "/billing/create_checkout_session",
-        "/billing/checkout_link",
-        "/billing/subscribe",
-    ]
-    debug = []
-    for ep in endpoints:
-        try:
-            r = requests.post(f"{API_BASE}{ep}", headers=_headers(), json=payload, timeout=15)
-            if r.status_code == 200:
-                data = r.json()
-                url = data.get("url") or data.get("checkout_url") or data.get("redirect_url")
-                if url:
-                    return True, url, f"OK via {ep}"
-                else:
-                    debug.append(f"{ep}: 200 but no url field")
-            else:
-                # capture server response text for surfacing 422 payload issues
-                try:
-                    msg = r.text[:500]
-                except Exception:
-                    msg = f"HTTP {r.status_code}"
-                debug.append(f"{ep}: {msg}")
-        except Exception as e:
-            debug.append(f"{ep}: {repr(e)}")
-    return False, None, " | ".join(debug[:3])
-
-# ---------------------------
-# UI Sections
-# ---------------------------
-def header_section():
-    st.markdown('<div class="tw-title">', unsafe_allow_html=True)
-    st.title("NFL Player Props — Anomaly Board 🏈")
-    st.markdown(
-        '<div class="tw-subtitle">Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges</div></div>',
-        unsafe_allow_html=True,
-    )
-    top_bar = st.container()
-    with top_bar:
-        cols = st.columns([1, 3, 1])
-        with cols[1]:
-            with st.container():
-                st.markdown('<div class="tw-secondary">', unsafe_allow_html=True)
-                st.button("Refresh Odds", key="refresh_odds_btn")  # hook into your refresh handler if needed
-                st.markdown("</div>", unsafe_allow_html=True)
-
-def snapshot_section(df: Optional[pd.DataFrame] = None):
-    st.markdown('<div class="tw-section">', unsafe_allow_html=True)
-    st.subheader("Current Snapshot")
-    st.caption("Free preview — top edges with baked EV. Updated every ~10 minutes.")
-    if df is None or df.empty:
-        st.info("Snapshot loads here. (Hook your existing dataframe into `snapshot_section(df)`.)")
+    payload = {"ref": GITHUB_REF}
+    with st.spinner("Triggering GitHub Action…"):
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+    if resp.status_code == 204:
+        st.success("Refresh kicked off. Odds will update on CSV push.")
     else:
-        st.dataframe(df, use_container_width=True, height=350)
-    st.markdown("</div>", unsafe_allow_html=True)
+        st.error(f"Failed to trigger workflow ({resp.status_code}): {resp.text}")
 
-def status_banner():
-    is_active, status = fetch_entitlement()
-    email = _get_email()
-    if email and is_active:
-        st.markdown(
-            f'<div class="tw-banner ok">Signed in as <u>{email}</u>. Subscription is active.</div>',
-            unsafe_allow_html=True,
-        )
-    elif email and not is_active:
-        st.markdown(
-            f'<div class="tw-banner warn">Account found for <u>{email}</u>, but no active subscription.</div>',
-            unsafe_allow_html=True,
-        )
-    elif not email:
-        st.markdown(
-            '<div class="tw-banner err">You are not signed in.</div>',
-            unsafe_allow_html=True,
-        )
+top_mid = st.columns([1,1,1])[1]
+with top_mid:
+    if st.button("Refresh Odds"):
+        _trigger_github_action()
 
-def auth_and_subscribe_section():
+# -------------------------
+# Load + prep dataframe (your logic, kept)
+# -------------------------
+df = _load_df()
+if df is None or df.empty:
+    st.stop()
+
+rename_map = {
+    "event": "Event",
+    "player": "Player",
+    "group": "Bet Type",
+    "threshold": "Alt Line",
+    "best_book": "Best Book",
+    "best_odds": "Best Odds",
+    "value_ratio": "Value",
+}
+df = df.rename(columns=rename_map)
+if "Bet Type" in df.columns:
+    df["Bet Type"] = df["Bet Type"].astype(str).str.strip()
+
+fixed_cols = {"Event", "Player", "Bet Type", "Alt Line", "Best Book", "Best Odds", "Value",
+              "best_decimal", "avg_other"}
+odds_cols = [c for c in df.columns if c not in fixed_cols and not str(c).startswith("Unnamed")]
+
+def _american(x):
+    try:
+        x = int(float(x))
+        return f"+{x}" if x > 0 else str(x)
+    except Exception:
+        return ""
+
+for col in odds_cols:
+    df[col] = df[col].apply(_american)
+if "Best Odds" in df.columns:
+    df["Best Odds"] = df["Best Odds"].apply(_american)
+
+df["Value"] = pd.to_numeric(df.get("Value"), errors="coerce")
+df["_Value_print"] = df["Value"].map(lambda x: f"{x:.3f}".rstrip("0").rstrip(".") if pd.notnull(x) else "")
+
+display_cols = ["Event", "Player", "Bet Type", "Alt Line"] + odds_cols + ["Value", "_Value_print", "Best Book", "Best Odds"]
+display_cols = [c for c in display_cols if c in df.columns]
+df = df[display_cols].copy()
+
+def value_step_style(val):
+    try:
+        v = float(val)
+    except Exception:
+        return ""
+    if v <= 1.0: return ""
+    capped = min(v, 4.0)
+    step = int((capped - 1.0) // 0.2)
+    step = max(0, min(step, 15))
+    alpha = 0.12 + (0.95 - 0.12) * (step / 15.0)
+    return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
+
+def highlight_best_book_cells(row):
+    styles = [""] * len(row)
+    best = row.get("Best Book", "")
+    shade = value_step_style(row.get("Value", ""))
+    if best and best in row.index:
+        idx = list(row.index).index(best)
+        styles[idx] = shade
+    return styles
+
+render_df = df.copy()
+render_df["Value"] = render_df["_Value_print"]
+render_df.drop(columns=["_Value_print"], inplace=True)
+
+styled = render_df.style
+if "Value" in render_df.columns:
+    styled = styled.applymap(value_step_style, subset=["Value"])
+styled = styled.apply(highlight_best_book_cells, axis=1)
+
+# -------------------------
+# Sidebar: Account + filters (kept; includes Sign out)
+# -------------------------
+with st.sidebar:
+    st.caption("Account")
+    if st.session_state.get("token"):
+        st.write(st.session_state.get("email", ""))
+        if st.button("Sign out", use_container_width=True, key="sidebar_signout"):
+            _sign_out()
+    else:
+        st.caption("You’re viewing the free preview.")
+
+with st.sidebar:
+    st.header("Best Book")
+    books = render_df["Best Book"].dropna().unique().tolist() if "Best Book" in render_df.columns else []
+    selected_book = st.selectbox("", ["All"] + sorted(books))
+    st.header("Event")
+    events = render_df["Event"].dropna().unique().tolist() if "Event" in render_df.columns else []
+    selected_event = st.selectbox("", ["All"] + sorted(events))
+    st.header("Bet Type")
+    bet_types = sorted(render_df["Bet Type"].dropna().unique().tolist()) if "Bet Type" in render_df.columns else []
+    selected_bet_type = st.selectbox("", ["All"] + bet_types)
+
+# Apply filters
+df_filtered = render_df.copy()
+if selected_book != "All":
+    df_filtered = df_filtered[df_filtered["Best Book"] == selected_book]
+if selected_event != "All":
+    df_filtered = df_filtered[df_filtered["Event"] == selected_event]
+if selected_bet_type != "All":
+    df_filtered = df_filtered[df_filtered["Bet Type"].astype(str).str.strip() == selected_bet_type]
+
+if "Value" in df_filtered.columns:
+    df_filtered = df_filtered.sort_values(by="Value", ascending=False, na_position="last")
+
+styled_filtered = df_filtered.style
+if "Value" in df_filtered.columns:
+    styled_filtered = styled_filtered.applymap(value_step_style, subset=["Value"])
+styled_filtered = styled_filtered.apply(highlight_best_book_cells, axis=1)
+
+# -------------------------
+# Helper: Snapshot teaser for free users
+# -------------------------
+def _to_teaser(df_full: pd.DataFrame) -> pd.DataFrame:
+    safe_cols = [c for c in df_full.columns if c.lower() not in {"ev%", "ev", "best book", "best_book", "best price", "best_price", "price"}]
+    out = df_full[safe_cols].copy()
+    ev_col = next((c for c in df_full.columns if c.lower() in {"ev%", "ev", "value"}), None)
+    if ev_col:
+        def band(x):
+            try: v = float(x)
+            except Exception: return "—"
+            if v < 2: return "<2%"
+            if v < 4: return "2–4%"
+            if v < 6: return "4–6%"
+            if v < 9: return "6–9%"
+            return "9%+"
+        out["Edge Band"] = pd.to_numeric(df_full[ev_col], errors="coerce").map(band)
+    return out.head(3)
+
+# -------------------------
+# Access (gated UX)
+# -------------------------
+def _status_banner():
+    status, is_sub, email = _entitlement_soft()
+    if status == "signed_in" and is_sub:
+        st.markdown(f'<div class="tw-banner tw-ok">Signed in as <u>{email}</u>. Subscription is active.</div>', unsafe_allow_html=True)
+    elif status == "signed_in" and not is_sub:
+        st.markdown(f'<div class="tw-banner tw-warn">Account found for <u>{email}</u>, but no active subscription.</div>', unsafe_allow_html=True)
+    else:
+        st.markdown('<div class="tw-banner tw-err">You are not signed in.</div>', unsafe_allow_html=True)
+    return status, is_sub
+
+def _auth_card():
     st.markdown('<div class="tw-card">', unsafe_allow_html=True)
     st.markdown("### Access")
-    status_banner()
+    status, is_sub = _status_banner()
 
+    # If subscribed → show nothing else in the card (clean)
+    if status == "signed_in" and is_sub:
+        st.markdown("</div>", unsafe_allow_html=True)
+        return
+
+    # Otherwise show Sign-in + Subscribe sections side-by-side
     left, right = st.columns([1, 1])
 
-    # Left: Sign in
     with left:
         st.markdown("#### Existing subscribers")
-        with st.form(key="signin_form"):
-            email = st.text_input("Email", key="signin_email", placeholder="you@example.com")
-            submitted = st.form_submit_button("Sign in")
-            if submitted:
-                ok, msg = dev_sign_in(email.strip())
-                if ok:
-                    st.success("Signed in.")
+        # Narrow container for email field
+        st.markdown('<div class="narrow">', unsafe_allow_html=True)
+        with st.form(key="signin_form", border=False, clear_on_submit=False):
+            email = st.text_input("Email", placeholder="you@example.com", key="signin_email")
+            if st.form_submit_button("Sign in", use_container_width=False, type="secondary"):
+                if not email:
+                    st.error("Enter your email.")
                 else:
-                    st.error(msg)
+                    if _dev_login(email.strip()):
+                        st.success("Signed in.")
+                        st.rerun()
+                    else:
+                        st.error("No account found or sign-in failed.")
+        st.markdown('</div>', unsafe_allow_html=True)
 
-    # Right: Subscribe
     with right:
         st.markdown("#### New")
-        # Two plan cards side-by-side
-        pcols = st.columns(2)
-        with pcols[0]:
-            st.markdown('<div class="tw-plan">', unsafe_allow_html=True)
-            st.markdown("<h4>Single Board</h4>", unsafe_allow_html=True)
-            st.markdown('<div class="tw-price">$5 / month</div>', unsafe_allow_html=True)
-            st.markdown("<small>Unlock this NFL board.</small>", unsafe_allow_html=True)
-            with st.form(key="plan_single_form"):
-                submit = st.form_submit_button("Subscribe — $5")
-                if submit:
-                    if not PRICE_ID_SINGLE:
-                        st.error("PRICE_ID_SINGLE not set.")
-                    else:
-                        ok, url, debug = start_checkout(PRICE_ID_SINGLE)
-                        if ok and url:
-                            st.link_button("Open Checkout", url, help="Opens Stripe checkout in a new tab.")
+        # Only show subscribe options if NOT already a subscriber
+        if not (status == "signed_in" and is_sub):
+            pcols = st.columns(2)
+            with pcols[0]:
+                st.markdown('<div class="tw-plan">', unsafe_allow_html=True)
+                st.markdown("**Single Board – $5 / month**")
+                with st.form(key="plan_single_form"):
+                    email_default = st.session_state.get("email", "")
+                    st.markdown('<div class="narrow">', unsafe_allow_html=True)
+                    e1 = st.text_input("Email for checkout", value=email_default, placeholder="you@example.com", key="email_p1")
+                    st.markdown('</div>', unsafe_allow_html=True)
+                    if st.form_submit_button("Subscribe — $5", use_container_width=False):
+                        if not e1:
+                            st.error("Enter an email to continue.")
                         else:
-                            st.error("Failed to start checkout.")
-                            st.caption(debug)
-            st.markdown("</div>", unsafe_allow_html=True)
+                            try:
+                                url = _checkout_url(e1.strip())
+                                st.link_button("Open Stripe Checkout", url)
+                            except Exception as ex:
+                                st.error(f"Checkout failed: {ex}")
+                st.markdown('</div>', unsafe_allow_html=True)
 
-        with pcols[1]:
-            st.markdown('<div class="tw-plan">', unsafe_allow_html=True)
-            st.markdown("<h4>All Boards</h4>", unsafe_allow_html=True)
-            st.markdown('<div class="tw-price">$9 / month</div>', unsafe_allow_html=True)
-            st.markdown("<small>Access NFL, NBA, CFB, NHL boards (as available).</small>", unsafe_allow_html=True)
-            with st.form(key="plan_all_form"):
-                submit = st.form_submit_button("Subscribe — $9")
-                if submit:
-                    if not PRICE_ID_ALL:
-                        st.error("PRICE_ID_ALL not set.")
-                    else:
-                        ok, url, debug = start_checkout(PRICE_ID_ALL)
-                        if ok and url:
-                            st.link_button("Open Checkout", url, help="Opens Stripe checkout in a new tab.")
+            with pcols[1]:
+                st.markdown('<div class="tw-plan">', unsafe_allow_html=True)
+                st.markdown("**All Boards – $9 / month**")
+                with st.form(key="plan_all_form"):
+                    email_default = st.session_state.get("email", "")
+                    st.markdown('<div class="narrow">', unsafe_allow_html=True)
+                    e2 = st.text_input("Email for checkout", value=email_default, placeholder="you@example.com", key="email_p2")
+                    st.markdown('</div>', unsafe_allow_html=True)
+                    if st.form_submit_button("Subscribe — $9", use_container_width=False):
+                        if not e2:
+                            st.error("Enter an email to continue.")
                         else:
-                            st.error("Failed to start checkout.")
-                            st.caption(debug)
-            st.markdown("</div>", unsafe_allow_html=True)
+                            try:
+                                url = _checkout_url(e2.strip())
+                                st.link_button("Open Stripe Checkout", url)
+                            except Exception as ex:
+                                st.error(f"Checkout failed: {ex}")
+                st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown("</div>", unsafe_allow_html=True)  # end card
+    st.markdown("</div>", unsafe_allow_html=True)
 
-# ---------------------------
-# Main
-# ---------------------------
-def run_app():
-    header_section()
+# -------------------------
+# Render
+# -------------------------
+def render_board():
+    status, is_sub, _ = _entitlement_soft()
 
-    # TODO: wire in your real snapshot dataframe here:
-    # render_df = <your function>()
-    render_df = None  # placeholder to keep this file drop-in friendly
-    snapshot_section(render_df)
+    # If subscriber → full board immediately (no subscribe UI)
+    if status == "signed_in" and is_sub:
+        _auth_card()  # shows only the green banner (no subscribe UI)
+        st.subheader("Full Board")
+        st.dataframe(styled_filtered, use_container_width=True, hide_index=True, height=900)
+        return
 
-    auth_and_subscribe_section()
+    # Otherwise: show snapshot preview + access card
+    st.markdown("### Current Snapshot")
+    st.caption("Free preview — top edges with banded EV. Updated every ~10 minutes.")
+    st.table(_to_teaser(df_filtered))
+    st.info("Subscribe to unlock exact EV%, best book & price, historical movement, and CSV export.")
+    _auth_card()
+    st.stop()
 
-if __name__ == "__main__":
-    run_app()
+render_board()
