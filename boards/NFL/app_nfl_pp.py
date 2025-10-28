@@ -38,7 +38,7 @@ def _subscribe(price_id: str, board_key: str = "all"):
             # Backend will prepend FRONTEND_URL; we only send the querystring
             "return_path": "?" + urlencode({"checkout": "success", "board": board_key}),
         }
-        r = requests.post(f"{PAYWALL_API}/billing/create_checkout_session",
+        r = requests.post(f"{PAYWALL_API}/billing/checkout",
                           json=payload, headers=_auth_headers(), timeout=20)
         r.raise_for_status()
         _redirect(r.json()["checkout_url"])
@@ -115,8 +115,8 @@ def render_board(df_full: pd.DataFrame, styled_full):
         with c1:
             if st.button("Subscribe – All Boards (monthly)"):
                 _subscribe(PRICE_ALL, board_key="all")
-        with c2:
-            st.button("Manage Billing", on_click=_open_portal)
+        # with c2:
+        #     st.button("Manage Billing", on_click=_open_portal)
 
         # Dev tools
         with st.expander("Developer tools (local only)"):
