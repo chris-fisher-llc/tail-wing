@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import os
@@ -28,6 +29,27 @@ st.markdown(
     </p>
     """,
     unsafe_allow_html=True
+)
+
+# --- Best-effort mobile hint (adds ?mobile=1 on small screens) ---
+components.html(
+    """
+    <script>
+      const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
+      const isMobile = w < 800;
+      try {
+        const url = new URL(window.location);
+        if (isMobile) {
+          url.searchParams.set('mobile', '1');
+        } else {
+          url.searchParams.delete('mobile');
+        }
+        // Replace without adding to history so desktop won't get stuck with ?mobile=1
+        window.history.replaceState({}, '', url);
+      } catch(e) {}
+    </script>
+    """,
+    height=0,
 )
 
 # ---------- GitHub Actions Trigger ----------
@@ -116,6 +138,15 @@ with btn_cols[1]:
 
 # ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
+    # --- Read auto mobile flag from query params early (robust parsing; default OFF) ---
+    qp = st.query_params
+    _raw_mobile = qp.get("mobile", None)
+    auto_mobile = False
+    if isinstance(_raw_mobile, list):
+        auto_mobile = "1" in _raw_mobile
+    elif isinstance(_raw_mobile, str):
+        auto_mobile = (_raw_mobile == "1")
+
     if df is None:
         csv_path = _find_csv_path()
         if not csv_path or not csv_path.exists():
@@ -177,10 +208,11 @@ def run_app(df: pd.DataFrame | None = None):
         books = ["All"] + sorted(df["Best Book"].dropna().unique().tolist()) if "Best Book" in df.columns else ["All"]
         selected_book = st.selectbox("Best Book", books, index=0)
 
+        # Default now 4
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # DEFAULT TO TRUE (reliable for mobile; desktop can toggle off)
-        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=True)
+        # Toggle defaults to URL intent only (desktop won't auto-enable)
+        compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
 
     # Apply filters
     if selected_event != "All":
@@ -199,20 +231,24 @@ def run_app(df: pd.DataFrame | None = None):
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
     # --- Numeric percent for Line vs. Average (ratio -> %)
-    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")
-    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0
+    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")  # ratio
+    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0             # numeric percent
 
-    # --- Significance score (unchanged core logic)
+    # --- Significance score (robust against NaN/Inf and weird #Books) ---
     def _significance(row, alpha=8.0, eps=0.6):
         try:
             ratio = float(row.get("Line vs. Average", float("nan")))
             d = float(row.get("best_decimal", float("nan")))
-            n = int(row.get("# Books", 0))
+            n_raw = row.get("# Books", 0)
+            try:
+                n = int(n_raw) if pd.notna(n_raw) else 0
+            except Exception:
+                n = 0
             if not (ratio > 0 and d > 1):
                 return float("nan")
             edge_pct = (ratio - 1.0) * 100.0
             denom = max(math.log(1.0 + alpha * (d - 1.0)), eps)
-            quality = min(1.0, max(0.0), (n - 3) / 3.0)
+            quality = min(1.0, max(0.0, (n - 3) / 3.0))
             score = (edge_pct * quality) / denom
             return max(-50.0, min(50.0, score))
         except Exception:
@@ -223,11 +259,11 @@ def run_app(df: pd.DataFrame | None = None):
     # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Effective compact mode
-    is_compact = bool(compact_mobile)
+    # Effective mobile mode: URL intent OR user toggle
+    is_mobile = bool(auto_mobile or st.session_state.get("_compact_mobile_override", False) or compact_mobile)
 
     # Decide which odds columns to show
-    if selected_book != "All" and is_compact:
+    if selected_book != "All" and is_mobile:
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
@@ -246,15 +282,16 @@ def run_app(df: pd.DataFrame | None = None):
             s = float(val)
         except Exception:
             return ""
-        if s <= 0:
+        if not math.isfinite(s) or s <= 0.0:
             return ""
         cap = 10.0  # UI sanity cap
         step_size = 0.25
-        max_steps = int(cap / step_size)  # 40 steps
+        max_steps = int(cap / step_size)  # 40
         steps = max(0, min(int(s // step_size), max_steps))
         alpha = 0.12 + (0.95 - 0.12) * (steps / max_steps)
         return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
+    # Shade the selected book's odds column using the same significance-driven tone
     def _shade_selected_book(row, target_col: str):
         styles = [""] * len(row)
         if target_col and target_col in row.index:
@@ -266,8 +303,8 @@ def run_app(df: pd.DataFrame | None = None):
                 pass
         return styles
 
-    # --- Mobile table cosmetics: smaller font if compact
-    if is_compact:
+    # --- Mobile table cosmetics
+    if is_mobile:
         st.markdown(
             """
             <style>
