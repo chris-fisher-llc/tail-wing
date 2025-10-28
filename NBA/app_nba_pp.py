@@ -293,7 +293,7 @@ def run_app(df: pd.DataFrame | None = None):
         odds_cols_to_show = book_cols.copy()
 
     display_cols = (
-        base_cols + odds_cols_to_show + ["% Over Market Avg", "Kelly", "Z"]
+        base_cols + odds_cols_to_show + ["% Over Market Avg (disp)", "Kelly", "Z"]
     )
     # hide internal columns
     hidden = {"# Books", "Best Book", "Best Odds"}
