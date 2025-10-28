@@ -247,7 +247,7 @@ def run_app(df: pd.DataFrame | None = None):
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
     # Best-book compactness on mobile (only keep the chosen book on small screens)
-    is_mobile = ("#mobile=1" in st.experimental_get_query_params().get("", [""])) or compact_mobile
+    is_mobile = ("#mobile=1" in st.query_params().get("", [""])) or compact_mobile
     if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
