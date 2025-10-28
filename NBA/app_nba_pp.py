@@ -30,25 +30,42 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- Best-effort mobile hint (adds ?mobile=1 on small screens) ---
-components.html(
-    """
-    <script>
-      const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
-      const isMobile = w < 800;
-      try {
-        const url = new URL(window.location);
-        if (isMobile) {
-          url.searchParams.set('mobile', '1');
-        } else {
-          url.searchParams.delete('mobile');
-        }
-        window.history.replaceState({}, '', url);
-      } catch(e) {}
-    </script>
-    """,
-    height=0,
-)
+# ---------- Ensure mobile param exists BEFORE sidebar renders ----------
+# First load has no ?mobile; we detect viewport width in JS and reload once with mobile=1 or 0.
+qp = st.query_params
+if "mobile" not in qp:
+    components.html(
+        """
+        <script>
+          (function() {
+            const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
+            const isMobile = w < 800;
+            try {
+              const url = new URL(window.location);
+              url.searchParams.set('mobile', isMobile ? '1' : '0');
+              // Avoid loops: only replace if value actually changed or missing
+              if (!window.location.search.includes('mobile=')) {
+                window.location.replace(url.toString());
+              } else {
+                // if present but malformed, still force replace once
+                window.location.replace(url.toString());
+              }
+            } catch(e) {
+              // fallback: do nothing
+            }
+        })();
+        </script>
+        """,
+        height=0,
+    )
+    st.stop()
+
+# After first reload, we have mobile=1 or mobile=0 available synchronously to Python.
+mobile_flag = qp.get("mobile")
+# st.query_params values can be str or list depending on version/env
+if isinstance(mobile_flag, list):
+    mobile_flag = mobile_flag[0] if mobile_flag else None
+auto_mobile = (mobile_flag == "1")
 
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
@@ -136,11 +153,6 @@ with btn_cols[1]:
 
 # ---------- Core ----------
 def run_app(df: pd.DataFrame | None = None):
-    # --- Read auto mobile flag from query params early ---
-    qp = st.query_params
-    mobile_flag = qp.get("mobile", None)
-    auto_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag))
-
     if df is None:
         csv_path = _find_csv_path()
         if not csv_path or not csv_path.exists():
@@ -202,10 +214,9 @@ def run_app(df: pd.DataFrame | None = None):
         books = ["All"] + sorted(df["Best Book"].dropna().unique().tolist()) if "Best Book" in df.columns else ["All"]
         selected_book = st.selectbox("Best Book", books, index=0)
 
-        # Default now 4
         min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=4, step=1)
 
-        # DEFAULT ON when accessed from mobile (auto_mobile flag)
+        # DEFAULT ON when mobile=1
         compact_mobile = st.toggle("Compact mobile mode (hide other books)", value=bool(auto_mobile))
 
     # Apply filters
@@ -225,10 +236,10 @@ def run_app(df: pd.DataFrame | None = None):
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
     # --- Numeric percent for Line vs. Average (ratio -> %)
-    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")  # ratio
-    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0             # numeric percent
+    df["Line vs. Average"] = pd.to_numeric(df["Line vs. Average"], errors="coerce")
+    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0
 
-    # --- Significance score (same as your current logic)
+    # --- Significance score (unchanged core logic)
     def _significance(row, alpha=8.0, eps=0.6):
         try:
             ratio = float(row.get("Line vs. Average", float("nan")))
@@ -249,11 +260,11 @@ def run_app(df: pd.DataFrame | None = None):
     # --- Build render dataframe (pre-sorted numerically) ---
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
-    # Compute effective mobile mode
+    # Effective mobile mode
     is_mobile = bool(auto_mobile or compact_mobile)
 
     # Decide which odds columns to show
-    if selected_book != "All" and (is_mobile or compact_mobile):
+    if selected_book != "All" and is_mobile:
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
         odds_cols_to_show = book_cols.copy()
@@ -267,7 +278,6 @@ def run_app(df: pd.DataFrame | None = None):
     render_df = render_df.sort_values(by=["Significance"], ascending=False, na_position="last")
 
     # --- Conditional green shading by Significance (0.25 steps) ---
-    # alpha steps: 0 -> none; then every +0.25 increases shade up to a cap
     def _sig_green(val):
         try:
             s = float(val)
@@ -277,12 +287,11 @@ def run_app(df: pd.DataFrame | None = None):
             return ""
         cap = 10.0  # UI sanity cap
         step_size = 0.25
-        max_steps = int(cap / step_size)  # 40
+        max_steps = int(cap / step_size)  # 40 steps
         steps = max(0, min(int(s // step_size), max_steps))
         alpha = 0.12 + (0.95 - 0.12) * (steps / max_steps)
         return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
-    # Shade the selected book's odds column using the same significance-driven tone
     def _shade_selected_book(row, target_col: str):
         styles = [""] * len(row)
         if target_col and target_col in row.index:
