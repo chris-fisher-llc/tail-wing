@@ -70,8 +70,18 @@ GITHUB_REF           = st.secrets.get("GITHUB_REF", "main")
 # -------------------------
 qp = st.query_params
 if qp.get("status") == "success":
-    st.success("Subscription activated. Loading full board…")
-    st.query_params.clear()
+    st.success("Subscription activated. Finalizing…")
+    import time
+    # Give the webhook a moment to flip entitlement
+    for _ in range(10):  # ~10s total
+        status, is_sub, _ = _entitlement_soft()
+        if status == "signed_in" and is_sub:
+            st.query_params.clear()
+            st.rerun()
+        time.sleep(1)
+    # If we get here, webhook hasn’t flipped yet
+    st.warning("Almost done — click **Refresh entitlement** below if your access hasn’t unlocked yet.")
+
 
 # -------------------------
 # Auth helpers (kept + small hardening)
@@ -86,23 +96,27 @@ def _sign_out():
     st.rerun()
 
 def _entitlement_soft() -> Tuple[str, bool, Optional[str]]:
-    """
-    Returns (status, is_subscriber, email)
-    status ∈ {"signed_out", "signed_in"}
-    """
     token = st.session_state.get("token")
     if not token:
         return "signed_out", False, None
-    try:
-        # your original endpoint
-        r = requests.get(f"{PAYWALL_API}/entitlement", headers=_auth_headers(), timeout=10)
-        if r.status_code == 401:
-            _sign_out()
-        r.raise_for_status()
-        js = r.json()
-        return "signed_in", bool(js.get("is_subscriber")), js.get("email")
-    except Exception:
-        return "signed_out", False, None
+
+    headers = {"Authorization": f"Bearer {token}"}
+    endpoints = ["/billing/entitlement", "/entitlement"]
+
+    for ep in endpoints:
+        try:
+            r = requests.get(f"{PAYWALL_API}{ep}", headers=headers, timeout=10)
+            if r.status_code == 401:
+                _sign_out()
+                return "signed_out", False, None
+            if r.ok:
+                js = r.json()
+                return "signed_in", bool(js.get("is_subscriber")), js.get("email")
+        except Exception:
+            continue
+
+    # Fall back if both failed
+    return "signed_in", False, st.session_state.get("email")
 
 def _dev_login(email: str) -> bool:
     try:
