@@ -204,12 +204,11 @@ def run_app(df: pd.DataFrame | None = None):
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(to_american)
 
-    # Convert ratio to percentage string (e.g. 2.904762 → 290.5%)
+    # Correctly display as "% above market average"
     df["% Over Market Avg"] = pd.to_numeric(df["% Over Market Avg"], errors="coerce")
     df["% Over Market Avg"] = df["% Over Market Avg"].apply(
-        lambda x: f"{(x * 100):.1f}%" if pd.notnull(x) else ""
+        lambda x: f"{((x - 1) * 100):.1f}%" if pd.notnull(x) else ""
     )
-
 
     # --- Kelly & Z Calculations ---
     def _kelly(row, alpha=8, eps=0.6):
