@@ -152,8 +152,8 @@ def main():
                 for o in m.get("outcomes", []) or []:
                     price = o.get("price")
                     player = o.get("description") or o.get("name") or "Unknown"
-                
-                    # Double-Double (Yes/No)
+
+                    # Double-Double (Yes/No) -> keep only "Yes"
                     if group == "Double-Double":
                         outcome_name = (o.get("name") or o.get("description") or "").strip().lower()
                         if price is None or outcome_name != "yes":
@@ -168,16 +168,24 @@ def main():
                         })
                         total_outcomes += 1
                         continue  # skip numeric handling
-                
-                    # Numeric alt props
+
+                    # Numeric alt props -> keep ONLY the "Over" leg (X+)
+                    outcome_name = (o.get("name") or "").strip().lower()
+                    # Some books may put the leg in "description" — include a fallback check
+                    outcome_desc = (o.get("description") or "").strip().lower()
+                    is_over_leg = ("over" in outcome_name) or (outcome_name == "") and ("over" in outcome_desc)
+                    if (not is_over_leg) or (price is None):
+                        continue
+
                     thr = normalize_threshold(
                         group,
                         o.get("point"),
                         name=o.get("name"),
                         description=o.get("description"),
                     )
-                    if price is None or not thr:
+                    if not thr:
                         continue
+
                     rows.append({
                         "event": label,
                         "player": player,
