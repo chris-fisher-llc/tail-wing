@@ -36,14 +36,20 @@ components.html(
     <script>
       const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
       const isMobile = w < 800;
-      // We can't read postMessage directly in Python; expose a URL hash we can read if needed.
-      if (isMobile && !location.hash.includes("mobile=1")) {
-        try { history.replaceState({}, "", location.pathname + location.search + "#mobile=1"); } catch(e) {}
-      }
+      try {
+        const url = new URL(window.location);
+        if (isMobile) {
+          url.searchParams.set('mobile', '1');
+        } else {
+          url.searchParams.delete('mobile');
+        }
+        window.history.replaceState({}, '', url);
+      } catch(e) {}
     </script>
     """,
     height=0,
 )
+
 
 # ---------- GitHub Actions Trigger ----------
 def trigger_github_action():
@@ -247,7 +253,11 @@ def run_app(df: pd.DataFrame | None = None):
     base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
 
     # Best-book compactness on mobile (only keep the chosen book on small screens)
-    is_mobile = ("#mobile=1" in st.query_params().get("", [""])) or compact_mobile
+    # Read the query param properly (property, not a function)
+    qp = st.query_params  # dict-like
+    mobile_flag = qp.get("mobile", None)
+    is_mobile = (mobile_flag == "1" or (isinstance(mobile_flag, list) and "1" in mobile_flag)) or compact_mobile
+
     if selected_book != "All" and (is_mobile or compact_mobile):
         odds_cols_to_show = [selected_book] if selected_book in book_cols else []
     else:
