@@ -39,7 +39,7 @@ def _subscribe(price_id: str, board_key: str = "all"):
         r = requests.post(f"{PAYWALL_API}/billing/checkout",
                           json=payload, headers=_auth_headers(), timeout=20)
         r.raise_for_status()
-        _redirect(r.json()["checkout_url"])
+        _redirect(r.json()["url"])
     except Exception as e:
         st.error(f"Checkout failed: {e}")
 
