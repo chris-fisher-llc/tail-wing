@@ -25,16 +25,14 @@ def _auth_headers():
     return {"Authorization": f"Bearer {token}"} if token else {}
 
 def _redirect(url: str):
-    # JS redirect (top window) + clickable fallback
-    st.markdown(
-        f"""
+    # Robust redirect that bypasses Markdown sanitization
+    components.html(f"""
         <script>
             window.top.location.href = "{url}";
         </script>
-        <p>If you’re not redirected, <a href="{url}">click here to open Stripe Checkout</a>.</p>
-        """,
-        unsafe_allow_html=True,
-    )
+    """, height=0)
+    # clickable fallback just in case
+    st.link_button("Click to open Stripe Checkout", url)
     st.stop()
 
 
