@@ -33,10 +33,8 @@ def _subscribe(price_id: str, board_key: str = "all"):
     """Create a Stripe Checkout session via backend and redirect the user."""
     try:
         payload = {
-            "price_id": price_id,
-            "board": board_key,
-            # Backend will prepend FRONTEND_URL; we only send the querystring
-            "return_path": "?" + urlencode({"checkout": "success", "board": board_key}),
+            "email": st.session_state.get("email"),
+            "referrer": None,
         }
         r = requests.post(f"{PAYWALL_API}/billing/checkout",
                           json=payload, headers=_auth_headers(), timeout=20)
@@ -64,6 +62,7 @@ def _dev_sign_in():
         r = requests.post(f"{API_BASE}/auth/dev_login", json={"email": email}, timeout=10)
         r.raise_for_status()
         st.session_state["token"] = r.json()["session_token"]
+        st.session_state["email"] = email 
         st.rerun()
     st.stop()
 
