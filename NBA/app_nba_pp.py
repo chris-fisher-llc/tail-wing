@@ -362,13 +362,13 @@ def run_app(df: pd.DataFrame | None = None):
 
     # --- Build Styler with formatting + shading ---
     styled = render_df.style
-
+    
     # Shade Significance column
     if "Significance" in render_df.columns:
         styled = styled.applymap(_sig_green, subset=["Significance"])
 
     # Shade selected book column (if any and visible)
-    target_col = selected_book if (selected_book != "All" and selected_book in render_df.columns) else None
+    target_col = selected_book if (selected_book in render_df.columns) else None
     if target_col:
         styled = styled.apply(_shade_selected_book, axis=1, target_col=target_col)
 
