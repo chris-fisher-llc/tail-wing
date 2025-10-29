@@ -256,7 +256,7 @@ def run_app(df: pd.DataFrame | None = None):
                 return float("nan")
             edge_pct = (ratio - 1.0) * 100.0
             denom = max(math.log(1.0 + alpha * (d - 1.0)), eps)
-            quality = min(1.0, max(0.0, (n - 3) / 3.0))
+            quality = min(1.0, max(0.0, (n - 2) / 3.0))
             score = (edge_pct * quality) / denom
             return max(-50.0, min(50.0, score))
         except Exception:
