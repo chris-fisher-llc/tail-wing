@@ -232,14 +232,22 @@ def run_app(df: pd.DataFrame | None = None):
     base_cols=["Event","Player","Bet Type","Alt Line"]
     is_mobile=bool(auto_mobile or compact_mobile)
 
+    # keep Best Book visible so we can shade the winning sportsbook cell
     if sel_book!="All" and is_mobile:
-        show_cols=[sel_book] if sel_book in book_cols else []
+        show_cols = [sel_book] if sel_book in book_cols else []
     else:
-        show_cols=book_cols.copy()
-    hidden={"# Books","Best Book","Best Odds"}
-    cols=base_cols+show_cols+["Line vs. Average (%)","Implied EV (%)"]
-    cols=[c for c in cols if c in df.columns and c not in hidden]
-    render_df=df[cols].copy()
+        show_cols = book_cols.copy()
+    
+    hidden = {"# Books", "Best Odds"}  # <-- do NOT hide "Best Book"
+    
+    cols = ["Event","Player","Bet Type","Alt Line"] + show_cols + [
+        "Best Book",                # <-- include
+        "Line vs. Average (%)",
+        "Implied EV (%)"
+    ]
+    cols = [c for c in cols if c in df.columns and c not in hidden]
+    
+    render_df = df[cols].copy()
 
     # Compact cosmetics
     def _shorten(x,maxlen=18):
