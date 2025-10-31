@@ -153,13 +153,24 @@ def infer_side(row) -> str | None:
             return str(row[key]).strip()
     return None
 
+def to_float_or_none(x):
+    try:
+        return float(x)
+    except Exception:
+        return None
+
+def round_to_half(x: float | None) -> float | None:
+    """Round to nearest 0.5 to reduce tiny CSV float noise."""
+    if x is None: return None
+    return round(x * 2) / 2
+
 def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: str,
                            line_val, side_label: str, offered: float) -> float | None:
     """
     Look for the *opposite side* at the same book for the same game/market/line.
     - Moneyline: same game/market; side is opponent team
-    - Spread: same game/market and |line| equal; side is opponent team
-    - Total: same game/market and identical line; side is Over<->Under
+    - Spread: same game/market and |Line| equal; side is opponent team
+    - Total: same game/market and identical Line; side is Over<->Under
     Return fair American odds via midpoint if found; else None.
     """
     # derive opponent label
@@ -176,15 +187,23 @@ def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: 
     opp_side = opponent_of(side_label)
 
     pool = df[(df["Event"]==event) & (df["Market"]==market)]
-    if market in ("Spread","Total"):
-        # pair by exact total line, or absolute spread line
+
+    # Group by Line as requested
+    if market == "Total":
+        # exact total line match (after numeric coercion)
         try:
-            if market == "Total":
-                pool = pool[pd.to_numeric(pool["Alt Line"], errors="coerce") == pd.to_numeric(line_val, errors="coerce")]
-            else:
-                pool = pool[pool["|Alt|"] == abs(float(line_val))]
+            ln = to_float_or_none(line_val)
+            pool = pool[pd.to_numeric(pool["Line"], errors="coerce") == ln]
         except Exception:
             pass
+    elif market == "Spread":
+        # same absolute spread (rounded to .5 to avoid noise)
+        try:
+            ln = round_to_half(to_float_or_none(line_val))
+            pool = pool[pool["|Line|"] == abs(ln) if ln is not None else False]
+        except Exception:
+            pass
+    # Moneyline: no Line filter
 
     opp_odds = None
     for _, r in pool.iterrows():
@@ -239,7 +258,7 @@ def run_app(df: pd.DataFrame | None = None):
     df = df.rename(columns={
         "game":"Event",
         "bet_type":"Bet Type",
-        "line":"Alt Line",
+        "line":"Line",                     # Alt Line -> Line
         "selection":"Selection",
         "opponent":"Opponent",
         "best_book":"Best Book",
@@ -265,7 +284,7 @@ def run_app(df: pd.DataFrame | None = None):
     df["Market"] = df["Bet Type"].apply(normalize_market)
 
     # Dynamic sportsbook columns
-    fixed = {"Event","Bet Type","Market","Alt Line","Selection","Opponent",
+    fixed = {"Event","Bet Type","Market","Line","Selection","Opponent",
              "Best Book","Best Odds","Line vs. Average","kickoff_et",
              "best_decimal","avg_other_decimal","value_flag"}
     book_cols = [c for c in df.columns if c not in fixed and not str(c).startswith("Unnamed")]
@@ -301,22 +320,29 @@ def run_app(df: pd.DataFrame | None = None):
 
     # Side inference and keys for pairing
     df["_side"] = df.apply(infer_side, axis=1)
+
+    # Pre-compute numeric line (for pairing & formatting)
+    df["_line_num"] = pd.to_numeric(df.get("Line"), errors="coerce")
+    # absolute spread line key (rounded to nearest .5)
     def _abs_key(row):
         try:
-            return abs(float(row.get("Alt Line")))
+            if row["Market"] != "Spread":
+                return None
+            ln = round_to_half(to_float_or_none(row["_line_num"]))
+            return abs(ln) if ln is not None else None
         except Exception:
             return None
-    df["|Alt|"] = df.apply(_abs_key, axis=1)
+    df["|Line|"] = df.apply(_abs_key, axis=1)
 
     # ---------- Implied EV: pair-first, curve-fallback ----------
-    # NOTE: We compute EV BEFORE pretty-formatting book odds to avoid string/float mismatch.
+    # (Compute with numeric book odds BEFORE we pretty-format for display)
     def fair_for_other_book(book: str, offered: float, row: pd.Series) -> float:
         fair = pair_midpoint_for_book(
             df=df,
             book_col=book,
             event=row.get("Event"),
             market=row.get("Market"),
-            line_val=row.get("Alt Line"),
+            line_val=row.get("Line"),
             side_label=row.get("_side"),
             offered=offered
         )
@@ -326,25 +352,22 @@ def run_app(df: pd.DataFrame | None = None):
 
     def calc_implied_ev(row: pd.Series) -> float:
         try:
-            # Best Odds may already be a string; coerce to float
             best_odds = float(row.get("Best Odds", float("nan")))
             if not math.isfinite(best_odds): return float("nan")
             best_book = row.get("Best Book")
 
-            # collect other book odds (numeric) for this row
             others = []
             for col in book_cols:
                 if col == best_book:
                     continue
                 v = row.get(col, None)
                 try:
-                    if pd.notna(v) and str(v).strip() != "":
+                    if pd.notna(v) and str(v).strip()!="":
                         others.append((col, float(v)))
                 except Exception:
                     pass
             if not others: return float("nan")
 
-            # fair probs for other books
             fair_probs = []
             for book, offered in others:
                 fair_american = fair_for_other_book(book, offered, row)
@@ -366,7 +389,7 @@ def run_app(df: pd.DataFrame | None = None):
 
     df["Implied EV (%)"] = df.apply(calc_implied_ev, axis=1)
 
-    # ---------- Pretty-format book columns AFTER EV is computed ----------
+    # ---------- Pretty-format AFTER EV is computed ----------
     def fmt_american_cell(x):
         try:
             x = int(float(x))
@@ -379,8 +402,29 @@ def run_app(df: pd.DataFrame | None = None):
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(fmt_american_cell)
 
+    # Format Line: integer unless ends with .5
+    def fmt_line(val, market):
+        if market == "Moneyline" or pd.isna(val):
+            return ""
+        try:
+            x = float(val)
+            # keep .5, otherwise integer
+            if abs(x*2 - round(x*2)) < 1e-9:
+                # exact .0 or .5 already; check .5
+                if abs(x*2) % 2 == 1:
+                    return f"{x:.1f}"  # .5
+                else:
+                    return f"{int(x)}"  # .0
+            # if weird float, round to nearest 0.5 then format
+            xh = round_to_half(x)
+            return f"{xh:.1f}" if abs(xh*2) % 2 == 1 else f"{int(xh)}"
+        except Exception:
+            return str(val) if pd.notna(val) else ""
+
+    df["Line"] = [fmt_line(v, m) for v, m in zip(df.get("_line_num"), df.get("Market"))]
+
     # ---------- Build render dataframe ----------
-    base_cols = ["Event","Bet Type","Alt Line","Selection","Opponent"]
+    base_cols = ["Event","Bet Type","Line","Selection","Opponent"]
     is_mobile = bool(auto_mobile or compact_mobile)
 
     # keep Best Book visible so we can shade the winning sportsbook cell
@@ -389,8 +433,9 @@ def run_app(df: pd.DataFrame | None = None):
     else:
         show_cols = book_cols.copy()
 
-    # Hide requested columns
-    hidden = {"# Books", "Best Odds", "Opponent", "best_decimal", "avg_other_decimal", "value_flag"}
+    # Hide requested + internals
+    hidden = {"# Books", "Best Odds", "Opponent", "best_decimal", "avg_other_decimal", "value_flag",
+              "_line_num", "|Line|", "_side"}
     cols = base_cols + show_cols + ["Best Book","Line vs. Average (%)","Implied EV (%)"]
     cols = [c for c in cols if c in df.columns and c not in hidden]
     render_df = df[cols].copy()
@@ -400,8 +445,9 @@ def run_app(df: pd.DataFrame | None = None):
         s=str(s); 
         return (s[:maxlen-1]+"…") if len(s)>maxlen else s
     if is_mobile:
-        if "Event" in render_df:     render_df["Event"]     = render_df["Event"].apply(lambda s:_shorten(s,22))
-        if "Selection" in render_df: render_df["Selection"] = render_df["Selection"].apply(lambda s:_shorten(s,18))
+        if "Event" in render_df:     render_df["Event"]    = render_df["Event"].apply(lambda s:_shorten(s,22))
+        if "Selection" in render_df: render_df["Selection"]=render_df["Selection"].apply(lambda s:_shorten(s,18))
+        if "Opponent" in render_df:  render_df["Opponent"] = render_df["Opponent"].apply(lambda s:_shorten(s,18))
 
     render_df = render_df.sort_values(by=["Implied EV (%)"], ascending=False, na_position="last")
 
@@ -446,7 +492,7 @@ def run_app(df: pd.DataFrame | None = None):
         ('font-size','16px'),('background-color','#003366'),('color','white')]
     }])
 
-    # ---- Top button row (centered) ----
+    # ---- Centered refresh button ----
     btn_cols = st.columns([1,1,1])
     with btn_cols[1]:
         if st.button("Refresh Odds", use_container_width=True):
