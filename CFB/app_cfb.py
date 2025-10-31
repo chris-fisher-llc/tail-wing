@@ -167,12 +167,77 @@ def round_to_half(x: float | None) -> float | None:
 def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: str,
                            line_val, side_label: str, offered: float) -> float | None:
     """
-    Look for the *opposite side* at the same book for the same game/market/line.
-    - Moneyline: same game/market; side is opponent team
-    - Spread: same game/market and |Line| equal; side is opponent team
-    - Total: same game/market and identical Line; side is Over<->Under
-    Return fair American odds via midpoint if found; else None.
+    Find the opposite side at the same book for the same game/market/line.
+    Use probability normalization to remove vig (handles -110/-110 etc.).
+    Falls back to None if no opposite side found.
     """
+    # derive opponent label
+    def opponent_of(side: str) -> str | None:
+        if market == "Total":
+            return "Under" if side and side.lower()=="over" else ("Over" if side and side.lower()=="under" else None)
+        if " @ " in str(event):
+            away, home = [x.strip() for x in str(event).split(" @ ", 1)]
+            if side and side.lower()==away.lower(): return home
+            if side and side.lower()==home.lower(): return away
+        return None
+
+    opp_side = opponent_of(side_label)
+
+    # locate rows for same event/market/line group
+    pool = df[(df["Event"]==event) & (df["Market"]==market)]
+    if market == "Total":
+        try:
+            ln = float(line_val)
+            pool = pool[pd.to_numeric(pool["Line"], errors="coerce") == ln]
+        except Exception:
+            pass
+    elif market == "Spread":
+        try:
+            ln = round(float(line_val) * 2) / 2
+            pool = pool[pool["|Line|"] == abs(ln) if ln is not None else False]
+        except Exception:
+            pass
+
+    opp_odds = None
+    for _, r in pool.iterrows():
+        r_side = str(r.get("_side","")).strip()
+        if opp_side:
+            if r_side.lower() != opp_side.lower():
+                continue
+        else:
+            if r_side.lower() == str(side_label or "").lower():
+                continue
+        v = r.get(book_col, None)
+        if pd.notna(v) and str(v).strip()!="":
+            try:
+                opp_odds = float(v); break
+            except Exception:
+                pass
+    if opp_odds is None:
+        return None
+
+    # --- ✅ Proper fair-odds math via probability normalization ---
+    def to_prob(o: float):
+        return 100/(o+100) if o>0 else abs(o)/(abs(o)+100)
+
+    p1, p2 = to_prob(offered), to_prob(opp_odds)
+    if not (math.isfinite(p1) and math.isfinite(p2)) or (p1+p2)==0:
+        return None
+
+    # remove vig
+    p_true = p1 / (p1 + p2)
+
+    # convert back to fair American odds
+    if p_true == 0.5:
+        fair = 100.0
+    elif p_true < 0.5:
+        fair = (100 / p_true) - 100     # underdog → positive
+    else:
+        fair = - (100 * p_true) / (1 - p_true)  # favorite → negative
+
+    # keep sign aligned to original side
+    return fair if offered >= 0 else -abs(fair)
+
     # derive opponent label
     def opponent_of(side: str) -> str | None:
         if market == "Total":
@@ -504,3 +569,4 @@ def run_app(df: pd.DataFrame | None = None):
 # ---- Run ----
 if __name__=="__main__":
     run_app()
+
