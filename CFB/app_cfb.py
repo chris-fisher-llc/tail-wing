@@ -61,7 +61,7 @@ except Exception:
 def trigger_github_action():
     token = st.secrets.get("GITHUB_TOKEN")
     repo = st.secrets.get("GITHUB_REPO")          # e.g. "chris-fisher-llc/tail-wing"
-    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "main_cfb.yml")
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "cfb.yml")
     ref = st.secrets.get("GITHUB_REF", "main")
     if not token or not repo:
         st.error("Missing secrets: GITHUB_TOKEN / GITHUB_REPO.")
@@ -458,4 +458,5 @@ def run_app(df: pd.DataFrame | None = None):
 # ---- Run ----
 if __name__=="__main__":
     run_app()
+
 
