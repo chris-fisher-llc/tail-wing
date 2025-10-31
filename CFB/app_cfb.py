@@ -93,23 +93,23 @@ def wait_for_csv_update(max_checks=12, sleep_seconds=10):
                 st.rerun()
 
 def _find_csv_path() -> Path | None:
-    env = os.getenv("CFB_GAMES_CSV")
+    env = os.getenv("cfb_matched_output_CSV")
     if env:
         p = Path(env)
         if p.exists(): return p
     here = Path(__file__).resolve().parent
     candidates = [
-        here / "cfb_games.csv",
-        here / "cfb" / "cfb_games.csv",
-        here.parent / "cfb_games.csv",
-        here.parent / "cfb" / "cfb_games.csv",
-        Path.cwd() / "cfb_games.csv",
-        Path.cwd() / "cfb" / "cfb_games.csv",
+        here / "cfb_matched_output.csv",
+        here / "cfb" / "cfb_matched_output.csv",
+        here.parent / "cfb_matched_output.csv",
+        here.parent / "cfb" / "cfb_matched_output.csv",
+        Path.cwd() / "cfb_matched_output.csv",
+        Path.cwd() / "cfb" / "cfb_matched_output.csv",
     ]
     for p in candidates:
         if p.exists(): return p
     try:
-        for p in here.rglob("cfb_games.csv"):
+        for p in here.rglob("cfb_matched_output.csv"):
             return p
     except Exception:
         pass
@@ -237,7 +237,7 @@ def run_app(df: pd.DataFrame | None = None):
     if df is None:
         csv_path = _find_csv_path()
         if not csv_path or not csv_path.exists():
-            st.error("cfb_games.csv not found.")
+            st.error("cfb_matched_output.csv not found.")
             return
         try:
             df = pd.read_csv(csv_path)
@@ -458,3 +458,4 @@ def run_app(df: pd.DataFrame | None = None):
 # ---- Run ----
 if __name__=="__main__":
     run_app()
+
