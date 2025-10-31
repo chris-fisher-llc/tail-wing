@@ -1,27 +1,37 @@
 game,kickoff_et,bet_type,selection,opponent,line,BetMGM_Odds,BetRivers_Odds,Betonlineag_Odds,Betus_Odds,Bovada_Odds,DraftKings_Odds,FanDuel_Odds,Lowvig_Odds,Mybookieag_Odds,WilliamhillUs_Odds,best_book,best_odds,best_decimal,avg_other_decimal,value_ratio,value_flag
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Moneyline,Memphis Tigers,Rice Owls,,-625,-625,-570,-550,-600,-600,-500,-570,-645,-625,FanDuel_Odds,-500,1.2,1.1668,1.0285,TRUE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Moneyline,Rice Owls,Memphis Tigers,,450,360,428,425,425,440,385,428,439,425,BetMGM_Odds,450,5.5,5.1722,1.0634,TRUE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Memphis Tigers,Rice Owls,-14.0,-105,,,,,-108,,,-110,,BetMGM_Odds,-105,1.9524,1.9175,1.0182,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Memphis Tigers,Rice Owls,-13.5,,-110,-110,-110,-115,,-110,-110,,-115,FanDuel_Odds,-110,1.9091,1.8959,1.0069,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Rice Owls,Memphis Tigers,13.5,,-113,-110,-110,-105,,-110,-102,,-106,Lowvig_Odds,-102,1.9804,1.918,1.0325,TRUE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Rice Owls,Memphis Tigers,14.0,-115,,,,,-112,,,-110,,Mybookieag_Odds,-110,1.9091,1.8812,1.0148,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Over,,48.5,-110,-113,,-110,-110,-110,-110,,-110,-107,WilliamhillUs_Odds,-107,1.9346,1.9056,1.0152,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Over,,49.0,,,-105,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Under,,48.5,-110,-110,,-110,-110,-110,-110,,-110,-112,DraftKings_Odds,-110,1.9091,1.9068,1.0012,FALSE
-Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Under,,49.0,,,-115,,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Moneyline,North Carolina Tar Heels,Syracuse Orange,,115,108,110,120,110,114,110,110,112,115,Betus_Odds,120,2.2,2.1156,1.0399,TRUE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Moneyline,Syracuse Orange,North Carolina Tar Heels,,-140,-136,-130,-140,-130,-135,-130,-130,-137,-135,FanDuel_Odds,-130,1.7692,1.7426,1.0153,FALSE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,North Carolina Tar Heels,Syracuse Orange,2.5,-110,-113,-111,-110,-110,-110,-110,-107,-110,-110,Lowvig_Odds,-107,1.9346,1.9055,1.0153,FALSE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,Syracuse Orange,North Carolina Tar Heels,-2.5,-110,-110,-109,-110,-110,-110,-110,-105,-110,-110,Lowvig_Odds,-105,1.9524,1.91,1.0222,TRUE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Over,,45.5,-110,-109,-110,-110,-105,-110,-110,-108,-110,-110,Bovada_Odds,-105,1.9524,1.9119,1.0212,TRUE
-North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Under,,45.5,-110,-114,-110,-110,-115,-110,-110,-108,-110,-110,Lowvig_Odds,-108,1.9259,1.9012,1.013,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Moneyline,Louisiana Tech Bulldogs,Sam Houston State Bearkats,,-800,-835,-825,-825,-800,-750,-800,-825,-952,-950,DraftKings_Odds,-750,1.1333,1.1187,1.013,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Moneyline,Sam Houston State Bearkats,Louisiana Tech Bulldogs,,575,510,574,565,525,525,560,574,590,550,Mybookieag_Odds,590,6.9,6.5089,1.0601,TRUE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Louisiana Tech Bulldogs,Sam Houston State Bearkats,-17.0,,,-106,,,,,-102,-110,,Lowvig_Odds,-102,1.9804,1.9262,1.0281,TRUE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Louisiana Tech Bulldogs,Sam Houston State Bearkats,-16.5,-118,-117,,-110,-110,-112,-115,,,-115,Bovada_Odds,-110,1.9091,1.8739,1.0188,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Sam Houston State Bearkats,Louisiana Tech Bulldogs,16.5,-102,-106,,-110,-110,-108,-105,,,-106,BetMGM_Odds,-102,1.9804,1.9305,1.0258,TRUE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Sam Houston State Bearkats,Louisiana Tech Bulldogs,17.0,,,-114,,,,,-110,-110,,Mybookieag_Odds,-110,1.9091,1.8931,1.0084,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Over,,48.0,,,-115,,,,,-114,,,Lowvig_Odds,-114,1.8772,1.8696,1.0041,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Over,,48.5,-110,-109,,-110,-110,-105,-110,,-110,-105,DraftKings_Odds,-105,1.9524,1.9165,1.0187,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Under,,48.0,,,-105,,,,,-103,,,Lowvig_Odds,-103,1.9709,1.9524,1.0095,FALSE
-Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Under,,48.5,-110,-113,,-110,-110,-115,-110,,-110,-120,FanDuel_Odds,-110,1.9091,1.8892,1.0105,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Moneyline,Memphis Tigers,Rice Owls,,-625,-770,-600,-550,-675,-675,-590,-600,-680,-675,Betus_Odds,-550,1.1818,1.1538,1.0243,TRUE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Moneyline,Rice Owls,Memphis Tigers,,450,425,446,425,460,490,440,446,453,425,DraftKings_Odds,490,5.9,5.4111,1.0903,TRUE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Memphis Tigers,Rice Owls,-14.5,,-109,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Memphis Tigers,Rice Owls,-14.0,-110,,-112,-110,-120,-115,,-108,-110,-113,Lowvig_Odds,-108,1.9259,1.8869,1.0207,TRUE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Memphis Tigers,Rice Owls,-13.5,,,,,,,-118,,,,FanDuel_Odds,-118,1.8475,,,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Rice Owls,Memphis Tigers,13.5,,,,,,,-104,,,,FanDuel_Odds,-104,1.9615,,,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Rice Owls,Memphis Tigers,14.0,-110,,-108,-110,100,-105,,-104,-110,-108,Bovada_Odds,100,2.0,1.9276,1.0376,TRUE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Spread,Rice Owls,Memphis Tigers,14.5,,-115,,,,,,,,,BetRivers_Odds,-115,1.8696,,,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Over,,48.0,,,-110,,-115,,,-108,,,Lowvig_Odds,-108,1.9259,1.8893,1.0194,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Over,,48.5,,-110,,-110,,-110,-110,,-110,-112,DraftKings_Odds,-110,1.9091,1.9058,1.0017,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Over,,49.5,-110,,,,,,,,,,BetMGM_Odds,-110,1.9091,,,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Under,,48.0,,,-110,,-105,,,-108,,,Bovada_Odds,-105,1.9524,1.9175,1.0182,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Under,,48.5,,-113,,-110,,-110,-110,,-110,-107,WilliamhillUs_Odds,-107,1.9346,1.9043,1.0159,FALSE
+Memphis Tigers @ Rice Owls,2025-10-31 19:00 ET,Total,Under,,49.5,-120,,,,,,,,,,BetMGM_Odds,-120,1.8333,,,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Moneyline,North Carolina Tar Heels,Syracuse Orange,,100,102,-104,100,100,-105,-104,-104,-103,100,BetRivers_Odds,102,2.02,1.9787,1.0209,TRUE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Moneyline,Syracuse Orange,North Carolina Tar Heels,,-120,-127,-116,-120,-120,-115,-112,-116,-118,-120,FanDuel_Odds,-112,1.8929,1.8402,1.0286,TRUE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,North Carolina Tar Heels,Syracuse Orange,1.0,,,-110,-105,,,,-106,-110,-110,Betus_Odds,-105,1.9524,1.9177,1.0181,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,North Carolina Tar Heels,Syracuse Orange,1.5,-115,,,,-110,-112,-115,,,,Bovada_Odds,-110,1.9091,1.8773,1.0169,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,North Carolina Tar Heels,Syracuse Orange,2.0,,-114,,,,,,,,,BetRivers_Odds,-114,1.8772,,,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,Syracuse Orange,North Carolina Tar Heels,-2.0,,-109,,,,,,,,,BetRivers_Odds,-109,1.9174,,,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,Syracuse Orange,North Carolina Tar Heels,-1.5,-105,,,,-110,-108,-105,,,,FanDuel_Odds,-105,1.9524,1.9291,1.0121,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Spread,Syracuse Orange,North Carolina Tar Heels,-1.0,,,-110,-115,,,,-106,-110,-110,Lowvig_Odds,-106,1.9434,1.8992,1.0233,TRUE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Over,,44.5,-115,,,,,,,,,,BetMGM_Odds,-115,1.8696,,,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Over,,45.0,,-114,-110,-110,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9011,1.013,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Over,,45.5,,,,,-110,-105,-106,,-110,,DraftKings_Odds,-105,1.9524,1.9205,1.0166,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Under,,44.5,-105,,,,,,,,,,BetMGM_Odds,-105,1.9524,,,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Under,,45.0,,-109,-110,-110,,,,-108,,-110,Lowvig_Odds,-108,1.9259,1.9112,1.0077,FALSE
+North Carolina Tar Heels @ Syracuse Orange,2025-10-31 19:30 ET,Total,Under,,45.5,,,,,-110,-115,-114,,-110,,Mybookieag_Odds,-110,1.9091,1.8853,1.0126,FALSE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Moneyline,Louisiana Tech Bulldogs,Sam Houston State Bearkats,,-800,-910,-800,-800,-950,-800,-820,-800,-952,-950,DraftKings_Odds,-800,1.125,1.1164,1.0077,FALSE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Moneyline,Sam Houston State Bearkats,Louisiana Tech Bulldogs,,575,525,561,550,600,550,570,561,590,550,Bovada_Odds,600,7.0,6.5911,1.062,TRUE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Louisiana Tech Bulldogs,Sam Houston State Bearkats,-17.0,,-110,,,,,,,,,BetRivers_Odds,-110,1.9091,,,FALSE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Louisiana Tech Bulldogs,Sam Houston State Bearkats,-16.5,-118,,-110,-110,-120,-112,-115,-108,-110,-115,Lowvig_Odds,-108,1.9259,1.88,1.0244,TRUE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Sam Houston State Bearkats,Louisiana Tech Bulldogs,16.5,-102,,-110,-110,100,-108,-105,-104,-110,-106,Bovada_Odds,100,2.0,1.9364,1.0329,TRUE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Spread,Sam Houston State Bearkats,Louisiana Tech Bulldogs,17.0,,-112,,,,,,,,,BetRivers_Odds,-112,1.8929,,,FALSE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Over,,48.5,-110,-108,-108,-110,-110,-105,-110,-106,-110,-105,DraftKings_Odds,-105,1.9524,1.9215,1.0161,FALSE
+Sam Houston State Bearkats @ Louisiana Tech Bulldogs,2025-10-31 20:00 ET,Total,Under,,48.5,-110,-115,-112,-110,-110,-115,-110,-110,-110,-120,FanDuel_Odds,-110,1.9091,1.8901,1.0101,FALSE
