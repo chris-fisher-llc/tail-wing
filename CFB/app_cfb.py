@@ -12,15 +12,12 @@ import re
 
 st.set_page_config(page_title="The Tail Wing - CFB Games", layout="wide")
 
-# --- Make sidebar (filters) narrower (~half of default) ---
+# --- Narrow the sidebar (~half width) ---
 st.markdown(
     """
     <style>
-      /* Narrow the sidebar */
-      section[data-testid="stSidebar"] { width: 12rem !important; min-width: 12rem !important; }
-      div[data-testid="stSidebar"] > div { width: 12rem !important; }
-
-      /* Keep widgets readable in narrower sidebar */
+      section[data-testid="stSidebar"] { width: 11rem !important; min-width: 11rem !important; }
+      div[data-testid="stSidebar"] > div { width: 11rem !important; }
       section[data-testid="stSidebar"] * { font-size: 0.87rem !important; }
       section[data-testid="stSidebar"] label { white-space: normal !important; }
     </style>
@@ -37,11 +34,9 @@ except Exception:
 # ---- Header ----
 st.markdown(
     """
-    <h1 style='text-align: center; font-size: 42px;'>
-       🏈 College Football — Game Lines
-    </h1>
+    <h1 style='text-align: center; font-size: 42px;'>🏈 College Football — Game Lines</h1>
     <p style='text-align: center; font-size:18px; color: gray;'>
-        Game Spreads · Moneylines · Totals (pair-first fair pricing with vig-curve fallback)
+      Game Spreads · Moneylines · Totals (pair-first fair pricing with vig-curve fallback)
     </p>
     """,
     unsafe_allow_html=True
@@ -177,9 +172,58 @@ def round_to_half(x: float | None) -> float | None:
     if x is None: return None
     return round(x * 2) / 2
 
-# ---- Name normalization for sportsbook matching (fixes Best Book filter/shading) ----
+# ---- Name normalization / aliasing for sportsbook matching ----
 def _normkey(s) -> str:
     return re.sub(r'[^a-z0-9]+', '', str(s).lower())
+
+# Known aliases → canonical normalized key
+ALIASES = {
+    "mgm": "betmgm",
+    "betmgmusa": "betmgm",
+    "betmgm_us": "betmgm",
+    "bet_mgm": "betmgm",
+    "betonline": "betonlineag",
+    "betonlinesports": "betonlineag",
+    "mybookie": "mybookieag",
+    "williamhill": "williamhillus",
+    "willhill": "williamhillus",
+    "bet_rivers": "betrivers",
+    "bet-rivers": "betrivers",
+    "lowvigi": "lowvig",
+}
+
+def resolve_bestbook_to_column(val: str, book_cols: list[str]) -> str | None:
+    """
+    Map a 'Best Book' value from CSV to the actual sportsbook COLUMN NAME in book_cols.
+    Handles aliases and fuzzy contains/contained-in matches on normalized keys.
+    """
+    if not val or not book_cols:
+        return None
+
+    # Build maps
+    norm_to_col = { _normkey(c): c for c in book_cols }
+    k = _normkey(val)
+
+    # Alias remap first
+    k = ALIASES.get(k, k)
+
+    # Exact normalized match
+    if k in norm_to_col:
+        return norm_to_col[k]
+
+    # Fuzzy: substring in either direction (unique only)
+    candidates = [norm_to_col[nk] for nk in norm_to_col.keys() if k in nk or nk in k]
+    candidates = list(dict.fromkeys(candidates))  # dedupe, keep order
+    if len(candidates) == 1:
+        return candidates[0]
+
+    # Last resort: startswith match
+    starts = [norm_to_col[nk] for nk in norm_to_col.keys() if nk.startswith(k)]
+    starts = list(dict.fromkeys(starts))
+    if len(starts) == 1:
+        return starts[0]
+
+    return None
 
 def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: str,
                            line_val, side_label: str, offered: float) -> float | None:
@@ -268,7 +312,8 @@ def run_app(df: pd.DataFrame | None = None):
             return
 
     if df.empty:
-        st.warning("No data to display."); return
+        st.warning("No data to display.")
+        return
 
     # --- Normalize field names from your schema ---
     df = df.rename(columns={
@@ -305,26 +350,21 @@ def run_app(df: pd.DataFrame | None = None):
              "best_decimal","avg_other_decimal","value_flag"}
     book_cols = [c for c in df.columns if c not in fixed and not str(c).startswith("Unnamed")]
 
-    # ---- Build mapping between various book name spellings and column names ----
-    book_map = { _normkey(c): c for c in book_cols }           # normalized key -> exact column name
-    if "Best Book" in df.columns:
-        df["Best Book Key"] = df["Best Book"].apply(_normkey)  # normalize CSV values
-
     # Count #books
     def _is_valid_num(v): return pd.notnull(v) and str(v).strip() != ""
-    if book_cols:
-        df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1)
-    else:
-        df["# Books"] = 0
+    df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1) if book_cols else 0
 
-    # Sidebar (books derived from actual columns to avoid case/spacing mismatches)
+    # Resolve Best Book → actual column name
+    df["BestBookCol"] = df["Best Book"].apply(lambda v: resolve_bestbook_to_column(v, book_cols))
+
+    # Sidebar
     with st.sidebar:
         st.header("Filters")
         evs = ["All"] + sorted(df["Event"].dropna().unique())
         sel_event = st.selectbox("Game", evs, 0)
         markets = ["All"] + sorted(df["Market"].dropna().unique())
         sel_market = st.selectbox("Market", markets, 0)
-        books = ["All"] + sorted(book_cols)    # use column names (pretty) instead of raw CSV values
+        books = ["All"] + sorted(book_cols)
         sel_book = st.selectbox("Best Book", books, 0)
         min_books = st.number_input("Min. books posting this line", 1, 20, 2, 1)
         compact_mobile = st.toggle("Compact mobile mode", value=bool(auto_mobile))
@@ -332,9 +372,7 @@ def run_app(df: pd.DataFrame | None = None):
     # Apply filters
     if sel_event!="All": df=df[df["Event"]==sel_event]
     if sel_market!="All": df=df[df["Market"]==sel_market]
-    if sel_book!="All":
-        # Match rows whose normalized Best Book equals the normalized selected column label
-        df = df[df.get("Best Book Key","") == _normkey(sel_book)]
+    if sel_book!="All":   df=df[df["BestBookCol"]==sel_book]
     df = df[df["# Books"]>=int(min_books)]
 
     # Percentify "Line vs. Average"
@@ -343,8 +381,6 @@ def run_app(df: pd.DataFrame | None = None):
 
     # Side inference and keys for pairing
     df["_side"] = df.apply(infer_side, axis=1)
-
-    # Pre-compute numeric line (for pairing & formatting)
     df["_line_num"] = pd.to_numeric(df.get("Line"), errors="coerce")
 
     def _abs_key(row):
@@ -380,7 +416,7 @@ def run_app(df: pd.DataFrame | None = None):
             # Gather "other" books that post a price
             others = []
             for col in book_cols:
-                if col == book_map.get(row.get("Best Book Key",""), None):
+                if col == row.get("BestBookCol", None):
                     continue
                 v = row.get(col, None)
                 try:
@@ -451,22 +487,13 @@ def run_app(df: pd.DataFrame | None = None):
     else:
         show_cols = book_cols.copy()
 
-    # Hide requested + internals (Best Book column is now hidden)
+    # Hide requested + internals (Best Book column is hidden)
     hidden = {"# Books", "Best Book", "Best Odds", "Opponent", "best_decimal",
-              "avg_other_decimal", "value_flag", "_line_num", "|Line|", "_side", "Best Book Key"}
+              "avg_other_decimal", "value_flag", "_line_num", "|Line|", "_side",
+              "BestBookCol"}
     cols = base_cols + show_cols + ["Line vs. Average (%)","Implied EV (%)"]
     cols = [c for c in cols if c in df.columns and c not in hidden]
     render_df = df[cols].copy()
-
-    # Compact cosmetics
-    def _shorten(s,maxlen):
-        s=str(s)
-        return (s[:maxlen-1]+"…") if len(s)>maxlen else s
-    if is_mobile:
-        if "Event" in render_df:     render_df["Event"]    = render_df["Event"].apply(lambda s:_shorten(s,22))
-        if "Selection" in render_df: render_df["Selection"]=render_df["Selection"].apply(lambda s:_shorten(s,18))
-        if "Opponent" in render_df:  render_df["Opponent"] = render_df["Opponent"].apply(lambda s:_shorten(s,18))
-
     render_df = render_df.sort_values(by=["Implied EV (%)"], ascending=False, na_position="last")
 
     # ---------- Styling ----------
@@ -477,20 +504,8 @@ def run_app(df: pd.DataFrame | None = None):
         cap=20.0; alpha=0.15+0.8*min(v/cap,1.0)
         return f"background-color: rgba(34,139,34,{alpha}); font-weight:600;"
 
-    # Shade the winning sportsbook cell using normalized name mapping
-    def _shade_best_book(row):
-        styles=[""]*len(row)
-        # We need the original df row to get Best Book Key; rebuild key via display row if needed
-        # Here we can’t access the hidden columns, so we compute from available columns:
-        # Instead we rely on the fact that render_df is aligned with df (same order), so we’ll
-        # attach a computed function after creating styled DataFrame (simpler: map within df then join).
-        return styles
-
-    # Create style on full render_df, plus a parallel list of best-book target columns
-    # Build a vector with the actual column name to shade, derived from df's Best Book Key
-    bb_target_col = df.loc[render_df.index, "Best Book Key"].map(lambda k: book_map.get(k, None)) if "Best Book Key" in df.columns else pd.Series([None]*len(render_df), index=render_df.index)
-
-    # style function that can see bb_target_col via closure
+    # Shade the winning sportsbook cell
+    bb_target_col = df.loc[render_df.index, "BestBookCol"] if "BestBookCol" in df.columns else pd.Series([None]*len(render_df), index=render_df.index)
     def _shade_row(row):
         styles=[""]*len(row)
         shade=_ev_green(row.get("Implied EV (%)",0))
