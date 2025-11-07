@@ -1,331 +1,294 @@
 # backend/billing.py
-from __future__ import annotations
-import os, json, sqlite3
-from typing import Optional, Dict, Any
+import os
+import json
+import logging
+import sqlite3
+from pathlib import Path
+from typing import Optional, Tuple
 
-from fastapi import APIRouter, HTTPException, Request
-from pydantic import BaseModel, EmailStr
-from datetime import datetime
-
-from utils_origin import pick_frontend_base  # dynamic success/cancel per frontend
-
-router = APIRouter(prefix="/billing", tags=["Billing"])
+import stripe
+from fastapi import APIRouter, Depends, HTTPException, Request, Header
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from jose import jwt, JWTError
 
 # ------------------------
-# Env / Stripe helpers
+# Config / Environment
 # ------------------------
-def _env(name: str, alt: str | None = None, default: str | None = None) -> str | None:
-    v = os.getenv(name)
-    if not v and alt:
-        v = os.getenv(alt)
-    return v if v is not None else default
+STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", "")
+STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
+PRICE_SINGLE = os.environ.get("PRICE_SINGLE", "")   # optional if client sends price_id
+PRICE_ALL = os.environ.get("PRICE_ALL", "")         # optional if client sends price_id
+JWT_SECRET = os.environ.get("JWT_SECRET", "dev-secret-change-me")
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://127.0.0.1:8501")
+DB_PATH = os.environ.get("DB_PATH", str(Path(__file__).resolve().parent.parent / "tailwing.db"))
+WHITELIST_PATH = os.environ.get("WHITELIST_PATH", str(Path(__file__).resolve().parent / "whitelist.json"))
 
-def _get_stripe():
-    import stripe
-    key = _env("STRIPE_SECRET_KEY", alt="STRIPE_SECRET")
-    if not key:
-        raise HTTPException(status_code=500, detail="Stripe secret key not configured")
-    stripe.api_key = key
-    return stripe
+if not STRIPE_SECRET_KEY:
+    raise RuntimeError("Missing STRIPE_SECRET_KEY")
+if not STRIPE_WEBHOOK_SECRET:
+    raise RuntimeError("Missing STRIPE_WEBHOOK_SECRET")
+if not JWT_SECRET:
+    raise RuntimeError("Missing JWT_SECRET")
 
-def _get_price_id() -> str:
-    pid = _env("STRIPE_PRICE_ID", alt="PRICE_MONTHLY")
-    if not pid:
-        raise HTTPException(status_code=500, detail="Stripe price id not configured")
-    return pid
+stripe.api_key = STRIPE_SECRET_KEY
 
-def _get_webhook_secret() -> str:
-    wh = _env("STRIPE_WEBHOOK_SECRET")
-    if not wh:
-        raise HTTPException(status_code=500, detail="Stripe webhook secret not configured")
-    return wh
+def _mode_from_key(key: str) -> str:
+    # Simple but reliable: Stripe keys start with sk_test_ or sk_live_
+    return "live" if key.startswith("sk_live_") else "test"
 
-# Accept both names for compatibility (prefer WHITELISTED_EMAILS)
-_WHITELIST = os.getenv("WHITELISTED_EMAILS") or os.getenv("FREE_USERS", "")
-FREE_USERS = {e.strip().lower() for e in _WHITELIST.split(",") if e.strip()}
+BACKEND_MODE = _mode_from_key(STRIPE_SECRET_KEY)
 
-def _is_free(email: str | None) -> bool:
-    return bool(email) and email.lower() in FREE_USERS
+# ------------------------
+# Logging
+# ------------------------
+logger = logging.getLogger("billing")
+logger.setLevel(logging.INFO)
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter("[%(levelname)s] %(asctime)s - %(message)s"))
+logger.addHandler(handler)
 
-DB_PATH = os.getenv(
-    "BILLING_DB_PATH",
-    os.path.join(os.path.dirname(__file__), "tailwing.db")
-)
-
+# ------------------------
+# Persistence (SQLite)
+# ------------------------
 def _db():
-    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
-    conn.execute("PRAGMA journal_mode=WAL;")
-    return conn
-
-def _db_init():
-    conn = _db()
+    conn = sqlite3.connect(DB_PATH)
     conn.execute("""
     CREATE TABLE IF NOT EXISTS users (
         email TEXT PRIMARY KEY,
+        is_subscriber INTEGER NOT NULL DEFAULT 0,
+        plan TEXT,
         stripe_customer_id TEXT,
-        subscription_id TEXT,
-        price_id TEXT,
-        referrer TEXT,
-        status TEXT,
-        entitlements_json TEXT,
-        updated_at TEXT
-    )""")
-    conn.execute("""
-    CREATE TABLE IF NOT EXISTS events (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        user_email TEXT,
-        name TEXT,
-        props_json TEXT,
-        ts TEXT
-    )""")
+        stripe_subscription_id TEXT,
+        mode TEXT
+    );
+    """)
     conn.commit()
-    conn.close()
+    return conn
 
-_db_init()
+def upsert_user(email: str,
+                is_subscriber: bool,
+                plan: Optional[str],
+                customer_id: Optional[str],
+                subscription_id: Optional[str],
+                mode: str):
+    conn = _db()
+    try:
+        conn.execute("""
+        INSERT INTO users (email, is_subscriber, plan, stripe_customer_id, stripe_subscription_id, mode)
+        VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(email) DO UPDATE SET
+            is_subscriber=excluded.is_subscriber,
+            plan=COALESCE(excluded.plan, users.plan),
+            stripe_customer_id=COALESCE(excluded.stripe_customer_id, users.stripe_customer_id),
+            stripe_subscription_id=COALESCE(excluded.stripe_subscription_id, users.stripe_subscription_id),
+            mode=excluded.mode;
+        """, (email, 1 if is_subscriber else 0, plan, customer_id, subscription_id, mode))
+        conn.commit()
+    finally:
+        conn.close()
+
+def get_user(email: str) -> Optional[Tuple]:
+    conn = _db()
+    try:
+        cur = conn.execute("SELECT email, is_subscriber, plan, stripe_customer_id, stripe_subscription_id, mode FROM users WHERE email = ?", (email,))
+        return cur.fetchone()
+    finally:
+        conn.close()
 
 # ------------------------
-# API models
+# Whitelist (optional)
 # ------------------------
+def _load_whitelist() -> set:
+    p = Path(WHITELIST_PATH)
+    if not p.exists():
+        return set()
+    try:
+        data = json.loads(p.read_text())
+        if isinstance(data, list):
+            return set(e.strip().lower() for e in data)
+    except Exception as e:
+        logger.warning(f"Failed to read whitelist: {e}")
+    return set()
+
+WHITELIST = _load_whitelist()
+
+# ------------------------
+# Auth / JWT helpers
+# ------------------------
+def decode_bearer_token(auth_header: str) -> str:
+    """
+    Expect `Authorization: Bearer <token>` where token encodes {"email": "..."}.
+    """
+    if not auth_header or not auth_header.lower().startswith("bearer "):
+        raise HTTPException(status_code=401, detail="Missing or invalid Authorization header")
+    token = auth_header.split(" ", 1)[1].strip()
+    try:
+        payload = jwt.decode(token, JWT_SECRET, algorithms=["HS256"])
+        email = payload.get("email")
+        if not email:
+            raise HTTPException(status_code=401, detail="Token missing email")
+        return email.lower()
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Invalid token")
+
+# ------------------------
+# FastAPI Router
+# ------------------------
+router = APIRouter(prefix="/billing", tags=["billing"])
+
 class CheckoutRequest(BaseModel):
-    email: EmailStr
-    referrer: Optional[str] = None
+    price_id: Optional[str] = None
+    # Optional extra metadata you might want to attach:
+    plan: Optional[str] = None  # e.g., "single" or "all"
+    # success/cancel override (defaults to FRONTEND_URL with status params)
+    success_url: Optional[str] = None
+    cancel_url: Optional[str] = None
 
-class TrackEvent(BaseModel):
-    email: Optional[EmailStr] = None
-    name: str
-    props: Optional[dict] = None
+@router.get("/entitlement")
+def entitlement(authorization: Optional[str] = Header(default=None)):
+    email = decode_bearer_token(authorization)
+    # Whitelist wins
+    if email in WHITELIST:
+        logger.info(f"[ENTITLEMENT] email={email} -> whitelisted -> subscriber=True")
+        return {"is_subscriber": True, "email": email, "plan": "whitelist"}
+    row = get_user(email)
+    if not row:
+        logger.info(f"[ENTITLEMENT] email={email} -> not found -> subscriber=False")
+        return {"is_subscriber": False, "email": email, "plan": None}
+    _, is_sub, plan, _, _, mode = row
+    logger.info(f"[ENTITLEMENT] email={email} mode={mode} -> subscriber={bool(is_sub)} plan={plan}")
+    return {"is_subscriber": bool(is_sub), "email": email, "plan": plan}
 
-# ------------------------
-# Routes
-# ------------------------
 @router.post("/checkout")
-async def create_checkout(request: Request, data: CheckoutRequest):
-    """
-    Create a Stripe Checkout Session for a subscription.
-    - Whitelisted users bypass Stripe and get immediate entitlements.
-    - success_url/cancel_url are built dynamically per frontend using the request origin.
-    """
-    stripe = _get_stripe()
-    base = pick_frontend_base(request)
+def checkout(req: CheckoutRequest, authorization: Optional[str] = Header(default=None)):
+    email = decode_bearer_token(authorization)
 
-    # Free/whitelisted short-circuit
-    if _is_free(str(data.email)):
-        user = upsert_user(
-            email=str(data.email),
-            stripe_customer_id=None,
-            subscription_id=None,
-            price_id=None,
-            referrer=data.referrer,
-            status="active",
+    # Decide price id
+    price_id = req.price_id or PRICE_SINGLE or PRICE_ALL
+    if not price_id:
+        raise HTTPException(status_code=400, detail="No price_id provided and no default configured")
+
+    success_url = req.success_url or f"{FRONTEND_URL}?status=success"
+    cancel_url = req.cancel_url or f"{FRONTEND_URL}?status=cancel"
+
+    # Ensure a Stripe customer per email
+    existing_customer_id = None
+    row = get_user(email)
+    if row and row[3]:  # stripe_customer_id
+        existing_customer_id = row[3]
+
+    try:
+        if existing_customer_id:
+            customer_id = existing_customer_id
+        else:
+            # Try to find by email first to avoid dupes
+            search = stripe.Customer.search(query=f"email:'{email}'")
+            if len(search.data) > 0:
+                customer_id = search.data[0].id
+            else:
+                c = stripe.Customer.create(email=email)
+                customer_id = c.id
+
+        session = stripe.checkout.Session.create(
+            mode="subscription",
+            payment_method_types=["card"],
+            customer=customer_id,
+            line_items=[{"price": price_id, "quantity": 1}],
+            success_url=success_url,
+            cancel_url=cancel_url,
+            customer_email=email,  # redundancy helps audits
+            metadata={"app_email": email, "requested_plan": (req.plan or "unspecified")},
+            subscription_data={
+                "metadata": {"app_email": email, "requested_plan": (req.plan or "unspecified")}
+            }
         )
-        activate_entitlements(user, _get_price_id())
-        return {"url": f"{base}/?sub=free"}
+        logger.info(f"[CHECKOUT] mode={BACKEND_MODE} email={email} price_id={price_id} session={session.id}")
+        # Pre-write/ensure user record exists (not subscriber yet)
+        upsert_user(email, is_subscriber=False, plan=req.plan, customer_id=customer_id,
+                    subscription_id=None, mode=BACKEND_MODE)
 
-    metadata: Dict[str, Any] = {}
-    if data.referrer:
-        metadata["referrer"] = data.referrer
-
-    session = stripe.checkout.Session.create(
-        mode="subscription",
-        line_items=[{"price": _get_price_id(), "quantity": 1}],
-        customer_email=str(data.email),
-        allow_promotion_codes=True,
-        metadata=metadata or None,
-        success_url=f"{base}/?status=success&session_id={{CHECKOUT_SESSION_ID}}",
-        cancel_url=f"{base}/?status=cancelled",
-    )
-    return {"url": session.url}
+        return {"url": session.url}
+    except stripe.error.StripeError as e:
+        logger.error(f"[CHECKOUT][STRIPE_ERROR] email={email} {str(e)}")
+        raise HTTPException(status_code=502, detail="Stripe error")
 
 @router.post("/webhook")
-async def stripe_webhook(request: Request):
-    """
-    Verify Stripe webhook and handle key lifecycle events.
-    """
-    stripe = _get_stripe()
+async def webhook(request: Request):
     payload = await request.body()
-    sig_header = request.headers.get("stripe-signature")
+    sig = request.headers.get("stripe-signature", "")
 
-    # Verify signature
     try:
-        event = stripe.Webhook.construct_event(payload, sig_header, _get_webhook_secret())
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=f"Webhook error: {str(e)}")
+        event = stripe.Webhook.construct_event(
+            payload=payload, sig_header=sig, secret=STRIPE_WEBHOOK_SECRET
+        )
+    except stripe.error.SignatureVerificationError:
+        logger.error("[WEBHOOK] Signature verification failed")
+        return JSONResponse(status_code=400, content={"ok": False})
 
-    event_type = event.get("type")
-    data = event.get("data", {}).get("object", {})  # type: ignore[assignment]
+    ev_type = event["type"]
+    ev_mode = "live" if event.get("livemode") else "test"
+    if ev_mode != BACKEND_MODE:
+        # Hard guard: don’t flip test events into live (or vice versa)
+        logger.warning(f"[WEBHOOK][MODE_MISMATCH] event={ev_type} ev_mode={ev_mode} backend_mode={BACKEND_MODE} -> ignored")
+        return JSONResponse(status_code=200, content={"ok": True, "ignored": "mode_mismatch"})
 
-    if event_type == "checkout.session.completed":
-        session = data
-        email = (session.get("customer_details") or {}).get("email")
-        customer_id = session.get("customer")
-        referrer = (session.get("metadata") or {}).get("referrer")
-        subscription_id = session.get("subscription")
+    def _flip(email: Optional[str], is_active: bool, plan: Optional[str], customer_id: Optional[str], sub_id: Optional[str]):
+        if not email:
+            logger.warning(f"[WEBHOOK][{ev_type}] missing email -> skip flip")
+            return
+        email_l = email.lower()
+        # whitelist stays always-on; do not downgrade it
+        if email_l in WHITELIST:
+            logger.info(f"[WEBHOOK][{ev_type}] email={email_l} is whitelisted -> force subscriber=True")
+            upsert_user(email_l, True, "whitelist", customer_id, sub_id, ev_mode)
+            return
+        upsert_user(email_l, is_active, plan, customer_id, sub_id, ev_mode)
+        logger.info(f"[WEBHOOK][{ev_type}] email={email_l} -> subscriber={is_active} plan={plan} cust={customer_id} sub={sub_id}")
 
-        # Pull price_id from the subscription (most reliable)
-        price_id = None
-        if subscription_id:
+    try:
+        # Handle success & ongoing payment signals
+        if ev_type == "checkout.session.completed":
+            sess = event["data"]["object"]
+            email = (sess.get("customer_details") or {}).get("email") or sess.get("customer_email") or (sess.get("metadata") or {}).get("app_email")
+            sub_id = sess.get("subscription")
+            cust_id = sess.get("customer")
+            plan = (sess.get("metadata") or {}).get("requested_plan")
+            _flip(email, True, plan, cust_id, sub_id)
+
+        elif ev_type in ("invoice.paid",):
+            inv = event["data"]["object"]
+            sub_id = inv.get("subscription")
+            cust_id = inv.get("customer")
+            # Best-effort email retrieval:
+            email = None
             try:
-                sub = stripe.Subscription.retrieve(subscription_id, expand=["items.data.price"])
-                items = sub["items"]["data"]
-                if items:
-                    price_id = items[0]["price"]["id"]
-            except Exception as e:
-                print(f"[billing] Failed to retrieve subscription items: {e}")
+                cust = stripe.Customer.retrieve(cust_id) if cust_id else None
+                email = (cust or {}).get("email")
+            except Exception:
+                pass
+            plan = (inv.get("lines") or {}).get("data", [{}])[0].get("price", {}).get("product")
+            _flip(email, True, plan, cust_id, sub_id)
 
-        user = upsert_user(
-            email=email,
-            stripe_customer_id=customer_id,
-            subscription_id=subscription_id,
-            price_id=price_id,
-            referrer=referrer,
-            status="active",
-        )
-        activate_entitlements(user, price_id or _get_price_id())
-        print(f"[billing] checkout.session.completed email={email} customer={customer_id} price_id={price_id}")
+        # Handle downgrades/cancellations
+        elif ev_type in ("customer.subscription.deleted", "invoice.payment_failed"):
+            obj = event["data"]["object"]
+            sub_id = obj.get("id") if ev_type == "customer.subscription.deleted" else obj.get("subscription")
+            cust_id = obj.get("customer")
+            email = None
+            try:
+                cust = stripe.Customer.retrieve(cust_id) if cust_id else None
+                email = (cust or {}).get("email")
+            except Exception:
+                pass
+            _flip(email, False, None, cust_id, sub_id)
 
-    elif event_type == "customer.subscription.updated":
-        customer_id = data.get("customer")
-        status = data.get("status")  # trialing | active | past_due | canceled | unpaid | incomplete...
-        price_id = None
-        try:
-            items = (data.get("items") or {}).get("data") or []
-            if items:
-                price_id = items[0].get("price", {}).get("id")
-        except Exception:
-            pass
+        else:
+            # Other events: log and ignore
+            logger.info(f"[WEBHOOK][IGNORED] type={ev_type}")
 
-        user = upsert_user(
-            email=None,
-            stripe_customer_id=customer_id,
-            subscription_id=data.get("id"),
-            price_id=price_id,
-            referrer=None,
-            status=status,
-        )
-        if status == "active":
-            activate_entitlements(user, price_id or _get_price_id())
-        elif status in {"canceled", "unpaid", "incomplete_expired"}:
-            deactivate_entitlements(user)
-        print(f"[billing] customer.subscription.updated customer={customer_id} status={status} price_id={price_id}")
+    except Exception as e:
+        logger.exception(f"[WEBHOOK][ERROR] {ev_type}: {e}")
+        return JSONResponse(status_code=500, content={"ok": False})
 
-    elif event_type == "customer.subscription.deleted":
-        customer_id = data.get("customer")
-        user = upsert_user(
-            email=None,
-            stripe_customer_id=customer_id,
-            subscription_id=data.get("id"),
-            price_id=None,
-            referrer=None,
-            status="canceled",
-        )
-        deactivate_entitlements(user)
-        print(f"[billing] customer.subscription.deleted customer={customer_id}")
-
-    elif event_type == "invoice.paid":
-        customer_id = data.get("customer")
-        print(f"[billing] invoice.paid customer={customer_id}")
-
-    elif event_type == "invoice.payment_failed":
-        customer_id = data.get("customer")
-        print(f"[billing] invoice.payment_failed customer={customer_id}")
-
-    else:
-        print(f"[billing] Unhandled event type: {event_type}")
-
-    return {"status": "ok"}
-
-@router.get("/config_check")
-def billing_config_check():
-    return {
-        "has_secret_key": bool(_env("STRIPE_SECRET_KEY") or _env("STRIPE_SECRET")),
-        "has_price_id": bool(_env("STRIPE_PRICE_ID") or _env("PRICE_MONTHLY")),
-        "has_webhook_secret": bool(_env("STRIPE_WEBHOOK_SECRET")),
-        "db_path": DB_PATH,
-        "whitelist_count": len(FREE_USERS),
-    }
-
-@router.post("/track")
-async def track(ev: TrackEvent):
-    conn = _db()
-    conn.execute(
-        "INSERT INTO events (user_email, name, props_json, ts) VALUES (?, ?, ?, ?)",
-        (str(ev.email) if ev.email else None, ev.name, json.dumps(ev.props or {}), datetime.utcnow().isoformat())
-    )
-    conn.commit(); conn.close()
-    return {"ok": True}
-
-# ------------------------
-# Minimal stubs (replace with real DB later)
-# ------------------------
-def upsert_user(
-    email: Optional[str],
-    stripe_customer_id: Optional[str],
-    subscription_id: Optional[str],
-    price_id: Optional[str],
-    referrer: Optional[str],
-    status: Optional[str],
-) -> Dict[str, Any]:
-    user = {
-        "email": email,
-        "stripe_customer_id": stripe_customer_id,
-        "subscription_id": subscription_id,
-        "price_id": price_id,
-        "referrer": referrer,
-        "status": status,
-    }
-    entitlements: list[str] = []
-    now = datetime.utcnow().isoformat()
-
-    conn = _db()
-    key_email = email or f"__noemail__{stripe_customer_id or 'unknown'}"
-    cur = conn.cursor()
-    cur.execute("""
-        INSERT INTO users (email, stripe_customer_id, subscription_id, price_id, referrer, status, entitlements_json, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        ON CONFLICT(email) DO UPDATE SET
-            stripe_customer_id=excluded.stripe_customer_id,
-            subscription_id=excluded.subscription_id,
-            price_id=excluded.price_id,
-            referrer=COALESCE(excluded.referrer, users.referrer),
-            status=excluded.status,
-            updated_at=excluded.updated_at
-    """, (key_email, stripe_customer_id, subscription_id, price_id, referrer, status, json.dumps(entitlements), now))
-    conn.commit()
-    conn.close()
-
-    user["email"] = key_email
-    user["entitlements"] = entitlements
-    return user
-
-def _price_to_entitlements(price_id: str) -> list[str]:
-    try:
-        default_price = _get_price_id()
-    except Exception:
-        default_price = price_id
-    # Map price → entitlements (adjust as needed)
-    if price_id == default_price:
-        return ["nfl", "nba", "mlb", "nhl", "cfb"]
-    return ["nfl"]
-
-def activate_entitlements(user: Dict[str, Any], price_id: str) -> Dict[str, Any]:
-    entitlements = _price_to_entitlements(price_id)
-    user["entitlements"] = entitlements
-    user["status"] = user.get("status") or "active"
-
-    conn = _db()
-    conn.execute(
-        "UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
-        (json.dumps(entitlements), user["status"], datetime.utcnow().isoformat(), user["email"]),
-    )
-    conn.commit(); conn.close()
-    return user
-
-def deactivate_entitlements(user: Dict[str, Any]) -> Dict[str, Any]:
-    user["entitlements"] = []
-    conn = _db()
-    conn.execute(
-        "UPDATE users SET entitlements_json=?, status=?, updated_at=? WHERE email=?",
-        (json.dumps([]), "canceled", datetime.utcnow().isoformat(), user["email"]),
-    )
-    conn.commit(); conn.close()
-    return user
+    return JSONResponse(status_code=200, content={"ok": True})
