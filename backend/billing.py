@@ -197,7 +197,6 @@ def checkout(req: CheckoutRequest, authorization: Optional[str] = Header(default
             line_items=[{"price": price_id, "quantity": 1}],
             success_url=success_url,
             cancel_url=cancel_url,
-            customer_email=email,  # redundancy helps audits
             metadata={"app_email": email, "requested_plan": (req.plan or "unspecified")},
             subscription_data={
                 "metadata": {"app_email": email, "requested_plan": (req.plan or "unspecified")}
