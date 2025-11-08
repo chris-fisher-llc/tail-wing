@@ -1,46 +1,61 @@
-# daily_cfb_spreads_totals.py  (updated to include Moneylines)
+# app_cfb_game_lines.py
+# College Football — Game Lines (Spreads • Moneylines • Totals)
+# Drop-in replacement for your Streamlit board.
+#
+# Reads cfb_matched_output.csv (written by your odds job), then:
+#   - excludes certain books from display/calcs
+#   - adds/renames book columns (ESPNBet, Caesars, Hard Rock)
+#   - recomputes Best Book ONLY from included books
+#   - computes pair-first fair odds & Implied EV% with vig-curve fallback
+#   - fixes Best Book filter bug for +money +EV lines
+
 import os
-import csv
 import math
-import requests
-from datetime import datetime, timezone
-from collections import defaultdict
-from zoneinfo import ZoneInfo  # Python 3.9+
+import pandas as pd
+import numpy as np
+import streamlit as st
 
-#API_KEY = os.getenv("THE_ODDS_API_KEY", "YOUR_API_KEY_HERE")
-API_KEY = "7f8cbb98207020adbd0218844a595725"
-SPORT_KEY = "americanfootball_ncaaf"
-# ADD h2h for moneylines:
-TARGET_MARKETS = ["spreads", "totals", "h2h"]
-REGIONS = "us"
-ODDS_FORMAT = "american"
-DATE_FMT = "iso"
+# ---------- CONFIG ----------
+DATA_FILE = os.path.join(os.path.dirname(__file__), "cfb_matched_output.csv")
 
-ET = ZoneInfo("America/New_York")
+# Column names in your CSV look like "FanDuel_Odds", "DraftKings_Odds", etc.
+# Map API/book keys to a normalized, human-display name (and to expected CSV column).
+CSV_BOOKS_MAP = {
+    "BetMGM": "BetMGM_Odds",
+    "BetRivers": "BetRivers_Odds",
+    "Bovada": "Bovada_Odds",
+    "DraftKings": "DraftKings_Odds",
+    "FanDuel": "FanDuel_Odds",
+    # Some boards output William Hill as "WilliamhillUs_Odds" – we rename to Caesars
+    "WilliamhillUs": "WilliamhillUs_Odds",   # will display as "Caesars"
+    # Optional / newer books (may or may not exist yet in your CSV):
+    "ESPNBet": "ESPNBet_Odds",
+    "HardRock": "HardRock_Odds",
+    "Bet365": "Bet365_Odds",
+    "WynnBET": "WynnBET_Odds",
+    "PointsBet": "PointsBet_Odds",
+    "Unibet": "Unibet_Odds",
+}
 
-def _titlecase_book(book_key: str) -> str:
-    mapping = {
-        "draftkings": "DraftKings",
-        "fanduel": "FanDuel",
-        "betmgm": "BetMGM",
-        "betrivers": "BetRivers",
-        "caesars": "Caesars",
-        "pointsbetus": "PointsBet",
-        "barstool": "Barstool",
-        "espnbet": "ESPNBet",
-        "wynnbet": "WynnBET",
-        "bet365": "Bet365",
-        "unibet_us": "Unibet",
-    }
-    label = mapping.get(book_key, book_key.replace("_", " ").title().replace(" ", ""))
-    return f"{label}_Odds"
+# Books to EXCLUDE everywhere (display + calcs)
+EXCLUDE_BOOKS_DISPLAY_AND_CALC = {"BetOnlineAG", "BetUS", "Lowvig", "MyBookieAG"}
 
-def _american_to_decimal(american):
-    if american is None or american == "":
+# Friendly display renames (only surface names you include)
+DISPLAY_RENAMES = {
+    "WilliamhillUs": "Caesars",
+    "WynnBET": "WynnBET",
+    "PointsBet": "PointsBet",
+    "ESPNBet": "ESPNBet",
+    "HardRock": "Hard Rock",
+}
+
+# ---------- PRICING UTILS ----------
+def american_to_decimal(odds: float | int | str | None) -> float | None:
+    if odds in (None, "", np.nan):
         return None
     try:
-        a = float(american)
-    except (TypeError, ValueError):
+        a = float(odds)
+    except Exception:
         return None
     if a > 0:
         return 1.0 + (a / 100.0)
@@ -48,221 +63,375 @@ def _american_to_decimal(american):
         return 1.0 + (100.0 / abs(a))
     return None
 
-def _today_events():
-    url = f"https://api.the-odds-api.com/v4/sports/{SPORT_KEY}/events"
-    resp = requests.get(url, params={"apiKey": API_KEY, "dateFormat": DATE_FMT}, timeout=30)
-    resp.raise_for_status()
-    events = resp.json()
+def american_to_prob(odds: float | int | str | None) -> float | None:
+    if odds in (None, "", np.nan):
+        return None
+    try:
+        a = float(odds)
+    except Exception:
+        return None
+    if a > 0:
+        return 100.0 / (a + 100.0)
+    if a < 0:
+        return abs(a) / (abs(a) + 100.0)
+    return None
 
-    # Use Eastern Time calendar date to decide "today"
-    today_et = datetime.now(ET).date()
+def prob_to_american(p: float) -> float | None:
+    if p is None or p <= 0 or p >= 1:
+        return None
+    if p < 0.5:
+        # positive American
+        return round(100.0 * (1.0 - p) / p)
+    else:
+        # negative American
+        return round(-100.0 * p / (1.0 - p))
 
-    keep = []
-    for ev in events:
-        # API returns ISO in UTC; parse then convert to ET
-        dt_utc = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
-        dt_et = dt_utc.astimezone(ET)
-        if dt_et.date() == today_et:
-            keep.append(ev)
-    return keep
+def decimal_from_prob(p: float) -> float | None:
+    if p is None or p <= 0:
+        return None
+    return 1.0 / p
 
-def _event_odds(event_id: str):
-    url = f"https://api.the-odds-api.com/v4/sports/{SPORT_KEY}/events/{event_id}/odds"
-    params = {
-        "apiKey": API_KEY,
-        "regions": REGIONS,
-        "oddsFormat": ODDS_FORMAT,
-        "markets": ",".join(TARGET_MARKETS),
-        "dateFormat": DATE_FMT,
-    }
-    resp = requests.get(url, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+def implied_ev_pct(offer_dec: float | None, fair_dec: float | None) -> float | None:
+    if not offer_dec or not fair_dec:
+        return None
+    return (offer_dec / fair_dec - 1.0) * 100.0
 
-def _iso_to_et_str(iso_ts: str) -> str:
-    dt_utc = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
-    dt_et = dt_utc.astimezone(ET)
-    return dt_et.strftime("%Y-%m-%d %H:%M ET")
+# Mild “vig curve” fallback when a clean pair isn’t available.
+# This gently reduces the implied probability by a margin that decays at long odds.
+def fair_prob_from_single_side_vigcurve(odds: float) -> float | None:
+    p = american_to_prob(odds)
+    if p is None:
+        return None
+    # target margin ~4.5% around even money, decays for tails
+    base = 0.045
+    # decay factor: lower margin as price drifts away from even
+    decay = min(1.0, 100.0 / (100.0 + abs(float(odds))))
+    margin = base * decay
+    # remove margin proportionally
+    p_fair = p * (1.0 - margin)
+    # renormalize softly, capped
+    p_fair = max(min(p_fair, 0.999), 1e-6)
+    return p_fair
 
-def main():
-    if not API_KEY or API_KEY == "YOUR_API_KEY_HERE":
-        raise SystemExit("Set THE_ODDS_API_KEY env var or edit API_KEY in the script.")
+# Pair-first fair odds from market-average paired prices (A vs B), de-vigged by normalization.
+def pair_first_fair_prob(avg_side_prob: float | None, avg_opp_prob: float | None) -> float | None:
+    if avg_side_prob is None or avg_opp_prob is None:
+        return None
+    total = avg_side_prob + avg_opp_prob
+    if total <= 0:
+        return None
+    return avg_side_prob / total
 
-    events = _today_events()
-    if not events:
-        print("No NCAAF events for today.")
-        return
+# Given a row, figure out which selection is the “opposite side” key used to gather market averages.
+def identify_opposite(row: pd.Series) -> str:
+    bt = row["bet_type"]
+    sel = str(row["selection"])
+    opp = str(row["opponent"])
+    if bt == "Total":
+        # selection is "Over"/"Under"
+        return "Under" if sel.lower() == "over" else "Over"
+    elif bt == "Spread":
+        # Spread: opponent team (same line)
+        return opp
+    elif bt == "Moneyline":
+        # Moneyline: opponent team
+        return opp
+    return opp  # default
 
-    # bet_key = (event_id, bet_type, selection, line_point)
-    agg = {}
-    books_seen = set()
+# ---------- DATA LOAD ----------
+@st.cache_data(show_spinner=False)
+def load_data(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    # Normalize column names we need
+    # Some pipelines may have "line" as empty string for moneyline – keep as is
+    # Ensure common columns exist
+    expected = ["game", "kickoff_et", "bet_type", "selection", "opponent", "line"]
+    for c in expected:
+        if c not in df.columns:
+            df[c] = ""
+    return df
 
-    for ev in events:
-        ev_id = ev["id"]
-        home = ev.get("home_team", "")
-        away = ev.get("away_team", "")
-        game_label = f"{away} @ {home}"
-        kickoff_iso = ev["commence_time"]
-        kickoff_et = _iso_to_et_str(kickoff_iso)
+# ---------- BOOK HANDLING ----------
+def discover_books(df: pd.DataFrame) -> list[str]:
+    # find all *_Odds columns
+    return [c.replace("_Odds", "") for c in df.columns if c.endswith("_Odds")]
 
-        odds_payload = _event_odds(ev_id)
-        if not odds_payload or "bookmakers" not in odds_payload:
+def included_book_columns(df: pd.DataFrame) -> list[tuple[str, str]]:
+    books_in_file = discover_books(df)
+    pairs: list[tuple[str, str]] = []
+    for disp_name, csv_col in CSV_BOOKS_MAP.items():
+        if disp_name in EXCLUDE_BOOKS_DISPLAY_AND_CALC:
             continue
+        # Present?
+        if csv_col in df.columns:
+            pairs.append((disp_name, csv_col))
+    return pairs
 
-        for book in odds_payload["bookmakers"]:
-            bkey = book["key"]
-            book_col = _titlecase_book(bkey)
-            books_seen.add(book_col)
+def rename_for_display(name: str) -> str:
+    return DISPLAY_RENAMES.get(name, name)
 
-            for market in book.get("markets", []):
-                mkey = market.get("key")
-                if mkey not in TARGET_MARKETS:
-                    continue
+# ---------- FAIR & EV CALC ----------
+def compute_ev(df: pd.DataFrame, book_cols: list[tuple[str,str]]) -> pd.DataFrame:
+    # Build helper frames of probabilities for every included book
+    prob_cols = {}
+    for disp, col in book_cols:
+        pcol = f"__prob__{disp}"
+        prob_cols[disp] = pcol
+        df[pcol] = df[col].apply(american_to_prob)
 
-                for outcome in market.get("outcomes", []):
-                    name = (outcome.get("name") or "").strip()
-                    price = outcome.get("price")
+    # Determine average implied probs for both sides within each (game, bet_type, line-point) group
+    # Keys that define a *paired* market:
+    group_keys = ["game", "bet_type", "line"]
 
-                    if price is None:
-                        continue
+    # Average probability for the current selection across books (included only)
+    df["__avg_prob_this__"] = df[[prob_cols[d] for d, _ in book_cols]].mean(axis=1, skipna=True)
 
-                    # Normalize home/away tokens if present
-                    if name not in (home, away):
-                        if name.lower() == "home":
-                            name = home
-                        elif name.lower() == "away":
-                            name = away
+    # To get the opponent rows, self-join on (game, bet_type, line) with selection==opponent and vice versa
+    side = df[group_keys + ["selection", "__avg_prob_this__"]].rename(
+        columns={"selection": "__side__", "__avg_prob_this__": "__avg_prob_side__"}
+    )
+    opp = df[group_keys + ["selection", "__avg_prob_this__"]].rename(
+        columns={"selection": "__opp__", "__avg_prob_this__": "__avg_prob_opp__"}
+    )
 
-                    if mkey == "spreads":
-                        point = outcome.get("point")
-                        if point is None:
-                            continue
-                        if name not in (home, away):
-                            continue
-                        bet_type = "Spread"
-                        selection = name
-                        line_point = float(point)
-                        stored_point = line_point  # keep numeric internally
+    merged = df.merge(
+        # map each row’s “opponent” name to the other row’s avg prob (same group)
+        opp,
+        left_on=group_keys + ["opponent"],
+        right_on=group_keys + ["__opp__"],
+        how="left",
+        suffixes=("", "_y"),
+    )
+    merged = merged.drop(columns=["__opp__"], errors="ignore")
+    merged = merged.merge(
+        side,
+        left_on=group_keys + ["selection"],
+        right_on=group_keys + ["__side__"],
+        how="left",
+        suffixes=("", "_z"),
+    )
+    merged = merged.drop(columns=["__side__"], errors="ignore")
 
-                    elif mkey == "totals":
-                        point = outcome.get("point")
-                        if point is None:
-                            continue
-                        lname = name.lower()
-                        if lname not in ("over", "under"):
-                            continue
-                        bet_type = "Total"
-                        selection = "Over" if lname == "over" else "Under"
-                        line_point = float(point)
-                        stored_point = line_point
+    # Pair-first: fair probability = avg_prob_side / (avg_prob_side + avg_prob_opp)
+    merged["__pair_fair_prob__"] = merged.apply(
+        lambda r: pair_first_fair_prob(r["__avg_prob_side__"], r["__avg_prob_opp__"]),
+        axis=1,
+    )
 
-                    elif mkey == "h2h":
-                        # Moneyline: no point
-                        if name not in (home, away):
-                            continue
-                        bet_type = "Moneyline"
-                        selection = name
-                        line_point = 0.0  # fixed for key/sorting
-                        stored_point = 0.0
-                    else:
-                        continue
+    # Fallback: vig curve on this offer’s own price if needed
+    # We'll generate a fair_prob_fallback for each row from the Best Book price later,
+    # but we also keep a per-row fallback based on ANY visible price in this row.
+    any_offer_prob = df[[prob_cols[d] for d, _ in book_cols]].bfill(axis=1).iloc[:, 0]
+    any_offer_odds = df[[c for _, c in book_cols]].bfill(axis=1).iloc[:, 0]
+    merged["__single_side_fair_prob__"] = any_offer_odds.apply(
+        lambda o: fair_prob_from_single_side_vigcurve(o) if pd.notna(o) and o != "" else None
+    )
 
-                    bet_key = (ev_id, bet_type, selection, line_point)
-                    if bet_key not in agg:
-                        agg[bet_key] = {
-                            "event_id": ev_id,
-                            "game": game_label,
-                            "home": home,
-                            "away": away,
-                            "kickoff_et": kickoff_et,
-                            "bet_type": bet_type,
-                            "selection": selection,
-                            # store 0.0 internally for Moneyline; we’ll print "" later
-                            "point": stored_point,
-                            "opponent": away if selection == home else (home if selection == away else ""),
-                            "book_odds": {},
-                        }
+    # Choose fair prob: pair-first, else single-side vig curve
+    merged["__fair_prob__"] = merged["__pair_fair_prob__"].combine_first(merged["__single_side_fair_prob__"])
 
-                    current = agg[bet_key]["book_odds"].get(book_col)
-                    if current is None:
-                        take_it = True
-                    else:
-                        cur_dec = _american_to_decimal(current) or -math.inf
-                        new_dec = _american_to_decimal(price) or -math.inf
-                        take_it = new_dec > cur_dec
+    # For Implied EV we need the *offer* (best among included books), so compute offer now
+    def best_from_included(row):
+        best_name, best_col, best_dec, best_amer = None, None, None, None
+        for disp, col in book_cols:
+            val = row.get(col, "")
+            dec = american_to_decimal(val)
+            if dec is None:
+                continue
+            if best_dec is None or dec > best_dec:
+                best_name, best_col, best_dec, best_amer = disp, col, dec, val
+        return best_name, best_col, best_dec, best_amer
 
-                    if take_it:
-                        agg[bet_key]["book_odds"][book_col] = int(price)
+    best = df.apply(best_from_included, axis=1, result_type="expand")
+    best.columns = ["best_book_name", "best_book_col", "best_decimal", "best_american"]
+    merged = pd.concat([merged, best], axis=1)
 
-    if not agg:
-        print("No spreads/totals/moneylines found for today.")
-        return
+    # If pair-first failed and we need a fair prob just for EV, do a fallback on the specific best price
+    def row_fair_prob(r):
+        p = r["__fair_prob__"]
+        if p and 0 < p < 1:
+            return p
+        amer = r["best_american"]
+        if amer in ("", None) or (isinstance(amer, float) and np.isnan(amer)):
+            return None
+        return fair_prob_from_single_side_vigcurve(amer)
 
-    books_order = sorted(books_seen)
+    merged["__fair_prob_final__"] = merged.apply(row_fair_prob, axis=1)
+    merged["fair_decimal"] = merged["__fair_prob_final__"].apply(decimal_from_prob)
 
-    rows = []
-    for (ev_id, bet_type, selection, point), rec in sorted(
-        agg.items(),
-        key=lambda x: (x[1]["game"], x[1]["bet_type"], x[1]["selection"], x[1]["point"])
-    ):
-        odds_by_book = rec["book_odds"]
-        if not odds_by_book:
+    # Implied EV %
+    merged["implied_ev_pct"] = merged.apply(
+        lambda r: implied_ev_pct(r["best_decimal"], r["fair_decimal"]),
+        axis=1,
+    )
+
+    return merged
+
+# ---------- UI ----------
+st.set_page_config(page_title="College Football — Game Lines", layout="wide")
+
+st.markdown(
+    "<h1 style='margin-bottom:0.25rem;'>College Football — Game Lines</h1>"
+    "<div>Game Spreads · Moneylines · Totals (pair-first fair pricing with vig-curve fallback)</div>",
+    unsafe_allow_html=True,
+)
+
+df = load_data(DATA_FILE)
+
+# Build included books from what actually exists in the file
+book_pairs = included_book_columns(df)
+# Remove any excluded that slipped into CSV_BOOKS_MAP (safety)
+book_pairs = [(d, c) for (d, c) in book_pairs if d not in EXCLUDE_BOOKS_DISPLAY_AND_CALC]
+
+# Rename/alias display
+book_display_cols = []
+for disp, col in book_pairs:
+    nice = rename_for_display(disp)
+    book_display_cols.append((nice, col))
+
+# Recompute Best Book **only** from included books to fix filtering bugs
+def recompute_best_book_only_included(row):
+    best_name, best_col, best_dec = None, None, None
+    for nice, col in book_display_cols:
+        dec = american_to_decimal(row.get(col))
+        if dec is None:
             continue
+        if best_dec is None or dec > best_dec:
+            best_name, best_col, best_dec = nice, col, dec
+    return pd.Series({"best_book": best_name or "", "best_odds": row.get(best_col) if best_col else ""})
 
-        odds_list = [(book, odds) for book, odds in odds_by_book.items()]
-        best_book, best_odds = max(
-            odds_list,
-            key=lambda bo: (_american_to_decimal(bo[1]) or -math.inf)
-        )
-        decs = [(_american_to_decimal(o) or None) for _, o in odds_list]
-        other_decs = [d for (b, o), d in zip(odds_list, decs) if b != best_book and d is not None]
-        best_dec = _american_to_decimal(best_odds)
-        if best_dec is not None and other_decs:
-            avg_other_dec = sum(other_decs) / len(other_decs)
-            value_ratio = best_dec / avg_other_dec if avg_other_dec else ""
-            value_flag = "TRUE" if (isinstance(value_ratio, float) and value_ratio >= 1.02) else "FALSE"
+best_fix = df.apply(recompute_best_book_only_included, axis=1)
+df = pd.concat([df.drop(columns=[c for c in ["best_book", "best_odds"] if c in df.columns]), best_fix], axis=1)
+
+# Compute EV (pair-first + fallback)
+priced = compute_ev(df.copy(), book_pairs)
+
+# Build filter widgets
+with st.sidebar:
+    st.header("Filters")
+    # Game filter
+    games = ["All"] + sorted(priced["game"].dropna().unique().tolist())
+    sel_game = st.selectbox("Game", games, index=0)
+
+    markets = ["All", "Spread", "Moneyline", "Total"]
+    sel_market = st.selectbox("Market", markets, index=0)
+
+    bestbook_opts = ["All"] + sorted({rename_for_display(x) for (x, _) in book_pairs})
+    sel_best_book = st.selectbox("Best Book", bestbook_opts, index=0)
+
+    min_books = st.number_input("Min. books posting this line", min_value=1, max_value=20, value=2, step=1)
+
+    compact = st.toggle("Compact\nmobile\nmode", value=False)
+
+# Apply filters
+working = priced.copy()
+
+# Min books posting (count across included columns)
+included_cols = [col for _, col in book_pairs]
+working["__book_count__"] = working[included_cols].apply(lambda r: (~r.isna() & (r.astype(str) != "")).sum(), axis=1)
+working = working[working["__book_count__"] >= int(min_books)]
+
+if sel_game != "All":
+    working = working[working["game"] == sel_game]
+
+if sel_market != "All":
+    working = working[working["bet_type"] == sel_market]
+
+if sel_best_book != "All":
+    working = working[working["best_book"] == sel_best_book]
+
+# Display table
+# Assemble final columns
+prefix = ["game", "kickoff_et", "bet_type", "selection", "opponent", "line"]
+book_cols_out = [c for (nice, c) in book_display_cols]
+suffix = [
+    "best_book",
+    "best_american",
+    "best_decimal",
+    "fair_decimal",
+    "implied_ev_pct",
+]
+
+# Pretty rename columns for display
+nice_names = {
+    "kickoff_et": "Kickoff (ET)",
+    "bet_type": "Bet Type",
+    "selection": "Selection",
+    "opponent": "Opponent",
+    "line": "Line",
+    "best_american": "Best Odds",
+    "best_decimal": "Best Dec",
+    "fair_decimal": "Fair Dec",
+    "implied_ev_pct": "Implied EV (%)",
+    "__book_count__": "# Books",
+}
+for nice, col in book_display_cols:
+    nice_names[col] = nice
+
+# Build and sort
+out = working.copy()
+
+# Ensure moneylines show blank line cell
+out.loc[out["bet_type"] == "Moneyline", "line"] = out.loc[out["bet_type"] == "Moneyline", "line"].replace({0.0: ""})
+
+# Keep only final columns
+final_cols = prefix + book_cols_out + suffix
+for c in suffix:
+    if c not in out.columns:
+        out[c] = ""
+
+out = out[final_cols]
+
+# Sort by EV descending within moneylines first (then spreads/totals)
+sort_keys = [
+    (out["bet_type"] == "Moneyline").astype(int),  # Moneyline first
+    out["implied_ev_pct"].fillna(-1e9),
+]
+out = out.sort_values(by=[k for k in range(len(sort_keys))], key=lambda s: sort_keys.pop(0), ascending=False)
+
+# Formatting
+fmt = {
+    "best_decimal": "{:.3f}",
+    "fair_decimal": "{:.3f}",
+    "implied_ev_pct": lambda x: "" if pd.isna(x) else f"{x:.1f}%",
+}
+
+styled = out.rename(columns=nice_names).style
+
+# Highlight best prices per row among included books
+def highlight_best_row(row):
+    vals = []
+    best_val = None
+    for _, col in book_display_cols:
+        v = row.get(nice_names.get(col, col), "")
+        if v == "" or pd.isna(v):
+            vals.append(None)
         else:
-            avg_other_dec = ""
-            value_ratio = ""
-            value_flag = "FALSE"
+            dec = american_to_decimal(v)
+            vals.append(dec)
+            if dec is not None:
+                best_val = max(best_val or dec, dec)
+    colors = []
+    for dec in vals:
+        if dec is not None and best_val is not None and abs(dec - best_val) < 1e-9:
+            colors.append("background-color: #c8f7c5")  # green highlight
+        else:
+            colors.append("")
+    return colors
 
-        # Blank line for Moneyline rows in the CSV
-        display_line = "" if rec["bet_type"] == "Moneyline" else rec["point"]
+styled = styled.apply(highlight_best_row, axis=1, subset=[nice_names[c] for _, c in book_display_cols])
 
-        row = {
-            "game": rec["game"],
-            "kickoff_et": rec["kickoff_et"],
-            "bet_type": rec["bet_type"],
-            "selection": rec["selection"],
-            "opponent": rec["opponent"],
-            "line": display_line,
-            "best_book": best_book,
-            "best_odds": best_odds,
-            "best_decimal": round(best_dec, 4) if isinstance(best_dec, float) else "",
-            "avg_other_decimal": round(avg_other_dec, 4) if isinstance(avg_other_dec, float) else "",
-            "value_ratio": round(value_ratio, 4) if isinstance(value_ratio, float) else "",
-            "value_flag": value_flag,
-        }
+# Apply numeric formats
+for col, f in fmt.items():
+    disp = nice_names.get(col, col)
+    styled = styled.format({disp: f})
 
-        for book_col in books_order:
-            row[book_col] = odds_by_book.get(book_col, "")
+# Compact mode tweaks (narrow the first two columns)
+if compact:
+    styled = styled.set_table_styles([
+        {"selector": "th.col0, td.col0", "props": "min-width: 140px; max-width: 180px;"},
+        {"selector": "th.col1, td.col1", "props": "min-width: 120px; max-width: 140px;"},
+    ], overwrite=False)
 
-        rows.append(row)
-
-    prefix = ["game", "kickoff_et", "bet_type", "selection", "opponent", "line"]
-    suffix = ["best_book", "best_odds", "best_decimal", "avg_other_decimal", "value_ratio", "value_flag"]
-    fieldnames = prefix + books_order + suffix
-
-    # Save inside the same folder as this script (CFB/)
-    script_dir = os.path.dirname(__file__)
-    output_path = os.path.join(script_dir, "cfb_matched_output.csv")
-
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    print(f"Wrote {output_path} with {len(rows)} rows and {len(books_order)} book columns.")
-
-if __name__ == "__main__":
-    main()
+st.caption("Odds last updated: the time your CSV job last ran")
+st.dataframe(styled, use_container_width=True)
