@@ -1,441 +1,443 @@
 event,player,group,threshold,BetMGM,BetRivers,Bovada,Caesars,DraftKings,ESPNBET,FanDuel,Fanatics,HardRockBet,best_book,best_odds,best_decimal,avg_other,value_ratio
 Los Angeles Rams @ San Francisco 49ers,Kyle Juszczyk,Receiving,50,,,,,1800.0,,,,600.0,DraftKings,1800.0,19.0,7.0,2.7142857142857144
-Arizona Cardinals @ Seattle Seahawks,Nick Kallerup,AnytimeTD,Anytime,2500.0,2900.0,1700.0,1800.0,1600.0,,2000.0,,5000.0,HardRockBet,5000.0,51.0,21.833333333333332,2.33587786259542
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Receiving,80,,,,,2000.0,,,,800.0,DraftKings,2000.0,21.0,9.0,2.3333333333333335
-Arizona Cardinals @ Seattle Seahawks,Ricky White III,AnytimeTD,Anytime,,,2000.0,2300.0,2800.0,,2200.0,1500.0,5000.0,HardRockBet,5000.0,51.0,22.6,2.2566371681415927
+Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,110,,,1400.0,,3700.0,,,,,DraftKings,3700.0,38.0,15.0,2.533333333333333
+Arizona Cardinals @ Seattle Seahawks,Nick Kallerup,AnytimeTD,Anytime,2500.0,2900.0,1700.0,1800.0,1500.0,,1800.0,,5000.0,HardRockBet,5000.0,51.0,21.333333333333332,2.390625
+Arizona Cardinals @ Seattle Seahawks,Ricky White III,AnytimeTD,Anytime,,,1900.0,2300.0,2500.0,,2200.0,1500.0,5000.0,HardRockBet,5000.0,51.0,21.8,2.3394495412844036
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Receiving,80,,,,,1880.0,,,,800.0,DraftKings,1880.0,19.8,9.0,2.2
 Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,Receiving,80,,,,,1880.0,,,,800.0,DraftKings,1880.0,19.8,9.0,2.2
-Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,110,,,1400.0,,3200.0,,,,,DraftKings,3200.0,33.0,15.0,2.2
 Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,110,,,1500.0,,3400.0,,,,,DraftKings,3400.0,35.0,16.0,2.1875
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Receiving,25,,,,,531.0,,,,200.0,DraftKings,531.0,6.31,3.0,2.103333333333333
-Detroit Lions @ Washington Commanders,Colson Yankoff,AnytimeTD,Anytime,2000.0,,2200.0,2300.0,2500.0,,2700.0,,5000.0,HardRockBet,5000.0,51.0,24.4,2.0901639344262297
-Philadelphia Eagles @ Green Bay Packers,Cameron Latu,AnytimeTD,Anytime,2500.0,2800.0,2500.0,2400.0,2500.0,,2500.0,1800.0,5000.0,HardRockBet,5000.0,51.0,25.285714285714285,2.016949152542373
-Pittsburgh Steelers @ Los Angeles Chargers,Derius Davis,AnytimeTD,Anytime,2500.0,2500.0,3300.0,2600.0,5000.0,,3500.0,1800.0,1200.0,DraftKings,5000.0,51.0,25.857142857142858,1.9723756906077348
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Receiving,25,,,,,534.0,,,,200.0,DraftKings,534.0,6.34,3.0,2.1133333333333333
+Detroit Lions @ Washington Commanders,Colson Yankoff,AnytimeTD,Anytime,2000.0,,2200.0,2400.0,2500.0,,2700.0,,5000.0,HardRockBet,5000.0,51.0,24.6,2.073170731707317
+Philadelphia Eagles @ Green Bay Packers,Cameron Latu,AnytimeTD,Anytime,2500.0,2800.0,2500.0,2300.0,2500.0,,2500.0,1800.0,5000.0,HardRockBet,5000.0,51.0,25.142857142857142,2.028409090909091
 Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,Rushing,25,,,,,1480.0,3000.0,,,,ESPNBET,3000.0,31.0,15.8,1.9620253164556962
-Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,Rushing,50,,,,,670.0,1100.0,1200.0,,2000.0,HardRockBet,2000.0,21.0,10.9,1.926605504587156
-Detroit Lions @ Washington Commanders,Chris Moore,Receiving,80,,,,,2700.0,1600.0,1700.0,,800.0,DraftKings,2700.0,28.0,14.666666666666666,1.9090909090909092
-Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Receiving,50,,,,,1200.0,1800.0,,,600.0,ESPNBET,1800.0,19.0,10.0,1.9
+Los Angeles Rams @ San Francisco 49ers,Skyy Moore,AnytimeTD,Anytime,1700.0,1100.0,1800.0,1700.0,3000.0,,2000.0,1200.0,900.0,DraftKings,3000.0,31.0,15.857142857142858,1.954954954954955
+Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Receiving,50,,,,,1160.0,1800.0,,,600.0,ESPNBET,1800.0,19.0,9.8,1.9387755102040816
 Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Receiving,50,,,,,,1200.0,,,600.0,ESPNBET,1200.0,13.0,7.0,1.8571428571428572
-Los Angeles Rams @ San Francisco 49ers,Skyy Moore,AnytimeTD,Anytime,1700.0,1100.0,2500.0,1750.0,2200.0,,3000.0,1200.0,900.0,FanDuel,3000.0,31.0,17.214285714285715,1.800829875518672
-Arizona Cardinals @ Seattle Seahawks,Simi Fehoko,AnytimeTD,Anytime,5000.0,1900.0,2200.0,2700.0,3500.0,,2500.0,1800.0,5000.0,BetMGM,5000.0,51.0,29.0,1.7586206896551724
+Arizona Cardinals @ Seattle Seahawks,Simi Fehoko,AnytimeTD,Anytime,5000.0,1900.0,2200.0,2700.0,3000.0,,2700.0,1800.0,5000.0,BetMGM,5000.0,51.0,28.571428571428573,1.785
+Detroit Lions @ Washington Commanders,Chris Moore,Receiving,80,,,,,2400.0,1600.0,1700.0,,800.0,DraftKings,2400.0,25.0,14.666666666666666,1.7045454545454546
 Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Receiving,50,,,,,1900.0,2200.0,,,600.0,ESPNBET,2200.0,23.0,13.5,1.7037037037037037
-Pittsburgh Steelers @ Los Angeles Chargers,Trayveon Williams,AnytimeTD,Anytime,3000.0,,,2800.0,2800.0,,3000.0,,5000.0,HardRockBet,5000.0,51.0,30.0,1.7
+Philadelphia Eagles @ Green Bay Packers,Xavier Gipson,AnytimeTD,Anytime,2800.0,4000.0,,2700.0,3500.0,,2700.0,1800.0,5000.0,HardRockBet,5000.0,51.0,30.166666666666668,1.6906077348066297
 Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,110,,,,,3100.0,1800.0,,,,DraftKings,3100.0,32.0,19.0,1.6842105263157894
-Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Receiving,25,,,,,403.0,,,,200.0,DraftKings,403.0,5.03,3.0,1.6766666666666667
-Arizona Cardinals @ Seattle Seahawks,Robbie Ouzts,AnytimeTD,Anytime,4000.0,5000.0,3000.0,2700.0,3000.0,,3500.0,,1600.0,BetRivers,5000.0,51.0,30.666666666666668,1.6630434782608694
-Philadelphia Eagles @ Green Bay Packers,Xavier Gipson,AnytimeTD,Anytime,2800.0,4000.0,,2800.0,3500.0,,2700.0,2200.0,5000.0,HardRockBet,5000.0,51.0,31.0,1.6451612903225807
-Detroit Lions @ Washington Commanders,Isaac TeSlaa,Receiving,25,,,,,565.0,,420.0,,200.0,DraftKings,565.0,6.65,4.1,1.6219512195121955
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Receiving,50,,,,,1300.0,1600.0,,,600.0,ESPNBET,1600.0,17.0,10.5,1.619047619047619
+Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Receiving,25,,,,,405.0,,,,200.0,DraftKings,405.0,5.05,3.0,1.6833333333333333
+Pittsburgh Steelers @ Los Angeles Chargers,Trayveon Williams,AnytimeTD,Anytime,3000.0,,,2800.0,3000.0,,3000.0,,5000.0,HardRockBet,5000.0,51.0,30.5,1.6721311475409837
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Receiving,50,,,,,1240.0,1600.0,,,600.0,ESPNBET,1600.0,17.0,10.2,1.6666666666666667
+Detroit Lions @ Washington Commanders,Jeremy McNichols,Receiving,50,,,,,1060.0,,,,600.0,DraftKings,1060.0,11.6,7.0,1.657142857142857
+Arizona Cardinals @ Seattle Seahawks,Robbie Ouzts,AnytimeTD,Anytime,4000.0,5000.0,3300.0,2700.0,2800.0,,3500.0,,1600.0,BetRivers,5000.0,51.0,30.833333333333332,1.654054054054054
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,80,,,625.0,600.0,670.0,650.0,680.0,,1100.0,HardRockBet,1100.0,12.0,7.45,1.610738255033557
 Los Angeles Rams @ San Francisco 49ers,Kyle Juszczyk,Receiving,25,,,,,383.0,,,,200.0,DraftKings,383.0,4.83,3.0,1.61
-Arizona Cardinals @ Seattle Seahawks,Michael Carter,AnytimeTD,Anytime,1900.0,,1700.0,1800.0,2000.0,,2000.0,1600.0,3000.0,HardRockBet,3000.0,31.0,19.333333333333332,1.6034482758620692
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,80,,,625.0,600.0,700.0,650.0,680.0,,1100.0,HardRockBet,1100.0,12.0,7.51,1.5978695073235687
+Detroit Lions @ Washington Commanders,Isaac TeSlaa,Receiving,50,,,,,1820.0,2000.0,,,600.0,ESPNBET,2000.0,21.0,13.1,1.6030534351145038
 Los Angeles Rams @ San Francisco 49ers,Blake Corum,Rushing,80,,,1200.0,,1000.0,1300.0,1400.0,,2000.0,HardRockBet,2000.0,21.0,13.25,1.5849056603773586
-Detroit Lions @ Washington Commanders,Isaac TeSlaa,Receiving,50,,,,,2500.0,2500.0,,,600.0,DraftKings,2500.0,26.0,16.5,1.5757575757575757
-Detroit Lions @ Washington Commanders,Jeremy McNichols,Receiving,50,,,,,1000.0,,,,600.0,DraftKings,1000.0,11.0,7.0,1.5714285714285714
 Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,110,,,,,3200.0,2000.0,,,,DraftKings,3200.0,33.0,21.0,1.5714285714285714
 Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,110,,,1200.0,,2200.0,1400.0,1500.0,,,DraftKings,2200.0,23.0,14.666666666666666,1.5681818181818183
 Los Angeles Rams @ San Francisco 49ers,Jordan Watkins,AnytimeTD,Anytime,2200.0,1700.0,1300.0,1400.0,1700.0,,1500.0,900.0,1200.0,BetMGM,2200.0,23.0,14.857142857142858,1.5480769230769231
 Detroit Lions @ Washington Commanders,David Montgomery,Receiving,50,,,,,1680.0,,1500.0,,600.0,DraftKings,1680.0,17.8,11.5,1.547826086956522
 Philadelphia Eagles @ Green Bay Packers,Malik Heath,AnytimeTD,Anytime,700.0,1050.0,625.0,650.0,700.0,,650.0,580.0,600.0,BetRivers,1050.0,11.5,7.435714285714285,1.5465898174831894
+Pittsburgh Steelers @ Los Angeles Chargers,Jaret Patterson,AnytimeTD,Anytime,950.0,650.0,625.0,600.0,600.0,,650.0,,375.0,BetMGM,950.0,10.5,6.833333333333333,1.5365853658536586
 Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Passing,350,,,1700.0,,2300.0,1300.0,1400.0,,,DraftKings,2300.0,24.0,15.666666666666666,1.5319148936170213
+Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,Receiving,50,,,,,900.0,1200.0,,,600.0,ESPNBET,1200.0,13.0,8.5,1.5294117647058822
+Pittsburgh Steelers @ Los Angeles Chargers,Scott Matlock,AnytimeTD,Anytime,4000.0,2900.0,3000.0,2500.0,3000.0,,3300.0,2000.0,1400.0,BetMGM,4000.0,41.0,26.857142857142858,1.5265957446808511
 Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,110,,,750.0,,1540.0,,1200.0,,,DraftKings,1540.0,16.4,10.75,1.525581395348837
-Pittsburgh Steelers @ Los Angeles Chargers,Jaret Patterson,AnytimeTD,Anytime,950.0,700.0,625.0,600.0,600.0,,650.0,,375.0,BetMGM,950.0,10.5,6.916666666666667,1.5180722891566265
-Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,Receiving,50,450.0,,,850.0,,500.0,560.0,,600.0,Caesars,850.0,9.5,6.275,1.5139442231075697
-Pittsburgh Steelers @ Los Angeles Chargers,Ke'Shawn Williams,AnytimeTD,Anytime,4000.0,,5000.0,4000.0,6500.0,,5500.0,2200.0,5000.0,DraftKings,6500.0,66.0,43.833333333333336,1.505703422053232
-Arizona Cardinals @ Seattle Seahawks,Arizona Cardinals D/ST,AnytimeTD,Anytime,750.0,,900.0,,475.0,,,470.0,,Bovada,900.0,10.0,6.6499999999999995,1.5037593984962407
 Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,AnytimeTD,Anytime,2800.0,1700.0,2000.0,1900.0,2200.0,,2200.0,1600.0,1200.0,BetMGM,2800.0,29.0,19.285714285714285,1.5037037037037038
-Pittsburgh Steelers @ Los Angeles Chargers,Scott Matlock,AnytimeTD,Anytime,4000.0,3000.0,3000.0,2500.0,3500.0,,3000.0,2000.0,1400.0,BetMGM,4000.0,41.0,27.285714285714285,1.5026178010471205
-Philadelphia Eagles @ Green Bay Packers,Philadelphia Eagles D/ST,AnytimeTD,Anytime,550.0,,800.0,,500.0,,,450.0,,Bovada,800.0,9.0,6.0,1.5
 Philadelphia Eagles @ Green Bay Packers,AJ Dillon,AnytimeTD,Anytime,2200.0,3000.0,2000.0,1900.0,2200.0,,2000.0,1500.0,,BetRivers,3000.0,31.0,20.666666666666668,1.5
+Philadelphia Eagles @ Green Bay Packers,Philadelphia Eagles D/ST,AnytimeTD,Anytime,550.0,,800.0,,500.0,,,450.0,,Bovada,800.0,9.0,6.0,1.5
 Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,Receiving,80,,,,,1540.0,1800.0,,,800.0,ESPNBET,1800.0,19.0,12.7,1.4960629921259843
-Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,Receiving,50,,,,,940.0,1200.0,,,600.0,ESPNBET,1200.0,13.0,8.7,1.4942528735632186
-Arizona Cardinals @ Seattle Seahawks,George Holani,AnytimeTD,Anytime,3500.0,1200.0,2500.0,2500.0,3000.0,,3300.0,1700.0,2000.0,BetMGM,3500.0,36.0,24.142857142857142,1.4911242603550297
-Detroit Lions @ Washington Commanders,Sione Vaki,AnytimeTD,Anytime,2500.0,3000.0,2000.0,1900.0,2200.0,,2200.0,1500.0,1600.0,BetRivers,3000.0,31.0,20.857142857142858,1.4863013698630136
+Arizona Cardinals @ Seattle Seahawks,Arizona Cardinals D/ST,AnytimeTD,Anytime,750.0,,900.0,,500.0,,,470.0,,Bovada,900.0,10.0,6.733333333333333,1.4851485148514851
+Pittsburgh Steelers @ Los Angeles Chargers,Pittsburgh Steelers D/ST,AnytimeTD,Anytime,650.0,,900.0,,600.0,,,470.0,,Bovada,900.0,10.0,6.733333333333333,1.4851485148514851
 Detroit Lions @ Washington Commanders,Chris Moore,Receiving,50,360.0,,,800.0,600.0,550.0,560.0,,475.0,Caesars,800.0,9.0,6.090000000000001,1.4778325123152707
-Pittsburgh Steelers @ Los Angeles Chargers,Pittsburgh Steelers D/ST,AnytimeTD,Anytime,650.0,,900.0,,650.0,,,450.0,,Bovada,900.0,10.0,6.833333333333333,1.4634146341463414
+Detroit Lions @ Washington Commanders,Sione Vaki,AnytimeTD,Anytime,2500.0,3000.0,2000.0,1900.0,2200.0,,2200.0,1500.0,1750.0,BetRivers,3000.0,31.0,21.071428571428573,1.471186440677966
+Arizona Cardinals @ Seattle Seahawks,George Holani,AnytimeTD,Anytime,3500.0,1150.0,2800.0,2500.0,3000.0,,3300.0,1800.0,2000.0,BetMGM,3500.0,36.0,24.642857142857142,1.4608695652173913
 Arizona Cardinals @ Seattle Seahawks,Brady Russell,AnytimeTD,Anytime,,3300.0,,2000.0,2200.0,,,,2500.0,BetRivers,3300.0,34.0,23.333333333333332,1.4571428571428573
-Pittsburgh Steelers @ Los Angeles Chargers,Connor Heyward,AnytimeTD,Anytime,1400.0,1100.0,2200.0,1600.0,1900.0,,2200.0,1200.0,1100.0,Bovada,2200.0,23.0,16.0,1.4375
-Los Angeles Rams @ San Francisco 49ers,Konata Mumpfield,AnytimeTD,Anytime,1200.0,1050.0,1100.0,1100.0,1100.0,,1300.0,800.0,1600.0,HardRockBet,1600.0,17.0,11.928571428571429,1.4251497005988023
-Detroit Lions @ Washington Commanders,Brock Wright,AnytimeTD,Anytime,525.0,700.0,600.0,650.0,900.0,,700.0,550.0,600.0,DraftKings,900.0,10.0,7.178571428571429,1.3930348258706466
-Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,50,195.0,320.0,140.0,185.0,236.0,200.0,205.0,,250.0,BetRivers,320.0,4.2,3.0157142857142856,1.3927048792041687
-Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,Rushing,25,,,170.0,,210.0,250.0,265.0,,350.0,HardRockBet,350.0,4.5,3.2375000000000003,1.3899613899613898
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Receiving,25,,,,,465.0,,500.0,,200.0,FanDuel,500.0,6.0,4.325,1.3872832369942196
+Pittsburgh Steelers @ Los Angeles Chargers,Derius Davis,AnytimeTD,Anytime,2500.0,2500.0,3300.0,2400.0,3500.0,,3300.0,1700.0,1200.0,DraftKings,3500.0,36.0,25.142857142857142,1.4318181818181819
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Receiving,25,,,,,467.0,,520.0,,200.0,FanDuel,520.0,6.2,4.335,1.4302191464821223
+Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,80,,,900.0,,1280.0,800.0,880.0,,900.0,DraftKings,1280.0,13.8,9.7,1.4226804123711343
+Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,Receiving,50,475.0,,,800.0,,500.0,560.0,,600.0,Caesars,800.0,9.0,6.3375,1.4201183431952662
+Pittsburgh Steelers @ Los Angeles Chargers,Kaleb Johnson,AnytimeTD,Anytime,2500.0,1400.0,2800.0,2200.0,2500.0,,3000.0,2200.0,1100.0,FanDuel,3000.0,31.0,22.0,1.4090909090909092
+Los Angeles Rams @ San Francisco 49ers,Konata Mumpfield,AnytimeTD,Anytime,1200.0,1050.0,1100.0,1100.0,1200.0,,1300.0,800.0,1600.0,HardRockBet,1600.0,17.0,12.071428571428571,1.4082840236686391
+Detroit Lions @ Washington Commanders,Jared Goff,AnytimeTD,Anytime,1800.0,1200.0,1400.0,1400.0,2000.0,,1700.0,1200.0,1200.0,DraftKings,2000.0,21.0,15.142857142857142,1.3867924528301887
 Detroit Lions @ Washington Commanders,Ben Sinnott,AnytimeTD,Anytime,2000.0,1150.0,2200.0,2200.0,2800.0,,2700.0,1500.0,2250.0,DraftKings,2800.0,29.0,21.0,1.380952380952381
-Pittsburgh Steelers @ Los Angeles Chargers,Kaleb Johnson,AnytimeTD,Anytime,2500.0,1400.0,2500.0,2100.0,2800.0,,2700.0,1700.0,1100.0,DraftKings,2800.0,29.0,21.0,1.380952380952381
-Philadelphia Eagles @ Green Bay Packers,Josh Whyle,AnytimeTD,Anytime,2500.0,2200.0,1800.0,1750.0,2500.0,,1800.0,1300.0,1200.0,BetMGM,2500.0,26.0,18.928571428571427,1.3735849056603775
+Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,50,,,725.0,,1020.0,750.0,800.0,,600.0,DraftKings,1020.0,11.2,8.1875,1.36793893129771
 Los Angeles Rams @ San Francisco 49ers,Ronnie Rivers,AnytimeTD,Anytime,2200.0,2500.0,1900.0,2000.0,2200.0,,2200.0,,3000.0,HardRockBet,3000.0,31.0,22.666666666666668,1.3676470588235294
 Los Angeles Rams @ San Francisco 49ers,San Francisco 49ers D/ST,AnytimeTD,Anytime,550.0,,725.0,,500.0,,,470.0,,Bovada,725.0,8.25,6.066666666666666,1.35989010989011
-Pittsburgh Steelers @ Los Angeles Chargers,Tre Harris,Receiving,50,,,1100.0,,1020.0,1300.0,1400.0,,600.0,FanDuel,1400.0,15.0,11.05,1.3574660633484161
-Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,50,,,725.0,,1020.0,750.0,830.0,,600.0,DraftKings,1020.0,11.2,8.2625,1.3555219364599091
-Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Passing,300,950.0,,900.0,1300.0,1200.0,850.0,920.0,,800.0,Caesars,1300.0,14.0,10.366666666666667,1.35048231511254
-Detroit Lions @ Washington Commanders,Treylon Burks,AnytimeTD,Anytime,950.0,950.0,1100.0,1000.0,1100.0,,1300.0,740.0,750.0,FanDuel,1300.0,14.0,10.414285714285715,1.3443072702331962
-Philadelphia Eagles @ Green Bay Packers,Grant Calcaterra,AnytimeTD,Anytime,1200.0,1400.0,1100.0,1000.0,1000.0,,1100.0,850.0,1500.0,HardRockBet,1500.0,16.0,11.928571428571429,1.341317365269461
+Philadelphia Eagles @ Green Bay Packers,Chris Brooks,AnytimeTD,Anytime,1800.0,2000.0,2200.0,1900.0,2500.0,,2200.0,1300.0,1400.0,DraftKings,2500.0,26.0,19.285714285714285,1.3481481481481483
+Arizona Cardinals @ Seattle Seahawks,Seattle Seahawks D/ST,AnytimeTD,Anytime,650.0,,725.0,,450.0,,,450.0,,Bovada,725.0,8.25,6.166666666666667,1.3378378378378377
 Philadelphia Eagles @ Green Bay Packers,Green Bay Packers D/ST,AnytimeTD,Anytime,600.0,,725.0,,500.0,,,450.0,,Bovada,725.0,8.25,6.166666666666667,1.3378378378378377
 Detroit Lions @ Washington Commanders,Marcus Mariota,Passing,350,,,,,2700.0,2000.0,,,,DraftKings,2700.0,28.0,21.0,1.3333333333333333
-Pittsburgh Steelers @ Los Angeles Chargers,Los Angeles Chargers D/ST,AnytimeTD,Anytime,625.0,,800.0,,650.0,,,450.0,,Bovada,800.0,9.0,6.75,1.3333333333333333
-Philadelphia Eagles @ Green Bay Packers,Chris Brooks,AnytimeTD,Anytime,1800.0,2000.0,2200.0,1900.0,2500.0,,2200.0,1500.0,1400.0,DraftKings,2500.0,26.0,19.571428571428573,1.3284671532846715
+Pittsburgh Steelers @ Los Angeles Chargers,Roman Wilson,Receiving,25,,,,,275.0,,350.0,,200.0,FanDuel,350.0,4.5,3.375,1.3333333333333333
+Los Angeles Rams @ San Francisco 49ers,Terrance Ferguson,Receiving,50,,,,,810.0,900.0,1060.0,,600.0,FanDuel,1060.0,11.6,8.700000000000001,1.333333333333333
+Detroit Lions @ Washington Commanders,Isaac TeSlaa,Receiving,25,,,,,445.0,,420.0,,200.0,DraftKings,445.0,5.45,4.1,1.329268292682927
+Pittsburgh Steelers @ Los Angeles Chargers,Connor Heyward,AnytimeTD,Anytime,1400.0,1100.0,2000.0,1600.0,2000.0,,2000.0,1200.0,1100.0,Bovada,2000.0,21.0,15.857142857142858,1.3243243243243243
 Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,80,,,,,1520.0,,1700.0,,1000.0,FanDuel,1700.0,18.0,13.6,1.3235294117647058
-Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,80,,,550.0,600.0,960.0,750.0,800.0,,1000.0,HardRockBet,1000.0,11.0,8.32,1.3221153846153846
-Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,80,,,900.0,,1180.0,800.0,880.0,,900.0,DraftKings,1180.0,12.8,9.7,1.3195876288659796
-Arizona Cardinals @ Seattle Seahawks,Seattle Seahawks D/ST,AnytimeTD,Anytime,650.0,,700.0,,450.0,,,420.0,,Bovada,700.0,8.0,6.066666666666666,1.3186813186813187
+Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,AnytimeTD,Anytime,700.0,440.0,700.0,625.0,800.0,,750.0,580.0,275.0,DraftKings,800.0,9.0,6.814285714285714,1.3207547169811322
+Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,80,,,,,1220.0,900.0,1000.0,,800.0,DraftKings,1220.0,13.2,10.0,1.3199999999999998
+Philadelphia Eagles @ Green Bay Packers,Josh Whyle,AnytimeTD,Anytime,2500.0,2200.0,1800.0,1800.0,2500.0,,1800.0,1700.0,1300.0,BetMGM,2500.0,26.0,19.714285714285715,1.3188405797101448
+Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,80,,,550.0,600.0,1080.0,900.0,920.0,,1100.0,HardRockBet,1100.0,12.0,9.1,1.3186813186813187
+Detroit Lions @ Washington Commanders,Treylon Burks,AnytimeTD,Anytime,950.0,950.0,1100.0,1000.0,1200.0,,1300.0,800.0,750.0,FanDuel,1300.0,14.0,10.642857142857142,1.3154362416107384
+Pittsburgh Steelers @ Los Angeles Chargers,Ke'Shawn Williams,AnytimeTD,Anytime,4000.0,,5000.0,4000.0,4500.0,,5500.0,2500.0,5000.0,FanDuel,5500.0,56.0,42.666666666666664,1.3125
 Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,80,,,,,1120.0,,,,1500.0,HardRockBet,1500.0,16.0,12.2,1.3114754098360657
-Pittsburgh Steelers @ Los Angeles Chargers,Roman Wilson,Receiving,25,,,,,288.0,,350.0,,200.0,FanDuel,350.0,4.5,3.44,1.308139534883721
 Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Rushing,80,,,,,3300.0,2500.0,,,,DraftKings,3300.0,34.0,26.0,1.3076923076923077
 Los Angeles Rams @ San Francisco 49ers,Colby Parkinson,AnytimeTD,Anytime,650.0,600.0,825.0,750.0,900.0,,950.0,550.0,650.0,FanDuel,950.0,10.5,8.035714285714286,1.3066666666666666
 Pittsburgh Steelers @ Los Angeles Chargers,Roman Wilson,Receiving,50,,,,,1380.0,1400.0,1500.0,,600.0,FanDuel,1500.0,16.0,12.266666666666666,1.3043478260869565
-Detroit Lions @ Washington Commanders,David Montgomery,Receiving,25,,,,,353.0,,390.0,,200.0,FanDuel,390.0,4.9,3.7649999999999997,1.3014608233731741
-Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,AnytimeTD,Anytime,700.0,440.0,725.0,625.0,800.0,,800.0,580.0,275.0,DraftKings,800.0,9.0,6.921428571428571,1.30030959752322
-Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,80,,,700.0,,1020.0,750.0,800.0,,800.0,DraftKings,1020.0,11.2,8.625,1.298550724637681
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Receiving,50,,,700.0,,599.0,850.0,,,600.0,ESPNBET,850.0,9.5,7.330000000000001,1.2960436562073667
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,50,,410.0,550.0,475.0,386.0,375.0,430.0,,325.0,Bovada,550.0,6.5,5.001666666666667,1.299566811062979
+Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Passing,300,525.0,,625.0,525.0,750.0,500.0,550.0,,600.0,DraftKings,750.0,8.5,6.541666666666667,1.2993630573248407
+Arizona Cardinals @ Seattle Seahawks,Greg Dortch,AnytimeTD,Anytime,1200.0,750.0,1100.0,1000.0,1100.0,,1300.0,900.0,800.0,FanDuel,1300.0,14.0,10.785714285714286,1.2980132450331126
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Receiving,50,,,700.0,,597.0,850.0,,,600.0,ESPNBET,850.0,9.5,7.323333333333333,1.2972234865725991
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,Passing,350,1100.0,,1200.0,,1520.0,1100.0,1200.0,,,DraftKings,1520.0,16.2,12.5,1.296
+Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,50,195.0,320.0,140.0,220.0,257.0,260.0,250.0,,260.0,BetRivers,320.0,4.2,3.2600000000000002,1.2883435582822085
+Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,80,,,,,1960.0,,1400.0,,1600.0,DraftKings,1960.0,20.6,16.0,1.2875
 Los Angeles Rams @ San Francisco 49ers,Tyler Higbee,Receiving,80,,,,,1920.0,2500.0,,,,ESPNBET,2500.0,26.0,20.2,1.2871287128712872
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,50,,420.0,550.0,450.0,386.0,400.0,450.0,,325.0,Bovada,550.0,6.5,5.051666666666667,1.2867040580666447
 Detroit Lions @ Washington Commanders,Washington Commanders D/ST,AnytimeTD,Anytime,750.0,,800.0,,550.0,,,500.0,,Bovada,800.0,9.0,7.0,1.2857142857142858
-Arizona Cardinals @ Seattle Seahawks,Sam Darnold,AnytimeTD,Anytime,1100.0,1150.0,1100.0,1000.0,1100.0,,1300.0,900.0,575.0,FanDuel,1300.0,14.0,10.892857142857142,1.2852459016393443
-Los Angeles Rams @ San Francisco 49ers,Terrance Ferguson,Receiving,50,,,,,810.0,1000.0,1060.0,,600.0,FanDuel,1060.0,11.6,9.033333333333333,1.2841328413284132
+Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,Rushing,50,,,,,670.0,1100.0,1200.0,,1300.0,HardRockBet,1300.0,14.0,10.9,1.2844036697247705
+Los Angeles Rams @ San Francisco 49ers,Blake Corum,Rushing,50,260.0,,350.0,340.0,301.0,350.0,370.0,,450.0,HardRockBet,450.0,5.5,4.284999999999999,1.283547257876313
 Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Receiving,50,,,,,920.0,1000.0,,,600.0,ESPNBET,1000.0,11.0,8.6,1.2790697674418605
-Los Angeles Rams @ San Francisco 49ers,Blake Corum,Rushing,50,275.0,,350.0,340.0,301.0,350.0,370.0,,450.0,HardRockBet,450.0,5.5,4.31,1.2761020881670535
-Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Passing,300,525.0,,625.0,525.0,750.0,550.0,580.0,,600.0,DraftKings,750.0,8.5,6.675,1.2734082397003745
-Philadelphia Eagles @ Green Bay Packers,Will Shipley,AnytimeTD,Anytime,2200.0,1800.0,2000.0,1700.0,1900.0,,2000.0,1500.0,1100.0,BetMGM,2200.0,23.0,18.142857142857142,1.2677165354330708
-Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,AnytimeTD,Anytime,850.0,700.0,900.0,800.0,1000.0,,1000.0,700.0,425.0,DraftKings,1000.0,11.0,8.678571428571429,1.2674897119341564
-Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,80,,,,,1300.0,1400.0,1500.0,,800.0,FanDuel,1500.0,16.0,12.666666666666666,1.2631578947368423
+Pittsburgh Steelers @ Los Angeles Chargers,Tre Harris,Receiving,50,,,1100.0,,1080.0,1200.0,1300.0,,600.0,FanDuel,1300.0,14.0,10.95,1.2785388127853883
+Philadelphia Eagles @ Green Bay Packers,Will Shipley,AnytimeTD,Anytime,2200.0,1800.0,2000.0,1700.0,1900.0,,2000.0,1500.0,1000.0,BetMGM,2200.0,23.0,18.0,1.2777777777777777
+Los Angeles Rams @ San Francisco 49ers,Mac Jones,AnytimeTD,Anytime,1000.0,950.0,1000.0,950.0,1100.0,,1200.0,800.0,650.0,FanDuel,1200.0,13.0,10.214285714285714,1.272727272727273
+Philadelphia Eagles @ Green Bay Packers,Grant Calcaterra,AnytimeTD,Anytime,1200.0,1400.0,1100.0,1000.0,1000.0,,1100.0,850.0,1300.0,BetRivers,1400.0,15.0,11.785714285714286,1.2727272727272727
+Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,80,,,,,1280.0,1400.0,1500.0,,800.0,FanDuel,1500.0,16.0,12.6,1.2698412698412698
+Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,80,,,1400.0,,880.0,1300.0,1400.0,,1600.0,HardRockBet,1600.0,17.0,13.45,1.2639405204460967
+Pittsburgh Steelers @ Los Angeles Chargers,Trey Sermon,AnytimeTD,Anytime,,,5000.0,3500.0,4000.0,,5000.0,2200.0,5000.0,Bovada,5000.0,51.0,40.4,1.2623762376237624
+Pittsburgh Steelers @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,2500.0,2200.0,2200.0,2200.0,2800.0,,2200.0,1600.0,2500.0,DraftKings,2800.0,29.0,23.0,1.2608695652173914
 Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Rushing,80,,,,,1820.0,1100.0,,,1750.0,DraftKings,1820.0,19.2,15.25,1.2590163934426228
 Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,Rushing,50,600.0,,,550.0,504.0,600.0,630.0,,750.0,HardRockBet,750.0,8.5,6.767999999999999,1.2559101654846339
-Pittsburgh Steelers @ Los Angeles Chargers,Trey Sermon,AnytimeTD,Anytime,,,5000.0,4000.0,5500.0,,5000.0,2800.0,5000.0,DraftKings,5500.0,56.0,44.6,1.2556053811659191
-Detroit Lions @ Washington Commanders,Jared Goff,AnytimeTD,Anytime,1800.0,1200.0,1400.0,1500.0,1700.0,,1700.0,1200.0,1200.0,BetMGM,1800.0,19.0,15.142857142857142,1.2547169811320755
-Pittsburgh Steelers @ Los Angeles Chargers,Tre Harris,Receiving,25,,,260.0,,246.0,,320.0,,200.0,FanDuel,320.0,4.2,3.3533333333333335,1.2524850894632207
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,110,,,750.0,1000.0,880.0,,700.0,,,Caesars,1000.0,11.0,8.766666666666667,1.2547528517110265
+Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Passing,300,950.0,,900.0,1200.0,1200.0,850.0,920.0,,800.0,Caesars,1200.0,13.0,10.366666666666667,1.2540192926045015
+Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Rushing,25,,,875.0,,640.0,750.0,,,650.0,Bovada,875.0,9.75,7.8,1.25
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,Rushing,50,,,,,1580.0,,,,2000.0,HardRockBet,2000.0,21.0,16.8,1.25
-Arizona Cardinals @ Seattle Seahawks,Josiah Deguara,AnytimeTD,Anytime,3000.0,,2800.0,2800.0,3500.0,,3300.0,1900.0,3000.0,DraftKings,3500.0,36.0,29.0,1.2413793103448276
-Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,80,,,,,1140.0,900.0,1000.0,,800.0,DraftKings,1140.0,12.4,10.0,1.24
-Detroit Lions @ Washington Commanders,Craig Reynolds,AnytimeTD,Anytime,2500.0,1300.0,2000.0,2000.0,2500.0,,2200.0,1500.0,2500.0,BetMGM,2500.0,26.0,21.0,1.2380952380952381
+Arizona Cardinals @ Seattle Seahawks,Josiah Deguara,AnytimeTD,Anytime,3000.0,,3000.0,2700.0,3000.0,,3500.0,2000.0,3000.0,FanDuel,3500.0,36.0,28.833333333333332,1.2485549132947977
+Detroit Lions @ Washington Commanders,Craig Reynolds,AnytimeTD,Anytime,2500.0,1200.0,2000.0,2000.0,2500.0,,2200.0,1500.0,2500.0,BetMGM,2500.0,26.0,20.857142857142858,1.2465753424657533
+Detroit Lions @ Washington Commanders,David Montgomery,Receiving,25,,,,,339.0,,360.0,,200.0,FanDuel,360.0,4.6,3.6950000000000003,1.2449255751014883
+Pittsburgh Steelers @ Los Angeles Chargers,Los Angeles Chargers D/ST,AnytimeTD,Anytime,625.0,,725.0,,650.0,,,420.0,,Bovada,725.0,8.25,6.6499999999999995,1.2406015037593987
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,50,165.0,175.0,150.0,145.0,165.0,165.0,172.0,,225.0,HardRockBet,225.0,3.25,2.6242857142857146,1.2384322264561785
+Detroit Lions @ Washington Commanders,John Bates,AnytimeTD,Anytime,950.0,850.0,1000.0,1000.0,1100.0,,1200.0,850.0,900.0,FanDuel,1200.0,13.0,10.5,1.2380952380952381
+Pittsburgh Steelers @ Los Angeles Chargers,Tucker Fisk,AnytimeTD,Anytime,1200.0,1500.0,1300.0,1200.0,1400.0,,1300.0,1050.0,900.0,BetRivers,1500.0,16.0,12.928571428571429,1.2375690607734806
 Los Angeles Rams @ San Francisco 49ers,Demarcus Robinson,Receiving,50,,,,,910.0,750.0,800.0,,600.0,DraftKings,910.0,10.1,8.166666666666666,1.236734693877551
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,110,,,750.0,950.0,800.0,,700.0,,,Caesars,950.0,10.5,8.5,1.2352941176470589
-Los Angeles Rams @ San Francisco 49ers,Xavier Smith,AnytimeTD,Anytime,1300.0,1100.0,1100.0,1100.0,1100.0,,1300.0,800.0,1400.0,HardRockBet,1400.0,15.0,12.142857142857142,1.2352941176470589
-Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Rushing,25,,,875.0,,670.0,750.0,,,650.0,Bovada,875.0,9.75,7.8999999999999995,1.2341772151898736
-Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,AnytimeTD,Anytime,2500.0,1700.0,2200.0,2000.0,2200.0,,2200.0,1500.0,2250.0,BetMGM,2500.0,26.0,21.071428571428573,1.2338983050847456
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Receiving,25,,,350.0,,270.0,,360.0,,200.0,FanDuel,360.0,4.6,3.733333333333333,1.2321428571428572
+Pittsburgh Steelers @ Los Angeles Chargers,Tre Harris,Receiving,25,,,260.0,,235.0,,310.0,,200.0,FanDuel,310.0,4.1,3.3166666666666664,1.236180904522613
+Philadelphia Eagles @ Green Bay Packers,Tank Bigsby,AnytimeTD,Anytime,2000.0,1300.0,2000.0,1600.0,2000.0,,2000.0,1500.0,800.0,BetMGM,2000.0,21.0,17.0,1.2352941176470589
+Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,AnytimeTD,Anytime,850.0,700.0,825.0,800.0,950.0,,950.0,700.0,425.0,DraftKings,950.0,10.5,8.5,1.2352941176470589
+Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,AnytimeTD,Anytime,650.0,540.0,625.0,625.0,750.0,,700.0,580.0,400.0,DraftKings,750.0,8.5,6.885714285714285,1.2344398340248963
+Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,50,275.0,,,360.0,340.0,400.0,430.0,,275.0,FanDuel,430.0,5.3,4.3,1.2325581395348837
 Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,110,,,1000.0,,1280.0,1000.0,1060.0,,,DraftKings,1280.0,13.8,11.200000000000001,1.232142857142857
-Pittsburgh Steelers @ Los Angeles Chargers,Tucker Fisk,AnytimeTD,Anytime,1200.0,1500.0,1400.0,1300.0,1300.0,,1400.0,900.0,900.0,BetRivers,1500.0,16.0,13.0,1.2307692307692308
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,50,175.0,180.0,150.0,145.0,171.0,165.0,174.0,,225.0,HardRockBet,225.0,3.25,2.6571428571428575,1.2231182795698923
-Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,AnytimeTD,Anytime,650.0,540.0,700.0,625.0,700.0,,750.0,550.0,400.0,FanDuel,750.0,8.5,6.95,1.223021582733813
+Detroit Lions @ Washington Commanders,Marcus Mariota,Passing,300,750.0,,700.0,900.0,960.0,700.0,750.0,,800.0,DraftKings,960.0,10.6,8.666666666666666,1.2230769230769232
 Philadelphia Eagles @ Green Bay Packers,Kylen Granson,AnytimeTD,Anytime,2500.0,2800.0,2500.0,2200.0,2500.0,,2500.0,1700.0,2000.0,BetRivers,2800.0,29.0,23.714285714285715,1.2228915662650601
-Detroit Lions @ Washington Commanders,John Bates,AnytimeTD,Anytime,950.0,850.0,1000.0,1000.0,1100.0,,1200.0,850.0,1000.0,FanDuel,1200.0,13.0,10.642857142857142,1.221476510067114
+Los Angeles Rams @ San Francisco 49ers,Xavier Smith,AnytimeTD,Anytime,1300.0,1100.0,1100.0,1100.0,1200.0,,1300.0,800.0,1400.0,HardRockBet,1400.0,15.0,12.285714285714286,1.2209302325581395
 Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,110,,,900.0,,1100.0,850.0,900.0,,,DraftKings,1100.0,12.0,9.833333333333334,1.2203389830508473
-Philadelphia Eagles @ Green Bay Packers,Tank Bigsby,AnytimeTD,Anytime,2000.0,1300.0,2000.0,1700.0,2000.0,,2000.0,1500.0,850.0,BetMGM,2000.0,21.0,17.214285714285715,1.2199170124481327
-Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,110,,,790.0,,650.0,,900.0,,,FanDuel,900.0,10.0,8.2,1.2195121951219514
 Los Angeles Rams @ San Francisco 49ers,Luke Farrell,AnytimeTD,Anytime,1500.0,1000.0,1100.0,1200.0,1200.0,,1300.0,1200.0,1500.0,BetMGM,1500.0,16.0,13.142857142857142,1.2173913043478262
-Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Rushing,50,,,1500.0,,1260.0,,1500.0,,1750.0,HardRockBet,1750.0,18.5,15.200000000000001,1.2171052631578947
 Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Passing,350,1050.0,,1100.0,,1340.0,,1100.0,,,DraftKings,1340.0,14.4,11.833333333333334,1.2169014084507042
-Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,AnytimeTD,Anytime,250.0,420.0,350.0,340.0,380.0,,370.0,315.0,300.0,BetRivers,420.0,5.2,4.292857142857143,1.2113144758735441
+Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,AnytimeTD,Anytime,250.0,420.0,350.0,340.0,370.0,,370.0,315.0,300.0,BetRivers,420.0,5.2,4.278571428571429,1.2153589315525875
+Detroit Lions @ Washington Commanders,Brock Wright,AnytimeTD,Anytime,525.0,700.0,600.0,625.0,750.0,,650.0,500.0,600.0,DraftKings,750.0,8.5,7.0,1.2142857142857142
+Arizona Cardinals @ Seattle Seahawks,Elijah Higgins,AnytimeTD,Anytime,950.0,1050.0,800.0,850.0,1000.0,,900.0,740.0,700.0,BetRivers,1050.0,11.5,9.485714285714286,1.2123493975903614
 Philadelphia Eagles @ Green Bay Packers,Darius Cooper,AnytimeTD,Anytime,850.0,1000.0,800.0,800.0,900.0,,800.0,700.0,,BetRivers,1000.0,11.0,9.083333333333334,1.2110091743119265
 Philadelphia Eagles @ Green Bay Packers,Savion Williams,AnytimeTD,Anytime,1050.0,1100.0,900.0,850.0,950.0,,900.0,740.0,850.0,BetRivers,1100.0,12.0,9.914285714285715,1.2103746397694524
-Arizona Cardinals @ Seattle Seahawks,Greg Dortch,AnytimeTD,Anytime,1200.0,750.0,1100.0,1000.0,1100.0,,1200.0,900.0,800.0,BetMGM,1200.0,13.0,10.785714285714286,1.205298013245033
+Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,110,,,625.0,450.0,504.0,600.0,680.0,,,FanDuel,680.0,7.8,6.4475,1.2097712291585887
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Receiving,25,,,350.0,,269.0,,350.0,,200.0,Bovada,350.0,4.5,3.73,1.2064343163538873
+Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,110,,,750.0,750.0,940.0,750.0,800.0,,,DraftKings,940.0,10.4,8.625,1.2057971014492754
+Arizona Cardinals @ Seattle Seahawks,Sam Darnold,AnytimeTD,Anytime,1100.0,1100.0,1100.0,1000.0,1100.0,,1200.0,900.0,575.0,FanDuel,1200.0,13.0,10.821428571428571,1.2013201320132014
+Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,AnytimeTD,Anytime,2500.0,1700.0,2500.0,2000.0,2200.0,,2500.0,1300.0,2250.0,BetMGM,2500.0,26.0,21.642857142857142,1.2013201320132014
+Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,80,,,700.0,,960.0,800.0,830.0,,800.0,DraftKings,960.0,10.6,8.825,1.2011331444759208
 Detroit Lions @ Washington Commanders,Robbie Chosen,AnytimeTD,Anytime,1400.0,,1400.0,1400.0,1700.0,,1600.0,,1200.0,DraftKings,1700.0,18.0,15.0,1.2
-Arizona Cardinals @ Seattle Seahawks,Elijah Higgins,AnytimeTD,Anytime,950.0,1050.0,825.0,850.0,950.0,,950.0,800.0,700.0,BetRivers,1050.0,11.5,9.607142857142858,1.1970260223048326
-Detroit Lions @ Washington Commanders,David Montgomery,Rushing,110,,,1200.0,,780.0,,1200.0,,,Bovada,1200.0,13.0,10.9,1.1926605504587156
+Arizona Cardinals @ Seattle Seahawks,Michael Carter,AnytimeTD,Anytime,1900.0,,1900.0,1800.0,2000.0,,2200.0,1300.0,2000.0,FanDuel,2200.0,23.0,19.166666666666668,1.2
+Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Passing,250,125.0,170.0,115.0,115.0,139.0,125.0,128.0,,130.0,BetRivers,170.0,2.7,2.252857142857143,1.1984781230183892
+Los Angeles Rams @ San Francisco 49ers,Terrance Ferguson,Receiving,25,,,,,193.0,,255.0,,200.0,FanDuel,255.0,3.55,2.965,1.197301854974705
+Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,110,,,625.0,625.0,760.0,600.0,630.0,,,DraftKings,760.0,8.6,7.2,1.1944444444444444
+Pittsburgh Steelers @ Los Angeles Chargers,Will Dissly,AnytimeTD,Anytime,1200.0,1500.0,1300.0,1200.0,1400.0,,1300.0,1050.0,,BetRivers,1500.0,16.0,13.416666666666666,1.1925465838509317
 Philadelphia Eagles @ Green Bay Packers,AJ Brown,Receiving,110,,,625.0,600.0,750.0,600.0,630.0,,,DraftKings,750.0,8.5,7.1375,1.1908931698774081
-Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,50,275.0,,,390.0,344.0,400.0,420.0,,275.0,FanDuel,420.0,5.2,4.368,1.1904761904761905
-Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,80,,,1400.0,,880.0,1300.0,1400.0,,1500.0,HardRockBet,1500.0,16.0,13.45,1.1895910780669146
 Los Angeles Rams @ San Francisco 49ers,Kyle Juszczyk,AnytimeTD,Anytime,1200.0,1100.0,1000.0,1000.0,1100.0,,1100.0,900.0,750.0,BetMGM,1200.0,13.0,10.928571428571429,1.1895424836601307
-Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Passing,250,125.0,165.0,115.0,115.0,133.0,120.0,122.0,,130.0,BetRivers,165.0,2.65,2.2285714285714286,1.189102564102564
-Pittsburgh Steelers @ Los Angeles Chargers,Roman Wilson,AnytimeTD,Anytime,750.0,575.0,800.0,750.0,850.0,,800.0,660.0,575.0,DraftKings,850.0,9.5,8.014285714285714,1.1853832442067735
 Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,110,,,725.0,700.0,870.0,700.0,750.0,,,DraftKings,870.0,9.7,8.1875,1.1847328244274808
-Pittsburgh Steelers @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,2800.0,2500.0,2800.0,2600.0,3000.0,,2700.0,1700.0,,DraftKings,3000.0,31.0,26.166666666666668,1.1847133757961783
+Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,110,,,790.0,,700.0,,900.0,,,FanDuel,900.0,10.0,8.45,1.183431952662722
 Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,110,,,1100.0,,910.0,,920.0,,,Bovada,1100.0,12.0,10.149999999999999,1.1822660098522169
 Arizona Cardinals @ Seattle Seahawks,Cody White,AnytimeTD,Anytime,1100.0,,900.0,1000.0,1000.0,,1100.0,900.0,1200.0,HardRockBet,1200.0,13.0,11.0,1.1818181818181819
-Los Angeles Rams @ San Francisco 49ers,Terrance Ferguson,Receiving,25,,,,,193.0,,250.0,,200.0,FanDuel,250.0,3.5,2.965,1.1804384485666106
-Los Angeles Rams @ San Francisco 49ers,Mac Jones,AnytimeTD,Anytime,1000.0,950.0,1000.0,950.0,1100.0,,1100.0,800.0,650.0,DraftKings,1100.0,12.0,10.214285714285714,1.174825174825175
+Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,AnytimeTD,Anytime,400.0,370.0,400.0,420.0,425.0,,440.0,400.0,500.0,HardRockBet,500.0,6.0,5.078571428571428,1.1814345991561181
+Detroit Lions @ Washington Commanders,Chris Moore,Receiving,25,-105.0,,,,145.0,,158.0,,115.0,FanDuel,158.0,2.58,2.184126984126984,1.1812500000000001
+Detroit Lions @ Washington Commanders,Marcus Mariota,Passing,250,250.0,310.0,225.0,230.0,320.0,250.0,250.0,,275.0,DraftKings,320.0,4.2,3.557142857142857,1.180722891566265
+Detroit Lions @ Washington Commanders,David Montgomery,Rushing,110,,,1200.0,,810.0,,1200.0,,,Bovada,1200.0,13.0,11.05,1.176470588235294
+Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Rushing,50,,,1500.0,,1420.0,,1500.0,,1750.0,HardRockBet,1750.0,18.5,15.733333333333334,1.1758474576271185
 Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,50,360.0,295.0,425.0,360.0,279.0,375.0,410.0,,350.0,Bovada,425.0,5.25,4.47,1.174496644295302
-Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,AnytimeTD,Anytime,320.0,375.0,330.0,310.0,320.0,,340.0,295.0,220.0,BetRivers,375.0,4.75,4.05,1.1728395061728396
-Detroit Lions @ Washington Commanders,Chris Moore,Receiving,25,-105.0,,,,145.0,,158.0,,120.0,FanDuel,158.0,2.58,2.200793650793651,1.172304363505229
-Pittsburgh Steelers @ Los Angeles Chargers,Ben Skowronek,AnytimeTD,Anytime,1800.0,2000.0,1800.0,1600.0,1800.0,,1800.0,1300.0,1750.0,BetRivers,2000.0,21.0,17.928571428571427,1.1713147410358566
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,650.0,550.0,600.0,550.0,600.0,,600.0,550.0,325.0,BetMGM,650.0,7.5,6.392857142857143,1.1731843575418994
+Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,80,,,425.0,600.0,710.0,600.0,630.0,,700.0,DraftKings,710.0,8.1,6.909999999999999,1.1722141823444285
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Receiving,50,,,825.0,,740.0,850.0,900.0,,600.0,FanDuel,900.0,10.0,8.5375,1.171303074670571
-Pittsburgh Steelers @ Los Angeles Chargers,Will Dissly,AnytimeTD,Anytime,1200.0,1500.0,1400.0,1300.0,1400.0,,1400.0,900.0,,BetRivers,1500.0,16.0,13.666666666666666,1.1707317073170733
+Pittsburgh Steelers @ Los Angeles Chargers,Roman Wilson,AnytimeTD,Anytime,750.0,575.0,825.0,750.0,850.0,,850.0,660.0,575.0,DraftKings,850.0,9.5,8.121428571428572,1.169744942832014
 Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Receiving,25,,,250.0,,,,280.0,,200.0,FanDuel,280.0,3.8,3.25,1.169230769230769
+Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,80,,380.0,475.0,425.0,348.0,375.0,400.0,,425.0,Bovada,475.0,5.75,4.921666666666667,1.1683034202505926
+Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,80,,,,,1140.0,1100.0,1200.0,,800.0,FanDuel,1200.0,13.0,11.133333333333333,1.1676646706586826
 Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,110,,,850.0,,940.0,,1060.0,,,FanDuel,1060.0,11.6,9.95,1.1658291457286432
-Detroit Lions @ Washington Commanders,Marcus Mariota,Passing,250,250.0,310.0,225.0,230.0,286.0,250.0,250.0,,275.0,BetRivers,310.0,4.1,3.5228571428571427,1.1638280616382806
-Detroit Lions @ Washington Commanders,Marcus Mariota,AnytimeTD,Anytime,400.0,285.0,320.0,340.0,350.0,,330.0,360.0,325.0,BetMGM,400.0,5.0,4.3,1.1627906976744187
-Detroit Lions @ Washington Commanders,Dominic Lovett,AnytimeTD,Anytime,2000.0,2000.0,1900.0,2000.0,2000.0,,2200.0,1500.0,1750.0,FanDuel,2200.0,23.0,19.785714285714285,1.1624548736462095
-Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,80,,310.0,250.0,230.0,287.0,250.0,270.0,,230.0,BetRivers,310.0,4.1,3.5283333333333338,1.1620217288615964
-Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,80,,,425.0,600.0,690.0,600.0,630.0,,700.0,HardRockBet,700.0,8.0,6.889999999999999,1.161103047895501
-Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,AnytimeTD,Anytime,400.0,370.0,440.0,420.0,450.0,,440.0,400.0,500.0,HardRockBet,500.0,6.0,5.171428571428572,1.160220994475138
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,80,,340.0,280.0,255.0,276.0,275.0,290.0,,300.0,BetRivers,340.0,4.4,3.793333333333333,1.1599297012302288
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,80,,400.0,225.0,390.0,420.0,400.0,410.0,,450.0,HardRockBet,450.0,5.5,4.741666666666667,1.1599297012302283
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Receiving,50,550.0,,480.0,450.0,467.0,550.0,600.0,,525.0,FanDuel,600.0,7.0,6.036666666666666,1.1595803423522917
-Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,80,,380.0,475.0,425.0,348.0,375.0,400.0,,450.0,Bovada,475.0,5.75,4.963333333333334,1.1584956346541302
-Arizona Cardinals @ Seattle Seahawks,Emari Demercado,AnytimeTD,Anytime,350.0,290.0,300.0,295.0,320.0,,320.0,315.0,185.0,BetMGM,350.0,4.5,3.892857142857143,1.1559633027522935
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,80,,340.0,280.0,255.0,266.0,275.0,290.0,,300.0,BetRivers,340.0,4.4,3.776666666666667,1.1650485436893205
+Detroit Lions @ Washington Commanders,Marcus Mariota,AnytimeTD,Anytime,400.0,285.0,320.0,340.0,360.0,,330.0,345.0,325.0,BetMGM,400.0,5.0,4.292857142857143,1.1647254575707155
+Pittsburgh Steelers @ Los Angeles Chargers,Ben Skowronek,AnytimeTD,Anytime,1800.0,2000.0,1800.0,1700.0,1800.0,,1800.0,1300.0,1750.0,BetRivers,2000.0,21.0,18.071428571428573,1.1620553359683794
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,110,,,475.0,380.0,357.0,,450.0,,,Bovada,475.0,5.75,4.956666666666667,1.160053799596503
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,80,,410.0,225.0,390.0,421.0,400.0,400.0,,450.0,HardRockBet,450.0,5.5,4.743333333333333,1.1595221363316937
+Los Angeles Rams @ San Francisco 49ers,Brian Robinson Jr.,Rushing,25,,,170.0,,210.0,250.0,265.0,,275.0,HardRockBet,275.0,3.75,3.2375000000000003,1.1583011583011582
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Receiving,50,550.0,,480.0,450.0,451.0,550.0,600.0,,550.0,FanDuel,600.0,7.0,6.051666666666667,1.1567061415587991
+Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,80,,310.0,250.0,230.0,287.0,250.0,270.0,,240.0,BetRivers,310.0,4.1,3.545,1.156558533145275
+Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Rushing,50,,,,375.0,430.0,350.0,,,350.0,DraftKings,430.0,5.3,4.583333333333333,1.1563636363636365
+Pittsburgh Steelers @ Los Angeles Chargers,KeAndre Lambert-Smith,AnytimeTD,Anytime,2800.0,2500.0,2800.0,2700.0,3000.0,,3000.0,1700.0,,DraftKings,3000.0,31.0,26.833333333333332,1.15527950310559
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,AnytimeTD,Anytime,900.0,800.0,900.0,850.0,950.0,,950.0,740.0,525.0,DraftKings,950.0,10.5,9.092857142857143,1.1547525530243519
 Pittsburgh Steelers @ Los Angeles Chargers,Tre Harris,AnytimeTD,Anytime,625.0,700.0,625.0,600.0,650.0,,650.0,550.0,450.0,BetRivers,700.0,8.0,6.928571428571429,1.1546391752577319
-Detroit Lions @ Washington Commanders,Ross Dwelley,AnytimeTD,Anytime,2200.0,2000.0,1900.0,1900.0,2000.0,,2200.0,1500.0,1750.0,BetMGM,2200.0,23.0,19.928571428571427,1.1541218637992832
 Detroit Lions @ Washington Commanders,Zach Ertz,Receiving,50,155.0,210.0,210.0,175.0,183.0,210.0,220.0,,240.0,HardRockBet,240.0,3.4,2.947142857142857,1.153659718856035
-Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Rushing,50,,440.0,,375.0,398.0,350.0,,,350.0,BetRivers,440.0,5.4,4.6825,1.1532301121195943
-Arizona Cardinals @ Seattle Seahawks,Zay Jones,AnytimeTD,Anytime,950.0,700.0,825.0,850.0,950.0,,950.0,800.0,600.0,BetMGM,950.0,10.5,9.107142857142858,1.1529411764705881
+Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,300,260.0,325.0,270.0,240.0,280.0,275.0,280.0,,275.0,BetRivers,325.0,4.25,3.685714285714286,1.1531007751937983
 Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,80,,,1200.0,,1120.0,1200.0,1260.0,,800.0,FanDuel,1260.0,13.6,11.8,1.1525423728813557
-Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,80,,,875.0,,900.0,750.0,800.0,,650.0,DraftKings,900.0,10.0,8.6875,1.1510791366906474
-Detroit Lions @ Washington Commanders,Jeremy McNichols,AnytimeTD,Anytime,425.0,420.0,440.0,420.0,475.0,,500.0,420.0,350.0,FanDuel,500.0,6.0,5.214285714285714,1.1506849315068493
+Arizona Cardinals @ Seattle Seahawks,Michael Wilson,AnytimeTD,Anytime,375.0,325.0,400.0,390.0,400.0,,450.0,380.0,375.0,FanDuel,450.0,5.5,4.778571428571429,1.1509715994020926
 Los Angeles Rams @ San Francisco 49ers,Isaac Guerendo,AnytimeTD,Anytime,3000.0,2400.0,2500.0,2500.0,2800.0,,3000.0,2000.0,3000.0,BetMGM,3000.0,31.0,27.0,1.1481481481481481
-Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,300,260.0,325.0,270.0,240.0,292.0,275.0,280.0,,275.0,BetRivers,325.0,4.25,3.7028571428571433,1.1477623456790123
-Philadelphia Eagles @ Green Bay Packers,Jahan Dotson,AnytimeTD,Anytime,850.0,900.0,800.0,800.0,850.0,,800.0,700.0,600.0,BetRivers,900.0,10.0,8.714285714285714,1.1475409836065575
-Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,80,,,,,1200.0,1100.0,1200.0,,800.0,DraftKings,1200.0,13.0,11.333333333333334,1.1470588235294117
-Los Angeles Rams @ San Francisco 49ers,Blake Corum,AnytimeTD,Anytime,450.0,440.0,400.0,400.0,475.0,,440.0,420.0,260.0,DraftKings,475.0,5.75,5.014285714285713,1.146723646723647
-Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,25,-165.0,,,,-118.0,,-104.0,,-145.0,FanDuel,-104.0,1.9615384615384617,1.7143911351976808,1.144160408477779
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Receiving,50,,,,,2300.0,2000.0,,,,DraftKings,2300.0,24.0,21.0,1.1428571428571428
-Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,300,250.0,275.0,220.0,205.0,264.0,210.0,230.0,,220.0,BetRivers,275.0,3.75,3.2842857142857147,1.1418007829491081
-Detroit Lions @ Washington Commanders,Jared Goff,Passing,300,275.0,325.0,280.0,240.0,287.0,275.0,290.0,,260.0,BetRivers,325.0,4.25,3.724285714285714,1.1411584196394324
-Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,110,,265.0,260.0,210.0,244.0,275.0,300.0,,,FanDuel,300.0,4.0,3.508,1.1402508551881414
+Detroit Lions @ Washington Commanders,Jeremy McNichols,AnytimeTD,Anytime,425.0,410.0,440.0,420.0,500.0,,500.0,420.0,350.0,DraftKings,500.0,6.0,5.235714285714286,1.145975443383356
+Detroit Lions @ Washington Commanders,Dominic Lovett,AnytimeTD,Anytime,2000.0,2000.0,1900.0,2000.0,2200.0,,2200.0,1500.0,1750.0,DraftKings,2200.0,23.0,20.071428571428573,1.1459074733096084
+Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,25,-165.0,,,,-119.0,,-104.0,,-145.0,FanDuel,-104.0,1.9615384615384617,1.7120173043093938,1.1457468663435744
+Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,AnytimeTD,Anytime,320.0,370.0,330.0,310.0,340.0,,340.0,315.0,220.0,BetRivers,370.0,4.7,4.107142857142857,1.1443478260869566
+Arizona Cardinals @ Seattle Seahawks,Zay Jones,AnytimeTD,Anytime,950.0,700.0,825.0,850.0,950.0,,950.0,850.0,600.0,BetMGM,950.0,10.5,9.178571428571429,1.1439688715953307
+Philadelphia Eagles @ Green Bay Packers,Matthew Golden,AnytimeTD,Anytime,320.0,380.0,320.0,320.0,340.0,,320.0,305.0,,BetRivers,380.0,4.8,4.208333333333333,1.1405940594059407
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,Passing,300,425.0,,400.0,360.0,462.0,375.0,400.0,,400.0,DraftKings,462.0,5.62,4.933333333333334,1.1391891891891892
-Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,AnytimeTD,Anytime,425.0,475.0,400.0,400.0,475.0,,440.0,420.0,275.0,BetRivers,475.0,5.75,5.049999999999999,1.138613861386139
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,110,,,475.0,390.0,375.0,,450.0,,,Bovada,475.0,5.75,5.05,1.1386138613861387
-Detroit Lions @ Washington Commanders,Kalif Raymond,AnytimeTD,Anytime,700.0,650.0,700.0,675.0,750.0,,750.0,580.0,475.0,DraftKings,750.0,8.5,7.471428571428571,1.1376673040152965
-Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Receiving,25,,,,,241.0,,,,200.0,DraftKings,241.0,3.41,3.0,1.1366666666666667
+Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,80,,370.0,300.0,290.0,278.0,325.0,340.0,,375.0,HardRockBet,375.0,4.75,4.171666666666667,1.138633639632441
+Philadelphia Eagles @ Green Bay Packers,Jahan Dotson,AnytimeTD,Anytime,850.0,900.0,800.0,800.0,850.0,,800.0,700.0,650.0,BetRivers,900.0,10.0,8.785714285714286,1.1382113821138211
+Arizona Cardinals @ Seattle Seahawks,Emari Demercado,AnytimeTD,Anytime,350.0,295.0,320.0,295.0,330.0,,320.0,325.0,185.0,BetMGM,350.0,4.5,3.9571428571428577,1.1371841155234654
 Los Angeles Rams @ San Francisco 49ers,Davis Allen,AnytimeTD,Anytime,500.0,600.0,600.0,550.0,650.0,,650.0,470.0,550.0,DraftKings,650.0,7.5,6.6000000000000005,1.1363636363636362
 Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,110,,,775.0,650.0,700.0,650.0,680.0,,,Bovada,775.0,8.75,7.7,1.1363636363636362
-Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,110,,,625.0,450.0,496.0,600.0,630.0,,,FanDuel,630.0,7.3,6.4275,1.1357448463632827
+Detroit Lions @ Washington Commanders,Jaylin Lane,AnytimeTD,Anytime,425.0,335.0,400.0,400.0,450.0,,430.0,400.0,300.0,DraftKings,450.0,5.5,4.842857142857143,1.135693215339233
 Philadelphia Eagles @ Green Bay Packers,John FitzPatrick,AnytimeTD,Anytime,850.0,850.0,700.0,700.0,750.0,,700.0,660.0,800.0,BetMGM,850.0,9.5,8.371428571428572,1.1348122866894197
-Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,110,,,1400.0,,1460.0,1600.0,1700.0,,,FanDuel,1700.0,18.0,15.866666666666667,1.134453781512605
-Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Rushing,50,675.0,,850.0,,830.0,850.0,920.0,,,FanDuel,920.0,10.2,9.0125,1.131761442441054
-Philadelphia Eagles @ Green Bay Packers,Matthew Golden,AnytimeTD,Anytime,320.0,380.0,320.0,320.0,340.0,,320.0,325.0,,BetRivers,380.0,4.8,4.241666666666666,1.131630648330059
+Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,300,250.0,270.0,220.0,205.0,249.0,210.0,230.0,,220.0,BetRivers,270.0,3.7,3.262857142857143,1.1339754816112084
+Detroit Lions @ Washington Commanders,Ross Dwelley,AnytimeTD,Anytime,2200.0,2000.0,1900.0,1900.0,2000.0,,2200.0,1500.0,2000.0,BetMGM,2200.0,23.0,20.285714285714285,1.1338028169014085
+Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,110,,265.0,260.0,210.0,254.0,275.0,300.0,,,FanDuel,300.0,4.0,3.528,1.1337868480725624
+Arizona Cardinals @ Seattle Seahawks,AJ Barner,AnytimeTD,Anytime,250.0,215.0,240.0,240.0,240.0,,240.0,270.0,160.0,Fanatics,270.0,3.7,3.2642857142857147,1.1334792122538293
+Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,AnytimeTD,Anytime,250.0,225.0,,245.0,270.0,,,250.0,165.0,DraftKings,270.0,3.7,3.2699999999999996,1.1314984709480125
+Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Receiving,25,,,,,239.0,,,,200.0,DraftKings,239.0,3.39,3.0,1.1300000000000001
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Rushing,110,,,575.0,650.0,670.0,,520.0,,,DraftKings,670.0,7.7,6.816666666666666,1.1295843520782396
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,300,210.0,275.0,250.0,200.0,234.0,250.0,250.0,,230.0,BetRivers,275.0,3.75,3.32,1.1295180722891567
-Los Angeles Rams @ San Francisco 49ers,Tyler Higbee,Receiving,50,475.0,,600.0,550.0,480.0,600.0,630.0,,575.0,FanDuel,630.0,7.3,6.466666666666666,1.1288659793814435
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,AnytimeTD,Anytime,650.0,550.0,625.0,575.0,650.0,,650.0,580.0,325.0,BetMGM,650.0,7.5,6.6499999999999995,1.1278195488721805
-Detroit Lions @ Washington Commanders,Jaylin Lane,AnytimeTD,Anytime,425.0,340.0,400.0,400.0,450.0,,430.0,400.0,325.0,DraftKings,450.0,5.5,4.885714285714286,1.1257309941520466
-Detroit Lions @ Washington Commanders,David Montgomery,Rushing,80,,,400.0,360.0,298.0,375.0,400.0,,425.0,HardRockBet,425.0,5.25,4.6659999999999995,1.1251607372481784
-Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,80,,,,,1700.0,,,,1500.0,DraftKings,1700.0,18.0,16.0,1.125
-Los Angeles Rams @ San Francisco 49ers,Jake Tonges,AnytimeTD,Anytime,875.0,750.0,725.0,750.0,800.0,,800.0,700.0,850.0,BetMGM,875.0,9.75,8.678571428571429,1.1234567901234567
-Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,50,105.0,140.0,140.0,115.0,123.0,150.0,158.0,,135.0,FanDuel,158.0,2.58,2.2971428571428576,1.1231343283582087
-Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,195.0,210.0,185.0,190.0,195.0,,195.0,190.0,230.0,HardRockBet,230.0,3.3,2.9428571428571426,1.1213592233009708
-Arizona Cardinals @ Seattle Seahawks,Michael Wilson,AnytimeTD,Anytime,375.0,320.0,400.0,380.0,400.0,,430.0,360.0,375.0,FanDuel,430.0,5.3,4.728571428571429,1.120845921450151
+Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,80,,250.0,275.0,215.0,242.0,225.0,240.0,,220.0,Bovada,275.0,3.75,3.32,1.1295180722891567
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,AnytimeTD,Anytime,160.0,125.0,170.0,155.0,165.0,,170.0,180.0,-110.0,Fanatics,180.0,2.8,2.47987012987013,1.1290913851793662
+Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,80,,,875.0,,860.0,750.0,800.0,,650.0,Bovada,875.0,9.75,8.65,1.1271676300578035
+Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,80,,360.0,300.0,260.0,299.0,325.0,340.0,,325.0,BetRivers,360.0,4.6,4.081666666666667,1.1269906084115964
+Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,50,140.0,200.0,130.0,175.0,196.0,210.0,200.0,,185.0,ESPNBET,210.0,3.1,2.751428571428572,1.12668743509865
+Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,50,105.0,138.0,140.0,115.0,123.0,150.0,158.0,,135.0,FanDuel,158.0,2.58,2.2942857142857145,1.1245330012453298
+Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,AnytimeTD,Anytime,425.0,475.0,440.0,400.0,450.0,,470.0,420.0,275.0,BetRivers,475.0,5.75,5.114285714285714,1.1243016759776536
+Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Passing,300,390.0,,350.0,360.0,445.0,400.0,390.0,,425.0,DraftKings,445.0,5.45,4.858333333333333,1.1217838765008576
+Los Angeles Rams @ San Francisco 49ers,Tyler Higbee,Receiving,50,500.0,,600.0,550.0,480.0,600.0,630.0,,575.0,FanDuel,630.0,7.3,6.508333333333333,1.121638924455826
+Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,AnytimeTD,Anytime,195.0,210.0,185.0,190.0,190.0,,195.0,195.0,230.0,HardRockBet,230.0,3.3,2.942857142857143,1.1213592233009708
+Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,AnytimeTD,Anytime,250.0,325.0,300.0,300.0,285.0,,320.0,270.0,230.0,BetRivers,325.0,4.25,3.792857142857143,1.1205273069679849
 Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,110,,380.0,300.0,295.0,369.0,,350.0,,,BetRivers,380.0,4.8,4.285,1.1201866977829638
-Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,80,,380.0,350.0,305.0,337.0,300.0,330.0,,350.0,BetRivers,380.0,4.8,4.286666666666667,1.1197511664074649
-Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,80,,250.0,275.0,215.0,242.0,225.0,240.0,,240.0,Bovada,275.0,3.75,3.353333333333333,1.1182902584493042
-Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,110,,,450.0,450.0,512.0,550.0,560.0,,,FanDuel,560.0,6.6,5.905,1.117696867061812
-Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,80,,280.0,275.0,255.0,300.0,300.0,330.0,,300.0,FanDuel,330.0,4.3,3.85,1.1168831168831168
-Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,50,130.0,205.0,130.0,175.0,208.0,210.0,210.0,,185.0,ESPNBET,210.0,3.1,2.775714285714286,1.1168296448790531
-Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,AnytimeTD,Anytime,250.0,325.0,300.0,300.0,295.0,,320.0,270.0,230.0,BetRivers,325.0,4.25,3.807142857142857,1.1163227016885553
 Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Receiving,50,600.0,,,,650.0,700.0,,,600.0,ESPNBET,700.0,8.0,7.166666666666667,1.1162790697674418
-Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,80,,360.0,300.0,290.0,268.0,325.0,340.0,,350.0,BetRivers,360.0,4.6,4.121666666666667,1.1160533764658307
-Detroit Lions @ Washington Commanders,Isaac TeSlaa,AnytimeTD,Anytime,550.0,575.0,600.0,575.0,600.0,,650.0,530.0,575.0,FanDuel,650.0,7.5,6.721428571428571,1.1158342189160468
-Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,110,,,750.0,750.0,870.0,750.0,830.0,,,DraftKings,870.0,9.7,8.7,1.1149425287356323
+Detroit Lions @ Washington Commanders,Kalif Raymond,AnytimeTD,Anytime,700.0,650.0,700.0,675.0,750.0,,750.0,660.0,500.0,DraftKings,750.0,8.5,7.621428571428572,1.1152764761012184
 Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,80,,,550.0,475.0,465.0,550.0,600.0,,600.0,FanDuel,600.0,7.0,6.279999999999999,1.1146496815286626
-Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,50,-450.0,-385.0,-375.0,-360.0,-244.0,-375.0,-340.0,,-375.0,DraftKings,-244.0,1.4098360655737705,1.2648368438284403,1.1146386764845044
-Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Passing,250,325.0,370.0,300.0,305.0,364.0,300.0,320.0,,375.0,HardRockBet,375.0,4.75,4.2628571428571425,1.1142761394101879
-Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,110,,,625.0,625.0,700.0,600.0,630.0,,,DraftKings,700.0,8.0,7.2,1.1111111111111112
-Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,25,,,200.0,,235.0,,210.0,,195.0,DraftKings,235.0,3.35,3.016666666666667,1.1104972375690607
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,80,,145.0,130.0,110.0,121.0,120.0,128.0,,115.0,BetRivers,145.0,2.45,2.2066666666666666,1.110271903323263
-Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,350,700.0,,675.0,650.0,760.0,650.0,700.0,,,DraftKings,760.0,8.6,7.75,1.1096774193548387
-Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Rushing,25,,,250.0,,264.0,260.0,270.0,,300.0,HardRockBet,300.0,4.0,3.6100000000000003,1.1080332409972298
-Detroit Lions @ Washington Commanders,Jeremy McNichols,Receiving,25,,,,,205.0,,235.0,,200.0,FanDuel,235.0,3.35,3.025,1.1074380165289257
-Detroit Lions @ Washington Commanders,Marcus Mariota,Passing,300,750.0,,700.0,850.0,850.0,700.0,750.0,,800.0,Caesars,850.0,9.5,8.583333333333334,1.1067961165048543
-Detroit Lions @ Washington Commanders,Zach Ertz,Receiving,80,,,875.0,,690.0,850.0,900.0,,800.0,FanDuel,900.0,10.0,9.0375,1.1065006915629323
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,80,,145.0,130.0,110.0,121.0,120.0,128.0,,110.0,BetRivers,145.0,2.45,2.1983333333333333,1.1144806671721001
+Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,80,,285.0,275.0,255.0,300.0,300.0,330.0,,300.0,FanDuel,330.0,4.3,3.858333333333333,1.1144708423326135
+Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Passing,250,325.0,370.0,300.0,295.0,364.0,300.0,320.0,,350.0,BetRivers,370.0,4.7,4.22,1.113744075829384
+Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,50,-450.0,-385.0,-375.0,-360.0,-244.0,-375.0,-340.0,,-350.0,DraftKings,-244.0,1.4098360655737705,1.2675579322638144,1.1122458624481584
+Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,110,,,850.0,800.0,750.0,,900.0,,,FanDuel,900.0,10.0,9.0,1.1111111111111112
+Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,110,,,1400.0,,1560.0,1600.0,1700.0,,,FanDuel,1700.0,18.0,16.2,1.1111111111111112
+Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,50,260.0,250.0,,255.0,307.0,275.0,285.0,,275.0,DraftKings,307.0,4.07,3.6666666666666665,1.11
+Detroit Lions @ Washington Commanders,Chris Moore,AnytimeTD,Anytime,500.0,440.0,525.0,500.0,550.0,,550.0,470.0,425.0,DraftKings,550.0,6.5,5.871428571428572,1.1070559610705595
 Los Angeles Rams @ San Francisco 49ers,Los Angeles Rams D/ST,AnytimeTD,Anytime,475.0,,525.0,,500.0,,,420.0,,Bovada,525.0,6.25,5.6499999999999995,1.106194690265487
-Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,AnytimeTD,Anytime,250.0,220.0,,245.0,260.0,,,250.0,165.0,DraftKings,260.0,3.6,3.2600000000000002,1.1042944785276072
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,80,,250.0,230.0,195.0,229.0,210.0,225.0,,210.0,BetRivers,250.0,3.5,3.1649999999999996,1.1058451816745658
+Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Rushing,25,,,250.0,,267.0,260.0,270.0,,300.0,HardRockBet,300.0,4.0,3.6174999999999997,1.10573600552868
+Los Angeles Rams @ San Francisco 49ers,Jake Tonges,AnytimeTD,Anytime,875.0,750.0,725.0,800.0,800.0,,850.0,700.0,850.0,BetMGM,875.0,9.75,8.821428571428571,1.105263157894737
+Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,180.0,165.0,175.0,175.0,180.0,,175.0,200.0,150.0,Fanatics,200.0,3.0,2.7142857142857144,1.1052631578947367
 Los Angeles Rams @ San Francisco 49ers,Mac Jones,Rushing,25,,,,,509.0,650.0,,,650.0,ESPNBET,650.0,7.5,6.795,1.1037527593818985
 Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,110,,,850.0,,940.0,900.0,1000.0,,,FanDuel,1000.0,11.0,9.966666666666667,1.1036789297658862
-Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,350,750.0,,750.0,750.0,860.0,800.0,800.0,,,DraftKings,860.0,9.6,8.7,1.103448275862069
-Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,80,,350.0,300.0,260.0,299.0,325.0,340.0,,325.0,BetRivers,350.0,4.5,4.081666666666667,1.1024908125765618
-Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,80,,170.0,160.0,140.0,167.0,175.0,186.0,,145.0,FanDuel,186.0,2.8600000000000003,2.595,1.1021194605009634
-Arizona Cardinals @ Seattle Seahawks,Jacoby Brissett,Passing,300,390.0,,350.0,350.0,429.0,375.0,390.0,,425.0,DraftKings,429.0,5.29,4.8,1.1020833333333333
-Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Receiving,25,120.0,,150.0,,144.0,,148.0,,165.0,HardRockBet,165.0,2.65,2.4050000000000002,1.1018711018711018
+Los Angeles Rams @ San Francisco 49ers,Demarcus Robinson,AnytimeTD,Anytime,675.0,650.0,625.0,625.0,650.0,,700.0,550.0,600.0,FanDuel,700.0,8.0,7.25,1.103448275862069
+Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,AnytimeTD,Anytime,360.0,310.0,350.0,350.0,370.0,,380.0,345.0,260.0,FanDuel,380.0,4.8,4.35,1.103448275862069
+Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,80,,205.0,190.0,145.0,169.0,185.0,200.0,,170.0,BetRivers,205.0,3.05,2.765,1.1030741410488245
+Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,110,,,625.0,800.0,830.0,750.0,800.0,,,DraftKings,830.0,9.3,8.4375,1.1022222222222222
 Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Rushing,80,,205.0,180.0,155.0,183.0,185.0,188.0,,170.0,BetRivers,205.0,3.05,2.768333333333333,1.1017459361830224
-Detroit Lions @ Washington Commanders,David Montgomery,Rushing,50,-130.0,104.0,-120.0,-122.0,-113.0,-115.0,-114.0,,-110.0,BetRivers,104.0,2.04,1.8518630135517695,1.1015933603465595
-Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,80,,265.0,280.0,230.0,245.0,275.0,290.0,,230.0,FanDuel,290.0,3.9,3.5416666666666665,1.1011764705882354
-Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,Receiving,50,375.0,,450.0,425.0,381.0,450.0,470.0,,425.0,FanDuel,470.0,5.7,5.176666666666667,1.1010946555054733
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,AnytimeTD,Anytime,160.0,128.0,170.0,155.0,170.0,,175.0,175.0,-110.0,FanDuel,175.0,2.75,2.498441558441559,1.1006861420106038
+Los Angeles Rams @ San Francisco 49ers,Blake Corum,AnytimeTD,Anytime,450.0,440.0,400.0,400.0,425.0,,450.0,420.0,260.0,BetMGM,450.0,5.5,4.992857142857142,1.101573676680973
+Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,50,120.0,123.0,150.0,120.0,129.0,125.0,132.0,,140.0,Bovada,150.0,2.5,2.27,1.1013215859030836
+Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,350,750.0,,675.0,650.0,760.0,650.0,680.0,,,DraftKings,760.0,8.6,7.81,1.1011523687580025
+Detroit Lions @ Washington Commanders,Zach Ertz,Receiving,80,,,875.0,,710.0,850.0,900.0,,800.0,FanDuel,900.0,10.0,9.0875,1.1004126547455295
 Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Receiving,25,110.0,,100.0,,102.0,,126.0,,110.0,FanDuel,126.0,2.26,2.0549999999999997,1.099756690997567
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,80,,245.0,230.0,190.0,218.0,210.0,225.0,,210.0,BetRivers,245.0,3.45,3.138333333333333,1.0993096123207649
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,50,-125.0,-129.0,-190.0,-117.0,-117.0,-105.0,-102.0,,100.0,HardRockBet,100.0,2.0,1.8205263437955292,1.0985833887085066
-Philadelphia Eagles @ Green Bay Packers,Christian Watson,AnytimeTD,Anytime,300.0,235.0,300.0,290.0,290.0,,300.0,315.0,230.0,Fanatics,315.0,4.15,3.7785714285714285,1.0982986767485823
-Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,AnytimeTD,Anytime,360.0,310.0,350.0,350.0,370.0,,380.0,360.0,260.0,FanDuel,380.0,4.8,4.371428571428572,1.0980392156862744
-Detroit Lions @ Washington Commanders,Chris Moore,AnytimeTD,Anytime,500.0,450.0,525.0,500.0,550.0,,550.0,470.0,450.0,DraftKings,550.0,6.5,5.921428571428572,1.097708082026538
-Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,50,180.0,220.0,230.0,190.0,211.0,210.0,220.0,,175.0,Bovada,230.0,3.3,3.0085714285714285,1.0968660968660968
+Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,80,,170.0,160.0,140.0,173.0,175.0,186.0,,145.0,FanDuel,186.0,2.8600000000000003,2.6050000000000004,1.0978886756238004
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,Passing,250,130.0,148.0,125.0,110.0,131.0,125.0,132.0,,130.0,BetRivers,148.0,2.48,2.2614285714285716,1.096651926721415
+Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,50,,225.0,210.0,190.0,239.0,200.0,205.0,,225.0,DraftKings,239.0,3.39,3.091666666666667,1.0964959568733155
+Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,110,,155.0,150.0,125.0,160.0,175.0,164.0,,,ESPNBET,175.0,2.75,2.508,1.0964912280701755
+Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,80,,265.0,280.0,230.0,255.0,275.0,290.0,,230.0,FanDuel,290.0,3.9,3.5583333333333336,1.0960187353629975
 Los Angeles Rams @ San Francisco 49ers,Demarcus Robinson,Receiving,25,,,,,205.0,,215.0,,170.0,FanDuel,215.0,3.15,2.875,1.0956521739130434
 Philadelphia Eagles @ Green Bay Packers,Dallas Goedert,Receiving,80,,,900.0,,960.0,850.0,920.0,,800.0,DraftKings,960.0,10.6,9.675,1.0956072351421187
+Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,AnytimeTD,Anytime,195.0,180.0,210.0,200.0,210.0,,220.0,200.0,150.0,FanDuel,220.0,3.2,2.9214285714285713,1.095354523227384
 Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,80,,,425.0,380.0,356.0,425.0,450.0,,425.0,FanDuel,450.0,5.5,5.022,1.0951812027080843
-Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,50,120.0,123.0,150.0,120.0,129.0,125.0,132.0,,150.0,Bovada,150.0,2.5,2.2842857142857143,1.0944340212632895
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,AnytimeTD,Anytime,100.0,-112.0,-122.0,-120.0,-120.0,,-120.0,-115.0,-140.0,BetMGM,100.0,2.0,1.8280543150973863,1.0940593960926448
+Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,50,320.0,,325.0,275.0,303.0,350.0,360.0,,350.0,FanDuel,360.0,4.6,4.204999999999999,1.093935790725327
 Los Angeles Rams @ San Francisco 49ers,Terrance Ferguson,AnytimeTD,Anytime,625.0,575.0,600.0,575.0,650.0,,650.0,600.0,475.0,DraftKings,650.0,7.5,6.857142857142857,1.09375
+Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,50,180.0,225.0,230.0,185.0,218.0,210.0,220.0,,175.0,Bovada,230.0,3.3,3.0185714285714282,1.093232371036441
+Detroit Lions @ Washington Commanders,Jeremy McNichols,Receiving,25,,,,,213.0,,235.0,,200.0,FanDuel,235.0,3.35,3.065,1.0929853181076672
 Philadelphia Eagles @ Green Bay Packers,AJ Brown,Receiving,80,,210.0,200.0,185.0,234.0,210.0,220.0,,210.0,DraftKings,234.0,3.34,3.0583333333333336,1.0920980926430517
-Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,80,,200.0,190.0,145.0,162.0,185.0,200.0,,170.0,BetRivers,200.0,3.0,2.7533333333333334,1.089588377723971
-Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,AnytimeTD,Anytime,200.0,235.0,,210.0,215.0,,220.0,210.0,190.0,BetRivers,235.0,3.35,3.0749999999999997,1.0894308943089432
-Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,25,-295.0,,-425.0,,-219.0,-300.0,-275.0,,-240.0,DraftKings,-219.0,1.45662100456621,1.337582706426176,1.0889950935879598
+Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,AnytimeTD,Anytime,115.0,115.0,110.0,110.0,105.0,,110.0,110.0,130.0,HardRockBet,130.0,2.3,2.107142857142857,1.0915254237288134
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,50,-125.0,-130.0,-190.0,-117.0,-113.0,100.0,100.0,,100.0,ESPNBET,100.0,2.0,1.8336004522310996,1.0907501672823148
+Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Passing,250,165.0,205.0,200.0,160.0,201.0,175.0,182.0,,175.0,BetRivers,205.0,3.05,2.7971428571428567,1.0903983656792646
+Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,50,260.0,310.0,300.0,245.0,271.0,300.0,310.0,,250.0,BetRivers,310.0,4.1,3.7657142857142856,1.0887708649468892
 Los Angeles Rams @ San Francisco 49ers,Tyler Higbee,AnytimeTD,Anytime,310.0,285.0,320.0,310.0,350.0,,330.0,,325.0,DraftKings,350.0,4.5,4.133333333333334,1.0887096774193548
-Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,Receiving,25,,,225.0,,213.0,,240.0,,200.0,FanDuel,240.0,3.4,3.1266666666666665,1.0874200426439233
+Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,AnytimeTD,Anytime,165.0,188.0,200.0,200.0,220.0,,200.0,195.0,210.0,DraftKings,220.0,3.2,2.9400000000000004,1.0884353741496597
 Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,AnytimeTD,Anytime,425.0,320.0,400.0,390.0,425.0,,420.0,400.0,325.0,BetMGM,425.0,5.25,4.828571428571428,1.087278106508876
-Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,50,260.0,310.0,300.0,250.0,271.0,300.0,310.0,,250.0,BetRivers,310.0,4.1,3.7728571428571422,1.0867095797046573
-Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,AnytimeTD,Anytime,-110.0,-125.0,110.0,-104.0,-105.0,,105.0,100.0,-115.0,Bovada,110.0,2.1,1.9346536486288042,1.0854656085281136
-Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,50,320.0,,325.0,275.0,303.0,350.0,,,350.0,ESPNBET,350.0,4.5,4.145999999999999,1.0853835021707672
-Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,80,,400.0,390.0,350.0,399.0,375.0,390.0,,425.0,HardRockBet,425.0,5.25,4.84,1.084710743801653
+Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Rushing,25,150.0,,185.0,,193.0,200.0,,,,ESPNBET,200.0,3.0,2.76,1.0869565217391306
+Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,AnytimeTD,Anytime,180.0,160.0,185.0,185.0,205.0,,190.0,190.0,175.0,DraftKings,205.0,3.05,2.807142857142857,1.0865139949109415
+Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,25,,,200.0,,224.0,,200.0,,195.0,DraftKings,224.0,3.24,2.983333333333333,1.0860335195530728
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,120.0,115.0,120.0,120.0,120.0,,115.0,135.0,105.0,Fanatics,135.0,2.35,2.164285714285714,1.085808580858086
+Los Angeles Rams @ San Francisco 49ers,Davante Adams,AnytimeTD,Anytime,-135.0,-141.0,-125.0,-127.0,-130.0,,-130.0,-135.0,-110.0,HardRockBet,-110.0,1.9090909090909092,1.759509207557457,1.0850133098996968
+Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,AnytimeTD,Anytime,-110.0,-125.0,110.0,-104.0,-110.0,,105.0,105.0,-115.0,Bovada,110.0,2.1,1.9356122138730834,1.0849280578768323
 Detroit Lions @ Washington Commanders,Detroit Lions D/ST,AnytimeTD,Anytime,500.0,,440.0,,500.0,,,420.0,,BetMGM,500.0,6.0,5.533333333333334,1.0843373493975903
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,110,,,875.0,,980.0,,920.0,,,DraftKings,980.0,10.8,9.975,1.0827067669172934
-Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,110,,,625.0,750.0,800.0,750.0,800.0,,,DraftKings,800.0,9.0,8.3125,1.0827067669172932
-Los Angeles Rams @ San Francisco 49ers,Davante Adams,AnytimeTD,Anytime,-135.0,-141.0,-125.0,-127.0,-125.0,,-130.0,-135.0,-110.0,HardRockBet,-110.0,1.9090909090909092,1.7639048119530614,1.0823094852704054
-Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Rushing,25,150.0,,185.0,,193.0,200.0,205.0,,,FanDuel,205.0,3.05,2.82,1.0815602836879432
-Detroit Lions @ Washington Commanders,Jameson Williams,AnytimeTD,Anytime,150.0,175.0,160.0,155.0,155.0,,160.0,155.0,145.0,BetRivers,175.0,2.75,2.5428571428571423,1.0814606741573036
+Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,80,,220.0,225.0,210.0,259.0,250.0,255.0,,230.0,DraftKings,259.0,3.59,3.316666666666667,1.0824120603015075
+Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,110,,116.0,140.0,115.0,122.0,135.0,144.0,,,FanDuel,144.0,2.44,2.256,1.0815602836879434
+Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,Receiving,50,,,,,,,630.0,,575.0,FanDuel,630.0,7.3,6.75,1.0814814814814815
+Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Receiving,25,120.0,,150.0,,144.0,,148.0,,160.0,HardRockBet,160.0,2.6,2.4050000000000002,1.081081081081081
+Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,80,,390.0,390.0,360.0,399.0,375.0,400.0,,425.0,HardRockBet,425.0,5.25,4.8566666666666665,1.0809883321894305
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Rushing,80,,190.0,180.0,155.0,191.0,160.0,162.0,,195.0,HardRockBet,195.0,2.95,2.73,1.0805860805860807
-Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,25,-295.0,,-330.0,,-186.0,,-186.0,,-195.0,DraftKings,-186.0,1.5376344086021505,1.423117068825106,1.0804693740843032
-Los Angeles Rams @ San Francisco 49ers,Demarcus Robinson,AnytimeTD,Anytime,675.0,650.0,600.0,625.0,650.0,,650.0,550.0,600.0,BetMGM,675.0,7.75,7.178571428571429,1.079601990049751
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,350,650.0,,750.0,650.0,690.0,700.0,750.0,,,Bovada,750.0,8.5,7.88,1.0786802030456852
+Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,50,105.0,112.0,110.0,-102.0,114.0,105.0,114.0,,125.0,HardRockBet,125.0,2.25,2.0829131652661066,1.0802178590640128
+Detroit Lions @ Washington Commanders,David Montgomery,Rushing,50,-125.0,102.0,-120.0,-122.0,-106.0,-115.0,-114.0,,-105.0,BetRivers,102.0,2.02,1.8707915490177667,1.0797568553592052
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,300,210.0,260.0,250.0,200.0,234.0,250.0,260.0,,230.0,BetRivers,260.0,3.6,3.334285714285714,1.0796915167095116
 Philadelphia Eagles @ Green Bay Packers,Dallas Goedert,Receiving,50,165.0,235.0,225.0,210.0,242.0,225.0,235.0,,225.0,DraftKings,242.0,3.42,3.1714285714285713,1.0783783783783785
-Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,AnytimeTD,Anytime,165.0,185.0,200.0,200.0,215.0,,200.0,195.0,200.0,DraftKings,215.0,3.15,2.9214285714285713,1.0782396088019561
-Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,80,,230.0,210.0,185.0,243.0,225.0,235.0,,225.0,DraftKings,243.0,3.43,3.1833333333333336,1.0774869109947645
-Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Passing,250,165.0,200.0,200.0,160.0,201.0,175.0,182.0,,175.0,DraftKings,201.0,3.01,2.795714285714286,1.0766479305058763
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,25,,,-110.0,,-120.0,-135.0,-128.0,,-135.0,Bovada,-110.0,1.9090909090909092,1.7740162037037037,1.0761406266217879
-Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,80,,220.0,225.0,205.0,241.0,250.0,255.0,,240.0,FanDuel,255.0,3.55,3.3016666666666663,1.0752145381120646
+Pittsburgh Steelers @ Los Angeles Chargers,Darnell Washington,Receiving,25,,,225.0,,221.0,,240.0,,200.0,FanDuel,240.0,3.4,3.1533333333333338,1.0782241014799152
+Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,80,,235.0,210.0,185.0,243.0,225.0,230.0,,225.0,DraftKings,243.0,3.43,3.1833333333333336,1.0774869109947645
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,AnytimeTD,Anytime,120.0,116.0,140.0,125.0,130.0,,140.0,125.0,105.0,Bovada,140.0,2.4,2.23,1.0762331838565022
+Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,AnytimeTD,Anytime,200.0,230.0,,210.0,215.0,,220.0,205.0,190.0,BetRivers,230.0,3.3,3.0666666666666664,1.0760869565217392
+Arizona Cardinals @ Seattle Seahawks,Rashid Shaheed,Receiving,25,-275.0,,-330.0,,-186.0,,-186.0,,-195.0,DraftKings,-186.0,1.5376344086021505,1.4292803970223327,1.0758101851851851
+Detroit Lions @ Washington Commanders,Isaac TeSlaa,AnytimeTD,Anytime,550.0,575.0,525.0,575.0,550.0,,600.0,530.0,550.0,FanDuel,600.0,7.0,6.507142857142857,1.0757409440175631
+Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,Receiving,50,375.0,,450.0,425.0,369.0,425.0,450.0,,425.0,Bovada,450.0,5.5,5.114999999999999,1.0752688172043012
 Philadelphia Eagles @ Green Bay Packers,Dallas Goedert,Receiving,25,-300.0,,-225.0,,-192.0,,-215.0,,-240.0,DraftKings,-192.0,1.5208333333333335,1.414890180878553,1.0748772971122018
-Arizona Cardinals @ Seattle Seahawks,AJ Barner,AnytimeTD,Anytime,250.0,215.0,240.0,240.0,245.0,,240.0,240.0,160.0,BetMGM,250.0,3.5,3.2571428571428567,1.074561403508772
-Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,50,105.0,114.0,110.0,-102.0,114.0,110.0,116.0,,125.0,HardRockBet,125.0,2.25,2.095770308123249,1.0735909327844533
-Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,240.0,290.0,300.0,295.0,320.0,,320.0,295.0,300.0,DraftKings,320.0,4.2,3.914285714285714,1.0729927007299271
+Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,110,,,500.0,450.0,509.0,450.0,520.0,,,FanDuel,520.0,6.2,5.7725,1.0740580337808576
+Pittsburgh Steelers @ Los Angeles Chargers,Kenneth Gainwell,Rushing,50,675.0,,850.0,,830.0,850.0,,,,Bovada,850.0,9.5,8.85,1.073446327683616
+Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,110,,,450.0,450.0,512.0,500.0,520.0,,,FanDuel,520.0,6.2,5.78,1.0726643598615917
+Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,Passing,350,525.0,,575.0,450.0,582.0,550.0,580.0,,,DraftKings,582.0,6.82,6.36,1.0723270440251573
+Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,50,333.0,360.0,,350.0,374.0,300.0,360.0,,350.0,DraftKings,374.0,4.74,4.421666666666667,1.0719939690915945
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,25,,,-110.0,,-116.0,-135.0,-128.0,,-135.0,Bovada,-110.0,1.9090909090909092,1.7812001117496807,1.0718003533110048
+Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,AnytimeTD,Anytime,340.0,290.0,330.0,325.0,320.0,,330.0,305.0,275.0,BetMGM,340.0,4.4,4.107142857142857,1.071304347826087
 Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,Receiving,25,-120.0,,-120.0,,-109.0,,-113.0,,100.0,HardRockBet,100.0,2.0,1.8672634028849018,1.0710861664776494
-Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,50,,225.0,210.0,190.0,231.0,200.0,205.0,,225.0,DraftKings,231.0,3.31,3.091666666666667,1.0706199460916441
-Pittsburgh Steelers @ Los Angeles Chargers,Tyler Conklin,AnytimeTD,Anytime,2500.0,2200.0,2500.0,2300.0,2500.0,,2500.0,1800.0,2500.0,BetMGM,2500.0,26.0,24.285714285714285,1.0705882352941176
-Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,110,,,850.0,800.0,770.0,,870.0,,,FanDuel,870.0,9.7,9.066666666666666,1.0698529411764706
-Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,AnytimeTD,Anytime,340.0,285.0,330.0,325.0,320.0,,330.0,315.0,275.0,BetMGM,340.0,4.4,4.114285714285715,1.0694444444444444
-Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,AnytimeTD,Anytime,333.0,330.0,350.0,330.0,360.0,,350.0,345.0,275.0,DraftKings,360.0,4.6,4.304285714285714,1.0687022900763359
-Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,25,-235.0,,-175.0,,-201.0,,-192.0,,-225.0,Bovada,-175.0,1.5714285714285714,1.472080532620585,1.0674881819346715
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,350,650.0,,750.0,650.0,720.0,700.0,750.0,,,Bovada,750.0,8.5,7.94,1.070528967254408
+Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,80,,295.0,275.0,240.0,281.0,275.0,285.0,,260.0,BetRivers,295.0,3.95,3.693333333333334,1.069494584837545
+Philadelphia Eagles @ Green Bay Packers,AJ Brown,AnytimeTD,Anytime,165.0,155.0,160.0,165.0,165.0,,160.0,165.0,180.0,HardRockBet,180.0,2.8,2.621428571428571,1.0681198910081744
+Detroit Lions @ Washington Commanders,Jared Goff,Passing,300,275.0,300.0,280.0,240.0,287.0,275.0,290.0,,275.0,BetRivers,300.0,4.0,3.7457142857142856,1.0678871090770405
+Philadelphia Eagles @ Green Bay Packers,Dallas Goedert,AnytimeTD,Anytime,200.0,235.0,225.0,220.0,220.0,,220.0,210.0,240.0,HardRockBet,240.0,3.4,3.185714285714286,1.0672645739910314
 Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,110,,,400.0,400.0,447.0,,450.0,,,FanDuel,450.0,5.5,5.156666666666666,1.0665804783451842
-Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,80,,180.0,190.0,150.0,181.0,165.0,176.0,,180.0,Bovada,190.0,2.9,2.72,1.0661764705882353
-Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,110,,118.0,140.0,115.0,127.0,135.0,142.0,,,FanDuel,142.0,2.42,2.27,1.066079295154185
-Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,AnytimeTD,Anytime,180.0,165.0,180.0,175.0,175.0,,180.0,190.0,150.0,Fanatics,190.0,2.9,2.7214285714285715,1.0656167979002624
-Detroit Lions @ Washington Commanders,Jared Goff,Passing,350,775.0,,875.0,800.0,800.0,850.0,880.0,,,FanDuel,880.0,9.8,9.2,1.065217391304348
-Philadelphia Eagles @ Green Bay Packers,AJ Brown,AnytimeTD,Anytime,165.0,155.0,160.0,165.0,165.0,,160.0,170.0,180.0,HardRockBet,180.0,2.8,2.6285714285714286,1.0652173913043477
-Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,80,,105.0,-105.0,-110.0,109.0,-105.0,104.0,,-115.0,DraftKings,109.0,2.09,1.9622363385406867,1.0651112503371183
+Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,50,333.0,285.0,,285.0,311.0,300.0,330.0,,325.0,BetMGM,333.0,4.33,4.06,1.0665024630541873
+Detroit Lions @ Washington Commanders,Jameson Williams,AnytimeTD,Anytime,150.0,175.0,160.0,155.0,165.0,,160.0,165.0,150.0,BetRivers,175.0,2.75,2.5785714285714283,1.0664819944598338
+Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,80,,-117.0,-120.0,-122.0,-117.0,-110.0,-104.0,,-130.0,FanDuel,-104.0,1.9615384615384617,1.8401214753673774,1.0659831363289989
+Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,AnytimeTD,Anytime,-145.0,-143.0,-139.0,-145.0,-135.0,,-130.0,-185.0,-185.0,FanDuel,-130.0,1.7692307692307692,1.6599796180545374,1.065814754583717
+Pittsburgh Steelers @ Los Angeles Chargers,Calvin Austin III,Receiving,25,-235.0,,-175.0,,-201.0,,-188.0,,-225.0,Bovada,-175.0,1.5714285714285714,1.4748509226915072,1.0654829903491645
+Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Rushing,25,-295.0,,-425.0,,-210.0,-220.0,-220.0,,-225.0,DraftKings,-210.0,1.4761904761904763,1.3855625044059743,1.0654087935378682
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Receiving,25,,,180.0,,165.0,,200.0,,200.0,FanDuel,200.0,3.0,2.8166666666666664,1.0650887573964498
-Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,80,,150.0,130.0,120.0,149.0,135.0,140.0,,135.0,BetRivers,150.0,2.5,2.348333333333333,1.0645848119233499
-Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,Passing,350,550.0,,575.0,450.0,582.0,550.0,580.0,,,DraftKings,582.0,6.82,6.409999999999999,1.0639625585023402
-Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,50,260.0,255.0,,255.0,291.0,275.0,285.0,,275.0,DraftKings,291.0,3.91,3.6750000000000003,1.0639455782312925
-Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,AnytimeTD,Anytime,195.0,180.0,210.0,200.0,205.0,,210.0,200.0,150.0,Bovada,210.0,3.1,2.914285714285714,1.0637254901960784
-Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,50,260.0,250.0,220.0,225.0,250.0,225.0,240.0,,260.0,BetMGM,260.0,3.6,3.3857142857142857,1.0632911392405064
+Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,25,-375.0,,-330.0,,-267.0,,-350.0,,-325.0,DraftKings,-267.0,1.3745318352059925,1.2907758907758906,1.0648880607614664
+Detroit Lions @ Washington Commanders,David Montgomery,Rushing,80,,,400.0,360.0,313.0,375.0,400.0,,400.0,Bovada,400.0,5.0,4.696,1.0647359454855196
+Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,AnytimeTD,Anytime,333.0,330.0,350.0,340.0,360.0,,350.0,325.0,300.0,DraftKings,360.0,4.6,4.325714285714286,1.0634081902245707
 Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,Passing,300,180.0,180.0,190.0,155.0,198.0,185.0,198.0,,175.0,DraftKings,198.0,2.98,2.8042857142857143,1.0626591951095263
-Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,50,333.0,360.0,,350.0,357.0,300.0,,,325.0,BetRivers,360.0,4.6,4.33,1.0623556581986142
-Detroit Lions @ Washington Commanders,Zach Ertz,AnytimeTD,Anytime,200.0,220.0,230.0,215.0,220.0,,230.0,215.0,175.0,Bovada,230.0,3.3,3.107142857142857,1.0620689655172413
-Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,AnytimeTD,Anytime,300.0,310.0,300.0,295.0,295.0,,300.0,305.0,325.0,HardRockBet,325.0,4.25,4.007142857142857,1.0606060606060606
-Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,110,,155.0,150.0,125.0,160.0,155.0,164.0,,,FanDuel,164.0,2.6399999999999997,2.4899999999999998,1.0602409638554215
-Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,80,,-117.0,-120.0,-122.0,-117.0,-110.0,-104.0,,-120.0,FanDuel,-104.0,1.9615384615384617,1.850805236051138,1.0598297558978076
-Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,Receiving,25,125.0,,,,,,128.0,,140.0,HardRockBet,140.0,2.4,2.265,1.0596026490066224
-Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,110,,,500.0,450.0,509.0,450.0,500.0,,,DraftKings,509.0,6.09,5.75,1.0591304347826087
-Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,25,-375.0,,-330.0,,-279.0,,-350.0,,-350.0,DraftKings,-279.0,1.3584229390681004,1.2852813852813851,1.0569070357855548
-Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,50,195.0,200.0,,185.0,207.0,210.0,220.0,,220.0,FanDuel,220.0,3.2,3.0283333333333338,1.0566868464501926
-Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,80,,285.0,275.0,240.0,281.0,275.0,290.0,,260.0,FanDuel,290.0,3.9,3.693333333333334,1.055956678700361
+Pittsburgh Steelers @ Los Angeles Chargers,Jonnu Smith,AnytimeTD,Anytime,300.0,320.0,300.0,295.0,300.0,,300.0,285.0,325.0,HardRockBet,325.0,4.25,4.0,1.0625
+Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,80,,335.0,350.0,290.0,337.0,300.0,330.0,,350.0,Bovada,350.0,4.5,4.236666666666667,1.062155782848151
+Detroit Lions @ Washington Commanders,Zach Ertz,AnytimeTD,Anytime,200.0,215.0,230.0,215.0,225.0,,230.0,215.0,175.0,Bovada,230.0,3.3,3.107142857142857,1.0620689655172413
+Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,80,,105.0,-105.0,-110.0,109.0,-105.0,104.0,,-110.0,DraftKings,109.0,2.09,1.9688239538239543,1.061547425782123
+Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,80,,150.0,130.0,120.0,149.0,135.0,140.0,,140.0,BetRivers,150.0,2.5,2.356666666666667,1.0608203677510608
+Philadelphia Eagles @ Green Bay Packers,Christian Watson,AnytimeTD,Anytime,300.0,235.0,300.0,290.0,290.0,,300.0,285.0,240.0,BetMGM,300.0,4.0,3.7714285714285714,1.0606060606060606
+Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,50,-135.0,-109.0,100.0,-117.0,-107.0,-115.0,-113.0,,100.0,Bovada,100.0,2.0,1.8859961709940252,1.0604475400105868
+Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,Receiving,25,,,,,,,154.0,,140.0,FanDuel,154.0,2.54,2.4,1.0583333333333333
+Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,Receiving,50,450.0,,480.0,475.0,432.0,425.0,460.0,,450.0,Bovada,480.0,5.8,5.486666666666667,1.057108140947752
 Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,80,,,,700.0,810.0,750.0,800.0,,800.0,DraftKings,810.0,9.1,8.625,1.055072463768116
-Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,AnytimeTD,Anytime,180.0,163.0,185.0,185.0,195.0,,190.0,180.0,175.0,DraftKings,195.0,2.95,2.7971428571428567,1.05464759959142
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,AnytimeTD,Anytime,-165.0,-141.0,-152.0,-165.0,-150.0,,-150.0,-150.0,-210.0,BetRivers,-141.0,1.7092198581560285,1.6208866321648274,1.0544968563737396
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,AnytimeTD,Anytime,120.0,115.0,130.0,125.0,135.0,,130.0,135.0,105.0,DraftKings,135.0,2.35,2.228571428571428,1.0544871794871797
-Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,50,-115.0,102.0,100.0,-117.0,-107.0,-115.0,-113.0,,100.0,BetRivers,102.0,2.02,1.916195211564027,1.0541723451814944
-Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,80,,-220.0,-210.0,-170.0,-181.0,-190.0,-180.0,,-210.0,Caesars,-170.0,1.5882352941176472,1.506880656633492,1.053988772850737
-Philadelphia Eagles @ Green Bay Packers,Dallas Goedert,AnytimeTD,Anytime,200.0,235.0,225.0,220.0,220.0,,220.0,215.0,225.0,BetRivers,235.0,3.35,3.178571428571428,1.0539325842696632
-Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,50,325.0,285.0,,280.0,311.0,300.0,320.0,,325.0,BetMGM,325.0,4.25,4.035,1.0532837670384139
-Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,50,-165.0,-141.0,-170.0,-159.0,-138.0,-155.0,-150.0,,-155.0,DraftKings,-138.0,1.7246376811594204,1.6413479747508817,1.0507446974619628
-Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,25,-295.0,,-240.0,,-263.0,,-275.0,,-225.0,HardRockBet,-225.0,1.4444444444444444,1.3748785545081543,1.0505978435027494
-Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,AnytimeTD,Anytime,175.0,155.0,180.0,175.0,185.0,,180.0,175.0,160.0,DraftKings,185.0,2.85,2.7142857142857144,1.05
-Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,25,-5000.0,,,,-1180.0,,,,-2000.0,DraftKings,-1180.0,1.0847457627118644,1.0350000000000001,1.0480635388520427
+Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,50,-130.0,-109.0,-115.0,-130.0,-129.0,-115.0,-113.0,,-125.0,BetRivers,-109.0,1.9174311926605505,1.8196773605580214,1.0537204200158603
+Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,80,,180.0,190.0,150.0,181.0,175.0,186.0,,180.0,Bovada,190.0,2.9,2.7533333333333334,1.0532687651331718
+Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,AnytimeTD,Anytime,240.0,295.0,300.0,295.0,310.0,,310.0,285.0,300.0,DraftKings,310.0,4.1,3.892857142857143,1.0532110091743119
+Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,50,230.0,255.0,220.0,230.0,258.0,250.0,250.0,,260.0,HardRockBet,260.0,3.6,3.4185714285714286,1.0530714584203928
+Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,80,,-220.0,-210.0,-170.0,-181.0,-185.0,-180.0,,-210.0,Caesars,-170.0,1.5882352941176472,1.5092514484779678,1.0523331256162332
+Detroit Lions @ Washington Commanders,Zach Ertz,Receiving,25,-350.0,,-250.0,,-218.0,,-235.0,,-230.0,DraftKings,-218.0,1.4587155963302751,1.3865072023258886,1.052079350098763
+Detroit Lions @ Washington Commanders,Jared Goff,Passing,350,825.0,,875.0,800.0,810.0,850.0,880.0,,,FanDuel,880.0,9.8,9.32,1.051502145922747
+Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,50,-165.0,-139.0,-170.0,-159.0,-138.0,-155.0,-154.0,,-155.0,DraftKings,-138.0,1.7246376811594204,1.6403320583165402,1.0513954613125116
+Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,250,-120.0,-105.0,-120.0,-122.0,-117.0,-105.0,-114.0,,-120.0,BetRivers,-105.0,1.9523809523809523,1.85770670295507,1.050962969167998
+Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,50,200.0,205.0,,185.0,207.0,210.0,220.0,,220.0,FanDuel,220.0,3.2,3.045,1.0509031198686372
+Detroit Lions @ Washington Commanders,David Montgomery,Rushing,25,-1100.0,,-1000.0,,-620.0,-1000.0,-900.0,,-750.0,DraftKings,-620.0,1.1612903225806452,1.1070707070707069,1.048975747586532
+Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,250,-125.0,-130.0,-150.0,-139.0,-131.0,-145.0,-140.0,,-145.0,BetMGM,-125.0,1.8,1.716039533438335,1.0489268836327086
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,250,-160.0,-136.0,-125.0,-139.0,-139.0,-130.0,-125.0,,-155.0,Bovada,-125.0,1.8,1.7162192997233883,1.0488170132395755
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,AnytimeTD,Anytime,-165.0,-143.0,-152.0,-165.0,-150.0,,-150.0,-150.0,-210.0,BetRivers,-143.0,1.6993006993006992,1.6208866321648274,1.048377268082681
 Los Angeles Rams @ San Francisco 49ers,Tyler Higbee,Receiving,25,105.0,,120.0,,115.0,,124.0,,115.0,FanDuel,124.0,2.24,2.1375,1.047953216374269
-Detroit Lions @ Washington Commanders,David Montgomery,Rushing,25,-1200.0,,-1000.0,,-640.0,-1000.0,-900.0,,-800.0,DraftKings,-640.0,1.15625,1.103888888888889,1.0474333165576246
-Detroit Lions @ Washington Commanders,David Montgomery,AnytimeTD,Anytime,110.0,105.0,110.0,105.0,110.0,,110.0,115.0,-115.0,Fanatics,115.0,2.15,2.0527950310559007,1.0473524962178518
-Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,250,-120.0,-105.0,-120.0,-122.0,-111.0,-105.0,-114.0,,-120.0,BetRivers,-105.0,1.9523809523809523,1.8643067095550765,1.0472423568367113
-Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,AnytimeTD,Anytime,-145.0,-141.0,-139.0,-145.0,-135.0,,-135.0,-185.0,-180.0,DraftKings,-135.0,1.7407407407407407,1.663541642893158,1.0464064715045676
-Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,50,-155.0,-129.0,-140.0,-137.0,-127.0,-140.0,-136.0,,-155.0,DraftKings,-127.0,1.7874015748031495,1.7084727046589328,1.0461984964284072
-Arizona Cardinals @ Seattle Seahawks,Bam Knight,Rushing,80,,,1200.0,,,,1260.0,,,FanDuel,1260.0,13.6,13.0,1.0461538461538462
+Los Angeles Rams @ San Francisco 49ers,Blake Corum,Rushing,25,-210.0,,-160.0,,-147.0,-160.0,-152.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.612871464375224,1.0476068364618956
+Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,50,-155.0,-118.0,-135.0,-132.0,-128.0,-125.0,-120.0,,-125.0,BetRivers,-118.0,1.847457627118644,1.7654373031389163,1.0464589276741219
+Los Angeles Rams @ San Francisco 49ers,Mac Jones,Passing,350,750.0,,750.0,750.0,810.0,800.0,800.0,,,DraftKings,810.0,9.1,8.7,1.0459770114942528
 Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Rushing,25,,,,,-1260.0,-2500.0,,,-4000.0,DraftKings,-1260.0,1.0793650793650793,1.0325,1.0453899073753794
-Los Angeles Rams @ San Francisco 49ers,Blake Corum,Rushing,25,-200.0,,-160.0,,-147.0,-160.0,-152.0,,-145.0,HardRockBet,-145.0,1.6896551724137931,1.6176333691371283,1.0445229460833159
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Passing,250,-160.0,-127.0,-125.0,-139.0,-139.0,-130.0,-125.0,,-155.0,Bovada,-125.0,1.8,1.7236632221742583,1.044287524873594
-Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,25,-175.0,,-140.0,,-144.0,-145.0,-138.0,,-170.0,FanDuel,-138.0,1.7246376811594204,1.6516098393380338,1.0442161581276703
-Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Rushing,50,-275.0,-230.0,-275.0,-250.0,-262.0,-275.0,-260.0,,-275.0,BetRivers,-230.0,1.434782608695652,1.3744057469248308,1.0439294305236366
+Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,50,-140.0,-152.0,-140.0,-143.0,-133.0,-155.0,-148.0,,-160.0,DraftKings,-133.0,1.7518796992481203,1.6759434043874983,1.0453095818521236
+Detroit Lions @ Washington Commanders,David Montgomery,AnytimeTD,Anytime,110.0,104.0,110.0,105.0,110.0,,110.0,115.0,-110.0,Fanatics,115.0,2.15,2.0570129870129867,1.0452048740450788
+Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Rushing,25,,,,,-147.0,-155.0,,,-175.0,DraftKings,-147.0,1.6802721088435373,1.608294930875576,1.0447537181061535
+Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,25,-800.0,,-575.0,,-539.0,,-700.0,,-1000.0,DraftKings,-539.0,1.1855287569573283,1.135442546583851,1.0441116201996916
+Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,25,-165.0,,-150.0,,-143.0,-140.0,-136.0,,-160.0,FanDuel,-136.0,1.7352941176470589,1.662262737262737,1.0439349200022274
 Philadelphia Eagles @ Green Bay Packers,Jordan Love,Rushing,25,,,400.0,,366.0,375.0,400.0,,375.0,Bovada,400.0,5.0,4.79,1.0438413361169103
-Detroit Lions @ Washington Commanders,Zach Ertz,Receiving,25,-350.0,,-250.0,,-226.0,,-235.0,,-240.0,DraftKings,-226.0,1.4424778761061947,1.3819782168186423,1.0437775780770442
-Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,AnytimeTD,Anytime,165.0,170.0,160.0,160.0,160.0,,165.0,165.0,175.0,HardRockBet,175.0,2.75,2.6357142857142857,1.043360433604336
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Receiving,50,,,,,2300.0,2200.0,,,,DraftKings,2300.0,24.0,23.0,1.0434782608695652
+Arizona Cardinals @ Seattle Seahawks,Elijah Arroyo,Receiving,25,130.0,,,,,,130.0,,140.0,HardRockBet,140.0,2.4,2.3,1.0434782608695652
+Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,50,-275.0,-230.0,-250.0,-250.0,-214.0,-240.0,-215.0,,-275.0,DraftKings,-214.0,1.4672897196261683,1.4062626116721162,1.0433966653507825
+Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,AnytimeTD,Anytime,210.0,180.0,200.0,200.0,200.0,,200.0,200.0,200.0,BetMGM,210.0,3.1,2.9714285714285715,1.0432692307692308
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,25,-400.0,,-400.0,,-322.0,-350.0,-340.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2780781877968577,1.0432329931486617
 Detroit Lions @ Washington Commanders,Jameson Williams,Receiving,50,105.0,110.0,-105.0,-108.0,101.0,100.0,106.0,,110.0,BetRivers,110.0,2.1,2.0140438397581257,1.0426783958447485
-Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,25,-165.0,,-150.0,,-143.0,-140.0,,,-165.0,ESPNBET,-140.0,1.7142857142857144,1.6445221445221443,1.0424217879923057
-Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,50,-275.0,-225.0,-250.0,-250.0,-214.0,-240.0,-215.0,,-275.0,DraftKings,-214.0,1.4672897196261683,1.4076428739219438,1.0423735642109548
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,50,-450.0,-400.0,-400.0,-400.0,-348.0,-475.0,-440.0,,-425.0,DraftKings,-348.0,1.2873563218390804,1.2350450547044975,1.0423557561202488
+Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,AnytimeTD,Anytime,240.0,210.0,240.0,240.0,250.0,,240.0,240.0,240.0,DraftKings,250.0,3.5,3.3571428571428568,1.0425531914893618
+Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,25,-175.0,,,,-154.0,-175.0,-166.0,,-150.0,HardRockBet,-150.0,1.6666666666666665,1.5986543576905023,1.0425434732961403
+Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,50,-155.0,-129.0,-140.0,-137.0,-127.0,-140.0,-136.0,,-145.0,DraftKings,-127.0,1.7874015748031495,1.7148289735291062,1.0423206059579746
+Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,25,-155.0,,,,-132.0,,-138.0,,-145.0,DraftKings,-132.0,1.7575757575757576,1.6864847146319313,1.0421533870583237
+Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,50,105.0,108.0,115.0,100.0,103.0,110.0,116.0,,110.0,FanDuel,116.0,2.16,2.0728571428571425,1.042039972432805
+Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,25,-175.0,,-140.0,,-144.0,-145.0,-138.0,,-165.0,FanDuel,-138.0,1.7246376811594204,1.6551749017266257,1.0419670328255541
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Rushing,50,-275.0,-315.0,-300.0,-290.0,-254.0,-325.0,-320.0,,-260.0,DraftKings,-254.0,1.3937007874015748,1.3377236132778005,1.0418450968258042
-Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,Rushing,25,125.0,,,,130.0,115.0,124.0,,120.0,DraftKings,130.0,2.3,2.21,1.0407239819004523
-Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,AnytimeTD,Anytime,115.0,115.0,110.0,110.0,105.0,,110.0,115.0,120.0,HardRockBet,120.0,2.2,2.1142857142857143,1.0405405405405406
+Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,25,-165.0,,-175.0,,-148.0,,-158.0,,-160.0,DraftKings,-148.0,1.6756756756756757,1.6088501424735602,1.0415362074054786
+Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,AnytimeTD,Anytime,165.0,170.0,160.0,160.0,160.0,,165.0,170.0,175.0,HardRockBet,175.0,2.75,2.642857142857143,1.0405405405405406
 Los Angeles Rams @ San Francisco 49ers,Matthew Stafford,Passing,250,-190.0,-205.0,-170.0,-176.0,-168.0,-170.0,-162.0,,-190.0,FanDuel,-162.0,1.617283950617284,1.5543324226644795,1.0405006850753915
-Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,25,-900.0,,-675.0,,-548.0,,-650.0,,-750.0,DraftKings,-548.0,1.1824817518248176,1.1366096866096866,1.0403586787580172
-Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,50,-130.0,-112.0,-115.0,-130.0,-129.0,-115.0,-113.0,,-125.0,BetRivers,-112.0,1.8928571428571428,1.8196773605580214,1.0402158008256366
-Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,50,-160.0,-120.0,-135.0,-132.0,-128.0,-125.0,-120.0,,-125.0,BetRivers,-120.0,1.8333333333333335,1.7625571188071192,1.0401554161116293
-Arizona Cardinals @ Seattle Seahawks,Michael Wilson,Receiving,25,-155.0,,-175.0,,-148.0,,-166.0,,-160.0,DraftKings,-148.0,1.6756756756756757,1.6109998750763421,1.0401463722002267
-Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,25,-800.0,,-575.0,,-539.0,,-700.0,,-850.0,DraftKings,-539.0,1.1855287569573283,1.1398543112897332,1.0400704241017564
-Arizona Cardinals @ Seattle Seahawks,Bam Knight,AnytimeTD,Anytime,,,275.0,,,,290.0,,,FanDuel,290.0,3.9,3.75,1.04
-Arizona Cardinals @ Seattle Seahawks,Trey McBride,AnytimeTD,Anytime,150.0,160.0,150.0,150.0,160.0,,155.0,150.0,135.0,BetRivers,160.0,2.6,2.5,1.04
-Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,Receiving,50,-140.0,-152.0,-140.0,-143.0,-133.0,-155.0,-148.0,,-145.0,DraftKings,-133.0,1.7518796992481203,1.685179857589469,1.039580250949629
+Philadelphia Eagles @ Green Bay Packers,Dontayvion Wicks,AnytimeTD,Anytime,340.0,320.0,320.0,325.0,340.0,,320.0,315.0,,BetMGM,340.0,4.4,4.233333333333333,1.0393700787401576
 Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,50,-650.0,-590.0,-500.0,-560.0,-429.0,-500.0,-470.0,,-525.0,DraftKings,-429.0,1.2331002331002332,1.1864501793949014,1.0393190160998784
-Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,25,-155.0,,,,-132.0,,-140.0,,-140.0,DraftKings,-132.0,1.7575757575757576,1.6912442396313363,1.0392205433077368
-Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,AnytimeTD,Anytime,170.0,185.0,170.0,175.0,180.0,,170.0,175.0,180.0,BetRivers,185.0,2.85,2.742857142857143,1.0390625
-Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,25,-1000.0,,-750.0,,-584.0,,-700.0,,-750.0,DraftKings,-584.0,1.1712328767123288,1.1273809523809524,1.038897166249584
-Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,25,-3000.0,,-1600.0,,-1020.0,,-1200.0,,-2000.0,DraftKings,-1020.0,1.0980392156862746,1.0572916666666665,1.0385395537525357
-Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,Receiving,50,450.0,,480.0,475.0,446.0,450.0,480.0,,450.0,Bovada,480.0,5.8,5.585000000000001,1.0384959713518351
-Philadelphia Eagles @ Green Bay Packers,DeVonta Smith,AnytimeTD,Anytime,210.0,180.0,200.0,200.0,200.0,,200.0,200.0,210.0,BetMGM,210.0,3.1,2.985714285714286,1.0382775119617222
-Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,25,,,-300.0,,-287.0,-325.0,-290.0,,-260.0,HardRockBet,-260.0,1.3846153846153846,1.3335713207454167,1.0382762159592904
-Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,AnytimeTD,Anytime,240.0,220.0,240.0,240.0,250.0,,240.0,240.0,240.0,DraftKings,250.0,3.5,3.371428571428571,1.038135593220339
-Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Passing,250,-135.0,-129.0,-150.0,-139.0,-133.0,-145.0,-140.0,,-145.0,BetRivers,-129.0,1.7751937984496124,1.7103296608857832,1.0379249328636655
-Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-800.0,,-675.0,,-584.0,,-650.0,,-1100.0,DraftKings,-584.0,1.1712328767123288,1.129475848225848,1.0369702712564166
-Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,50,-325.0,-225.0,-240.0,-250.0,-222.0,-240.0,-225.0,,-275.0,DraftKings,-222.0,1.4504504504504505,1.399078699078699,1.0367182713921526
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,25,-350.0,,-400.0,,-322.0,-350.0,-330.0,,-300.0,HardRockBet,-300.0,1.3333333333333333,1.2870035761340108,1.0359981573155306
-Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,AnytimeTD,Anytime,105.0,104.0,100.0,105.0,105.0,,105.0,110.0,-105.0,Fanatics,110.0,2.1,2.027482993197279,1.0357670111394444
+Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,AnytimeTD,Anytime,170.0,185.0,170.0,175.0,180.0,,170.0,180.0,175.0,BetRivers,185.0,2.85,2.742857142857143,1.0390625
+Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Rushing,50,-275.0,-230.0,-275.0,-250.0,-262.0,-250.0,-250.0,,-275.0,BetRivers,-230.0,1.434782608695652,1.3817983543174381,1.0383444184983028
+Philadelphia Eagles @ Green Bay Packers,Romeo Doubs,Receiving,25,-900.0,,-675.0,,-548.0,,-650.0,,-700.0,DraftKings,-548.0,1.1824817518248176,1.138990638990639,1.0381839071765506
+Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,25,-3000.0,,,,-1160.0,,-1800.0,,-2000.0,DraftKings,-1160.0,1.0862068965517242,1.0462962962962965,1.0381446444919131
+Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,50,-160.0,-167.0,-180.0,-157.0,-146.0,-155.0,-148.0,,-160.0,DraftKings,-146.0,1.6849315068493151,1.623162513131804,1.0380547192396228
+Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,Receiving,25,-3000.0,,-1600.0,,-1060.0,,-1400.0,,-2000.0,DraftKings,-1060.0,1.0943396226415094,1.054315476190476,1.0379622108893358
+Detroit Lions @ Washington Commanders,Sam LaPorta,AnytimeTD,Anytime,150.0,160.0,150.0,155.0,150.0,,150.0,150.0,150.0,BetRivers,160.0,2.6,2.507142857142857,1.037037037037037
+Arizona Cardinals @ Seattle Seahawks,Trey McBride,AnytimeTD,Anytime,150.0,160.0,150.0,150.0,160.0,,155.0,155.0,135.0,BetRivers,160.0,2.6,2.507142857142857,1.037037037037037
+Arizona Cardinals @ Seattle Seahawks,Marvin Harrison Jr.,Receiving,25,-900.0,,-750.0,,-584.0,,-700.0,,-750.0,DraftKings,-584.0,1.1712328767123288,1.1301587301587301,1.0363436970909652
+Detroit Lions @ Washington Commanders,Jared Goff,Passing,250,-120.0,-121.0,-110.0,-125.0,-114.0,-115.0,-112.0,,-125.0,Bovada,-110.0,1.9090909090909092,1.8427707081470939,1.035989393933063
 Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Receiving,25,,,200.0,,198.0,,210.0,,200.0,FanDuel,210.0,3.1,2.9933333333333336,1.0356347438752784
-Philadelphia Eagles @ Green Bay Packers,Dontayvion Wicks,AnytimeTD,Anytime,340.0,320.0,320.0,325.0,340.0,,320.0,325.0,,BetMGM,340.0,4.4,4.25,1.035294117647059
-Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,25,-1000.0,,-1500.0,,-930.0,-700.0,-670.0,,-750.0,FanDuel,-670.0,1.1492537313432836,1.1100768049155145,1.0352920863261805
-Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,50,105.0,110.0,115.0,100.0,106.0,110.0,116.0,,115.0,FanDuel,116.0,2.16,2.087142857142857,1.0349075975359343
+Arizona Cardinals @ Seattle Seahawks,Emari Demercado,Rushing,25,,,-300.0,,-266.0,-325.0,-300.0,,-260.0,HardRockBet,-260.0,1.3846153846153846,1.3375747059957586,1.035168636494667
+Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,25,-800.0,,-675.0,,-592.0,,-650.0,,-1100.0,DraftKings,-592.0,1.1689189189189189,1.129475848225848,1.0349215707047008
+Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,Rushing,25,125.0,,,,130.0,115.0,124.0,,125.0,DraftKings,130.0,2.3,2.2225,1.0348706411698536
+Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,-135.0,-143.0,-140.0,-139.0,-137.0,-135.0,-130.0,,-160.0,FanDuel,-130.0,1.7692307692307692,1.7099170518284026,1.0346880670842733
+Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,80,,-278.0,-220.0,-225.0,-242.0,-225.0,-210.0,,-225.0,FanDuel,-210.0,1.4761904761904763,1.4268023597650805,1.034614546357722
 Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,Receiving,25,-450.0,,-350.0,,-343.0,,-390.0,,-325.0,HardRockBet,-325.0,1.3076923076923077,1.2639729884627844,1.0345888081696222
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,AnytimeTD,Anytime,140.0,123.0,140.0,140.0,140.0,,145.0,145.0,130.0,FanDuel,145.0,2.45,2.3685714285714288,1.03437876960193
-Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,25,-235.0,,,,-198.0,,-186.0,,-185.0,HardRockBet,-185.0,1.5405405405405406,1.4894056095154244,1.0343324415447535
-Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,80,,-275.0,-220.0,-225.0,-241.0,-225.0,-210.0,,-225.0,FanDuel,-210.0,1.4761904761904763,1.427742151808542,1.0339335252661441
-Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,50,-225.0,-195.0,-190.0,-182.0,-180.0,-210.0,-196.0,,-195.0,DraftKings,-180.0,1.5555555555555556,1.5046066238332618,1.0338619616019582
-Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,25,-1600.0,,-1100.0,,-800.0,,-1000.0,,-1000.0,DraftKings,-800.0,1.125,1.0883522727272728,1.033672670321065
-Arizona Cardinals @ Seattle Seahawks,Zonovan Knight,Rushing,25,,,,,-151.0,-155.0,,,-175.0,DraftKings,-151.0,1.6622516556291391,1.608294930875576,1.0335490237006395
-Detroit Lions @ Washington Commanders,Marcus Mariota,Rushing,25,-175.0,,,,-154.0,-175.0,,,-155.0,DraftKings,-154.0,1.6493506493506493,1.5960061443932412,1.0334237466095022
+Pittsburgh Steelers @ Los Angeles Chargers,Kimani Vidal,Rushing,25,-1000.0,,-1500.0,,-880.0,-700.0,-670.0,,-750.0,FanDuel,-670.0,1.1492537313432836,1.1112987012987012,1.0341537608207647
 Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,50,-700.0,-530.0,-500.0,-530.0,-463.0,-475.0,-440.0,,-600.0,FanDuel,-440.0,1.2272727272727273,1.1876273338945158,1.0333820149189432
 Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,AnytimeTD,Anytime,-175.0,-165.0,-168.0,-170.0,-165.0,,-160.0,-160.0,-240.0,FanDuel,-160.0,1.625,1.5726699770817416,1.0332746371971584
-Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,50,-160.0,-165.0,-180.0,-157.0,-151.0,-155.0,-148.0,,-160.0,FanDuel,-148.0,1.6756756756756757,1.622281683246731,1.0329128985307197
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Receiving,25,,,160.0,,148.0,,162.0,,165.0,HardRockBet,165.0,2.65,2.566666666666667,1.0324675324675323
-Detroit Lions @ Washington Commanders,Jared Goff,Passing,250,-120.0,-110.0,-110.0,-125.0,-118.0,-115.0,-112.0,,-125.0,BetRivers,-110.0,1.9090909090909092,1.8503291756844764,1.0317574484468124
-Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,25,-1200.0,,-775.0,,-630.0,,-670.0,,-750.0,DraftKings,-630.0,1.1587301587301586,1.1237381640186164,1.0311389217096685
+Arizona Cardinals @ Seattle Seahawks,Trey McBride,Receiving,50,-275.0,-220.0,-240.0,-250.0,-222.0,-240.0,-225.0,,-275.0,BetRivers,-220.0,1.4545454545454546,1.4079287079287077,1.0331101612988116
+Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,AnytimeTD,Anytime,105.0,104.0,100.0,105.0,105.0,,105.0,110.0,100.0,Fanatics,110.0,2.1,2.0342857142857147,1.0323033707865168
+Pittsburgh Steelers @ Los Angeles Chargers,Ladd McConkey,AnytimeTD,Anytime,175.0,150.0,180.0,175.0,180.0,,180.0,180.0,160.0,Bovada,180.0,2.8,2.714285714285715,1.0315789473684207
+Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,25,-1400.0,,-1100.0,,-800.0,,-1000.0,,-1000.0,DraftKings,-800.0,1.125,1.0905844155844155,1.031557011015183
+Los Angeles Rams @ San Francisco 49ers,Kendrick Bourne,Receiving,25,-225.0,,,,-198.0,,-188.0,,-185.0,HardRockBet,-185.0,1.5405405405405406,1.4938032810373236,1.03128742592583
+Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,25,-1000.0,,-1100.0,,-700.0,,-800.0,,-850.0,DraftKings,-700.0,1.1428571428571428,1.108389037433155,1.031097479549067
 Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,25,-525.0,,-450.0,,-393.0,,-430.0,,-450.0,DraftKings,-393.0,1.2544529262086515,1.2168696936138796,1.0308851743058507
-Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,200.0,190.0,210.0,205.0,195.0,,210.0,195.0,210.0,Bovada,210.0,3.1,3.007142857142857,1.0308788598574823
-Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,25,-525.0,,-330.0,,-343.0,,-320.0,,-325.0,FanDuel,-320.0,1.3125,1.2731859976757935,1.0308784438377223
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,50,-235.0,-195.0,-200.0,-200.0,-220.0,-225.0,-210.0,,-210.0,BetRivers,-195.0,1.5128205128205128,1.4681289666092099,1.0304411582550015
-Detroit Lions @ Washington Commanders,Deebo Samuel Sr.,Receiving,25,-1000.0,,-1100.0,,-700.0,,-800.0,,-800.0,DraftKings,-700.0,1.1428571428571428,1.1102272727272728,1.0293902617341715
+Pittsburgh Steelers @ Los Angeles Chargers,Quentin Johnston,AnytimeTD,Anytime,200.0,185.0,210.0,205.0,195.0,,210.0,200.0,210.0,Bovada,210.0,3.1,3.0071428571428567,1.0308788598574823
+Philadelphia Eagles @ Green Bay Packers,Christian Watson,Receiving,25,-295.0,,-240.0,,-263.0,,-275.0,,-240.0,Bovada,-240.0,1.4166666666666667,1.3748785545081545,1.0303940388200044
+Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Receiving,25,-1200.0,,-775.0,,-630.0,,-650.0,,-750.0,DraftKings,-630.0,1.1587301587301586,1.124886269644334,1.0300864985191127
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Receiving,25,,,160.0,,148.0,,164.0,,165.0,HardRockBet,165.0,2.65,2.5733333333333333,1.0297927461139897
 Philadelphia Eagles @ Green Bay Packers,AJ Brown,Receiving,50,-190.0,-159.0,-170.0,-164.0,-155.0,-170.0,-160.0,,-160.0,DraftKings,-155.0,1.6451612903225805,1.5987818989828593,1.029009204675902
 Pittsburgh Steelers @ Los Angeles Chargers,DK Metcalf,Receiving,25,-625.0,,-475.0,,-554.0,,-460.0,,-550.0,FanDuel,-460.0,1.2173913043478262,1.1832124781925275,1.0288864652674303
+Pittsburgh Steelers @ Los Angeles Chargers,Keenan Allen,Receiving,25,-525.0,,-330.0,,-343.0,,-330.0,,-325.0,HardRockBet,-325.0,1.3076923076923077,1.2720204965102924,1.028043424834646
+Los Angeles Rams @ San Francisco 49ers,Davante Adams,Receiving,50,-220.0,-195.0,-190.0,-182.0,-186.0,-210.0,-188.0,,-195.0,Caesars,-182.0,1.5494505494505495,1.5074631497242588,1.0278530189835626
+Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,50,-235.0,-195.0,-200.0,-200.0,-208.0,-225.0,-210.0,,-210.0,BetRivers,-195.0,1.5128205128205128,1.4718752203554637,1.0278184535610027
 Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,AnytimeTD,Anytime,-150.0,-159.0,-168.0,-155.0,-155.0,,-155.0,-150.0,-190.0,BetMGM,-150.0,1.6666666666666665,1.6218050342794643,1.0276615446610284
-Los Angeles Rams @ San Francisco 49ers,George Kittle,AnytimeTD,Anytime,140.0,133.0,150.0,145.0,150.0,,150.0,135.0,150.0,Bovada,150.0,2.5,2.432857142857143,1.0275983558426307
-Pittsburgh Steelers @ Los Angeles Chargers,Oronde Gadsden II,Receiving,50,-135.0,-141.0,-140.0,-139.0,-137.0,-135.0,-132.0,,-160.0,FanDuel,-132.0,1.7575757575757576,1.7113340745220214,1.0270208393218907
-Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,50,-1200.0,,-926.0,-850.0,-740.0,-1000.0,-850.0,,-950.0,DraftKings,-740.0,1.135135135135135,1.1053136615943788,1.026980100379597
-Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,AnytimeTD,Anytime,120.0,115.0,125.0,120.0,125.0,,125.0,125.0,105.0,Bovada,125.0,2.25,2.192857142857143,1.0260586319218241
-Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,50,-135.0,-124.0,-130.0,-132.0,-122.0,-125.0,-120.0,,-120.0,FanDuel,-120.0,1.8333333333333335,1.7895720492759097,1.0244534910316299
-Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,25,-750.0,,-625.0,,-536.0,,-590.0,,-575.0,DraftKings,-536.0,1.1865671641791045,1.1591844755588308,1.0236223734855254
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,50,-190.0,-162.0,-160.0,-157.0,-159.0,-160.0,-154.0,,-155.0,FanDuel,-154.0,1.6493506493506493,1.614947789026121,1.0213027693887706
-Philadelphia Eagles @ Green Bay Packers,AJ Brown,Receiving,25,-1200.0,,-775.0,,-760.0,,-750.0,,-700.0,HardRockBet,-700.0,1.1428571428571428,1.119319468024901,1.0210285584273588
+Los Angeles Rams @ San Francisco 49ers,George Kittle,AnytimeTD,Anytime,140.0,135.0,150.0,145.0,150.0,,150.0,135.0,150.0,Bovada,150.0,2.5,2.4357142857142855,1.026392961876833
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,50,-450.0,-400.0,-400.0,-400.0,-375.0,-475.0,-440.0,,-400.0,DraftKings,-375.0,1.2666666666666666,1.237145895040632,1.0238619969919271
+Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,50,-1200.0,,-926.0,-850.0,-740.0,-800.0,-850.0,,-950.0,DraftKings,-740.0,1.135135135135135,1.1094803282610455,1.0231232643072634
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,110,,,875.0,,900.0,,880.0,,,DraftKings,900.0,10.0,9.775,1.0230179028132993
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,50,-175.0,-165.0,-160.0,-157.0,-170.0,-160.0,-154.0,,-155.0,FanDuel,-154.0,1.6493506493506493,1.613975491012663,1.0219180269681734
+Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,25,-700.0,,-625.0,,-536.0,,-590.0,,-575.0,DraftKings,-536.0,1.1865671641791045,1.1615654279397831,1.0215241738759957
+Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,25,-750.0,,-480.0,,-476.0,,-530.0,,-475.0,HardRockBet,-475.0,1.2105263157894737,1.1851074863907827,1.02144854343643
+Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,Receiving,25,-105.0,,100.0,,102.0,,-104.0,,100.0,DraftKings,102.0,2.02,1.9784798534798536,1.0209858828974774
 Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Rushing,110,,,625.0,650.0,650.0,,630.0,,,Caesars,650.0,7.5,7.3500000000000005,1.0204081632653061
-Pittsburgh Steelers @ Los Angeles Chargers,Pat Freiermuth,Receiving,25,-105.0,,100.0,,102.0,,-102.0,,100.0,DraftKings,102.0,2.02,1.9831932773109244,1.0185593220338982
-Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,25,-2500.0,,-1400.0,,-1180.0,-1300.0,-1200.0,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,1.071286148879369,1.018317180755346
+Arizona Cardinals @ Seattle Seahawks,Kenneth Walker III,Rushing,25,-2500.0,,-1400.0,,-1280.0,-1300.0,-1200.0,,-1100.0,HardRockBet,-1100.0,1.0909090909090908,1.0699619963369962,1.0195774192390075
 Arizona Cardinals @ Seattle Seahawks,Bam Knight,Rushing,25,,,-170.0,,,,-162.0,,,FanDuel,-162.0,1.617283950617284,1.5882352941176472,1.0182898948331047
-Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,25,-165.0,,-160.0,,-160.0,,-172.0,,-175.0,Bovada,-160.0,1.625,1.5959711315815968,1.0181888430460744
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,AnytimeTD,Anytime,140.0,120.0,140.0,140.0,140.0,,140.0,140.0,130.0,BetMGM,140.0,2.4,2.357142857142857,1.018181818181818
+Los Angeles Rams @ San Francisco 49ers,George Kittle,Receiving,50,-125.0,-121.0,-130.0,-132.0,-122.0,-125.0,-120.0,,-120.0,FanDuel,-120.0,1.8333333333333335,1.8008940388970198,1.0180128834543656
 Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,25,-135.0,,,,-130.0,,-142.0,,-130.0,DraftKings,-130.0,1.7692307692307692,1.7380656206947285,1.0179309389501552
-Los Angeles Rams @ San Francisco 49ers,Jauan Jennings,Receiving,25,-650.0,,-480.0,,-476.0,,-530.0,,-475.0,HardRockBet,-475.0,1.2105263157894737,1.1902356915189878,1.0170475683220277
-Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,50,-1600.0,,-1000.0,-950.0,-1080.0,-1000.0,-900.0,,-1000.0,FanDuel,-900.0,1.1111111111111112,1.0933926250812214,1.0162050535401896
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Rushing,25,-10000.0,,,,-2400.0,-3500.0,,,-2500.0,DraftKings,-2400.0,1.0416666666666667,1.026190476190476,1.0150812064965198
 Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Rushing,25,-3000.0,,-1800.0,,-1940.0,-2000.0,,,-1600.0,HardRockBet,-1600.0,1.0625,1.0476088201603666,1.0142144467983325
-Detroit Lions @ Washington Commanders,Sam LaPorta,AnytimeTD,Anytime,150.0,155.0,150.0,155.0,150.0,,150.0,155.0,150.0,BetRivers,155.0,2.55,2.5142857142857147,1.0142045454545452
 Los Angeles Rams @ San Francisco 49ers,Christian McCaffrey,Rushing,25,-10000.0,,,,-2500.0,-2250.0,,,-2500.0,ESPNBET,-2250.0,1.0444444444444445,1.03,1.0140237324703345
-Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,25,,,,,-3000.0,-5000.0,,,-4000.0,DraftKings,-3000.0,1.0333333333333334,1.0225,1.010594947025265
+Arizona Cardinals @ Seattle Seahawks,Bam Knight,AnytimeTD,Anytime,,,275.0,,,,270.0,,,Bovada,275.0,3.75,3.7,1.0135135135135134
+Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,25,-165.0,,-160.0,,-160.0,,-172.0,,-165.0,Bovada,-160.0,1.625,1.6046291402396053,1.0126950578482907
+Philadelphia Eagles @ Green Bay Packers,AJ Brown,Receiving,25,-1200.0,,-775.0,,-760.0,,-750.0,,-750.0,FanDuel,-750.0,1.1333333333333333,1.119319468024901,1.0125199871071309
+Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,50,-1600.0,,-1000.0,-950.0,-1080.0,-1000.0,-950.0,,-1000.0,Caesars,-950.0,1.1052631578947367,1.0933926250812214,1.0108566058899782
 Los Angeles Rams @ San Francisco 49ers,Puka Nacua,AnytimeTD,Anytime,-145.0,-143.0,-139.0,-140.0,-140.0,,-140.0,-145.0,-145.0,Bovada,-139.0,1.7194244604316546,1.701589051342746,1.0104816195630986
-Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,25,,,,,-3000.0,,,,-4000.0,DraftKings,-3000.0,1.0333333333333334,1.025,1.0081300813008132
-Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,25,,,,,-9700.0,,,,-7000.0,HardRockBet,-7000.0,1.0142857142857142,1.0103092783505154,1.003935860058309
+Detroit Lions @ Washington Commanders,Amon-Ra St. Brown,Receiving,25,,,,,-3100.0,,,,-4000.0,DraftKings,-3100.0,1.032258064516129,1.025,1.007081038552321
+Detroit Lions @ Washington Commanders,Jahmyr Gibbs,Rushing,25,,,,,-3500.0,-5000.0,,,-4000.0,DraftKings,-3500.0,1.0285714285714285,1.0225,1.0059378274537198
+Arizona Cardinals @ Seattle Seahawks,Jaxon Smith-Njigba,Receiving,25,,,,,-10000.0,,,,-7000.0,HardRockBet,-7000.0,1.0142857142857142,1.01,1.0042432814710043
 Los Angeles Rams @ San Francisco 49ers,Puka Nacua,Receiving,25,,,,,-6300.0,,,,-6000.0,HardRockBet,-6000.0,1.0166666666666666,1.0158730158730158,1.00078125
 Arizona Cardinals @ Seattle Seahawks,Bam Knight,Rushing,50,,,350.0,,,,350.0,,,Bovada,350.0,4.5,4.5,1.0
-Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,25,,,,,,-5000.0,,,-5000.0,ESPNBET,-5000.0,1.02,1.02,1.0
 Philadelphia Eagles @ Green Bay Packers,Emanuel Wilson,Rushing,80,,,,,1700.0,,1700.0,,,DraftKings,1700.0,18.0,18.0,1.0
-Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,110,,,,,3900.0,,,,,DraftKings,3900.0,40.0,,
+Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Rushing,25,,,,,,-5000.0,,,-5000.0,ESPNBET,-5000.0,1.02,1.02,1.0
+Arizona Cardinals @ Seattle Seahawks,Bam Knight,Rushing,80,,,1200.0,,,,1200.0,,,Bovada,1200.0,13.0,13.0,1.0
+Arizona Cardinals @ Seattle Seahawks,AJ Barner,Receiving,110,,,,,3300.0,,,,,DraftKings,3300.0,34.0,,
 Arizona Cardinals @ Seattle Seahawks,Akeem Davis-Gaither,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Arizona Cardinals @ Seattle Seahawks,Arizona Cardinals Defense,AnytimeTD,Anytime,,,,,,,1000.0,,,FanDuel,1000.0,11.0,,
-Arizona Cardinals @ Seattle Seahawks,Bam Knight,Receiving,25,,,,,,,310.0,,,FanDuel,310.0,4.1,,
+Arizona Cardinals @ Seattle Seahawks,Bam Knight,Receiving,25,,,,,,,320.0,,,FanDuel,320.0,4.2,,
 Arizona Cardinals @ Seattle Seahawks,Budda Baker,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Arizona Cardinals @ Seattle Seahawks,Byron Murphy II,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Arizona Cardinals @ Seattle Seahawks,Coby Bryant,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
+Arizona Cardinals @ Seattle Seahawks,Cooper Kupp,Receiving,110,,,,,4400.0,,,,,DraftKings,4400.0,45.0,,
 Arizona Cardinals @ Seattle Seahawks,DeMarcus Lawrence,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Arizona Cardinals @ Seattle Seahawks,Devon Witherspoon,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Arizona Cardinals @ Seattle Seahawks,Drake Thomas,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
@@ -450,32 +452,30 @@ Arizona Cardinals @ Seattle Seahawks,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,
 Arizona Cardinals @ Seattle Seahawks,Riq Woolen,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Arizona Cardinals @ Seattle Seahawks,Sam Darnold,Rushing,50,,,,,3100.0,,,,,DraftKings,3100.0,32.0,,
 Arizona Cardinals @ Seattle Seahawks,Seattle Seahawks Defense,AnytimeTD,Anytime,,,,,,,800.0,,,FanDuel,800.0,9.0,,
-Arizona Cardinals @ Seattle Seahawks,Tory Horton,AnytimeTD,Anytime,320.0,,,,,,,,,BetMGM,320.0,4.2,,
 Arizona Cardinals @ Seattle Seahawks,Ty Okada,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Arizona Cardinals @ Seattle Seahawks,Xavier Weaver,AnytimeTD,Anytime,3300.0,,,,,,,,,BetMGM,3300.0,34.0,,
 Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Receiving,50,,,,,2000.0,,,,,DraftKings,2000.0,21.0,,
-Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,110,,,,,2500.0,,,,,DraftKings,2500.0,26.0,,
-Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,80,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
+Arizona Cardinals @ Seattle Seahawks,Zach Charbonnet,Rushing,110,,,,,2200.0,,,,,DraftKings,2200.0,23.0,,
+Arizona Cardinals @ Seattle Seahawks,Zay Jones,Receiving,80,,,,,4300.0,,,,,DraftKings,4300.0,44.0,,
 Detroit Lions @ Washington Commanders,Aidan Hutchinson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Al-Quadin Muhammad,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Alex Anzalone,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Alim McNeill,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Washington Commanders,Amik Robertson,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Detroit Lions @ Washington Commanders,Brian Branch,AnytimeTD,Anytime,,,,,,,,,2500.0,HardRockBet,2500.0,26.0,,
+Detroit Lions @ Washington Commanders,Amik Robertson,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Detroit Lions @ Washington Commanders,Brian Branch,AnytimeTD,Anytime,,,,,,,,,3000.0,HardRockBet,3000.0,31.0,,
 Detroit Lions @ Washington Commanders,Brock Wright,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,110,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
+Detroit Lions @ Washington Commanders,Chris Rodriguez Jr.,Rushing,110,,,,,3800.0,,,,,DraftKings,3800.0,39.0,,
 Detroit Lions @ Washington Commanders,DJ Reader,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Derrick Barnes,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Detroit Lions Defense,AnytimeTD,Anytime,,,,,,,500.0,,,FanDuel,500.0,6.0,,
 Detroit Lions @ Washington Commanders,Jack Campbell,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Detroit Lions @ Washington Commanders,Jacory Croskey-Merritt,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Detroit Lions @ Washington Commanders,Jared Goff,Rushing,25,,,,,,,,,1500.0,HardRockBet,1500.0,16.0,,
+Detroit Lions @ Washington Commanders,Jared Goff,Rushing,25,,,,,,,,,1600.0,HardRockBet,1600.0,17.0,,
 Detroit Lions @ Washington Commanders,Jaylin Lane,Receiving,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
 Detroit Lions @ Washington Commanders,Kalif Raymond,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Detroit Lions @ Washington Commanders,Kalif Raymond,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
 Detroit Lions @ Washington Commanders,No Scorer,AnytimeTD,Anytime,,,,,,,,7000.0,,Fanatics,7000.0,71.0,,
 Detroit Lions @ Washington Commanders,No Touchdown,AnytimeTD,Anytime,20000.0,,,,,,,,,BetMGM,20000.0,201.0,,
-Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,110,,,,,1040.0,,,,,DraftKings,1040.0,11.4,,
+Detroit Lions @ Washington Commanders,Sam LaPorta,Receiving,110,,,,,1120.0,,,,,DraftKings,1120.0,12.2,,
 Detroit Lions @ Washington Commanders,Terrion Arnold,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Detroit Lions @ Washington Commanders,Treylon Burks,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
 Detroit Lions @ Washington Commanders,Treylon Burks,Receiving,50,,,,,,,,,600.0,HardRockBet,600.0,7.0,,
@@ -488,8 +488,6 @@ Los Angeles Rams @ San Francisco 49ers,Demarcus Robinson,Receiving,80,,,,,4200.0
 Los Angeles Rams @ San Francisco 49ers,Deommodore Lenoir,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Los Angeles Rams @ San Francisco 49ers,Ji'Ayir Brown,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Los Angeles Rams @ San Francisco 49ers,Jordan Watkins,Receiving,25,,,,,,,,,200.0,HardRockBet,200.0,3.0,,
-Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,Receiving,25,,,,,,,,,140.0,HardRockBet,140.0,2.4,,
-Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,Receiving,50,,,,,,,,,575.0,HardRockBet,575.0,6.75,,
 Los Angeles Rams @ San Francisco 49ers,Jordan Whittington,Receiving,80,,,,,,,,,800.0,HardRockBet,800.0,9.0,,
 Los Angeles Rams @ San Francisco 49ers,Kamren Curl,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Los Angeles Rams @ San Francisco 49ers,Kyren Williams,Receiving,80,,,,,3200.0,,,,,DraftKings,3200.0,33.0,,
@@ -518,11 +516,11 @@ Philadelphia Eagles @ Green Bay Packers,Jalen Hurts,Rushing,110,,,,,2700.0,,,,,D
 Philadelphia Eagles @ Green Bay Packers,Javon Bullard,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Philadelphia Eagles @ Green Bay Packers,Josh Jacobs,Receiving,80,,,,,3100.0,,,,,DraftKings,3100.0,32.0,,
 Philadelphia Eagles @ Green Bay Packers,Karl Brooks,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Philadelphia Eagles @ Green Bay Packers,Keisean Nixon,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
+Philadelphia Eagles @ Green Bay Packers,Keisean Nixon,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Philadelphia Eagles @ Green Bay Packers,Kingsley Enagbare,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Philadelphia Eagles @ Green Bay Packers,Luke Musgrave,Receiving,110,,,,,4000.0,,,,,DraftKings,4000.0,41.0,,
 Philadelphia Eagles @ Green Bay Packers,Micah Parsons,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Philadelphia Eagles @ Green Bay Packers,No Scorer,AnytimeTD,Anytime,,,,,,,,4500.0,,Fanatics,4500.0,46.0,,
+Philadelphia Eagles @ Green Bay Packers,No Scorer,AnytimeTD,Anytime,,,,,,,,3500.0,,Fanatics,3500.0,36.0,,
 Philadelphia Eagles @ Green Bay Packers,No Touchdown,AnytimeTD,Anytime,15000.0,,,,,,,,,BetMGM,15000.0,151.0,,
 Philadelphia Eagles @ Green Bay Packers,Philadelphia Eagles Defense,AnytimeTD,Anytime,,,,,,,800.0,,,FanDuel,800.0,9.0,,
 Philadelphia Eagles @ Green Bay Packers,Quay Walker,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
@@ -530,9 +528,9 @@ Philadelphia Eagles @ Green Bay Packers,Quinyon Mitchell,AnytimeTD,Anytime,,,,,,
 Philadelphia Eagles @ Green Bay Packers,Rashan Gary,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Philadelphia Eagles @ Green Bay Packers,Reed Blankenship,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Philadelphia Eagles @ Green Bay Packers,Saquon Barkley,Receiving,80,,,,,3900.0,,,,,DraftKings,3900.0,40.0,,
-Philadelphia Eagles @ Green Bay Packers,Xavier McKinney,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
+Philadelphia Eagles @ Green Bay Packers,Xavier McKinney,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
 Philadelphia Eagles @ Green Bay Packers,Zack Baun,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Rushing,25,,,,,2400.0,,,,,DraftKings,2400.0,25.0,,
+Pittsburgh Steelers @ Los Angeles Chargers,Aaron Rodgers,Rushing,25,,,,,2100.0,,,,,DraftKings,2100.0,22.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Alex Highsmith,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Cam Hart,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Cameron Heyward,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
@@ -546,9 +544,9 @@ Pittsburgh Steelers @ Los Angeles Chargers,Jaret Patterson,Rushing,25,,,,,,,,,16
 Pittsburgh Steelers @ Los Angeles Chargers,Jaret Patterson,Rushing,50,,,,,,,,,900.0,HardRockBet,900.0,10.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Jaylen Warren,Receiving,80,,,,,2600.0,,,,,DraftKings,2600.0,27.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Joey Porter Jr.,AnytimeTD,Anytime,,,,,,,,,4000.0,HardRockBet,4000.0,41.0,,
-Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,110,,,,,4400.0,,,,,DraftKings,4400.0,45.0,,
+Pittsburgh Steelers @ Los Angeles Chargers,Justin Herbert,Rushing,110,,,,,4500.0,,,,,DraftKings,4500.0,46.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Kyle Dugger,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
-Pittsburgh Steelers @ Los Angeles Chargers,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,,,,,800.0,,,FanDuel,800.0,9.0,,
+Pittsburgh Steelers @ Los Angeles Chargers,Los Angeles Chargers Defense,AnytimeTD,Anytime,,,,,,,750.0,,,FanDuel,750.0,8.5,,
 Pittsburgh Steelers @ Los Angeles Chargers,No Scorer,AnytimeTD,Anytime,,,,,,,,3500.0,,Fanatics,3500.0,36.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,No Touchdown,AnytimeTD,Anytime,10000.0,,,,,,,,,BetMGM,10000.0,101.0,,
 Pittsburgh Steelers @ Los Angeles Chargers,Patrick Queen,AnytimeTD,Anytime,,,,,,,,,5000.0,HardRockBet,5000.0,51.0,,
