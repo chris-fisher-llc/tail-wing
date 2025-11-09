@@ -1,74 +1,153 @@
-import os, json, math, re, time
-from pathlib import Path
-from datetime import datetime, timedelta, timezone
-
-import pandas as pd
-import pytz
-import requests
 import streamlit as st
 import streamlit.components.v1 as components
+import pandas as pd
+import os
+from datetime import datetime
+from pathlib import Path
+import pytz
+import requests
+import time
+import math
+import json  # <-- added
 
 st.set_page_config(page_title="The Tail Wing - NFL Player Props", layout="wide")
 
-# ---------------------------
-# Config / Secrets
-# ---------------------------
-BASE = "https://api.the-odds-api.com/v4"
-SPORT_KEY = "americanfootball_nfl"
-DEFAULT_REGIONS = "us,us2"
+# --- Auto-clear caches (helps stuck sessions) ---
+try:
+    st.cache_data.clear()
+    st.cache_resource.clear()
+except Exception:
+    pass
 
-# Markets: feel free to tweak; these are common O/U-style NFL player props + a Yes/No market.
-DEFAULT_MARKETS = [
-    "player_passing_yards",
-    "player_rushing_yards",
-    "player_receiving_yards",
-    "player_receptions",
-    "player_passing_touchdowns",
-    "player_rushing_touchdowns",
-    "player_interceptions",
-    "player_anytime_touchdown_scorer"  # Yes/No
-]
+# ---- Header ----
+st.markdown(
+    """
+    <h1 style='text-align: center; font-size: 42px;'>
+       🏈 NFL Player Props — Anomaly Board 🏈
+    </h1>
+    <p style='text-align: center; font-size:18px; color: gray;'>
+        Powered by The Tail Wing — scanning books for alt-yardage & anytime TD edges
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
-def _get_api_key():
-    for k in ("ODDS_API_KEY", "THE_ODDS_API_KEY"):
-        if k in st.secrets and st.secrets[k]:
-            return st.secrets[k]
-    st.error("Missing API key in st.secrets (use ODDS_API_KEY or THE_ODDS_API_KEY).")
-    st.stop()
+# ---- Mobile hint (sets ?mobile=1) ----
+components.html(
+    """
+    <script>
+      const w = Math.min(window.innerWidth || 9999, screen.width || 9999);
+      const isMobile = w < 800;
+      try {
+        const url = new URL(window.location);
+        if (isMobile) url.searchParams.set('mobile','1');
+        else url.searchParams.delete('mobile');
+        window.history.replaceState({},'',url);
+      } catch(e){}
+    </script>
+    """,
+    height=0,
+)
 
-API_KEY = _get_api_key()
+# One-shot refresh to pick up ?mobile param
+try:
+    st.session_state.setdefault("_awaited_mobile_param_nfl", False)
+    if not st.session_state["_awaited_mobile_param_nfl"]:
+        st.session_state["_awaited_mobile_param_nfl"] = True
+        st.autorefresh(interval=250, limit=1, key="await_mobile_param_nfl")
+except Exception:
+    pass
 
-# ---------------------------
-# Per-book vig curves
-# ---------------------------
-def _default_vig_path() -> Path:
+# ---- GitHub Actions trigger ----
+def trigger_github_action():
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO")  # e.g., "chris-fisher-llc/tail-wing"
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "update-nfl-player-props.yml")
+    ref = st.secrets.get("GITHUB_REF", "main")
+
+    if not token or not repo:
+        st.error("Missing secrets: please set GITHUB_TOKEN and GITHUB_REPO.")
+        return False
+
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"token {token}",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    payload = {"ref": ref}
+
+    with st.spinner("Triggering GitHub Action…"):
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+    if resp.status_code == 204:
+        st.success("Refresh kicked off. Odds will update automatically when the CSV is pushed.")
+        return True
+    else:
+        st.error(f"Failed to trigger workflow ({resp.status_code}): {resp.text}")
+        return False
+
+def wait_for_csv_update(max_checks=12, sleep_seconds=10):
+    csv_path = _find_csv_path()
+    if not csv_path or not csv_path.exists(): return
+    old_mtime = csv_path.stat().st_mtime
+    with st.spinner("Waiting for new data…"):
+        for _ in range(max_checks):
+            time.sleep(sleep_seconds)
+            if csv_path.exists() and csv_path.stat().st_mtime != old_mtime:
+                st.success("Data updated — reloading!")
+                st.rerun()
+
+# ---- CSV path resolution ----
+def _find_csv_path() -> Path | None:
+    env = os.getenv("NFL_PROPS_CSV")
+    if env:
+        p = Path(env)
+        if p.exists():
+            return p
+
+    here = Path(__file__).resolve().parent
+    candidates = [
+        here / "nfl_player_props.csv",
+        here / "nfl" / "nfl_player_props.csv",
+        here.parent / "nfl_player_props.csv",
+        here.parent / "nfl" / "nfl_player_props.csv",
+        Path.cwd() / "nfl_player_props.csv",
+        Path.cwd() / "nfl" / "nfl_player_props.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+
+    try:
+        for p in here.rglob("nfl_player_props.csv"):
+            return p
+    except Exception:
+        pass
+    return None
+
+# ---- Centered refresh button ----
+btn_cols = st.columns([1, 1, 1])
+with btn_cols[1]:
+    if st.button("Refresh Odds", use_container_width=True):
+        if trigger_github_action():
+            wait_for_csv_update()
+
+# ---- Load per-book vig curves ----
+def _vig_path_default() -> Path:
     # NFL/app_nfl_pp.py -> repo root -> models/vig_curves.json
     return Path(__file__).resolve().parents[1] / "models" / "vig_curves.json"
 
-VIG_CURVES_PATH = os.getenv("VIG_CURVES_JSON", str(_default_vig_path()))
+VIG_CURVES_PATH = os.getenv("VIG_CURVES_JSON", str(_vig_path_default()))
 try:
     _VIG = json.loads(Path(VIG_CURVES_PATH).read_text())
 except Exception:
+    # Pooled fallback if file missing/unreadable
     _VIG = {"_pooled": {"a": 0.0, "b": 0.13, "c": 0.00033}}
-
-# ---------------------------
-# Helpers
-# ---------------------------
-def american_to_prob(o: float) -> float:
-    o = float(o)
-    return 100.0/(o+100.0) if o > 0 else abs(o)/(abs(o)+100.0)
-
-def prob_to_decimal(p: float) -> float:
-    return 1.0/p if (p and p > 0) else float("nan")
-
-def american_to_decimal(o: float) -> float:
-    o = float(o)
-    return 1.0 + (o/100.0) if o > 0 else 1.0 + (100.0/abs(o))
 
 def apply_vig_curve_per_book(o: float, book_name: str) -> float:
     """
-    Fallback only: approximate fair odds for a single-sided quote using this book's curve (or pooled).
-    Applies 10% floor of magnitude.
+    Approx fair odds for a single-sided quote using this book's vig curve (or pooled).
+    Applies 10% floor of |o| as requested.
     """
     entry = _VIG.get(book_name, _VIG.get("_pooled", {"a":0.0,"b":0.13,"c":0.00033}))
     a, b, c = float(entry["a"]), float(entry["b"]), float(entry["c"])
@@ -78,401 +157,226 @@ def apply_vig_curve_per_book(o: float, book_name: str) -> float:
     vig = max(vig, floor, 0.0)
     return (m + vig) if o >= 0 else -(m - vig)
 
-OU_RE = re.compile(r"\b(Over|Under)\b", re.I)
+def run_app(df: pd.DataFrame | None = None):
+    # Mobile toggle detection
+    qp = st.query_params
+    raw_mobile = qp.get("mobile", None)
+    auto_mobile = "1" in raw_mobile if isinstance(raw_mobile, list) else raw_mobile == "1"
 
-def normalize_market_key(market_key: str) -> str:
-    # User-friendly label
-    mk = (market_key or "").replace("_", " ").title()
-    return mk
-
-def selection_from_outcome_name(name: str) -> str:
-    s = (name or "").strip()
-    if s.lower() in ("over","under","yes","no"):
-        return s.title()
-    return s
-
-def compute_pair_midpoint(offered: float, opp: float) -> float:
-    """No-vig midpoint via probability normalization (handles -110/-110). Returns fair American for 'offered' side."""
-    p1 = american_to_prob(offered)
-    p2 = american_to_prob(opp)
-    denom = p1 + p2
-    if denom <= 0:
-        return None
-    p_true = p1 / denom
-    # back to American
-    if p_true == 0.5:
-        fair = 100.0
-    elif p_true < 0.5:
-        fair = (100.0 / p_true) - 100.0
-    else:
-        fair = - (100.0 * p_true) / (1.0 - p_true)
-    return fair if offered >= 0 else -abs(fair)
-
-def best_book_for_row(row: pd.Series, book_cols: list[str]) -> tuple[str, float]:
-    """Pick bettor-favorable price: max decimal payout."""
-    best_b, best_o, best_dec = None, None, -1.0
-    for b in book_cols:
-        v = row.get(b, None)
-        if v is None or (isinstance(v, float) and not math.isfinite(v)): 
-            continue
+    # Load DataFrame from CSV if none provided
+    if df is None:
+        csv_path = _find_csv_path()
+        if not csv_path or not csv_path.exists():
+            st.error("nfl_player_props.csv not found.")
+            return
         try:
-            o = float(v)
-            d = american_to_decimal(o)
-            if d > best_dec:
-                best_dec, best_b, best_o = d, b, o
-        except:
-            pass
-    return best_b, best_o
-
-# ---------------------------
-# The Odds API client
-# ---------------------------
-def fetch_player_props(markets: list[str], regions: str = DEFAULT_REGIONS, days_ahead: int = 2) -> list[dict]:
-    """
-    Pull upcoming NFL events with requested markets.
-    """
-    url = f"{BASE}/sports/{SPORT_KEY}/odds"
-    params = {
-        "apiKey": API_KEY,
-        "regions": regions,
-        "markets": ",".join(markets),
-        "oddsFormat": "american",
-        "dateFormat": "iso",
-    }
-    r = requests.get(url, params=params, timeout=30)
-    if r.status_code != 200:
-        st.error(f"Odds API error {r.status_code}: {r.text}")
-        st.stop()
-    return r.json()
-
-def flatten_to_rows(events_json: list[dict]) -> pd.DataFrame:
-    """
-    Build wide table: one row per (Event, Player/Participant, Market, Line, Selection),
-    columns per-book with the offered American odds.
-    """
-    rows = []
-    for ev in events_json:
-        event = f"{ev.get('away_team','')} @ {ev.get('home_team','')}".strip()
-        commence = ev.get("commence_time")
-        for bk in ev.get("bookmakers", []):
-            book = bk.get("title") or bk.get("key")
-            for m in bk.get("markets", []):
-                mkey = m.get("key") or ""
-                market_label = normalize_market_key(mkey)
-                for out in m.get("outcomes", []):
-                    sel = selection_from_outcome_name(out.get("name"))
-                    odds = out.get("price")
-                    # Player/participant & line where available
-                    player = out.get("description") or out.get("player") or ""
-                    line = out.get("point")
-                    # Only keep markets that are essentially two-sided (O/U or Yes/No or team-side props)
-                    if sel not in ("Over","Under","Yes","No"):
-                        # still include (e.g., team names), but pairing will rely on opposite name
-                        pass
-                    rows.append({
-                        "Event": event,
-                        "kickoff_et": commence,
-                        "Player": player,
-                        "Bet Type": market_label,
-                        "MarketKey": mkey,
-                        "Line": line,
-                        "Selection": sel,
-                        "Book": book,
-                        "Odds": odds
-                    })
-    if not rows:
-        return pd.DataFrame()
-
-    long_df = pd.DataFrame(rows)
-
-    # Build a composite key to pivot on
-    # For O/U props we need same Event+Player+Market+Line+Selection
-    long_df["Line"] = pd.to_numeric(long_df["Line"], errors="coerce")
-    key_cols = ["Event","Player","Bet Type","MarketKey","Line","Selection"]
-
-    # Pivot to wide: one column per book, values = Odds
-    wide = long_df.pivot_table(index=key_cols, columns="Book", values="Odds", aggfunc="first").reset_index()
-
-    # Keep a stable column order: identifiers first, then books alpha
-    id_cols = key_cols.copy()
-    book_cols = sorted([c for c in wide.columns if c not in id_cols])
-    wide = wide[id_cols + book_cols]
-    return wide
-
-# ---------------------------
-# Implied EV computation
-# ---------------------------
-def pair_midpoint_from_row_rowbook(wide_df: pd.DataFrame, row: pd.Series, book_col: str) -> float | None:
-    """Find the opposite side row for the same Event/Player/Market/Line and compute fair via probability normalization."""
-    event, player, mkt, mkey, line, sel = (row["Event"], row["Player"], row["Bet Type"], row["MarketKey"], row["Line"], row["Selection"])
-    # determine opposite selection for common binary markets
-    opp_sel = None
-    s = str(sel).lower()
-    if s == "over": opp_sel = "Under"
-    elif s == "under": opp_sel = "Over"
-    elif s == "yes": opp_sel = "No"
-    elif s == "no": opp_sel = "Yes"
+            df = pd.read_csv(csv_path)
+            df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
+            df = df.dropna(axis=1, how="all")
+            # "Last updated" in US/Eastern
+            ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
+            eastern = ts.astimezone(pytz.timezone('US/Eastern')).strftime("%Y-%m-%d %I:%M %p %Z")
+            st.caption(f"Odds last updated: {eastern}")
+        except Exception as e:
+            st.error(f"Error loading CSV: {e}")
+            return
     else:
-        # try no pairing for non-binary labels (team vs team props would need richer logic)
-        return None
+        st.caption("Odds loaded from memory.")
 
-    mask = (
-        (wide_df["Event"]==event) &
-        (wide_df["Player"]==player) &
-        (wide_df["Bet Type"]==mkt) &
-        (wide_df["MarketKey"]==mkey) &
-        (pd.to_numeric(wide_df["Line"], errors="coerce")==pd.to_numeric(line)) &
-        (wide_df["Selection"]==opp_sel)
-    )
-    opp_rows = wide_df.loc[mask]
-    if opp_rows.empty: 
-        return None
-    try:
-        offered = float(row[book_col])
-        opp = float(opp_rows.iloc[0][book_col])
-    except Exception:
-        return None
-    if not (math.isfinite(offered) and math.isfinite(opp)):
-        return None
-    return compute_pair_midpoint(offered, opp)
+    if df.empty:
+        st.warning("No data to display.")
+        return
 
-def compute_implied_ev_for_board(wide: pd.DataFrame) -> pd.DataFrame:
-    """Add # Books, Best Book, Best Odds, Line vs. Average (%), and Implied EV (%)."""
-    # Identify sportsbook columns
-    fixed = {"Event","Player","Bet Type","MarketKey","Line","Selection"}
-    book_cols = [c for c in wide.columns if c not in fixed]
+    # --- Normalize column names ---
+    df = df.rename(columns={
+        "event": "Event",
+        "player": "Player",
+        "group": "Bet Type",
+        "threshold": "Alt Line",
+        "best_book": "Best Book",
+        "best_odds": "Best Odds",
+        "value_ratio": "Line vs. Average",
+    })
+    if "Bet Type" in df.columns:
+        df["Bet Type"] = df["Bet Type"].astype(str).str.strip()
 
-    # #Books posting this exact row
-    def _valid(v): 
-        return pd.notna(v) and str(v).strip() != ""
-    wide["# Books"] = wide[book_cols].apply(lambda r: sum(_valid(x) for x in r.values), axis=1)
+    # Detect sportsbook columns dynamically
+    fixed_cols_raw = {
+        "Event","Player","Bet Type","Alt Line","Best Book","Best Odds",
+        "Line vs. Average","best_decimal","avg_other"
+    }
+    book_cols = [c for c in df.columns if c not in fixed_cols_raw and not str(c).startswith("Unnamed")]
 
-    # Best book & odds
-    bb_data = wide.apply(lambda r: best_book_for_row(r, book_cols), axis=1, result_type="expand")
-    wide["Best Book"] = bb_data[0]
-    wide["Best Odds"] = bb_data[1]
+    # Count # books posting
+    def _is_valid_num(v): return pd.notnull(v) and str(v).strip() != ""
+    df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1)
 
-    # Line vs. Average (%) — legacy visual (decimal ratio - 1)
-    def line_vs_avg(row):
-        vals = []
-        for b in book_cols:
-            v = row.get(b, None)
-            if pd.notna(v) and str(v).strip()!="":
-                try:
-                    vals.append(american_to_decimal(float(v)))
-                except:
-                    pass
-        if not vals:
+    # Sidebar filters
+    with st.sidebar:
+        st.header("Filters")
+        evs = ["All"] + sorted(df["Event"].dropna().unique()) if "Event" in df.columns else ["All"]
+        sel_event = st.selectbox("Event", evs, 0)
+        bets = ["All"] + sorted(df["Bet Type"].dropna().unique()) if "Bet Type" in df.columns else ["All"]
+        sel_bet = st.selectbox("Bet Type", bets, 0)
+        books = ["All"] + sorted(df["Best Book"].dropna().unique()) if "Best Book" in df.columns else ["All"]
+        sel_book = st.selectbox("Best Book", books, 0)
+        min_books = st.number_input("Min. books posting this line", 1, 20, 4, 1)
+        compact_mobile = st.toggle("Compact mobile mode", value=bool(auto_mobile))
+
+    # Apply filters
+    if sel_event != "All": df = df[df["Event"] == sel_event]
+    if sel_bet != "All": df = df[df["Bet Type"].astype(str).str.strip() == sel_bet]
+    if sel_book != "All": df = df[df["Best Book"] == sel_book]
+    df = df[df["# Books"] >= int(min_books)]
+
+    # Format sportsbook odds as American strings
+    def to_american(x):
+        try:
+            x = int(float(x))
+            return f"+{x}" if x > 0 else str(x)
+        except Exception:
+            return ""
+    for col in book_cols:
+        df[col] = df[col].apply(to_american)
+    if "Best Odds" in df.columns:
+        df["Best Odds"] = df["Best Odds"].apply(to_american)
+
+    # Convert Line vs. Average to %
+    df["Line vs. Average"] = pd.to_numeric(df.get("Line vs. Average"), errors="coerce")
+    df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0
+
+    # ---------- Implied EV Calculation (book-specific curve + 10% floor) ----------
+    def american_to_prob(o):
+        try:
+            o = float(o)
+            return 100/(o+100) if o>0 else abs(o)/(abs(o)+100)
+        except Exception:
             return float("nan")
-        best_dec = american_to_decimal(float(row.get("Best Odds")))
-        avg_dec = sum(vals)/len(vals)
-        return best_dec/avg_dec
-    wide["Line vs. Average"] = wide.apply(line_vs_avg, axis=1)
-    wide["Line vs. Average (%)]"] = (wide["Line vs. Average"] - 1.0) * 100.0
 
-    # Implied EV (%)
-    def implied_ev_row(row: pd.Series) -> float:
+    def prob_to_decimal(p):
+        return 1/p if p and p>0 else float("nan")
+
+    def calc_implied_ev(row):
         try:
             best_odds = float(row.get("Best Odds", float("nan")))
+            if not math.isfinite(best_odds):
+                return float("nan")
             best_book = row.get("Best Book")
-            if not best_book or not math.isfinite(best_odds):
+
+            others = []
+            for col in book_cols:
+                if col == best_book:  # do NOT vig-adjust the best line
+                    continue
+                v = row.get(col, None)
+                try:
+                    if pd.notna(v) and str(v).strip() != "":
+                        others.append((col, float(v)))  # keep the book name with the odds
+                except Exception:
+                    pass
+            if not others:
                 return float("nan")
 
-            # Build fair probs from other books
+            # book-specific vig-adjust of other books -> fair odds -> probs
             fair_probs = []
-            for b in book_cols:
-                if b == best_book: 
-                    continue
-                v = row.get(b, None)
-                if v is None or (isinstance(v, float) and not math.isfinite(v)): 
-                    continue
-                try:
-                    offered = float(v)
-                except:
-                    continue
-
-                # Pair-first within same book if possible
-                fair_american = pair_midpoint_from_row_rowbook(wide, row, b)
-                if fair_american is None:
-                    # Fallback: per-book vig curve
-                    fair_american = apply_vig_curve_per_book(offered, b)
-
-                p = american_to_prob(fair_american)
+            for book_name, o in others:
+                fair = apply_vig_curve_per_book(o, book_name)
+                p = american_to_prob(fair)
                 if math.isfinite(p) and p > 0:
                     fair_probs.append(p)
-
             if not fair_probs:
                 return float("nan")
 
             avg_prob = sum(fair_probs) / len(fair_probs)
             true_decimal = prob_to_decimal(avg_prob)
-            best_dec = american_to_decimal(best_odds)
-            if not (math.isfinite(true_decimal) and math.isfinite(best_dec)):
+
+            best_decimal = prob_to_decimal(american_to_prob(best_odds))
+            if not (math.isfinite(best_decimal) and math.isfinite(true_decimal)):
                 return float("nan")
-            return (best_dec / true_decimal - 1.0) * 100.0
+
+            return (best_decimal / true_decimal - 1) * 100.0
         except Exception:
             return float("nan")
 
-    wide["Implied EV (%)"] = wide.apply(implied_ev_row, axis=1)
-    return wide
+    df["Implied EV (%)"] = df.apply(calc_implied_ev, axis=1)
 
-# ---------------------------
-# UI bootstrap (mobile)
-# ---------------------------
-components.html("""
-<script>
-  const w=Math.min(window.innerWidth||9999,screen.width||9999);
-  const isMobile=w<800;
-  try{
-    const url=new URL(window.location);
-    if(isMobile) url.searchParams.set('mobile','1');
-    else url.searchParams.delete('mobile');
-    window.history.replaceState({},'',url);
-  }catch(e){}
-</script>
-""", height=0)
+    # ---------- Build render dataframe ----------
+    base_cols = ["Event", "Player", "Bet Type", "Alt Line"]
+    is_mobile = bool(auto_mobile or compact_mobile)
 
-try:
-    st.session_state.setdefault("_awaited_mobile_param_nfl_live", False)
-    if not st.session_state["_awaited_mobile_param_nfl_live"]:
-        st.session_state["_awaited_mobile_param_nfl_live"] = True
-        st.autorefresh(interval=250, limit=1, key="await_mobile_param_nfl_live")
-except Exception:
-    pass
+    # keep Best Book visible so we can shade the winning sportsbook cell
+    if sel_book != "All" and is_mobile:
+        show_cols = [sel_book] if sel_book in book_cols else []
+    else:
+        show_cols = book_cols.copy()
 
-# ---------------------------
-# App
-# ---------------------------
-st.markdown("""
-<h1 style='text-align:center; font-size:42px;'>NFL — Player Props</h1>
-<p style='text-align:center; color:gray; font-size:18px;'>
-Live odds → Pair-first fair pricing → Per-book vig curves (fallback)
-</p>
-""", unsafe_allow_html=True)
+    hidden = {"# Books", "Best Odds"}  # hide Best Odds from display
+    cols = base_cols + show_cols + ["Best Book", "Line vs. Average (%)", "Implied EV (%)"]
+    cols = [c for c in cols if c in df.columns and c not in hidden]
+    render_df = df[cols].copy()
 
-with st.sidebar:
-    st.header("Fetch Settings")
-    regions = st.text_input("Regions", value=DEFAULT_REGIONS, help="Comma-separated (e.g., us,us2)")
-    markets = st.text_area("Markets (comma-separated)", value=",".join(DEFAULT_MARKETS))
-    st.caption("Tip: keep to O/U style markets for best pairing; Yes/No also supported.")
+    # Compact cosmetics
+    def _shorten(x, maxlen=18):
+        s = str(x)
+        return (s[:maxlen-1] + "…") if len(s) > maxlen else s
+    if is_mobile:
+        if "Event" in render_df:  render_df["Event"]  = render_df["Event"].apply(lambda s: _shorten(s, 18))
+        if "Player" in render_df: render_df["Player"] = render_df["Player"].apply(lambda s: _shorten(s, 16))
 
-    st.header("Display Filters")
-    compact_mobile = st.toggle("Compact mobile mode", value=("1" in (st.query_params.get("mobile", ["0"]))))
+    # Sort by Implied EV
+    render_df = render_df.sort_values(by=["Implied EV (%)"], ascending=False, na_position="last")
 
-# Fetch button
-fetch_col = st.columns([1,1,1])[1]
-with fetch_col:
-    if st.button("Refresh Odds", use_container_width=True):
-        st.experimental_rerun()
-
-# Always fetch on load/rerun (idempotent enough)
-with st.spinner("Pulling live NFL player props…"):
-    events = fetch_player_props([m.strip() for m in markets.split(",") if m.strip()], regions.strip() or DEFAULT_REGIONS)
-    wide = flatten_to_rows(events)
-
-if wide.empty:
-    st.warning("No odds returned. Try adjusting markets/regions or retry shortly.")
-    st.stop()
-
-# Compute board metrics (Best Book, Line vs Avg, Implied EV)
-wide = compute_implied_ev_for_board(wide)
-
-# Sidebar filters for the resulting table
-with st.sidebar:
-    events_list = ["All"] + sorted(wide["Event"].dropna().unique().tolist())
-    players_list = ["All"] + sorted(wide["Player"].dropna().unique().tolist())
-    markets_list = ["All"] + sorted(wide["Bet Type"].dropna().unique().tolist())
-    bestbooks_list = ["All"] + sorted(wide["Best Book"].dropna().unique().tolist())
-    min_books = st.number_input("Min. books posting this line", 1, 20, 2, 1)
-
-    sel_event = st.selectbox("Game", events_list, 0)
-    sel_player = st.selectbox("Player", players_list, 0)
-    sel_market = st.selectbox("Market", markets_list, 0)
-    sel_bestbook = st.selectbox("Best Book", bestbooks_list, 0)
-
-# Apply filters
-df = wide.copy()
-if sel_event != "All": df = df[df["Event"]==sel_event]
-if sel_player != "All": df = df[df["Player"]==sel_player]
-if sel_market != "All": df = df[df["Bet Type"]==sel_market]
-if sel_bestbook != "All": df = df[df["Best Book"]==sel_bestbook]
-df = df[df["# Books"] >= int(min_books)]
-
-# Build column set for display
-fixed = {"Event","Player","Bet Type","MarketKey","Line","Selection","Best Book","Best Odds","# Books",
-         "Line vs. Average","Line vs. Average (%)]","Implied EV (%)"}
-book_cols = [c for c in df.columns if c not in fixed]
-base_cols = ["Event","Player","Bet Type","Line","Selection"]
-
-# “Best cell” highlight uses the raw book columns; format them to +/-
-def fmt_american_cell(x):
-    try:
-        x = float(x)
-        xi = int(x)
-        return f"+{xi}" if xi > 0 else str(xi)
-    except:
-        return ""
-
-for c in book_cols:
-    df[c] = df[c].apply(fmt_american_cell)
-df["Best Odds"] = df["Best Odds"].apply(fmt_american_cell)
-
-# Mobile sizing tweaks
-is_mobile = bool(compact_mobile)
-def _shorten(s, maxlen):
-    s = str(s)
-    return (s[:maxlen-1]+"…") if len(s)>maxlen else s
-
-if is_mobile:
-    for c, maxlen in [("Event",22),("Player",18),("Selection",16)]:
-        if c in df.columns:
-            df[c] = df[c].apply(lambda s: _shorten(s, maxlen))
-
-# Assemble final render
-show_cols = base_cols + book_cols + ["Best Book","Implied EV (%)","Line vs. Average (%)]","# Books"]
-df = df[show_cols].copy()
-df = df.sort_values(by=["Implied EV (%)"], ascending=False, na_position="last")
-
-# Styling: shade Implied EV green and also shade the Best Book cell in that row
-def _ev_green(val):
-    try: v=float(val)
-    except: return ""
-    if not math.isfinite(v) or v<=0: return ""
-    cap=20.0; alpha=0.15+0.8*min(v/cap,1.0)
-    return f"background-color: rgba(34,139,34,{alpha}); font-weight:600;"
-
-def _shade_best_book(row):
-    styles=[""]*len(row)
-    bb=row.get("Best Book","")
-    shade=_ev_green(row.get("Implied EV (%)",0))
-    if bb and bb in row.index:
+    # ---------- Styling ----------
+    def _ev_green(val):
         try:
-            idx=list(row.index).index(bb)
-            styles[idx]=shade
-        except:
-            pass
-    return styles
+            v = float(val)
+        except Exception:
+            return ""
+        if not math.isfinite(v) or v <= 0:
+            return ""
+        cap = 20.0
+        alpha = 0.15 + 0.8 * min(v / cap, 1.0)
+        return f"background-color: rgba(34,139,34,{alpha}); font-weight: 600;"
 
-st.markdown("""
-<style>
-  [data-testid="stDataFrame"] * {font-size:0.92rem;}
-</style>
-""", unsafe_allow_html=True)
+    def _shade_best_book(row):
+        styles = [""] * len(row)
+        bb = row.get("Best Book", "")
+        shade = _ev_green(row.get("Implied EV (%)", 0))
+        if bb and bb in row.index:
+            try:
+                idx = list(row.index).index(bb)
+                styles[idx] = shade
+            except Exception:
+                pass
+        return styles
 
-styled = df.style
-styled = styled.applymap(_ev_green, subset=["Implied EV (%)"])
-styled = styled.apply(_shade_best_book, axis=1)
-styled = styled.format({
-    "Line vs. Average (%)]": "{:.1f}%",
-    "Implied EV (%)": "{:.1f}%"
-})
-styled = styled.set_table_styles([{
-    'selector':'th',
-    'props':[('font-weight','bold'),
-             ('text-align','center'),
-             ('font-size','16px'),
-             ('background-color','#003366'),
-             ('color','white')]
-}])
+    # Mobile font-size tweak
+    if is_mobile:
+        st.markdown("""
+        <style>
+          [data-testid="stDataFrame"] * {font-size:0.92rem!important;}
+          .stDataFrame tbody tr td:nth-child(1),
+          .stDataFrame thead tr th:nth-child(1),
+          .stDataFrame tbody tr td:nth-child(2),
+          .stDataFrame thead tr th:nth-child(2){
+            max-width:140px!important;white-space:nowrap!important;
+            text-overflow:ellipsis!important;overflow:hidden!important;}
+        </style>""", unsafe_allow_html=True)
 
-st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+    styled = render_df.style
+    styled = styled.applymap(_ev_green, subset=["Implied EV (%)"])
+    styled = styled.apply(_shade_best_book, axis=1)
+    styled = styled.format({
+        "Line vs. Average (%)": "{:.1f}%",
+        "Implied EV (%)": "{:.1f}%"
+    })
+    styled = styled.set_table_styles([{
+        'selector': 'th',
+        'props': [('font-weight','bold'),('text-align','center'),
+                  ('font-size','16px'),('background-color','#003366'),('color','white')]
+    }])
+
+    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+
+# Run if executed directly
+if __name__ == "__main__":
+    run_app()
