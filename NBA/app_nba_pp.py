@@ -8,6 +8,7 @@ import requests
 import time
 import math
 import streamlit.components.v1 as components
+import json  # <-- added
 
 st.set_page_config(page_title="The Tail Wing - NBA Player Props (Free Board)", layout="wide")
 
@@ -122,6 +123,31 @@ def to_american(x):
     except Exception:
         return ""
 
+# ---------- Load per-book vig curves (same approach as NFL) ----------
+def _vig_path_default() -> Path:
+    # NBA/app_nba_pp.py -> repo root -> models/vig_curves.json
+    return Path(__file__).resolve().parents[1] / "models" / "vig_curves.json"
+
+VIG_CURVES_PATH = os.getenv("VIG_CURVES_JSON", str(_vig_path_default()))
+try:
+    _VIG = json.loads(Path(VIG_CURVES_PATH).read_text())
+except Exception:
+    # Pooled fallback if file missing/unreadable
+    _VIG = {"_pooled": {"a": 0.0, "b": 0.13, "c": 0.00033}}
+
+def apply_vig_curve_per_book(o: float, book_name: str) -> float:
+    """
+    Approx fair odds for a single-sided quote using this book's vig curve (or pooled).
+    Applies 10% floor of |o|.
+    """
+    entry = _VIG.get(book_name, _VIG.get("_pooled", {"a":0.0,"b":0.13,"c":0.00033}))
+    a, b, c = float(entry["a"]), float(entry["b"]), float(entry["c"])
+    m = abs(o)
+    vig = a + b*m + c*(m**2)
+    floor = 0.10 * m
+    vig = max(vig, floor, 0.0)
+    return (m + vig) if o >= 0 else -(m - vig)
+
 # ---------- Refresh button ----------
 btn_cols = st.columns([1,1,1])
 with btn_cols[1]:
@@ -186,7 +212,7 @@ def run_app(df: pd.DataFrame | None = None):
     df["Line vs. Average"]=pd.to_numeric(df["Line vs. Average"],errors="coerce")
     df["Line vs. Average (%)"]=(df["Line vs. Average"]-1.0)*100.0
 
-    # ---------- Implied EV Calculation ----------
+    # ---------- Implied EV Calculation (book-specific curve + 10% floor) ----------
     def american_to_prob(o):
         try:
             o=float(o)
@@ -194,41 +220,48 @@ def run_app(df: pd.DataFrame | None = None):
         except Exception:
             return float("nan")
 
-    def prob_to_decimal(p): return 1/p if p>0 else float("nan")
-
-    A,B,C=-33.854,0.3313,0.0001
-    def apply_vig_curve(o):
-        m=abs(o)
-        vig=max(A+B*m+C*m**2,0.1*m)
-        return m+vig if o>=0 else -(m-vig)
+    def prob_to_decimal(p): return 1/p if (p and p>0) else float("nan")
 
     def calc_implied_ev(row):
         try:
             best_odds=float(row.get("Best Odds",float("nan")))
             if not math.isfinite(best_odds): return float("nan")
             best_book=row.get("Best Book")
+
             others=[]
             for col in book_cols:
-                if col==best_book: continue
+                if col==best_book:  # do NOT vig-adjust the best line
+                    continue
                 v=row.get(col,None)
                 try:
-                    if pd.notna(v) and str(v).strip()!="": others.append(float(v))
-                except: pass
+                    if pd.notna(v) and str(v).strip()!="":
+                        others.append((col, float(v)))  # keep (book_name, odds)
+                except Exception:
+                    pass
             if not others: return float("nan")
+
+            # book-specific vig-adjust of other books -> fair odds -> probs
             fair_probs=[]
-            for o in others:
-                fair_american=apply_vig_curve(o)
+            for book_name, o in others:
+                fair_american=apply_vig_curve_per_book(o, book_name)
                 p=american_to_prob(fair_american)
-                if math.isfinite(p) and p>0: fair_probs.append(p)
+                if math.isfinite(p) and p>0:
+                    fair_probs.append(p)
             if not fair_probs: return float("nan")
+
             avg_prob=sum(fair_probs)/len(fair_probs)
             true_decimal=prob_to_decimal(avg_prob)
+
             best_decimal=prob_to_decimal(american_to_prob(best_odds))
-            return (best_decimal/true_decimal-1)*100
+            if not (math.isfinite(best_decimal) and math.isfinite(true_decimal)):
+                return float("nan")
+
+            return (best_decimal/true_decimal-1)*100.0
         except Exception:
             return float("nan")
 
     df["Implied EV (%)"]=df.apply(calc_implied_ev,axis=1)
+
     base_cols=["Event","Player","Bet Type","Alt Line"]
     is_mobile=bool(auto_mobile or compact_mobile)
 
@@ -237,16 +270,16 @@ def run_app(df: pd.DataFrame | None = None):
         show_cols = [sel_book] if sel_book in book_cols else []
     else:
         show_cols = book_cols.copy()
-    
+
     hidden = {"# Books", "Best Odds"}  # <-- do NOT hide "Best Book"
-    
+
     cols = ["Event","Player","Bet Type","Alt Line"] + show_cols + [
-        "Best Book",                # <-- include
+        "Best Book",
         "Line vs. Average (%)",
         "Implied EV (%)"
     ]
     cols = [c for c in cols if c in df.columns and c not in hidden]
-    
+
     render_df = df[cols].copy()
 
     # Compact cosmetics
