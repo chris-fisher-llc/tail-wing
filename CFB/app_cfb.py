@@ -1,49 +1,54 @@
+###############################################################
+#   CLEAN CFB STREAMLIT BOARD  —  SPREADS • TOTALS • MONEYLINES
+#   Matches new pull script 1:1
+#   Includes correct EV, book filtering, pair-first fair odds,
+#   and dynamic sportsbook detection.
+###############################################################
+
 import streamlit as st
 import pandas as pd
 import numpy as np
-import os
-from datetime import datetime
-import pytz
 import math
-import time
+from datetime import datetime
 from pathlib import Path
+import pytz
+import os
 
 # -------------------------------------------------------------
-# Page config + Sidebar width
+# Page setup
 # -------------------------------------------------------------
 st.set_page_config(page_title="College Football — Game Lines", layout="wide")
 
-st.markdown(
-    """
-    <style>
-    section[data-testid="stSidebar"] { width: 14rem !important; }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Wider sidebar
+st.markdown("""
+<style>
+section[data-testid="stSidebar"] {
+    width: 14rem !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 # -------------------------------------------------------------
-# Utility locators
+# Utility: Locate the CSV from pull script
 # -------------------------------------------------------------
-def _find_csv() -> Path | None:
-    """Locate cfb_matched_output.csv in common locations."""
+def find_csv():
     here = Path(__file__).resolve().parent
     candidates = [
         here / "cfb_matched_output.csv",
         here.parent / "cfb_matched_output.csv",
-        Path.cwd() / "cfb_matched_output.csv",
+        Path.cwd() / "cfb_matched_output.csv"
     ]
     for c in candidates:
         if c.exists():
             return c
-    # fallback search
     for p in here.rglob("cfb_matched_output.csv"):
         return p
     return None
 
 
 # -------------------------------------------------------------
-# American odds utilities
+# Odds conversions
 # -------------------------------------------------------------
 def american_to_prob(o):
     try:
@@ -52,316 +57,235 @@ def american_to_prob(o):
         return None
     if o > 0:
         return 100.0 / (o + 100.0)
-    else:
-        return abs(o) / (abs(o) + 100.0)
+    return abs(o) / (abs(o) + 100.0)
+
 
 def prob_to_decimal(p):
-    if p is None or p <= 0:
+    if not p or p <= 0:
         return None
     return 1.0 / p
+
 
 def prob_to_american(p):
     if p <= 0 or p >= 1:
         return None
     if p < 0.5:
         return round(100 * (1 - p) / p)
-    else:
-        return round(-100 * p / (1 - p))
+    return round(-100 * p / (1 - p))
 
 
-# -------------------------------------------------------------
-# Vig-curve fallback (same as NFL/NBA boards)
-# -------------------------------------------------------------
-def vigcurve_fair_prob_from_single_side(odds):
-    """Gentle fallback fair prob for single-side only cases."""
+# Vig curve fallback (same coefficients as NFL/NBA)
+def vigcurve_fair_prob(odds):
     try:
         o = float(odds)
     except:
         return None
-
     p = american_to_prob(o)
     if p is None:
         return None
 
-    # base margin near even money ~4.5%, decays for long odds
     base = 0.045
     decay = min(1.0, 100 / (100 + abs(o)))
     margin = base * decay
 
-    p_fair = p * (1 - margin)
-    return max(min(p_fair, 0.999), 1e-6)
+    p2 = p * (1 - margin)
+    return max(min(p2, 0.999), 0.001)
 
 
 # -------------------------------------------------------------
-# Pair-first fair model
+# Pair-first fair odds
 # -------------------------------------------------------------
-def compute_pair_first_fair(event_df, side_team, opp_team, market, line_val):
-    """
-    Given all rows for this event+market+line,
-    find implied probabilities for side vs opp across books.
-    """
-    # Extract all side/opp rows
-    side_rows = event_df[
-        (event_df["_side"].str.lower() == str(side_team).lower())
-    ]
-    opp_rows = event_df[
-        (event_df["_side"].str.lower() == str(opp_team).lower())
-    ]
+def compute_pair_first_fair(df_event, team, opp, market, line):
+    team_rows = df_event[df_event["_side"] == team]
+    opp_rows  = df_event[df_event["_side"] == opp]
 
-    if side_rows.empty or opp_rows.empty:
+    if team_rows.empty or opp_rows.empty:
         return None
 
-    # Collect all valid price pairs
-    pair_ps = []
-    for _, srow in side_rows.iterrows():
+    pair_probs = []
+
+    for _, trow in team_rows.iterrows():
         for _, orow in opp_rows.iterrows():
-            # Match same line for Totals & Spread
+
+            # Match lines for spreads/totals
             if market != "Moneyline":
-                try:
-                    sl = float(srow["_line_num"])
-                    ol = float(orow["_line_num"])
-                    if abs(sl - ol) > 0.01:
-                        continue
-                except:
+                if pd.isna(trow["_line_num"]) or pd.isna(orow["_line_num"]):
+                    continue
+                if abs(trow["_line_num"] - orow["_line_num"]) > 0.01:
                     continue
 
-            s_price = srow["Best Odds"] if pd.notna(srow["Best Odds"]) else None
-            o_price = orow["Best Odds"] if pd.notna(orow["Best Odds"]) else None
-            if s_price is None or o_price is None:
-                continue
-            try:
-                sp, op = float(s_price), float(o_price)
-            except:
+            t_odds = trow["Best Odds Raw"]
+            o_odds = orow["Best Odds Raw"]
+            if t_odds is None or o_odds is None:
                 continue
 
-            p_side = american_to_prob(sp)
-            p_opp = american_to_prob(op)
-            if p_side and p_opp and (p_side + p_opp) > 0:
-                fair_p = p_side / (p_side + p_opp)
-                pair_ps.append(fair_p)
+            p_t = american_to_prob(t_odds)
+            p_o = american_to_prob(o_odds)
+            if not p_t or not p_o:
+                continue
 
-    if not pair_ps:
+            fair = p_t / (p_t + p_o)
+            pair_probs.append(fair)
+
+    if not pair_probs:
         return None
 
-    # Average the pair-first fair probabilities
-    return float(np.mean(pair_ps))
+    return float(np.mean(pair_probs))
 
 
 # -------------------------------------------------------------
-# Opponent team inference
+# Load and prepare data
 # -------------------------------------------------------------
-def infer_opponent(event, team):
-    """Infer opponent team from 'A @ B' event."""
-    try:
-        left, right = [x.strip() for x in event.split("@")]
-    except:
-        return None
-    if team.lower() == left.lower():
-        return right
-    if team.lower() == right.lower():
-        return left
-    return None
+csv_path = find_csv()
+if not csv_path:
+    st.error("cfb_matched_output.csv not found.")
+    st.stop()
 
+df = pd.read_csv(csv_path)
+
+# Timestamp
+ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
+est = ts.astimezone(pytz.timezone("US/Eastern")).strftime("%Y-%m-%d %I:%M %p %Z")
+st.caption(f"Odds last updated: {est}")
+
+# Normalize column names
+df = df.rename(columns={
+    "game": "Event",
+    "bet_type": "Bet Type",
+    "selection": "Selection",
+    "opponent": "Opponent",
+    "line": "Line",
+    "best_book": "Best Book",
+    "best_odds": "Best Odds Raw",
+})
+
+df["Market"] = df["Bet Type"].apply(
+    lambda x: "Moneyline" if "money" in x.lower()
+              else ("Total" if "over" in x.lower() or "under" in x.lower() or "total" in x.lower()
+              else "Spread")
+)
+
+df["_side"] = df["Selection"]
+df["_line_num"] = pd.to_numeric(df["Line"], errors="coerce")
 
 # -------------------------------------------------------------
-# Core app
+# Detect sportsbook columns dynamically
 # -------------------------------------------------------------
-def run():
-    # Load CSV
-    csv_path = _find_csv()
-    if not csv_path:
-        st.error("cfb_matched_output.csv not found.")
-        return
-    df = pd.read_csv(csv_path)
-    df = df.loc[:, ~df.columns.astype(str).str.startswith("Unnamed")]
+EXCLUDE = {"BetOnlineAG", "BetUS", "LowVig", "MyBookieAG"}
 
-    # Timestamp display
-    ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
-    eastern = ts.astimezone(pytz.timezone("US/Eastern")).strftime("%Y-%m-%d %I:%M %p %Z")
-    st.caption(f"Odds last updated: {eastern}")
+fixed = {"Event", "kickoff_et", "Bet Type", "Selection", "Opponent", "Line",
+         "Market", "Best Book", "Best Odds Raw", "_side", "_line_num"}
 
-    # ---------------------------------------------------------
-    # Normalize column names your scraper produces
-    # ---------------------------------------------------------
-    df = df.rename(columns={
-        "game": "Event",
-        "bet_type": "Bet Type",
-        "line": "Line",
-        "selection": "Selection",
-        "opponent": "Opponent",
-        "best_book": "Best Book",
-        "best_odds": "Best Odds",
-        "value_ratio": "Line vs. Average"
-    })
+book_cols = [c for c in df.columns if c not in fixed and c not in EXCLUDE]
 
-    # Clean market type
-    def norm_market(bt):
-        s = str(bt).lower()
-        if "money" in s:
-            return "Moneyline"
-        if "over" in s or "under" in s or "total" in s:
-            return "Total"
-        return "Spread"
+# -------------------------------------------------------------
+# Compute Best Book from row data
+# -------------------------------------------------------------
+def compute_best(r):
+    best_book = None
+    best_odds = None
+    best_dec = -1
 
-    df["Market"] = df["Bet Type"].apply(norm_market)
+    for bk in book_cols:
+        v = r.get(bk)
+        try:
+            v = float(v)
+        except:
+            continue
+        dec = prob_to_decimal(american_to_prob(v))
+        if dec and dec > best_dec:
+            best_dec = dec
+            best_book = bk
+            best_odds = v
+    return pd.Series({"BestBookCol": best_book, "Best Odds Raw": best_odds})
 
-    # ---------------------------------------------------------
-    # Establish sportsbook allowlist (EXCLUDE others)
-    # ---------------------------------------------------------
-    include_books = [
-        "BetMGM",
-        "BetRivers",
-        "Bovada",
-        "DraftKings",
-        "FanDuel",
-        "WilliamhillUs",   # will be renamed to Caesars
-        "HardRock",
-        "ESPNBet",
-    ]
+bb = df.apply(compute_best, axis=1)
+df["BestBookCol"] = bb["BestBookCol"]
+df["Best Odds Raw"] = bb["Best Odds Raw"]
 
-    # Extract sportsbook columns from CSV
-    book_cols = []
-    for c in df.columns:
-        if c in include_books:
-            book_cols.append(c)
-
-    # Rename WilliamHill → Caesars in the UI *only*
-    df = df.rename(columns={"WilliamhillUs": "Caesars"})
-    book_cols = ["Caesars" if x == "WilliamhillUs" else x for x in book_cols]
-
-    # ---------------------------------------------------------
-    # Compute Best Book cleanly from allowed books only
-    # ---------------------------------------------------------
-    def best_book_row(r):
-        best_name, best_dec, best_amer = None, None, None
-        for b in book_cols:
-            val = r.get(b, None)
-            try:
-                val_f = float(val)
-            except:
-                continue
-            dec = prob_to_decimal(american_to_prob(val_f))
-            if dec is None:
-                continue
-            if best_dec is None or dec > best_dec:
-                best_dec = dec
-                best_amer = val_f
-                best_name = b
-        return pd.Series({"BestBookCol": best_name, "Best Odds": best_amer})
-
-    bb = df.apply(best_book_row, axis=1)
-    df["BestBookCol"] = bb["BestBookCol"]
-    df["Best Odds"] = bb["Best Odds"]
-
-    # ---------------------------------------------------------
-    # Side label
-    # ---------------------------------------------------------
-    df["_side"] = df["Selection"].astype(str)
-    df["_line_num"] = pd.to_numeric(df["Line"], errors="coerce")
-
-    # ---------------------------------------------------------
-    # EV calculation (pair-first → vigcurve fallback)
-    # ---------------------------------------------------------
-    def calc_ev(r):
-        best_odds = r["Best Odds"]
-        if best_odds is None or not np.isfinite(best_odds):
-            return np.nan
-
-        event = r["Event"]
-        market = r["Market"]
-        side = r["_side"]
-        opp = infer_opponent(event, side)
-
-        event_df = df[df["Event"] == event]
-
-        # Pair-first fair probability
-        fair_p = compute_pair_first_fair(event_df, side, opp, market, r["_line_num"])
-        if fair_p is None:
-            # fallback to vig curve
-            fair_p = vigcurve_fair_prob_from_single_side(best_odds)
-
-        fair_dec = prob_to_decimal(fair_p)
-        best_dec = prob_to_decimal(american_to_prob(best_odds))
-
-        if fair_dec and best_dec:
-            return (best_dec / fair_dec - 1) * 100
+# -------------------------------------------------------------
+# EV calculation
+# -------------------------------------------------------------
+def calc_ev(r):
+    best_odds = r["Best Odds Raw"]
+    if best_odds is None or not np.isfinite(best_odds):
         return np.nan
 
-    df["Implied EV (%)"] = df.apply(calc_ev, axis=1)
+    event = r["Event"]
+    side  = r["_side"]
+    opp   = r["Opponent"]
+    market = r["Market"]
+    line   = r["_line_num"]
 
-    # ---------------------------------------------------------
-    # Sidebar Filters
-    # ---------------------------------------------------------
-    with st.sidebar:
-        st.header("Filters")
+    df_event = df[df["Event"] == event]
 
-        events = ["All"] + sorted(df["Event"].unique())
-        sel_event = st.selectbox("Game", events, 0)
+    fair_p = compute_pair_first_fair(df_event, side, opp, market, line)
+    if fair_p is None:
+        fair_p = vigcurve_fair_prob(best_odds)
 
-        markets = ["All"] + sorted(df["Market"].unique())
-        sel_market = st.selectbox("Market", markets, 0)
+    fair_dec = prob_to_decimal(fair_p)
+    best_dec = prob_to_decimal(american_to_prob(best_odds))
 
-        books = ["All"] + book_cols
-        sel_book = st.selectbox("Best Book", books, 0)
+    if fair_dec and best_dec:
+        return (best_dec / fair_dec - 1) * 100
 
-        max_books = max(1, len(book_cols))  # ensure at least 1
-        default_val = min(2, max_books)     # keep 2 unless impossible
-        
-        min_books = st.number_input(
-            "Min. books posting this line",
-            min_value=1,
-            max_value=max_books,
-            value=default_val,
-            step=1,
-        )
+    return np.nan
 
-    # ---------------------------------------------------------
-    # Apply filters
-    # ---------------------------------------------------------
-    if sel_event != "All":
-        df = df[df["Event"] == sel_event]
-
-    if sel_market != "All":
-        df = df[df["Market"] == sel_market]
-
-    if sel_book != "All":
-        df = df[df["BestBookCol"] == sel_book]
-
-    # Book count filter
-    def count_valid_books(r):
-        cnt = 0
-        for b in book_cols:
-            if pd.notna(r.get(b)) and str(r.get(b)).strip() != "":
-                cnt += 1
-        return cnt
-
-    df["#Books"] = df.apply(count_valid_books, axis=1)
-    df = df[df["#Books"] >= int(min_books)]
-
-    # ---------------------------------------------------------
-    # Final render
-    # ---------------------------------------------------------
-    df["Line vs. Average (%)"] = (pd.to_numeric(df["Line vs. Average"], errors="coerce") - 1) * 100
-
-    df["Best Odds"] = df["Best Odds"].apply(lambda x: f"{int(x):+d}" if pd.notna(x) else "")
-
-    # Format book odds
-    for b in book_cols:
-        df[b] = df[b].apply(lambda x: f"{int(float(x)):+d}" if pd.notna(x) else "")
-
-    show_cols = ["Event", "Bet Type", "Line", "Selection"] + book_cols + [
-        "Line vs. Average (%)", "Implied EV (%)"
-    ]
-
-    out = df[show_cols].copy()
-    out = out.sort_values("Implied EV (%)", ascending=False)
-
-    st.dataframe(out, use_container_width=True)
-
+df["Implied EV (%)"] = df.apply(calc_ev, axis=1)
 
 # -------------------------------------------------------------
-# Run
+# Sidebar filters
 # -------------------------------------------------------------
-if __name__ == "__main__":
-    run()
+with st.sidebar:
+    st.header("Filters")
 
+    events = ["All"] + sorted(df["Event"].unique())
+    sel_event = st.selectbox("Game", events, 0)
+
+    markets = ["All"] + sorted(df["Market"].unique())
+    sel_market = st.selectbox("Market", markets, 0)
+
+    books = ["All"] + book_cols
+    sel_book = st.selectbox("Best Book", books, 0)
+
+    max_books = max(1, len(book_cols))
+    default_val = min(2, max_books)
+    min_books = st.number_input("Min. books posting this line",
+                                min_value=1, max_value=max_books,
+                                value=default_val, step=1)
+
+# -------------------------------------------------------------
+# Apply filters
+# -------------------------------------------------------------
+if sel_event != "All":
+    df = df[df["Event"] == sel_event]
+if sel_market != "All":
+    df = df[df["Market"] == sel_market]
+if sel_book != "All":
+    df = df[df["BestBookCol"] == sel_book]
+
+# Book count
+df["#Books"] = df[book_cols].apply(lambda r: sum(str(x).strip() != "" for x in r), axis=1)
+df = df[df["#Books"] >= int(min_books)]
+
+# -------------------------------------------------------------
+# Final formatting
+# -------------------------------------------------------------
+def fmt_amer(x):
+    try:
+        x = int(float(x))
+        return f"+{x}" if x > 0 else str(x)
+    except:
+        return ""
+
+for bk in book_cols:
+    df[bk] = df[bk].apply(fmt_amer)
+
+df["Best Odds"] = df["Best Odds Raw"].apply(fmt_amer)
+df["Line vs. Average (%)"] = (pd.to_numeric(df["avg_other_decimal"], errors="coerce") - 1) * 100
+
+# Build output table
+show = ["Event", "Bet Type", "Line", "Selection"] + book_cols + ["Implied EV (%)"]
+out = df[show].sort_values("Implied EV (%)", ascending=False)
+
+st.dataframe(out, use_container_width=True)
