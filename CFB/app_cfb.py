@@ -94,7 +94,8 @@ def trigger_github_action():
 
 def wait_for_csv_update(max_checks=12, sleep_seconds=10):
     csv_path = _find_csv_path()
-    if not csv_path or not csv_path.exists(): return
+    if not csv_path or not csv_path.exists():
+        return
     old_mtime = csv_path.stat().st_mtime
     with st.spinner("Waiting for new data…"):
         for _ in range(max_checks):
@@ -107,7 +108,8 @@ def _find_csv_path() -> Path | None:
     env = os.getenv("cfb_matched_output_CSV")
     if env:
         p = Path(env)
-        if p.exists(): return p
+        if p.exists():
+            return p
     here = Path(__file__).resolve().parent
     candidates = [
         here / "cfb_matched_output.csv",
@@ -118,7 +120,8 @@ def _find_csv_path() -> Path | None:
         Path.cwd() / "cfb" / "cfb_matched_output.csv",
     ]
     for p in candidates:
-        if p.exists(): return p
+        if p.exists():
+            return p
     try:
         for p in here.rglob("cfb_matched_output.csv"):
             return p
@@ -130,7 +133,7 @@ def _find_csv_path() -> Path | None:
 def american_to_prob(o: float) -> float:
     try:
         o = float(o)
-        return 100/(o+100) if o>0 else abs(o)/(abs(o)+100)
+        return 100/(o+100) if o > 0 else abs(o)/(abs(o)+100)
     except Exception:
         return float("nan")
 
@@ -143,10 +146,10 @@ def american_to_decimal(o: float) -> float:
         return 1 + (100.0 / abs(o))
 
 def prob_to_decimal(p: float) -> float:
-    return 1/p if p and p>0 else float("nan")
+    return 1/p if p and p > 0 else float("nan")
 
 # pooled vig curve coeffs (+ 10% floor)
-A,B,C = -33.854, 0.3313, 0.0001
+A, B, C = -33.854, 0.3313, 0.0001
 def apply_vig_curve(o: float) -> float:
     m = abs(o)
     vig = max(A + B*m + C*(m**2), 0.10*m)
@@ -156,16 +159,18 @@ OU_RE = re.compile(r'\b(Over|Under)\b', re.I)
 
 def normalize_market(bt: str) -> str:
     s = str(bt).strip().lower()
-    if "total" in s or "over" in s or "under" in s: return "Total"
-    if "money" in s: return "Moneyline"
+    if "total" in s or "over" in s or "under" in s:
+        return "Total"
+    if "money" in s:
+        return "Moneyline"
     return "Spread"
 
 def infer_side(row) -> str | None:
-    bt = str(row.get("Bet Type",""))
+    bt = str(row.get("Bet Type", ""))
     m = OU_RE.search(bt)
     if m:
         return m.group(1).title()
-    for key in ("selection","Selection","team","Team"):
+    for key in ("selection", "Selection", "team", "Team"):
         if key in row.index and pd.notna(row[key]) and str(row[key]).strip():
             return str(row[key]).strip()
     return None
@@ -177,7 +182,8 @@ def to_float_or_none(x):
         return None
 
 def round_to_half(x: float | None) -> float | None:
-    if x is None: return None
+    if x is None:
+        return None
     return round(x * 2) / 2
 
 # ---- Name normalization / aliasing for sportsbook matching ----
@@ -209,8 +215,7 @@ def resolve_bestbook_to_column(val: str, book_cols: list[str]) -> str | None:
     if not val or not book_cols:
         return None
 
-    # Build maps
-    norm_to_col = { _normkey(c): c for c in book_cols }
+    norm_to_col = {_normkey(c): c for c in book_cols}
     k = _normkey(val)
 
     # Alias remap first
@@ -222,7 +227,7 @@ def resolve_bestbook_to_column(val: str, book_cols: list[str]) -> str | None:
 
     # Fuzzy: substring in either direction (unique only)
     candidates = [norm_to_col[nk] for nk in norm_to_col.keys() if k in nk or nk in k]
-    candidates = list(dict.fromkeys(candidates))  # dedupe, keep order
+    candidates = list(dict.fromkeys(candidates))
     if len(candidates) == 1:
         return candidates[0]
 
@@ -234,26 +239,38 @@ def resolve_bestbook_to_column(val: str, book_cols: list[str]) -> str | None:
 
     return None
 
-def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: str,
-                           line_val, side_label: str, offered: float) -> float | None:
+def pair_midpoint_for_book(
+    df: pd.DataFrame,
+    book_col: str,
+    event: str,
+    market: str,
+    line_val,
+    side_label: str,
+    offered: float
+) -> float | None:
     """
     Pair-first fair price for a given book:
       - If we find the opposite side from the SAME book, and signs differ (+/-),
         use midpoint of absolute odds as the symmetric 'true' price:
           e.g. +1800 / -5000 → +3400 / -3400
-      - For edge cases where both sides have the same sign (e.g. -125 / -105),
-        fall back to the probability-based fair price.
+      - For edge cases where both sides have the same sign (e.g. -102 / -120),
+        strip vig via probabilities and convert to a single fair price for the
+        offered side (no extra sign flip).
     """
 
     def opponent_of(side: str) -> str | None:
         if market == "Total":
-            return "Under" if side and side.lower() == "over" else (
-                "Over" if side and side.lower() == "under" else None
+            return (
+                "Under"
+                if side and side.lower() == "over"
+                else ("Over" if side and side.lower() == "under" else None)
             )
         if " @ " in str(event):
             away, home = [x.strip() for x in str(event).split(" @ ", 1)]
-            if side and side.lower() == away.lower(): return home
-            if side and side.lower() == home.lower(): return away
+            if side and side.lower() == away.lower():
+                return home
+            if side and side.lower() == home.lower():
+                return away
         return None
 
     opp_side = opponent_of(side_label)
@@ -274,7 +291,7 @@ def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: 
 
     opp_odds = None
     for _, r in pool.iterrows():
-        r_side = str(r.get("_side","")).strip()
+        r_side = str(r.get("_side", "")).strip()
         if opp_side:
             if r_side.lower() != opp_side.lower():
                 continue
@@ -299,21 +316,26 @@ def pair_midpoint_for_book(df: pd.DataFrame, book_col: str, event: str, market: 
         mid = (abs(pos) + abs(neg)) / 2.0
         return mid if offered > 0 else -mid
 
-    # Otherwise (same-sign pair), fall back to probability-based approach
+    # Otherwise (same-sign pair), fall back to probability-based approach:
+    # 1) compute implied probs, 2) remove vig, 3) convert to American
     p1, p2 = american_to_prob(offered), american_to_prob(opp_odds)
     if not (math.isfinite(p1) and math.isfinite(p2)) or (p1 + p2) == 0:
         return None
 
     p_true = p1 / (p1 + p2)
+    if p_true <= 0 or p_true >= 1:
+        return None
 
-    if p_true == 0.5:
+    if abs(p_true - 0.5) < 1e-9:
         fair = 100.0
     elif p_true < 0.5:
-        fair = (100 / p_true) - 100
+        # Offered side is dog ⇒ positive fair line
+        fair = (100.0 / p_true) - 100.0
     else:
-        fair = - (100 * p_true) / (1 - p_true)
+        # Offered side is favorite ⇒ negative fair line
+        fair = -100.0 * p_true / (1.0 - p_true)
 
-    return fair if offered >= 0 else -abs(fair)
+    return fair
 
 # ---------- App core ----------
 def run_app(df: pd.DataFrame | None = None):
@@ -330,10 +352,12 @@ def run_app(df: pd.DataFrame | None = None):
             return
         try:
             df = pd.read_csv(csv_path)
-            df = df.loc[:, ~df.columns.astype(str).str.match(r'^Unnamed')]
+            df = df.loc[:, ~df.columns.astype(str).str.match(r"^Unnamed")]
             df = df.dropna(axis=1, how="all")
             ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
-            eastern = ts.astimezone(pytz.timezone('US/Eastern')).strftime("%Y-%m-%d %I:%M %p %Z")
+            eastern = ts.astimezone(pytz.timezone("US/Eastern")).strftime(
+                "%Y-%m-%d %I:%M %p %Z"
+            )
             st.caption(f"Odds last updated: {eastern}")
         except Exception as e:
             st.error(f"Error loading CSV: {e}")
@@ -344,19 +368,21 @@ def run_app(df: pd.DataFrame | None = None):
         return
 
     # --- Normalize field names from your schema ---
-    df = df.rename(columns={
-        "game": "Event",
-        "bet_type": "Bet Type",
-        "line": "Line",
-        "selection": "Selection",
-        "opponent": "Opponent",
-        "best_book": "Best Book",
-        "best_odds": "Best Odds",
-        "value_ratio": "Line vs. Average",
-        "best_decimal": "best_decimal",
-        "avg_other_decimal": "avg_other_decimal",
-        "value_flag": "value_flag",
-    })
+    df = df.rename(
+        columns={
+            "game": "Event",
+            "bet_type": "Bet Type",
+            "line": "Line",
+            "selection": "Selection",
+            "opponent": "Opponent",
+            "best_book": "Best Book",
+            "best_odds": "Best Odds",
+            "value_ratio": "Line vs. Average",
+            "best_decimal": "best_decimal",
+            "avg_other_decimal": "avg_other_decimal",
+            "value_flag": "value_flag",
+        }
+    )
 
     # Rename sportsbook columns: drop trailing "_Odds" where present
     new_cols = {}
@@ -374,16 +400,37 @@ def run_app(df: pd.DataFrame | None = None):
 
     # Dynamic sportsbook columns
     fixed = {
-        "Event", "Bet Type", "Market", "Line", "Selection", "Opponent",
-        "Best Book", "Best Odds", "Line vs. Average", "kickoff_et",
-        "best_decimal", "avg_other_decimal", "value_flag"
+        "Event",
+        "Bet Type",
+        "Market",
+        "Line",
+        "Selection",
+        "Opponent",
+        "Best Book",
+        "Best Odds",
+        "Line vs. Average",
+        "kickoff_et",
+        "best_decimal",
+        "avg_other_decimal",
+        "value_flag",
     }
-    book_cols = [c for c in df.columns if c not in fixed and not str(c).startswith("Unnamed")]
+    book_cols = [
+        c
+        for c in df.columns
+        if c not in fixed and not str(c).startswith("Unnamed")
+    ]
 
     # Remove books from calcs/display
     REMOVE_BOOKS = {
-        "Betonlineag", "Betus", "Lowvig", "Mybookieag",
-        "Ballybet", "Betanysports", "Betparx", "Fliff", "Rebet"
+        "Betonlineag",
+        "Betus",
+        "Lowvig",
+        "Mybookieag",
+        "Ballybet",
+        "Betanysports",
+        "Betparx",
+        "Fliff",
+        "Rebet",
     }
     book_cols = [c for c in book_cols if c not in REMOVE_BOOKS]
 
@@ -422,14 +469,30 @@ def run_app(df: pd.DataFrame | None = None):
 
     # Clean Best Book values
     if "Best Book" in df.columns:
-        df["Best Book"] = df["Best Book"].fillna("").astype(str).str.replace("_Odds", "", regex=False).str.strip()
+        df["Best Book"] = (
+            df["Best Book"]
+            .fillna("")
+            .astype(str)
+            .str.replace("_Odds", "", regex=False)
+            .str.strip()
+        )
 
     # Count #books
-    def _is_valid_num(v): return pd.notnull(v) and str(v).strip() != ""
-    df["# Books"] = df[book_cols].apply(lambda r: sum(_is_valid_num(x) for x in r.values), axis=1) if book_cols else 0
+    def _is_valid_num(v):
+        return pd.notnull(v) and str(v).strip() != ""
 
-    # Resolve Best Book → actual column name
-    df["BestBookCol"] = df["Best Book"].apply(lambda v: resolve_bestbook_to_column(v, book_cols))
+    df["# Books"] = (
+        df[book_cols].apply(
+            lambda r: sum(_is_valid_num(x) for x in r.values), axis=1
+        )
+        if book_cols
+        else 0
+    )
+
+    # Resolve Best Book → actual column name (still used for shading)
+    df["BestBookCol"] = df["Best Book"].apply(
+        lambda v: resolve_bestbook_to_column(v, book_cols)
+    )
 
     # Side inference and keys for pairing
     df["_side"] = df.apply(infer_side, axis=1)
@@ -457,7 +520,9 @@ def run_app(df: pd.DataFrame | None = None):
         sel_book = st.selectbox("Best Book", books, 0)
         # Default now 3; +/- buttons still present from number_input
         min_books = st.number_input("Min. books posting this line", 1, 20, 3, 1)
-        compact_mobile = st.toggle("Compact mobile mode", value=bool(auto_mobile))
+        compact_mobile = st.toggle(
+            "Compact mobile mode", value=bool(auto_mobile)
+        )
 
     # Apply filters
     if sel_event != "All":
@@ -466,16 +531,8 @@ def run_app(df: pd.DataFrame | None = None):
         df = df[df["Market"] == sel_market]
 
     if sel_book != "All":
-        # Primary: match resolved BestBookCol
-        mask_bestcol = (df["BestBookCol"] == sel_book)
-        # Backup: in case resolution failed but the column's odds match Best Odds
-        if sel_book in df.columns:
-            col_vals = pd.to_numeric(df[sel_book], errors="coerce")
-            best_vals = pd.to_numeric(df["Best Odds"], errors="coerce")
-            mask_match_odds = (col_vals == best_vals)
-            df = df[mask_bestcol | mask_match_odds]
-        else:
-            df = df[mask_bestcol]
+        # Simple, deterministic filter: show only rows whose Best Book equals the selected book.
+        df = df[df["Best Book"] == sel_book]
 
     df = df[df["# Books"] >= int(min_books)]
 
@@ -531,7 +588,7 @@ def run_app(df: pd.DataFrame | None = None):
             market=row.get("Market"),
             line_val=row.get("Line"),
             side_label=row.get("_side"),
-            offered=offered
+            offered=offered,
         )
         if fair is not None:
             return fair
@@ -570,7 +627,9 @@ def run_app(df: pd.DataFrame | None = None):
             true_decimal = prob_to_decimal(avg_prob)
 
             best_decimal = prob_to_decimal(american_to_prob(best_odds))
-            if not (math.isfinite(best_decimal) and math.isfinite(true_decimal)):
+            if not (
+                math.isfinite(best_decimal) and math.isfinite(true_decimal)
+            ):
                 return float("nan")
 
             return (best_decimal / true_decimal - 1.0) * 100.0
@@ -598,17 +657,23 @@ def run_app(df: pd.DataFrame | None = None):
             return ""
         try:
             x = float(val)
-            if abs(x*2 - round(x*2)) < 1e-9:
-                if abs(x*2) % 2 == 1:
+            if abs(x * 2 - round(x * 2)) < 1e-9:
+                if abs(x * 2) % 2 == 1:
                     return f"{x:.1f}"
                 else:
                     return f"{int(x)}"
             xh = round_to_half(x)
-            return f"{xh:.1f}" if abs(xh*2) % 2 == 1 else f"{int(xh)}"
+            return (
+                f"{xh:.1f}"
+                if abs(xh * 2) % 2 == 1
+                else f"{int(xh)}"
+            )
         except Exception:
             return str(val) if pd.notna(val) else ""
 
-    df["Line"] = [fmt_line(v, m) for v, m in zip(df.get("_line_num"), df.get("Market"))]
+    df["Line"] = [
+        fmt_line(v, m) for v, m in zip(df.get("_line_num"), df.get("Market"))
+    ]
 
     # ---------- Build render dataframe ----------
     base_cols = ["Event", "Bet Type", "Line", "Selection", "Opponent"]
@@ -621,14 +686,24 @@ def run_app(df: pd.DataFrame | None = None):
 
     # Hide requested + internals (Best Book column is hidden)
     hidden = {
-        "# Books", "Best Book", "Best Odds", "Opponent", "best_decimal",
-        "avg_other_decimal", "value_flag", "_line_num", "|Line|", "_side",
-        "BestBookCol"
+        "# Books",
+        "Best Book",
+        "Best Odds",
+        "Opponent",
+        "best_decimal",
+        "avg_other_decimal",
+        "value_flag",
+        "_line_num",
+        "|Line|",
+        "_side",
+        "BestBookCol",
     }
     cols = base_cols + show_cols + ["Line vs. Average (%)", "Implied EV (%)"]
     cols = [c for c in cols if c in df.columns and c not in hidden]
     render_df = df[cols].copy()
-    render_df = render_df.sort_values(by=["Implied EV (%)"], ascending=False, na_position="last")
+    render_df = render_df.sort_values(
+        by=["Implied EV (%)"], ascending=False, na_position="last"
+    )
 
     # ---------- Styling ----------
     def _ev_green(val):
@@ -640,10 +715,16 @@ def run_app(df: pd.DataFrame | None = None):
             return ""
         cap = 20.0
         alpha = 0.15 + 0.8 * min(v / cap, 1.0)
-        return f"background-color: rgba(34,139,34,{alpha}); font-weight:600;"
+        return (
+            f"background-color: rgba(34,139,34,{alpha}); font-weight:600;"
+        )
 
     # Shade the winning sportsbook cell
-    bb_target_col = df.loc[render_df.index, "BestBookCol"] if "BestBookCol" in df.columns else pd.Series([None] * len(render_df), index=render_df.index)
+    bb_target_col = (
+        df.loc[render_df.index, "BestBookCol"]
+        if "BestBookCol" in df.columns
+        else pd.Series([None] * len(render_df), index=render_df.index)
+    )
 
     def _shade_row(row):
         styles = [""] * len(row)
@@ -658,29 +739,41 @@ def run_app(df: pd.DataFrame | None = None):
         return styles
 
     if is_mobile:
-        st.markdown("""
+        st.markdown(
+            """
         <style>
           [data-testid="stDataFrame"] * {font-size:0.92rem!important;}
           .stDataFrame tbody tr td:nth-child(1),
           .stDataFrame thead tr th:nth-child(1){
             max-width:200px!important;white-space:nowrap!important;
             text-overflow:ellipsis!important;overflow:hidden!important;}
-        </style>""", unsafe_allow_html=True)
+        </style>""",
+            unsafe_allow_html=True,
+        )
 
     styled = render_df.style
     styled = styled.applymap(_ev_green, subset=["Implied EV (%)"])
     styled = styled.apply(_shade_row, axis=1)
-    styled = styled.format({
-        "Line vs. Average (%)": "{:.1f}%",
-        "Implied EV (%)": "{:.1f}%"
-    })
-    styled = styled.set_table_styles([{
-        'selector': 'th', 'props': [
-            ('font-weight', 'bold'), ('text-align', 'center'),
-            ('font-size', '16px'), ('background-color', '#003366'),
-            ('color', 'white')
+    styled = styled.format(
+        {
+            "Line vs. Average (%)": "{:.1f}%",
+            "Implied EV (%)": "{:.1f}%",
+        }
+    )
+    styled = styled.set_table_styles(
+        [
+            {
+                "selector": "th",
+                "props": [
+                    ("font-weight", "bold"),
+                    ("text-align", "center"),
+                    ("font-size", "16px"),
+                    ("background-color", "#003366"),
+                    ("color", "white"),
+                ],
+            }
         ]
-    }])
+    )
 
     # ---- Centered refresh button ----
     btn_cols = st.columns([1, 1, 1])
@@ -689,7 +782,9 @@ def run_app(df: pd.DataFrame | None = None):
             if trigger_github_action():
                 wait_for_csv_update()
 
-    st.dataframe(styled, use_container_width=True, hide_index=True, height=1200)
+    st.dataframe(
+        styled, use_container_width=True, hide_index=True, height=1200
+    )
 
 # ---- Run ----
 if __name__ == "__main__":
