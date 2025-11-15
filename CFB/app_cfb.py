@@ -186,26 +186,7 @@ def round_to_half(x: float | None) -> float | None:
         return None
     return round(x * 2) / 2
 
-# ---- Name normalization / aliasing (still used only if we ever need it) ----
-def _normkey(s) -> str:
-    return re.sub(r'[^a-z0-9]+', '', str(s).lower())
-
-ALIASES = {
-    "mgm": "betmgm",
-    "betmgmusa": "betmgm",
-    "betmgm_us": "betmgm",
-    "bet_mgm": "betmgm",
-    "betonline": "betonlineag",
-    "betonlinesports": "betonlineag",
-    "mybookie": "mybookieag",
-    "williamhill": "williamhillus",
-    "willhill": "williamhillus",
-    "williamhillus": "caesars",
-    "bet_rivers": "betrivers",
-    "bet-rivers": "betrivers",
-    "lowvigi": "lowvig",
-}
-
+# ---- EV core: pair-first fair price ----
 def pair_midpoint_for_book(
     df: pd.DataFrame,
     book_col: str,
@@ -246,7 +227,7 @@ def pair_midpoint_for_book(
     if market == "Total":
         try:
             ln = float(line_val)
-            pool = pool[pd.to_numeric(df["Line"], errors="coerce") == ln]
+            pool = pool[pd.to_numeric(pool["Line"], errors="coerce") == ln]
         except Exception:
             pass
     elif market == "Spread":
@@ -426,22 +407,11 @@ def run_app(df: pd.DataFrame | None = None):
                 elif o > 0 and best_odds <= 0:
                     # Prefer any plus-money over a negative price
                     best_book, best_odds = col, o
-                # If current best is + and new is -, keep best
         return pd.Series({"Best Book": best_book, "Best Odds": best_odds})
 
     best_df = df.apply(_pick_best_book, axis=1)
     df["Best Book"] = best_df["Best Book"]
     df["Best Odds"] = best_df["Best Odds"]
-
-    # Clean Best Book values
-    if "Best Book" in df.columns:
-        df["Best Book"] = (
-            df["Best Book"]
-            .fillna("")
-            .astype(str)
-            .str.replace("_Odds", "", regex=False)
-            .str.strip()
-        )
 
     # Count #books
     def _is_valid_num(v):
@@ -455,7 +425,7 @@ def run_app(df: pd.DataFrame | None = None):
         else 0
     )
 
-    # BestBookCol is exactly the column name we chose as Best Book
+    # BestBookCol kept only for shading
     df["BestBookCol"] = df["Best Book"]
 
     # Side inference and keys for pairing
@@ -493,17 +463,15 @@ def run_app(df: pd.DataFrame | None = None):
     if sel_market != "All":
         df = df[df["Market"] == sel_market]
 
+    # *** KEY CHANGE: Best Book filter uses numeric equality vs Best Odds ***
     if sel_book != "All":
-        # Primary: BestBookCol must match the selected book
-        mask = df["BestBookCol"] == sel_book
-
-        # Fallback: if this book column exists, include rows where its odds == Best Odds
         if sel_book in df.columns:
             col_vals = pd.to_numeric(df[sel_book], errors="coerce")
             best_vals = pd.to_numeric(df["Best Odds"], errors="coerce")
-            mask = mask | (col_vals == best_vals)
-
-        df = df[mask]
+            df = df[col_vals == best_vals]
+        else:
+            # No such column → no rows for that book
+            df = df.iloc[0:0]
 
     df = df[df["# Books"] >= int(min_books)]
 
