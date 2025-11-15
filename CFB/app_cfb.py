@@ -1,37 +1,33 @@
-###############################################################
-#   CLEAN CFB STREAMLIT BOARD  —  SPREADS • TOTALS • MONEYLINES
-#   Matches new pull script 1:1
-#   Includes correct EV, book filtering, pair-first fair odds,
-#   and dynamic sportsbook detection.
-###############################################################
-
 import streamlit as st
 import pandas as pd
 import numpy as np
-import math
+import os
+import time
+import requests
 from datetime import datetime
 from pathlib import Path
 import pytz
-import os
 
-# -------------------------------------------------------------
-# Page setup
-# -------------------------------------------------------------
+# ============================================================
+# PAGE CONFIG + SIDEBAR WIDTH
+# ============================================================
 st.set_page_config(page_title="College Football — Game Lines", layout="wide")
 
-# Wider sidebar
-st.markdown("""
-<style>
-section[data-testid="stSidebar"] {
-    width: 14rem !important;
-}
-</style>
-""", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 14rem !important;
+        }
+        .center-button { display: flex; justify-content: center; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
-
-# -------------------------------------------------------------
-# Utility: Locate the CSV from pull script
-# -------------------------------------------------------------
+# ============================================================
+# LOCATE CSV
+# ============================================================
 def find_csv():
     here = Path(__file__).resolve().parent
     candidates = [
@@ -47,24 +43,22 @@ def find_csv():
     return None
 
 
-# -------------------------------------------------------------
-# Odds conversions
-# -------------------------------------------------------------
+# ============================================================
+# ODDS UTILS
+# ============================================================
 def american_to_prob(o):
     try:
         o = float(o)
     except:
         return None
     if o > 0:
-        return 100.0 / (o + 100.0)
-    return abs(o) / (abs(o) + 100.0)
-
+        return 100 / (o + 100)
+    return abs(o) / (abs(o) + 100)
 
 def prob_to_decimal(p):
     if not p or p <= 0:
         return None
-    return 1.0 / p
-
+    return 1 / p
 
 def prob_to_american(p):
     if p <= 0 or p >= 1:
@@ -74,14 +68,16 @@ def prob_to_american(p):
     return round(-100 * p / (1 - p))
 
 
-# Vig curve fallback (same coefficients as NFL/NBA)
+# ============================================================
+# VIG CURVE FALLBACK (same as NFL/NBA)
+# ============================================================
 def vigcurve_fair_prob(odds):
     try:
         o = float(odds)
     except:
         return None
     p = american_to_prob(o)
-    if p is None:
+    if not p:
         return None
 
     base = 0.045
@@ -92,9 +88,9 @@ def vigcurve_fair_prob(odds):
     return max(min(p2, 0.999), 0.001)
 
 
-# -------------------------------------------------------------
-# Pair-first fair odds
-# -------------------------------------------------------------
+# ============================================================
+# PAIR-FIRST FAIR ODDS
+# ============================================================
 def compute_pair_first_fair(df_event, team, opp, market, line):
     team_rows = df_event[df_event["_side"] == team]
     opp_rows  = df_event[df_event["_side"] == opp]
@@ -102,40 +98,86 @@ def compute_pair_first_fair(df_event, team, opp, market, line):
     if team_rows.empty or opp_rows.empty:
         return None
 
-    pair_probs = []
+    fair_ps = []
 
     for _, trow in team_rows.iterrows():
         for _, orow in opp_rows.iterrows():
 
-            # Match lines for spreads/totals
+            # Match lines for totals/spreads
             if market != "Moneyline":
                 if pd.isna(trow["_line_num"]) or pd.isna(orow["_line_num"]):
                     continue
                 if abs(trow["_line_num"] - orow["_line_num"]) > 0.01:
                     continue
 
-            t_odds = trow["Best Odds Raw"]
-            o_odds = orow["Best Odds Raw"]
-            if t_odds is None or o_odds is None:
+            to = trow["Best Odds Raw"]
+            oo = orow["Best Odds Raw"]
+            if to is None or oo is None:
                 continue
 
-            p_t = american_to_prob(t_odds)
-            p_o = american_to_prob(o_odds)
+            p_t = american_to_prob(to)
+            p_o = american_to_prob(oo)
             if not p_t or not p_o:
                 continue
 
-            fair = p_t / (p_t + p_o)
-            pair_probs.append(fair)
+            fair_ps.append(p_t / (p_t + p_o))
 
-    if not pair_probs:
+    if not fair_ps:
         return None
+    return float(np.mean(fair_ps))
 
-    return float(np.mean(pair_probs))
+
+# ============================================================
+# WAIT FOR CSV UPDATE (same as your NFL/NBA boards)
+# ============================================================
+def wait_for_csv_update(timeout=20):
+    csv_path = find_csv()
+    if not csv_path:
+        st.warning("CSV not found.")
+        return
+    start_mtime = csv_path.stat().st_mtime
+    start = time.time()
+
+    with st.spinner("Waiting for updated odds…"):
+        while time.time() - start < timeout:
+            time.sleep(2)
+            new_mtime = csv_path.stat().st_mtime
+            if new_mtime != start_mtime:
+                return
+
+    st.warning("Timeout waiting for refresh.")
 
 
-# -------------------------------------------------------------
-# Load and prepare data
-# -------------------------------------------------------------
+# ============================================================
+# GitHub Action Trigger (as provided)
+# ============================================================
+def trigger_github_action():
+    token = st.secrets.get("GITHUB_TOKEN")
+    repo = st.secrets.get("GITHUB_REPO")
+    workflow_file = st.secrets.get("GITHUB_WORKFLOW_FILE", "cfb.yml")
+    ref = st.secrets.get("GITHUB_REF", "main")
+    if not token or not repo:
+        st.error("Missing secrets: GITHUB_TOKEN / GITHUB_REPO.")
+        return False
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"token {token}",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    payload = {"ref": ref}
+    with st.spinner("Triggering GitHub Action…"):
+        r = requests.post(url, headers=headers, json=payload, timeout=15)
+    if r.status_code == 204:
+        st.success("Refresh kicked off. Board will auto-update when CSV is pushed.")
+        return True
+    st.error(f"Workflow start failed ({r.status_code}): {r.text}")
+    return False
+
+
+# ============================================================
+# LOAD CSV
+# ============================================================
 csv_path = find_csv()
 if not csv_path:
     st.error("cfb_matched_output.csv not found.")
@@ -148,7 +190,36 @@ ts = datetime.fromtimestamp(csv_path.stat().st_mtime, pytz.utc)
 est = ts.astimezone(pytz.timezone("US/Eastern")).strftime("%Y-%m-%d %I:%M %p %Z")
 st.caption(f"Odds last updated: {est}")
 
-# Normalize column names
+
+# ============================================================
+# === TITLE (RESTORED EXACT FORMATTING) ===
+# ============================================================
+st.markdown(
+    """
+    <h1 style="text-align:center;">
+        🏈 College Football — Game Lines
+    </h1>
+    <div style="text-align:center; margin-top:-15px; margin-bottom:30px;">
+        Game Spreads · Moneylines · Totals (pair-first fair pricing with vig-curve fallback)
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+# ============================================================
+# === REFRESH BUTTON (RESTORED) ===
+# ============================================================
+btn_cols = st.columns([1,1,1])
+with btn_cols[1]:
+    if st.button("Refresh Odds", use_container_width=True):
+        if trigger_github_action():
+            wait_for_csv_update()
+
+
+# ============================================================
+# NORMALIZE CSV COLUMN NAMES
+# ============================================================
 df = df.rename(columns={
     "game": "Event",
     "bet_type": "Bet Type",
@@ -161,26 +232,36 @@ df = df.rename(columns={
 
 df["Market"] = df["Bet Type"].apply(
     lambda x: "Moneyline" if "money" in x.lower()
-              else ("Total" if "over" in x.lower() or "under" in x.lower() or "total" in x.lower()
-              else "Spread")
+    else ("Total" if "over" in x.lower() or "under" in x.lower() or "total" in x.lower()
+    else "Spread")
 )
 
+# Side / line helpers
 df["_side"] = df["Selection"]
 df["_line_num"] = pd.to_numeric(df["Line"], errors="coerce")
 
-# -------------------------------------------------------------
-# Detect sportsbook columns dynamically
-# -------------------------------------------------------------
-EXCLUDE = {"BetOnlineAG", "BetUS", "LowVig", "MyBookieAG"}
 
-fixed = {"Event", "kickoff_et", "Bet Type", "Selection", "Opponent", "Line",
-         "Market", "Best Book", "Best Odds Raw", "_side", "_line_num"}
+# ============================================================
+# DISCOVER SPORTSBOOK COLUMNS (with exclusions)
+# ============================================================
+EXCLUDE = {"Betonlineag_Odds", "Betus_Odds", "Lowvig_Odds", "Mybookieag_Odds"}
 
-book_cols = [c for c in df.columns if c not in fixed and c not in EXCLUDE]
+fixed_cols = {
+    "Event", "kickoff_et", "Bet Type", "Selection", "Opponent",
+    "Line", "Market", "Best Book", "Best Odds Raw", "_side", "_line_num"
+}
 
-# -------------------------------------------------------------
-# Compute Best Book from row data
-# -------------------------------------------------------------
+book_cols = [c for c in df.columns if c not in fixed_cols and c not in EXCLUDE]
+
+# rename WilliamHillUs_Odds → Caesars_Odds
+if "Williamhillus_Odds" in book_cols:
+    df = df.rename(columns={"Williamhillus_Odds": "Caesars_Odds"})
+    book_cols = ["Caesars_Odds" if x == "Williamhillus_Odds" else x for x in book_cols]
+
+
+# ============================================================
+# BEST BOOK CALCULATION
+# ============================================================
 def compute_best(r):
     best_book = None
     best_odds = None
@@ -192,20 +273,23 @@ def compute_best(r):
             v = float(v)
         except:
             continue
+
         dec = prob_to_decimal(american_to_prob(v))
         if dec and dec > best_dec:
             best_dec = dec
             best_book = bk
             best_odds = v
+
     return pd.Series({"BestBookCol": best_book, "Best Odds Raw": best_odds})
 
-bb = df.apply(compute_best, axis=1)
-df["BestBookCol"] = bb["BestBookCol"]
-df["Best Odds Raw"] = bb["Best Odds Raw"]
+best_rows = df.apply(compute_best, axis=1)
+df["BestBookCol"] = best_rows["BestBookCol"]
+df["Best Odds Raw"] = best_rows["Best Odds Raw"]
 
-# -------------------------------------------------------------
-# EV calculation
-# -------------------------------------------------------------
+
+# ============================================================
+# EV CALCULATION
+# ============================================================
 def calc_ev(r):
     best_odds = r["Best Odds Raw"]
     if best_odds is None or not np.isfinite(best_odds):
@@ -228,14 +312,14 @@ def calc_ev(r):
 
     if fair_dec and best_dec:
         return (best_dec / fair_dec - 1) * 100
-
     return np.nan
 
 df["Implied EV (%)"] = df.apply(calc_ev, axis=1)
 
-# -------------------------------------------------------------
-# Sidebar filters
-# -------------------------------------------------------------
+
+# ============================================================
+# SIDEBAR FILTERS (RESTORED)
+# ============================================================
 with st.sidebar:
     st.header("Filters")
 
@@ -250,13 +334,18 @@ with st.sidebar:
 
     max_books = max(1, len(book_cols))
     default_val = min(2, max_books)
-    min_books = st.number_input("Min. books posting this line",
-                                min_value=1, max_value=max_books,
-                                value=default_val, step=1)
+    min_books = st.number_input(
+        "Min. books posting this line",
+        min_value=1, max_value=max_books,
+        value=default_val, step=1
+    )
 
-# -------------------------------------------------------------
-# Apply filters
-# -------------------------------------------------------------
+
+# ============================================================
+# APPLY FILTERS
+# ============================================================
+df["#Books"] = df[book_cols].apply(lambda r: sum(str(x).strip() != "" for x in r), axis=1)
+
 if sel_event != "All":
     df = df[df["Event"] == sel_event]
 if sel_market != "All":
@@ -264,13 +353,12 @@ if sel_market != "All":
 if sel_book != "All":
     df = df[df["BestBookCol"] == sel_book]
 
-# Book count
-df["#Books"] = df[book_cols].apply(lambda r: sum(str(x).strip() != "" for x in r), axis=1)
 df = df[df["#Books"] >= int(min_books)]
 
-# -------------------------------------------------------------
-# Final formatting
-# -------------------------------------------------------------
+
+# ============================================================
+# FINAL FORMATTING
+# ============================================================
 def fmt_amer(x):
     try:
         x = int(float(x))
@@ -282,10 +370,17 @@ for bk in book_cols:
     df[bk] = df[bk].apply(fmt_amer)
 
 df["Best Odds"] = df["Best Odds Raw"].apply(fmt_amer)
-df["Line vs. Average (%)"] = (pd.to_numeric(df["avg_other_decimal"], errors="coerce") - 1) * 100
 
-# Build output table
-show = ["Event", "Bet Type", "Line", "Selection"] + book_cols + ["Implied EV (%)"]
-out = df[show].sort_values("Implied EV (%)", ascending=False)
+show_cols = ["Event", "Bet Type", "Line", "Selection"] + book_cols + ["Implied EV (%)"]
+df_render = df[show_cols].sort_values("Implied EV (%)", ascending=False)
 
-st.dataframe(out, use_container_width=True)
+
+# ============================================================
+# TABLE DISPLAY (RESTORED)
+# ============================================================
+st.dataframe(
+    df_render,
+    use_container_width=True,
+    hide_index=True,
+    height=1200
+)
