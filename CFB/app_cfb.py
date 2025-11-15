@@ -1,14 +1,3 @@
-# =======================================================================
-#   CFB GAME LINES — CLEAN, FIXED, DROP-IN REPLACEMENT
-#   Includes:
-#     • Correct Best Book filter (works for moneylines)
-#     • Correct pair-first EV calculation
-#     • Excluded books removed: BetOnlineAG, BetUS, LowVig, MyBookieAG
-#     • WilliamHillUS → Caesars
-#     • Added ESPNBet + HardRock (if present)
-#     • Sidebar styling, +/- buttons
-# =======================================================================
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -315,8 +304,16 @@ def run():
         books = ["All"] + book_cols
         sel_book = st.selectbox("Best Book", books, 0)
 
-        min_books = st.number_input("Min. books posting this line", min_value=1,
-                                    max_value=len(book_cols), value=2, step=1)
+        max_books = max(1, len(book_cols))  # ensure at least 1
+        default_val = min(2, max_books)     # keep 2 unless impossible
+        
+        min_books = st.number_input(
+            "Min. books posting this line",
+            min_value=1,
+            max_value=max_books,
+            value=default_val,
+            step=1,
+        )
 
     # ---------------------------------------------------------
     # Apply filters
@@ -367,3 +364,4 @@ def run():
 # -------------------------------------------------------------
 if __name__ == "__main__":
     run()
+
