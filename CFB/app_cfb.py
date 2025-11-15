@@ -186,11 +186,10 @@ def round_to_half(x: float | None) -> float | None:
         return None
     return round(x * 2) / 2
 
-# ---- Name normalization / aliasing for sportsbook matching ----
+# ---- Name normalization / aliasing (still used only if we ever need it) ----
 def _normkey(s) -> str:
     return re.sub(r'[^a-z0-9]+', '', str(s).lower())
 
-# Known aliases → canonical normalized key
 ALIASES = {
     "mgm": "betmgm",
     "betmgmusa": "betmgm",
@@ -206,38 +205,6 @@ ALIASES = {
     "bet-rivers": "betrivers",
     "lowvigi": "lowvig",
 }
-
-def resolve_bestbook_to_column(val: str, book_cols: list[str]) -> str | None:
-    """
-    Map a 'Best Book' value from CSV to the actual sportsbook COLUMN NAME in book_cols.
-    Handles aliases and fuzzy contains/contained-in matches on normalized keys.
-    """
-    if not val or not book_cols:
-        return None
-
-    norm_to_col = {_normkey(c): c for c in book_cols}
-    k = _normkey(val)
-
-    # Alias remap first
-    k = ALIASES.get(k, k)
-
-    # Exact normalized match
-    if k in norm_to_col:
-        return norm_to_col[k]
-
-    # Fuzzy: substring in either direction (unique only)
-    candidates = [norm_to_col[nk] for nk in norm_to_col.keys() if k in nk or nk in k]
-    candidates = list(dict.fromkeys(candidates))
-    if len(candidates) == 1:
-        return candidates[0]
-
-    # Last resort: startswith match
-    starts = [norm_to_col[nk] for nk in norm_to_col.keys() if nk.startswith(k)]
-    starts = list(dict.fromkeys(starts))
-    if len(starts) == 1:
-        return starts[0]
-
-    return None
 
 def pair_midpoint_for_book(
     df: pd.DataFrame,
@@ -279,7 +246,7 @@ def pair_midpoint_for_book(
     if market == "Total":
         try:
             ln = float(line_val)
-            pool = pool[pd.to_numeric(pool["Line"], errors="coerce") == ln]
+            pool = pool[pd.to_numeric(df["Line"], errors="coerce") == ln]
         except Exception:
             pass
     elif market == "Spread":
@@ -460,7 +427,6 @@ def run_app(df: pd.DataFrame | None = None):
                     # Prefer any plus-money over a negative price
                     best_book, best_odds = col, o
                 # If current best is + and new is -, keep best
-
         return pd.Series({"Best Book": best_book, "Best Odds": best_odds})
 
     best_df = df.apply(_pick_best_book, axis=1)
@@ -489,10 +455,8 @@ def run_app(df: pd.DataFrame | None = None):
         else 0
     )
 
-    # Resolve Best Book → actual column name (still used for shading)
-    df["BestBookCol"] = df["Best Book"].apply(
-        lambda v: resolve_bestbook_to_column(v, book_cols)
-    )
+    # BestBookCol is exactly the column name we chose as Best Book
+    df["BestBookCol"] = df["Best Book"]
 
     # Side inference and keys for pairing
     df["_side"] = df.apply(infer_side, axis=1)
@@ -518,7 +482,6 @@ def run_app(df: pd.DataFrame | None = None):
         sel_market = st.selectbox("Market", markets, 0)
         books = ["All"] + sorted(book_cols)
         sel_book = st.selectbox("Best Book", books, 0)
-        # Default now 3; +/- buttons still present from number_input
         min_books = st.number_input("Min. books posting this line", 1, 20, 3, 1)
         compact_mobile = st.toggle(
             "Compact mobile mode", value=bool(auto_mobile)
@@ -531,13 +494,20 @@ def run_app(df: pd.DataFrame | None = None):
         df = df[df["Market"] == sel_market]
 
     if sel_book != "All":
-        # Simple, deterministic filter: show only rows whose Best Book equals the selected book.
-        df = df[df["Best Book"] == sel_book]
+        # Primary: BestBookCol must match the selected book
+        mask = df["BestBookCol"] == sel_book
+
+        # Fallback: if this book column exists, include rows where its odds == Best Odds
+        if sel_book in df.columns:
+            col_vals = pd.to_numeric(df[sel_book], errors="coerce")
+            best_vals = pd.to_numeric(df["Best Odds"], errors="coerce")
+            mask = mask | (col_vals == best_vals)
+
+        df = df[mask]
 
     df = df[df["# Books"] >= int(min_books)]
 
     # ---------- Line vs. Average (%) ----------
-    # Recompute based on current Best Book vs average of other books (decimal odds).
     def compute_line_vs_avg(row: pd.Series) -> float:
         best_book = row.get("Best Book")
         if not best_book or best_book not in book_cols:
@@ -600,7 +570,6 @@ def run_app(df: pd.DataFrame | None = None):
             if not math.isfinite(best_odds):
                 return float("nan")
 
-            # Gather "other" books that post a price
             others = []
             for col in book_cols:
                 if col == row.get("BestBookCol", None):
@@ -651,7 +620,6 @@ def run_app(df: pd.DataFrame | None = None):
     if "Best Odds" in df.columns:
         df["Best Odds"] = df["Best Odds"].apply(fmt_american_cell)
 
-    # Format Line
     def fmt_line(val, market):
         if market == "Moneyline" or pd.isna(val):
             return ""
@@ -684,7 +652,6 @@ def run_app(df: pd.DataFrame | None = None):
     else:
         show_cols = book_cols.copy()
 
-    # Hide requested + internals (Best Book column is hidden)
     hidden = {
         "# Books",
         "Best Book",
@@ -719,7 +686,6 @@ def run_app(df: pd.DataFrame | None = None):
             f"background-color: rgba(34,139,34,{alpha}); font-weight:600;"
         )
 
-    # Shade the winning sportsbook cell
     bb_target_col = (
         df.loc[render_df.index, "BestBookCol"]
         if "BestBookCol" in df.columns
