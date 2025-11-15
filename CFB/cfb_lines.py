@@ -1,72 +1,83 @@
-# daily_cfb_spreads_totals.py  (updated to include Moneylines)
+# =====================================================================
+#   CLEAN CFB ODDS PULL SCRIPT (SPREADS • TOTALS • MONEYLINES)
+#   Improvements:
+#     • REGIONS now includes “us2” → pulls Hard Rock + ESPN Bet
+#     • Clean sportsbook naming (no "_Odds" suffix)
+#     • Simple mappings for all major US books
+#     • Cleaner CSV output for Streamlit app
+#     • One odds row = one book = one price per market
+# =====================================================================
+
 import os
 import csv
-import math
 import requests
-from datetime import datetime, timezone
-from collections import defaultdict
-from zoneinfo import ZoneInfo  # Python 3.9+
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
-#API_KEY = os.getenv("THE_ODDS_API_KEY", "YOUR_API_KEY_HERE")
 API_KEY = "7f8cbb98207020adbd0218844a595725"
 SPORT_KEY = "americanfootball_ncaaf"
-# ADD h2h for moneylines:
+
 TARGET_MARKETS = ["spreads", "totals", "h2h"]
-REGIONS = "us"
+REGIONS = "us,us2"             # ⭐ now includes HardRock + ESPNBet
 ODDS_FORMAT = "american"
 DATE_FMT = "iso"
 
 ET = ZoneInfo("America/New_York")
 
-def _titlecase_book(book_key: str) -> str:
-    mapping = {
-        "draftkings": "DraftKings",
-        "fanduel": "FanDuel",
-        "betmgm": "BetMGM",
-        "betrivers": "BetRivers",
-        "caesars": "Caesars",
-        "pointsbetus": "PointsBet",
-        "barstool": "Barstool",
-        "espnbet": "ESPNBet",
-        "wynnbet": "WynnBET",
-        "bet365": "Bet365",
-        "unibet_us": "Unibet",
-    }
-    label = mapping.get(book_key, book_key.replace("_", " ").title().replace(" ", ""))
-    return f"{label}_Odds"
+# -----------------------------------------------------
+# Clean sportsbook naming convention
+# -----------------------------------------------------
+BOOK_MAP = {
+    "draftkings": "DraftKings",
+    "fanduel": "FanDuel",
+    "betmgm": "BetMGM",
+    "betrivers": "BetRivers",
+    "caesars": "Caesars",
+    "pointsbetus": "PointsBet",
+    "espnbet": "ESPNBet",
+    "hardrock": "HardRock",
+    "wynnbet": "WynnBET",
+    "bet365": "Bet365",
+    "unibet_us": "Unibet",
+    "bovada": "Bovada",
+}
 
-def _american_to_decimal(american):
-    if american is None or american == "":
-        return None
+def map_book_name(raw):
+    raw = raw.lower()
+    return BOOK_MAP.get(raw, raw.title())   # fallback titlecase
+
+
+# -----------------------------------------------------
+# Helpers
+# -----------------------------------------------------
+def american_to_decimal(american):
     try:
         a = float(american)
-    except (TypeError, ValueError):
+    except:
         return None
     if a > 0:
-        return 1.0 + (a / 100.0)
-    if a < 0:
-        return 1.0 + (100.0 / abs(a))
-    return None
+        return 1 + (a / 100.0)
+    return 1 + (100.0 / abs(a))
 
-def _today_events():
+
+def today_events():
     url = f"https://api.the-odds-api.com/v4/sports/{SPORT_KEY}/events"
-    resp = requests.get(url, params={"apiKey": API_KEY, "dateFormat": DATE_FMT}, timeout=30)
-    resp.raise_for_status()
-    events = resp.json()
+    r = requests.get(url, params={"apiKey": API_KEY, "dateFormat": DATE_FMT}, timeout=30)
+    r.raise_for_status()
 
-    # Use Eastern Time calendar date to decide "today"
-    today_et = datetime.now(ET).date()
+    events = r.json()
+    today = datetime.now(ET).date()
 
     keep = []
     for ev in events:
-        # API returns ISO in UTC; parse then convert to ET
-        dt_utc = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
-        dt_et = dt_utc.astimezone(ET)
-        if dt_et.date() == today_et:
+        utc = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+        et = utc.astimezone(ET)
+        if et.date() == today:
             keep.append(ev)
     return keep
 
-def _event_odds(event_id: str):
+
+def event_odds(event_id):
     url = f"https://api.the-odds-api.com/v4/sports/{SPORT_KEY}/events/{event_id}/odds"
     params = {
         "apiKey": API_KEY,
@@ -75,159 +86,141 @@ def _event_odds(event_id: str):
         "markets": ",".join(TARGET_MARKETS),
         "dateFormat": DATE_FMT,
     }
-    resp = requests.get(url, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+    r = requests.get(url, params=params, timeout=30)
+    r.raise_for_status()
+    return r.json()
 
-def _iso_to_et_str(iso_ts: str) -> str:
-    dt_utc = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
-    dt_et = dt_utc.astimezone(ET)
-    return dt_et.strftime("%Y-%m-%d %H:%M ET")
 
+def iso_to_et(iso_ts):
+    dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
+    return dt.astimezone(ET).strftime("%Y-%m-%d %H:%M ET")
+
+
+# -----------------------------------------------------
+# Main
+# -----------------------------------------------------
 def main():
-    if not API_KEY or API_KEY == "YOUR_API_KEY_HERE":
-        raise SystemExit("Set THE_ODDS_API_KEY env var or edit API_KEY in the script.")
-
-    events = _today_events()
+    events = today_events()
     if not events:
-        print("No NCAAF events for today.")
+        print("No NCAAF events today.")
         return
 
-    # bet_key = (event_id, bet_type, selection, line_point)
+    # Aggregation key: (event_id, bet_type, selection, line)
     agg = {}
-    books_seen = set()
 
     for ev in events:
         ev_id = ev["id"]
-        home = ev.get("home_team", "")
-        away = ev.get("away_team", "")
-        game_label = f"{away} @ {home}"
-        kickoff_iso = ev["commence_time"]
-        kickoff_et = _iso_to_et_str(kickoff_iso)
+        home = ev["home_team"]
+        away = ev["away_team"]
+        game = f"{away} @ {home}"
 
-        odds_payload = _event_odds(ev_id)
-        if not odds_payload or "bookmakers" not in odds_payload:
+        kickoff = iso_to_et(ev["commence_time"])
+
+        odds_json = event_odds(ev_id)
+        if "bookmakers" not in odds_json:
             continue
 
-        for book in odds_payload["bookmakers"]:
-            bkey = book["key"]
-            book_col = _titlecase_book(bkey)
-            books_seen.add(book_col)
+        for book in odds_json["bookmakers"]:
+            book_key = map_book_name(book["key"])
 
             for market in book.get("markets", []):
-                mkey = market.get("key")
+                mkey = market["key"]
+
                 if mkey not in TARGET_MARKETS:
                     continue
 
                 for outcome in market.get("outcomes", []):
-                    name = (outcome.get("name") or "").strip()
+                    name = outcome.get("name", "").strip()
                     price = outcome.get("price")
-
                     if price is None:
                         continue
 
-                    # Normalize home/away tokens if present
-                    if name not in (home, away):
-                        if name.lower() == "home":
-                            name = home
-                        elif name.lower() == "away":
-                            name = away
+                    # Normalize home/away
+                    if name.lower() == "home":
+                        name = home
+                    elif name.lower() == "away":
+                        name = away
 
                     if mkey == "spreads":
-                        point = outcome.get("point")
-                        if point is None:
-                            continue
-                        if name not in (home, away):
+                        pt = outcome.get("point")
+                        if pt is None:
                             continue
                         bet_type = "Spread"
                         selection = name
-                        line_point = float(point)
-                        stored_point = line_point  # keep numeric internally
+                        line = float(pt)
 
                     elif mkey == "totals":
-                        point = outcome.get("point")
-                        if point is None:
-                            continue
+                        pt = outcome.get("point")
                         lname = name.lower()
-                        if lname not in ("over", "under"):
+                        if pt is None or lname not in ("over", "under"):
                             continue
                         bet_type = "Total"
                         selection = "Over" if lname == "over" else "Under"
-                        line_point = float(point)
-                        stored_point = line_point
+                        line = float(pt)
 
                     elif mkey == "h2h":
-                        # Moneyline: no point
+                        bet_type = "Moneyline"
                         if name not in (home, away):
                             continue
-                        bet_type = "Moneyline"
                         selection = name
-                        line_point = 0.0  # fixed for key/sorting
-                        stored_point = 0.0
+                        line = ""   # moneyline has no line
+
                     else:
                         continue
 
-                    bet_key = (ev_id, bet_type, selection, line_point)
-                    if bet_key not in agg:
-                        agg[bet_key] = {
-                            "event_id": ev_id,
-                            "game": game_label,
-                            "home": home,
-                            "away": away,
-                            "kickoff_et": kickoff_et,
+                    opp = away if selection == home else home
+
+                    key = (ev_id, bet_type, selection, line)
+
+                    if key not in agg:
+                        agg[key] = {
+                            "game": game,
+                            "kickoff_et": kickoff,
                             "bet_type": bet_type,
                             "selection": selection,
-                            # store 0.0 internally for Moneyline; we’ll print "" later
-                            "point": stored_point,
-                            "opponent": away if selection == home else (home if selection == away else ""),
-                            "book_odds": {},
+                            "opponent": opp,
+                            "line": line if bet_type != "Moneyline" else "",
+                            "books": {}
                         }
 
-                    current = agg[bet_key]["book_odds"].get(book_col)
-                    if current is None:
-                        take_it = True
-                    else:
-                        cur_dec = _american_to_decimal(current) or -math.inf
-                        new_dec = _american_to_decimal(price) or -math.inf
-                        take_it = new_dec > cur_dec
+                    # Keep the best odds for this book
+                    dec_now = american_to_decimal(price)
+                    dec_prev = american_to_decimal(agg[key]["books"].get(book_key))
 
-                    if take_it:
-                        agg[bet_key]["book_odds"][book_col] = int(price)
+                    if dec_prev is None or (dec_now is not None and dec_now > dec_prev):
+                        agg[key]["books"][book_key] = int(price)
 
-    if not agg:
-        print("No spreads/totals/moneylines found for today.")
-        return
+    # -----------------------------------------------------
+    # Build rows for CSV
+    # -----------------------------------------------------
+    all_books = set()
+    for rec in agg.values():
+        all_books |= set(rec["books"].keys())
 
-    books_order = sorted(books_seen)
+    all_books = sorted(all_books)
 
+    # Compute best_book and best_odds
     rows = []
-    for (ev_id, bet_type, selection, point), rec in sorted(
-        agg.items(),
-        key=lambda x: (x[1]["game"], x[1]["bet_type"], x[1]["selection"], x[1]["point"])
-    ):
-        odds_by_book = rec["book_odds"]
-        if not odds_by_book:
-            continue
+    for (ev_id, bet_type, selection, line), rec in agg.items():
+        books = rec["books"]
 
-        odds_list = [(book, odds) for book, odds in odds_by_book.items()]
-        best_book, best_odds = max(
-            odds_list,
-            key=lambda bo: (_american_to_decimal(bo[1]) or -math.inf)
-        )
-        decs = [(_american_to_decimal(o) or None) for _, o in odds_list]
-        other_decs = [d for (b, o), d in zip(odds_list, decs) if b != best_book and d is not None]
-        best_dec = _american_to_decimal(best_odds)
-        if best_dec is not None and other_decs:
-            avg_other_dec = sum(other_decs) / len(other_decs)
-            value_ratio = best_dec / avg_other_dec if avg_other_dec else ""
-            value_flag = "TRUE" if (isinstance(value_ratio, float) and value_ratio >= 1.02) else "FALSE"
-        else:
-            avg_other_dec = ""
-            value_ratio = ""
-            value_flag = "FALSE"
+        # best offer
+        best_book = None
+        best_odds = None
+        best_dec = -1
 
-        # Blank line for Moneyline rows in the CSV
-        display_line = "" if rec["bet_type"] == "Moneyline" else rec["point"]
+        for bk, odd in books.items():
+            dec = american_to_decimal(odd)
+            if dec is not None and dec > best_dec:
+                best_dec = dec
+                best_book = bk
+                best_odds = odd
+
+        # average other decimals
+        others = [american_to_decimal(books[b]) for b in books if b != best_book]
+        others = [x for x in others if x is not None]
+
+        avg_other = sum(others) / len(others) if others else ""
 
         row = {
             "game": rec["game"],
@@ -235,34 +228,36 @@ def main():
             "bet_type": rec["bet_type"],
             "selection": rec["selection"],
             "opponent": rec["opponent"],
-            "line": display_line,
+            "line": rec["line"],
             "best_book": best_book,
             "best_odds": best_odds,
             "best_decimal": round(best_dec, 4) if isinstance(best_dec, float) else "",
-            "avg_other_decimal": round(avg_other_dec, 4) if isinstance(avg_other_dec, float) else "",
-            "value_ratio": round(value_ratio, 4) if isinstance(value_ratio, float) else "",
-            "value_flag": value_flag,
+            "avg_other_decimal": round(avg_other, 4) if isinstance(avg_other, float) else "",
         }
 
-        for book_col in books_order:
-            row[book_col] = odds_by_book.get(book_col, "")
+        for bk in all_books:
+            row[bk] = books.get(bk, "")
 
         rows.append(row)
 
-    prefix = ["game", "kickoff_et", "bet_type", "selection", "opponent", "line"]
-    suffix = ["best_book", "best_odds", "best_decimal", "avg_other_decimal", "value_ratio", "value_flag"]
-    fieldnames = prefix + books_order + suffix
-
-    # Save inside the same folder as this script (CFB/)
+    # -----------------------------------------------------
+    # Write CSV
+    # -----------------------------------------------------
     script_dir = os.path.dirname(__file__)
-    output_path = os.path.join(script_dir, "cfb_matched_output.csv")
+    out_path = os.path.join(script_dir, "cfb_matched_output.csv")
 
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    fieldnames = [
+        "game", "kickoff_et", "bet_type", "selection", "opponent", "line",
+        "best_book", "best_odds", "best_decimal", "avg_other_decimal"
+    ] + list(all_books)
 
-    print(f"Wrote {output_path} with {len(rows)} rows and {len(books_order)} book columns.")
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(rows)
+
+    print(f"Saved {out_path} with {len(rows)} rows and {len(all_books)} books.")
+
 
 if __name__ == "__main__":
     main()
