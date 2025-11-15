@@ -134,6 +134,14 @@ def american_to_prob(o: float) -> float:
     except Exception:
         return float("nan")
 
+def american_to_decimal(o: float) -> float:
+    """Convert American odds to decimal odds (including stake)."""
+    o = float(o)
+    if o > 0:
+        return 1 + (o / 100.0)
+    else:
+        return 1 + (100.0 / abs(o))
+
 def prob_to_decimal(p: float) -> float:
     return 1/p if p and p>0 else float("nan")
 
@@ -373,7 +381,10 @@ def run_app(df: pd.DataFrame | None = None):
     book_cols = [c for c in df.columns if c not in fixed and not str(c).startswith("Unnamed")]
 
     # Remove books from calcs/display
-    REMOVE_BOOKS = {"Betonlineag", "Betus", "Lowvig", "Mybookieag"}
+    REMOVE_BOOKS = {
+        "Betonlineag", "Betus", "Lowvig", "Mybookieag",
+        "Ballybet", "Betanysports", "Betparx", "Fliff", "Rebet"
+    }
     book_cols = [c for c in book_cols if c not in REMOVE_BOOKS]
 
     # Recompute Best Book / Best Odds based ONLY on the books we care about
@@ -468,8 +479,47 @@ def run_app(df: pd.DataFrame | None = None):
 
     df = df[df["# Books"] >= int(min_books)]
 
-    # Percentify "Line vs. Average"
-    df["Line vs. Average"] = pd.to_numeric(df.get("Line vs. Average"), errors="coerce")
+    # ---------- Line vs. Average (%) ----------
+    # Recompute based on current Best Book vs average of other books (decimal odds).
+    def compute_line_vs_avg(row: pd.Series) -> float:
+        best_book = row.get("Best Book")
+        if not best_book or best_book not in book_cols:
+            return float("nan")
+
+        v = row.get(best_book, None)
+        try:
+            if pd.isna(v) or str(v).strip() == "":
+                return float("nan")
+            best_odds = float(v)
+        except Exception:
+            return float("nan")
+
+        try:
+            best_dec = american_to_decimal(best_odds)
+        except Exception:
+            return float("nan")
+
+        decs = []
+        for col in book_cols:
+            if col == best_book:
+                continue
+            val = row.get(col, None)
+            try:
+                if pd.notna(val) and str(val).strip() != "":
+                    decs.append(american_to_decimal(float(val)))
+            except Exception:
+                pass
+
+        if not decs:
+            return float("nan")
+
+        avg_dec = sum(decs) / len(decs)
+        if avg_dec == 0 or not math.isfinite(avg_dec):
+            return float("nan")
+
+        return best_dec / avg_dec
+
+    df["Line vs. Average"] = df.apply(compute_line_vs_avg, axis=1)
     df["Line vs. Average (%)"] = (df["Line vs. Average"] - 1.0) * 100.0
 
     # ---------- Implied EV: pair-first, curve-fallback ----------
